@@ -1,0 +1,2 @@
+- read papers
+- get json data from pokemon showdown team

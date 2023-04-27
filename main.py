@@ -1,16 +1,27 @@
-# This is a sample Python script.
+import asyncio
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+from poke_env.player import cross_evaluate, RandomPlayer
+from tabulate import tabulate
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+async def main():
+    # We create three random players
+    players = [RandomPlayer(max_concurrent_battles=10) for _ in range(3)]
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    # Now, we can cross evaluate them: every player will player 20 games against every
+    # other player.
+    cross_evaluation = await cross_evaluate(players, n_challenges=20)
+
+    # Defines a header for displaying results
+    table = [["-"] + [p.username for p in players]]
+
+    # Adds one line per player with corresponding results
+    for p_1, results in cross_evaluation.items():
+        table.append([p_1] + [cross_evaluation[p_1][p_2] for p_2 in results])
+
+    # Displays results in a nicely formatted table.
+    print(tabulate(table))
+
+
+if __name__ == "__main__":
+    asyncio.get_event_loop().run_until_complete(main())

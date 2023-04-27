@@ -1,0 +1,229 @@
+|j|belix11
+|j|jeffrey360boss
+|player|p1|belix11|266
+|player|p2|jeffrey360boss|101
+|gametype|singles
+|gen|6
+|tier|Random
+|rated
+|seed|58989,3,4783,57651,47885,11146,42178,58198,14730,47606,15240,63385
+|rule|Pokemon of the Day: Milotic
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Milotic, L77, M|item
+|poke|p1|Lapras, L83, M|item
+|poke|p1|Victreebel, L82, F|item
+|poke|p1|Breloom, L75, F|item
+|poke|p1|Swampert, L77, F|item
+|poke|p1|Hariyama, L81, F|item
+|poke|p2|Milotic, L77, M|item
+|poke|p2|Patrat, L87, M|item
+|poke|p2|Swalot, L83, M|item
+|poke|p2|Rotom-Wash, L75|item
+|poke|p2|Wobbuffet, L74, M|item
+|poke|p2|Machamp, L77, F|item
+|teampreview
+|c|-jeffrey360boss|lets go
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Victreebel|Victreebel, L82, F|265/265
+|switch|p2a: Patrat|Patrat, L87, M|220/220
+|turn|1
+|choice|move powerwhip|move hypnosis
+|
+|move|p1a: Victreebel|Power Whip|p2a: Patrat
+|-damage|p2a: Patrat|73/220
+|move|p2a: Patrat|Hypnosis|p1a: Victreebel|[miss]
+|-miss|p2a: Patrat|p1a: Victreebel
+|
+|turn|2
+|choice|move powerwhip|move return
+|
+|move|p1a: Victreebel|Power Whip|p2a: Patrat|[miss]
+|-miss|p1a: Victreebel|p2a: Patrat
+|move|p2a: Patrat|Return|p1a: Victreebel
+|-damage|p1a: Victreebel|135/265
+|
+|turn|3
+|choice|move suckerpunch|move return
+|
+|move|p1a: Victreebel|Sucker Punch|p2a: Patrat
+|-damage|p2a: Patrat|15/220
+|move|p2a: Patrat|Return|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|choice|switch 4|
+|
+|switch|p1a: Breloom|Breloom, L75, F|214/214
+|turn|4
+|choice|move bulletseed|move return
+|
+|move|p1a: Breloom|Bullet Seed|p2a: Patrat
+|-damage|p2a: Patrat|0 fnt
+|-hitcount|p2a: Patrat|1
+|faint|p2a: Patrat
+|
+|choice||switch 5
+|
+|switch|p2a: Wobbuffet|Wobbuffet, L74, M|403/403
+|turn|5
+|choice|move spore|move counter
+|
+|move|p1a: Breloom|Spore|p2a: Wobbuffet
+|-status|p2a: Wobbuffet|slp
+|cant|p2a: Wobbuffet|slp
+|
+|turn|6
+|choice|move swordsdance|move mirrorcoat
+|
+|move|p1a: Breloom|Swords Dance|p1a: Breloom
+|-boost|p1a: Breloom|atk|2
+|-curestatus|p2a: Wobbuffet|slp|[msg]
+|move|p2a: Wobbuffet|Mirror Coat|p1a: Breloom
+|-fail|p1a: Breloom
+|
+|turn|7
+|choice|move spore|move counter
+|
+|move|p1a: Breloom|Spore|p2a: Wobbuffet
+|-status|p2a: Wobbuffet|slp
+|cant|p2a: Wobbuffet|slp
+|
+|turn|8
+|choice|move bulletseed|move counter
+|
+|move|p1a: Breloom|Bullet Seed|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|291/403 slp
+|-damage|p2a: Wobbuffet|177/403 slp
+|-enditem|p2a: Wobbuffet|Sitrus Berry|[eat]
+|-heal|p2a: Wobbuffet|277/403 slp|[from] item: Sitrus Berry
+|-damage|p2a: Wobbuffet|154/403 slp
+|-hitcount|p2a: Wobbuffet|3
+|-curestatus|p2a: Wobbuffet|slp|[msg]
+|move|p2a: Wobbuffet|Counter|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|choice|switch 5|
+|
+|switch|p1a: Swampert|Swampert, L77, F|281/281
+|turn|9
+|choice|move earthquake|move counter
+|
+|move|p1a: Swampert|Earthquake|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|3/403
+|move|p2a: Wobbuffet|Counter|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|choice|switch 2|
+|
+|switch|p1a: Lapras|Lapras, L83, M|351/351
+|turn|10
+|choice|move icebeam|move mirrorcoat
+|
+|move|p1a: Lapras|Ice Beam|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|0 fnt
+|faint|p2a: Wobbuffet
+|
+|choice||switch 6
+|
+|switch|p2a: Machamp|Machamp, L77, F|265/265
+|turn|11
+|choice|move thunderbolt|move bulletpunch
+|
+|move|p2a: Machamp|Bullet Punch|p1a: Lapras
+|-damage|p1a: Lapras|316/351
+|move|p1a: Lapras|Thunderbolt|p2a: Machamp
+|-damage|p2a: Machamp|200/265
+|
+|-heal|p1a: Lapras|337/351|[from] item: Leftovers
+|-heal|p2a: Machamp|216/265|[from] item: Leftovers
+|turn|12
+|choice|move icebeam|move dynamicpunch
+|
+|move|p1a: Lapras|Ice Beam|p2a: Machamp
+|-damage|p2a: Machamp|120/265
+|move|p2a: Machamp|Dynamic Punch|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|91/351
+|-start|p1a: Lapras|confusion
+|
+|-heal|p1a: Lapras|112/351|[from] item: Leftovers
+|-heal|p2a: Machamp|136/265|[from] item: Leftovers
+|turn|13
+|choice|move healbell|move dynamicpunch
+|
+|-activate|p1a: Lapras|confusion
+|-damage|p1a: Lapras|91/351|[from] confusion
+|move|p2a: Machamp|Dynamic Punch|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|-heal|p2a: Machamp|152/265|[from] item: Leftovers
+|choice|switch 3|
+|
+|switch|p1a: Milotic|Milotic, L77, M|273/273
+|turn|14
+|choice|move scald|move dynamicpunch
+|
+|move|p1a: Milotic|Scald|p2a: Machamp
+|-damage|p2a: Machamp|71/265
+|move|p2a: Machamp|Dynamic Punch|p1a: Milotic
+|-damage|p1a: Milotic|131/273
+|-start|p1a: Milotic|confusion
+|
+|-heal|p1a: Milotic|148/273|[from] item: Leftovers
+|-heal|p2a: Machamp|87/265|[from] item: Leftovers
+|turn|15
+|choice|move scald|move dynamicpunch
+|
+|-activate|p1a: Milotic|confusion
+|-damage|p1a: Milotic|127/273|[from] confusion
+|move|p2a: Machamp|Dynamic Punch|p1a: Milotic
+|-damage|p1a: Milotic|1/273
+|
+|-heal|p1a: Milotic|18/273|[from] item: Leftovers
+|-heal|p2a: Machamp|103/265|[from] item: Leftovers
+|turn|16
+|j|Fuzzball1996
+|choice|move dragontail|move dynamicpunch
+|
+|move|p2a: Machamp|Dynamic Punch|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|
+|-heal|p2a: Machamp|119/265|[from] item: Leftovers
+|choice|switch 6|
+|
+|switch|p1a: Hariyama|Hariyama, L81, F|366/366
+|turn|17
+|choice|move closecombat|move dynamicpunch
+|
+|move|p2a: Machamp|Dynamic Punch|p1a: Hariyama
+|-damage|p1a: Hariyama|216/366
+|-start|p1a: Hariyama|confusion
+|-activate|p1a: Hariyama|confusion
+|-damage|p1a: Hariyama|158/366|[from] confusion
+|
+|-heal|p2a: Machamp|135/265|[from] item: Leftovers
+|turn|18
+|choice|move icepunch|move dynamicpunch
+|
+|move|p2a: Machamp|Dynamic Punch|p1a: Hariyama
+|-crit|p1a: Hariyama
+|-damage|p1a: Hariyama|0 fnt
+|faint|p1a: Hariyama
+|
+|win|jeffrey360boss
+|raw|<b><font color='#1fa6cc'>jeffrey360boss</font> has won <font color='#1fa6cc'>1</font> Battle Point for winning the rated battle!</b>
+|raw|belix11's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|jeffrey360boss's rating: 1000 &rarr; <strong>1045</strong><br />(+45 for winning)
+|player|p1
+|player|p2
+|c|-jeffrey360boss|gg
+|l|jeffrey360boss
