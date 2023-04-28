@@ -1,26 +1,31 @@
 import asyncio
 
-from poke_env.player import cross_evaluate, RandomPlayer
-from tabulate import tabulate
+from poke_env.player import RandomPlayer
+from poke_env import ShowdownServerConfiguration, PlayerConfiguration
 
 
 async def main():
-    # We create three random players
-    players = [RandomPlayer(max_concurrent_battles=10) for _ in range(3)]
+    # We create a random player
+    player = RandomPlayer(
+        player_configuration=PlayerConfiguration("bot_username", "bot_password"),
+        server_configuration=ShowdownServerConfiguration,
+    )
 
-    # Now, we can cross evaluate them: every player will player 20 games against every
-    # other player.
-    cross_evaluation = await cross_evaluate(players, n_challenges=20)
+    # Sending challenges to 'your_username'
+    await player.send_challenges("your_username", n_challenges=1)
 
-    # Defines a header for displaying results
-    table = [["-"] + [p.username for p in players]]
+    # Accepting one challenge from any user
+    # await player.accept_challenges(None, 1)
 
-    # Adds one line per player with corresponding results
-    for p_1, results in cross_evaluation.items():
-        table.append([p_1] + [cross_evaluation[p_1][p_2] for p_2 in results])
+    # Accepting three challenges from 'your_username'
+    # await player.accept_challenges('your_username', 3)
 
-    # Displays results in a nicely formatted table.
-    print(tabulate(table))
+    # Playing 5 games on the ladder
+    # await player.ladder(5)
+
+    # Print the rating of the player and its opponent after each battle
+    # for battle in player.battles.values():
+    #     print(battle.rating, battle.opponent_rating)
 
 
 if __name__ == "__main__":
