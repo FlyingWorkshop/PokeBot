@@ -1,2 +1,3 @@
 - read papers
 - get json data from pokemon showdown team
+- consider how much time has elapsed in calculation (e.g., switching is more likely if they take longer)
