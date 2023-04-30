@@ -10,6 +10,13 @@ class Pokemon:
         self.moves = ""
 
 
+class Turn:
+    def __init__(self):
+        self.t = 0
+        self.p1_move = []
+        self.p2_move = []
+
 
 class Battle:
-    pass
+    def __init__(self):
+        self.turns = []
