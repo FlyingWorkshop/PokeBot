@@ -13,12 +13,9 @@ class Delphox(nn.Module):
             nn.Softmax(n, )
         )
 
-        #broken up network here:
-        #-------------------------
-        # pass matrix through a linear layer (flaten maybe), to get a distributioin over all possible actions.
-        # then set all invalid options to -inf
-        # then softmax, select action
-
 
     def forward(self, x):
+
+        action = torch.max(self.stack(x))
+
         return
