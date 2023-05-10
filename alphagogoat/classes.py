@@ -1,22 +1,25 @@
-class Pokemon:
+import poke_env
+
+class MaxDamagePlayer(poke_env.player.Player):
     def __init__(self):
-        self.name = ""
-        self.species = ""
-        self.gender = ""
-        self.item = ""
-        self.ability = ""
-        self.evs = {"hp": 0, "atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0}
-        self.nature = ""
-        self.moves = ""
+        super().__init__()
 
+    def calc_value(self, battle):
+        enemy_team = None
 
-class Turn:
-    def __init__(self):
-        self.t = 0
-        self.p1_move = []
-        self.p2_move = []
+    def monte_carlo_tree_search(self, battle):
+        pass
 
+    def choose_move(self, battle):
+        # If the player can attack, it will
+        if battle.available_moves:
+            # Finds the best move among available ones
+            best_move = max(battle.available_moves, key=lambda move: move.base_power)
+            return self.create_order(best_move)
+        # If no attack is available, a random switch will be made
+        else:
+            return self.choose_random_move(battle)
 
-class Battle:
-    def __init__(self):
-        self.turns = []
+class EnemyPokemon(poke_env.environment.pokemon.Pokemon):
+    def __init__(self, gen: int):
+        super().__init__(gen)
