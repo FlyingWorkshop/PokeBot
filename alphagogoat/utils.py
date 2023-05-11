@@ -1,5 +1,6 @@
 import json
 import re
+from poke_env.environment.abstract_battle import AbstractBattle
 
 
 def _get_turns(log) -> list:
