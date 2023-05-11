@@ -1,0 +1,210 @@
+|j|☆Pxrmet
+|j|☆TYLERMATAFUKIN1
+|t:|1683800583
+|gametype|singles
+|player|p1|Pxrmet|2|1189
+|player|p2|TYLERMATAFUKIN1|giovanni|1310
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1683800583
+|start
+|switch|p1a: Gigalith|Gigalith, L82, M|274/274
+|switch|p2a: Stakataka|Stakataka, L80|229/229
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|1
+|
+|t:|1683800598
+|move|p1a: Gigalith|Stealth Rock|p2a: Stakataka
+|-sidestart|p2: TYLERMATAFUKIN1|move: Stealth Rock
+|move|p2a: Stakataka|Body Press|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|58/274
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|75/274|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TYLERMATAFUKIN1)
+|
+|t:|1683800615
+|move|p1a: Gigalith|Earthquake|p2a: Stakataka
+|-supereffective|p2a: Stakataka
+|-crit|p2a: Stakataka
+|-damage|p2a: Stakataka|0 fnt
+|faint|p2a: Stakataka
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|92/274|[from] item: Leftovers
+|upkeep
+|
+|t:|1683800624
+|switch|p2a: Araquanid|Araquanid, L80, M|240/240
+|turn|3
+|
+|t:|1683800636
+|switch|p1a: Zapdos|Zapdos, L78|268/268
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Araquanid|Sticky Web|p1a: Zapdos
+|-sidestart|p1: Pxrmet|move: Sticky Web
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|252/268|[from] Sandstorm
+|-damage|p2a: Araquanid|225/240|[from] Sandstorm
+|upkeep
+|turn|4
+|c|☆TYLERMATAFUKIN1|serotonin button incoming
+|
+|t:|1683800648
+|switch|p2a: Krookodile|Krookodile, L78, M|276/276
+|-damage|p2a: Krookodile|259/276|[from] Stealth Rock
+|move|p1a: Zapdos|Discharge|p2a: Krookodile
+|-immune|p2a: Krookodile
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|236/268|[from] Sandstorm
+|upkeep
+|turn|5
+|inactive|Pxrmet has 120 seconds left.
+|
+|t:|1683800679
+|switch|p1a: Lurantis|Lurantis, L86, M|261/261
+|-activate|p1a: Lurantis|move: Sticky Web
+|-boost|p1a: Lurantis|spe|1
+|move|p2a: Krookodile|Stone Edge|p1a: Lurantis|[miss]
+|-miss|p2a: Krookodile|p1a: Lurantis
+|
+|-weather|none
+|upkeep
+|turn|6
+|inactive|Pxrmet has 120 seconds left.
+|
+|t:|1683800692
+|switch|p2a: Scolipede|Scolipede, L80, F|227/227
+|-damage|p2a: Scolipede|171/227|[from] Stealth Rock
+|move|p1a: Lurantis|Knock Off|p2a: Scolipede
+|-damage|p2a: Scolipede|61/227
+|-enditem|p2a: Scolipede|Life Orb|[from] move: Knock Off|[of] p1a: Lurantis
+|-damage|p1a: Lurantis|235/261|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|inactive|Pxrmet has 120 seconds left.
+|
+|t:|1683800703
+|move|p2a: Scolipede|Megahorn|p1a: Lurantis
+|-supereffective|p1a: Lurantis
+|-damage|p1a: Lurantis|19/261
+|move|p1a: Lurantis|Knock Off|p2a: Scolipede
+|-damage|p2a: Scolipede|0 fnt
+|faint|p2a: Scolipede
+|-damage|p1a: Lurantis|0 fnt|[from] item: Life Orb
+|faint|p1a: Lurantis
+|
+|upkeep
+|
+|t:|1683800713
+|switch|p2a: Torkoal|Torkoal, L86, M|261/261
+|switch|p1a: Naganadel|Naganadel, L74|230/230
+|-activate|p1a: Naganadel|move: Sticky Web
+|-unboost|p1a: Naganadel|spe|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|8
+|inactive|Pxrmet has 120 seconds left.
+|
+|t:|1683800729
+|move|p1a: Naganadel|Nasty Plot|p1a: Naganadel
+|-boost|p1a: Naganadel|spa|2
+|move|p2a: Torkoal|Rapid Spin|p1a: Naganadel
+|-damage|p1a: Naganadel|182/230
+|-boost|p2a: Torkoal|spe|1
+|-sideend|p2: TYLERMATAFUKIN1|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|inactive|Pxrmet has 120 seconds left.
+|
+|t:|1683800741
+|-start|p1a: Naganadel|Dynamax|
+|-heal|p1a: Naganadel|364/460|[silent]
+|move|p1a: Naganadel|Max Wyrmwind|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|-ability|p1a: Naganadel|Beast Boost|boost
+|-boost|p1a: Naganadel|spa|1
+|-damage|p1a: Naganadel|341/460|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1683800752
+|switch|p2a: Krookodile|Krookodile, L78, M|259/276
+|turn|10
+|
+|t:|1683800758
+|-start|p2a: Krookodile|Dynamax|
+|-heal|p2a: Krookodile|518/552|[silent]
+|move|p2a: Krookodile|Max Quake|p1a: Naganadel
+|-supereffective|p1a: Naganadel
+|-damage|p1a: Naganadel|0 fnt
+|-boost|p2a: Krookodile|spd|1
+|faint|p1a: Naganadel
+|-ability|p2a: Krookodile|Moxie|boost
+|-boost|p2a: Krookodile|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆TYLERMATAFUKIN1|bad dynamax
+|
+|t:|1683800773
+|switch|p1a: Delibird|Delibird, M|252/252
+|turn|11
+|
+|t:|1683800784
+|move|p1a: Delibird|Rapid Spin|p2a: Krookodile
+|-damage|p2a: Krookodile|482/552
+|-boost|p1a: Delibird|spe|1
+|-sideend|p1: Pxrmet|Sticky Web|[from] move: Rapid Spin|[of] p1a: Delibird
+|move|p2a: Krookodile|Max Rockfall|p1a: Delibird
+|-supereffective|p1a: Delibird
+|-damage|p1a: Delibird|0 fnt
+|-weather|Sandstorm
+|faint|p1a: Delibird
+|-ability|p2a: Krookodile|Moxie|boost
+|-boost|p2a: Krookodile|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|Pxrmet has 120 seconds left.
+|
+|t:|1683800811
+|switch|p1a: Zapdos|Zapdos, L78|236/268
+|-ability|p1a: Zapdos|Pressure
+|turn|12
+|
+|t:|1683800817
+|move|p1a: Zapdos|Hurricane|p2a: Krookodile|[miss]
+|-miss|p1a: Zapdos|p2a: Krookodile
+|move|p2a: Krookodile|Max Rockfall|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-ability|p2a: Krookodile|Moxie|boost
+|-boost|p2a: Krookodile|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆TYLERMATAFUKIN1|damn u dumb as hell
+|-message|Pxrmet forfeited.
+|
+|win|TYLERMATAFUKIN1
+|raw|Pxrmet's rating: 1189 &rarr; <strong>1172</strong><br />(-17 for losing)
+|raw|TYLERMATAFUKIN1's rating: 1310 &rarr; <strong>1323</strong><br />(+13 for winning)
+|l|☆Pxrmet

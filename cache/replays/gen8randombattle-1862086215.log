@@ -1,0 +1,83 @@
+|j|☆ScurrilousSnail
+|j|☆lauda Mera
+|t:|1683835539
+|gametype|singles
+|player|p1|ScurrilousSnail|102|1380
+|player|p2|lauda Mera|hilbert-wonderlauncher|1443
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1683835539
+|start
+|switch|p1a: Kartana|Kartana, L74|209/209
+|switch|p2a: Rillaboom|Rillaboom, L78, F|284/284
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lauda Mera)
+|
+|t:|1683835565
+|switch|p2a: Galvantula|Galvantula, L82, F|249/249
+|move|p1a: Kartana|Swords Dance|p1a: Kartana
+|-boost|p1a: Kartana|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1683835580
+|switch|p1a: Regirock|Regirock, L85|275/275
+|move|p2a: Galvantula|Bug Buzz|p1a: Regirock
+|-damage|p1a: Regirock|199/275
+|
+|-heal|p1a: Regirock|216/275|[from] Grassy Terrain
+|-heal|p1a: Regirock|233/275|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|ScurrilousSnail has 120 seconds left.
+|
+|t:|1683835629
+|move|p2a: Galvantula|Volt Switch|p1a: Regirock
+|-damage|p1a: Regirock|166/275
+|
+|t:|1683835636
+|switch|p2a: Rillaboom|Rillaboom, L78, F|284/284|[from] Volt Switch
+|move|p1a: Regirock|Rock Slide|p2a: Rillaboom
+|-damage|p2a: Rillaboom|194/284
+|
+|-heal|p2a: Rillaboom|211/284|[from] Grassy Terrain
+|-heal|p1a: Regirock|183/275|[from] Grassy Terrain
+|-heal|p1a: Regirock|200/275|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1683835652
+|switch|p1a: Salazzle|Salazzle, L82, F|246/246
+|move|p2a: Rillaboom|Swords Dance|p2a: Rillaboom
+|-boost|p2a: Rillaboom|atk|2
+|
+|-heal|p2a: Rillaboom|228/284|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1683835667
+|switch|p2a: Heatran|Heatran, L78, M|270/270
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|185/246
+|
+|-heal|p1a: Salazzle|200/246|[from] Grassy Terrain
+|-heal|p1a: Salazzle|215/246|[from] item: Black Sludge
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|-message|ScurrilousSnail forfeited.
+|
+|win|lauda Mera
+|raw|ScurrilousSnail's rating: 1380 &rarr; <strong>1364</strong><br />(-16 for losing)
+|raw|lauda Mera's rating: 1443 &rarr; <strong>1459</strong><br />(+16 for winning)
+|l|☆ScurrilousSnail

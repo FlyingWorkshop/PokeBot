@@ -1,0 +1,353 @@
+|j|☆lauda Mera
+|j|☆toxozk
+|t:|1683834995
+|gametype|singles
+|player|p1|lauda Mera|hilbert-wonderlauncher|1416
+|player|p2|toxozk|caitlin|1442
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1683834995
+|start
+|switch|p1a: Gothitelle|Gothitelle, L86, M|261/261
+|switch|p2a: Wishiwashi|Wishiwashi, L84, M|213/213
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by toxozk)
+|inactive|lauda Mera also wants the timer to be on.
+|
+|t:|1683835010
+|move|p1a: Gothitelle|Nasty Plot|p1a: Gothitelle
+|-boost|p1a: Gothitelle|spa|2
+|move|p2a: Wishiwashi|U-turn|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|133/261
+|
+|t:|1683835037
+|switch|p2a: Electivire|Electivire, L82, M|257/257|[from] U-turn
+|
+|-heal|p1a: Gothitelle|149/261|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1683835047
+|move|p2a: Electivire|Wild Charge|p1a: Gothitelle
+|-damage|p1a: Gothitelle|55/261
+|-damage|p2a: Electivire|233/257|[from] Recoil
+|move|p1a: Gothitelle|Psychic|p2a: Electivire
+|-damage|p2a: Electivire|40/257
+|
+|-heal|p1a: Gothitelle|71/261|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1683835053
+|switch|p1a: Gastrodon|Gastrodon, L84, F|324/324
+|move|p2a: Electivire|Wild Charge|p1a: Gastrodon
+|-immune|p1a: Gastrodon
+|
+|upkeep
+|turn|4
+|
+|t:|1683835062
+|move|p2a: Electivire|Wild Charge|p1a: Gastrodon
+|-immune|p1a: Gastrodon
+|move|p1a: Gastrodon|Earthquake|p2a: Electivire
+|-supereffective|p2a: Electivire
+|-damage|p2a: Electivire|0 fnt
+|faint|p2a: Electivire
+|
+|upkeep
+|
+|t:|1683835064
+|switch|p2a: Toxapex|Toxapex, L82, M|216/216
+|turn|5
+|
+|t:|1683835090
+|move|p1a: Gastrodon|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|84/216
+|move|p2a: Toxapex|Toxic|p1a: Gastrodon
+|-status|p1a: Gastrodon|tox
+|
+|-heal|p2a: Toxapex|97/216|[from] item: Black Sludge
+|-damage|p1a: Gastrodon|304/324 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1683835095
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Gastrodon|Earthquake|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: Gastrodon|324/324 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|110/216|[from] item: Black Sludge
+|-damage|p1a: Gastrodon|284/324 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1683835106
+|switch|p2a: Wishiwashi|Wishiwashi, L84, M|213/213
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|move|p1a: Gastrodon|Earthquake|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|146/213
+|
+|-heal|p1a: Gastrodon|304/324 tox|[from] item: Leftovers
+|-damage|p1a: Gastrodon|244/324 tox|[from] psn
+|upkeep
+|turn|8
+|inactive|lauda Mera has 120 seconds left.
+|
+|t:|1683835143
+|move|p1a: Gastrodon|Earthquake|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|70/213
+|move|p2a: Wishiwashi|U-turn|p1a: Gastrodon
+|-damage|p1a: Gastrodon|160/324 tox
+|
+|t:|1683835150
+|switch|p2a: Toxapex|Toxapex, L82, M|182/216|[from] U-turn
+|
+|-heal|p1a: Gastrodon|180/324 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|195/216|[from] item: Black Sludge
+|-damage|p1a: Gastrodon|100/324 tox|[from] psn
+|upkeep
+|turn|9
+|inactive|lauda Mera has 120 seconds left.
+|
+|t:|1683835166
+|switch|p1a: Gothitelle|Gothitelle, L86, M|71/261
+|move|p2a: Toxapex|Toxic|p1a: Gothitelle
+|-status|p1a: Gothitelle|tox
+|
+|-heal|p1a: Gothitelle|87/261 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|208/216|[from] item: Black Sludge
+|-damage|p1a: Gothitelle|71/261 tox|[from] psn
+|upkeep
+|turn|10
+|inactive|lauda Mera has 120 seconds left.
+|
+|t:|1683835171
+|switch|p1a: Bisharp|Bisharp, L80, M|235/235
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|216/216|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1683835176
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Toxapex|Scald|p1a: Bisharp
+|-damage|p1a: Bisharp|169/235
+|-status|p1a: Bisharp|brn
+|
+|-damage|p1a: Bisharp|155/235 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1683835188
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Toxapex|Scald|p1a: Bisharp
+|-damage|p1a: Bisharp|89/235 brn
+|
+|-damage|p1a: Bisharp|75/235 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1683835192
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Bisharp|Knock Off|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p1a: Bisharp|61/235 brn|[from] brn
+|upkeep
+|turn|14
+|inactive|lauda Mera has 120 seconds left.
+|
+|t:|1683835233
+|switch|p2a: Wishiwashi|Wishiwashi, L84, M|70/213
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|move|p1a: Bisharp|Knock Off|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|0 fnt
+|-enditem|p2a: Wishiwashi|Assault Vest|[from] move: Knock Off|[of] p1a: Bisharp
+|faint|p2a: Wishiwashi
+|-damage|p1a: Bisharp|38/235 brn|[from] item: Life Orb
+|
+|-damage|p1a: Bisharp|24/235 brn|[from] brn
+|upkeep
+|
+|t:|1683835255
+|switch|p2a: Indeedee|Indeedee-F, L85, F|258/258
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|15
+|inactive|lauda Mera has 120 seconds left.
+|
+|t:|1683835260
+|move|p2a: Indeedee|Mystical Fire|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|-damage|p2a: Indeedee|233/258|[from] item: Life Orb
+|
+|upkeep
+|inactive|lauda Mera has 120 seconds left.
+|
+|t:|1683835267
+|switch|p1a: Cobalion|Cobalion, L78|270/270
+|turn|16
+|
+|t:|1683835279
+|move|p1a: Cobalion|Iron Head|p2a: Indeedee
+|-damage|p2a: Indeedee|140/258
+|move|p2a: Indeedee|Expanding Force|p1a: Cobalion
+|-damage|p1a: Cobalion|75/270
+|-damage|p2a: Indeedee|115/258|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+|
+|t:|1683835292
+|move|p1a: Cobalion|Close Combat|p2a: Indeedee
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-unboost|p1a: Cobalion|def|1
+|-unboost|p1a: Cobalion|spd|1
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1683835298
+|switch|p2a: Aerodactyl|Aerodactyl, L82, M|265/265
+|-ability|p2a: Aerodactyl|Unnerve
+|turn|18
+|
+|t:|1683835314
+|switch|p1a: Gastrodon|Gastrodon, L84, F|100/324 tox
+|-start|p2a: Aerodactyl|Dynamax|
+|-heal|p2a: Aerodactyl|530/530|[silent]
+|move|p2a: Aerodactyl|Max Rockfall|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|13/324 tox
+|-weather|Sandstorm
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gastrodon|33/324 tox|[from] item: Leftovers
+|-damage|p1a: Gastrodon|13/324 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1683835319
+|move|p2a: Aerodactyl|Max Quake|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|-boost|p2a: Aerodactyl|spd|1
+|faint|p1a: Gastrodon
+|
+|-weather|Sandstorm|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1683835323
+|switch|p1a: Palkia|Palkia, L74|255/255
+|-ability|p1a: Palkia|Pressure
+|turn|20
+|
+|t:|1683835329
+|-start|p1a: Palkia|Dynamax|
+|-heal|p1a: Palkia|510/510|[silent]
+|move|p1a: Palkia|Max Guard|p1a: Palkia
+|-singleturn|p1a: Palkia|Max Guard
+|move|p2a: Aerodactyl|Max Quake|p1a: Palkia
+|-activate|p1a: Palkia|move: Max Guard
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Palkia|495/510|[from] Sandstorm
+|upkeep
+|-end|p2a: Aerodactyl|Dynamax
+|-heal|p2a: Aerodactyl|265/265|[silent]
+|turn|21
+|
+|t:|1683835339
+|move|p2a: Aerodactyl|Earthquake|p1a: Palkia
+|-damage|p1a: Palkia|420/510
+|move|p1a: Palkia|Max Geyser|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|55/265
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1683835347
+|move|p2a: Aerodactyl|Stone Edge|p1a: Palkia
+|-damage|p1a: Palkia|314/510
+|move|p1a: Palkia|Max Wyrmwind|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1683835350
+|switch|p2a: Toxapex|Toxapex, L82, M|216/216
+|-end|p1a: Palkia|Dynamax
+|-heal|p1a: Palkia|157/255|[silent]
+|turn|23
+|
+|t:|1683835354
+|move|p1a: Palkia|Spacial Rend|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|65/216
+|move|p2a: Toxapex|Toxic|p1a: Palkia
+|-status|p1a: Palkia|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|78/216|[from] item: Black Sludge
+|-damage|p1a: Palkia|142/255 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1683835359
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Palkia|Spacial Rend|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|91/216|[from] item: Black Sludge
+|-damage|p1a: Palkia|112/255 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1683835361
+|move|p1a: Palkia|Spacial Rend|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-weather|none
+|-damage|p1a: Palkia|67/255 tox|[from] psn
+|upkeep
+|
+|t:|1683835365
+|switch|p2a: Palossand|Palossand, L86, F|286/286
+|turn|26
+|
+|t:|1683835374
+|move|p1a: Palkia|Hydro Pump|p2a: Palossand
+|-supereffective|p2a: Palossand
+|-damage|p2a: Palossand|0 fnt
+|faint|p2a: Palossand
+|
+|win|lauda Mera
+|raw|lauda Mera's rating: 1402 &rarr; <strong>1424</strong><br />(+22 for winning)
+|raw|toxozk's rating: 1442 &rarr; <strong>1420</strong><br />(-22 for losing)

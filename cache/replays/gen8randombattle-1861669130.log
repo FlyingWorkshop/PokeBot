@@ -1,0 +1,237 @@
+|j|☆Ndima
+|j|☆Astyacos
+|t:|1683791401
+|gametype|singles
+|player|p1|Ndima|265|1321
+|player|p2|Astyacos|1|1294
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1683791401
+|start
+|switch|p1a: Archeops|Archeops, L82, F|257/257
+|switch|p2a: Groudon|Groudon, L73|266/266
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ndima)
+|
+|t:|1683791421
+|move|p1a: Archeops|U-turn|p2a: Groudon
+|-damage|p2a: Groudon|193/266
+|
+|t:|1683791437
+|switch|p1a: Celebi|Celebi, L82|298/298|[from] U-turn
+|move|p2a: Groudon|Heavy Slam|p1a: Celebi
+|-damage|p1a: Celebi|209/298
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Celebi|227/298|[from] item: Leftovers
+|-heal|p2a: Groudon|209/266|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1683791457
+|switch|p2a: Eldegoss|Eldegoss, L90, M|254/254
+|move|p1a: Celebi|Nasty Plot|p1a: Celebi
+|-boost|p1a: Celebi|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Celebi|245/298|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1683791471
+|move|p1a: Celebi|Psychic|p2a: Eldegoss
+|-damage|p2a: Eldegoss|128/254
+|move|p2a: Eldegoss|Rapid Spin|p1a: Celebi
+|-damage|p1a: Celebi|220/298
+|-boost|p2a: Eldegoss|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Celebi|238/298|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1683791485
+|switch|p1a: Volcanion|Volcanion, L80|259/259
+|move|p2a: Eldegoss|Pollen Puff|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|227/259
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1683791499
+|move|p2a: Eldegoss|Sleep Powder|p1a: Volcanion
+|-status|p1a: Volcanion|slp|[from] move: Sleep Powder
+|cant|p1a: Volcanion|slp
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1683791503
+|move|p2a: Eldegoss|Energy Ball|p1a: Volcanion
+|-damage|p1a: Volcanion|136/259 slp
+|-unboost|p1a: Volcanion|spd|1
+|cant|p1a: Volcanion|slp
+|
+|upkeep
+|turn|7
+|
+|t:|1683791511
+|switch|p1a: Archeops|Archeops, L82, F|257/257
+|move|p2a: Eldegoss|Rapid Spin|p1a: Archeops
+|-resisted|p1a: Archeops
+|-damage|p1a: Archeops|241/257
+|-boost|p2a: Eldegoss|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1683791520
+|move|p2a: Eldegoss|Energy Ball|p1a: Archeops
+|-damage|p1a: Archeops|130/257
+|-unboost|p1a: Archeops|spd|1
+|move|p1a: Archeops|Dual Wingbeat|p2a: Eldegoss|[miss]
+|-miss|p1a: Archeops|p2a: Eldegoss
+|
+|upkeep
+|turn|9
+|
+|t:|1683791531
+|switch|p1a: Celebi|Celebi, L82|238/298
+|move|p2a: Eldegoss|Energy Ball|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|191/298
+|-unboost|p1a: Celebi|spd|1
+|
+|-heal|p1a: Celebi|209/298|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1683791542
+|switch|p1a: Volcanion|Volcanion, L80|136/259 slp
+|move|p2a: Eldegoss|Pollen Puff|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|106/259 slp
+|
+|upkeep
+|turn|11
+|
+|t:|1683791553
+|move|p2a: Eldegoss|Energy Ball|p1a: Volcanion
+|-damage|p1a: Volcanion|6/259 slp
+|-unboost|p1a: Volcanion|spd|1
+|cant|p1a: Volcanion|slp
+|
+|upkeep
+|turn|12
+|c|☆Ndima|Wack
+|
+|t:|1683791573
+|move|p2a: Eldegoss|Pollen Puff|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|upkeep
+|inactive|Ndima has 120 seconds left.
+|
+|t:|1683791596
+|switch|p1a: Archeops|Archeops, L82, F|130/257
+|turn|13
+|
+|t:|1683791607
+|move|p2a: Eldegoss|Energy Ball|p1a: Archeops
+|-damage|p1a: Archeops|12/257
+|move|p1a: Archeops|Dual Wingbeat|p2a: Eldegoss|[miss]
+|-miss|p1a: Archeops|p2a: Eldegoss
+|
+|upkeep
+|turn|14
+|c|☆Ndima|Cursed omg
+|
+|t:|1683791624
+|move|p2a: Eldegoss|Rapid Spin|p1a: Archeops
+|-resisted|p1a: Archeops
+|-damage|p1a: Archeops|0 fnt
+|-boost|p2a: Eldegoss|spe|1
+|faint|p1a: Archeops
+|
+|upkeep
+|
+|t:|1683791626
+|switch|p1a: Pheromosa|Pheromosa, L75|230/230
+|turn|15
+|
+|t:|1683791636
+|move|p2a: Eldegoss|Sleep Powder|p1a: Pheromosa
+|-status|p1a: Pheromosa|slp|[from] move: Sleep Powder
+|cant|p1a: Pheromosa|slp
+|
+|upkeep
+|turn|16
+|
+|t:|1683791639
+|switch|p2a: Groudon|Groudon, L73|209/266
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|cant|p1a: Pheromosa|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|225/266|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1683791651
+|switch|p1a: Celebi|Celebi, L82|209/298
+|move|p2a: Groudon|Heat Crash|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|241/266|[from] item: Leftovers
+|upkeep
+|
+|t:|1683791668
+|switch|p1a: Carracosta|Carracosta, L84, M|262/262
+|turn|18
+|
+|t:|1683791677
+|switch|p2a: Kartana|Kartana, L74|209/209
+|move|p1a: Carracosta|Shell Smash|p1a: Carracosta
+|-unboost|p1a: Carracosta|def|1
+|-unboost|p1a: Carracosta|spd|1
+|-boost|p1a: Carracosta|atk|2
+|-boost|p1a: Carracosta|spa|2
+|-boost|p1a: Carracosta|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1683791695
+|move|p2a: Kartana|Leaf Blade|p1a: Carracosta
+|-supereffective|p1a: Carracosta
+|-damage|p1a: Carracosta|0 fnt
+|faint|p1a: Carracosta
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|-damage|p2a: Kartana|189/209|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Ndima forfeited.
+|
+|win|Astyacos
+|raw|Ndima's rating: 1321 &rarr; <strong>1299</strong><br />(-22 for losing)
+|raw|Astyacos's rating: 1294 &rarr; <strong>1321</strong><br />(+27 for winning)
+|l|☆Ndima

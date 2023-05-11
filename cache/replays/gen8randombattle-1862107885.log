@@ -1,0 +1,280 @@
+|j|☆lauda Mera
+|j|☆Hhoottddoogg
+|t:|1683837764
+|gametype|singles
+|player|p1|lauda Mera|hilbert-wonderlauncher|1484
+|player|p2|Hhoottddoogg|170|1442
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1683837764
+|start
+|switch|p1a: Moltres|Moltres, L80|275/275
+|switch|p2a: Guzzlord|Guzzlord, L84|512/512
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lauda Mera)
+|
+|t:|1683837770
+|move|p1a: Moltres|U-turn|p2a: Guzzlord
+|-supereffective|p2a: Guzzlord
+|-damage|p2a: Guzzlord|388/512
+|
+|t:|1683837774
+|switch|p1a: Hatterene|Hatterene, L86, F|238/238|[from] U-turn
+|move|p2a: Guzzlord|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|142/238
+|-enditem|p1a: Hatterene|Life Orb|[from] move: Knock Off|[of] p2a: Guzzlord
+|
+|upkeep
+|turn|2
+|
+|t:|1683837787
+|move|p2a: Guzzlord|Sludge Bomb|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|38/238
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|3
+|
+|t:|1683837799
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Guzzlord
+|-supereffective|p2a: Guzzlord
+|-damage|p2a: Guzzlord|0 fnt
+|faint|p2a: Guzzlord
+|
+|upkeep
+|
+|t:|1683837815
+|switch|p2a: Alcremie|Alcremie, L86, F|252/252
+|turn|4
+|
+|t:|1683837826
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Alcremie
+|-damage|p2a: Alcremie|165/252
+|move|p2a: Alcremie|Recover|p2a: Alcremie
+|-heal|p2a: Alcremie|252/252
+|
+|upkeep
+|turn|5
+|
+|t:|1683837838
+|move|p1a: Hatterene|Psychic|p2a: Alcremie
+|-damage|p2a: Alcremie|156/252
+|move|p2a: Alcremie|Calm Mind|p2a: Alcremie
+|-boost|p2a: Alcremie|spa|1
+|-boost|p2a: Alcremie|spd|1
+|
+|-heal|p2a: Alcremie|171/252|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1683837849
+|move|p1a: Hatterene|Psychic|p2a: Alcremie
+|-damage|p2a: Alcremie|105/252
+|move|p2a: Alcremie|Recover|p2a: Alcremie
+|-heal|p2a: Alcremie|231/252
+|
+|-heal|p2a: Alcremie|246/252|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1683837855
+|switch|p1a: Cinderace|Cinderace, L74, M|239/239
+|move|p2a: Alcremie|Calm Mind|p2a: Alcremie
+|-boost|p2a: Alcremie|spa|1
+|-boost|p2a: Alcremie|spd|1
+|
+|-heal|p2a: Alcremie|252/252|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1683837860
+|move|p1a: Cinderace|Pyro Ball|p2a: Alcremie
+|-damage|p2a: Alcremie|79/252
+|-damage|p1a: Cinderace|216/239|[from] item: Life Orb
+|move|p2a: Alcremie|Dazzling Gleam|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|98/239
+|
+|-heal|p2a: Alcremie|94/252|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1683837869
+|move|p1a: Cinderace|Pyro Ball|p2a: Alcremie
+|-damage|p2a: Alcremie|0 fnt
+|faint|p2a: Alcremie
+|-damage|p1a: Cinderace|75/239|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1683837881
+|switch|p2a: Pelipper|Pelipper, L86, F|243/243
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|10
+|
+|t:|1683837895
+|switch|p1a: Hatterene|Hatterene, L86, F|38/238
+|move|p2a: Pelipper|Hurricane|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1683837906
+|switch|p1a: Sigilyph|Sigilyph, L83, F|255/255
+|turn|11
+|
+|t:|1683837916
+|move|p1a: Sigilyph|Psychic|p2a: Pelipper
+|-damage|p2a: Pelipper|101/243
+|-unboost|p2a: Pelipper|spd|1
+|move|p2a: Pelipper|Hurricane|p1a: Sigilyph
+|-damage|p1a: Sigilyph|116/255
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1683837921
+|move|p1a: Sigilyph|Psychic|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1683837929
+|switch|p2a: Malamar|Malamar, L80, M|269/269
+|turn|13
+|
+|t:|1683837936
+|move|p1a: Sigilyph|Air Slash|p2a: Malamar
+|-damage|p2a: Malamar|151/269
+|move|p2a: Malamar|Knock Off|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|0 fnt
+|-enditem|p1a: Sigilyph|Life Orb|[from] move: Knock Off|[of] p2a: Malamar
+|faint|p1a: Sigilyph
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Malamar|167/269|[from] item: Leftovers
+|upkeep
+|
+|t:|1683837939
+|switch|p1a: Moltres|Moltres, L80|275/275
+|turn|14
+|
+|t:|1683837955
+|switch|p2a: Talonflame|Talonflame, L81, F|259/259
+|move|p1a: Moltres|U-turn|p2a: Talonflame
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|246/259
+|
+|t:|1683837959
+|switch|p1a: Suicune|Suicune, L80|291/291|[from] U-turn
+|-ability|p1a: Suicune|Pressure
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|t:|1683837981
+|switch|p2a: Malamar|Malamar, L80, M|167/269
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-heal|p2a: Malamar|183/269|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1683837988
+|move|p1a: Suicune|Scald|p2a: Malamar
+|-damage|p2a: Malamar|54/269
+|move|p2a: Malamar|Knock Off|p1a: Suicune
+|-damage|p1a: Suicune|212/291
+|-enditem|p1a: Suicune|Leftovers|[from] move: Knock Off|[of] p2a: Malamar
+|
+|-heal|p2a: Malamar|70/269|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1683837992
+|move|p1a: Suicune|Scald|p2a: Malamar
+|-damage|p2a: Malamar|0 fnt
+|faint|p2a: Malamar
+|
+|upkeep
+|
+|t:|1683837995
+|switch|p2a: Mr. Mime|Mr. Mime, L86, M|209/209
+|turn|18
+|inactive|lauda Mera has 120 seconds left.
+|
+|t:|1683838028
+|-start|p2a: Mr. Mime|Dynamax|
+|-heal|p2a: Mr. Mime|418/418|[silent]
+|move|p2a: Mr. Mime|Max Mindstorm|p1a: Suicune
+|-damage|p1a: Suicune|98/291
+|-fieldstart|move: Psychic Terrain
+|-damage|p2a: Mr. Mime|398/418|[from] item: Life Orb
+|move|p1a: Suicune|Scald|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|319/418
+|
+|upkeep
+|turn|19
+|
+|t:|1683838046
+|move|p2a: Mr. Mime|Max Mindstorm|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|faint|p1a: Suicune
+|-damage|p2a: Mr. Mime|299/418|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1683838056
+|switch|p1a: Cinderace|Cinderace, L74, M|75/239
+|turn|20
+|inactive|Hhoottddoogg has 120 seconds left.
+|
+|t:|1683838112
+|move|p1a: Cinderace|Pyro Ball|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|108/418
+|-damage|p1a: Cinderace|52/239|[from] item: Life Orb
+|move|p2a: Mr. Mime|Max Mindstorm|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|-damage|p2a: Mr. Mime|88/418|[from] item: Life Orb
+|
+|upkeep
+|l|☆Hhoottddoogg
+|inactive|Hhoottddoogg disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|lauda Mera has 120 seconds left.
+|
+|t:|1683838139
+|switch|p1a: Lilligant|Lilligant, L84, F|255/255
+|-end|p2a: Mr. Mime|Dynamax
+|-heal|p2a: Mr. Mime|44/209|[silent]
+|turn|21
+|inactive|Hhoottddoogg has 30 seconds to reconnect!
+|inactive|Hhoottddoogg has 20 seconds to reconnect!
+|inactive|Hhoottddoogg has 15 seconds to reconnect!
+|inactive|Hhoottddoogg has 10 seconds to reconnect!
+|inactive|Hhoottddoogg has 5 seconds to reconnect!
+|-message|Hhoottddoogg lost due to inactivity.
+|
+|win|lauda Mera
+|raw|lauda Mera's rating: 1471 &rarr; <strong>1489</strong><br />(+18 for winning)
+|raw|Hhoottddoogg's rating: 1442 &rarr; <strong>1424</strong><br />(-18 for losing)

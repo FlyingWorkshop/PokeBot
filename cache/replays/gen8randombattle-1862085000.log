@@ -1,0 +1,58 @@
+|j|☆walt2000
+|j|☆lauda Mera
+|t:|1683835414
+|gametype|singles
+|player|p1|walt2000|red-gen7|1411
+|player|p2|lauda Mera|hilbert-wonderlauncher|1424
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1683835414
+|start
+|switch|p1a: Cobalion|Cobalion, L78|270/270
+|switch|p2a: Mawile|Mawile, L86, F|226/226
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lauda Mera)
+|
+|t:|1683835430
+|switch|p2a: Mudsdale|Mudsdale, L82, F|298/298
+|move|p1a: Cobalion|Volt Switch|p2a: Mudsdale
+|-immune|p2a: Mudsdale
+|
+|upkeep
+|turn|2
+|
+|t:|1683835445
+|switch|p1a: Eiscue|Eiscue, L82, F|256/256
+|move|p2a: Mudsdale|Body Press|p1a: Eiscue
+|-activate|p1a: Eiscue|ability: Ice Face
+|-damage|p1a: Eiscue|256/256
+|detailschange|p1a: Eiscue|Eiscue-Noice, L82, F
+|
+|upkeep
+|turn|3
+|
+|t:|1683835464
+|move|p1a: Eiscue|Belly Drum|p1a: Eiscue
+|-damage|p1a: Eiscue|128/256
+|-setboost|p1a: Eiscue|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Eiscue|Sitrus Berry|[eat]
+|-heal|p1a: Eiscue|192/256|[from] item: Sitrus Berry
+|move|p2a: Mudsdale|Body Press|p1a: Eiscue
+|-supereffective|p1a: Eiscue
+|-damage|p1a: Eiscue|0 fnt
+|faint|p1a: Eiscue
+|
+|upkeep
+|-message|walt2000 forfeited.
+|
+|win|lauda Mera
+|raw|walt2000's rating: 1411 &rarr; <strong>1392</strong><br />(-19 for losing)
+|raw|lauda Mera's rating: 1424 &rarr; <strong>1443</strong><br />(+19 for winning)
+|l|☆walt2000

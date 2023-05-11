@@ -1,0 +1,359 @@
+|j|☆C_Gamer_YT
+|j|☆manlykeamaan
+|t:|1683815582
+|gametype|singles
+|player|p1|C_Gamer_YT|unknown|1112
+|player|p2|manlykeamaan|1|1058
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1683815582
+|start
+|switch|p1a: Xatu|Xatu, L89, F|260/260
+|switch|p2a: Emolga|Emolga, L88, M|240/240
+|turn|1
+|
+|t:|1683815594
+|switch|p2a: Dubwool|Dubwool, L86, M|264/264
+|switch|p1a: Solrock|Solrock, L88|302/302
+|
+|upkeep
+|turn|2
+|
+|t:|1683815604
+|move|p2a: Dubwool|Body Press|p1a: Solrock
+|-crit|p1a: Solrock
+|-damage|p1a: Solrock|217/302
+|move|p1a: Solrock|Stealth Rock|p2a: Dubwool
+|-sidestart|p2: manlykeamaan|move: Stealth Rock
+|
+|-heal|p1a: Solrock|235/302|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1683815616
+|move|p2a: Dubwool|Body Press|p1a: Solrock
+|-damage|p1a: Solrock|170/302
+|move|p1a: Solrock|Rock Slide|p2a: Dubwool
+|-damage|p2a: Dubwool|191/264
+|
+|-heal|p2a: Dubwool|207/264|[from] item: Leftovers
+|-heal|p1a: Solrock|188/302|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1683815632
+|move|p2a: Dubwool|Body Press|p1a: Solrock
+|-damage|p1a: Solrock|126/302
+|move|p1a: Solrock|Morning Sun|p1a: Solrock
+|-heal|p1a: Solrock|277/302
+|
+|-heal|p2a: Dubwool|223/264|[from] item: Leftovers
+|-heal|p1a: Solrock|295/302|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1683815645
+|move|p2a: Dubwool|Rest|p2a: Dubwool
+|-status|p2a: Dubwool|slp|[from] move: Rest
+|-heal|p2a: Dubwool|264/264 slp|[silent]
+|move|p1a: Solrock|Rock Slide|p2a: Dubwool
+|-damage|p2a: Dubwool|191/264 slp
+|
+|-heal|p2a: Dubwool|207/264 slp|[from] item: Leftovers
+|-heal|p1a: Solrock|302/302|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1683815656
+|cant|p2a: Dubwool|slp
+|move|p2a: Dubwool|Sleep Talk|p2a: Dubwool
+|move|p2a: Dubwool|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Dubwool
+|move|p1a: Solrock|Rock Slide|p2a: Dubwool
+|-damage|p2a: Dubwool|131/264 slp
+|
+|-heal|p2a: Dubwool|147/264 slp|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by C_Gamer_YT)
+|
+|t:|1683815674
+|cant|p2a: Dubwool|slp
+|move|p1a: Solrock|Earthquake|p2a: Dubwool
+|-damage|p2a: Dubwool|73/264 slp
+|
+|-heal|p2a: Dubwool|89/264 slp|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1683815684
+|-curestatus|p2a: Dubwool|slp|[msg]
+|move|p2a: Dubwool|Body Press|p1a: Solrock
+|-damage|p1a: Solrock|241/302
+|move|p1a: Solrock|Rock Slide|p2a: Dubwool
+|-damage|p2a: Dubwool|14/264
+|
+|-heal|p2a: Dubwool|30/264|[from] item: Leftovers
+|-heal|p1a: Solrock|259/302|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1683815697
+|move|p2a: Dubwool|Body Press|p1a: Solrock
+|-damage|p1a: Solrock|195/302
+|move|p1a: Solrock|Rock Slide|p2a: Dubwool
+|-damage|p2a: Dubwool|0 fnt
+|faint|p2a: Dubwool
+|
+|-heal|p1a: Solrock|213/302|[from] item: Leftovers
+|upkeep
+|
+|t:|1683815710
+|switch|p2a: Kyurem|Kyurem, L80|331/331
+|-damage|p2a: Kyurem|249/331|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|turn|10
+|
+|t:|1683815724
+|-start|p2a: Kyurem|Dynamax|
+|-heal|p2a: Kyurem|498/662|[silent]
+|move|p2a: Kyurem|Max Hailstorm|p1a: Solrock
+|-damage|p1a: Solrock|30/302
+|-weather|Hail
+|move|p1a: Solrock|Earthquake|p2a: Kyurem
+|-damage|p2a: Kyurem|420/662
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Solrock|12/302|[from] Hail
+|-heal|p2a: Kyurem|440/662|[from] item: Leftovers
+|-heal|p1a: Solrock|30/302|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1683815739
+|move|p2a: Kyurem|Max Hailstorm|p1a: Solrock
+|-damage|p1a: Solrock|0 fnt
+|faint|p1a: Solrock
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Kyurem|460/662|[from] item: Leftovers
+|upkeep
+|
+|t:|1683815747
+|switch|p1a: Xatu|Xatu, L89, F|260/260
+|turn|12
+|
+|t:|1683815752
+|move|p1a: Xatu|Roost||[still]
+|-fail|p1a: Xatu|heal
+|move|p2a: Kyurem|Max Hailstorm|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Kyurem|480/662|[from] item: Leftovers
+|upkeep
+|
+|t:|1683815760
+|switch|p1a: Klefki|Klefki, L82, M|228/228
+|-end|p2a: Kyurem|Dynamax
+|-heal|p2a: Kyurem|240/331|[silent]
+|turn|13
+|
+|t:|1683815765
+|move|p1a: Klefki|Thunder Wave|p2a: Kyurem
+|-status|p2a: Kyurem|par
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|331/331 par
+|-singleturn|p2a: Kyurem|move: Roost
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Klefki|214/228|[from] Hail
+|-heal|p1a: Klefki|228/228|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1683815779
+|move|p1a: Klefki|Spikes|p2a: Kyurem
+|-sidestart|p2: manlykeamaan|Spikes
+|cant|p2a: Kyurem|par
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|t:|1683815788
+|move|p1a: Klefki|Spikes|p2a: Kyurem
+|-sidestart|p2: manlykeamaan|Spikes
+|move|p2a: Kyurem|Earth Power|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|70/228
+|
+|-heal|p1a: Klefki|84/228|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1683815798
+|move|p1a: Klefki|Play Rough|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|181/331 par
+|cant|p2a: Kyurem|par
+|
+|-heal|p1a: Klefki|98/228|[from] item: Leftovers
+|-heal|p2a: Kyurem|201/331 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1683815810
+|move|p1a: Klefki|Play Rough|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|27/331 par
+|move|p2a: Kyurem|Ice Beam|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|41/228
+|
+|-heal|p1a: Klefki|55/228|[from] item: Leftovers
+|-heal|p2a: Kyurem|47/331 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1683815821
+|move|p1a: Klefki|Spikes|p2a: Kyurem
+|-sidestart|p2: manlykeamaan|Spikes
+|move|p2a: Kyurem|Earth Power|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|
+|-heal|p2a: Kyurem|67/331 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1683815824
+|switch|p1a: Machamp|Machamp, L82, F|282/282
+|turn|19
+|
+|t:|1683815841
+|move|p1a: Machamp|Bullet Punch|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-status|p1a: Machamp|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1683815851
+|switch|p2a: Emolga|Emolga, L88, M|240/240
+|turn|20
+|
+|t:|1683815858
+|move|p2a: Emolga|Thunderbolt|p1a: Machamp
+|-damage|p1a: Machamp|189/282 brn
+|move|p1a: Machamp|Facade|p2a: Emolga
+|-damage|p2a: Emolga|8/240
+|
+|-damage|p1a: Machamp|172/282 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1683815868
+|move|p1a: Machamp|Bullet Punch|p2a: Emolga
+|-resisted|p2a: Emolga
+|-damage|p2a: Emolga|0 fnt
+|faint|p2a: Emolga
+|
+|-damage|p1a: Machamp|155/282 brn|[from] brn
+|upkeep
+|
+|t:|1683815878
+|switch|p2a: Nihilego|Nihilego, L79|302/302
+|-damage|p2a: Nihilego|265/302|[from] Stealth Rock
+|-damage|p2a: Nihilego|190/302|[from] Spikes
+|turn|22
+|
+|t:|1683815886
+|move|p1a: Machamp|Bullet Punch|p2a: Nihilego
+|-supereffective|p2a: Nihilego
+|-damage|p2a: Nihilego|38/302
+|move|p2a: Nihilego|Thunderbolt|p1a: Machamp
+|-damage|p1a: Machamp|79/282 brn
+|
+|-heal|p2a: Nihilego|56/302|[from] item: Black Sludge
+|-damage|p1a: Machamp|62/282 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1683815899
+|move|p1a: Machamp|Bullet Punch|p2a: Nihilego
+|-supereffective|p2a: Nihilego
+|-damage|p2a: Nihilego|0 fnt
+|faint|p2a: Nihilego
+|
+|-damage|p1a: Machamp|45/282 brn|[from] brn
+|upkeep
+|
+|t:|1683815907
+|switch|p2a: Heatran|Heatran, L78, F|270/270
+|-damage|p2a: Heatran|237/270|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|turn|24
+|
+|t:|1683815914
+|move|p2a: Heatran|Lava Plume|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|
+|upkeep
+|
+|t:|1683815923
+|switch|p1a: Salamence|Salamence, L76, F|269/269
+|turn|25
+|
+|t:|1683815928
+|move|p1a: Salamence|Dual Wingbeat|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|217/270
+|-enditem|p2a: Heatran|Air Balloon
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|196/270
+|-hitcount|p2a: Heatran|2
+|move|p2a: Heatran|Lava Plume|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|215/269
+|
+|upkeep
+|turn|26
+|
+|t:|1683815939
+|move|p1a: Salamence|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|upkeep
+|
+|t:|1683815946
+|switch|p2a: Tornadus|Tornadus, L80, M|258/258
+|-damage|p2a: Tornadus|194/258|[from] Stealth Rock
+|turn|27
+|
+|t:|1683815954
+|move|p2a: Tornadus|Hurricane|p1a: Salamence|[miss]
+|-miss|p2a: Tornadus|p1a: Salamence
+|move|p1a: Salamence|Outrage|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|win|C_Gamer_YT
+|raw|C_Gamer_YT's rating: 1112 &rarr; <strong>1133</strong><br />(+21 for winning)
+|raw|manlykeamaan's rating: 1058 &rarr; <strong>1042</strong><br />(-16 for losing)
+|l|☆manlykeamaan

@@ -1,0 +1,240 @@
+|j|☆Kingjerz92
+|j|☆Kennygarden91
+|t:|1683802261
+|gametype|singles
+|player|p1|Kingjerz92|2|
+|player|p2|Kennygarden91|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1683802261
+|start
+|switch|p1a: Scyther|Scyther, L81, M|245/245
+|switch|p2a: Rhyperior|Rhyperior, L82, F|323/323
+|turn|1
+|
+|t:|1683802275
+|move|p1a: Scyther|Dual Wingbeat|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|297/323
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|273/323
+|-hitcount|p2a: Rhyperior|2
+|move|p2a: Rhyperior|Rock Polish|p2a: Rhyperior
+|-boost|p2a: Rhyperior|spe|2
+|
+|upkeep
+|turn|2
+|
+|t:|1683802288
+|move|p2a: Rhyperior|Stone Edge|p1a: Scyther|[miss]
+|-miss|p2a: Rhyperior|p1a: Scyther
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1683802298
+|move|p2a: Rhyperior|Stone Edge|p1a: Scyther|[miss]
+|-miss|p2a: Rhyperior|p1a: Scyther
+|move|p1a: Scyther|Knock Off|p2a: Rhyperior
+|-damage|p2a: Rhyperior|167/323
+|-enditem|p2a: Rhyperior|Weakness Policy|[from] move: Knock Off|[of] p1a: Scyther
+|
+|upkeep
+|turn|4
+|
+|t:|1683802307
+|move|p2a: Rhyperior|Stone Edge|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|faint|p1a: Scyther
+|
+|upkeep
+|
+|t:|1683802313
+|switch|p1a: Nidoking|Nidoking, L82, M|267/267
+|turn|5
+|
+|t:|1683802326
+|move|p2a: Rhyperior|Earthquake|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|
+|upkeep
+|
+|t:|1683802332
+|switch|p1a: Seismitoad|Seismitoad, L84, F|314/314
+|turn|6
+|
+|t:|1683802337
+|move|p2a: Rhyperior|Earthquake|p1a: Seismitoad
+|-damage|p1a: Seismitoad|157/314
+|move|p1a: Seismitoad|Liquidation|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|-damage|p1a: Seismitoad|126/314|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1683802354
+|switch|p2a: Meowstic|Meowstic-F, L86, F|268/268
+|turn|7
+|
+|t:|1683802362
+|move|p2a: Meowstic|Energy Ball|p1a: Seismitoad
+|-supereffective|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|-damage|p2a: Meowstic|242/268|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1683802373
+|switch|p1a: Linoone|Linoone, L84, F|268/268
+|turn|8
+|
+|t:|1683802381
+|move|p1a: Linoone|Extreme Speed|p2a: Meowstic
+|-damage|p2a: Meowstic|167/268
+|move|p2a: Meowstic|Psychic|p1a: Linoone
+|-damage|p1a: Linoone|107/268
+|-enditem|p1a: Linoone|Figy Berry|[eat]
+|-heal|p1a: Linoone|196/268|[from] item: Figy Berry
+|-damage|p2a: Meowstic|141/268|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|t:|1683802393
+|move|p2a: Meowstic|Psychic|p1a: Linoone
+|-damage|p1a: Linoone|39/268
+|-damage|p2a: Meowstic|115/268|[from] item: Life Orb
+|move|p1a: Linoone|Belly Drum||[still]
+|-fail|p1a: Linoone
+|
+|upkeep
+|turn|10
+|
+|t:|1683802402
+|move|p2a: Meowstic|Nasty Plot|p2a: Meowstic
+|-boost|p2a: Meowstic|spa|2
+|move|p1a: Linoone|Stomping Tantrum|p2a: Meowstic
+|-damage|p2a: Meowstic|28/268
+|
+|upkeep
+|turn|11
+|
+|t:|1683802410
+|move|p2a: Meowstic|Nasty Plot|p2a: Meowstic
+|-boost|p2a: Meowstic|spa|2
+|move|p1a: Linoone|Throat Chop|p2a: Meowstic
+|-supereffective|p2a: Meowstic
+|-damage|p2a: Meowstic|0 fnt
+|faint|p2a: Meowstic
+|
+|upkeep
+|
+|t:|1683802420
+|switch|p2a: Dracozolt|Dracozolt, L78|268/268
+|turn|12
+|
+|t:|1683802424
+|move|p1a: Linoone|Belly Drum||[still]
+|-fail|p1a: Linoone
+|move|p2a: Dracozolt|Low Kick|p1a: Linoone
+|-supereffective|p1a: Linoone
+|-damage|p1a: Linoone|0 fnt
+|faint|p1a: Linoone
+|
+|upkeep
+|
+|t:|1683802434
+|switch|p1a: Thievul|Thievul, L86, F|261/261
+|turn|13
+|
+|t:|1683802442
+|move|p1a: Thievul|Grass Knot|p2a: Dracozolt
+|-resisted|p2a: Dracozolt
+|-damage|p2a: Dracozolt|226/268
+|move|p2a: Dracozolt|Low Kick|p1a: Thievul|[miss]
+|-miss|p2a: Dracozolt|p1a: Thievul
+|
+|upkeep
+|turn|14
+|
+|t:|1683802452
+|move|p1a: Thievul|Dark Pulse|p2a: Dracozolt
+|-crit|p2a: Dracozolt
+|-damage|p2a: Dracozolt|61/268
+|move|p2a: Dracozolt|Low Kick|p1a: Thievul
+|-supereffective|p1a: Thievul
+|-damage|p1a: Thievul|123/261
+|
+|-heal|p1a: Thievul|139/261|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1683802461
+|move|p1a: Thievul|Dark Pulse|p2a: Dracozolt
+|-damage|p2a: Dracozolt|0 fnt
+|faint|p2a: Dracozolt
+|
+|-heal|p1a: Thievul|155/261|[from] item: Leftovers
+|upkeep
+|
+|t:|1683802469
+|switch|p2a: Pheromosa|Pheromosa, L75|230/230
+|turn|16
+|
+|t:|1683802473
+|move|p2a: Pheromosa|U-turn|p1a: Thievul
+|-supereffective|p1a: Thievul
+|-damage|p1a: Thievul|0 fnt
+|faint|p1a: Thievul
+|-ability|p2a: Pheromosa|Beast Boost|boost
+|-boost|p2a: Pheromosa|spe|1
+|
+|t:|1683802478
+|switch|p2a: Magnezone|Magnezone, L84|255/255|[from] U-turn
+|
+|upkeep
+|
+|t:|1683802483
+|switch|p1a: Aggron|Aggron, L85, F|258/258
+|-item|p1a: Aggron|Air Balloon
+|turn|17
+|
+|t:|1683802490
+|move|p2a: Magnezone|Volt Switch|p1a: Aggron
+|-crit|p1a: Aggron
+|-damage|p1a: Aggron|60/258
+|-enditem|p1a: Aggron|Air Balloon
+|
+|t:|1683802495
+|switch|p2a: Pheromosa|Pheromosa, L75|230/230|[from] Volt Switch
+|move|p1a: Aggron|Body Press|p2a: Pheromosa
+|-resisted|p2a: Pheromosa
+|-crit|p2a: Pheromosa
+|-damage|p2a: Pheromosa|90/230
+|
+|upkeep
+|turn|18
+|
+|t:|1683802506
+|move|p2a: Pheromosa|Close Combat|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|-unboost|p2a: Pheromosa|def|1
+|-unboost|p2a: Pheromosa|spd|1
+|faint|p1a: Aggron
+|
+|win|Kennygarden91

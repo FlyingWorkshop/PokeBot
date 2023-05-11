@@ -1,0 +1,217 @@
+|j|☆Shlokrules
+|j|☆RKDudes
+|t:|1683779173
+|gametype|singles
+|player|p1|Shlokrules|hugh|
+|player|p2|RKDudes|diantha-masters|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1683779173
+|start
+|switch|p1a: Slowking|Slowking-Galar, L84, M|297/297
+|switch|p2a: Seismitoad|Seismitoad, L84, F|314/314
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Shlokrules)
+|c|☆RKDudes|hi lol
+|
+|t:|1683779190
+|move|p2a: Seismitoad|Stealth Rock|p1a: Slowking
+|-sidestart|p1: Shlokrules|move: Stealth Rock
+|move|p1a: Slowking|Psyshock|p2a: Seismitoad
+|-damage|p2a: Seismitoad|212/314
+|
+|upkeep
+|turn|2
+|
+|t:|1683779210
+|move|p2a: Seismitoad|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|-damage|p2a: Seismitoad|181/314|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1683779215
+|switch|p1a: Swampert|Swampert, L80, M|291/291
+|-damage|p1a: Swampert|273/291|[from] Stealth Rock
+|turn|3
+|
+|t:|1683779239
+|move|p2a: Seismitoad|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|129/291
+|-damage|p2a: Seismitoad|150/314|[from] item: Life Orb
+|move|p1a: Swampert|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|26/314
+|
+|-heal|p1a: Swampert|147/291|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1683779255
+|move|p2a: Seismitoad|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|13/291
+|-damage|p2a: Seismitoad|0 fnt|[from] item: Life Orb
+|faint|p2a: Seismitoad
+|move|p1a: Swampert|Earthquake|p2: Seismitoad|[notarget]
+|-fail|p1a: Swampert
+|
+|-heal|p1a: Swampert|31/291|[from] item: Leftovers
+|upkeep
+|
+|t:|1683779265
+|switch|p2a: Cinccino|Cinccino, L84, M|263/263
+|turn|5
+|
+|t:|1683779271
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: Cinccino|U-turn|p1a: Swampert
+|-activate|p1a: Swampert|move: Protect
+|
+|-heal|p1a: Swampert|49/291|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1683779281
+|switch|p1a: Blaziken|Blaziken, L76, M|247/247
+|-damage|p1a: Blaziken|217/247|[from] Stealth Rock
+|move|p2a: Cinccino|U-turn|p1a: Blaziken
+|-resisted|p1a: Blaziken
+|-crit|p1a: Blaziken
+|-damage|p1a: Blaziken|183/247
+|
+|t:|1683779287
+|switch|p2a: Dragonite|Dragonite, L75, M|260/260|[from] U-turn
+|
+|upkeep
+|turn|7
+|
+|t:|1683779293
+|move|p1a: Blaziken|Close Combat|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|217/260
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|-damage|p1a: Blaziken|159/247|[from] item: Life Orb
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|8
+|
+|t:|1683779302
+|move|p1a: Blaziken|Stone Edge|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|43/260
+|-damage|p1a: Blaziken|135/247|[from] item: Life Orb
+|move|p2a: Dragonite|Dual Wingbeat|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|-hitcount|p1: Blaziken|1
+|
+|upkeep
+|
+|t:|1683779311
+|switch|p1a: Beartic|Beartic, L86, M|304/304
+|turn|9
+|
+|t:|1683779320
+|move|p2a: Dragonite|Outrage|p1a: Beartic
+|-damage|p1a: Beartic|97/304
+|move|p1a: Beartic|Icicle Crash|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1683779327
+|switch|p2a: Cinccino|Cinccino, L84, M|263/263
+|turn|10
+|
+|t:|1683779336
+|move|p2a: Cinccino|Knock Off|p1a: Beartic
+|-damage|p1a: Beartic|0 fnt
+|-enditem|p1a: Beartic|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Cinccino
+|faint|p1a: Beartic
+|
+|upkeep
+|
+|t:|1683779339
+|switch|p1a: Swampert|Swampert, L80, M|49/291
+|-damage|p1a: Swampert|31/291|[from] Stealth Rock
+|turn|11
+|
+|t:|1683779341
+|move|p2a: Cinccino|Knock Off|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|-enditem|p1a: Swampert|Leftovers|[from] move: Knock Off|[of] p2a: Cinccino
+|faint|p1a: Swampert
+|
+|upkeep
+|
+|t:|1683779344
+|switch|p1a: Hitmonlee|Hitmonlee, L84, M|221/221
+|-damage|p1a: Hitmonlee|208/221|[from] Stealth Rock
+|turn|12
+|
+|t:|1683779346
+|move|p2a: Cinccino|Knock Off|p1a: Hitmonlee
+|-resisted|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|141/221
+|-enditem|p1a: Hitmonlee|Choice Band|[from] move: Knock Off|[of] p2a: Cinccino
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Cinccino
+|-supereffective|p2a: Cinccino
+|-damage|p2a: Cinccino|0 fnt
+|faint|p2a: Cinccino
+|
+|upkeep
+|
+|t:|1683779352
+|switch|p2a: Rapidash|Rapidash-Galar, L84, M|246/246
+|turn|13
+|
+|t:|1683779360
+|move|p2a: Rapidash|Swords Dance|p2a: Rapidash
+|-boost|p2a: Rapidash|atk|2
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Rapidash
+|-resisted|p2a: Rapidash
+|-damage|p2a: Rapidash|194/246
+|
+|-heal|p2a: Rapidash|209/246|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1683779364
+|move|p2a: Rapidash|Play Rough|p1a: Hitmonlee
+|-supereffective|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|-heal|p2a: Rapidash|224/246|[from] item: Leftovers
+|upkeep
+|
+|t:|1683779368
+|switch|p1a: Frosmoth|Frosmoth, L82, M|249/249
+|turn|15
+|
+|t:|1683779374
+|move|p2a: Rapidash|Play Rough|p1a: Frosmoth
+|-crit|p1a: Frosmoth
+|-damage|p1a: Frosmoth|0 fnt
+|faint|p1a: Frosmoth
+|
+|win|RKDudes
+|l|☆Shlokrules
+|c|☆RKDudes|gg

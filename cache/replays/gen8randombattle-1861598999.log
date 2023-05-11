@@ -1,0 +1,205 @@
+|j|☆cheng555666
+|j|☆Caldel
+|t:|1683779076
+|gametype|singles
+|player|p1|cheng555666|nate|1170
+|player|p2|Caldel|rosa|1297
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1683779076
+|start
+|switch|p1a: Lanturn|Lanturn, L86, F|355/355
+|switch|p2a: Palkia|Palkia, L74|255/255
+|-ability|p2a: Palkia|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Caldel)
+|
+|t:|1683779096
+|switch|p2a: Heliolisk|Heliolisk, L82, M|236/236
+|move|p1a: Lanturn|Volt Switch|p2a: Heliolisk
+|-resisted|p2a: Heliolisk
+|-damage|p2a: Heliolisk|203/236
+|
+|t:|1683779106
+|switch|p1a: Reuniclus|Reuniclus, L84, M|322/322|[from] Volt Switch
+|
+|upkeep
+|turn|2
+|
+|t:|1683779117
+|move|p2a: Heliolisk|Glare|p1a: Reuniclus
+|-status|p1a: Reuniclus|par
+|move|p1a: Reuniclus|Focus Blast|p2a: Heliolisk
+|-supereffective|p2a: Heliolisk
+|-damage|p2a: Heliolisk|0 fnt
+|faint|p2a: Heliolisk
+|
+|upkeep
+|
+|t:|1683779140
+|switch|p2a: Armaldo|Armaldo, L86, M|269/269
+|turn|3
+|
+|t:|1683779149
+|move|p2a: Armaldo|Swords Dance|p2a: Armaldo
+|-boost|p2a: Armaldo|atk|2
+|move|p1a: Reuniclus|Focus Blast|p2a: Armaldo
+|-damage|p2a: Armaldo|129/269
+|
+|upkeep
+|turn|4
+|
+|t:|1683779165
+|move|p2a: Armaldo|Stone Edge|p1a: Reuniclus
+|-damage|p1a: Reuniclus|9/322 par
+|move|p1a: Reuniclus|Focus Blast|p2a: Armaldo
+|-damage|p2a: Armaldo|0 fnt
+|faint|p2a: Armaldo
+|
+|upkeep
+|
+|t:|1683779176
+|switch|p2a: Zacian|Zacian-Crowned, L62|218/218
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|5
+|
+|t:|1683779187
+|move|p2a: Zacian|Psychic Fangs|p1a: Reuniclus
+|-resisted|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|upkeep
+|
+|t:|1683779199
+|switch|p1a: Indeedee|Indeedee, L83, M|235/235
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|6
+|
+|t:|1683779218
+|-start|p1a: Indeedee|Dynamax|
+|-heal|p1a: Indeedee|470/470|[silent]
+|move|p2a: Zacian|Swords Dance|p2a: Zacian
+|-boost|p2a: Zacian|atk|2
+|move|p1a: Indeedee|Max Flare|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|-weather|SunnyDay
+|faint|p2a: Zacian
+|-damage|p1a: Indeedee|447/470|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Caldel has 120 seconds left.
+|
+|t:|1683779230
+|switch|p2a: Ribombee|Ribombee, L82, M|233/233
+|turn|7
+|
+|t:|1683779235
+|switch|p2a: Palkia|Palkia, L74|255/255
+|-ability|p2a: Palkia|Pressure
+|move|p1a: Indeedee|Max Flare|p2a: Palkia
+|-resisted|p2a: Palkia
+|-damage|p2a: Palkia|215/255
+|-damage|p1a: Indeedee|424/470|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|inactive|Caldel has 120 seconds left.
+|
+|t:|1683779251
+|move|p1a: Indeedee|Max Mindstorm|p2a: Palkia
+|-damage|p2a: Palkia|16/255
+|-damage|p1a: Indeedee|401/470|[from] item: Life Orb
+|move|p2a: Palkia|Thunder Wave|p1a: Indeedee
+|-status|p1a: Indeedee|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-end|p1a: Indeedee|Dynamax
+|-heal|p1a: Indeedee|201/235 par|[silent]
+|turn|9
+|inactive|Caldel has 120 seconds left.
+|
+|t:|1683779271
+|-start|p2a: Palkia|Dynamax|
+|-heal|p2a: Palkia|32/510|[silent]
+|move|p2a: Palkia|Max Geyser|p1a: Indeedee
+|-damage|p1a: Indeedee|116/235 par
+|-weather|RainDance
+|move|p1a: Indeedee|Expanding Force|p2a: Palkia
+|-damage|p2a: Palkia|0 fnt
+|faint|p2a: Palkia
+|-damage|p1a: Indeedee|93/235 par|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1683779282
+|switch|p2a: Ribombee|Ribombee, L82, M|233/233
+|turn|10
+|
+|t:|1683779290
+|move|p2a: Ribombee|U-turn|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|t:|1683779294
+|switch|p2a: Dragalge|Dragalge, L86, M|252/252|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1683779308
+|switch|p1a: Seaking|Seaking, L88, F|284/284
+|turn|11
+|
+|t:|1683779313
+|move|p1a: Seaking|Swords Dance|p1a: Seaking
+|-boost|p1a: Seaking|atk|2
+|move|p2a: Dragalge|Toxic Spikes|p1a: Seaking
+|-sidestart|p1: cheng555666|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1683779324
+|move|p1a: Seaking|Waterfall|p2a: Dragalge
+|-resisted|p2a: Dragalge
+|-damage|p2a: Dragalge|96/252
+|-damage|p1a: Seaking|256/284|[from] item: Life Orb
+|cant|p2a: Dragalge|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragalge|111/252|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1683779334
+|move|p1a: Seaking|Waterfall|p2a: Dragalge
+|-resisted|p2a: Dragalge
+|-damage|p2a: Dragalge|0 fnt
+|faint|p2a: Dragalge
+|-damage|p1a: Seaking|228/284|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|-message|Caldel forfeited.
+|
+|win|cheng555666
+|raw|cheng555666's rating: 1170 &rarr; <strong>1204</strong><br />(+34 for winning)
+|raw|Caldel's rating: 1297 &rarr; <strong>1263</strong><br />(-34 for losing)
+|l|☆Caldel

@@ -1,0 +1,579 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|j|☆alienwere
+|j|☆jezuzinatree
+|t:|1683820149
+|gametype|singles
+|player|p1|alienwere|265|
+|player|p2|jezuzinatree|steven|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Blitz: Super-fast timer
+|
+|t:|1683820149
+|start
+|switch|p1a: Xerneas|Xerneas, L67|280/280
+|switch|p2a: Stonjourner|Stonjourner, L88, F|319/319
+|-ability|p1a: Xerneas|Fairy Aura
+|turn|1
+|j| bodi 69
+|c|☆jezuzinatree|hfgl
+|
+|t:|1683820156
+|switch|p1a: Quagsire|Quagsire, L84, F|297/297
+|move|p2a: Stonjourner|Stone Edge|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|201/297
+|-damage|p2a: Stonjourner|288/319|[from] item: Life Orb
+|
+|-heal|p1a: Quagsire|219/297|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|☆alienwere|glhf
+|j| Durango
+|inactive|alienwere has 10 seconds left.
+|
+|t:|1683820161
+|switch|p2a: Blastoise|Blastoise, L82, F|264/264
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|297/297
+|
+|upkeep
+|turn|3
+|inactive|alienwere has 10 seconds left.
+|
+|t:|1683820167
+|move|p2a: Blastoise|Toxic|p1a: Quagsire|[miss]
+|-miss|p2a: Blastoise|p1a: Quagsire
+|move|p1a: Quagsire|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|171/264
+|
+|-heal|p2a: Blastoise|187/264|[from] item: Leftovers
+|upkeep
+|turn|4
+|j| Elitemasterjames
+|inactive|alienwere has 10 seconds left.
+|
+|t:|1683820174
+|switch|p1a: Miltank|Miltank, L84, F|297/297
+|move|p2a: Blastoise|Toxic|p1a: Miltank|[miss]
+|-miss|p2a: Blastoise|p1a: Miltank
+|
+|-heal|p2a: Blastoise|203/264|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1683820177
+|move|p1a: Miltank|Stealth Rock|p2a: Blastoise
+|-sidestart|p2: jezuzinatree|move: Stealth Rock
+|move|p2a: Blastoise|Toxic|p1a: Miltank
+|-status|p1a: Miltank|tox
+|
+|-heal|p2a: Blastoise|219/264|[from] item: Leftovers
+|-damage|p1a: Miltank|279/297 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1683820181
+|switch|p2a: Stonjourner|Stonjourner, L88, F|288/319
+|-damage|p2a: Stonjourner|249/319|[from] Stealth Rock
+|move|p1a: Miltank|Toxic|p2a: Stonjourner
+|-status|p2a: Stonjourner|tox
+|
+|-heal|p1a: Miltank|297/297 tox|[from] item: Leftovers
+|-damage|p1a: Miltank|261/297 tox|[from] psn
+|-damage|p2a: Stonjourner|230/319 tox|[from] psn
+|upkeep
+|turn|7
+|inactive|jezuzinatree has 10 seconds left.
+|
+|t:|1683820187
+|switch|p1a: Quagsire|Quagsire, L84, F|297/297
+|move|p2a: Stonjourner|Earthquake|p1a: Quagsire
+|-damage|p1a: Quagsire|171/297
+|-damage|p2a: Stonjourner|199/319 tox|[from] item: Life Orb
+|
+|-heal|p1a: Quagsire|189/297|[from] item: Leftovers
+|-damage|p2a: Stonjourner|161/319 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1683820190
+|move|p2a: Stonjourner|Earthquake|p1a: Quagsire
+|-damage|p1a: Quagsire|68/297
+|-damage|p2a: Stonjourner|130/319 tox|[from] item: Life Orb
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|217/297
+|
+|-heal|p1a: Quagsire|235/297|[from] item: Leftovers
+|-damage|p2a: Stonjourner|73/319 tox|[from] psn
+|upkeep
+|turn|9
+|inactive|jezuzinatree has 10 seconds left.
+|
+|t:|1683820196
+|switch|p2a: Blastoise|Blastoise, L82, F|219/264
+|-damage|p2a: Blastoise|186/264|[from] Stealth Rock
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|297/297
+|
+|-heal|p2a: Blastoise|202/264|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1683820198
+|switch|p1a: Miltank|Miltank, L84, F|261/297 tox
+|move|p2a: Blastoise|Scald|p1a: Miltank
+|-damage|p1a: Miltank|176/297 tox
+|
+|-heal|p1a: Miltank|194/297 tox|[from] item: Leftovers
+|-heal|p2a: Blastoise|218/264|[from] item: Leftovers
+|-damage|p1a: Miltank|176/297 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1683820201
+|move|p2a: Blastoise|Protect|p2a: Blastoise
+|-singleturn|p2a: Blastoise|Protect
+|move|p1a: Miltank|Toxic|p2a: Blastoise
+|-activate|p2a: Blastoise|move: Protect
+|
+|-heal|p1a: Miltank|194/297 tox|[from] item: Leftovers
+|-heal|p2a: Blastoise|234/264|[from] item: Leftovers
+|-damage|p1a: Miltank|158/297 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1683820204
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|297/297 tox
+|move|p2a: Blastoise|Scald|p1a: Miltank
+|-damage|p1a: Miltank|212/297 tox
+|
+|-heal|p1a: Miltank|230/297 tox|[from] item: Leftovers
+|-heal|p2a: Blastoise|250/264|[from] item: Leftovers
+|-damage|p1a: Miltank|176/297 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1683820208
+|move|p2a: Blastoise|Protect|p2a: Blastoise
+|-singleturn|p2a: Blastoise|Protect
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|297/297 tox
+|
+|-heal|p2a: Blastoise|264/264|[from] item: Leftovers
+|-damage|p1a: Miltank|225/297 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1683820211
+|move|p1a: Miltank|Toxic|p2a: Blastoise
+|-status|p2a: Blastoise|tox
+|move|p2a: Blastoise|Scald|p1a: Miltank
+|-damage|p1a: Miltank|134/297 tox
+|
+|-heal|p1a: Miltank|152/297 tox|[from] item: Leftovers
+|-damage|p1a: Miltank|62/297 tox|[from] psn
+|-damage|p2a: Blastoise|248/264 tox|[from] psn
+|upkeep
+|turn|15
+|inactive|alienwere has 10 seconds left.
+|
+|t:|1683820217
+|move|p1a: Miltank|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|173/264 tox
+|move|p2a: Blastoise|Scald|p1a: Miltank
+|-damage|p1a: Miltank|0 fnt
+|faint|p1a: Miltank
+|
+|-heal|p2a: Blastoise|189/264 tox|[from] item: Leftovers
+|-damage|p2a: Blastoise|157/264 tox|[from] psn
+|upkeep
+|inactive|alienwere has 10 seconds left.
+|
+|t:|1683820224
+|switch|p1a: Primarina|Primarina, L82, M|265/265
+|turn|16
+|
+|t:|1683820225
+|move|p1a: Primarina|Energy Ball|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|17/264 tox
+|move|p2a: Blastoise|Toxic|p1a: Primarina|[miss]
+|-miss|p2a: Blastoise|p1a: Primarina
+|
+|-heal|p2a: Blastoise|33/264 tox|[from] item: Leftovers
+|-damage|p2a: Blastoise|0 fnt|[from] psn
+|faint|p2a: Blastoise
+|upkeep
+|
+|t:|1683820230
+|switch|p2a: Kyurem|Kyurem, L80|331/331
+|-ability|p2a: Kyurem|Pressure
+|turn|17
+|c|☆alienwere|u rly unlucky
+|j| GuarsiLoka
+|inactive|alienwere has 10 seconds left.
+|
+|t:|1683820236
+|switch|p1a: Guzzlord|Guzzlord, L84|512/512
+|move|p2a: Kyurem|Freeze-Dry|p1a: Guzzlord
+|-supereffective|p1a: Guzzlord
+|-damage|p1a: Guzzlord|242/512
+|
+|upkeep
+|turn|18
+|
+|t:|1683820240
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|249/331
+|move|p1a: Guzzlord|Draco Meteor|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|-unboost|p1a: Guzzlord|spa|2
+|
+|upkeep
+|turn|19
+|c| bodi 69|wtf is this blastoise
+|
+|t:|1683820244
+|move|p2a: Kyurem|Freeze-Dry|p1a: Guzzlord
+|-supereffective|p1a: Guzzlord
+|-damage|p1a: Guzzlord|6/512
+|move|p1a: Guzzlord|Draco Meteor|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|55/331
+|-unboost|p1a: Guzzlord|spa|2
+|
+|upkeep
+|turn|20
+|
+|t:|1683820248
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|221/331
+|-singleturn|p2a: Kyurem|move: Roost
+|move|p1a: Guzzlord|Draco Meteor|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|87/331
+|-unboost|p1a: Guzzlord|spa|2
+|
+|upkeep
+|turn|21
+|c| bodi 69|toxic missed like 4 times
+|
+|t:|1683820253
+|switch|p1a: Xerneas|Xerneas, L67|280/280
+|-ability|p1a: Xerneas|Fairy Aura
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|253/331
+|-singleturn|p2a: Kyurem|move: Roost
+|
+|upkeep
+|turn|22
+|
+|t:|1683820258
+|move|p1a: Xerneas|Moonblast|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|31/331
+|move|p2a: Kyurem|Freeze-Dry|p1a: Xerneas
+|-damage|p1a: Xerneas|180/280
+|
+|upkeep
+|turn|23
+|
+|t:|1683820260
+|move|p1a: Xerneas|Moonblast|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1683820264
+|switch|p2a: Stonjourner|Stonjourner, L88, F|73/319 tox
+|-damage|p2a: Stonjourner|34/319 tox|[from] Stealth Rock
+|turn|24
+|
+|t:|1683820267
+|move|p1a: Xerneas|Moonblast|p2a: Stonjourner
+|-damage|p2a: Stonjourner|0 fnt
+|faint|p2a: Stonjourner
+|
+|upkeep
+|
+|t:|1683820270
+|switch|p2a: Victini|Victini, L78|283/283
+|-damage|p2a: Victini|213/283|[from] Stealth Rock
+|turn|25
+|inactive|jezuzinatree has 10 seconds left.
+|
+|t:|1683820276
+|switch|p1a: Guzzlord|Guzzlord, L84|6/512
+|move|p2a: Victini|V-create|p1a: Guzzlord
+|-resisted|p1a: Guzzlord
+|-damage|p1a: Guzzlord|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: Guzzlord
+|
+|upkeep
+|
+|t:|1683820279
+|switch|p1a: Primarina|Primarina, L82, M|265/265
+|turn|26
+|inactive|jezuzinatree has 10 seconds left.
+|
+|t:|1683820286
+|-start|p2a: Victini|Dynamax|
+|-heal|p2a: Victini|426/566|[silent]
+|move|p1a: Primarina|Hydro Pump|p2a: Victini|[miss]
+|-miss|p1a: Primarina|p2a: Victini
+|move|p2a: Victini|Max Lightning|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|75/265
+|-fieldstart|move: Electric Terrain
+|
+|upkeep
+|turn|27
+|c| Elitemasterjames|It's a move made to miss
+|inactive|alienwere has 10 seconds left.
+|inactive|jezuzinatree has 10 seconds left.
+|
+|t:|1683820292
+|move|p1a: Primarina|Hydro Pump|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|22/566
+|move|p2a: Victini|Max Lightning|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|upkeep
+|
+|t:|1683820295
+|switch|p1a: Xerneas|Xerneas, L67|180/280
+|-ability|p1a: Xerneas|Fairy Aura
+|turn|28
+|inactive|alienwere has 10 seconds left.
+|
+|t:|1683820300
+|move|p1a: Xerneas|Thunderbolt|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|
+|upkeep
+|
+|t:|1683820302
+|switch|p2a: Drampa|Drampa, L86, M|274/274
+|-damage|p2a: Drampa|240/274|[from] Stealth Rock
+|turn|29
+|
+|t:|1683820306
+|switch|p1a: Quagsire|Quagsire, L84, F|297/297
+|move|p2a: Drampa|Glare|p1a: Quagsire
+|-status|p1a: Quagsire|par
+|
+|-heal|p2a: Drampa|257/274|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1683820309
+|move|p2a: Drampa|Draco Meteor|p1a: Quagsire
+|-damage|p1a: Quagsire|75/297 par
+|-unboost|p2a: Drampa|spa|2
+|move|p1a: Quagsire|Ice Beam|p2a: Drampa
+|-supereffective|p2a: Drampa
+|-damage|p2a: Drampa|171/274
+|
+|-heal|p2a: Drampa|188/274|[from] item: Leftovers
+|-heal|p1a: Quagsire|93/297 par|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|31
+|
+|t:|1683820313
+|move|p2a: Drampa|Draco Meteor|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|-unboost|p2a: Drampa|spa|2
+|faint|p1a: Quagsire
+|
+|-heal|p2a: Drampa|205/274|[from] item: Leftovers
+|upkeep
+|
+|t:|1683820316
+|switch|p1a: Xerneas|Xerneas, L67|180/280
+|-ability|p1a: Xerneas|Fairy Aura
+|turn|32
+|
+|t:|1683820318
+|move|p1a: Xerneas|Moonblast|p2a: Drampa
+|-supereffective|p2a: Drampa
+|-damage|p2a: Drampa|1/274
+|-ability|p2a: Drampa|Berserk|boost
+|-boost|p2a: Drampa|spa|1
+|move|p2a: Drampa|Glare|p1a: Xerneas
+|-status|p1a: Xerneas|par
+|
+|-heal|p2a: Drampa|18/274|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1683820321
+|move|p1a: Xerneas|Moonblast|p2a: Drampa
+|-supereffective|p2a: Drampa
+|-damage|p2a: Drampa|0 fnt
+|faint|p2a: Drampa
+|
+|upkeep
+|
+|t:|1683820323
+|switch|p2a: Archeops|Archeops, L82, M|257/257
+|turn|34
+|
+|t:|1683820326
+|move|p2a: Archeops|Stone Edge|p1a: Xerneas
+|-damage|p1a: Xerneas|32/280 par
+|move|p1a: Xerneas|Moonblast|p2a: Archeops
+|-damage|p2a: Archeops|119/257
+|
+|upkeep
+|turn|35
+|
+|t:|1683820329
+|move|p2a: Archeops|Roost|p2a: Archeops
+|-heal|p2a: Archeops|248/257
+|-singleturn|p2a: Archeops|move: Roost
+|move|p1a: Xerneas|Moonblast|p2a: Archeops
+|-damage|p2a: Archeops|119/257
+|
+|upkeep
+|turn|36
+|
+|t:|1683820331
+|move|p2a: Archeops|Roost|p2a: Archeops
+|-heal|p2a: Archeops|248/257
+|-singleturn|p2a: Archeops|move: Roost
+|move|p1a: Xerneas|Moonblast|p2a: Archeops
+|-damage|p2a: Archeops|103/257
+|-unboost|p2a: Archeops|spa|1
+|
+|upkeep
+|turn|37
+|
+|t:|1683820334
+|move|p2a: Archeops|Roost|p2a: Archeops
+|-heal|p2a: Archeops|232/257
+|-singleturn|p2a: Archeops|move: Roost
+|move|p1a: Xerneas|Moonblast|p2a: Archeops
+|-damage|p2a: Archeops|93/257
+|-unboost|p2a: Archeops|spa|1
+|
+|upkeep
+|turn|38
+|
+|t:|1683820336
+|move|p2a: Archeops|Roost|p2a: Archeops
+|-heal|p2a: Archeops|222/257
+|-singleturn|p2a: Archeops|move: Roost
+|move|p1a: Xerneas|Moonblast|p2a: Archeops
+|-damage|p2a: Archeops|78/257
+|
+|upkeep
+|turn|39
+|
+|t:|1683820338
+|move|p2a: Archeops|Roost|p2a: Archeops
+|-heal|p2a: Archeops|207/257
+|-singleturn|p2a: Archeops|move: Roost
+|move|p1a: Xerneas|Moonblast|p2a: Archeops
+|-damage|p2a: Archeops|80/257
+|-unboost|p2a: Archeops|spa|1
+|
+|upkeep
+|turn|40
+|
+|t:|1683820340
+|move|p2a: Archeops|Roost|p2a: Archeops
+|-heal|p2a: Archeops|209/257
+|-singleturn|p2a: Archeops|move: Roost
+|move|p1a: Xerneas|Moonblast|p2a: Archeops
+|-damage|p2a: Archeops|76/257
+|
+|upkeep
+|turn|41
+|
+|t:|1683820343
+|move|p2a: Archeops|Roost|p2a: Archeops
+|-heal|p2a: Archeops|205/257
+|-singleturn|p2a: Archeops|move: Roost
+|move|p1a: Xerneas|Moonblast|p2a: Archeops
+|-damage|p2a: Archeops|75/257
+|
+|upkeep
+|turn|42
+|c|☆jezuzinatree|fiull para plz
+|c| bodi 69|lol
+|
+|t:|1683820348
+|move|p2a: Archeops|Roost|p2a: Archeops
+|-heal|p2a: Archeops|204/257
+|-singleturn|p2a: Archeops|move: Roost
+|move|p1a: Xerneas|Moonblast|p2a: Archeops
+|-damage|p2a: Archeops|69/257
+|
+|upkeep
+|turn|43
+|
+|t:|1683820352
+|move|p2a: Archeops|Roost|p2a: Archeops
+|-heal|p2a: Archeops|198/257
+|-singleturn|p2a: Archeops|move: Roost
+|cant|p1a: Xerneas|par
+|
+|upkeep
+|turn|44
+|c|☆jezuzinatree|just once
+|inactive|alienwere has 10 seconds left.
+|c| bodi 69|damn
+|c|☆alienwere|finally lol
+|
+|t:|1683820361
+|move|p2a: Archeops|Dual Wingbeat|p1a: Xerneas
+|-damage|p1a: Xerneas|0 fnt
+|faint|p1a: Xerneas
+|-hitcount|p1: Xerneas|1
+|
+|upkeep
+|
+|t:|1683820363
+|switch|p1a: Crustle|Crustle, L82, F|249/249
+|turn|45
+|
+|t:|1683820365
+|-start|p1a: Crustle|Dynamax|
+|-heal|p1a: Crustle|498/498|[silent]
+|move|p2a: Archeops|Stone Edge|p1a: Crustle
+|-supereffective|p1a: Crustle
+|-crit|p1a: Crustle
+|-damage|p1a: Crustle|202/498
+|move|p1a: Crustle|Max Rockfall|p2a: Archeops
+|-supereffective|p2a: Archeops
+|-damage|p2a: Archeops|0 fnt
+|-weather|Sandstorm
+|faint|p2a: Archeops
+|
+|win|alienwere
+|n|☆alienwere|alienwere
+|n|☆jezuzinatree|jezuzinatree
+|n| bodi 69|bodi69
+|n| Durango|durango
+|n| Elitemasterjames|elitemasterjames
+|n| GuarsiLoka|guarsiloka

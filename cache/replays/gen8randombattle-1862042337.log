@@ -1,0 +1,229 @@
+|j|☆rafalotee
+|j|☆Baltany
+|t:|1683831391
+|gametype|singles
+|player|p1|rafalotee|266|
+|player|p2|Baltany|psychic-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1683831391
+|start
+|switch|p1a: Flareon|Flareon, L86, M|251/251
+|switch|p2a: Accelgor|Accelgor, L86, M|278/278
+|turn|1
+|c|☆Baltany|gg
+|
+|t:|1683831410
+|move|p2a: Accelgor|Yawn|p1a: Flareon
+|-start|p1a: Flareon|move: Yawn|[of] p2a: Accelgor
+|move|p1a: Flareon|Superpower|p2a: Accelgor
+|-resisted|p2a: Accelgor
+|-damage|p2a: Accelgor|178/278
+|-unboost|p1a: Flareon|atk|1
+|-unboost|p1a: Flareon|def|1
+|
+|-status|p1a: Flareon|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1683831440
+|switch|p2a: Weezing|Weezing-Galar, L86, M|252/252
+|-start|p1a: Flareon|Dynamax|
+|-heal|p1a: Flareon|502/502 tox|[silent]
+|move|p1a: Flareon|Max Flare|p2a: Weezing
+|-damage|p2a: Weezing|105/252
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Weezing|120/252|[from] item: Black Sludge
+|-damage|p1a: Flareon|487/502 tox|[from] psn
+|-end|p1a: Flareon|move: Yawn|[silent]
+|upkeep
+|turn|3
+|
+|t:|1683831459
+|move|p1a: Flareon|Max Flare|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Flareon|457/502 tox|[from] psn
+|upkeep
+|
+|t:|1683831487
+|switch|p2a: Hitmonlee|Hitmonlee, L84, M|221/221
+|turn|4
+|
+|t:|1683831495
+|move|p2a: Hitmonlee|Stone Edge|p1a: Flareon|[miss]
+|-miss|p2a: Hitmonlee|p1a: Flareon
+|move|p1a: Flareon|Max Knuckle|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|88/221
+|-boost|p1a: Flareon|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Flareon|412/502 tox|[from] psn
+|upkeep
+|-end|p1a: Flareon|Dynamax
+|-heal|p1a: Flareon|206/251 tox|[silent]
+|turn|5
+|
+|t:|1683831507
+|move|p2a: Hitmonlee|Stone Edge|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1683831529
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, L82, F|257/257
+|turn|6
+|
+|t:|1683831557
+|move|p1a: Toxtricity|Volt Switch|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|22/221
+|
+|t:|1683831565
+|switch|p1a: Raichu|Raichu-Alola, L84, M|238/238|[from] Volt Switch
+|move|p2a: Hitmonlee|Knock Off|p1a: Raichu
+|-supereffective|p1a: Raichu
+|-damage|p1a: Raichu|10/238
+|-enditem|p1a: Raichu|Life Orb|[from] move: Knock Off|[of] p2a: Hitmonlee
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1683831575
+|move|p1a: Raichu|Focus Blast|p2a: Hitmonlee|[miss]
+|-miss|p1a: Raichu|p2a: Hitmonlee
+|move|p2a: Hitmonlee|Stone Edge|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|upkeep
+|
+|t:|1683831582
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, L82, F|257/257
+|turn|8
+|
+|t:|1683831589
+|move|p1a: Toxtricity|Volt Switch|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|
+|t:|1683831595
+|switch|p1a: Landorus|Landorus, L76, M|260/260|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1683831604
+|switch|p2a: Accelgor|Accelgor, L86, M|178/278
+|turn|9
+|
+|t:|1683831613
+|move|p2a: Accelgor|Yawn|p1a: Landorus
+|-start|p1a: Landorus|move: Yawn|[of] p2a: Accelgor
+|move|p1a: Landorus|Rock Slide|p2a: Accelgor
+|-supereffective|p2a: Accelgor
+|-damage|p2a: Accelgor|0 fnt
+|faint|p2a: Accelgor
+|
+|upkeep
+|
+|t:|1683831625
+|switch|p2a: Mewtwo|Mewtwo, L72|272/272
+|-ability|p2a: Mewtwo|Unnerve
+|turn|10
+|
+|t:|1683831636
+|move|p2a: Mewtwo|Nasty Plot|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spa|2
+|move|p1a: Landorus|Focus Blast|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|193/272
+|
+|-heal|p2a: Mewtwo|210/272|[from] item: Leftovers
+|-end|p1a: Landorus|move: Yawn|[silent]
+|-status|p1a: Landorus|slp
+|upkeep
+|turn|11
+|
+|t:|1683831645
+|move|p2a: Mewtwo|Nasty Plot|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spa|2
+|cant|p1a: Landorus|slp
+|
+|-heal|p2a: Mewtwo|227/272|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1683831654
+|move|p2a: Mewtwo|Psystrike|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-heal|p2a: Mewtwo|244/272|[from] item: Leftovers
+|upkeep
+|
+|t:|1683831657
+|switch|p1a: Tapu Bulu|Tapu Bulu, L82|249/249
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|turn|13
+|
+|t:|1683831665
+|-start|p2a: Mewtwo|Dynamax|
+|-heal|p2a: Mewtwo|488/544|[silent]
+|move|p2a: Mewtwo|Max Flare|p1a: Tapu Bulu
+|-supereffective|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|0 fnt
+|-weather|SunnyDay
+|faint|p1a: Tapu Bulu
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Mewtwo|505/544|[from] Grassy Terrain
+|-heal|p2a: Mewtwo|522/544|[from] item: Leftovers
+|upkeep
+|
+|t:|1683831670
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, L82, F|257/257
+|turn|14
+|
+|t:|1683831678
+|move|p1a: Toxtricity|Volt Switch|p2a: Mewtwo
+|-damage|p2a: Mewtwo|438/544
+|
+|t:|1683831683
+|switch|p1a: Appletun|Appletun, L90, M|344/344|[from] Volt Switch
+|move|p2a: Mewtwo|Max Mindstorm|p1a: Appletun
+|-damage|p1a: Appletun|0 fnt
+|-fieldstart|move: Psychic Terrain
+|faint|p1a: Appletun
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Mewtwo|455/544|[from] item: Leftovers
+|upkeep
+|c|☆Baltany|gg
+|
+|t:|1683831692
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, L82, F|257/257
+|turn|15
+|
+|t:|1683831701
+|move|p1a: Toxtricity|Overdrive|p2a: Mewtwo
+|-damage|p2a: Mewtwo|313/544
+|move|p2a: Mewtwo|Max Mindstorm|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|win|Baltany

@@ -1,0 +1,207 @@
+|j|☆Hilda2021
+|j|☆lui 2022
+|t:|1683816862
+|gametype|singles
+|player|p1|Hilda2021|hilda|
+|player|p2|lui 2022|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1683816862
+|start
+|switch|p1a: Eldegoss|Eldegoss, L90, F|254/254
+|switch|p2a: Bewear|Bewear, L82, M|331/331
+|turn|1
+|
+|t:|1683816875
+|move|p1a: Eldegoss|Leech Seed|p2a: Bewear
+|-start|p2a: Bewear|move: Leech Seed
+|move|p2a: Bewear|Swords Dance|p2a: Bewear
+|-boost|p2a: Bewear|atk|2
+|
+|-damage|p2a: Bewear|290/331|[from] Leech Seed|[of] p1a: Eldegoss
+|upkeep
+|turn|2
+|
+|t:|1683816885
+|move|p1a: Eldegoss|Energy Ball|p2a: Bewear
+|-damage|p2a: Bewear|161/331
+|-unboost|p2a: Bewear|spd|1
+|move|p2a: Bewear|Swords Dance|p2a: Bewear
+|-boost|p2a: Bewear|atk|2
+|
+|-damage|p2a: Bewear|120/331|[from] Leech Seed|[of] p1a: Eldegoss
+|upkeep
+|turn|3
+|
+|t:|1683816896
+|-start|p2a: Bewear|Dynamax|
+|-heal|p2a: Bewear|240/662|[silent]
+|move|p1a: Eldegoss|Energy Ball|p2a: Bewear
+|-damage|p2a: Bewear|50/662
+|move|p2a: Bewear|Max Hailstorm|p1a: Eldegoss
+|-supereffective|p1a: Eldegoss
+|-damage|p1a: Eldegoss|0 fnt
+|-weather|Hail
+|faint|p1a: Eldegoss
+|-damage|p2a: Bewear|17/662|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Bewear|0 fnt|[from] Hail
+|faint|p2a: Bewear
+|upkeep
+|
+|t:|1683816919
+|switch|p1a: Golisopod|Golisopod, L84, M|263/263
+|switch|p2a: Armaldo|Armaldo, L86, F|269/269
+|turn|4
+|
+|t:|1683816956
+|move|p2a: Armaldo|Stone Edge|p1a: Golisopod
+|-supereffective|p1a: Golisopod
+|-damage|p1a: Golisopod|59/263
+|-activate|p1a: Golisopod|ability: Emergency Exit
+|
+|t:|1683816976
+|switch|p1a: Rhydon|Rhydon, L87, F|324/324
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Armaldo|253/269|[from] Hail
+|-damage|p1a: Rhydon|304/324|[from] Hail
+|upkeep
+|turn|5
+|
+|t:|1683816993
+|move|p2a: Armaldo|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|218/324
+|move|p1a: Rhydon|Stealth Rock|p2a: Armaldo
+|-sidestart|p2: lui 2022|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Armaldo|237/269|[from] Hail
+|-damage|p1a: Rhydon|198/324|[from] Hail
+|upkeep
+|turn|6
+|
+|t:|1683817007
+|move|p2a: Armaldo|Swords Dance|p2a: Armaldo
+|-boost|p2a: Armaldo|atk|2
+|move|p1a: Rhydon|Earthquake|p2a: Armaldo
+|-damage|p2a: Armaldo|108/269
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Armaldo|92/269|[from] Hail
+|-damage|p1a: Rhydon|178/324|[from] Hail
+|upkeep
+|turn|7
+|
+|t:|1683817019
+|move|p2a: Armaldo|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|-weather|none
+|upkeep
+|
+|t:|1683817027
+|switch|p1a: Golisopod|Golisopod, L84, M|59/263
+|turn|8
+|
+|t:|1683817031
+|move|p1a: Golisopod|First Impression|p2a: Armaldo
+|-damage|p2a: Armaldo|0 fnt
+|faint|p2a: Armaldo
+|
+|upkeep
+|
+|t:|1683817044
+|switch|p2a: Diancie|Diancie, L82|216/216
+|-damage|p2a: Diancie|189/216|[from] Stealth Rock
+|turn|9
+|
+|t:|1683817058
+|move|p2a: Diancie|Diamond Storm|p1a: Golisopod|[miss]
+|-miss|p2a: Diancie|p1a: Golisopod
+|move|p1a: Golisopod|Liquidation|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|33/216
+|
+|-heal|p2a: Diancie|46/216|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1683817073
+|move|p2a: Diancie|Moonblast|p1a: Golisopod
+|-damage|p1a: Golisopod|0 fnt
+|faint|p1a: Golisopod
+|
+|-heal|p2a: Diancie|59/216|[from] item: Leftovers
+|upkeep
+|
+|t:|1683817097
+|switch|p1a: Absol|Absol, L84, M|246/246
+|turn|11
+|
+|t:|1683817108
+|-start|p1a: Absol|Dynamax|
+|-heal|p1a: Absol|492/492|[silent]
+|move|p1a: Absol|Max Knuckle|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|-boost|p1a: Absol|atk|1
+|faint|p2a: Diancie
+|-damage|p1a: Absol|468/492|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1683817122
+|switch|p2a: Alakazam|Alakazam, L78, F|214/214
+|turn|12
+|
+|t:|1683817144
+|move|p2a: Alakazam|Shadow Ball|p1a: Absol
+|-resisted|p1a: Absol
+|-damage|p1a: Absol|416/492
+|move|p1a: Absol|Max Darkness|p2a: Alakazam
+|-supereffective|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|-damage|p1a: Absol|392/492|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1683817157
+|switch|p2a: Kingler|Kingler, L84, M|230/230
+|-damage|p2a: Kingler|202/230|[from] Stealth Rock
+|turn|13
+|
+|t:|1683817165
+|move|p1a: Absol|Max Darkness|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|-damage|p1a: Absol|368/492|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1683817172
+|switch|p2a: Zekrom|Zekrom, L69|252/252
+|-damage|p2a: Zekrom|221/252|[from] Stealth Rock
+|-ability|p2a: Zekrom|Teravolt
+|-end|p1a: Absol|Dynamax
+|-heal|p1a: Absol|184/246|[silent]
+|turn|14
+|
+|t:|1683817182
+|move|p1a: Absol|Play Rough|p2a: Zekrom
+|-supereffective|p2a: Zekrom
+|-damage|p2a: Zekrom|0 fnt
+|faint|p2a: Zekrom
+|-damage|p1a: Absol|160/246|[from] item: Life Orb
+|
+|win|Hilda2021

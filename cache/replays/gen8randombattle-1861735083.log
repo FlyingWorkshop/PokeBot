@@ -1,0 +1,247 @@
+|j|☆ZXD_9876
+|j|☆youngelove
+|t:|1683802011
+|gametype|singles
+|player|p1|ZXD_9876|101|
+|player|p2|youngelove|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1683802011
+|start
+|switch|p1a: Drednaw|Drednaw, L84, M|288/288
+|switch|p2a: Gourgeist|Gourgeist-Large, L84, F|263/263
+|-item|p1a: Drednaw|Life Orb|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ZXD_9876)
+|
+|t:|1683802027
+|switch|p1a: Rillaboom|Rillaboom, L78, M|284/284
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Gourgeist|Poltergeist|p1a: Rillaboom
+|-activate|p1a: Rillaboom|move: Poltergeist|Choice Band
+|-damage|p1a: Rillaboom|172/284
+|
+|-heal|p1a: Rillaboom|189/284|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1683802039
+|move|p1a: Rillaboom|U-turn|p2a: Gourgeist
+|-damage|p2a: Gourgeist|198/263
+|
+|t:|1683802051
+|switch|p1a: Indeedee|Indeedee-F, L85, F|258/258|[from] U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Indeedee
+|-status|p1a: Indeedee|brn
+|
+|-heal|p2a: Gourgeist|214/263|[from] item: Leftovers
+|-damage|p1a: Indeedee|242/258 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1683802077
+|switch|p2a: Diancie|Diancie, L82|216/216
+|move|p1a: Indeedee|Mystical Fire|p2a: Diancie
+|-resisted|p2a: Diancie
+|-damage|p2a: Diancie|200/216
+|-damage|p1a: Indeedee|217/258 brn|[from] item: Life Orb
+|
+|-damage|p1a: Indeedee|201/258 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|youngelove has 270 seconds left.
+|
+|t:|1683802095
+|switch|p1a: Rillaboom|Rillaboom, L78, M|189/284
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Diancie|Diamond Storm|p1a: Rillaboom
+|-damage|p1a: Rillaboom|78/284
+|
+|-heal|p1a: Rillaboom|95/284|[from] Grassy Terrain
+|-heal|p2a: Diancie|213/216|[from] Grassy Terrain
+|upkeep
+|turn|5
+|c|☆ZXD_9876|포켓몬이
+|c|☆ZXD_9876|노답인데
+|inactive|youngelove has 270 seconds left.
+|
+|t:|1683802108
+|switch|p2a: Garbodor|Garbodor, L87, M|281/281
+|move|p1a: Rillaboom|U-turn|p2a: Garbodor
+|-resisted|p2a: Garbodor
+|-damage|p2a: Garbodor|238/281
+|
+|t:|1683802123
+|switch|p1a: Latias|Latias, L80, F|259/259|[from] U-turn
+|
+|-heal|p2a: Garbodor|255/281|[from] Grassy Terrain
+|-heal|p2a: Garbodor|272/281|[from] item: Black Sludge
+|upkeep
+|turn|6
+|c|☆youngelove|나도란다
+|inactive|youngelove has 270 seconds left.
+|
+|t:|1683802140
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Garbodor|Spikes|p1a: Latias
+|-sidestart|p1: ZXD_9876|Spikes
+|
+|-heal|p2a: Garbodor|281/281|[from] Grassy Terrain
+|upkeep
+|turn|7
+|inactive|youngelove has 270 seconds left.
+|
+|t:|1683802151
+|move|p1a: Latias|Psychic|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|3/281
+|-unboost|p2a: Garbodor|spd|1
+|move|p2a: Garbodor|Gunk Shot|p1a: Latias
+|-damage|p1a: Latias|121/259
+|
+|-heal|p1a: Latias|137/259|[from] item: Leftovers
+|-heal|p2a: Garbodor|20/281|[from] Grassy Terrain
+|-heal|p2a: Garbodor|37/281|[from] item: Black Sludge
+|upkeep
+|turn|8
+|inactive|youngelove has 270 seconds left.
+|
+|t:|1683802166
+|move|p1a: Latias|Psychic|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|-heal|p1a: Latias|153/259|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|inactive|youngelove has 270 seconds left.
+|
+|t:|1683802179
+|switch|p2a: Golurk|Golurk, L82|280/280
+|turn|9
+|inactive|youngelove has 270 seconds left.
+|
+|t:|1683802189
+|move|p1a: Latias|Psychic|p2a: Golurk
+|-damage|p2a: Golurk|127/280
+|move|p2a: Golurk|Poltergeist|p1a: Latias
+|-activate|p1a: Latias|move: Poltergeist|Leftovers
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|-damage|p2a: Golurk|99/280|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1683802199
+|switch|p1a: Sandslash|Sandslash, L86, F|269/269
+|-damage|p1a: Sandslash|236/269|[from] Spikes
+|turn|10
+|inactive|youngelove has 270 seconds left.
+|
+|t:|1683802216
+|move|p1a: Sandslash|Rapid Spin|p2a: Golurk
+|-immune|p2a: Golurk
+|move|p2a: Golurk|Poltergeist|p1a: Sandslash
+|-activate|p1a: Sandslash|move: Poltergeist|Leftovers
+|-damage|p1a: Sandslash|103/269
+|-damage|p2a: Golurk|71/280|[from] item: Life Orb
+|
+|-heal|p1a: Sandslash|119/269|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|youngelove has 270 seconds left.
+|c|☆youngelove|ㅋ
+|c|☆youngelove|어딜
+|
+|t:|1683802230
+|switch|p2a: Gourgeist|Gourgeist-Large, L84, F|214/263
+|-item|p1a: Sandslash|Leftovers|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Sandslash|Earthquake|p2a: Gourgeist
+|-resisted|p2a: Gourgeist
+|-damage|p2a: Gourgeist|172/263
+|
+|-heal|p2a: Gourgeist|188/263|[from] item: Leftovers
+|-heal|p1a: Sandslash|135/269|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|youngelove has 270 seconds left.
+|
+|t:|1683802246
+|move|p2a: Gourgeist|Synthesis|p2a: Gourgeist
+|-heal|p2a: Gourgeist|263/263
+|move|p1a: Sandslash|Stone Edge|p2a: Gourgeist|[miss]
+|-miss|p1a: Sandslash|p2a: Gourgeist
+|
+|-heal|p1a: Sandslash|151/269|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1683802256
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Sandslash
+|-status|p1a: Sandslash|brn
+|move|p1a: Sandslash|Stone Edge|p2a: Gourgeist
+|-damage|p2a: Gourgeist|233/263
+|
+|-heal|p2a: Gourgeist|249/263|[from] item: Leftovers
+|-heal|p1a: Sandslash|167/269 brn|[from] item: Leftovers
+|-damage|p1a: Sandslash|151/269 brn|[from] brn
+|upkeep
+|turn|14
+|inactive|youngelove has 270 seconds left.
+|
+|t:|1683802273
+|move|p2a: Gourgeist|Poltergeist|p1a: Sandslash
+|-activate|p1a: Sandslash|move: Poltergeist|Leftovers
+|-damage|p1a: Sandslash|55/269 brn
+|move|p1a: Sandslash|Swords Dance|p1a: Sandslash
+|-boost|p1a: Sandslash|atk|2
+|
+|-heal|p2a: Gourgeist|263/263|[from] item: Leftovers
+|-heal|p1a: Sandslash|71/269 brn|[from] item: Leftovers
+|-damage|p1a: Sandslash|55/269 brn|[from] brn
+|upkeep
+|turn|15
+|inactive|youngelove has 270 seconds left.
+|
+|t:|1683802285
+|move|p2a: Gourgeist|Poltergeist|p1a: Sandslash
+|-activate|p1a: Sandslash|move: Poltergeist|Leftovers
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|
+|upkeep
+|
+|t:|1683802299
+|switch|p1a: Rillaboom|Rillaboom, L78, M|95/284
+|-damage|p1a: Rillaboom|60/284|[from] Spikes
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|16
+|
+|t:|1683802308
+|move|p1a: Rillaboom|Knock Off|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|99/263
+|-enditem|p2a: Gourgeist|Leftovers|[from] move: Knock Off|[of] p1a: Rillaboom
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Rillaboom
+|-status|p1a: Rillaboom|brn
+|
+|-heal|p1a: Rillaboom|77/284 brn|[from] Grassy Terrain
+|-heal|p2a: Gourgeist|115/263|[from] Grassy Terrain
+|-damage|p1a: Rillaboom|60/284 brn|[from] brn
+|upkeep
+|turn|17
+|-message|ZXD_9876 forfeited.
+|
+|win|youngelove
+|l|☆ZXD_9876

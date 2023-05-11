@@ -1,0 +1,307 @@
+|j|☆wiener boop
+|j|☆TYLERMATAFUKIN1
+|t:|1683800112
+|gametype|singles
+|player|p1|wiener boop|169|1384
+|player|p2|TYLERMATAFUKIN1|giovanni|1327
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1683800112
+|start
+|switch|p1a: Meowstic|Meowstic-F, L86, F|268/268
+|switch|p2a: Espeon|Espeon, L82, M|241/241
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by wiener boop)
+|
+|t:|1683800125
+|move|p2a: Espeon|Shadow Ball|p1a: Meowstic
+|-supereffective|p1a: Meowstic
+|-damage|p1a: Meowstic|89/268
+|-damage|p2a: Espeon|217/241|[from] item: Life Orb
+|move|p1a: Meowstic|Nasty Plot|p1a: Meowstic
+|-boost|p1a: Meowstic|spa|2
+|
+|upkeep
+|turn|2
+|c|☆TYLERMATAFUKIN1|50/50
+|c|☆TYLERMATAFUKIN1|you feel lucky?
+|
+|t:|1683800154
+|switch|p1a: Drampa|Drampa, L86, F|274/274
+|move|p2a: Espeon|Shadow Ball|p1a: Drampa
+|-immune|p1a: Drampa
+|
+|upkeep
+|turn|3
+|c|☆TYLERMATAFUKIN1|lol
+|c|☆TYLERMATAFUKIN1|sure
+|inactive|wiener boop has 120 seconds left.
+|
+|t:|1683800184
+|move|p2a: Espeon|Dazzling Gleam|p1a: Drampa
+|-supereffective|p1a: Drampa
+|-damage|p1a: Drampa|100/274
+|-ability|p1a: Drampa|Berserk|boost
+|-boost|p1a: Drampa|spa|1
+|-damage|p2a: Espeon|193/241|[from] item: Life Orb
+|move|p1a: Drampa|Hyper Voice|p2a: Espeon
+|-damage|p2a: Espeon|15/241
+|
+|-heal|p1a: Drampa|117/274|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|wiener boop has 120 seconds left.
+|
+|t:|1683800199
+|switch|p1a: Steelix|Steelix, L84, F|263/263
+|move|p2a: Espeon|Dazzling Gleam|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|205/263
+|-damage|p2a: Espeon|0 fnt|[from] item: Life Orb
+|faint|p2a: Espeon
+|
+|-heal|p1a: Steelix|221/263|[from] item: Leftovers
+|upkeep
+|
+|t:|1683800214
+|switch|p2a: Palkia|Palkia, L74|255/255
+|-ability|p2a: Palkia|Pressure
+|turn|5
+|inactive|wiener boop has 120 seconds left.
+|
+|t:|1683800242
+|move|p2a: Palkia|Hydro Pump|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-crit|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|faint|p1a: Steelix
+|
+|upkeep
+|
+|t:|1683800262
+|switch|p1a: Garchomp|Garchomp, L74, F|282/282
+|turn|6
+|inactive|TYLERMATAFUKIN1 has 120 seconds left.
+|
+|t:|1683800294
+|switch|p2a: Carbink|Carbink, L86|226/226
+|move|p1a: Garchomp|Outrage|p2a: Carbink
+|-immune|p2a: Carbink
+|
+|upkeep
+|turn|7
+|
+|t:|1683800306
+|move|p1a: Garchomp|Earthquake|p2a: Carbink
+|-supereffective|p2a: Carbink
+|-damage|p2a: Carbink|98/226
+|move|p2a: Carbink|Moonblast|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|124/282
+|
+|upkeep
+|turn|8
+|inactive|TYLERMATAFUKIN1 has 120 seconds left.
+|
+|t:|1683800324
+|move|p1a: Garchomp|Earthquake|p2a: Carbink
+|-supereffective|p2a: Carbink
+|-damage|p2a: Carbink|0 fnt
+|faint|p2a: Carbink
+|
+|upkeep
+|
+|t:|1683800327
+|switch|p2a: Tangrowth|Tangrowth, L84, F|305/305
+|turn|9
+|inactive|wiener boop has 120 seconds left.
+|
+|t:|1683800343
+|switch|p1a: Meowstic|Meowstic-F, L86, F|89/268
+|move|p2a: Tangrowth|Giga Drain|p1a: Meowstic
+|-damage|p1a: Meowstic|4/268
+|
+|upkeep
+|turn|10
+|
+|t:|1683800355
+|move|p1a: Meowstic|Psychic|p2a: Tangrowth
+|-damage|p2a: Tangrowth|148/305
+|-damage|p1a: Meowstic|0 fnt|[from] item: Life Orb
+|faint|p1a: Meowstic
+|move|p2a: Tangrowth|Knock Off|p1: Meowstic|[notarget]
+|-fail|p2a: Tangrowth
+|
+|upkeep
+|
+|t:|1683800367
+|switch|p1a: Drampa|Drampa, L86, F|117/274
+|turn|11
+|
+|t:|1683800372
+|switch|p2a: Palkia|Palkia, L74|255/255
+|-ability|p2a: Palkia|Pressure
+|move|p1a: Drampa|Draco Meteor|p2a: Palkia
+|-supereffective|p2a: Palkia
+|-damage|p2a: Palkia|0 fnt
+|-unboost|p1a: Drampa|spa|2
+|faint|p2a: Palkia
+|
+|-heal|p1a: Drampa|134/274|[from] item: Leftovers
+|upkeep
+|n|!TYLERMATAFUKIN1|tylermatafukin1
+|c|☆wiener boop|?
+|
+|t:|1683800387
+|switch|p2a: Tangrowth|Tangrowth, L84, F|249/305
+|turn|12
+|
+|t:|1683800396
+|move|p2a: Tangrowth|Giga Drain|p1a: Drampa
+|-resisted|p1a: Drampa
+|-damage|p1a: Drampa|95/274
+|-heal|p2a: Tangrowth|269/305|[from] drain|[of] p1a: Drampa
+|move|p1a: Drampa|Fire Blast|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|107/305
+|
+|-heal|p1a: Drampa|112/274|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1683800407
+|move|p2a: Tangrowth|Leech Seed|p1a: Drampa
+|-start|p1a: Drampa|move: Leech Seed
+|move|p1a: Drampa|Roost|p1a: Drampa
+|-heal|p1a: Drampa|249/274
+|-singleturn|p1a: Drampa|move: Roost
+|
+|-heal|p1a: Drampa|266/274|[from] item: Leftovers
+|-damage|p1a: Drampa|232/274|[from] Leech Seed|[of] p2a: Tangrowth
+|-heal|p2a: Tangrowth|141/305|[silent]
+|upkeep
+|turn|14
+|
+|t:|1683800416
+|switch|p1a: Weezing|Weezing-Galar, L86, M|252/252
+|move|p2a: Tangrowth|Sludge Bomb|p1a: Weezing
+|-damage|p1a: Weezing|164/252
+|
+|-heal|p1a: Weezing|179/252|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|t:|1683800425
+|move|p1a: Weezing|Fire Blast|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|faint|p2a: Tangrowth
+|
+|-heal|p1a: Weezing|194/252|[from] item: Black Sludge
+|upkeep
+|
+|t:|1683800442
+|switch|p2a: Gengar|Gengar, L80, F|227/227
+|turn|16
+|
+|t:|1683800452
+|switch|p1a: Drampa|Drampa, L86, F|232/274
+|move|p2a: Gengar|Nasty Plot|p2a: Gengar
+|-boost|p2a: Gengar|spa|2
+|
+|-heal|p1a: Drampa|249/274|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1683800472
+|move|p2a: Gengar|Focus Blast|p1a: Drampa
+|-supereffective|p1a: Drampa
+|-damage|p1a: Drampa|0 fnt
+|faint|p1a: Drampa
+|-damage|p2a: Gengar|205/227|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1683800482
+|switch|p1a: Tauros|Tauros, L82, M|257/257
+|turn|18
+|
+|t:|1683800497
+|-start|p1a: Tauros|Dynamax|
+|-heal|p1a: Tauros|514/514|[silent]
+|move|p1a: Tauros|Max Mindstorm|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-fieldstart|move: Psychic Terrain
+|faint|p2a: Gengar
+|-damage|p1a: Tauros|489/514|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1683800503
+|switch|p2a: Silvally|Silvally-Electric, L84|297/297
+|turn|19
+|c|☆wiener boop|unfort match up
+|c|☆wiener boop|tbh
+|
+|t:|1683800518
+|-start|p2a: Silvally|Dynamax|
+|-heal|p2a: Silvally|594/594|[silent]
+|move|p1a: Tauros|Max Strike|p2a: Silvally
+|-damage|p2a: Silvally|433/594
+|-unboost|p2a: Silvally|spe|1
+|-damage|p1a: Tauros|464/514|[from] item: Life Orb
+|move|p2a: Silvally|Max Hailstorm|p1a: Tauros
+|-damage|p1a: Tauros|362/514
+|-weather|Hail
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tauros|346/514|[from] Hail
+|-damage|p2a: Silvally|415/594|[from] Hail
+|upkeep
+|turn|20
+|c|☆wiener boop|soz
+|
+|t:|1683800533
+|move|p2a: Silvally|Max Guard|p2a: Silvally
+|-singleturn|p2a: Silvally|Max Guard
+|move|p1a: Tauros|Max Knuckle|p2a: Silvally
+|-activate|p2a: Silvally|move: Max Guard
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tauros|330/514|[from] Hail
+|-damage|p2a: Silvally|397/594|[from] Hail
+|upkeep
+|-end|p1a: Tauros|Dynamax
+|-heal|p1a: Tauros|165/257|[silent]
+|turn|21
+|
+|t:|1683800541
+|move|p1a: Tauros|Body Slam|p2a: Silvally
+|-damage|p2a: Silvally|267/594
+|move|p2a: Silvally|Max Hailstorm|p1a: Tauros
+|-damage|p1a: Tauros|56/257
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tauros|40/257|[from] Hail
+|-damage|p2a: Silvally|249/594|[from] Hail
+|upkeep
+|-end|p2a: Silvally|Dynamax
+|-heal|p2a: Silvally|125/297|[silent]
+|turn|22
+|
+|t:|1683800547
+|move|p1a: Tauros|Body Slam|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|win|wiener boop
+|raw|wiener boop's rating: 1384 &rarr; <strong>1401</strong><br />(+17 for winning)
+|raw|TYLERMATAFUKIN1's rating: 1327 &rarr; <strong>1310</strong><br />(-17 for losing)

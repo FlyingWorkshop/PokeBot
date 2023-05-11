@@ -1,0 +1,383 @@
+|j|☆lauda Mera
+|j|☆N0VAgenesis
+|t:|1683836202
+|gametype|singles
+|player|p1|lauda Mera|hilbert-wonderlauncher|1474
+|player|p2|N0VAgenesis|ingo|1483
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1683836202
+|start
+|switch|p1a: Glalie|Glalie, L80, M|259/259
+|switch|p2a: Mantine|Mantine, L86, M|286/286
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lauda Mera)
+|
+|t:|1683836230
+|switch|p2a: Toxtricity|Toxtricity, L82, M|257/257
+|move|p1a: Glalie|Substitute|p1a: Glalie
+|-start|p1a: Glalie|Substitute
+|-damage|p1a: Glalie|195/259
+|
+|-heal|p1a: Glalie|211/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|def|2
+|-unboost|p1a: Glalie|atk|1
+|upkeep
+|turn|2
+|
+|t:|1683836239
+|move|p1a: Glalie|Protect|p1a: Glalie
+|-singleturn|p1a: Glalie|Protect
+|move|p2a: Toxtricity|Boomburst|p1a: Glalie
+|-activate|p1a: Glalie|move: Protect
+|
+|-heal|p1a: Glalie|227/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|atk|2
+|-unboost|p1a: Glalie|spa|1
+|upkeep
+|turn|3
+|
+|t:|1683836246
+|move|p1a: Glalie|Earthquake|p2a: Toxtricity
+|-supereffective|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|-heal|p1a: Glalie|243/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spa|2
+|-unboost|p1a: Glalie|spd|1
+|upkeep
+|
+|t:|1683836259
+|switch|p2a: Zapdos|Zapdos, L78|267/267
+|turn|4
+|
+|t:|1683836266
+|move|p1a: Glalie|Protect|p1a: Glalie
+|-singleturn|p1a: Glalie|Protect
+|move|p2a: Zapdos|Discharge|p1a: Glalie
+|-activate|p1a: Glalie|move: Protect
+|
+|-heal|p1a: Glalie|259/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|atk|2
+|-unboost|p1a: Glalie|spa|1
+|upkeep
+|turn|5
+|
+|t:|1683836280
+|move|p2a: Zapdos|Discharge|p1a: Glalie
+|-end|p1a: Glalie|Substitute
+|-damage|p2a: Zapdos|241/267|[from] item: Life Orb
+|move|p1a: Glalie|Substitute|p1a: Glalie
+|-start|p1a: Glalie|Substitute
+|-damage|p1a: Glalie|195/259
+|
+|-heal|p1a: Glalie|211/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spa|2
+|-unboost|p1a: Glalie|def|1
+|upkeep
+|turn|6
+|
+|t:|1683836286
+|move|p1a: Glalie|Protect|p1a: Glalie
+|-singleturn|p1a: Glalie|Protect
+|move|p2a: Zapdos|Discharge|p1a: Glalie
+|-activate|p1a: Glalie|move: Protect
+|
+|-heal|p1a: Glalie|227/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spa|2
+|-unboost|p1a: Glalie|def|1
+|upkeep
+|turn|7
+|
+|t:|1683836301
+|move|p2a: Zapdos|Discharge|p1a: Glalie
+|-end|p1a: Glalie|Substitute
+|-damage|p2a: Zapdos|215/267|[from] item: Life Orb
+|move|p1a: Glalie|Substitute|p1a: Glalie
+|-start|p1a: Glalie|Substitute
+|-damage|p1a: Glalie|163/259
+|
+|-heal|p1a: Glalie|179/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spa|2
+|-unboost|p1a: Glalie|def|1
+|upkeep
+|turn|8
+|
+|t:|1683836307
+|move|p1a: Glalie|Protect|p1a: Glalie
+|-singleturn|p1a: Glalie|Protect
+|move|p2a: Zapdos|Discharge|p1a: Glalie
+|-activate|p1a: Glalie|move: Protect
+|
+|-heal|p1a: Glalie|195/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|atk|2
+|-unboost|p1a: Glalie|spe|1
+|upkeep
+|turn|9
+|
+|t:|1683836311
+|move|p2a: Zapdos|Discharge|p1a: Glalie
+|-end|p1a: Glalie|Substitute
+|-damage|p2a: Zapdos|189/267|[from] item: Life Orb
+|move|p1a: Glalie|Freeze-Dry|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-heal|p1a: Glalie|211/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spe|2
+|-unboost|p1a: Glalie|spd|1
+|upkeep
+|
+|t:|1683836320
+|switch|p2a: Genesect|Genesect, L74|227/227
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|spa|1
+|turn|10
+|
+|t:|1683836334
+|move|p1a: Glalie|Protect|p1a: Glalie
+|-singleturn|p1a: Glalie|Protect
+|move|p2a: Genesect|Extreme Speed|p1a: Glalie
+|-activate|p1a: Glalie|move: Protect
+|
+|-heal|p1a: Glalie|227/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|atk|1
+|-unboost|p1a: Glalie|spa|1
+|upkeep
+|turn|11
+|
+|t:|1683836338
+|move|p2a: Genesect|Extreme Speed|p1a: Glalie
+|-damage|p1a: Glalie|115/259
+|-damage|p2a: Genesect|205/227|[from] item: Life Orb
+|move|p1a: Glalie|Substitute|p1a: Glalie
+|-start|p1a: Glalie|Substitute
+|-damage|p1a: Glalie|51/259
+|
+|-heal|p1a: Glalie|67/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spe|2
+|-unboost|p1a: Glalie|atk|1
+|upkeep
+|turn|12
+|
+|t:|1683836344
+|move|p1a: Glalie|Protect|p1a: Glalie
+|-singleturn|p1a: Glalie|Protect
+|move|p2a: Genesect|Extreme Speed|p1a: Glalie
+|-activate|p1a: Glalie|move: Protect
+|
+|-heal|p1a: Glalie|83/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spa|1
+|-unboost|p1a: Glalie|spd|1
+|upkeep
+|turn|13
+|
+|t:|1683836359
+|move|p2a: Genesect|Extreme Speed|p1a: Glalie
+|-end|p1a: Glalie|Substitute
+|-damage|p2a: Genesect|183/227|[from] item: Life Orb
+|move|p1a: Glalie|Earthquake|p2a: Genesect
+|-damage|p2a: Genesect|0 fnt
+|faint|p2a: Genesect
+|
+|-heal|p1a: Glalie|99/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spd|2
+|-unboost|p1a: Glalie|spa|1
+|upkeep
+|
+|t:|1683836370
+|switch|p2a: Rillaboom|Rillaboom, L78, F|284/284
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|14
+|
+|t:|1683836375
+|move|p1a: Glalie|Protect|p1a: Glalie
+|-singleturn|p1a: Glalie|Protect
+|move|p2a: Rillaboom|Grassy Glide|p1a: Glalie
+|-activate|p1a: Glalie|move: Protect
+|
+|-heal|p1a: Glalie|115/259|[from] Grassy Terrain
+|-heal|p1a: Glalie|131/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spd|2
+|-unboost|p1a: Glalie|spe|1
+|upkeep
+|turn|15
+|
+|t:|1683836382
+|move|p2a: Rillaboom|Grassy Glide|p1a: Glalie
+|-damage|p1a: Glalie|0 fnt
+|faint|p1a: Glalie
+|
+|upkeep
+|
+|t:|1683836391
+|switch|p1a: Type: Null|Type: Null, L86|304/304
+|turn|16
+|
+|t:|1683836395
+|switch|p2a: Mantine|Mantine, L86, M|286/286
+|move|p1a: Type: Null|Swords Dance|p1a: Type: Null
+|-boost|p1a: Type: Null|atk|2
+|
+|upkeep
+|turn|17
+|
+|t:|1683836404
+|move|p2a: Mantine|Hurricane|p1a: Type: Null|[miss]
+|-miss|p2a: Mantine|p1a: Type: Null
+|move|p1a: Type: Null|Crush Claw|p2a: Mantine
+|-damage|p2a: Mantine|102/286
+|-unboost|p2a: Mantine|def|1
+|
+|upkeep
+|turn|18
+|
+|t:|1683836409
+|move|p2a: Mantine|Hurricane|p1a: Type: Null
+|-damage|p1a: Type: Null|237/304
+|move|p1a: Type: Null|Payback|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|faint|p2a: Mantine
+|
+|-heal|p1a: Type: Null|256/304|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1683836421
+|switch|p2a: Rillaboom|Rillaboom, L78, F|284/284
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|19
+|
+|t:|1683836426
+|move|p2a: Rillaboom|Wood Hammer|p1a: Type: Null
+|-damage|p1a: Type: Null|103/304
+|-damage|p2a: Rillaboom|234/284|[from] Recoil
+|move|p1a: Type: Null|Crush Claw|p2a: Rillaboom
+|-damage|p2a: Rillaboom|66/284
+|-unboost|p2a: Rillaboom|def|1
+|
+|-heal|p2a: Rillaboom|83/284|[from] Grassy Terrain
+|-heal|p1a: Type: Null|122/304|[from] Grassy Terrain
+|upkeep
+|turn|20
+|
+|t:|1683836432
+|move|p2a: Rillaboom|Wood Hammer|p1a: Type: Null
+|-damage|p1a: Type: Null|0 fnt
+|faint|p1a: Type: Null
+|-damage|p2a: Rillaboom|43/284|[from] Recoil
+|
+|-heal|p2a: Rillaboom|60/284|[from] Grassy Terrain
+|upkeep
+|
+|t:|1683836453
+|switch|p1a: Dhelmise|Dhelmise, L86|261/261
+|turn|21
+|
+|t:|1683836458
+|move|p2a: Rillaboom|Wood Hammer|p1a: Dhelmise
+|-resisted|p1a: Dhelmise
+|-damage|p1a: Dhelmise|151/261
+|-damage|p2a: Rillaboom|24/284|[from] Recoil
+|move|p1a: Dhelmise|Anchor Shot|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Dhelmise|167/261|[from] Grassy Terrain
+|upkeep
+|
+|t:|1683836466
+|switch|p2a: Clawitzer|Clawitzer, L84, F|256/256
+|turn|22
+|
+|t:|1683836485
+|-start|p2a: Clawitzer|Dynamax|
+|-heal|p2a: Clawitzer|512/512|[silent]
+|move|p2a: Clawitzer|Max Darkness|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|0 fnt
+|faint|p1a: Dhelmise
+|
+|upkeep
+|
+|t:|1683836491
+|switch|p1a: Registeel|Registeel, L83|268/268
+|turn|23
+|
+|t:|1683836495
+|move|p2a: Clawitzer|Max Geyser|p1a: Registeel
+|-damage|p1a: Registeel|175/268
+|-weather|RainDance
+|move|p1a: Registeel|Toxic|p2a: Clawitzer
+|-status|p2a: Clawitzer|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Registeel|191/268|[from] Grassy Terrain
+|-damage|p2a: Clawitzer|496/512 tox|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|24
+|inactive|lauda Mera has 120 seconds left.
+|
+|t:|1683836554
+|move|p2a: Clawitzer|Max Geyser|p1a: Registeel
+|-damage|p1a: Registeel|55/268
+|move|p1a: Registeel|Body Press|p2a: Clawitzer
+|-damage|p2a: Clawitzer|412/512 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Clawitzer|380/512 tox|[from] psn
+|upkeep
+|-end|p2a: Clawitzer|Dynamax
+|-heal|p2a: Clawitzer|190/256 tox|[silent]
+|turn|25
+|
+|t:|1683836563
+|move|p2a: Clawitzer|Water Pulse|p1a: Registeel
+|-damage|p1a: Registeel|0 fnt
+|faint|p1a: Registeel
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Clawitzer|142/256 tox|[from] psn
+|upkeep
+|inactive|lauda Mera has 90 seconds left.
+|
+|t:|1683836591
+|switch|p1a: Groudon|Groudon, L73|266/266
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|26
+|
+|t:|1683836596
+|-start|p1a: Groudon|Dynamax|
+|-heal|p1a: Groudon|532/532|[silent]
+|move|p1a: Groudon|Max Quake|p2a: Clawitzer
+|-damage|p2a: Clawitzer|0 fnt
+|-boost|p1a: Groudon|spd|1
+|faint|p2a: Clawitzer
+|
+|win|lauda Mera
+|raw|lauda Mera's rating: 1474 &rarr; <strong>1495</strong><br />(+21 for winning)
+|raw|N0VAgenesis's rating: 1483 &rarr; <strong>1462</strong><br />(-21 for losing)

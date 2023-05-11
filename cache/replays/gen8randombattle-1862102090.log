@@ -1,0 +1,254 @@
+|j|‽GamerGhost243
+|j|☆lauda Mera
+|t:|1683837167
+|gametype|singles
+|player|p1|GamerGhost243|1|1400
+|player|p2|lauda Mera|hilbert-wonderlauncher|1485
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1683837167
+|start
+|switch|p1a: Clawitzer|Clawitzer, L84, F|256/256
+|switch|p2a: Mewtwo|Mewtwo, L72|272/272
+|-ability|p2a: Mewtwo|Unnerve
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lauda Mera)
+|
+|t:|1683837184
+|switch|p2a: Tapu Koko|Tapu Koko, L78|237/237
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|move|p1a: Clawitzer|Water Pulse|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|30/237
+|
+|-heal|p2a: Tapu Koko|44/237|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1683837190
+|switch|p1a: Turtonator|Turtonator, L84, M|238/238
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Turtonator
+|-resisted|p1a: Turtonator
+|-damage|p1a: Turtonator|183/238
+|
+|-heal|p2a: Tapu Koko|58/237|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1683837206
+|move|p2a: Tapu Koko|Dazzling Gleam|p1a: Turtonator
+|-damage|p1a: Turtonator|108/238
+|move|p1a: Turtonator|Earthquake|p2a: Tapu Koko
+|-supereffective|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|0 fnt
+|faint|p2a: Tapu Koko
+|
+|upkeep
+|
+|t:|1683837210
+|switch|p2a: Mewtwo|Mewtwo, L72|272/272
+|-ability|p2a: Mewtwo|Unnerve
+|turn|4
+|
+|t:|1683837216
+|move|p2a: Mewtwo|Nasty Plot|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spa|2
+|move|p1a: Turtonator|Shell Smash|p1a: Turtonator
+|-unboost|p1a: Turtonator|def|1
+|-unboost|p1a: Turtonator|spd|1
+|-boost|p1a: Turtonator|atk|2
+|-boost|p1a: Turtonator|spa|2
+|-boost|p1a: Turtonator|spe|2
+|-enditem|p1a: Turtonator|White Herb
+|-clearnegativeboost|p1a: Turtonator|[silent]
+|
+|upkeep
+|turn|5
+|
+|t:|1683837225
+|move|p2a: Mewtwo|Psystrike|p1a: Turtonator
+|-damage|p1a: Turtonator|0 fnt
+|faint|p1a: Turtonator
+|-damage|p2a: Mewtwo|245/272|[from] item: Life Orb
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1683837233
+|switch|p1a: Tornadus|Tornadus, L80, M|258/258
+|turn|6
+|inactive|lauda Mera has 120 seconds left.
+|
+|t:|1683837269
+|move|p2a: Mewtwo|Psystrike|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|-damage|p2a: Mewtwo|218/272|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1683837276
+|switch|p1a: Raikou|Raikou, L80|275/275
+|-ability|p1a: Raikou|Pressure
+|turn|7
+|inactive|lauda Mera has 120 seconds left.
+|
+|t:|1683837292
+|-start|p1a: Raikou|Dynamax|
+|-heal|p1a: Raikou|550/550|[silent]
+|move|p1a: Raikou|Max Lightning|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|-fieldstart|move: Electric Terrain
+|faint|p2a: Mewtwo
+|-damage|p1a: Raikou|523/550|[from] item: Life Orb
+|
+|upkeep
+|inactive|lauda Mera has 90 seconds left.
+|
+|t:|1683837322
+|switch|p2a: Druddigon|Druddigon, L84, F|267/267
+|-ability|p2a: Druddigon|Mold Breaker
+|turn|8
+|
+|t:|1683837330
+|-start|p2a: Druddigon|Dynamax|
+|-heal|p2a: Druddigon|534/534|[silent]
+|move|p2a: Druddigon|Max Guard|p2a: Druddigon
+|-singleturn|p2a: Druddigon|Max Guard
+|move|p1a: Raikou|Max Knuckle|p2a: Druddigon
+|-activate|p2a: Druddigon|move: Max Guard
+|
+|upkeep
+|turn|9
+|
+|t:|1683837336
+|move|p1a: Raikou|Max Knuckle|p2a: Druddigon
+|-damage|p2a: Druddigon|442/534
+|-boost|p1a: Raikou|atk|1
+|-damage|p1a: Raikou|496/550|[from] item: Life Orb
+|move|p2a: Druddigon|Max Quake|p1a: Raikou
+|-supereffective|p1a: Raikou
+|-damage|p1a: Raikou|142/550
+|-boost|p2a: Druddigon|spd|1
+|-damage|p2a: Druddigon|416/534|[from] item: Life Orb
+|
+|upkeep
+|-end|p1a: Raikou|Dynamax
+|-heal|p1a: Raikou|71/275|[silent]
+|turn|10
+|
+|t:|1683837343
+|switch|p1a: Hitmontop|Hitmontop, L85, M|224/224
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Druddigon|atk|1
+|move|p2a: Druddigon|Max Quake|p1a: Hitmontop
+|-damage|p1a: Hitmontop|141/224
+|-boost|p2a: Druddigon|spd|1
+|-damage|p2a: Druddigon|390/534|[from] item: Life Orb
+|
+|-heal|p1a: Hitmontop|155/224|[from] item: Leftovers
+|upkeep
+|-end|p2a: Druddigon|Dynamax
+|-heal|p2a: Druddigon|195/267|[silent]
+|turn|11
+|inactive|lauda Mera has 120 seconds left.
+|
+|t:|1683837362
+|move|p1a: Hitmontop|Close Combat|p2a: Druddigon
+|-damage|p2a: Druddigon|74/267
+|-unboost|p1a: Hitmontop|def|1
+|-unboost|p1a: Hitmontop|spd|1
+|move|p2a: Druddigon|Outrage|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|faint|p1a: Hitmontop
+|-damage|p2a: Druddigon|48/267|[from] item: Life Orb
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1683837366
+|switch|p1a: Raikou|Raikou, L80|71/275
+|-ability|p1a: Raikou|Pressure
+|turn|12
+|inactive|lauda Mera has 120 seconds left.
+|inactive|lauda Mera has 90 seconds left.
+|
+|t:|1683837408
+|move|p1a: Raikou|Thunderbolt|p2a: Druddigon
+|-resisted|p2a: Druddigon
+|-damage|p2a: Druddigon|17/267
+|-damage|p1a: Raikou|44/275|[from] item: Life Orb
+|move|p2a: Druddigon|Outrage|p1a: Raikou|[from]lockedmove
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|-damage|p2a: Druddigon|0 fnt|[from] item: Life Orb
+|faint|p2a: Druddigon
+|
+|upkeep
+|
+|t:|1683837412
+|switch|p1a: Clawitzer|Clawitzer, L84, F|256/256
+|switch|p2a: Luxray|Luxray, L84, M|272/272
+|turn|13
+|
+|t:|1683837418
+|move|p2a: Luxray|Wild Charge|p1a: Clawitzer
+|-supereffective|p1a: Clawitzer
+|-damage|p1a: Clawitzer|38/256
+|-damage|p2a: Luxray|217/272|[from] Recoil
+|move|p1a: Clawitzer|Water Pulse|p2a: Luxray
+|-damage|p2a: Luxray|28/272
+|
+|-status|p2a: Luxray|brn|[from] item: Flame Orb
+|upkeep
+|turn|14
+|
+|t:|1683837422
+|switch|p1a: Torkoal|Torkoal, L86, F|261/261
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Luxray|Facade|p1a: Torkoal
+|-damage|p1a: Torkoal|135/261
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Luxray|11/272 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1683837430
+|move|p2a: Luxray|Volt Switch|p1a: Torkoal
+|-damage|p1a: Torkoal|50/261
+|
+|t:|1683837432
+|switch|p2a: Scyther|Scyther, L81, F|246/246|[from] Volt Switch
+|move|p1a: Torkoal|Stealth Rock|p2a: Scyther
+|-sidestart|p2: lauda Mera|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1683837438
+|move|p2a: Scyther|Dual Wingbeat|p1a: Torkoal
+|-damage|p1a: Torkoal|2/261
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|-hitcount|p1: Torkoal|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1683837442
+|switch|p1a: Clawitzer|Clawitzer, L84, F|38/256
+|turn|17
+|-message|GamerGhost243 forfeited.
+|
+|win|lauda Mera
+|raw|GamerGhost243's rating: 1400 &rarr; <strong>1385</strong><br />(-15 for losing)
+|raw|lauda Mera's rating: 1497 &rarr; <strong>1512</strong><br />(+15 for winning)
+|l|‽GamerGhost243

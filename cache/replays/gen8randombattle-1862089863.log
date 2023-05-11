@@ -1,0 +1,278 @@
+|j|☆hahaua
+|j|☆lauda Mera
+|t:|1683835914
+|gametype|singles
+|player|p1|hahaua|102|1401
+|player|p2|lauda Mera|hilbert-wonderlauncher|1459
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1683835914
+|start
+|switch|p1a: Hawlucha|Hawlucha, L80, M|256/256
+|switch|p2a: Trevenant|Trevenant, L86, M|286/286
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lauda Mera)
+|inactive|hahaua also wants the timer to be on.
+|
+|t:|1683835925
+|move|p1a: Hawlucha|Throat Chop|p2a: Trevenant
+|-supereffective|p2a: Trevenant
+|-damage|p2a: Trevenant|176/286
+|-start|p2a: Trevenant|Throat Chop|[silent]
+|move|p2a: Trevenant|Poltergeist|p1a: Hawlucha|[miss]
+|-miss|p2a: Trevenant|p1a: Hawlucha
+|
+|upkeep
+|turn|2
+|
+|t:|1683835934
+|move|p1a: Hawlucha|Brave Bird|p2a: Trevenant
+|-supereffective|p2a: Trevenant
+|-damage|p2a: Trevenant|0 fnt
+|faint|p2a: Trevenant
+|-damage|p1a: Hawlucha|198/256|[from] Recoil
+|
+|upkeep
+|
+|t:|1683835943
+|switch|p2a: Weavile|Weavile, L79, F|239/239
+|turn|3
+|
+|t:|1683835946
+|move|p2a: Weavile|Triple Axel|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|120/256
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|-hitcount|p1: Hawlucha|2
+|
+|upkeep
+|
+|t:|1683835964
+|switch|p1a: Cinderace|Cinderace, L74, F|239/239
+|turn|4
+|
+|t:|1683835972
+|switch|p2a: Hippowdon|Hippowdon, L80, F|304/304
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Cinderace|Pyro Ball|p2a: Hippowdon
+|-damage|p2a: Hippowdon|169/304
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinderace|225/239|[from] Sandstorm
+|-heal|p2a: Hippowdon|188/304|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1683835979
+|switch|p1a: Runerigus|Runerigus, L84, F|235/235
+|move|p2a: Hippowdon|Earthquake|p1a: Runerigus
+|-damage|p1a: Runerigus|165/235
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|207/304|[from] item: Leftovers
+|-heal|p1a: Runerigus|179/235|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1683835982
+|move|p2a: Hippowdon|Toxic|p1a: Runerigus
+|-status|p1a: Runerigus|tox
+|move|p1a: Runerigus|Will-O-Wisp|p2a: Hippowdon
+|-status|p2a: Hippowdon|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|226/304 brn|[from] item: Leftovers
+|-heal|p1a: Runerigus|193/235 tox|[from] item: Leftovers
+|-damage|p1a: Runerigus|179/235 tox|[from] psn
+|-damage|p2a: Hippowdon|207/304 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1683835987
+|move|p2a: Hippowdon|Earthquake|p1a: Runerigus
+|-damage|p1a: Runerigus|143/235 tox
+|move|p1a: Runerigus|Poltergeist|p2a: Hippowdon
+|-activate|p2a: Hippowdon|move: Poltergeist|Leftovers
+|-damage|p2a: Hippowdon|116/304 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|135/304 brn|[from] item: Leftovers
+|-heal|p1a: Runerigus|157/235 tox|[from] item: Leftovers
+|-damage|p1a: Runerigus|129/235 tox|[from] psn
+|-damage|p2a: Hippowdon|116/304 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1683835991
+|move|p2a: Hippowdon|Earthquake|p1a: Runerigus
+|-damage|p1a: Runerigus|92/235 tox
+|move|p1a: Runerigus|Poltergeist|p2a: Hippowdon|[miss]
+|-miss|p1a: Runerigus|p2a: Hippowdon
+|
+|-weather|none
+|-heal|p2a: Hippowdon|135/304 brn|[from] item: Leftovers
+|-heal|p1a: Runerigus|106/235 tox|[from] item: Leftovers
+|-damage|p1a: Runerigus|64/235 tox|[from] psn
+|-damage|p2a: Hippowdon|116/304 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1683835995
+|move|p2a: Hippowdon|Earthquake|p1a: Runerigus
+|-damage|p1a: Runerigus|30/235 tox
+|move|p1a: Runerigus|Poltergeist|p2a: Hippowdon
+|-activate|p2a: Hippowdon|move: Poltergeist|Leftovers
+|-damage|p2a: Hippowdon|26/304 brn
+|
+|-heal|p2a: Hippowdon|45/304 brn|[from] item: Leftovers
+|-heal|p1a: Runerigus|44/235 tox|[from] item: Leftovers
+|-damage|p1a: Runerigus|0 fnt|[from] psn
+|faint|p1a: Runerigus
+|-damage|p2a: Hippowdon|26/304 brn|[from] brn
+|upkeep
+|
+|t:|1683836006
+|switch|p1a: Cinderace|Cinderace, L74, F|225/239
+|turn|10
+|
+|t:|1683836017
+|move|p1a: Cinderace|Pyro Ball|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|upkeep
+|
+|t:|1683836028
+|switch|p2a: Seismitoad|Seismitoad, L84, M|314/314
+|turn|11
+|
+|t:|1683836042
+|-start|p1a: Cinderace|Dynamax|
+|-heal|p1a: Cinderace|450/478|[silent]
+|move|p1a: Cinderace|Max Knuckle|p2a: Seismitoad
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-damage|p2a: Seismitoad|212/314
+|-boost|p1a: Cinderace|atk|1
+|move|p2a: Seismitoad|Rain Dance|p2a: Seismitoad
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1683836067
+|move|p2a: Seismitoad|Liquidation|p1a: Cinderace
+|-damage|p1a: Cinderace|224/478
+|-damage|p2a: Seismitoad|181/314|[from] item: Life Orb
+|move|p1a: Cinderace|Max Knuckle|p2a: Seismitoad
+|-damage|p2a: Seismitoad|21/314
+|-boost|p1a: Cinderace|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1683836072
+|move|p2a: Seismitoad|Liquidation|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|-damage|p2a: Seismitoad|0 fnt|[from] item: Life Orb
+|faint|p2a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1683836081
+|switch|p1a: Mimikyu|Mimikyu, L76, F|209/209
+|switch|p2a: Weavile|Weavile, L79, F|239/239
+|turn|14
+|
+|t:|1683836091
+|move|p2a: Weavile|Triple Axel|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|209/209
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, L76, F
+|-damage|p1a: Mimikyu|183/209|[from] pokemon: Mimikyu-Busted
+|-damage|p1a: Mimikyu|98/209
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|-hitcount|p1: Mimikyu|3
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1683836095
+|switch|p1a: Araquanid|Araquanid, L80, M|240/240
+|turn|15
+|
+|t:|1683836109
+|switch|p2a: Scolipede|Scolipede, L80, F|227/227
+|move|p1a: Araquanid|Liquidation|p2a: Scolipede
+|-damage|p2a: Scolipede|19/227
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1683836122
+|move|p2a: Scolipede|Poison Jab|p1a: Araquanid
+|-damage|p1a: Araquanid|127/240
+|-status|p1a: Araquanid|psn
+|-damage|p2a: Scolipede|0 fnt|[from] item: Life Orb
+|faint|p2a: Scolipede
+|move|p1a: Araquanid|Liquidation|p2: Scolipede|[notarget]
+|-fail|p1a: Araquanid
+|
+|-damage|p1a: Araquanid|97/240 psn|[from] psn
+|upkeep
+|
+|t:|1683836124
+|switch|p2a: Archeops|Archeops, L82, M|257/257
+|turn|17
+|
+|t:|1683836126
+|-start|p2a: Archeops|Dynamax|
+|-heal|p2a: Archeops|514/514|[silent]
+|move|p2a: Archeops|Max Rockfall|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|-weather|Sandstorm
+|faint|p1a: Araquanid
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1683836138
+|switch|p1a: Snorlax|Snorlax, L82, M|397/397
+|turn|18
+|
+|t:|1683836153
+|move|p2a: Archeops|Max Rockfall|p1a: Snorlax
+|-damage|p1a: Snorlax|156/397
+|move|p1a: Snorlax|Double-Edge|p2a: Archeops
+|-resisted|p2a: Archeops
+|-damage|p2a: Archeops|398/514
+|-damage|p1a: Snorlax|118/397|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Snorlax|94/397|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|t:|1683836155
+|move|p2a: Archeops|Max Rockfall|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|win|lauda Mera
+|raw|hahaua's rating: 1401 &rarr; <strong>1384</strong><br />(-17 for losing)
+|raw|lauda Mera's rating: 1457 &rarr; <strong>1474</strong><br />(+17 for winning)

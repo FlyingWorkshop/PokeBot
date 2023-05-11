@@ -1,0 +1,339 @@
+|j|☆Mrweirdmystery
+|j|☆Harjeev the sequel
+|t:|1683780877
+|gametype|singles
+|player|p1|Mrweirdmystery|lance|
+|player|p2|Harjeev the sequel|emmet|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1683780877
+|start
+|switch|p1a: Celebi|Celebi, L82|298/298
+|switch|p2a: Rapidash|Rapidash, L84, M|246/246
+|turn|1
+|
+|t:|1683780889
+|switch|p1a: Beheeyem|Beheeyem, L86, M|269/269
+|move|p2a: Rapidash|Swords Dance|p2a: Rapidash
+|-boost|p2a: Rapidash|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1683780897
+|move|p2a: Rapidash|Flare Blitz|p1a: Beheeyem
+|-damage|p1a: Beheeyem|2/269
+|-damage|p2a: Rapidash|158/246|[from] Recoil
+|move|p1a: Beheeyem|Trick Room|p1a: Beheeyem
+|-fieldstart|move: Trick Room|[of] p1a: Beheeyem
+|
+|upkeep
+|turn|3
+|
+|t:|1683780911
+|switch|p2a: Marowak|Marowak-Alola, L84, M|238/238
+|move|p1a: Beheeyem|Shadow Ball|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|-damage|p1a: Beheeyem|0 fnt|[from] item: Life Orb
+|faint|p1a: Beheeyem
+|
+|upkeep
+|
+|t:|1683780920
+|switch|p1a: Sandaconda|Sandaconda, L84, F|258/258
+|switch|p2a: Malamar|Malamar, L80, M|269/269
+|turn|4
+|
+|t:|1683780931
+|move|p2a: Malamar|Superpower|p1a: Sandaconda
+|-damage|p1a: Sandaconda|201/258
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|move|p1a: Sandaconda|Glare|p2a: Malamar
+|-status|p2a: Malamar|par
+|
+|-heal|p1a: Sandaconda|217/258|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1683780938
+|move|p2a: Malamar|Superpower|p1a: Sandaconda
+|-damage|p1a: Sandaconda|137/258
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|move|p1a: Sandaconda|Stone Edge|p2a: Malamar
+|-damage|p2a: Malamar|231/269 par
+|
+|-heal|p2a: Malamar|247/269 par|[from] item: Leftovers
+|-heal|p1a: Sandaconda|153/258|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1683780944
+|move|p2a: Malamar|Superpower|p1a: Sandaconda
+|-damage|p1a: Sandaconda|31/258
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|move|p1a: Sandaconda|Earthquake|p2a: Malamar
+|-damage|p2a: Malamar|193/269 par
+|
+|-heal|p2a: Malamar|209/269 par|[from] item: Leftovers
+|-heal|p1a: Sandaconda|47/258|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1683780948
+|move|p1a: Sandaconda|Rest|p1a: Sandaconda
+|-status|p1a: Sandaconda|slp|[from] move: Rest
+|-heal|p1a: Sandaconda|258/258 slp|[silent]
+|cant|p2a: Malamar|par
+|
+|-heal|p2a: Malamar|225/269 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1683780954
+|cant|p1a: Sandaconda|slp
+|move|p2a: Malamar|Superpower|p1a: Sandaconda
+|-damage|p1a: Sandaconda|123/258 slp
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|
+|-activate|p1a: Sandaconda|ability: Shed Skin
+|-curestatus|p1a: Sandaconda|slp|[msg]
+|-heal|p1a: Sandaconda|139/258|[from] item: Leftovers
+|-heal|p2a: Malamar|241/269 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1683780970
+|move|p1a: Sandaconda|Stone Edge|p2a: Malamar
+|-crit|p2a: Malamar
+|-damage|p2a: Malamar|111/269 par
+|move|p2a: Malamar|Substitute|p2a: Malamar
+|-start|p2a: Malamar|Substitute
+|-damage|p2a: Malamar|44/269 par
+|
+|-heal|p1a: Sandaconda|155/258|[from] item: Leftovers
+|-heal|p2a: Malamar|60/269 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1683780982
+|move|p1a: Sandaconda|Stone Edge|p2a: Malamar
+|-activate|p2a: Malamar|move: Substitute|[damage]
+|move|p2a: Malamar|Superpower|p1a: Sandaconda
+|-crit|p1a: Sandaconda
+|-damage|p1a: Sandaconda|0 fnt
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|faint|p1a: Sandaconda
+|
+|-heal|p2a: Malamar|76/269 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1683780991
+|switch|p1a: Aegislash|Aegislash, L80, F|227/227
+|turn|11
+|
+|t:|1683780995
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Claw|p2a: Malamar
+|-end|p2a: Malamar|Substitute
+|move|p2a: Malamar|Knock Off|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|-enditem|p1a: Aegislash|Choice Band|[from] move: Knock Off|[of] p2a: Malamar
+|faint|p1a: Aegislash
+|
+|-heal|p2a: Malamar|92/269 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1683781003
+|switch|p1a: Celebi|Celebi, L82|298/298
+|turn|12
+|
+|t:|1683781007
+|-start|p2a: Malamar|Dynamax|
+|-heal|p2a: Malamar|184/538 par|[silent]
+|move|p1a: Celebi|Giga Drain|p2a: Malamar
+|-damage|p2a: Malamar|99/538 par
+|move|p2a: Malamar|Max Darkness|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|-heal|p2a: Malamar|115/538 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1683781009
+|switch|p1a: Terrakion|Terrakion, L78|270/270
+|turn|13
+|
+|t:|1683781017
+|move|p1a: Terrakion|Earthquake|p2a: Malamar
+|-damage|p2a: Malamar|83/538 par
+|-damage|p1a: Terrakion|243/270|[from] item: Life Orb
+|move|p2a: Malamar|Max Mindstorm|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|-fieldstart|move: Psychic Terrain
+|faint|p1a: Terrakion
+|
+|-heal|p2a: Malamar|99/538 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1683781019
+|switch|p1a: Lapras|Lapras, L86, F|363/363
+|turn|14
+|
+|t:|1683781024
+|-start|p1a: Lapras|Dynamax|Gmax
+|-heal|p1a: Lapras|726/726|[silent]
+|move|p1a: Lapras|G-Max Resonance|p2a: Malamar
+|-damage|p2a: Malamar|0 fnt
+|-sidestart|p1: Mrweirdmystery|move: Aurora Veil
+|faint|p2a: Malamar
+|
+|upkeep
+|
+|t:|1683781030
+|switch|p2a: Marshadow|Marshadow, L70|242/242
+|turn|15
+|
+|t:|1683781040
+|switch|p2a: Barraskewda|Barraskewda, L80, M|229/229
+|move|p1a: Lapras|G-Max Resonance|p2a: Barraskewda
+|-resisted|p2a: Barraskewda
+|-damage|p2a: Barraskewda|120/229
+|
+|upkeep
+|turn|16
+|
+|t:|1683781043
+|move|p2a: Barraskewda|Close Combat|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|587/726
+|-unboost|p2a: Barraskewda|def|1
+|-unboost|p2a: Barraskewda|spd|1
+|move|p1a: Lapras|G-Max Resonance|p2a: Barraskewda
+|-resisted|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|-heal|p1a: Lapras|609/726|[from] item: Leftovers
+|upkeep
+|
+|t:|1683781047
+|switch|p2a: Kingdra|Kingdra, L82, M|257/257
+|-end|p1a: Lapras|Dynamax
+|-heal|p1a: Lapras|305/363|[silent]
+|turn|17
+|
+|t:|1683781054
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p2a: Kingdra|Draco Meteor|p1a: Lapras
+|-activate|p1a: Lapras|move: Protect
+|
+|-heal|p1a: Lapras|327/363|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|18
+|
+|t:|1683781059
+|move|p2a: Kingdra|Draco Meteor|p1a: Lapras
+|-damage|p1a: Lapras|243/363
+|-unboost|p2a: Kingdra|spa|2
+|move|p1a: Lapras|Ice Beam|p2a: Kingdra
+|-damage|p2a: Kingdra|175/257
+|
+|-heal|p1a: Lapras|265/363|[from] item: Leftovers
+|-sideend|p1: Mrweirdmystery|move: Aurora Veil
+|upkeep
+|turn|19
+|
+|t:|1683781064
+|switch|p2a: Rapidash|Rapidash, L84, M|158/246
+|move|p1a: Lapras|Toxic|p2a: Rapidash|[miss]
+|-miss|p1a: Lapras|p2a: Rapidash
+|
+|-heal|p1a: Lapras|287/363|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1683781071
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p2a: Rapidash|Wild Charge|p1a: Lapras
+|-activate|p1a: Lapras|move: Protect
+|
+|-heal|p1a: Lapras|309/363|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1683781074
+|move|p2a: Rapidash|Wild Charge|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|173/363
+|-damage|p2a: Rapidash|124/246|[from] Recoil
+|move|p1a: Lapras|Sparkling Aria|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|-heal|p1a: Lapras|195/363|[from] item: Leftovers
+|upkeep
+|
+|t:|1683781079
+|switch|p2a: Kingdra|Kingdra, L82, M|175/257
+|turn|22
+|
+|t:|1683781083
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p2a: Kingdra|Draco Meteor|p1a: Lapras
+|-activate|p1a: Lapras|move: Protect
+|
+|-heal|p1a: Lapras|217/363|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1683781087
+|move|p2a: Kingdra|Draco Meteor|p1a: Lapras
+|-damage|p1a: Lapras|34/363
+|-unboost|p2a: Kingdra|spa|2
+|move|p1a: Lapras|Ice Beam|p2a: Kingdra
+|-damage|p2a: Kingdra|93/257
+|
+|-heal|p1a: Lapras|56/363|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1683781092
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p2a: Kingdra|Draco Meteor|p1a: Lapras
+|-activate|p1a: Lapras|move: Protect
+|
+|-heal|p1a: Lapras|78/363|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1683781096
+|move|p2a: Kingdra|Draco Meteor|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|-unboost|p2a: Kingdra|spa|2
+|faint|p1a: Lapras
+|
+|win|Harjeev the sequel
+|l|☆Mrweirdmystery

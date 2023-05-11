@@ -1,0 +1,243 @@
+|j|☆Hilda2021
+|j|☆lui 2022
+|t:|1683814519
+|gametype|singles
+|player|p1|Hilda2021|hilda|
+|player|p2|lui 2022|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1683814519
+|start
+|switch|p1a: Butterfree|Butterfree, L87, M|246/246
+|switch|p2a: Ludicolo|Ludicolo, L86, F|278/278
+|turn|1
+|
+|t:|1683814576
+|-start|p2a: Ludicolo|Dynamax|
+|-heal|p2a: Ludicolo|556/556|[silent]
+|move|p1a: Butterfree|Quiver Dance|p1a: Butterfree
+|-boost|p1a: Butterfree|spa|1
+|-boost|p1a: Butterfree|spd|1
+|-boost|p1a: Butterfree|spe|1
+|move|p2a: Ludicolo|Max Hailstorm|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|85/246
+|-weather|Hail
+|-damage|p2a: Ludicolo|529/556|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Butterfree|70/246|[from] Hail
+|-damage|p2a: Ludicolo|512/556|[from] Hail
+|upkeep
+|turn|2
+|
+|t:|1683814594
+|-start|p1a: Butterfree|Dynamax|Gmax
+|-heal|p1a: Butterfree|140/492|[silent]
+|move|p1a: Butterfree|G-Max Befuddle|p2a: Ludicolo
+|-supereffective|p2a: Ludicolo
+|-crit|p2a: Ludicolo
+|-damage|p2a: Ludicolo|8/556
+|-status|p2a: Ludicolo|par
+|move|p2a: Ludicolo|Max Hailstorm|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|0 fnt
+|faint|p1a: Butterfree
+|-damage|p2a: Ludicolo|0 fnt|[from] item: Life Orb
+|faint|p2a: Ludicolo
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1683814614
+|switch|p1a: Crustle|Crustle, L82, F|249/249
+|switch|p2a: Dracozolt|Dracozolt, L78|268/268
+|turn|3
+|
+|t:|1683814679
+|move|p2a: Dracozolt|Earthquake|p1a: Crustle
+|-crit|p1a: Crustle
+|-damage|p1a: Crustle|73/249
+|move|p1a: Crustle|Shell Smash|p1a: Crustle
+|-unboost|p1a: Crustle|def|1
+|-unboost|p1a: Crustle|spd|1
+|-boost|p1a: Crustle|atk|2
+|-boost|p1a: Crustle|spa|2
+|-boost|p1a: Crustle|spe|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Crustle|58/249|[from] Hail
+|-damage|p2a: Dracozolt|252/268|[from] Hail
+|upkeep
+|turn|4
+|
+|t:|1683814698
+|move|p1a: Crustle|Earthquake|p2a: Dracozolt
+|-supereffective|p2a: Dracozolt
+|-damage|p2a: Dracozolt|0 fnt
+|faint|p2a: Dracozolt
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Crustle|43/249|[from] Hail
+|upkeep
+|
+|t:|1683814717
+|switch|p2a: Audino|Audino, L91, F|335/335
+|turn|5
+|
+|t:|1683814727
+|move|p1a: Crustle|X-Scissor|p2a: Audino
+|-damage|p2a: Audino|187/335
+|move|p2a: Audino|Knock Off|p1a: Crustle
+|-damage|p1a: Crustle|0 fnt
+|-enditem|p1a: Crustle|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Audino
+|faint|p1a: Crustle
+|
+|-weather|none
+|-heal|p2a: Audino|207/335|[from] item: Leftovers
+|upkeep
+|
+|t:|1683814757
+|switch|p1a: Roserade|Roserade, L84, F|238/238
+|turn|6
+|
+|t:|1683814789
+|switch|p2a: Sirfetch’d|Sirfetch’d, L82, M|236/236
+|move|p1a: Roserade|Sleep Powder|p2a: Sirfetch’d
+|-status|p2a: Sirfetch’d|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|7
+|
+|t:|1683814798
+|move|p1a: Roserade|Sludge Bomb|p2a: Sirfetch’d
+|-damage|p2a: Sirfetch’d|113/236 slp
+|cant|p2a: Sirfetch’d|slp
+|
+|upkeep
+|turn|8
+|
+|t:|1683814806
+|move|p1a: Roserade|Sludge Bomb|p2a: Sirfetch’d
+|-damage|p2a: Sirfetch’d|0 fnt
+|faint|p2a: Sirfetch’d
+|
+|upkeep
+|
+|t:|1683814812
+|switch|p2a: Azumarill|Azumarill, L84, M|305/305
+|turn|9
+|
+|t:|1683814821
+|move|p1a: Roserade|Sludge Bomb|p2a: Azumarill
+|-supereffective|p2a: Azumarill
+|-damage|p2a: Azumarill|53/305
+|-status|p2a: Azumarill|psn
+|move|p2a: Azumarill|Superpower|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|145/238
+|-unboost|p2a: Azumarill|atk|1
+|-unboost|p2a: Azumarill|def|1
+|
+|-heal|p1a: Roserade|159/238|[from] item: Black Sludge
+|-damage|p2a: Azumarill|15/305 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1683814835
+|move|p1a: Roserade|Spikes|p2a: Azumarill
+|-sidestart|p2: lui 2022|Spikes
+|move|p2a: Azumarill|Superpower|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|91/238
+|-unboost|p2a: Azumarill|atk|1
+|-unboost|p2a: Azumarill|def|1
+|
+|-heal|p1a: Roserade|105/238|[from] item: Black Sludge
+|-damage|p2a: Azumarill|0 fnt|[from] psn
+|faint|p2a: Azumarill
+|upkeep
+|
+|t:|1683814855
+|switch|p2a: Buzzwole|Buzzwole, L77|291/291
+|-damage|p2a: Buzzwole|255/291|[from] Spikes
+|turn|11
+|
+|t:|1683814863
+|move|p1a: Roserade|Sleep Powder|p2a: Buzzwole
+|-status|p2a: Buzzwole|slp|[from] move: Sleep Powder
+|cant|p2a: Buzzwole|slp
+|
+|-heal|p1a: Roserade|119/238|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1683814884
+|switch|p2a: Audino|Audino, L91, F|318/335
+|-damage|p2a: Audino|277/335|[from] Spikes
+|move|p1a: Roserade|Sludge Bomb|p2a: Audino
+|-damage|p2a: Audino|160/335
+|-status|p2a: Audino|psn
+|
+|-heal|p1a: Roserade|133/238|[from] item: Black Sludge
+|-heal|p2a: Audino|180/335 psn|[from] item: Leftovers
+|-damage|p2a: Audino|139/335 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1683814905
+|move|p2a: Audino|Protect|p2a: Audino
+|-singleturn|p2a: Audino|Protect
+|move|p1a: Roserade|Spikes|p2a: Audino
+|-sidestart|p2: lui 2022|Spikes
+|
+|-heal|p1a: Roserade|147/238|[from] item: Black Sludge
+|-heal|p2a: Audino|159/335 psn|[from] item: Leftovers
+|-damage|p2a: Audino|118/335 psn|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1683814916
+|move|p1a: Roserade|Spikes|p2a: Audino
+|-sidestart|p2: lui 2022|Spikes
+|move|p2a: Audino|Knock Off|p1a: Roserade
+|-damage|p1a: Roserade|77/238
+|-enditem|p1a: Roserade|Black Sludge|[from] move: Knock Off|[of] p2a: Audino
+|
+|-heal|p2a: Audino|138/335 psn|[from] item: Leftovers
+|-damage|p2a: Audino|97/335 psn|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1683814938
+|move|p1a: Roserade|Sludge Bomb|p2a: Audino
+|-damage|p2a: Audino|0 fnt
+|faint|p2a: Audino
+|
+|upkeep
+|
+|t:|1683814943
+|switch|p2a: Buzzwole|Buzzwole, L77|255/291 slp
+|-damage|p2a: Buzzwole|183/291 slp|[from] Spikes
+|turn|16
+|
+|t:|1683814949
+|move|p1a: Roserade|Sludge Bomb|p2a: Buzzwole
+|-damage|p2a: Buzzwole|11/291 slp
+|cant|p2a: Buzzwole|slp
+|
+|upkeep
+|turn|17
+|
+|t:|1683814961
+|move|p1a: Roserade|Sludge Bomb|p2a: Buzzwole
+|-damage|p2a: Buzzwole|0 fnt
+|faint|p2a: Buzzwole
+|
+|win|Hilda2021

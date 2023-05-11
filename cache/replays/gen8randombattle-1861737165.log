@@ -1,0 +1,160 @@
+|j|☆ZXD_9876
+|j|☆youngelove
+|t:|1683802325
+|gametype|singles
+|player|p1|ZXD_9876|101|
+|player|p2|youngelove|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1683802325
+|start
+|switch|p1a: Seaking|Seaking, L88, M|284/284
+|switch|p2a: Articuno|Articuno-Galar, L80|275/275
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ZXD_9876)
+|c|☆youngelove|왜이리
+|c|☆youngelove|바보같이 하니
+|c|☆youngelove|플레이를
+|
+|t:|1683802340
+|move|p2a: Articuno|Air Slash|p1a: Seaking
+|-damage|p1a: Seaking|194/284
+|move|p1a: Seaking|Knock Off|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|49/275
+|-enditem|p2a: Articuno|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Seaking
+|
+|upkeep
+|turn|2
+|
+|t:|1683802351
+|move|p2a: Articuno|Recover|p2a: Articuno
+|-heal|p2a: Articuno|187/275
+|move|p1a: Seaking|Knock Off|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|31/275
+|
+|upkeep
+|turn|3
+|
+|t:|1683802360
+|move|p2a: Articuno|Air Slash|p1a: Seaking
+|-damage|p1a: Seaking|109/284
+|cant|p1a: Seaking|flinch
+|
+|upkeep
+|turn|4
+|
+|t:|1683802373
+|move|p2a: Articuno|Freezing Glare|p1a: Seaking
+|-damage|p1a: Seaking|1/284
+|move|p1a: Seaking|Knock Off|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|upkeep
+|c|☆ZXD_9876|포켓몬이
+|c|☆ZXD_9876|더 노답인ㄷ
+|
+|t:|1683802385
+|switch|p2a: Inteleon|Inteleon, L80, M|243/243
+|turn|5
+|c|☆ZXD_9876|그럼 어카니
+|
+|t:|1683802391
+|move|p2a: Inteleon|Ice Beam|p1a: Seaking
+|-resisted|p1a: Seaking
+|-crit|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|faint|p1a: Seaking
+|
+|upkeep
+|
+|t:|1683802416
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L78, F|284/284
+|turn|6
+|c|☆youngelove|포켓몬
+|c|☆youngelove|노답인데
+|c|☆ZXD_9876|하아
+|
+|t:|1683802436
+|switch|p2a: Corviknight|Corviknight, L78, M|281/281
+|switch|p1a: Regirock|Regirock, L85|275/275
+|
+|upkeep
+|turn|7
+|c|☆ZXD_9876|진짜
+|c|☆youngelove|ㅋ
+|
+|t:|1683802447
+|switch|p2a: Shuckle|Shuckle, L87, M|177/177
+|switch|p1a: Chandelure|Chandelure, L82, M|233/233
+|
+|upkeep
+|turn|8
+|
+|t:|1683802460
+|move|p1a: Chandelure|Calm Mind|p1a: Chandelure
+|-boost|p1a: Chandelure|spa|1
+|-boost|p1a: Chandelure|spd|1
+|move|p2a: Shuckle|Sticky Web|p1a: Chandelure
+|-sidestart|p1: ZXD_9876|move: Sticky Web
+|
+|upkeep
+|turn|9
+|c|☆youngelove|너무 쓰레기다
+|
+|t:|1683802471
+|move|p1a: Chandelure|Fire Blast|p2a: Shuckle
+|-damage|p2a: Shuckle|74/177
+|move|p2a: Shuckle|Knock Off|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|191/233
+|-enditem|p1a: Chandelure|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Shuckle
+|
+|upkeep
+|turn|10
+|
+|t:|1683802483
+|move|p1a: Chandelure|Shadow Ball|p2a: Shuckle
+|-damage|p2a: Shuckle|7/177
+|move|p2a: Shuckle|Stealth Rock|p1a: Chandelure
+|-sidestart|p1: ZXD_9876|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|t:|1683802490
+|move|p1a: Chandelure|Shadow Ball|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|
+|upkeep
+|c|☆ZXD_9876|하
+|
+|t:|1683802496
+|switch|p2a: Inteleon|Inteleon, L80, M|243/243
+|turn|12
+|c|☆ZXD_9876|던지고싶네
+|
+|t:|1683802502
+|-start|p1a: Chandelure|Dynamax|
+|-heal|p1a: Chandelure|382/466|[silent]
+|move|p2a: Inteleon|Hydro Pump|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-crit|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|upkeep
+|-message|ZXD_9876 forfeited.
+|
+|win|youngelove
+|l|☆ZXD_9876
