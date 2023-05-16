@@ -11,6 +11,7 @@ from poke_env.environment.status import Status
 import copy
 from poke_env.environment.battle import Battle
 import torch
+from collections import defaultdict
 
 def _get_turns(log) -> list:
     turns = []
@@ -70,6 +71,8 @@ class DataExtractor:
         this function loops through the battle log turn by turn, updating all properties of the Battle. it then appends that object to a list
         
         """
+
+        STACKABLE_CONDITIONS = {SideCondition.SPIKES: 3, SideCondition.TOXIC_SPIKES: 2}
 
         # initialize logger
         logger = logging.getLogger('poke-env')
@@ -342,10 +345,18 @@ class DataExtractor:
                 hazard_message = line.split('|')[3]
                 player = line.split('|')[2][1]
 
+                condition = SideCondition.from_showdown_message(hazard_message)
+
                 if player == 1:
-                    curr_battle.side_conditions[SideCondition.from_showdown_message(hazard_message)] += 1
+                    if condition in STACKABLE_CONDITIONS:
+                        curr_battle.side_conditions[condition] = min(curr_battle.side_conditions[condition] + 1, STACKABLE_CONDITIONS[condition])
+                    else:
+                        curr_battle.side_conditions[condition] = 1
                 else:
-                    curr_battle.opponent_side_conditions[SideCondition.from_showdown_message(hazard_message)] = True
+                    if condition in STACKABLE_CONDITIONS:
+                        curr_battle.opponent_side_conditions[condition] = min(curr_battle.opponent_side_conditions[condition] + 1, STACKABLE_CONDITIONS[condition])
+                    else:
+                        curr_battle.opponent_side_conditions[condition] = 1
 
             # update stats
             if "|-boost|" in line:
@@ -384,11 +395,11 @@ class DataExtractor:
                 pokemon_name = match.group(2)
 
                 if player == 1:
-                    curr_battle.active_pokemon.status = Status.FNT
+                    curr_battle.active_pokemon._status = Status.FNT
                     curr_battle.active_pokemon._active = False
                     
                 else:
-                    curr_battle.opponent_active_pokemon.status = Status.FNT
+                    curr_battle.opponent_active_pokemon._status = Status.FNT
                     curr_battle.opponent_active_pokemon._active = False
 
             # update status condition        
@@ -417,6 +428,15 @@ class DataExtractor:
                     curr_battle.active_pokemon._status = status
                 else:
                     curr_battle.opponent_active_pokemon._status = status
+
+            if "|-sideend|" in line:
+                hazard_message = line.split('|')[3]
+                player = line.split('|')[2][1]
+
+                if player == 1:
+                    curr_battle.side_conditions[SideCondition.from_showdown_message(hazard_message)] = 0
+                else:
+                    curr_battle.opponent_side_conditions[SideCondition.from_showdown_message(hazard_message)] = 0
 
             if '|turn|' in line:
                 battle_log.append(copy.deepcopy(curr_battle))
