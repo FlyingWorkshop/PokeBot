@@ -24,35 +24,48 @@ def _get_turns(log) -> list:
         turn.append(line)
     return turns
 
-def extract_hazards(curr_turn: Battle) -> torch.Tensor:
-    pass
+class DataExtractor:
+    def __init__(self, battle_json_path: str):
+        self.battle_json = battle_json_path
+        self.turns = self.process_battle(battle_json_path)
 
-def extract_weather(curr_turn: Battle) -> torch.Tensor:
-    pass
+    def extract_hazards(self, curr_turn: Battle) -> torch.Tensor:
+        pass
 
-def extract_status(curr_turn: Battle) -> torch.Tensor:
-    pass
+    def extract_weather(self, curr_turn: Battle) -> torch.Tensor:
+        pass
 
-def extract_moves(curr_turn: Battle) -> torch.Tensor:
-    pass
+    def extract_status(self, curr_turn: Battle) -> torch.Tensor:
+        pass
 
-def extract_pokemon(curr_turn: Battle) -> torch.Tensor:
-    pass
+    def extract_moves(self, curr_turn: Battle) -> torch.Tensor:
+        pass
 
-def extract_team(curr_turn: Battle) -> torch.Tensor:
-    pass
+    def extract_pokemon(self, curr_turn: Battle) -> torch.Tensor:
+        pass
 
-def extract_types(curr_turn: Battle) -> torch.Tensor:
-    pass
+    def extract_team(self, curr_turn: Battle) -> torch.Tensor:
+        pass
 
-def extract_hp(curr_turn: Battle) -> torch.Tensor:
-    pass
+    def extract_types(self, curr_turn: Battle) -> torch.Tensor:
+        pass
 
-def extract_boosts(curr_turn: Battle) -> torch.Tensor:
-    pass
+    def extract_hp(self, curr_turn: Battle) -> torch.Tensor:
+        pass
 
+    def extract_boosts(self, curr_turn: Battle) -> torch.Tensor:
+        pass
 
-def process_battle(battle_log: json) -> list[Battle]:
+    def embed(self, curr_turn: Battle) -> torch.embedding:
+        """
+        Calls all extraction functions and concatenates the results into a single embedding
+
+        Input: Battle object representing a turn
+        Output: torch embedding of the turn
+        """
+        pass
+
+    def process_battle(self, battle_log: json) -> list[Battle]:
     """
     input: a json object representing the data of a battle, scraped from pokemon showdown
     output: a list of Battle objects constructed using information from the json
