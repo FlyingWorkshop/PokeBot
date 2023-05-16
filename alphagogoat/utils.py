@@ -1,7 +1,6 @@
 import json
 import re
 from poke_env.environment.abstract_battle import AbstractBattle
-import pypokedex
 import logging
 from poke_env.environment.pokemon import Pokemon, PokemonType
 import pypokedex
@@ -10,7 +9,6 @@ from poke_env.environment.move import Move
 from poke_env.environment.side_condition import SideCondition
 from poke_env.environment.status import Status
 import copy
-from poke_env.player_configuration import PlayerConfiguration
 from poke_env.environment.battle import Battle
 import torch
 
@@ -23,7 +21,6 @@ def _get_turns(log) -> list:
             turn = []
         turn.append(line)
     return turns
-
 class DataExtractor:
     def __init__(self, battle_json_path: str):
         self.battle_json = battle_json_path
@@ -343,9 +340,10 @@ class DataExtractor:
             # update the hazard
             if "|-sidestart|" in line:
                 hazard_message = line.split('|')[3]
+                player = line.split('|')[2][1]
 
                 if player == 1:
-                    curr_battle.side_conditions[SideCondition.from_showdown_message(hazard_message)] = True
+                    curr_battle.side_conditions[SideCondition.from_showdown_message(hazard_message)] += 1
                 else:
                     curr_battle.opponent_side_conditions[SideCondition.from_showdown_message(hazard_message)] = True
 
@@ -416,9 +414,9 @@ class DataExtractor:
                     status = Status.FRZ
                 
                 if player == 1:
-                    curr_battle.active_pokemon.status = status
+                    curr_battle.active_pokemon._status = status
                 else:
-                    curr_battle.opponent_active_pokemon.status = status
+                    curr_battle.opponent_active_pokemon._status = status
 
             if '|turn|' in line:
                 battle_log.append(copy.deepcopy(curr_battle))
