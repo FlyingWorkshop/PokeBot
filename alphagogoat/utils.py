@@ -12,8 +12,7 @@ from poke_env.environment.status import Status
 import copy
 from poke_env.player_configuration import PlayerConfiguration
 from poke_env.environment.battle import Battle
-
-
+import torch
 
 def _get_turns(log) -> list:
     turns = []
@@ -24,6 +23,33 @@ def _get_turns(log) -> list:
             turn = []
         turn.append(line)
     return turns
+
+def extract_hazards(curr_turn: Battle) -> torch.Tensor:
+    pass
+
+def extract_weather(curr_turn: Battle) -> torch.Tensor:
+    pass
+
+def extract_status(curr_turn: Battle) -> torch.Tensor:
+    pass
+
+def extract_moves(curr_turn: Battle) -> torch.Tensor:
+    pass
+
+def extract_pokemon(curr_turn: Battle) -> torch.Tensor:
+    pass
+
+def extract_team(curr_turn: Battle) -> torch.Tensor:
+    pass
+
+def extract_types(curr_turn: Battle) -> torch.Tensor:
+    pass
+
+def extract_hp(curr_turn: Battle) -> torch.Tensor:
+    pass
+
+def extract_boosts(curr_turn: Battle) -> torch.Tensor:
+    pass
 
 
 def process_battle(battle_log: json) -> list[Battle]:
