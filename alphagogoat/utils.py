@@ -72,6 +72,8 @@ def battle_process(battle_log: str) -> list[Battle]:
     to_skip = []
     battle_log = []
 
+    opponent_active_pokemon = None
+
     for idx, line in enumerate(history):
         if len(line) <= 1 or idx in to_skip:
             continue
@@ -80,74 +82,83 @@ def battle_process(battle_log: str) -> list[Battle]:
             #print(line)
             switch_regex_pattern1 = r"p1a:\s(.*?)\|.*?L(\d+).*?(M|F)\|(\d+)/(\d+)"
             switch_regex_pattern2 = r"p2a:\s(.*?)\|.*?L(\d+).*?(M|F)\|(\d+)/(\d+)"
+            genderless_1 = r"p1a:\s(.*?)\|.*?L(\d+).*?(?:M|F)?\|(\d+)/(\d+)"
+            genderless_2 = r"p2a:\s(.*?)\|.*?L(\d+).*?(?:M|F)?\|(\d+)/(\d+)"
             p1_info = history[idx + 1]
             p2_info = history[idx + 2]
-            # print(p1_info)
-            # print(p2_info)
             to_skip.append(idx + 1)
             to_skip.append(idx + 2)
             match1 = re.search(switch_regex_pattern1, p1_info)
             match2 = re.search(switch_regex_pattern2, p2_info)
+            match3 = re.search(genderless_1, p1_info)
+            match4 = re.search(genderless_2, p2_info)
             
             if match1:
-                #print("match1")
                 pokemon_name = match1.group(1)
                 level = int(match1.group(2))
                 gender = match1.group(3)
                 curr_hp = int(match1.group(4))
                 max_hp = int(match1.group(5))
 
-                pokemon1_info = pypokedex.get(name=pokemon_name)
-
-                #generation_dict.get(pokemon2_info.dex, 9)
-                curr_p1_pokemon = Pokemon(gen = 8, species = pokemon1_info.name)
-
-                curr_battle.team[pokemon1_info.name] = curr_p1_pokemon
-
-                curr_p1_pokemon._level = level
-                curr_p1_pokemon._possible_abilities = [p.name for p in pokemon1_info.abilities]
-                curr_p1_pokemon._heightm = pokemon1_info.height
-                curr_p1_pokemon._weightkg = pokemon1_info.weight
-                curr_p1_pokemon._type_1 = PokemonType.from_name(pokemon1_info.types[0])
-                if len(pokemon1_info.types) > 1:
-                    curr_p1_pokemon._type_2 = PokemonType.from_name(pokemon1_info.types[1])
-                curr_p1_pokemon._active = True
-                curr_p1_pokemon._current_hp = curr_hp
-                curr_p1_pokemon._max_hp = max_hp
-                curr_p1_pokemon._first_turn = True
-                curr_p1_pokemon._status = None
-
-                curr_p1_pokemon._update_from_pokedex(species=pokemon1_info.name)
-                #print(pokemon_name, level, curr_hp, max_hp)
+            elif match3:
+                pokemon_name = match3.group(1)
+                level = int(match3.group(2))
+                curr_hp = int(match3.group(3))
+                max_hp = int(match3.group(4))
+                gender = None
+            
             else:
-                print("no match")
+                line = p1_info.split('|')
+                player_number = int(line[2][1])
+                pokemon_name = line[2].split(' ')[1]
+                level = int(line[3].split(' ')[1][1:])
+                hp_numerator = int(line[4].split('/')[0])
+                hp_denominator = int(line[4].split('/')[1])
+            
+            curr_p1_pokemon = Pokemon(gen = 8, species = pokemon_name) #pokemon1_info.name)
+
+            curr_battle._team[pokemon_name.replace(" ","").lower()] = curr_p1_pokemon
+            curr_battle._team[pokemon_name.replace(" ","").lower()]._active = True
+
+            curr_p1_pokemon._level = level
+            curr_p1_pokemon._active = True
+            curr_p1_pokemon._current_hp = curr_hp
+            curr_p1_pokemon._max_hp = max_hp
+            curr_p1_pokemon._first_turn = True
+            curr_p1_pokemon._status = None
             
             if match2:
                 #print("match2")
+                #print('here')
                 pokemon_name = match2.group(1)
                 level = int(match2.group(2))
                 gender = match2.group(3)
                 curr_hp = int(match2.group(4))
                 max_hp = int(match2.group(5))
+            elif match4:
+                pokemon_name = match4.group(1)
+                level = int(match4.group(2))
+                curr_hp = int(match4.group(3))
+                max_hp = int(match4.group(4))
+            else:
+                line = p2_info.split('|')
+                player_number = int(line[2][1])
+                pokemon_name = line[2].split(' ')[1]
+                level = int(line[3].split(' ')[1][1:])
+                hp_numerator = int(line[4].split('/')[0])
+                hp_denominator = int(line[4].split('/')[1])
 
-                pokemon2_info = pypokedex.get(name=pokemon_name)
+            curr_p2_pokemon = Pokemon(gen = 8, species = pokemon_name)
+            curr_battle._opponent_team[pokemon_name.replace(" ","").lower()] = curr_p2_pokemon
+            curr_battle._opponent_team[pokemon_name.replace(" ","").lower()]._active = True
 
-                #generation_dict.get(pokemon2_info.dex, 9)
-                curr_p2_pokemon = Pokemon(gen = 8, species = pokemon2_info.name)
-                curr_battle.opponent_team[pokemon2_info.name] = curr_p2_pokemon
-
-                curr_p2_pokemon._level = level
-                curr_p2_pokemon._possible_abilities = [p.name for p in pokemon2_info.abilities]
-                curr_p2_pokemon._heightm = pokemon2_info.height
-                curr_p2_pokemon._weightkg = pokemon2_info.weight
-                curr_p2_pokemon._type_1 = PokemonType.from_name(pokemon2_info.types[0])
-                if len(pokemon2_info.types) > 1:
-                    curr_p2_pokemon._type_2 = PokemonType.from_name(pokemon2_info.types[1])
-                curr_p2_pokemon._active = True
-                curr_p2_pokemon._current_hp = curr_hp
-                curr_p2_pokemon._max_hp = max_hp
-                curr_p2_pokemon._first_turn = True
-                curr_p2_pokemon._status = None
+            curr_p2_pokemon._level = level
+            curr_p2_pokemon._current_hp = curr_hp
+            curr_p2_pokemon._max_hp = max_hp
+            curr_p2_pokemon._first_turn = True
+            curr_p2_pokemon._status = None
+            # else:
+            #     print("no match")
             
         if line.startswith("|-weather|"):
             weather_regex = r"^\|-weather\|(\w+)\|\[from\]\s(\w+):\s(.*?)\|\[of\]\sp(\d+)a:\s(.*?)$"
@@ -159,122 +170,111 @@ def battle_process(battle_log: str) -> list[Battle]:
                 source = match.group(3)
                 player = int(match.group(4))
                 pokemon_name = match.group(5)
-                curr_battle.weather = Weather.from_name(weather)
+                curr_battle._weather = Weather.from_name(weather)
             
             if 'none' in line:
-                curr_battle.weather = None
-
+                curr_battle._weather = None
 
         if line.startswith("|switch|"):
             switch_regex_pattern = r'\|switch\|p(\d)a: (\w+)\|\w+, L(\d+), \w+\|(\d+)/(\d+)'
             match1 = re.search(switch_regex_pattern, line)
 
             if match1:
-                player_number = match.group(1)
-                pokemon_name = match.group(2)
-                # level = match.group(3)
-                hp_numerator = match.group(3)
-                hp_denominator = match.group(4)
-
-                if player_number == 1:
-                    curr_battle.active_pokemon._active = False
-                    if pokemon_name not in curr_battle.team:
-
-                        pokemon1_info = pypokedex.get(name=pokemon_name)
-
-                        curr_p1_pokemon = Pokemon(gen = 8, species = pokemon1_info.name)
-
-                        curr_battle.team[pokemon1_info.name] = curr_p1_pokemon
-
-                        curr_battle.active_pokemon = curr_p1_pokemon
-
-                        curr_p1_pokemon.level = level
-                        curr_p1_pokemon._possible_abilities = [p.name for p in pokemon1_info.abilities]
-                        curr_p1_pokemon._heightm = pokemon1_info.height
-                        curr_p1_pokemon._weightkg = pokemon1_info.weight
-                        curr_p1_pokemon._type_1 = PokemonType.from_name(pokemon1_info.types[0].name)
-                        if len(pokemon1_info.types) > 1:
-                            curr_p1_pokemon._type_2 = PokemonType.from_name(pokemon1_info.types[1].name)
-                        curr_p1_pokemon._active = True
-                        curr_p1_pokemon._current_hp = curr_hp
-                        curr_p1_pokemon._max_hp = max_hp
-                        curr_p1_pokemon._first_turn = True
-                        curr_p1_pokemon._status = None
-
-                        curr_p1_pokemon._update_from_pokedex(species=pokemon1_info.name)
-                        #print(pokemon_name, level, curr_hp, max_hp)
-                    else:
-                        curr_battle.active_pokemon = curr_battle.team[pokemon_name]
-                else:
-                    curr_battle.opponent_active_pokemon._active = False
-                    if pokemon_name not in curr_battle.opponent_team:
-                        pokemon2_info = pypokedex.get(name=pokemon_name)
-
-                        curr_p2_pokemon = Pokemon(gen = 8, species = pokemon2_info.name)
-                        curr_battle.opponent_team[pokemon2_info.name] = curr_p2_pokemon
-
-                        curr_battle.opponent_active_pokemon = curr_p2_pokemon
-                        curr_battle.opponent_active_pokemon._active = True
-                        curr_p2_pokemon.level = level
-                        curr_p2_pokemon._possible_abilities = [p.name for p in pokemon2_info.abilities]
-                        curr_p2_pokemon._heightm = pokemon2_info.height
-                        curr_p2_pokemon._weightkg = pokemon2_info.weight
-                        curr_p2_pokemon._type_1 = PokemonType.from_name(pokemon2_info.types[0].name)
-                        if len(pokemon2_info.types) > 1:
-                            curr_p2_pokemon._type_2 = PokemonType.from_name(pokemon2_info.types[1].name)
-                        curr_p2_pokemon._active = True
-                        curr_p2_pokemon._current_hp = curr_hp
-                        curr_p2_pokemon._max_hp = max_hp
-                        curr_p2_pokemon._first_turn = True
-                        curr_p2_pokemon._status = None
-
-                        curr_p2_pokemon._update_from_pokedex(species=pokemon2_info.name)
-                    
-                    else:
-                        curr_battle.active_pokemon = curr_battle.opponent_team[pokemon_name]
+                player_number = int(match1.group(1))
+                pokemon_name = match1.group(2)
+                level = match1.group(3)
+                hp_numerator = match1.group(4)
+                hp_denominator = match1.group(5)
             else:
-                print("no match")
+                line = line.split('|')
+                player_number = int(line[2][1])
+                pokemon_name = line[2].split(' ')[1]
+                level = int(re.sub(r'\D', '', line[3].split(' ')[1][1:]))
+                hp_numerator = int(line[4].split('/')[0])
+                hp_denominator = int(line[4].split('/')[1])
 
+            if player_number == 1:
+                if pokemon_name not in curr_battle.team:
 
-        if line.startswith("|-damage|"):
-            
-            damage_regex = r"p(\d+)a:\s(.*?)\|(\d+)/(\d+)$"
+                    curr_battle._team[curr_p1_pokemon._species]._active = False
 
-            if 'fnt' not in line:
-                match = re.search(damage_regex, line)
-                player = int(match.group(1))
-                pokemon_name = match.group(2)
-                curr_hp = int(match.group(3))
-                max_hp = int(match.group(4))
+                    curr_p1_pokemon = Pokemon(gen = 8, species = pokemon_name)
 
-                if player == 1:
-                    curr_battle.active_pokemon.current_hp = curr_hp
+                    curr_battle._team[pokemon_name.replace(" ","").lower()] = curr_p1_pokemon
+                    curr_battle._team[pokemon_name.replace(" ","").lower()]._active = True
+
+                    #curr_battle.active_pokemon = curr_p1_pokemon
+
+                    curr_p1_pokemon._level = level
+                    curr_p1_pokemon._active = True
+                    curr_p1_pokemon._current_hp = curr_hp
+                    curr_p1_pokemon._max_hp = max_hp
+                    curr_p1_pokemon._first_turn = True
+                    curr_p1_pokemon._status = None
+
                 else:
-                    curr_battle.opponent_active_pokemon.current_hp = curr_hp
+                    curr_battle.active_pokemon = curr_battle.team[pokemon_name]
+            else:
+                
+                #curr_battle.opponent_active_pokemon._active = False
+                if pokemon_name not in curr_battle.opponent_team:
+
+                    curr_battle._opponent_team[curr_p2_pokemon._species]._active = False
+
+                    curr_p2_pokemon = Pokemon(gen = 8, species = pokemon_name)
+                    curr_battle._opponent_team[pokemon_name.replace(" ","").lower()] = curr_p2_pokemon
+                    curr_battle._opponent_team[pokemon_name.replace(" ","").lower()]._active = True
+
+                    curr_p2_pokemon._level = level
+                    curr_p2_pokemon._active = True
+                    curr_p2_pokemon._current_hp = curr_hp
+                    curr_p2_pokemon._max_hp = max_hp
+                    curr_p2_pokemon._first_turn = True
+                    curr_p2_pokemon._status = None
+                
+                else:
+                    #curr_battle.active_pokemon = curr_battle.opponent_team[pokemon_name.replace(" ","").lower()]
+                    pass
+
+        if '|-damage|' in line:
+            if 'fnt' not in line:
+            #print(line)
+                line = line.split('|')
+                player = int(line[2][1])
+                curr_hp = int(line[3].split('/')[0])
+                if player == 1:
+                    curr_battle.active_pokemon._current_hp = curr_hp
+                else:
+                    curr_battle.opponent_active_pokemon._current_hp = curr_hp
             
 
-        if line.startswith("|-ability|"):
+        #if line.startswith("|-ability|"):
+        if '|-ability|' in line:
             ability_regex = r"p(\d+)a:\s(.*?)\|.*\|(\w+)\|(\w+)$"
 
             match = re.search(ability_regex, line)
-            player = int(match.group(1))
-            pokemon_name = match.group(2)
-            ability = match.group(3)
-            ability_effect = match.group(4)
 
-            if player == 1:
-                curr_battle.active_pokemon.ability = ability
-                curr_battle.active_pokemon.ability_effect = ability_effect
-            else:
-                curr_battle.opponent_active_pokemon.ability = ability
-                curr_battle.opponent_active_pokemon.ability_effect = ability_effect
+            if match:
+                player = int(match.group(1))
+                pokemon_name = match.group(2)
+                ability = match.group(3)
+                ability_effect = match.group(4)
 
-        if line.startswith("|move|"):
+                if player == 1:
+                    curr_battle.active_pokemon.ability = ability
+                    curr_battle.active_pokemon.ability_effect = ability_effect
+                else:
+                    curr_battle.opponent_active_pokemon.ability = ability
+                    curr_battle.opponent_active_pokemon.ability_effect = ability_effect
+
+        #if line.startswith("|move|"):
+        if '|move|' in line:
             
             line = line.split('|')
             
             player_number = line[2][1]
             move = line[3].replace(' ', '').lower()
+            move = re.sub(r'\W+', '', move).lower()
 
             if player_number == '1':
                 if move not in curr_battle.active_pokemon.moves:
@@ -285,35 +285,30 @@ def battle_process(battle_log: str) -> list[Battle]:
                 curr_battle.opponent_active_pokemon.moves[move] = Move(move, gen=8)
                 curr_battle.opponent_active_pokemon.moves[move].use()
 
-        if line.startswith("|-heal|"):
-            heal_regex = r"p(\d+)a:\s(.*?)\|(\d+)/(\d+)\|\[from\]\s(\w+):\s(\w+)"
-
-            match = re.search(heal_regex, line)
-            player = int(match.group(1))
-            pokemon_name = match.group(2)
-            curr_hp = int(match.group(3))
-            max_hp = int(match.group(4))
-            source_type = match.group(5)
-            source = match.group(6)
+        #if line.startswith("|-heal|"):
+        if "|-heal|" in line:
+            heal = line.split('|')
+            player = int(heal[2][1])
+            pokemon_name = heal[2].split(' ')[1]
+            curr_hp = int(heal[3].split('/')[0])
+            max_hp = int(heal[3].split('/')[1].split(' ')[0])
 
             if player == 1:
-                curr_battle.active_pokemon.current_hp = curr_hp
+                curr_battle.active_pokemon._current_hp = curr_hp
             else:
-                curr_battle.opponent_active_pokemon.current_hp = curr_hp
+                curr_battle.opponent_active_pokemon._current_hp = curr_hp
 
-        if line.startswith("|-sidestart|"): # hazards
-            hazard_regex = r"p(\d+):.*?move:\s(.*?)$"
-
-            match = re.search(hazard_regex, line)
-            player = int(match.group(1))
-            hazard = match.group(2)
+        #if line.startswith("|-sidestart|"): # hazards
+        if "|-sidestart|" in line:
+            hazard_message = line.split('|')[3]
 
             if player == 1:
-                curr_battle.side_conditions[SideCondition.from_name(hazard)] = True
+                curr_battle.side_conditions[SideCondition.from_showdown_message(hazard_message)] = True
             else:
-                curr_battle.opponent_side_conditions[SideCondition.from_name(hazard)] = True
+                curr_battle.opponent_side_conditions[SideCondition.from_showdown_message(hazard_message)] = True
 
-        if line.startswith("|-boost|"):
+        #if line.startswith("|-boost|"):
+        if "|-boost|" in line:
             boost_regex = r"p(\d+)a:\s\w+\|(\w+)\|(\d+)"
 
             match = re.search(boost_regex, line)
@@ -326,7 +321,8 @@ def battle_process(battle_log: str) -> list[Battle]:
             else:
                 curr_battle.opponent_active_pokemon.boosts[stat] += amount
 
-        if line.startswith("|-unboost|"):
+        #if line.startswith("|-unboost|"):
+        if "|-unboost|" in line:
             boost_regex = r"p(\d+)a:\s\w+\|(\w+)\|(\d+)"
 
             match = re.search(boost_regex, line)
@@ -340,7 +336,8 @@ def battle_process(battle_log: str) -> list[Battle]:
                 curr_battle.opponent_active_pokemon.boosts[stat] -= amount
 
 
-        if line.startswith("|faint|"):
+        #if line.startswith("|faint|"):
+        if "|faint|" in line:
             faint_regex = r"p(\d+)a:\s(.*?)$"
 
             match = re.search(faint_regex, line)
@@ -348,13 +345,16 @@ def battle_process(battle_log: str) -> list[Battle]:
             pokemon_name = match.group(2)
 
             if player == 1:
-                curr_battle.active_pokemon._active = False
                 curr_battle.active_pokemon.status = Status.FNT
+                curr_battle.active_pokemon._active = False
+                
             else:
-                curr_battle.opponent_active_pokemon._active = False
                 curr_battle.opponent_active_pokemon.status = Status.FNT
+                curr_battle.opponent_active_pokemon._active = False
+                
 
-        if line.startswith("|-status|"):
+        #if line.startswith("|-status|"):
+        if "|-status|" in line:
             status_regex = r"p(\d+)a:\s(.*?)\|(\w+)"
 
             match = re.search(status_regex, line)
@@ -362,13 +362,23 @@ def battle_process(battle_log: str) -> list[Battle]:
             pokemon_name = match.group(2)
             status = match.group(3)
 
+            if status == 'par':
+                status = Status.PAR
+            elif status == 'brn':
+                status = Status.BRN
+            elif status == 'psn':
+                status = Status.PSN
+            elif status == 'tox':
+                status = Status.TOX
+            elif status == 'slp':
+                status = Status.SLP
+            elif status == 'frz':
+                status = Status.FRZ
+            
             if player == 1:
-                curr_battle.active_pokemon.status = Status.from_name(status)
+                curr_battle.active_pokemon.status = status
             else:
-                curr_battle.opponent_active_pokemon.status = Status.from_name(status)
-
-        if line.startswith("|win|"):
-            pass
+                curr_battle.opponent_active_pokemon.status = status
 
         battle_log.append(copy.deepcopy(curr_battle))
     
