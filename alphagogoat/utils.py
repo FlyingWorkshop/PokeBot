@@ -38,7 +38,7 @@ def battle_process(battle_log: str) -> list[Battle]:
     curr_p1_pokemon = None
     curr_p2_pokemon = None
 
-    curr_battle = Battle(battle_data['id'], battle_data['p1'],logger, gen)
+    curr_battle = Battle(battle_data['id'], battle_data['p1'],logger, 8)
 
     generation_dict = {}
 
