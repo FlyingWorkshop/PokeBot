@@ -26,8 +26,18 @@ def _get_turns(log) -> list:
     return turns
 
 
-def battle_process(battle_log: str) -> list[Battle]:
+def process_battle(battle_log: json) -> list[Battle]:
+    """
+    input: a json object representing the data of a battle, scraped from pokemon showdown
+    output: a list of Battle objects constructed using information from the json
+
+    this function loops through the battle log turn by turn, updating all properties of the Battle. it then appends that object to a list
+    
+    """
+
+    # initialize logger
     logger = logging.getLogger('poke-env')
+
     with open(battle_log) as f:
         battle_data = json.load(f)
     
@@ -72,14 +82,15 @@ def battle_process(battle_log: str) -> list[Battle]:
     to_skip = []
     battle_log = []
 
-    opponent_active_pokemon = None
-
     for idx, line in enumerate(history):
         if len(line) <= 1 or idx in to_skip:
             continue
         
-        if line.startswith("|start"): # start of battle
-            #print(line)
+        #initialize some things for the start of a battle, and coniders the two default switches in order to start both the current and opponent team
+        if line.startswith("|start"):
+
+            # we have 4 regexes, 2 for each player
+            # one for the case with gender, one for the case without
             switch_regex_pattern1 = r"p1a:\s(.*?)\|.*?L(\d+).*?(M|F)\|(\d+)/(\d+)"
             switch_regex_pattern2 = r"p2a:\s(.*?)\|.*?L(\d+).*?(M|F)\|(\d+)/(\d+)"
             genderless_1 = r"p1a:\s(.*?)\|.*?L(\d+).*?(?:M|F)?\|(\d+)/(\d+)"
@@ -107,6 +118,7 @@ def battle_process(battle_log: str) -> list[Battle]:
                 max_hp = int(match3.group(4))
                 gender = None
             
+            # Covers a case where the other two regexes don't do, which is more brute-force. Could consider just defaulting to this
             else:
                 line = p1_info.split('|')
                 player_number = int(line[2][1])
@@ -115,11 +127,12 @@ def battle_process(battle_log: str) -> list[Battle]:
                 hp_numerator = int(line[4].split('/')[0])
                 hp_denominator = int(line[4].split('/')[1])
             
-            curr_p1_pokemon = Pokemon(gen = 8, species = pokemon_name) #pokemon1_info.name)
+            curr_p1_pokemon = Pokemon(gen = 8, species = pokemon_name) #this constructor automatically initializes some info for us
 
             curr_battle._team[pokemon_name.replace(" ","").lower()] = curr_p1_pokemon
             curr_battle._team[pokemon_name.replace(" ","").lower()]._active = True
 
+            # init some other stuff
             curr_p1_pokemon._level = level
             curr_p1_pokemon._active = True
             curr_p1_pokemon._current_hp = curr_hp
@@ -128,8 +141,6 @@ def battle_process(battle_log: str) -> list[Battle]:
             curr_p1_pokemon._status = None
             
             if match2:
-                #print("match2")
-                #print('here')
                 pokemon_name = match2.group(1)
                 level = int(match2.group(2))
                 gender = match2.group(3)
@@ -140,6 +151,8 @@ def battle_process(battle_log: str) -> list[Battle]:
                 level = int(match4.group(2))
                 curr_hp = int(match4.group(3))
                 max_hp = int(match4.group(4))
+
+            # similar to above
             else:
                 line = p2_info.split('|')
                 player_number = int(line[2][1])
@@ -148,17 +161,16 @@ def battle_process(battle_log: str) -> list[Battle]:
                 hp_numerator = int(line[4].split('/')[0])
                 hp_denominator = int(line[4].split('/')[1])
 
-            curr_p2_pokemon = Pokemon(gen = 8, species = pokemon_name)
+            curr_p2_pokemon = Pokemon(gen = 8, species = pokemon_name) #this constructor automatically initializes some info for us
             curr_battle._opponent_team[pokemon_name.replace(" ","").lower()] = curr_p2_pokemon
             curr_battle._opponent_team[pokemon_name.replace(" ","").lower()]._active = True
 
+            # init some other stuff
             curr_p2_pokemon._level = level
             curr_p2_pokemon._current_hp = curr_hp
             curr_p2_pokemon._max_hp = max_hp
             curr_p2_pokemon._first_turn = True
             curr_p2_pokemon._status = None
-            # else:
-            #     print("no match")
             
         if line.startswith("|-weather|"):
             weather_regex = r"^\|-weather\|(\w+)\|\[from\]\s(\w+):\s(.*?)\|\[of\]\sp(\d+)a:\s(.*?)$"
@@ -175,6 +187,8 @@ def battle_process(battle_log: str) -> list[Battle]:
             if 'none' in line:
                 curr_battle._weather = None
 
+        # the switch logic is as follows:
+        # if the pokemon switching in hasn't been seen yet, initialize a new pokemon and add it to the appropriate team
         if line.startswith("|switch|"):
             switch_regex_pattern = r'\|switch\|p(\d)a: (\w+)\|\w+, L(\d+), \w+\|(\d+)/(\d+)'
             match1 = re.search(switch_regex_pattern, line)
@@ -203,20 +217,15 @@ def battle_process(battle_log: str) -> list[Battle]:
                     curr_battle._team[pokemon_name.replace(" ","").lower()] = curr_p1_pokemon
                     curr_battle._team[pokemon_name.replace(" ","").lower()]._active = True
 
-                    #curr_battle.active_pokemon = curr_p1_pokemon
-
                     curr_p1_pokemon._level = level
                     curr_p1_pokemon._active = True
                     curr_p1_pokemon._current_hp = curr_hp
                     curr_p1_pokemon._max_hp = max_hp
                     curr_p1_pokemon._first_turn = True
                     curr_p1_pokemon._status = None
-
                 else:
                     curr_battle.active_pokemon = curr_battle.team[pokemon_name]
             else:
-                
-                #curr_battle.opponent_active_pokemon._active = False
                 if pokemon_name not in curr_battle.opponent_team:
 
                     curr_battle._opponent_team[curr_p2_pokemon._species]._active = False
@@ -231,14 +240,11 @@ def battle_process(battle_log: str) -> list[Battle]:
                     curr_p2_pokemon._max_hp = max_hp
                     curr_p2_pokemon._first_turn = True
                     curr_p2_pokemon._status = None
-                
                 else:
-                    #curr_battle.active_pokemon = curr_battle.opponent_team[pokemon_name.replace(" ","").lower()]
                     pass
 
         if '|-damage|' in line:
             if 'fnt' not in line:
-            #print(line)
                 line = line.split('|')
                 player = int(line[2][1])
                 curr_hp = int(line[3].split('/')[0])
@@ -247,11 +253,8 @@ def battle_process(battle_log: str) -> list[Battle]:
                 else:
                     curr_battle.opponent_active_pokemon._current_hp = curr_hp
             
-
-        #if line.startswith("|-ability|"):
         if '|-ability|' in line:
             ability_regex = r"p(\d+)a:\s(.*?)\|.*\|(\w+)\|(\w+)$"
-
             match = re.search(ability_regex, line)
 
             if match:
@@ -267,7 +270,7 @@ def battle_process(battle_log: str) -> list[Battle]:
                     curr_battle.opponent_active_pokemon.ability = ability
                     curr_battle.opponent_active_pokemon.ability_effect = ability_effect
 
-        #if line.startswith("|move|"):
+        # if the move isn't registered, then register it
         if '|move|' in line:
             
             line = line.split('|')
@@ -281,11 +284,11 @@ def battle_process(battle_log: str) -> list[Battle]:
                     curr_battle.active_pokemon.moves[move] = Move(move, gen=8)
                 curr_battle.active_pokemon.moves[move].use()
             else:
-                #if move not in curr_battle.opponent_active_pokemon.moves:
-                curr_battle.opponent_active_pokemon.moves[move] = Move(move, gen=8)
+                if move not in curr_battle.opponent_active_pokemon.moves:
+                    curr_battle.opponent_active_pokemon.moves[move] = Move(move, gen=8)
                 curr_battle.opponent_active_pokemon.moves[move].use()
 
-        #if line.startswith("|-heal|"):
+        # if heal then update the HP. Might consider the other info (like source and amount healed and such)
         if "|-heal|" in line:
             heal = line.split('|')
             player = int(heal[2][1])
@@ -298,7 +301,7 @@ def battle_process(battle_log: str) -> list[Battle]:
             else:
                 curr_battle.opponent_active_pokemon._current_hp = curr_hp
 
-        #if line.startswith("|-sidestart|"): # hazards
+        # update the hazard
         if "|-sidestart|" in line:
             hazard_message = line.split('|')[3]
 
@@ -307,7 +310,7 @@ def battle_process(battle_log: str) -> list[Battle]:
             else:
                 curr_battle.opponent_side_conditions[SideCondition.from_showdown_message(hazard_message)] = True
 
-        #if line.startswith("|-boost|"):
+        # update stats
         if "|-boost|" in line:
             boost_regex = r"p(\d+)a:\s\w+\|(\w+)\|(\d+)"
 
@@ -321,7 +324,7 @@ def battle_process(battle_log: str) -> list[Battle]:
             else:
                 curr_battle.opponent_active_pokemon.boosts[stat] += amount
 
-        #if line.startswith("|-unboost|"):
+        # update stats
         if "|-unboost|" in line:
             boost_regex = r"p(\d+)a:\s\w+\|(\w+)\|(\d+)"
 
@@ -335,8 +338,7 @@ def battle_process(battle_log: str) -> list[Battle]:
             else:
                 curr_battle.opponent_active_pokemon.boosts[stat] -= amount
 
-
-        #if line.startswith("|faint|"):
+        # faint case, update status
         if "|faint|" in line:
             faint_regex = r"p(\d+)a:\s(.*?)$"
 
@@ -351,9 +353,8 @@ def battle_process(battle_log: str) -> list[Battle]:
             else:
                 curr_battle.opponent_active_pokemon.status = Status.FNT
                 curr_battle.opponent_active_pokemon._active = False
-                
 
-        #if line.startswith("|-status|"):
+        # update status condition        
         if "|-status|" in line:
             status_regex = r"p(\d+)a:\s(.*?)\|(\w+)"
 
@@ -380,7 +381,8 @@ def battle_process(battle_log: str) -> list[Battle]:
             else:
                 curr_battle.opponent_active_pokemon.status = status
 
-        battle_log.append(copy.deepcopy(curr_battle))
+        if '|turn|' in line:
+            battle_log.append(copy.deepcopy(curr_battle))
     
     return battle_log
 
