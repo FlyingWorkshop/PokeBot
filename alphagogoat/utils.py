@@ -126,3 +126,5 @@ class DataExtractor:
             curr_battle._parse_message(line.split('|'))
             if line.split('|')[1] == 'turn':
                 battle_objects.append(copy.deepcopy(curr_battle))
+        
+        return battle_objects
