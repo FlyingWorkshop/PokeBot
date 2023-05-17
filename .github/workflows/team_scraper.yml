@@ -2,7 +2,7 @@ name: Scrape teams
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "* * * * *"
 
 jobs:
   run-script:
