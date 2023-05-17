@@ -97,7 +97,7 @@ class DataExtractor:
         """
         pass
 
-    def process_battle(self, battle_log: json) -> list[Battle]:
+    def process_battle(self) -> list[Battle]:
         """
         input: a json object representing the data of a battle, scraped from pokemon showdown
         output: a list of Battle objects constructed using information from the json
@@ -111,7 +111,7 @@ class DataExtractor:
         # initialize logger
         logger = logging.getLogger('poke-env')
 
-        with open(battle_log) as f:
+        with open(self.battle_json) as f:
             battle_data = json.load(f)
         
         history = battle_data['log']
