@@ -119,12 +119,11 @@ class DataExtractor:
         battle_objects = []
 
         for line in history:
-            if len(line) <= 1:
+            try:
+                curr_battle._parse_message(line.split('|'))
+                if line.split('|')[1] == 'turn':
+                    battle_objects.append(copy.deepcopy(curr_battle))
+            except:
                 continue
-            if line.split('|')[1] == 't:' or line.split('|')[1] == 'win':
-                continue
-            curr_battle._parse_message(line.split('|'))
-            if line.split('|')[1] == 'turn':
-                battle_objects.append(copy.deepcopy(curr_battle))
         
         return battle_objects
