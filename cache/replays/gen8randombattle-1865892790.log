@@ -1,0 +1,443 @@
+|j|‽Planeswalk
+|j|‽Rishi Myeni
+|t:|1684347650
+|gametype|singles
+|player|p1|Planeswalk|chili|
+|player|p2|Rishi Myeni|ghetsis|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1684347650
+|start
+|switch|p1a: Zarude|Zarude, L78|292/292
+|switch|p2a: Cursola|Cursola, L86, M|243/243
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Planeswalk)
+|
+|t:|1684347664
+|move|p1a: Zarude|Bulk Up|p1a: Zarude
+|-boost|p1a: Zarude|atk|1
+|-boost|p1a: Zarude|def|1
+|move|p2a: Cursola|Ice Beam|p1a: Zarude
+|-supereffective|p1a: Zarude
+|-damage|p1a: Zarude|100/292
+|
+|-heal|p1a: Zarude|118/292|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1684347669
+|switch|p1a: Guzzlord|Guzzlord, L84|512/512
+|move|p2a: Cursola|Ice Beam|p1a: Guzzlord
+|-supereffective|p1a: Guzzlord
+|-damage|p1a: Guzzlord|244/512
+|
+|upkeep
+|turn|3
+|
+|t:|1684347676
+|move|p1a: Guzzlord|Dark Pulse|p2a: Cursola
+|-supereffective|p2a: Cursola
+|-damage|p2a: Cursola|75/243
+|move|p2a: Cursola|Ice Beam|p1a: Guzzlord
+|-supereffective|p1a: Guzzlord
+|-damage|p1a: Guzzlord|0 fnt
+|faint|p1a: Guzzlord
+|
+|-heal|p2a: Cursola|90/243|[from] item: Leftovers
+|upkeep
+|
+|t:|1684347682
+|switch|p1a: Zarude|Zarude, L78|118/292
+|turn|4
+|
+|t:|1684347692
+|switch|p2a: Mantine|Mantine, L86, M|286/286
+|move|p1a: Zarude|Darkest Lariat|p2a: Mantine
+|-damage|p2a: Mantine|181/286
+|
+|-heal|p1a: Zarude|136/292|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1684347702
+|switch|p1a: Vikavolt|Vikavolt, L82, F|260/260
+|move|p2a: Mantine|Roost|p2a: Mantine
+|-heal|p2a: Mantine|286/286
+|-singleturn|p2a: Mantine|move: Roost
+|
+|upkeep
+|turn|6
+|
+|t:|1684347709
+|switch|p2a: Aggron|Aggron, L85, M|258/258
+|-item|p2a: Aggron|Air Balloon
+|move|p1a: Vikavolt|Volt Switch|p2a: Aggron
+|-crit|p2a: Aggron
+|-damage|p2a: Aggron|81/258
+|-enditem|p2a: Aggron|Air Balloon
+|
+|t:|1684347717
+|switch|p1a: Keldeo|Keldeo-Resolute, L79|273/273|[from] Volt Switch
+|
+|upkeep
+|turn|7
+|
+|t:|1684347723
+|move|p1a: Keldeo|Secret Sword|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|faint|p2a: Aggron
+|
+|upkeep
+|
+|t:|1684347731
+|switch|p2a: Mantine|Mantine, L86, M|286/286
+|turn|8
+|
+|t:|1684347741
+|switch|p1a: Vikavolt|Vikavolt, L82, F|260/260
+|move|p2a: Mantine|Hurricane|p1a: Vikavolt
+|-damage|p1a: Vikavolt|134/260
+|
+|upkeep
+|turn|9
+|
+|t:|1684347752
+|switch|p2a: Lunatone|Lunatone, L86|295/295
+|move|p1a: Vikavolt|Roost|p1a: Vikavolt
+|-heal|p1a: Vikavolt|260/260
+|-singleturn|p1a: Vikavolt|move: Roost
+|
+|upkeep
+|turn|10
+|inactive|Planeswalk has 270 seconds left.
+|
+|t:|1684347797
+|move|p2a: Lunatone|Power Gem|p1a: Vikavolt
+|-supereffective|p1a: Vikavolt
+|-damage|p1a: Vikavolt|0 fnt
+|faint|p1a: Vikavolt
+|-damage|p2a: Lunatone|266/295|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1684347800
+|switch|p1a: Zarude|Zarude, L78|136/292
+|turn|11
+|
+|t:|1684347828
+|switch|p2a: Cursola|Cursola, L86, M|90/243
+|move|p1a: Zarude|Darkest Lariat|p2a: Cursola
+|-supereffective|p2a: Cursola
+|-damage|p2a: Cursola|0 fnt
+|faint|p2a: Cursola
+|
+|-heal|p1a: Zarude|154/292|[from] item: Leftovers
+|upkeep
+|
+|t:|1684347833
+|switch|p2a: Kommo-o|Kommo-o, L80, M|251/251
+|turn|12
+|inactive|Planeswalk has 270 seconds left.
+|
+|t:|1684347855
+|switch|p1a: Blissey|Blissey, L83, F|559/559
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|169/251
+|-enditem|p2a: Kommo-o|Throat Spray
+|-boost|p2a: Kommo-o|spa|1|[from] item: Throat Spray
+|
+|upkeep
+|turn|13
+|
+|t:|1684347865
+|move|p2a: Kommo-o|Close Combat|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|-unboost|p2a: Kommo-o|def|1
+|-unboost|p2a: Kommo-o|spd|1
+|faint|p1a: Blissey
+|
+|upkeep
+|
+|t:|1684347869
+|switch|p1a: Zarude|Zarude, L78|154/292
+|turn|14
+|
+|t:|1684347877
+|move|p2a: Kommo-o|Close Combat|p1a: Zarude
+|-supereffective|p1a: Zarude
+|-damage|p1a: Zarude|0 fnt
+|-unboost|p2a: Kommo-o|def|1
+|-unboost|p2a: Kommo-o|spd|1
+|faint|p1a: Zarude
+|
+|upkeep
+|
+|t:|1684347880
+|switch|p1a: Reuniclus|Reuniclus, L84, M|322/322
+|turn|15
+|
+|t:|1684347885
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|87/251
+|move|p1a: Reuniclus|Shadow Ball|p2a: Kommo-o
+|-immune|p2a: Kommo-o|[from] ability: Bulletproof
+|
+|upkeep
+|turn|16
+|
+|t:|1684347899
+|-start|p1a: Reuniclus|Dynamax|
+|-heal|p1a: Reuniclus|644/644|[silent]
+|move|p2a: Kommo-o|Clanging Scales|p1a: Reuniclus
+|-damage|p1a: Reuniclus|344/644
+|-unboost|p2a: Kommo-o|def|1
+|move|p1a: Reuniclus|Max Mindstorm|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|-fieldstart|move: Psychic Terrain
+|faint|p2a: Kommo-o
+|
+|upkeep
+|
+|t:|1684347915
+|switch|p2a: Mantine|Mantine, L86, M|286/286
+|turn|17
+|
+|t:|1684347936
+|move|p2a: Mantine|Toxic|p1a: Reuniclus
+|-status|p1a: Reuniclus|tox
+|move|p1a: Reuniclus|Max Mindstorm|p2a: Mantine
+|-damage|p2a: Mantine|103/286
+|
+|upkeep
+|turn|18
+|
+|t:|1684347941
+|move|p2a: Mantine|Roost|p2a: Mantine
+|-heal|p2a: Mantine|246/286
+|-singleturn|p2a: Mantine|move: Roost
+|move|p1a: Reuniclus|Max Mindstorm|p2a: Mantine
+|-damage|p2a: Mantine|71/286
+|
+|upkeep
+|-end|p1a: Reuniclus|Dynamax
+|-heal|p1a: Reuniclus|172/322 tox|[silent]
+|turn|19
+|
+|t:|1684347944
+|move|p2a: Mantine|Roost|p2a: Mantine
+|-heal|p2a: Mantine|214/286
+|-singleturn|p2a: Mantine|move: Roost
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|322/322 tox
+|
+|upkeep
+|turn|20
+|
+|t:|1684347950
+|move|p2a: Mantine|Roost|p2a: Mantine
+|-heal|p2a: Mantine|286/286
+|-singleturn|p2a: Mantine|move: Roost
+|move|p1a: Reuniclus|Psychic|p2a: Mantine
+|-damage|p2a: Mantine|161/286
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|21
+|
+|t:|1684347954
+|switch|p1a: Keldeo|Keldeo-Resolute, L79|273/273
+|move|p2a: Mantine|Roost|p2a: Mantine
+|-heal|p2a: Mantine|286/286
+|-singleturn|p2a: Mantine|move: Roost
+|
+|upkeep
+|turn|22
+|
+|t:|1684347963
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Mantine|Hurricane|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|123/273
+|
+|-heal|p1a: Keldeo|140/273|[from] item: Leftovers
+|upkeep
+|turn|23
+|l|‽Planeswalk
+|inactive|Planeswalk disconnected and has 300 seconds to reconnect!
+|player|p1|
+|l|‽Rishi Myeni
+|inactive|Rishi Myeni disconnected and has 300 seconds to reconnect!
+|player|p2|
+|inactive|Planeswalk has 270 seconds to reconnect!
+|inactive|Planeswalk has 240 seconds to reconnect!
+|inactive|Planeswalk has 210 seconds to reconnect!
+|inactive|Planeswalk has 180 seconds to reconnect!
+|inactive|Planeswalk has 150 seconds to reconnect!
+|inactive|Planeswalk has 120 seconds to reconnect!
+|inactive|Planeswalk has 90 seconds to reconnect!
+|j|‽Rishi Myeni
+|inactive|Rishi Myeni reconnected.
+|player|p2|Rishi Myeni|ghetsis
+|n|‽Rishi Myeni|rishimyeni
+|inactive|Planeswalk has 60 seconds to reconnect!
+|j|‽Planeswalk
+|inactive|Planeswalk reconnected and has 300 seconds left.
+|player|p1|Planeswalk|chili
+|n|‽Planeswalk|planeswalk
+|
+|t:|1684348208
+|move|p1a: Keldeo|Scald|p2a: Mantine
+|-immune|p2a: Mantine|[from] ability: Water Absorb
+|move|p2a: Mantine|Hurricane|p1a: Keldeo|[miss]
+|-miss|p2a: Mantine|p1a: Keldeo
+|
+|-heal|p1a: Keldeo|157/273|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1684348214
+|move|p1a: Keldeo|Secret Sword|p2a: Mantine
+|-resisted|p2a: Mantine
+|-crit|p2a: Mantine
+|-damage|p2a: Mantine|146/286
+|move|p2a: Mantine|Hurricane|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|13/273
+|
+|-heal|p1a: Keldeo|30/273|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1684348219
+|move|p1a: Keldeo|Secret Sword|p2a: Mantine
+|-resisted|p2a: Mantine
+|-damage|p2a: Mantine|54/286
+|move|p2a: Mantine|Scald|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|5/273
+|
+|-heal|p1a: Keldeo|22/273|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1684348226
+|move|p1a: Keldeo|Secret Sword|p2a: Mantine
+|-resisted|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|faint|p2a: Mantine
+|
+|-heal|p1a: Keldeo|39/273|[from] item: Leftovers
+|upkeep
+|
+|t:|1684348229
+|switch|p2a: Lunatone|Lunatone, L86|266/295
+|turn|27
+|inactive|Planeswalk has 270 seconds left.
+|inactive|Planeswalk has 240 seconds left.
+|
+|t:|1684348298
+|move|p1a: Keldeo|Scald|p2a: Lunatone
+|-supereffective|p2a: Lunatone
+|-damage|p2a: Lunatone|0 fnt
+|faint|p2a: Lunatone
+|
+|-heal|p1a: Keldeo|56/273|[from] item: Leftovers
+|upkeep
+|
+|t:|1684348304
+|switch|p2a: Jirachi|Jirachi, L79|288/288
+|turn|28
+|inactive|Planeswalk has 240 seconds left.
+|inactive|Rishi Myeni has 270 seconds left.
+|
+|t:|1684348342
+|-start|p2a: Jirachi|Dynamax|
+|-heal|p2a: Jirachi|576/576|[silent]
+|move|p1a: Keldeo|Secret Sword|p2a: Jirachi
+|-damage|p2a: Jirachi|437/576
+|move|p2a: Jirachi|Max Flare|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|13/273
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Keldeo|30/273|[from] item: Leftovers
+|-heal|p2a: Jirachi|455/576|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Planeswalk has 240 seconds left.
+|
+|t:|1684348355
+|move|p1a: Keldeo|Secret Sword|p2a: Jirachi
+|-damage|p2a: Jirachi|311/576
+|move|p2a: Jirachi|Max Steelspike|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|-boost|p2a: Jirachi|def|1
+|faint|p1a: Keldeo
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jirachi|329/576|[from] item: Leftovers
+|upkeep
+|inactive|Planeswalk has 240 seconds left.
+|
+|t:|1684348362
+|switch|p1a: Reuniclus|Reuniclus, L84, M|322/322 tox
+|turn|30
+|
+|t:|1684348374
+|move|p2a: Jirachi|Max Steelspike|p1a: Reuniclus
+|-damage|p1a: Reuniclus|189/322 tox
+|-boost|p2a: Jirachi|def|1
+|move|p1a: Reuniclus|Shadow Ball|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|170/576
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jirachi|188/576|[from] item: Leftovers
+|upkeep
+|-end|p2a: Jirachi|Dynamax
+|-heal|p2a: Jirachi|94/288|[silent]
+|turn|31
+|inactive|Planeswalk has 240 seconds left.
+|
+|t:|1684348395
+|move|p2a: Jirachi|Iron Head|p1a: Reuniclus
+|-damage|p1a: Reuniclus|107/322 tox
+|cant|p1a: Reuniclus|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jirachi|112/288|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1684348403
+|move|p2a: Jirachi|Iron Head|p1a: Reuniclus
+|-damage|p1a: Reuniclus|16/322 tox
+|move|p1a: Reuniclus|Shadow Ball|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|win|Planeswalk

@@ -1,0 +1,444 @@
+|j|☆FantomHorsey
+|j|☆Joshyboi999
+|t:|1684356634
+|gametype|singles
+|player|p1|FantomHorsey|169|
+|player|p2|Joshyboi999|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1684356634
+|start
+|switch|p1a: Hitmonchan|Hitmonchan, L86, M|226/226
+|switch|p2a: Vespiquen|Vespiquen, L96, F|290/290
+|-ability|p2a: Vespiquen|Pressure
+|turn|1
+|
+|t:|1684356652
+|move|p1a: Hitmonchan|Rapid Spin|p2a: Vespiquen
+|-damage|p2a: Vespiquen|260/290
+|-boost|p1a: Hitmonchan|spe|1
+|move|p2a: Vespiquen|Air Slash|p1a: Hitmonchan
+|-supereffective|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|136/226
+|
+|upkeep
+|turn|2
+|
+|t:|1684356660
+|move|p1a: Hitmonchan|Drain Punch|p2a: Vespiquen
+|-resisted|p2a: Vespiquen
+|-damage|p2a: Vespiquen|239/290
+|-heal|p1a: Hitmonchan|147/226|[from] drain|[of] p2a: Vespiquen
+|move|p2a: Vespiquen|Air Slash|p1a: Hitmonchan
+|-supereffective|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|49/226
+|
+|upkeep
+|turn|3
+|
+|t:|1684356671
+|switch|p1a: Charizard|Charizard, L82, F|262/262
+|move|p2a: Vespiquen|Air Slash|p1a: Charizard
+|-damage|p1a: Charizard|166/262
+|
+|upkeep
+|turn|4
+|
+|t:|1684356699
+|switch|p2a: Thundurus|Thundurus-Therian, L80, M|258/258
+|move|p1a: Charizard|Fire Blast|p2a: Thundurus
+|-damage|p2a: Thundurus|110/258
+|-status|p2a: Thundurus|brn
+|
+|-damage|p2a: Thundurus|94/258 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1684356713
+|move|p2a: Thundurus|Thunderbolt|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-damage|p2a: Thundurus|78/258 brn|[from] brn
+|upkeep
+|
+|t:|1684356731
+|switch|p1a: Goodra|Goodra, L82, M|282/282
+|turn|6
+|
+|t:|1684356748
+|move|p2a: Thundurus|Thunderbolt|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|255/282
+|move|p1a: Goodra|Sludge Bomb|p2a: Thundurus
+|-damage|p2a: Thundurus|8/258 brn
+|
+|-damage|p2a: Thundurus|0 fnt|[from] brn
+|faint|p2a: Thundurus
+|upkeep
+|
+|t:|1684356769
+|switch|p2a: Ribombee|Ribombee, L82, F|233/233
+|turn|7
+|
+|t:|1684356788
+|switch|p1a: Nidoking|Nidoking, L82, M|267/267
+|move|p2a: Ribombee|Moonblast|p1a: Nidoking
+|-resisted|p1a: Nidoking
+|-damage|p1a: Nidoking|214/267
+|
+|upkeep
+|turn|8
+|
+|t:|1684356808
+|move|p2a: Ribombee|Psychic|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|76/267
+|move|p1a: Nidoking|Sludge Wave|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|t:|1684356848
+|switch|p2a: Lunala|Lunala, L72|205/205
+|turn|9
+|
+|t:|1684356856
+|move|p2a: Lunala|Flamethrower|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|-damage|p2a: Lunala|185/205|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1684356866
+|switch|p1a: Goodra|Goodra, L82, M|255/282
+|turn|10
+|
+|t:|1684356904
+|move|p2a: Lunala|Sludge Bomb|p1a: Goodra
+|-damage|p1a: Goodra|219/282
+|-damage|p2a: Lunala|165/205|[from] item: Life Orb
+|move|p1a: Goodra|Sludge Bomb|p2a: Lunala
+|-damage|p2a: Lunala|64/205
+|replace|p2a: Zoroark|Zoroark, L72, F
+|-end|p2a: Zoroark|Illusion
+|
+|upkeep
+|turn|11
+|
+|t:|1684356914
+|move|p2a: Zoroark|Sludge Bomb|p1a: Goodra
+|-damage|p1a: Goodra|187/282
+|-damage|p2a: Zoroark|44/205|[from] item: Life Orb
+|move|p1a: Goodra|Sludge Bomb|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|
+|upkeep
+|
+|t:|1684356926
+|switch|p2a: Vespiquen|Vespiquen, L96, F|239/290
+|-ability|p2a: Vespiquen|Pressure
+|turn|12
+|
+|t:|1684356945
+|move|p1a: Goodra|Draco Meteor|p2a: Vespiquen
+|-damage|p2a: Vespiquen|131/290
+|-unboost|p1a: Goodra|spa|2
+|move|p2a: Vespiquen|Air Slash|p1a: Goodra
+|-damage|p1a: Goodra|148/282
+|
+|upkeep
+|turn|13
+|
+|t:|1684356960
+|switch|p1a: Suicune|Suicune, L80|291/291
+|-ability|p1a: Suicune|Pressure
+|-start|p2a: Vespiquen|Dynamax|
+|-heal|p2a: Vespiquen|262/580|[silent]
+|move|p2a: Vespiquen|Max Guard||[still]
+|-fail|p2a: Vespiquen
+|
+|upkeep
+|turn|14
+|
+|t:|1684356987
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Vespiquen|Max Flutterby|p1a: Suicune
+|-damage|p1a: Suicune|167/291
+|-unboost|p1a: Suicune|spa|1
+|
+|-heal|p1a: Suicune|185/291|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1684356997
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Vespiquen|Max Flutterby|p1a: Suicune
+|-damage|p1a: Suicune|64/291
+|-unboost|p1a: Suicune|spa|1
+|
+|-heal|p1a: Suicune|82/291|[from] item: Leftovers
+|upkeep
+|-end|p2a: Vespiquen|Dynamax
+|-heal|p2a: Vespiquen|131/290|[silent]
+|turn|16
+|
+|t:|1684357013
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Rest
+|-heal|p1a: Suicune|291/291 slp|[silent]
+|move|p2a: Vespiquen|U-turn|p1a: Suicune
+|-damage|p1a: Suicune|213/291 slp
+|
+|t:|1684357031
+|switch|p2a: Hitmontop|Hitmontop, L85, M|224/224|[from] U-turn
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Suicune|atk|1
+|
+|-heal|p1a: Suicune|231/291 slp|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1684357043
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Suicune
+|move|p2a: Hitmontop|Close Combat|p1a: Suicune
+|-damage|p1a: Suicune|123/291 slp
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|
+|-heal|p1a: Suicune|141/291 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1684357068
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Scald|p2a: Hitmontop|[from]move: Sleep Talk
+|-damage|p2a: Hitmontop|133/224
+|move|p2a: Hitmontop|Close Combat|p1a: Suicune
+|-damage|p1a: Suicune|33/291 slp
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|
+|-heal|p1a: Suicune|51/291 slp|[from] item: Leftovers
+|-heal|p2a: Hitmontop|147/224|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1684357084
+|move|p2a: Hitmontop|Sucker Punch||[still]
+|-fail|p2a: Hitmontop
+|-curestatus|p1a: Suicune|slp|[msg]
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Rest
+|-heal|p1a: Suicune|291/291 slp|[silent]
+|
+|-heal|p2a: Hitmontop|161/224|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1684357103
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Calm Mind|p1a: Suicune|[from]move: Sleep Talk
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Hitmontop|Close Combat|p1a: Suicune
+|-damage|p1a: Suicune|185/291 slp
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|
+|-heal|p1a: Suicune|203/291 slp|[from] item: Leftovers
+|-heal|p2a: Hitmontop|175/224|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1684357123
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Calm Mind|p1a: Suicune|[from]move: Sleep Talk
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Hitmontop|Close Combat|p1a: Suicune
+|-damage|p1a: Suicune|83/291 slp
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|
+|-heal|p1a: Suicune|101/291 slp|[from] item: Leftovers
+|-heal|p2a: Hitmontop|189/224|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1684357139
+|move|p2a: Hitmontop|Sucker Punch||[still]
+|-fail|p2a: Hitmontop
+|-curestatus|p1a: Suicune|slp|[msg]
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Rest
+|-heal|p1a: Suicune|291/291 slp|[silent]
+|
+|-heal|p2a: Hitmontop|203/224|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1684357152
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Suicune
+|move|p2a: Hitmontop|Toxic||[still]
+|-fail|p2a: Hitmontop
+|
+|-heal|p2a: Hitmontop|217/224|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1684357164
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Suicune
+|move|p2a: Hitmontop|Toxic||[still]
+|-fail|p2a: Hitmontop
+|
+|-heal|p2a: Hitmontop|224/224|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1684357175
+|-curestatus|p1a: Suicune|slp|[msg]
+|move|p1a: Suicune|Scald|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|
+|upkeep
+|
+|t:|1684357189
+|switch|p2a: Vespiquen|Vespiquen, L96, F|131/290
+|-ability|p2a: Vespiquen|Pressure
+|turn|26
+|
+|t:|1684357208
+|move|p1a: Suicune|Scald|p2a: Vespiquen
+|-damage|p2a: Vespiquen|14/290
+|move|p2a: Vespiquen|Roost|p2a: Vespiquen
+|-heal|p2a: Vespiquen|159/290
+|-singleturn|p2a: Vespiquen|move: Roost
+|
+|upkeep
+|turn|27
+|
+|t:|1684357222
+|move|p1a: Suicune|Scald|p2a: Vespiquen
+|-damage|p2a: Vespiquen|44/290
+|-status|p2a: Vespiquen|brn
+|move|p2a: Vespiquen|Roost|p2a: Vespiquen
+|-heal|p2a: Vespiquen|189/290 brn
+|-singleturn|p2a: Vespiquen|move: Roost
+|
+|-damage|p2a: Vespiquen|171/290 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1684357234
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Vespiquen|Air Slash|p1a: Suicune
+|-damage|p1a: Suicune|270/291
+|
+|-heal|p1a: Suicune|288/291|[from] item: Leftovers
+|-damage|p2a: Vespiquen|153/290 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1684357244
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Vespiquen|Air Slash|p1a: Suicune
+|-damage|p1a: Suicune|267/291
+|
+|-heal|p1a: Suicune|285/291|[from] item: Leftovers
+|-damage|p2a: Vespiquen|135/290 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1684357254
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|0
+|move|p2a: Vespiquen|Air Slash|p1a: Suicune
+|-damage|p1a: Suicune|264/291
+|
+|-heal|p1a: Suicune|282/291|[from] item: Leftovers
+|-damage|p2a: Vespiquen|117/290 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1684357266
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|0
+|move|p2a: Vespiquen|Roost|p2a: Vespiquen
+|-heal|p2a: Vespiquen|262/290 brn
+|-singleturn|p2a: Vespiquen|move: Roost
+|
+|-heal|p1a: Suicune|291/291|[from] item: Leftovers
+|-damage|p2a: Vespiquen|244/290 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1684357282
+|move|p1a: Suicune|Scald|p2a: Vespiquen
+|-damage|p2a: Vespiquen|4/290 brn
+|move|p2a: Vespiquen|Defog|p1a: Suicune
+|-unboost|p1a: Suicune|evasion|1
+|
+|-damage|p2a: Vespiquen|0 fnt|[from] brn
+|faint|p2a: Vespiquen
+|upkeep
+|
+|t:|1684357291
+|switch|p2a: Lunala|Lunala, L72|316/316
+|turn|33
+|
+|t:|1684357313
+|move|p1a: Suicune|Scald|p2a: Lunala
+|-crit|p2a: Lunala
+|-damage|p2a: Lunala|100/316
+|move|p2a: Lunala|Psyshock|p1a: Suicune
+|-damage|p1a: Suicune|216/291
+|
+|-heal|p2a: Lunala|119/316|[from] item: Leftovers
+|-heal|p1a: Suicune|234/291|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1684357346
+|move|p2a: Lunala|Roost|p2a: Lunala
+|-heal|p2a: Lunala|277/316
+|-singleturn|p2a: Lunala|move: Roost
+|move|p1a: Suicune|Scald|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|
+|win|FantomHorsey

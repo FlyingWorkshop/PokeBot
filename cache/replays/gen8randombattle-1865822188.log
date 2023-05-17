@@ -1,0 +1,112 @@
+|j|☆vUchihax
+|j|☆MinatoUzxmaki
+|t:|1684341156
+|gametype|singles
+|player|p1|vUchihax|swimmerf|1163
+|player|p2|MinatoUzxmaki|2|1109
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1684341156
+|start
+|switch|p1a: Scizor|Scizor, L80, F|243/243
+|switch|p2a: Buzzwole|Buzzwole, L77|291/291
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vUchihax)
+|inactive|MinatoUzxmaki has 120 seconds left.
+|
+|t:|1684341191
+|switch|p2a: Noivern|Noivern, L82, F|274/274
+|move|p1a: Scizor|Dual Wingbeat|p2a: Noivern|[miss]
+|-miss|p1a: Scizor|p2a: Noivern
+|
+|upkeep
+|turn|2
+|c|☆MinatoUzxmaki|hurry up
+|inactive|vUchihax has 120 seconds left.
+|
+|t:|1684341239
+|switch|p1a: Omastar|Omastar, L82, F|249/249
+|move|p2a: Noivern|Flamethrower|p1a: Omastar
+|-resisted|p1a: Omastar
+|-damage|p1a: Omastar|231/249
+|
+|upkeep
+|turn|3
+|
+|t:|1684341254
+|switch|p2a: Cradily|Cradily, L86, F|288/288
+|move|p1a: Omastar|Stealth Rock|p2a: Cradily
+|-sidestart|p2: MinatoUzxmaki|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1684341267
+|move|p1a: Omastar|Earth Power|p2a: Cradily
+|-damage|p2a: Cradily|209/288
+|-damage|p1a: Omastar|207/249|[from] item: Life Orb
+|move|p2a: Cradily|Stealth Rock|p1a: Omastar
+|-sidestart|p1: vUchihax|move: Stealth Rock
+|
+|-heal|p2a: Cradily|227/288|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1684341279
+|switch|p1a: Corsola|Corsola-Galar, L84, M|238/238
+|-damage|p1a: Corsola|209/238|[from] Stealth Rock
+|move|p2a: Cradily|Toxic|p1a: Corsola
+|-status|p1a: Corsola|tox
+|
+|-heal|p2a: Cradily|245/288|[from] item: Leftovers
+|-damage|p1a: Corsola|195/238 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1684341292
+|move|p2a: Cradily|Stone Edge|p1a: Corsola
+|-damage|p1a: Corsola|132/238 tox
+|move|p1a: Corsola|Haze|p1a: Corsola
+|-clearallboost
+|
+|-heal|p2a: Cradily|263/288|[from] item: Leftovers
+|-damage|p1a: Corsola|104/238 tox|[from] psn
+|upkeep
+|turn|7
+|c|☆MinatoUzxmaki|?
+|
+|t:|1684341302
+|move|p2a: Cradily|Stone Edge|p1a: Corsola
+|-damage|p1a: Corsola|40/238 tox
+|move|p1a: Corsola|Will-O-Wisp|p2a: Cradily
+|-status|p2a: Cradily|brn
+|
+|-heal|p2a: Cradily|281/288 brn|[from] item: Leftovers
+|-damage|p1a: Corsola|0 fnt|[from] psn
+|faint|p1a: Corsola
+|-damage|p2a: Cradily|263/288 brn|[from] brn
+|upkeep
+|c|☆vUchihax|buddy
+|c|☆vUchihax|mnyfucking boryehr
+|c|☆vUchihax|fucking rpessed
+|c|☆vUchihax|all the fuckig attacks
+|c|☆vUchihax|this cancer motherffucker
+|c|☆vUchihax|fucking adopted child
+|c|☆vUchihax|cancer dog
+|inactive|vUchihax has 90 seconds left.
+|c|☆vUchihax|its gg
+|c|☆vUchihax|fuck this shit
+|c|☆vUchihax|im gonna rope my brother
+|c|☆vUchihax|btye
+|-message|vUchihax forfeited.
+|
+|win|MinatoUzxmaki
+|raw|vUchihax's rating: 1163 &rarr; <strong>1134</strong><br />(-29 for losing)
+|raw|MinatoUzxmaki's rating: 1109 &rarr; <strong>1138</strong><br />(+29 for winning)

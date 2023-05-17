@@ -1,0 +1,153 @@
+|j|☆Tomate Saltarin
+|j|☆ADCRex
+|t:|1684313487
+|gametype|singles
+|player|p1|Tomate Saltarin|265|
+|player|p2|ADCRex|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1684313487
+|start
+|switch|p1a: Klefki|Klefki, L82, F|228/228
+|switch|p2a: Sylveon|Sylveon, L84, F|297/297
+|turn|1
+|
+|t:|1684313504
+|switch|p2a: Zapdos|Zapdos-Galar, L76|262/262
+|move|p1a: Klefki|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|
+|upkeep
+|turn|2
+|
+|t:|1684313522
+|move|p1a: Klefki|Spikes|p2a: Zapdos
+|-sidestart|p2: ADCRex|Spikes
+|move|p2a: Zapdos|Close Combat|p1a: Klefki
+|-damage|p1a: Klefki|47/228
+|-unboost|p2a: Zapdos|def|1
+|-unboost|p2a: Zapdos|spd|1
+|-damage|p2a: Zapdos|236/262 par|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1684313532
+|move|p1a: Klefki|Spikes|p2a: Zapdos
+|-sidestart|p2: ADCRex|Spikes
+|cant|p2a: Zapdos|par
+|
+|upkeep
+|turn|4
+|
+|t:|1684313536
+|move|p1a: Klefki|Spikes|p2a: Zapdos
+|-sidestart|p2: ADCRex|Spikes
+|move|p2a: Zapdos|Close Combat|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|-unboost|p2a: Zapdos|def|1
+|-unboost|p2a: Zapdos|spd|1
+|faint|p1a: Klefki
+|-damage|p2a: Zapdos|210/262 par|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1684313546
+|switch|p1a: Dracozolt|Dracozolt, L78|268/268
+|turn|5
+|
+|t:|1684313564
+|switch|p2a: Sylveon|Sylveon, L84, F|297/297
+|-damage|p2a: Sylveon|223/297|[from] Spikes
+|move|p1a: Dracozolt|Bolt Beak|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|
+|upkeep
+|
+|t:|1684313568
+|switch|p2a: Cofagrigus|Cofagrigus, L86, M|240/240
+|-damage|p2a: Cofagrigus|180/240|[from] Spikes
+|turn|6
+|
+|t:|1684313577
+|move|p1a: Dracozolt|Bolt Beak|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|20/240
+|-activate|p2a: Cofagrigus|ability: Mummy|Hustle|[of] p1a: Dracozolt
+|move|p2a: Cofagrigus|Toxic Spikes|p1a: Dracozolt
+|-sidestart|p1: Tomate Saltarin|move: Toxic Spikes
+|
+|-heal|p2a: Cofagrigus|35/240|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1684313590
+|move|p1a: Dracozolt|Bolt Beak|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|0 fnt
+|faint|p2a: Cofagrigus
+|
+|upkeep
+|
+|t:|1684313596
+|switch|p2a: Linoone|Linoone, L84, F|268/268
+|-damage|p2a: Linoone|201/268|[from] Spikes
+|turn|8
+|
+|t:|1684313601
+|move|p1a: Dracozolt|Bolt Beak|p2a: Linoone
+|-damage|p2a: Linoone|0 fnt
+|faint|p2a: Linoone
+|
+|upkeep
+|
+|t:|1684313621
+|switch|p2a: Keldeo|Keldeo-Resolute, L79|273/273
+|-damage|p2a: Keldeo|205/273|[from] Spikes
+|turn|9
+|
+|t:|1684313629
+|move|p1a: Dracozolt|Bolt Beak|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|upkeep
+|
+|t:|1684313637
+|switch|p2a: Seaking|Seaking, L88, F|284/284
+|-damage|p2a: Seaking|213/284|[from] Spikes
+|turn|10
+|
+|t:|1684313645
+|-start|p1a: Dracozolt|Dynamax|
+|-heal|p1a: Dracozolt|536/536|[silent]
+|move|p2a: Seaking|Megahorn|p1a: Dracozolt
+|-damage|p1a: Dracozolt|420/536
+|-activate|p1a: Dracozolt|ability: Mummy|Swift Swim|[of] p2a: Seaking
+|-damage|p2a: Seaking|185/284|[from] item: Life Orb
+|move|p1a: Dracozolt|Max Lightning|p2a: Seaking
+|-supereffective|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|-fieldstart|move: Electric Terrain
+|faint|p2a: Seaking
+|
+|upkeep
+|
+|t:|1684313654
+|switch|p2a: Zapdos|Zapdos-Galar, L76|210/262 par
+|turn|11
+|
+|t:|1684313664
+|move|p1a: Dracozolt|Max Lightning|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|win|Tomate Saltarin
+|l|☆Tomate Saltarin

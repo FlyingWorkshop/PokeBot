@@ -1,0 +1,238 @@
+|j|☆voiga
+|j|☆blackboar22
+|t:|1684327871
+|gametype|singles
+|player|p1|voiga|1|1108
+|player|p2|blackboar22|1|1233
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1684327871
+|start
+|switch|p1a: Orbeetle|Orbeetle, L86, F|243/243
+|switch|p2a: Dhelmise|Dhelmise, L86|261/261
+|-item|p2a: Dhelmise|Lum Berry|[from] ability: Frisk|[of] p1a: Orbeetle|[identify]
+|turn|1
+|
+|t:|1684327887
+|move|p1a: Orbeetle|Sticky Web|p2a: Dhelmise
+|-sidestart|p2: blackboar22|move: Sticky Web
+|move|p2a: Dhelmise|Poltergeist|p1a: Orbeetle|[miss]
+|-miss|p2a: Dhelmise|p1a: Orbeetle
+|
+|upkeep
+|turn|2
+|
+|t:|1684327908
+|move|p1a: Orbeetle|U-turn|p2a: Dhelmise
+|-damage|p2a: Dhelmise|222/261
+|
+|t:|1684327911
+|switch|p1a: Skarmory|Skarmory, L80, F|235/235|[from] U-turn
+|move|p2a: Dhelmise|Poltergeist|p1a: Skarmory
+|-activate|p1a: Skarmory|move: Poltergeist|Leftovers
+|-damage|p1a: Skarmory|127/235
+|
+|-heal|p1a: Skarmory|141/235|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1684327935
+|switch|p2a: Cofagrigus|Cofagrigus, L86, M|240/240
+|-activate|p2a: Cofagrigus|move: Sticky Web
+|-unboost|p2a: Cofagrigus|spe|1
+|move|p1a: Skarmory|Stealth Rock|p2a: Cofagrigus
+|-sidestart|p2: blackboar22|move: Stealth Rock
+|
+|-heal|p1a: Skarmory|155/235|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1684327946
+|switch|p1a: Orbeetle|Orbeetle, L86, F|243/243
+|-item|p2a: Cofagrigus|Leftovers|[from] ability: Frisk|[of] p1a: Orbeetle|[identify]
+|move|p2a: Cofagrigus|Toxic Spikes|p1a: Orbeetle
+|-sidestart|p1: voiga|move: Toxic Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1684327954
+|move|p1a: Orbeetle|Psychic|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|161/240
+|move|p2a: Cofagrigus|Toxic Spikes|p1a: Orbeetle
+|-sidestart|p1: voiga|move: Toxic Spikes
+|
+|-heal|p2a: Cofagrigus|176/240|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1684327963
+|move|p1a: Orbeetle|Psychic|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|107/240
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Orbeetle
+|-supereffective|p1a: Orbeetle
+|-damage|p1a: Orbeetle|103/243
+|
+|-heal|p2a: Cofagrigus|122/240|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1684327973
+|move|p1a: Orbeetle|Psychic|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|41/240
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Orbeetle
+|-supereffective|p1a: Orbeetle
+|-damage|p1a: Orbeetle|0 fnt
+|faint|p1a: Orbeetle
+|
+|-heal|p2a: Cofagrigus|56/240|[from] item: Leftovers
+|upkeep
+|
+|t:|1684327986
+|switch|p1a: Skarmory|Skarmory, L80, F|155/235
+|turn|8
+|
+|t:|1684328002
+|move|p1a: Skarmory|Brave Bird|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|0 fnt
+|-activate|p2a: Cofagrigus|ability: Mummy|Sturdy|[of] p1a: Skarmory
+|faint|p2a: Cofagrigus
+|-damage|p1a: Skarmory|137/235|[from] Recoil
+|
+|-heal|p1a: Skarmory|151/235|[from] item: Leftovers
+|upkeep
+|
+|t:|1684328008
+|switch|p2a: Arcanine|Arcanine, L82, F|282/282
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Skarmory|atk|1
+|turn|9
+|
+|t:|1684328021
+|switch|p1a: Barraskewda|Barraskewda, L80, M|229/229
+|-status|p1a: Barraskewda|tox
+|move|p2a: Arcanine|Flare Blitz|p1a: Barraskewda
+|-resisted|p1a: Barraskewda
+|-damage|p1a: Barraskewda|130/229 tox
+|-damage|p2a: Arcanine|249/282|[from] Recoil
+|
+|-damage|p1a: Barraskewda|116/229 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1684328034
+|move|p1a: Barraskewda|Liquidation|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-damage|p1a: Barraskewda|88/229 tox|[from] psn
+|upkeep
+|
+|t:|1684328042
+|switch|p2a: Moltres|Moltres, L80|275/275
+|turn|11
+|
+|t:|1684328046
+|move|p1a: Barraskewda|Liquidation|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|-damage|p1a: Barraskewda|46/229 tox|[from] psn
+|upkeep
+|
+|t:|1684328056
+|switch|p2a: Lucario|Lucario, L82, M|249/249
+|-activate|p2a: Lucario|move: Sticky Web
+|-unboost|p2a: Lucario|spe|1
+|-damage|p2a: Lucario|242/249|[from] Stealth Rock
+|turn|12
+|
+|t:|1684328064
+|move|p2a: Lucario|Extreme Speed|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|-damage|p2a: Lucario|218/249|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1684328077
+|switch|p1a: Sirfetch’d|Sirfetch’d, L82, F|236/236
+|-status|p1a: Sirfetch’d|tox
+|turn|13
+|
+|t:|1684328087
+|move|p1a: Sirfetch’d|Knock Off|p2a: Lucario
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|157/249
+|-ability|p2a: Lucario|Justified|boost
+|-boost|p2a: Lucario|atk|1
+|-enditem|p2a: Lucario|Life Orb|[from] move: Knock Off|[of] p1a: Sirfetch’d
+|-damage|p1a: Sirfetch’d|213/236 tox|[from] item: Life Orb
+|move|p2a: Lucario|Meteor Mash|p1a: Sirfetch’d|[miss]
+|-miss|p2a: Lucario|p1a: Sirfetch’d
+|
+|-damage|p1a: Sirfetch’d|199/236 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1684328100
+|move|p2a: Lucario|Extreme Speed|p1a: Sirfetch’d
+|-damage|p1a: Sirfetch’d|109/236 tox
+|move|p1a: Sirfetch’d|Close Combat|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|-unboost|p1a: Sirfetch’d|def|1
+|-unboost|p1a: Sirfetch’d|spd|1
+|faint|p2a: Lucario
+|-damage|p1a: Sirfetch’d|86/236 tox|[from] item: Life Orb
+|
+|-damage|p1a: Sirfetch’d|58/236 tox|[from] psn
+|upkeep
+|
+|t:|1684328109
+|switch|p2a: Dhelmise|Dhelmise, L86|222/261
+|-activate|p2a: Dhelmise|move: Sticky Web
+|-unboost|p2a: Dhelmise|spe|1
+|-damage|p2a: Dhelmise|190/261|[from] Stealth Rock
+|turn|15
+|
+|t:|1684328122
+|move|p1a: Sirfetch’d|Knock Off|p2a: Dhelmise
+|-supereffective|p2a: Dhelmise
+|-damage|p2a: Dhelmise|0 fnt
+|-enditem|p2a: Dhelmise|Lum Berry|[from] move: Knock Off|[of] p1a: Sirfetch’d
+|faint|p2a: Dhelmise
+|-damage|p1a: Sirfetch’d|35/236 tox|[from] item: Life Orb
+|
+|-damage|p1a: Sirfetch’d|0 fnt|[from] psn
+|faint|p1a: Sirfetch’d
+|upkeep
+|
+|t:|1684328133
+|switch|p1a: Skarmory|Skarmory, L80, F|151/235
+|switch|p2a: Hawlucha|Hawlucha, L80, M|256/256
+|-damage|p2a: Hawlucha|224/256|[from] Stealth Rock
+|turn|16
+|
+|t:|1684328147
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Skarmory|Brave Bird|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|-damage|p1a: Skarmory|77/235|[from] Recoil
+|
+|win|voiga
+|raw|voiga's rating: 1108 &rarr; <strong>1142</strong><br />(+34 for winning)
+|raw|blackboar22's rating: 1233 &rarr; <strong>1199</strong><br />(-34 for losing)
+|l|☆blackboar22

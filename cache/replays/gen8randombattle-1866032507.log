@@ -1,0 +1,299 @@
+|j|☆DragapultShadow
+|j|☆yure1672
+|t:|1684362942
+|gametype|singles
+|player|p1|DragapultShadow|pokemaniac|1170
+|player|p2|yure1672|pokemaniac|1086
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1684362942
+|start
+|switch|p1a: Lickilicky|Lickilicky, L86, F|329/329
+|switch|p2a: Krookodile|Krookodile, L78, M|276/276
+|-ability|p2a: Krookodile|Intimidate|boost
+|-fail|p1a: Lickilicky|unboost|Attack|[from] ability: Oblivious|[of] p1a: Lickilicky
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DragapultShadow)
+|
+|t:|1684362957
+|move|p2a: Krookodile|Earthquake|p1a: Lickilicky
+|-damage|p1a: Lickilicky|238/329
+|move|p1a: Lickilicky|Knock Off|p2a: Krookodile
+|-resisted|p2a: Krookodile
+|-damage|p2a: Krookodile|240/276
+|-enditem|p2a: Krookodile|Focus Sash|[from] move: Knock Off|[of] p1a: Lickilicky
+|
+|-heal|p1a: Lickilicky|258/329|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|☆DragapultShadow|go bro
+|
+|t:|1684362974
+|switch|p1a: Hitmonlee|Hitmonlee, L84, M|221/221
+|move|p2a: Krookodile|Close Combat|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|98/221
+|-unboost|p2a: Krookodile|def|1
+|-unboost|p2a: Krookodile|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1684362984
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|faint|p2a: Krookodile
+|
+|upkeep
+|c|☆DragapultShadow|you is bad
+|
+|t:|1684362998
+|switch|p2a: Barraskewda|Barraskewda, L80, F|229/229
+|turn|4
+|c|☆DragapultShadow|suck my balls
+|
+|t:|1684363016
+|-start|p1a: Hitmonlee|Dynamax|
+|-heal|p1a: Hitmonlee|196/442|[silent]
+|move|p2a: Barraskewda|Psychic Fangs|p1a: Hitmonlee
+|-supereffective|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|upkeep
+|
+|t:|1684363023
+|switch|p1a: Registeel|Registeel, L83|268/268
+|turn|5
+|
+|t:|1684363034
+|-start|p2a: Barraskewda|Dynamax|
+|-heal|p2a: Barraskewda|458/458|[silent]
+|move|p2a: Barraskewda|Max Ooze|p1a: Registeel
+|-immune|p1a: Registeel
+|move|p1a: Registeel|Curse|p1a: Registeel
+|-unboost|p1a: Registeel|spe|1
+|-boost|p1a: Registeel|atk|1
+|-boost|p1a: Registeel|def|1
+|
+|upkeep
+|turn|6
+|
+|t:|1684363058
+|move|p2a: Barraskewda|Max Mindstorm|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|245/268
+|-fieldstart|move: Psychic Terrain
+|move|p1a: Registeel|Curse|p1a: Registeel
+|-unboost|p1a: Registeel|spe|1
+|-boost|p1a: Registeel|atk|1
+|-boost|p1a: Registeel|def|1
+|
+|upkeep
+|turn|7
+|
+|t:|1684363070
+|move|p2a: Barraskewda|Max Geyser|p1a: Registeel
+|-damage|p1a: Registeel|194/268
+|-weather|RainDance
+|move|p1a: Registeel|Curse|p1a: Registeel
+|-unboost|p1a: Registeel|spe|1
+|-boost|p1a: Registeel|atk|1
+|-boost|p1a: Registeel|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-end|p2a: Barraskewda|Dynamax
+|-heal|p2a: Barraskewda|229/229|[silent]
+|turn|8
+|
+|t:|1684363083
+|move|p2a: Barraskewda|Psychic Fangs|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|177/268
+|move|p1a: Registeel|Curse|p1a: Registeel
+|-unboost|p1a: Registeel|spe|1
+|-boost|p1a: Registeel|atk|1
+|-boost|p1a: Registeel|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1684363091
+|move|p2a: Barraskewda|Psychic Fangs|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|162/268
+|move|p1a: Registeel|Curse|p1a: Registeel
+|-unboost|p1a: Registeel|spe|1
+|-boost|p1a: Registeel|atk|1
+|-boost|p1a: Registeel|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1684363101
+|move|p2a: Barraskewda|Psychic Fangs|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|149/268
+|move|p1a: Registeel|Body Press|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1684363111
+|switch|p2a: Incineroar|Incineroar, L80, M|283/283
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Registeel|unboost|[from] ability: Clear Body|[of] p1a: Registeel
+|turn|11
+|
+|t:|1684363122
+|move|p2a: Incineroar|Flare Blitz|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|125/268
+|-damage|p2a: Incineroar|275/283|[from] Recoil
+|move|p1a: Registeel|Body Press|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-weather|none
+|upkeep
+|
+|t:|1684363134
+|switch|p2a: Latias|Latias, L80, F|259/259
+|turn|12
+|
+|t:|1684363138
+|move|p2a: Latias|Mystical Fire|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|57/268
+|move|p1a: Registeel|Iron Head|p2a: Latias
+|-crit|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|upkeep
+|
+|t:|1684363142
+|switch|p2a: Gastrodon|Gastrodon-East, L84, F|324/324
+|turn|13
+|
+|t:|1684363150
+|move|p2a: Gastrodon|Scald|p1a: Registeel
+|-damage|p1a: Registeel|2/268
+|move|p1a: Registeel|Iron Head|p2a: Gastrodon
+|-resisted|p2a: Gastrodon
+|-damage|p2a: Gastrodon|180/324
+|
+|-heal|p2a: Gastrodon|200/324|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1684363164
+|move|p2a: Gastrodon|Scald|p1a: Registeel
+|-damage|p1a: Registeel|0 fnt
+|faint|p1a: Registeel
+|
+|-heal|p2a: Gastrodon|220/324|[from] item: Leftovers
+|upkeep
+|
+|t:|1684363171
+|switch|p1a: Lickilicky|Lickilicky, L86, F|258/329
+|turn|15
+|
+|t:|1684363177
+|move|p1a: Lickilicky|Knock Off|p2a: Gastrodon
+|-damage|p2a: Gastrodon|147/324
+|-enditem|p2a: Gastrodon|Leftovers|[from] move: Knock Off|[of] p1a: Lickilicky
+|move|p2a: Gastrodon|Scald|p1a: Lickilicky
+|-damage|p1a: Lickilicky|183/329
+|
+|-heal|p1a: Lickilicky|203/329|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1684363190
+|move|p1a: Lickilicky|Body Slam|p2a: Gastrodon
+|-crit|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|-heal|p1a: Lickilicky|223/329|[from] item: Leftovers
+|upkeep
+|
+|t:|1684363194
+|switch|p2a: Sawk|Sawk, L86, M|269/269
+|-ability|p2a: Sawk|Mold Breaker
+|turn|17
+|
+|t:|1684363202
+|move|p1a: Lickilicky|Protect|p1a: Lickilicky
+|-singleturn|p1a: Lickilicky|Protect
+|move|p2a: Sawk|Close Combat|p1a: Lickilicky
+|-activate|p1a: Lickilicky|move: Protect
+|
+|-heal|p1a: Lickilicky|243/329|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1684363214
+|move|p2a: Sawk|Close Combat|p1a: Lickilicky
+|-supereffective|p1a: Lickilicky
+|-damage|p1a: Lickilicky|0 fnt
+|-unboost|p2a: Sawk|def|1
+|-unboost|p2a: Sawk|spd|1
+|faint|p1a: Lickilicky
+|-damage|p2a: Sawk|243/269|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1684363222
+|switch|p1a: Zygarde|Zygarde-10%, L82|223/223
+|-ability|p1a: Zygarde|Aura Break
+|turn|19
+|
+|t:|1684363229
+|move|p1a: Zygarde|Coil|p1a: Zygarde
+|-boost|p1a: Zygarde|atk|1
+|-boost|p1a: Zygarde|def|1
+|-boost|p1a: Zygarde|accuracy|1
+|move|p2a: Sawk|Knock Off|p1a: Zygarde
+|-damage|p1a: Zygarde|136/223
+|-enditem|p1a: Zygarde|Life Orb|[from] move: Knock Off|[of] p2a: Sawk
+|-damage|p2a: Sawk|217/269|[from] item: Life Orb
+|
+|upkeep
+|turn|20
+|
+|t:|1684363244
+|move|p1a: Zygarde|Coil|p1a: Zygarde
+|-boost|p1a: Zygarde|atk|1
+|-boost|p1a: Zygarde|def|1
+|-boost|p1a: Zygarde|accuracy|1
+|move|p2a: Sawk|Bulk Up|p2a: Sawk
+|-boost|p2a: Sawk|atk|1
+|-boost|p2a: Sawk|def|1
+|
+|upkeep
+|turn|21
+|
+|t:|1684363261
+|move|p1a: Zygarde|Outrage|p2a: Sawk
+|-damage|p2a: Sawk|0 fnt
+|faint|p2a: Sawk
+|
+|win|DragapultShadow
+|raw|DragapultShadow's rating: 1170 &rarr; <strong>1189</strong><br />(+19 for winning)
+|raw|yure1672's rating: 1086 &rarr; <strong>1069</strong><br />(-17 for losing)

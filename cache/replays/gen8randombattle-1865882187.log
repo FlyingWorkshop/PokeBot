@@ -1,0 +1,271 @@
+|j|☆Satanitar
+|j|☆zuzu28
+|t:|1684346676
+|gametype|singles
+|player|p1|Satanitar|265|1298
+|player|p2|zuzu28|169|1256
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1684346676
+|start
+|switch|p1a: Tauros|Tauros, L82, M|257/257
+|switch|p2a: Corsola|Corsola-Galar, L84, M|238/238
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Satanitar)
+|
+|t:|1684346684
+|switch|p1a: Eldegoss|Eldegoss, L90, M|254/254
+|move|p2a: Corsola|Stealth Rock|p1a: Eldegoss
+|-sidestart|p1: Satanitar|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1684346689
+|move|p1a: Eldegoss|Leech Seed|p2a: Corsola
+|-start|p2a: Corsola|move: Leech Seed
+|move|p2a: Corsola|Will-O-Wisp|p1a: Eldegoss
+|-status|p1a: Eldegoss|brn
+|
+|-damage|p2a: Corsola|209/238|[from] Leech Seed|[of] p1a: Eldegoss
+|-damage|p1a: Eldegoss|239/254 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1684346705
+|switch|p2a: Klefki|Klefki, L82, F|228/228
+|move|p1a: Eldegoss|Energy Ball|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|179/228
+|
+|-heal|p2a: Klefki|193/228|[from] item: Leftovers
+|-damage|p1a: Eldegoss|224/254 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1684346725
+|switch|p2a: Magmortar|Magmortar, L86, M|269/269
+|move|p1a: Eldegoss|Leech Seed|p2a: Magmortar
+|-start|p2a: Magmortar|move: Leech Seed
+|
+|-damage|p2a: Magmortar|236/269|[from] Leech Seed|[of] p1a: Eldegoss
+|-heal|p1a: Eldegoss|254/254 brn|[silent]
+|-damage|p1a: Eldegoss|239/254 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1684346735
+|switch|p1a: Volcanion|Volcanion, L80|259/259
+|move|p2a: Magmortar|Psychic|p1a: Volcanion
+|-damage|p1a: Volcanion|173/259
+|
+|-damage|p2a: Magmortar|203/269|[from] Leech Seed|[of] p1a: Volcanion
+|-heal|p1a: Volcanion|206/259|[silent]
+|upkeep
+|turn|6
+|
+|t:|1684346744
+|move|p2a: Magmortar|Thunderbolt|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|32/259
+|move|p1a: Volcanion|Steam Eruption|p2a: Magmortar
+|-supereffective|p2a: Magmortar
+|-damage|p2a: Magmortar|33/269
+|
+|-damage|p2a: Magmortar|0 fnt|[from] Leech Seed|[of] p1a: Volcanion
+|-heal|p1a: Volcanion|65/259|[silent]
+|faint|p2a: Magmortar
+|upkeep
+|
+|t:|1684346761
+|switch|p2a: Klefki|Klefki, L82, F|193/228
+|turn|7
+|
+|t:|1684346765
+|move|p2a: Klefki|Play Rough|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|33/259
+|move|p1a: Volcanion|Flamethrower|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-crit|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|upkeep
+|
+|t:|1684346784
+|switch|p2a: Hitmontop|Hitmontop, L85, M|224/224
+|turn|8
+|
+|t:|1684346794
+|move|p2a: Hitmontop|Triple Axel|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|29/259
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|21/259
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|9/259
+|-hitcount|p1a: Volcanion|3
+|move|p1a: Volcanion|Steam Eruption|p2a: Hitmontop
+|-damage|p2a: Hitmontop|113/224
+|
+|-heal|p2a: Hitmontop|127/224|[from] item: Leftovers
+|upkeep
+|turn|9
+|c|☆zuzu28|lol fuck is wrongn with me
+|
+|t:|1684346804
+|move|p2a: Hitmontop|Rapid Spin|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|-boost|p2a: Hitmontop|spe|1
+|faint|p1a: Volcanion
+|
+|-heal|p2a: Hitmontop|141/224|[from] item: Leftovers
+|upkeep
+|
+|t:|1684346810
+|switch|p1a: Spiritomb|Spiritomb, L88, M|231/231
+|-damage|p1a: Spiritomb|203/231|[from] Stealth Rock
+|turn|10
+|
+|t:|1684346818
+|move|p2a: Hitmontop|Toxic|p1a: Spiritomb
+|-status|p1a: Spiritomb|tox
+|move|p1a: Spiritomb|Poltergeist|p2a: Hitmontop
+|-activate|p2a: Hitmontop|move: Poltergeist|Leftovers
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|
+|-damage|p1a: Spiritomb|189/231 tox|[from] psn
+|upkeep
+|
+|t:|1684346834
+|switch|p2a: Frosmoth|Frosmoth, L82, F|249/249
+|turn|11
+|
+|t:|1684346846
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|move|p1a: Spiritomb|Poltergeist|p2a: Frosmoth
+|-activate|p2a: Frosmoth|move: Poltergeist|Heavy-Duty Boots
+|-damage|p2a: Frosmoth|0 fnt
+|faint|p2a: Frosmoth
+|
+|-damage|p1a: Spiritomb|161/231 tox|[from] psn
+|upkeep
+|
+|t:|1684346864
+|switch|p2a: Slowbro|Slowbro-Galar, L86, F|304/304
+|turn|12
+|
+|t:|1684346868
+|-start|p2a: Slowbro|Dynamax|
+|-heal|p2a: Slowbro|608/608|[silent]
+|move|p1a: Spiritomb|Poltergeist|p2a: Slowbro
+|-activate|p2a: Slowbro|move: Poltergeist|Choice Specs
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|248/608
+|move|p2a: Slowbro|Max Mindstorm|p1a: Spiritomb
+|-immune|p1a: Spiritomb
+|
+|-damage|p1a: Spiritomb|119/231 tox|[from] psn
+|upkeep
+|turn|13
+|c|☆zuzu28|fuck fuck fuck
+|
+|t:|1684346882
+|move|p1a: Spiritomb|Poltergeist|p2a: Slowbro
+|-activate|p2a: Slowbro|move: Poltergeist|Choice Specs
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|-damage|p1a: Spiritomb|63/231 tox|[from] psn
+|upkeep
+|
+|t:|1684346889
+|switch|p2a: Corsola|Corsola-Galar, L84, M|209/238
+|turn|14
+|c|☆zuzu28|rip
+|
+|t:|1684346896
+|switch|p1a: Eldegoss|Eldegoss, L90, M|254/254 brn
+|move|p2a: Corsola|Night Shade|p1a: Eldegoss
+|-damage|p1a: Eldegoss|170/254 brn
+|
+|-damage|p1a: Eldegoss|155/254 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1684346909
+|move|p1a: Eldegoss|Leech Seed|p2a: Corsola
+|-start|p2a: Corsola|move: Leech Seed
+|move|p2a: Corsola|Strength Sap|p1a: Eldegoss
+|-unboost|p1a: Eldegoss|atk|1
+|-heal|p2a: Corsola|238/238
+|
+|-damage|p2a: Corsola|209/238|[from] Leech Seed|[of] p1a: Eldegoss
+|-heal|p1a: Eldegoss|184/254 brn|[silent]
+|-damage|p1a: Eldegoss|169/254 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1684346918
+|switch|p1a: Spiritomb|Spiritomb, L88, M|63/231 tox
+|-damage|p1a: Spiritomb|35/231 tox|[from] Stealth Rock
+|move|p2a: Corsola|Night Shade|p1a: Spiritomb
+|-damage|p1a: Spiritomb|0 fnt
+|faint|p1a: Spiritomb
+|
+|upkeep
+|
+|t:|1684346927
+|switch|p1a: Omastar|Omastar, L82, F|249/249
+|-damage|p1a: Omastar|218/249|[from] Stealth Rock
+|turn|17
+|
+|t:|1684346947
+|move|p1a: Omastar|Shell Smash|p1a: Omastar
+|-unboost|p1a: Omastar|def|1
+|-unboost|p1a: Omastar|spd|1
+|-boost|p1a: Omastar|atk|2
+|-boost|p1a: Omastar|spa|2
+|-boost|p1a: Omastar|spe|2
+|-enditem|p1a: Omastar|White Herb
+|-clearnegativeboost|p1a: Omastar|[silent]
+|move|p2a: Corsola|Strength Sap|p1a: Omastar
+|-unboost|p1a: Omastar|atk|1
+|-heal|p2a: Corsola|238/238
+|
+|-damage|p2a: Corsola|209/238|[from] Leech Seed|[of] p1a: Omastar
+|-heal|p1a: Omastar|247/249|[silent]
+|upkeep
+|turn|18
+|
+|t:|1684346966
+|-start|p1a: Omastar|Dynamax|
+|-heal|p1a: Omastar|494/498|[silent]
+|move|p1a: Omastar|Max Geyser|p2a: Corsola
+|-damage|p2a: Corsola|2/238
+|-weather|RainDance
+|move|p2a: Corsola|Will-O-Wisp|p1a: Omastar
+|-status|p1a: Omastar|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Corsola|0 fnt|[from] Leech Seed|[of] p1a: Omastar
+|-heal|p1a: Omastar|496/498 brn|[silent]
+|faint|p2a: Corsola
+|
+|win|Satanitar
+|upkeep
+|raw|Satanitar's rating: 1269 &rarr; <strong>1293</strong><br />(+24 for winning)
+|raw|zuzu28's rating: 1256 &rarr; <strong>1232</strong><br />(-24 for losing)

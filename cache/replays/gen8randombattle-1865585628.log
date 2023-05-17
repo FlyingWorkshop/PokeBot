@@ -1,0 +1,37 @@
+|j|☆qwrderdefrf
+|j|☆MNIHNBN8843
+|t:|1684313380
+|gametype|singles
+|player|p1|qwrderdefrf|harlequin|1044
+|player|p2|MNIHNBN8843|169|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1684313380
+|start
+|switch|p1a: Politoed|Politoed, L86, F|295/295
+|switch|p2a: Omastar|Omastar, L82, M|249/249
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MNIHNBN8843)
+|
+|t:|1684313388
+|switch|p2a: Melmetal|Melmetal, L74|322/322
+|move|p1a: Politoed|Scald|p2a: Melmetal
+|-damage|p2a: Melmetal|133/322
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|-message|MNIHNBN8843 forfeited.
+|
+|win|qwrderdefrf
+|raw|qwrderdefrf's rating: 1044 &rarr; <strong>1073</strong><br />(+29 for winning)
+|raw|MNIHNBN8843's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|l|☆MNIHNBN8843

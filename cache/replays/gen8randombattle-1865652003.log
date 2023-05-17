@@ -1,0 +1,684 @@
+|j|☆Stupidlly_funny
+|j|☆halderaditya69
+|t:|1684324122
+|gametype|singles
+|player|p1|Stupidlly_funny|bellelba|1106
+|player|p2|halderaditya69|1|1115
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1684324122
+|start
+|switch|p1a: Glalie|Glalie, L80, F|259/259
+|switch|p2a: Garchomp|Garchomp, L74, M|282/282
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Stupidlly_funny)
+|
+|t:|1684324139
+|switch|p2a: Metagross|Metagross, L79|256/256
+|move|p1a: Glalie|Substitute|p1a: Glalie
+|-start|p1a: Glalie|Substitute
+|-damage|p1a: Glalie|195/259
+|
+|-heal|p1a: Glalie|211/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spd|2
+|-unboost|p1a: Glalie|def|1
+|upkeep
+|turn|2
+|
+|t:|1684324152
+|move|p1a: Glalie|Protect|p1a: Glalie
+|-singleturn|p1a: Glalie|Protect
+|move|p2a: Metagross|Agility|p2a: Metagross
+|-boost|p2a: Metagross|spe|2
+|
+|-heal|p1a: Glalie|227/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spe|2
+|-unboost|p1a: Glalie|def|1
+|upkeep
+|turn|3
+|
+|t:|1684324161
+|move|p1a: Glalie|Protect||[still]
+|-fail|p1a: Glalie
+|move|p2a: Metagross|Agility|p2a: Metagross
+|-boost|p2a: Metagross|spe|2
+|
+|-heal|p1a: Glalie|243/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spe|2
+|-unboost|p1a: Glalie|atk|1
+|upkeep
+|turn|4
+|
+|t:|1684324169
+|move|p1a: Glalie|Freeze-Dry|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|225/256
+|move|p2a: Metagross|Agility|p2a: Metagross
+|-boost|p2a: Metagross|spe|2
+|
+|-heal|p1a: Glalie|259/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|def|2
+|-unboost|p1a: Glalie|spd|1
+|upkeep
+|turn|5
+|
+|t:|1684324184
+|move|p2a: Metagross|Earthquake|p1a: Glalie
+|-end|p1a: Glalie|Substitute
+|move|p1a: Glalie|Freeze-Dry|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|196/256
+|
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|def|2
+|-unboost|p1a: Glalie|spd|1
+|upkeep
+|turn|6
+|
+|t:|1684324198
+|move|p1a: Glalie|Protect|p1a: Glalie
+|-singleturn|p1a: Glalie|Protect
+|move|p2a: Metagross|Meteor Mash|p1a: Glalie
+|-activate|p1a: Glalie|move: Protect
+|
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|def|2
+|-unboost|p1a: Glalie|atk|1
+|upkeep
+|turn|7
+|
+|t:|1684324204
+|move|p2a: Metagross|Meteor Mash|p1a: Glalie
+|-supereffective|p1a: Glalie
+|-damage|p1a: Glalie|167/259
+|-boost|p2a: Metagross|atk|1
+|move|p1a: Glalie|Disable|p2a: Metagross
+|-start|p2a: Metagross|Disable|Meteor Mash
+|
+|-heal|p1a: Glalie|183/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spd|2
+|-unboost|p1a: Glalie|def|1
+|upkeep
+|turn|8
+|
+|t:|1684324217
+|move|p1a: Glalie|Protect|p1a: Glalie
+|-singleturn|p1a: Glalie|Protect
+|move|p2a: Metagross|Thunder Punch|p1a: Glalie
+|-activate|p1a: Glalie|move: Protect
+|
+|-heal|p1a: Glalie|199/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|def|2
+|-unboost|p1a: Glalie|atk|1
+|upkeep
+|turn|9
+|
+|t:|1684324232
+|move|p2a: Metagross|Thunder Punch|p1a: Glalie
+|-damage|p1a: Glalie|171/259
+|move|p1a: Glalie|Substitute|p1a: Glalie
+|-start|p1a: Glalie|Substitute
+|-damage|p1a: Glalie|107/259
+|
+|-heal|p1a: Glalie|123/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spe|2
+|-unboost|p1a: Glalie|spd|1
+|upkeep
+|turn|10
+|
+|t:|1684324241
+|move|p1a: Glalie|Protect|p1a: Glalie
+|-singleturn|p1a: Glalie|Protect
+|move|p2a: Metagross|Earthquake|p1a: Glalie
+|-activate|p1a: Glalie|move: Protect
+|
+|-heal|p1a: Glalie|139/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|def|1
+|-unboost|p1a: Glalie|spe|1
+|upkeep
+|turn|11
+|
+|t:|1684324256
+|move|p2a: Metagross|Earthquake|p1a: Glalie
+|-activate|p1a: Glalie|move: Substitute|[damage]
+|move|p1a: Glalie|Freeze-Dry|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|164/256
+|
+|-heal|p1a: Glalie|155/259|[from] item: Leftovers
+|-end|p2a: Metagross|Disable
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spe|1
+|-unboost|p1a: Glalie|def|1
+|upkeep
+|turn|12
+|
+|t:|1684324267
+|move|p1a: Glalie|Protect|p1a: Glalie
+|-singleturn|p1a: Glalie|Protect
+|move|p2a: Metagross|Meteor Mash|p1a: Glalie
+|-activate|p1a: Glalie|move: Protect
+|
+|-heal|p1a: Glalie|171/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|atk|2
+|-unboost|p1a: Glalie|spd|1
+|upkeep
+|turn|13
+|
+|t:|1684324286
+|-start|p2a: Metagross|Dynamax|
+|-heal|p2a: Metagross|328/512|[silent]
+|move|p1a: Glalie|Disable|p2a: Metagross
+|-start|p2a: Metagross|Disable|Meteor Mash
+|move|p2a: Metagross|Max Quake|p1a: Glalie
+|-end|p1a: Glalie|Substitute
+|-boost|p2a: Metagross|spd|1
+|
+|-heal|p1a: Glalie|187/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|def|1
+|-unboost|p1a: Glalie|atk|1
+|upkeep
+|turn|14
+|
+|t:|1684324296
+|move|p1a: Glalie|Substitute|p1a: Glalie
+|-start|p1a: Glalie|Substitute
+|-damage|p1a: Glalie|123/259
+|move|p2a: Metagross|Max Steelspike|p1a: Glalie
+|-supereffective|p1a: Glalie
+|-end|p1a: Glalie|Substitute
+|-boost|p2a: Metagross|def|1
+|
+|-heal|p1a: Glalie|139/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|atk|2
+|-unboost|p1a: Glalie|def|1
+|upkeep
+|turn|15
+|
+|t:|1684324308
+|move|p1a: Glalie|Substitute|p1a: Glalie
+|-start|p1a: Glalie|Substitute
+|-damage|p1a: Glalie|75/259
+|move|p2a: Metagross|Max Quake|p1a: Glalie
+|-activate|p1a: Glalie|move: Substitute|[damage]
+|-boost|p2a: Metagross|spd|1
+|
+|-heal|p1a: Glalie|91/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spd|2
+|-unboost|p1a: Glalie|spa|1
+|upkeep
+|-end|p2a: Metagross|Dynamax
+|-heal|p2a: Metagross|164/256|[silent]
+|turn|16
+|
+|t:|1684324317
+|move|p1a: Glalie|Freeze-Dry|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|154/256
+|move|p2a: Metagross|Earthquake|p1a: Glalie
+|-end|p1a: Glalie|Substitute
+|
+|-heal|p1a: Glalie|107/259|[from] item: Leftovers
+|-end|p2a: Metagross|Disable
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|def|1
+|-unboost|p1a: Glalie|spe|1
+|upkeep
+|turn|17
+|
+|t:|1684324328
+|move|p1a: Glalie|Protect|p1a: Glalie
+|-singleturn|p1a: Glalie|Protect
+|move|p2a: Metagross|Meteor Mash|p1a: Glalie
+|-activate|p1a: Glalie|move: Protect
+|
+|-heal|p1a: Glalie|123/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|atk|2
+|-unboost|p1a: Glalie|spa|1
+|upkeep
+|turn|18
+|inactive|halderaditya69 has 120 seconds left.
+|
+|t:|1684324364
+|move|p2a: Metagross|Meteor Mash|p1a: Glalie|[miss]
+|-miss|p2a: Metagross|p1a: Glalie
+|move|p1a: Glalie|Substitute|p1a: Glalie
+|-start|p1a: Glalie|Substitute
+|-damage|p1a: Glalie|59/259
+|
+|-heal|p1a: Glalie|75/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spd|2
+|-unboost|p1a: Glalie|spa|1
+|upkeep
+|turn|19
+|inactive|halderaditya69 has 120 seconds left.
+|
+|t:|1684324370
+|move|p1a: Glalie|Protect|p1a: Glalie
+|-singleturn|p1a: Glalie|Protect
+|move|p2a: Metagross|Earthquake|p1a: Glalie
+|-activate|p1a: Glalie|move: Protect
+|
+|-heal|p1a: Glalie|91/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spe|1
+|-unboost|p1a: Glalie|spa|1
+|upkeep
+|turn|20
+|
+|t:|1684324377
+|move|p1a: Glalie|Disable|p2a: Metagross
+|-start|p2a: Metagross|Disable|Earthquake
+|cant|p2a: Metagross|Disable|Earthquake
+|
+|-heal|p1a: Glalie|107/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|atk|2
+|-unboost|p1a: Glalie|spa|1
+|upkeep
+|turn|21
+|
+|t:|1684324386
+|move|p1a: Glalie|Protect|p1a: Glalie
+|-singleturn|p1a: Glalie|Protect
+|move|p2a: Metagross|Meteor Mash|p1a: Glalie
+|-activate|p1a: Glalie|move: Protect
+|
+|-heal|p1a: Glalie|123/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spd|2
+|-unboost|p1a: Glalie|spa|1
+|upkeep
+|turn|22
+|inactive|halderaditya69 has 120 seconds left.
+|
+|t:|1684324409
+|move|p1a: Glalie|Freeze-Dry|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|150/256
+|move|p2a: Metagross|Meteor Mash|p1a: Glalie
+|-supereffective|p1a: Glalie
+|-end|p1a: Glalie|Substitute
+|-boost|p2a: Metagross|atk|1
+|
+|-heal|p1a: Glalie|139/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|atk|2
+|-unboost|p1a: Glalie|spe|1
+|upkeep
+|turn|23
+|inactive|halderaditya69 has 120 seconds left.
+|
+|t:|1684324419
+|move|p1a: Glalie|Protect|p1a: Glalie
+|-singleturn|p1a: Glalie|Protect
+|move|p2a: Metagross|Thunder Punch|p1a: Glalie
+|-activate|p1a: Glalie|move: Protect
+|
+|-heal|p1a: Glalie|155/259|[from] item: Leftovers
+|-end|p2a: Metagross|Disable
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spe|1
+|-unboost|p1a: Glalie|def|1
+|upkeep
+|turn|24
+|
+|t:|1684324426
+|move|p1a: Glalie|Substitute|p1a: Glalie
+|-start|p1a: Glalie|Substitute
+|-damage|p1a: Glalie|91/259
+|move|p2a: Metagross|Meteor Mash|p1a: Glalie
+|-supereffective|p1a: Glalie
+|-end|p1a: Glalie|Substitute
+|
+|-heal|p1a: Glalie|107/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spa|2
+|-unboost|p1a: Glalie|spd|1
+|upkeep
+|turn|25
+|
+|t:|1684324435
+|move|p1a: Glalie|Protect|p1a: Glalie
+|-singleturn|p1a: Glalie|Protect
+|move|p2a: Metagross|Meteor Mash|p1a: Glalie
+|-activate|p1a: Glalie|move: Protect
+|
+|-heal|p1a: Glalie|123/259|[from] item: Leftovers
+|-ability|p1a: Glalie|Moody|boost
+|-boost|p1a: Glalie|spa|2
+|-unboost|p1a: Glalie|spe|1
+|upkeep
+|turn|26
+|
+|t:|1684324443
+|move|p2a: Metagross|Meteor Mash|p1a: Glalie
+|-supereffective|p1a: Glalie
+|-damage|p1a: Glalie|0 fnt
+|faint|p1a: Glalie
+|
+|upkeep
+|
+|t:|1684324458
+|switch|p1a: Azumarill|Azumarill, L84, F|305/305
+|turn|27
+|
+|t:|1684324468
+|move|p1a: Azumarill|Aqua Jet|p2a: Metagross
+|-damage|p2a: Metagross|111/256
+|move|p2a: Metagross|Thunder Punch|p1a: Azumarill
+|-supereffective|p1a: Azumarill
+|-damage|p1a: Azumarill|25/305
+|
+|upkeep
+|turn|28
+|
+|t:|1684324479
+|move|p1a: Azumarill|Aqua Jet|p2a: Metagross
+|-damage|p2a: Metagross|66/256
+|move|p2a: Metagross|Thunder Punch|p1a: Azumarill
+|-supereffective|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|upkeep
+|
+|t:|1684324488
+|switch|p1a: Rhyperior|Rhyperior, L82, M|323/323
+|turn|29
+|
+|t:|1684324493
+|-start|p1a: Rhyperior|Dynamax|
+|-heal|p1a: Rhyperior|646/646|[silent]
+|move|p2a: Metagross|Meteor Mash|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|394/646
+|move|p1a: Rhyperior|Max Quake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|-boost|p1a: Rhyperior|spd|1
+|faint|p2a: Metagross
+|
+|upkeep
+|
+|t:|1684324511
+|switch|p2a: Wobbuffet|Wobbuffet, L92, F|499/499
+|turn|30
+|
+|t:|1684324520
+|move|p1a: Rhyperior|Max Rockfall|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|288/499
+|-weather|Sandstorm
+|move|p2a: Wobbuffet|Counter|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Wobbuffet|257/499|[from] Sandstorm
+|upkeep
+|
+|t:|1684324540
+|switch|p1a: Stunfisk|Stunfisk, L84, M|320/320
+|turn|31
+|
+|t:|1684324555
+|move|p2a: Wobbuffet|Charm|p1a: Stunfisk
+|-unboost|p1a: Stunfisk|atk|2
+|move|p1a: Stunfisk|Sludge Bomb|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|192/499
+|-status|p2a: Wobbuffet|psn
+|-enditem|p2a: Wobbuffet|Sitrus Berry|[eat]
+|-heal|p2a: Wobbuffet|316/499 psn|[from] item: Sitrus Berry
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Wobbuffet|285/499 psn|[from] Sandstorm
+|-damage|p2a: Wobbuffet|223/499 psn|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1684324577
+|move|p1a: Stunfisk|Sludge Bomb|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|152/499 psn
+|move|p2a: Wobbuffet|Counter||[still]
+|-fail|p2a: Wobbuffet
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Wobbuffet|121/499 psn|[from] Sandstorm
+|-damage|p2a: Wobbuffet|59/499 psn|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1684324587
+|move|p1a: Stunfisk|Sludge Bomb|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|0 fnt
+|faint|p2a: Wobbuffet
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1684324595
+|switch|p2a: Sandslash|Sandslash-Alola, L86, M|269/269
+|turn|34
+|inactive|halderaditya69 has 120 seconds left.
+|
+|t:|1684324618
+|move|p2a: Sandslash|Rapid Spin|p1a: Stunfisk
+|-damage|p1a: Stunfisk|278/320
+|-boost|p2a: Sandslash|spe|1
+|move|p1a: Stunfisk|Sludge Bomb|p2a: Sandslash
+|-immune|p2a: Sandslash
+|
+|-weather|none
+|upkeep
+|turn|35
+|
+|t:|1684324625
+|move|p2a: Sandslash|Rapid Spin|p1a: Stunfisk
+|-damage|p1a: Stunfisk|238/320
+|-boost|p2a: Sandslash|spe|1
+|-status|p2a: Sandslash|par|[from] ability: Static|[of] p1a: Stunfisk
+|-enditem|p2a: Sandslash|Lum Berry|[eat]
+|-curestatus|p2a: Sandslash|par|[msg]
+|move|p1a: Stunfisk|Earth Power|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|75/269
+|
+|upkeep
+|turn|36
+|inactive|halderaditya69 has 120 seconds left.
+|
+|t:|1684324642
+|move|p2a: Sandslash|Iron Head|p1a: Stunfisk
+|-resisted|p1a: Stunfisk
+|-damage|p1a: Stunfisk|190/320
+|-status|p2a: Sandslash|par|[from] ability: Static|[of] p1a: Stunfisk
+|move|p1a: Stunfisk|Earth Power|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|
+|upkeep
+|inactive|halderaditya69 has 120 seconds left.
+|
+|t:|1684324650
+|switch|p2a: Tapu Bulu|Tapu Bulu, L82|249/249
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|turn|37
+|
+|t:|1684324660
+|switch|p1a: Xatu|Xatu, L89, M|260/260
+|move|p2a: Tapu Bulu|Horn Leech|p1a: Xatu
+|-resisted|p1a: Xatu
+|-damage|p1a: Xatu|148/260
+|
+|upkeep
+|turn|38
+|
+|t:|1684324669
+|move|p1a: Xatu|Thunder Wave|p2a: Tapu Bulu
+|-status|p2a: Tapu Bulu|par
+|move|p2a: Tapu Bulu|Horn Leech|p1a: Xatu
+|-resisted|p1a: Xatu
+|-crit|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|upkeep
+|
+|t:|1684324677
+|switch|p1a: Kyurem|Kyurem, L80|331/331
+|-ability|p1a: Kyurem|Pressure
+|turn|39
+|
+|t:|1684324695
+|switch|p2a: Marshadow|Marshadow, L70|242/242
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|249/331
+|
+|-heal|p1a: Kyurem|269/331|[from] Grassy Terrain
+|upkeep
+|turn|40
+|
+|t:|1684324707
+|move|p2a: Marshadow|Ice Punch|p1a: Kyurem
+|-activate|p1a: Kyurem|move: Substitute|[damage]
+|move|p1a: Kyurem|Earth Power|p2a: Marshadow
+|-damage|p2a: Marshadow|154/242
+|
+|-heal|p2a: Marshadow|169/242|[from] Grassy Terrain
+|-heal|p1a: Kyurem|289/331|[from] Grassy Terrain
+|upkeep
+|turn|41
+|
+|t:|1684324717
+|switch|p2a: Tapu Bulu|Tapu Bulu, L82|249/249 par
+|move|p1a: Kyurem|Earth Power|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|210/249 par
+|
+|-heal|p1a: Kyurem|309/331|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|225/249 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|42
+|
+|t:|1684324728
+|move|p1a: Kyurem|Ice Beam|p2a: Tapu Bulu
+|-supereffective|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|7/249 par
+|move|p2a: Tapu Bulu|Horn Leech|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|-heal|p2a: Tapu Bulu|13/249 par|[from] drain|[of] p1a: Kyurem
+|
+|upkeep
+|turn|43
+|
+|t:|1684324743
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|227/331
+|move|p2a: Tapu Bulu|Horn Leech|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-crit|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|-heal|p2a: Tapu Bulu|54/249 par|[from] drain|[of] p1a: Kyurem
+|
+|upkeep
+|turn|44
+|
+|t:|1684324753
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|145/331
+|cant|p2a: Tapu Bulu|par
+|
+|upkeep
+|turn|45
+|
+|t:|1684324760
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|311/331
+|-singleturn|p1a: Kyurem|move: Roost
+|move|p2a: Tapu Bulu|Horn Leech|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-activate|p1a: Kyurem|move: Substitute|[damage]
+|-heal|p2a: Tapu Bulu|92/249 par|[from] drain|[of] p1a: Kyurem
+|
+|upkeep
+|turn|46
+|
+|t:|1684324774
+|move|p1a: Kyurem|Ice Beam|p2a: Tapu Bulu
+|-supereffective|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|0 fnt
+|faint|p2a: Tapu Bulu
+|
+|upkeep
+|
+|t:|1684324782
+|switch|p2a: Garchomp|Garchomp, L74, M|282/282
+|turn|47
+|
+|t:|1684324790
+|move|p1a: Kyurem|Ice Beam|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1684324795
+|switch|p2a: Marshadow|Marshadow, L70|169/242
+|turn|48
+|
+|t:|1684324802
+|move|p2a: Marshadow|Ice Punch|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|move|p1a: Kyurem|Earth Power|p2a: Marshadow
+|-damage|p2a: Marshadow|89/242
+|
+|upkeep
+|turn|49
+|
+|t:|1684324810
+|move|p2a: Marshadow|Ice Punch|p1a: Kyurem
+|-damage|p1a: Kyurem|234/331
+|move|p1a: Kyurem|Earth Power|p2a: Marshadow
+|-damage|p2a: Marshadow|8/242
+|
+|upkeep
+|turn|50
+|
+|t:|1684324817
+|move|p2a: Marshadow|Ice Punch|p1a: Kyurem
+|-damage|p1a: Kyurem|161/331
+|move|p1a: Kyurem|Earth Power|p2a: Marshadow
+|-damage|p2a: Marshadow|0 fnt
+|faint|p2a: Marshadow
+|
+|win|Stupidlly_funny
+|raw|Stupidlly_funny's rating: 1106 &rarr; <strong>1132</strong><br />(+26 for winning)
+|raw|halderaditya69's rating: 1115 &rarr; <strong>1089</strong><br />(-26 for losing)

@@ -1,0 +1,232 @@
+|j|☆Boogie_Woogie_34
+|j|☆ddy ash
+|t:|1684270017
+|gametype|singles
+|player|p1|Boogie_Woogie_34|veteran|1045
+|player|p2|ddy ash|102|1064
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1684270017
+|start
+|switch|p1a: Flapple|Flapple, L84, M|255/255
+|switch|p2a: Lapras|Lapras, L86, F|363/363
+|turn|1
+|
+|t:|1684270037
+|move|p1a: Flapple|Grav Apple|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|45/363
+|-unboost|p2a: Lapras|def|1
+|move|p2a: Lapras|Thunderbolt|p1a: Flapple
+|-resisted|p1a: Flapple
+|-damage|p1a: Flapple|225/255
+|
+|upkeep
+|turn|2
+|
+|t:|1684270046
+|move|p1a: Flapple|Grav Apple|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|upkeep
+|
+|t:|1684270052
+|switch|p2a: Slowking|Slowking-Galar, L84, F|297/297
+|turn|3
+|
+|t:|1684270063
+|move|p1a: Flapple|Sucker Punch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|109/297
+|move|p2a: Slowking|Fire Blast|p1a: Flapple
+|-damage|p1a: Flapple|103/255
+|
+|-heal|p2a: Slowking|127/297|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1684270074
+|move|p1a: Flapple|Sucker Punch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1684270078
+|switch|p2a: Flapple|Flapple, L84, M|255/255
+|turn|5
+|
+|t:|1684270083
+|move|p1a: Flapple|Outrage|p2a: Flapple
+|-supereffective|p2a: Flapple
+|-damage|p2a: Flapple|0 fnt
+|faint|p2a: Flapple
+|
+|upkeep
+|
+|t:|1684270089
+|switch|p2a: Escavalier|Escavalier, L84, F|255/255
+|turn|6
+|c|☆ddy ash|wtf
+|c|☆ddy ash|lmao
+|
+|t:|1684270094
+|move|p1a: Flapple|Outrage|p2a: Escavalier|[from]lockedmove
+|-resisted|p2a: Escavalier
+|-damage|p2a: Escavalier|159/255
+|-start|p1a: Flapple|confusion|[fatigue]
+|move|p2a: Escavalier|Megahorn|p1a: Flapple|[miss]
+|-miss|p2a: Escavalier|p1a: Flapple
+|
+|-heal|p2a: Escavalier|174/255|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|☆Boogie_Woogie_34|LOL
+|
+|t:|1684270105
+|-activate|p1a: Flapple|confusion
+|-damage|p1a: Flapple|68/255|[from] confusion
+|move|p2a: Escavalier|Close Combat|p1a: Flapple
+|-damage|p1a: Flapple|0 fnt
+|-unboost|p2a: Escavalier|def|1
+|-unboost|p2a: Escavalier|spd|1
+|faint|p1a: Flapple
+|
+|-heal|p2a: Escavalier|189/255|[from] item: Leftovers
+|upkeep
+|c|☆ddy ash|fuck thank god
+|
+|t:|1684270120
+|switch|p1a: Regieleki|Regieleki, L78|253/253
+|turn|8
+|c|☆ddy ash|u play any other games
+|c|☆ddy ash|like cod
+|c|☆Boogie_Woogie_34|yea why
+|c|☆ddy ash|cold war
+|c|☆ddy ash|?
+|
+|t:|1684270135
+|move|p1a: Regieleki|Thunderbolt|p2a: Escavalier
+|-damage|p2a: Escavalier|5/255
+|move|p2a: Escavalier|Close Combat|p1a: Regieleki
+|-damage|p1a: Regieleki|78/253
+|-unboost|p2a: Escavalier|def|1
+|-unboost|p2a: Escavalier|spd|1
+|
+|-heal|p2a: Escavalier|20/255|[from] item: Leftovers
+|upkeep
+|turn|9
+|c|☆ddy ash|u play cod cold war
+|c|☆Boogie_Woogie_34|ye i do
+|
+|t:|1684270155
+|move|p1a: Regieleki|Volt Switch|p2a: Escavalier
+|-damage|p2a: Escavalier|0 fnt
+|faint|p2a: Escavalier
+|c|☆ddy ash|u tryna playy
+|c|☆ddy ash|lol
+|c|☆ddy ash|u got snap
+|c|☆ddy ash|im just bored lol im a sniper play on cw i stream too lol
+|c|☆Boogie_Woogie_34|oh ok
+|c|☆ddy ash|you got snapchat tho
+|c|☆ddy ash|or discord
+|c|☆Boogie_Woogie_34|im currently in school so uhh
+|c|☆ddy ash|same lol
+|
+|t:|1684270230
+|switch|p1a: Sylveon|Sylveon, L84, M|297/297|[from] Volt Switch
+|
+|upkeep
+|c|☆ddy ash|im on the bus
+|c|☆ddy ash|just add my snap rq
+|c|☆Boogie_Woogie_34|oh are ya cool
+|c|☆ddy ash|ashtoniscool936
+|c|☆Boogie_Woogie_34|i dont have snapchat
+|c|☆ddy ash|discord
+|
+|t:|1684270258
+|switch|p2a: Pincurchin|Pincurchin, L88, M|228/228
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|10
+|c|☆ddy ash|?
+|c|☆Boogie_Woogie_34|or disc
+|c|☆ddy ash|what u gor
+|c|☆Boogie_Woogie_34|i really dont use them
+|c|☆Boogie_Woogie_34|i guess i got youtube lol
+|c|☆ddy ash|fine when i get to my house off the bus imma text u on this game k
+|c|☆ddy ash|ill text u my cw username k'
+|
+|t:|1684270320
+|move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+|-boost|p1a: Sylveon|spa|1
+|-boost|p1a: Sylveon|spd|1
+|move|p2a: Pincurchin|Scald|p1a: Sylveon
+|-damage|p1a: Sylveon|267/297
+|
+|-heal|p1a: Sylveon|285/297|[from] item: Leftovers
+|upkeep
+|turn|11
+|c|☆Boogie_Woogie_34|uhh this is a loaner computer
+|c|☆ddy ash|same 4 me lol
+|c|☆ddy ash|i cAN BRING IT HOME
+|c|☆Boogie_Woogie_34|i cant bring it home
+|c|☆ddy ash|well do u have a phone
+|
+|t:|1684270367
+|move|p1a: Sylveon|Psyshock|p2a: Pincurchin
+|-crit|p2a: Pincurchin
+|-damage|p2a: Pincurchin|93/228
+|move|p2a: Pincurchin|Rising Voltage|p1a: Sylveon
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-damage|p1a: Sylveon|182/297
+|
+|-heal|p1a: Sylveon|200/297|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|☆Boogie_Woogie_34|yes but i dont really know who you are
+|c|☆ddy ash|u got a phone number im boutta get ff
+|c|☆ddy ash|off
+|c|☆ddy ash|lol
+|c|☆ddy ash|we r just playing cw lmao
+|c|☆ddy ash|just text my email on yr phone when u get home
+|c|☆ddy ash|its
+|c|☆ddy ash|zobristashton13@gmail.com
+|c|☆ddy ash|write it down on a piece of paper
+|c|☆ddy ash|k gotta go
+|c|☆ddy ash|see ya
+|c|☆ddy ash|on cw i hope lol
+|c|☆Boogie_Woogie_34|ok
+|
+|t:|1684270545
+|move|p1a: Sylveon|Psyshock|p2a: Pincurchin
+|-damage|p2a: Pincurchin|7/228
+|move|p2a: Pincurchin|Rising Voltage|p1a: Sylveon
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-damage|p1a: Sylveon|104/297
+|
+|-heal|p1a: Sylveon|122/297|[from] item: Leftovers
+|upkeep
+|turn|13
+|l|☆ddy ash
+|player|p2|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Boogie_Woogie_34)
+|inactive|ddy ash has 30 seconds to reconnect!
+|inactive|ddy ash has 20 seconds to reconnect!
+|inactive|ddy ash has 15 seconds to reconnect!
+|inactive|ddy ash has 10 seconds to reconnect!
+|inactive|ddy ash has 5 seconds to reconnect!
+|-message|ddy ash lost due to inactivity.
+|
+|win|Boogie_Woogie_34
+|raw|Boogie_Woogie_34's rating: 1045 &rarr; <strong>1080</strong><br />(+35 for winning)
+|raw|ddy ash's rating: 1064 &rarr; <strong>1043</strong><br />(-21 for losing)
