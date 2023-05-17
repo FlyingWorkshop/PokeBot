@@ -12,6 +12,8 @@ import copy
 from poke_env.environment.battle import Battle
 import torch
 from collections import defaultdict
+from poke_env.environment.field import Field
+from poke_env.environment.effect import Effect
 
 def _get_turns(log) -> list:
     turns = []
@@ -52,6 +54,12 @@ class DataExtractor:
         pass
 
     def extract_boosts(self, curr_turn: Battle) -> torch.Tensor:
+        pass
+
+    def extract_field(self, curr_turn: Battle) -> torch.Tensor:
+        pass
+
+    def extract_effects(self, curr_turn: Battle) -> torch.Tensor:
         pass
 
     def embed(self, curr_turn: Battle) -> torch.embedding:
@@ -120,7 +128,7 @@ class DataExtractor:
 
         to_skip = []
         battle_log = []
-
+        turn = 1
         for idx, line in enumerate(history):
             if len(line) <= 1 or idx in to_skip:
                 continue
@@ -251,6 +259,8 @@ class DataExtractor:
 
                         curr_battle._team[curr_p1_pokemon._species]._active = False
 
+                        curr_p1_pokemon._switch_out()
+
                         curr_p1_pokemon = Pokemon(gen = 8, species = pokemon_name)
 
                         curr_battle._team[pokemon_name.replace(" ","").lower()] = curr_p1_pokemon
@@ -268,6 +278,8 @@ class DataExtractor:
                     if pokemon_name not in curr_battle.opponent_team:
 
                         curr_battle._opponent_team[curr_p2_pokemon._species]._active = False
+
+                        curr_p2_pokemon._switch_out()
 
                         curr_p2_pokemon = Pokemon(gen = 8, species = pokemon_name)
                         curr_battle._opponent_team[pokemon_name.replace(" ","").lower()] = curr_p2_pokemon
@@ -438,8 +450,29 @@ class DataExtractor:
                 else:
                     curr_battle.opponent_side_conditions[SideCondition.from_showdown_message(hazard_message)] = 0
 
+            if "|-fieldstart|" in line:
+                curr_battle.fields[Field.from_showdown_message(line.split('|')[2])] = turn
+            
+            if "|-fieldend|" in line:
+                curr_battle.fields.pop(Field.from_showdown_message(line.split('|')[2]))
+            
+            if "|-activate|" in line:
+                line = line.split('|')
+                player = int(line[2][1])
+                effect = Effect.from_showdown_message(line[3])
+
+                if player == 1:
+                    curr_battle.active_pokemon._start_effect(effect)
+                else:
+                    curr_battle.opponent_active_pokemon._start_effect(effect)
+
             if '|turn|' in line:
+                for pokemon in curr_battle._team.values():
+                    pokemon._end_turn()
+                for pokemon in curr_battle._opponent_team.values():
+                    pokemon._end_turn()   
                 battle_log.append(copy.deepcopy(curr_battle))
+                turn += 1
         
         return battle_log
 
