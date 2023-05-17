@@ -1,0 +1,21 @@
+name: Scrape teams
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.10
+
+    - name: Run Python script
+      run: python scraping/teams_scraper.py
