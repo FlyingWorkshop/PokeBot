@@ -27,7 +27,7 @@ def _get_turns(log) -> list:
 class DataExtractor:
     def __init__(self, battle_json_path: str):
         self.battle_json = battle_json_path
-        self.turns = self.process_battle(battle_json_path)
+        self.turns = self.process_battle()
         self.unknown_value = 0
 
     def extract_side_conditions(self, curr_turn: Battle) -> torch.Tensor:
@@ -62,6 +62,7 @@ class DataExtractor:
         indices = {status.name: idx for idx, status in enumerate(Status)}
 
         status = curr_turn.status
+        opponent_status = curr_turn.opponent_status
 
 
     def extract_moves(self, curr_turn: Battle) -> torch.Tensor:
