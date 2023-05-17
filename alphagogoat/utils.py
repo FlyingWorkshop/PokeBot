@@ -491,7 +491,7 @@ class DataExtractor:
             if "|-activate|" in line:
                 line = line.split('|')
                 player = int(line[2][1])
-                effect = Effect.from_showdown_message(line[3])
+                effect = line[3]
 
                 if player == 1:
                     curr_battle.active_pokemon._start_effect(effect)
