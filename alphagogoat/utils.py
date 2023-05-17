@@ -256,7 +256,7 @@ class DataExtractor:
                     source = match.group(3)
                     player = int(match.group(4))
                     pokemon_name = match.group(5)
-                    curr_battle._weather = Weather.from_name(weather)
+                    curr_battle._weather = Weather.from_showdown_message(weather)
                 
                 if 'none' in line:
                     curr_battle._weather = None
