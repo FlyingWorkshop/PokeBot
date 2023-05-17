@@ -28,15 +28,41 @@ class DataExtractor:
     def __init__(self, battle_json_path: str):
         self.battle_json = battle_json_path
         self.turns = self.process_battle(battle_json_path)
+        self.unknown_value = 0
 
-    def extract_hazards(self, curr_turn: Battle) -> torch.Tensor:
-        pass
+    def extract_side_conditions(self, curr_turn: Battle) -> torch.Tensor:
+        indices = {side_condition.name: idx for idx, side_condition in enumerate(SideCondition)}
+
+        side_conditions = curr_turn.side_conditions
+        other_side_conditions = curr_turn.opponent_side_conditions
+
+        res = torch.Tensor([0] * len(indices) * 2)
+
+        for side_condition, amt in side_conditions.values():
+            res[indices[side_condition.name]] = side_conditions[amt]
+        
+        for side_condition, amt in other_side_conditions.values():
+            res[indices[side_condition.name] + len(indices)] = other_side_conditions[amt]
+        
+        return res
 
     def extract_weather(self, curr_turn: Battle) -> torch.Tensor:
-        pass
+        indices = {weather.name: idx for idx, weather in enumerate(Weather)}
+
+        weather = curr_turn.weather
+
+        res = torch.Tensor([0] * len(indices))
+
+        if weather:
+            res[indices[weather.name]] = 1
+        
+        return res
 
     def extract_status(self, curr_turn: Battle) -> torch.Tensor:
-        pass
+        indices = {status.name: idx for idx, status in enumerate(Status)}
+
+        status = curr_turn.status
+
 
     def extract_moves(self, curr_turn: Battle) -> torch.Tensor:
         pass
@@ -360,14 +386,19 @@ class DataExtractor:
                 condition = SideCondition.from_showdown_message(hazard_message)
 
                 if player == 1:
+                    if condition not in curr_battle.side_conditions:
+                        curr_battle.side_conditions[condition] = 1
                     if condition in STACKABLE_CONDITIONS:
                         curr_battle.side_conditions[condition] = min(curr_battle.side_conditions[condition] + 1, STACKABLE_CONDITIONS[condition])
                     else:
                         curr_battle.side_conditions[condition] = 1
                 else:
+                    if condition not in curr_battle.opponent_side_conditions:
+                            curr_battle.opponent_side_conditions[condition] = 1
                     if condition in STACKABLE_CONDITIONS:
-                        curr_battle.opponent_side_conditions[condition] = min(curr_battle.opponent_side_conditions[condition] + 1, STACKABLE_CONDITIONS[condition])
+                            curr_battle.opponent_side_conditions[condition] = min(curr_battle.opponent_side_conditions[condition] + 1, STACKABLE_CONDITIONS[condition])
                     else:
+                        
                         curr_battle.opponent_side_conditions[condition] = 1
 
             # update stats
