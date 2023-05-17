@@ -1,0 +1,44 @@
+|j|☆Separation
+|j|☆Accadere ☁
+|t:|1667668585
+|gametype|singles
+|player|p1|Separation|#scl2machines|2457
+|player|p2|Accadere ☁|touristf2|2390
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1667668585
+|start
+|switch|p1a: Shiinotic|Shiinotic, L86, M|243/243
+|switch|p2a: Silvally|Silvally-Dragon, L84|297/297
+|turn|1
+|
+|t:|1667668610
+|move|p2a: Silvally|Swords Dance|p2a: Silvally
+|-boost|p2a: Silvally|atk|2
+|move|p1a: Shiinotic|Moonblast|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|105/297
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Accadere ☁)
+|inactive|Separation has 120 seconds left.
+|inactive|Separation has 90 seconds left.
+|inactive|Separation has 60 seconds left.
+|inactive|Separation has 30 seconds left.
+|inactive|Separation has 20 seconds left.
+|inactive|Separation has 15 seconds left.
+|inactive|Separation has 10 seconds left.
+|inactive|Separation has 5 seconds left.
+|-message|Separation lost due to inactivity.
+|
+|win|Accadere ☁
+|raw|Separation's rating: 2457 &rarr; <strong>2433</strong><br />(-24 for losing)
+|raw|Accadere ☁'s rating: 2390 &rarr; <strong>2414</strong><br />(+24 for winning)

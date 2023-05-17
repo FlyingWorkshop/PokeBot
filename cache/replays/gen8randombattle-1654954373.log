@@ -1,0 +1,416 @@
+|j|☆llxwd
+|j|☆Separation
+|t:|1662192168
+|gametype|singles
+|player|p1|llxwd|emmet|2448
+|player|p2|Separation|acetrainerf-gen4dp|2462
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1662192168
+|start
+|switch|p1a: Salamence|Salamence, L76, F|269/269
+|switch|p2a: Chansey|Chansey, L84, F|557/557
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by llxwd)
+|j| Mkn
+|inactive|llxwd has 120 seconds left.
+|inactive|llxwd has 90 seconds left.
+|
+|t:|1662192245
+|switch|p1a: Steelix|Steelix, L84, M|263/263
+|switch|p2a: Glastrier|Glastrier, L82|298/298
+|
+|upkeep
+|turn|2
+|
+|t:|1662192262
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L78, M|284/284
+|move|p1a: Steelix|Head Smash|p2a: Urshifu|[miss]
+|-miss|p1a: Steelix|p2a: Urshifu
+|
+|upkeep
+|turn|3
+|j| Wampert
+|
+|t:|1662192279
+|switch|p1a: Maractus|Maractus, L94, M|293/293
+|move|p2a: Urshifu|Surging Strikes|p1a: Maractus
+|-immune|p1a: Maractus|[from] ability: Water Absorb
+|
+|upkeep
+|turn|4
+|
+|t:|1662192293
+|switch|p2a: Chansey|Chansey, L84, F|557/557
+|move|p1a: Maractus|Leech Seed|p2a: Chansey
+|-start|p2a: Chansey|move: Leech Seed
+|
+|-damage|p2a: Chansey|488/557|[from] Leech Seed|[of] p1a: Maractus
+|upkeep
+|turn|5
+|
+|t:|1662192304
+|switch|p1a: Steelix|Steelix, L84, M|263/263
+|move|p2a: Chansey|Stealth Rock|p1a: Steelix
+|-sidestart|p1: llxwd|move: Stealth Rock
+|
+|-damage|p2a: Chansey|419/557|[from] Leech Seed|[of] p1a: Steelix
+|upkeep
+|turn|6
+|
+|t:|1662192309
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L78, M|284/284
+|move|p1a: Steelix|Dragon Dance|p1a: Steelix
+|-boost|p1a: Steelix|atk|1
+|-boost|p1a: Steelix|spe|1
+|
+|upkeep
+|turn|7
+|
+|t:|1662192320
+|move|p2a: Urshifu|Bulk Up|p2a: Urshifu
+|-boost|p2a: Urshifu|atk|1
+|-boost|p2a: Urshifu|def|1
+|move|p1a: Steelix|Dragon Dance|p1a: Steelix
+|-boost|p1a: Steelix|atk|1
+|-boost|p1a: Steelix|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1662192329
+|-start|p1a: Steelix|Dynamax|
+|-heal|p1a: Steelix|526/526|[silent]
+|move|p1a: Steelix|Max Quake|p2a: Urshifu
+|-damage|p2a: Urshifu|124/284
+|-boost|p1a: Steelix|spd|1
+|move|p2a: Urshifu|Substitute|p2a: Urshifu
+|-start|p2a: Urshifu|Substitute
+|-damage|p2a: Urshifu|53/284
+|
+|-heal|p2a: Urshifu|70/284|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1662192339
+|move|p1a: Steelix|Max Steelspike|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-end|p2a: Urshifu|Substitute
+|-boost|p1a: Steelix|def|1
+|move|p2a: Urshifu|Drain Punch|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|434/526
+|-heal|p2a: Urshifu|116/284|[from] drain|[of] p1a: Steelix
+|
+|-heal|p1a: Steelix|450/526|[from] item: Leftovers
+|-heal|p2a: Urshifu|133/284|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1662192355
+|-start|p2a: Urshifu|Dynamax|
+|-heal|p2a: Urshifu|266/568|[silent]
+|move|p2a: Urshifu|Max Guard|p2a: Urshifu
+|-singleturn|p2a: Urshifu|Max Guard
+|move|p1a: Steelix|Max Steelspike|p2a: Urshifu
+|-activate|p2a: Urshifu|move: Max Guard
+|
+|-heal|p1a: Steelix|466/526|[from] item: Leftovers
+|-heal|p2a: Urshifu|283/568|[from] item: Leftovers
+|upkeep
+|-end|p1a: Steelix|Dynamax
+|-heal|p1a: Steelix|233/263|[silent]
+|turn|11
+|inactive|llxwd has 120 seconds left.
+|
+|t:|1662192399
+|move|p1a: Steelix|Dragon Dance|p1a: Steelix
+|-boost|p1a: Steelix|atk|1
+|-boost|p1a: Steelix|spe|1
+|move|p2a: Urshifu|Max Knuckle|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-crit|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|-boost|p2a: Urshifu|atk|1
+|faint|p1a: Steelix
+|
+|-heal|p2a: Urshifu|300/568|[from] item: Leftovers
+|upkeep
+|inactive|llxwd has 90 seconds left.
+|
+|t:|1662192441
+|switch|p1a: Maractus|Maractus, L94, M|293/293
+|-damage|p1a: Maractus|257/293|[from] Stealth Rock
+|turn|12
+|
+|t:|1662192458
+|move|p2a: Urshifu|Max Knuckle|p1a: Maractus
+|-damage|p1a: Maractus|38/293
+|-boost|p2a: Urshifu|atk|1
+|move|p1a: Maractus|Energy Ball|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|-heal|p1a: Maractus|56/293|[from] item: Leftovers
+|upkeep
+|
+|t:|1662192470
+|switch|p2a: Alakazam|Alakazam, L78, F|214/214
+|turn|13
+|inactive|llxwd has 90 seconds left.
+|
+|t:|1662192486
+|switch|p1a: Grimmsnarl|Grimmsnarl, L82, M|290/290
+|-damage|p1a: Grimmsnarl|254/290|[from] Stealth Rock
+|move|p2a: Alakazam|Psychic|p1a: Grimmsnarl
+|-immune|p1a: Grimmsnarl
+|
+|upkeep
+|turn|14
+|
+|t:|1662192498
+|switch|p2a: Entei|Entei, L78|307/307
+|move|p1a: Grimmsnarl|Darkest Lariat|p2a: Entei
+|-damage|p2a: Entei|202/307
+|
+|upkeep
+|turn|15
+|
+|t:|1662192511
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Entei|Sacred Fire|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|118/290
+|-status|p1a: Grimmsnarl|brn
+|
+|-damage|p1a: Grimmsnarl|100/290 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1662192536
+|move|p1a: Grimmsnarl|Rest|p1a: Grimmsnarl
+|-status|p1a: Grimmsnarl|slp|[from] move: Rest
+|-heal|p1a: Grimmsnarl|290/290 slp|[silent]
+|-enditem|p1a: Grimmsnarl|Chesto Berry|[eat]
+|-curestatus|p1a: Grimmsnarl|slp|[msg]
+|move|p2a: Entei|Sacred Fire|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|8/290
+|-status|p1a: Grimmsnarl|brn
+|
+|-damage|p1a: Grimmsnarl|0 fnt|[from] brn
+|faint|p1a: Grimmsnarl
+|upkeep
+|inactive|llxwd has 60 seconds left.
+|
+|t:|1662192550
+|switch|p1a: Salamence|Salamence, L76, F|269/269
+|turn|17
+|c| Wampert|Ahem
+|
+|t:|1662192557
+|switch|p2a: Glastrier|Glastrier, L82|298/298
+|move|p1a: Salamence|Earthquake|p2a: Glastrier
+|-damage|p2a: Glastrier|244/298
+|
+|upkeep
+|turn|18
+|inactive|llxwd has 60 seconds left.
+|
+|t:|1662192574
+|switch|p1a: Maractus|Maractus, L94, M|56/293
+|-damage|p1a: Maractus|20/293|[from] Stealth Rock
+|move|p2a: Glastrier|Icicle Crash|p1a: Maractus
+|-supereffective|p1a: Maractus
+|-damage|p1a: Maractus|0 fnt
+|faint|p1a: Maractus
+|-ability|p2a: Glastrier|Chilling Neigh|boost
+|-boost|p2a: Glastrier|atk|1
+|
+|upkeep
+|inactive|llxwd has 60 seconds left.
+|
+|t:|1662192579
+|switch|p1a: Zapdos|Zapdos, L78|267/267
+|-damage|p1a: Zapdos|201/267|[from] Stealth Rock
+|turn|19
+|
+|t:|1662192587
+|switch|p2a: Palossand|Palossand, L86, M|286/286
+|move|p1a: Zapdos|Heat Wave|p2a: Palossand
+|-damage|p2a: Palossand|160/286
+|
+|-heal|p2a: Palossand|177/286|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1662192592
+|move|p1a: Zapdos|Heat Wave|p2a: Palossand
+|-damage|p2a: Palossand|58/286
+|move|p2a: Palossand|Shore Up|p2a: Palossand
+|-heal|p2a: Palossand|201/286
+|
+|-heal|p2a: Palossand|218/286|[from] item: Leftovers
+|upkeep
+|turn|21
+|c| Mkn|What’s the crit rate? 4%?
+|
+|t:|1662192599
+|move|p1a: Zapdos|Heat Wave|p2a: Palossand|[miss]
+|-miss|p1a: Zapdos|p2a: Palossand
+|move|p2a: Palossand|Shore Up|p2a: Palossand
+|-heal|p2a: Palossand|286/286
+|
+|upkeep
+|turn|22
+|
+|t:|1662192612
+|move|p1a: Zapdos|Heat Wave|p2a: Palossand
+|-damage|p2a: Palossand|164/286
+|move|p2a: Palossand|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|
+|-heal|p2a: Palossand|181/286|[from] item: Leftovers
+|-damage|p1a: Zapdos|185/267 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1662192621
+|switch|p1a: Giratina|Giratina-Origin, L74|344/344
+|-damage|p1a: Giratina|301/344|[from] Stealth Rock
+|move|p2a: Palossand|Shore Up|p2a: Palossand
+|-heal|p2a: Palossand|286/286
+|
+|upkeep
+|turn|24
+|inactive|llxwd has 90 seconds left.
+|
+|t:|1662192632
+|move|p1a: Giratina|Poltergeist|p2a: Palossand
+|-activate|p2a: Palossand|move: Poltergeist|Leftovers
+|-supereffective|p2a: Palossand
+|-crit|p2a: Palossand
+|-damage|p2a: Palossand|0 fnt
+|faint|p2a: Palossand
+|
+|upkeep
+|j| Quagmander
+|j| TheChibiNeko
+|
+|t:|1662192652
+|switch|p2a: Glastrier|Glastrier, L82|244/298
+|turn|25
+|
+|t:|1662192664
+|move|p1a: Giratina|Outrage|p2a: Glastrier
+|-damage|p2a: Glastrier|144/298
+|move|p2a: Glastrier|Icicle Crash|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|37/344
+|
+|upkeep
+|turn|26
+|
+|t:|1662192677
+|switch|p2a: Chansey|Chansey, L84, F|419/557
+|move|p1a: Giratina|Outrage|p2a: Chansey|[from]lockedmove
+|-damage|p2a: Chansey|73/557
+|
+|upkeep
+|turn|27
+|
+|t:|1662192683
+|move|p1a: Giratina|Outrage|p2a: Chansey|[from]lockedmove
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|-start|p1a: Giratina|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1662192704
+|switch|p2a: Alakazam|Alakazam, L78, F|214/214
+|turn|28
+|
+|t:|1662192708
+|move|p2a: Alakazam|Psychic|p1a: Giratina
+|-damage|p1a: Giratina|0 fnt
+|faint|p1a: Giratina
+|
+|upkeep
+|
+|t:|1662192712
+|switch|p1a: Salamence|Salamence, L76, F|269/269
+|turn|29
+|
+|t:|1662192715
+|move|p2a: Alakazam|Psychic|p1a: Salamence
+|-damage|p1a: Salamence|104/269
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|upkeep
+|turn|30
+|
+|t:|1662192727
+|move|p1a: Salamence|Outrage|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|upkeep
+|
+|t:|1662192731
+|switch|p2a: Entei|Entei, L78|202/307
+|turn|31
+|
+|t:|1662192734
+|move|p2a: Entei|Extreme Speed|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|upkeep
+|
+|t:|1662192737
+|switch|p1a: Zapdos|Zapdos, L78|185/267 tox
+|-damage|p1a: Zapdos|119/267 tox|[from] Stealth Rock
+|turn|32
+|
+|t:|1662192743
+|move|p2a: Entei|Extreme Speed|p1a: Zapdos
+|-damage|p1a: Zapdos|28/267 tox
+|move|p1a: Zapdos|Hurricane|p2a: Entei
+|-damage|p2a: Entei|0 fnt
+|faint|p2a: Entei
+|
+|-damage|p1a: Zapdos|12/267 tox|[from] psn
+|upkeep
+|
+|t:|1662192749
+|switch|p2a: Glastrier|Glastrier, L82|144/298
+|turn|33
+|
+|t:|1662192752
+|move|p1a: Zapdos|Hurricane|p2a: Glastrier
+|-crit|p2a: Glastrier
+|-damage|p2a: Glastrier|0 fnt
+|faint|p2a: Glastrier
+|
+|win|llxwd
+|raw|llxwd's rating: 2448 &rarr; <strong>2469</strong><br />(+21 for winning)
+|raw|Separation's rating: 2462 &rarr; <strong>2441</strong><br />(-21 for losing)
+|c| Mkn|Gg!
+|c| Wampert|24(69). Noice
+|l| Wampert
+|l| Quagmander
+|l| TheChibiNeko

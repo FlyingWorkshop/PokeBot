@@ -1,0 +1,449 @@
+|j|☆ezws
+|j|☆ChillShadow
+|t:|1616194434
+|player|p1|ezws|youngster-gen4|2435
+|player|p2|ChillShadow|265|2405
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1616194434
+|start
+|switch|p1a: Audino|Audino, L88, M|325/325
+|switch|p2a: Kyogre|Kyogre, L72|263/263
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|j| KingoftheYear
+|
+|t:|1616194457
+|switch|p2a: Stakataka|Stakataka, L80|229/229
+|move|p1a: Audino|Knock Off|p2a: Stakataka
+|-damage|p2a: Stakataka|199/229
+|-enditem|p2a: Stakataka|Choice Band|[from] move: Knock Off|[of] p1a: Audino
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ChillShadow)
+|
+|t:|1616194498
+|switch|p1a: Kyogre|Kyogre, L72|263/263
+|move|p2a: Stakataka|Body Press|p1a: Kyogre
+|-damage|p1a: Kyogre|144/263
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyogre|160/263|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1616194511
+|switch|p2a: Calyrex|Calyrex, L90|326/326
+|-ability|p2a: Calyrex|Unnerve|p1: ezws
+|move|p1a: Kyogre|Thunder|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|284/326
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Calyrex|304/326|[from] item: Leftovers
+|-heal|p1a: Kyogre|176/263|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1616194532
+|switch|p1a: Decidueye|Decidueye, L86, F|274/274
+|move|p2a: Calyrex|Substitute|p2a: Calyrex
+|-start|p2a: Calyrex|Substitute
+|-damage|p2a: Calyrex|223/326
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Calyrex|243/326|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1616194538
+|move|p2a: Calyrex|Psyshock|p1a: Decidueye
+|-damage|p1a: Decidueye|177/274
+|move|p1a: Decidueye|Swords Dance|p1a: Decidueye
+|-boost|p1a: Decidueye|atk|2
+|
+|-weather|none
+|-heal|p2a: Calyrex|263/326|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1616194543
+|move|p2a: Calyrex|Psyshock|p1a: Decidueye
+|-damage|p1a: Decidueye|86/274
+|move|p1a: Decidueye|Roost|p1a: Decidueye
+|-heal|p1a: Decidueye|223/274
+|-singleturn|p1a: Decidueye|move: Roost
+|
+|-heal|p2a: Calyrex|283/326|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1616194548
+|switch|p2a: Yveltal|Yveltal, L72|300/300
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Decidueye|Leaf Blade|p2a: Yveltal
+|-resisted|p2a: Yveltal
+|-damage|p2a: Yveltal|182/300
+|
+|upkeep
+|turn|8
+|
+|t:|1616194555
+|switch|p1a: Coalossal|Coalossal, L86, M|329/329
+|move|p2a: Yveltal|Knock Off|p1a: Coalossal
+|-damage|p1a: Coalossal|235/329
+|-enditem|p1a: Coalossal|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Yveltal
+|
+|upkeep
+|turn|9
+|
+|t:|1616194566
+|switch|p2a: Kyogre|Kyogre, L72|263/263
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|move|p1a: Coalossal|Stealth Rock|p2a: Kyogre
+|-sidestart|p2: ChillShadow|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|l| KingoftheYear
+|
+|t:|1616194596
+|switch|p1a: Latios|Latios, L78, M|253/253
+|move|p2a: Kyogre|Calm Mind|p2a: Kyogre
+|-boost|p2a: Kyogre|spa|1
+|-boost|p2a: Kyogre|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1616194599
+|move|p1a: Latios|Calm Mind|p1a: Latios
+|-boost|p1a: Latios|spa|1
+|-boost|p1a: Latios|spd|1
+|move|p2a: Kyogre|Ice Beam|p1a: Latios
+|-supereffective|p1a: Latios
+|-crit|p1a: Latios
+|-damage|p1a: Latios|5/253
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1616194604
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|132/253
+|-singleturn|p1a: Latios|move: Roost
+|move|p2a: Kyogre|Ice Beam|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|10/253
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|c|☆ezws|sigh lol
+|
+|t:|1616194616
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|137/253
+|-singleturn|p1a: Latios|move: Roost
+|move|p2a: Kyogre|Ice Beam|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|21/253
+|
+|-weather|none
+|upkeep
+|turn|14
+|
+|t:|1616194636
+|move|p1a: Latios|Psyshock|p2a: Kyogre
+|-damage|p2a: Kyogre|73/263
+|move|p2a: Kyogre|Ice Beam|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-heal|p2a: Kyogre|89/263|[from] item: Leftovers
+|upkeep
+|inactive|ezws has 120 seconds left.
+|
+|t:|1616194654
+|switch|p1a: Audino|Audino, L88, M|325/325
+|turn|15
+|
+|t:|1616194659
+|move|p2a: Kyogre|Origin Pulse|p1a: Audino
+|-damage|p1a: Audino|145/325
+|move|p1a: Audino|Knock Off|p2a: Kyogre
+|-damage|p2a: Kyogre|22/263
+|-enditem|p2a: Kyogre|Leftovers|[from] move: Knock Off|[of] p1a: Audino
+|
+|-heal|p1a: Audino|165/325|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1616194664
+|move|p1a: Audino|Protect|p1a: Audino
+|-singleturn|p1a: Audino|Protect
+|move|p2a: Kyogre|Calm Mind|p2a: Kyogre
+|-boost|p2a: Kyogre|spa|1
+|-boost|p2a: Kyogre|spd|1
+|
+|-heal|p1a: Audino|185/325|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1616194669
+|move|p2a: Kyogre|Origin Pulse|p1a: Audino
+|-damage|p1a: Audino|0 fnt
+|faint|p1a: Audino
+|
+|upkeep
+|
+|t:|1616194674
+|switch|p1a: Kyogre|Kyogre, L72|176/263
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|18
+|
+|t:|1616194677
+|move|p1a: Kyogre|Thunder|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyogre|192/263|[from] item: Leftovers
+|upkeep
+|
+|t:|1616194681
+|switch|p2a: Calyrex|Calyrex, L90|283/326
+|-ability|p2a: Calyrex|Unnerve|p1: ezws
+|-damage|p2a: Calyrex|243/326|[from] Stealth Rock
+|turn|19
+|
+|t:|1616194691
+|switch|p1a: Armaldo|Armaldo, L86, F|269/269
+|move|p2a: Calyrex|Giga Drain|p1a: Armaldo
+|-damage|p1a: Armaldo|178/269
+|-heal|p2a: Calyrex|289/326|[from] drain|[of] p1a: Armaldo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Calyrex|309/326|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1616194704
+|move|p1a: Armaldo|Knock Off|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|119/326
+|-enditem|p2a: Calyrex|Leftovers|[from] move: Knock Off|[of] p1a: Armaldo
+|move|p2a: Calyrex|Substitute|p2a: Calyrex
+|-start|p2a: Calyrex|Substitute
+|-damage|p2a: Calyrex|38/326
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1616194709
+|move|p1a: Armaldo|Knock Off|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-end|p2a: Calyrex|Substitute
+|move|p2a: Calyrex|Giga Drain|p1a: Armaldo
+|-damage|p1a: Armaldo|93/269
+|-heal|p2a: Calyrex|81/326|[from] drain|[of] p1a: Armaldo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1616194715
+|switch|p2a: Stakataka|Stakataka, L80|199/229
+|-damage|p2a: Stakataka|185/229|[from] Stealth Rock
+|move|p1a: Armaldo|Knock Off|p2a: Stakataka
+|-damage|p2a: Stakataka|155/229
+|
+|-weather|none
+|upkeep
+|turn|23
+|
+|t:|1616194741
+|switch|p2a: Calyrex|Calyrex, L90|81/326
+|-ability|p2a: Calyrex|Unnerve|p1: ezws
+|-damage|p2a: Calyrex|41/326|[from] Stealth Rock
+|move|p1a: Armaldo|Knock Off|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|upkeep
+|
+|t:|1616194758
+|switch|p2a: Stakataka|Stakataka, L80|155/229
+|-damage|p2a: Stakataka|141/229|[from] Stealth Rock
+|turn|24
+|
+|t:|1616194763
+|move|p1a: Armaldo|Knock Off|p2a: Stakataka
+|-damage|p2a: Stakataka|109/229
+|move|p2a: Stakataka|Stone Edge|p1a: Armaldo
+|-supereffective|p1a: Armaldo
+|-damage|p1a: Armaldo|0 fnt
+|faint|p1a: Armaldo
+|-ability|p2a: Stakataka|Beast Boost|boost
+|-boost|p2a: Stakataka|def|1
+|
+|upkeep
+|
+|t:|1616194770
+|switch|p1a: Kyogre|Kyogre, L72|192/263
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|25
+|
+|t:|1616194776
+|move|p1a: Kyogre|Origin Pulse|p2a: Stakataka
+|-supereffective|p2a: Stakataka
+|-damage|p2a: Stakataka|0 fnt
+|faint|p2a: Stakataka
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyogre|208/263|[from] item: Leftovers
+|upkeep
+|
+|t:|1616194783
+|switch|p2a: Dhelmise|Dhelmise, L86|261/261
+|-damage|p2a: Dhelmise|229/261|[from] Stealth Rock
+|turn|26
+|
+|t:|1616194807
+|switch|p1a: Coalossal|Coalossal, L86, M|235/329
+|-start|p2a: Dhelmise|Dynamax
+|-heal|p2a: Dhelmise|458/522|[silent]
+|move|p2a: Dhelmise|Max Overgrowth|p1a: Coalossal
+|-damage|p1a: Coalossal|93/329
+|-fieldstart|move: Grassy Terrain
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dhelmise|474/522|[from] Grassy Terrain
+|-heal|p1a: Coalossal|113/329|[from] Grassy Terrain
+|upkeep
+|turn|27
+|inactive|ezws has 120 seconds left.
+|
+|t:|1616194828
+|move|p2a: Dhelmise|Max Quake|p1a: Coalossal
+|-supereffective|p1a: Coalossal
+|-crit|p1a: Coalossal
+|-damage|p1a: Coalossal|0 fnt
+|-boost|p2a: Dhelmise|spd|1
+|faint|p1a: Coalossal
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dhelmise|490/522|[from] Grassy Terrain
+|upkeep
+|inactive|ezws has 120 seconds left.
+|
+|t:|1616194834
+|switch|p1a: Decidueye|Decidueye, L86, F|223/274
+|turn|28
+|
+|t:|1616194838
+|-start|p1a: Decidueye|Dynamax
+|-heal|p1a: Decidueye|446/548|[silent]
+|move|p1a: Decidueye|Max Guard|p1a: Decidueye
+|-singleturn|p1a: Decidueye|Max Guard
+|move|p2a: Dhelmise|Max Phantasm|p1a: Decidueye
+|-activate|p1a: Decidueye|move: Max Guard
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Decidueye|463/548|[from] Grassy Terrain
+|-heal|p2a: Dhelmise|506/522|[from] Grassy Terrain
+|-end|p2a: Dhelmise|Dynamax
+|-heal|p2a: Dhelmise|253/261|[silent]
+|upkeep
+|turn|29
+|
+|t:|1616194850
+|move|p1a: Decidueye|Max Phantasm|p2a: Dhelmise
+|-supereffective|p2a: Dhelmise
+|-damage|p2a: Dhelmise|0 fnt
+|faint|p2a: Dhelmise
+|
+|-weather|none
+|-heal|p1a: Decidueye|480/548|[from] Grassy Terrain
+|upkeep
+|
+|t:|1616194854
+|switch|p2a: Yveltal|Yveltal, L72|182/300
+|-ability|p2a: Yveltal|Dark Aura
+|turn|30
+|
+|t:|1616194862
+|move|p2a: Yveltal|Oblivion Wing|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|346/548
+|-heal|p2a: Yveltal|283/300|[from] drain|[of] p1a: Decidueye
+|move|p1a: Decidueye|Max Overgrowth|p2a: Yveltal
+|-resisted|p2a: Yveltal
+|-damage|p2a: Yveltal|179/300
+|
+|-heal|p1a: Decidueye|363/548|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-end|p1a: Decidueye|Dynamax
+|-heal|p1a: Decidueye|182/274|[silent]
+|upkeep
+|turn|31
+|
+|t:|1616194873
+|move|p2a: Yveltal|Knock Off|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|0 fnt
+|-enditem|p1a: Decidueye|Lum Berry|[from] move: Knock Off|[of] p2a: Yveltal
+|faint|p1a: Decidueye
+|
+|upkeep
+|
+|t:|1616194875
+|switch|p1a: Kyogre|Kyogre, L72|208/263
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|32
+|
+|t:|1616194898
+|move|p2a: Yveltal|Knock Off|p1a: Kyogre
+|-damage|p1a: Kyogre|52/263
+|-enditem|p1a: Kyogre|Leftovers|[from] move: Knock Off|[of] p2a: Yveltal
+|move|p1a: Kyogre|Origin Pulse|p2a: Yveltal
+|-damage|p2a: Yveltal|0 fnt
+|faint|p2a: Yveltal
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1616194901
+|switch|p2a: Arctozolt|Arctozolt, L86|295/295
+|-damage|p2a: Arctozolt|222/295|[from] Stealth Rock
+|turn|33
+|
+|t:|1616194907
+|move|p1a: Kyogre|Origin Pulse|p2a: Arctozolt
+|-damage|p2a: Arctozolt|89/295
+|move|p2a: Arctozolt|Bolt Beak|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|
+|win|ChillShadow
+|raw|ezws's rating: 2434 &rarr; <strong>2412</strong><br />(-22 for losing)
+|raw|ChillShadow's rating: 2405 &rarr; <strong>2427</strong><br />(+22 for winning)
+|l|☆ezws

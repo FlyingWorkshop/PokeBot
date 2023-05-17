@@ -1,0 +1,447 @@
+|j|‽ToxicYourMom
+|j|☆BoRida
+|t:|1658348882
+|gametype|singles
+|player|p1|ToxicYourMom|169|2502
+|player|p2|BoRida|#teamgapdos|2499
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1658348882
+|start
+|switch|p1a: Lapras|Lapras, L86, F|363/363
+|switch|p2a: Alakazam|Alakazam, L78, F|214/214
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BoRida)
+|
+|t:|1658348896
+|move|p2a: Alakazam|Nasty Plot|p2a: Alakazam
+|-boost|p2a: Alakazam|spa|2
+|move|p1a: Lapras|Sparkling Aria|p2a: Alakazam
+|-damage|p2a: Alakazam|118/214
+|
+|upkeep
+|turn|2
+|
+|t:|1658348904
+|switch|p1a: Mimikyu|Mimikyu, L76, F|209/209
+|move|p2a: Alakazam|Focus Blast|p1a: Mimikyu
+|-immune|p1a: Mimikyu
+|
+|upkeep
+|turn|3
+|
+|t:|1658348913
+|switch|p2a: Groudon|Groudon, L73|266/266
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Groudon
+|-damage|p2a: Groudon|231/266
+|-damage|p1a: Mimikyu|189/209|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|247/266|[from] item: Leftovers
+|upkeep
+|turn|4
+|j| KingZuko
+|
+|t:|1658348933
+|switch|p1a: Lapras|Lapras, L86, F|363/363
+|move|p2a: Groudon|Thunder Wave|p1a: Lapras|[miss]
+|-miss|p2a: Groudon|p1a: Lapras
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|263/266|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1658348940
+|switch|p2a: Umbreon|Umbreon, L82, F|290/290
+|move|p1a: Lapras|Toxic|p2a: Umbreon
+|-status|p2a: Umbreon|tox
+|-activate|p2a: Umbreon|ability: Synchronize
+|-status|p1a: Lapras|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Umbreon|272/290 tox|[from] psn
+|-damage|p1a: Lapras|341/363 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1658348951
+|switch|p2a: Venusaur|Venusaur, L82, F|265/265
+|switch|p1a: Stunfisk|Stunfisk-Galar, L84, M|320/320
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1658348961
+|switch|p2a: Groudon|Groudon, L73|263/266
+|move|p1a: Stunfisk|Stealth Rock|p2a: Groudon
+|-sidestart|p2: BoRida|move: Stealth Rock
+|
+|-weather|none
+|-heal|p2a: Groudon|266/266|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1658348985
+|switch|p1a: Celesteela|Celesteela, L77|276/276
+|move|p2a: Groudon|Precipice Blades|p1a: Celesteela
+|-immune|p1a: Celesteela
+|
+|upkeep
+|turn|9
+|
+|t:|1658348993
+|switch|p1a: Lapras|Lapras, L86, F|341/363 tox
+|move|p2a: Groudon|Thunder Wave||[still]
+|-fail|p2a: Groudon
+|
+|-heal|p1a: Lapras|363/363 tox|[from] item: Leftovers
+|-damage|p1a: Lapras|341/363 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1658348999
+|switch|p2a: Umbreon|Umbreon, L82, F|272/290 tox
+|-damage|p2a: Umbreon|236/290 tox|[from] Stealth Rock
+|move|p1a: Lapras|Freeze-Dry|p2a: Umbreon
+|-damage|p2a: Umbreon|182/290 tox
+|
+|-heal|p2a: Umbreon|200/290 tox|[from] item: Leftovers
+|-heal|p1a: Lapras|363/363 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|182/290 tox|[from] psn
+|-damage|p1a: Lapras|319/363 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1658349003
+|switch|p1a: Obstagoon|Obstagoon, L80, M|280/280
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|200/290 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|164/290 tox|[from] psn
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|12
+|
+|t:|1658349023
+|switch|p2a: Groudon|Groudon, L73|266/266
+|-damage|p2a: Groudon|250/266|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p1a: Obstagoon|Knock Off|p2a: Groudon
+|-damage|p2a: Groudon|139/266
+|-enditem|p2a: Groudon|Leftovers|[from] move: Knock Off|[of] p1a: Obstagoon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|266/266|[from] move: Wish|[wisher] Umbreon
+|-damage|p1a: Obstagoon|263/280 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1658349043
+|move|p1a: Obstagoon|Facade|p2a: Groudon
+|-damage|p2a: Groudon|118/266
+|move|p2a: Groudon|Precipice Blades|p1a: Obstagoon
+|-damage|p1a: Obstagoon|125/280 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Obstagoon|108/280 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1658349052
+|switch|p2a: Dusknoir|Dusknoir, L86, F|218/218
+|-damage|p2a: Dusknoir|191/218|[from] Stealth Rock
+|-ability|p2a: Dusknoir|Pressure
+|move|p1a: Obstagoon|Facade|p2a: Dusknoir
+|-immune|p2a: Dusknoir
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dusknoir|204/218|[from] item: Leftovers
+|-damage|p1a: Obstagoon|91/280 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1658349060
+|switch|p2a: Umbreon|Umbreon, L82, F|164/290 tox
+|-damage|p2a: Umbreon|128/290 tox|[from] Stealth Rock
+|move|p1a: Obstagoon|Knock Off|p2a: Umbreon
+|-resisted|p2a: Umbreon
+|-damage|p2a: Umbreon|69/290 tox
+|-enditem|p2a: Umbreon|Leftovers|[from] move: Knock Off|[of] p1a: Obstagoon
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Umbreon|51/290 tox|[from] psn
+|-damage|p1a: Obstagoon|74/280 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1658349071
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Obstagoon|Facade|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-weather|none
+|-damage|p2a: Umbreon|15/290 tox|[from] psn
+|-damage|p1a: Obstagoon|57/280 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1658349078
+|move|p1a: Obstagoon|Knock Off|p2a: Umbreon
+|-resisted|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|faint|p2a: Umbreon
+|
+|-damage|p1a: Obstagoon|40/280 brn|[from] brn
+|upkeep
+|
+|t:|1658349082
+|switch|p2a: Alakazam|Alakazam, L78, F|118/214
+|turn|18
+|
+|t:|1658349105
+|switch|p1a: Mimikyu|Mimikyu, L76, F|189/209
+|move|p2a: Alakazam|Shadow Ball|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|189/209
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, L76, F
+|-damage|p1a: Mimikyu|163/209|[from] pokemon: Mimikyu-Busted
+|
+|upkeep
+|turn|19
+|
+|t:|1658349119
+|switch|p2a: Venusaur|Venusaur, L82, F|265/265
+|-damage|p2a: Venusaur|232/265|[from] Stealth Rock
+|switch|p1a: Celesteela|Celesteela, L77|276/276
+|
+|-heal|p2a: Venusaur|248/265|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|t:|1658349125
+|switch|p1a: Stunfisk|Stunfisk-Galar, L84, M|320/320
+|move|p2a: Venusaur|Leech Seed|p1a: Stunfisk
+|-start|p1a: Stunfisk|move: Leech Seed
+|
+|-heal|p2a: Venusaur|264/265|[from] item: Black Sludge
+|-damage|p1a: Stunfisk|280/320|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|265/265|[silent]
+|upkeep
+|turn|21
+|
+|t:|1658349133
+|switch|p1a: Kommo-o|Kommo-o, L80, M|251/251
+|move|p2a: Venusaur|Substitute|p2a: Venusaur
+|-start|p2a: Venusaur|Substitute
+|-damage|p2a: Venusaur|199/265
+|
+|-heal|p2a: Venusaur|215/265|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|t:|1658349139
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|169/251
+|-enditem|p1a: Kommo-o|Throat Spray
+|-boost|p1a: Kommo-o|spa|1|[from] item: Throat Spray
+|move|p2a: Venusaur|Leech Seed|p1a: Kommo-o
+|-start|p1a: Kommo-o|move: Leech Seed
+|
+|-heal|p2a: Venusaur|231/265|[from] item: Black Sludge
+|-damage|p1a: Kommo-o|138/251|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|262/265|[silent]
+|upkeep
+|turn|23
+|
+|t:|1658349164
+|switch|p2a: Groudon|Groudon, L73|118/266
+|-damage|p2a: Groudon|102/266|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p1a: Kommo-o|Clanging Scales|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|-unboost|p1a: Kommo-o|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1658349167
+|switch|p2a: Toxtricity|Toxtricity, L82, F|257/257
+|-damage|p2a: Toxtricity|225/257|[from] Stealth Rock
+|turn|24
+|j| dorapult
+|
+|t:|1658349174
+|-start|p1a: Kommo-o|Dynamax|
+|-heal|p1a: Kommo-o|276/502|[silent]
+|move|p1a: Kommo-o|Max Wyrmwind|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1658349183
+|switch|p2a: Dusknoir|Dusknoir, L86, F|204/218
+|-damage|p2a: Dusknoir|177/218|[from] Stealth Rock
+|-ability|p2a: Dusknoir|Pressure
+|turn|25
+|
+|t:|1658349186
+|-start|p2a: Dusknoir|Dynamax|
+|-heal|p2a: Dusknoir|354/436|[silent]
+|move|p2a: Dusknoir|Max Guard|p2a: Dusknoir
+|-singleturn|p2a: Dusknoir|Max Guard
+|move|p1a: Kommo-o|Max Wyrmwind|p2a: Dusknoir
+|-activate|p2a: Dusknoir|move: Max Guard
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dusknoir|367/436|[from] item: Leftovers
+|-damage|p1a: Kommo-o|245/502|[from] Leech Seed|[of] p2a: Dusknoir
+|-heal|p2a: Dusknoir|398/436|[silent]
+|upkeep
+|turn|26
+|
+|t:|1658349191
+|move|p1a: Kommo-o|Max Wyrmwind|p2a: Dusknoir
+|-damage|p2a: Dusknoir|194/436
+|-unboost|p2a: Dusknoir|atk|1
+|move|p2a: Dusknoir|Max Hailstorm|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|145/502
+|-weather|Hail
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Kommo-o|130/502|[from] Hail
+|-damage|p2a: Dusknoir|181/436|[from] Hail
+|-heal|p2a: Dusknoir|194/436|[from] item: Leftovers
+|-damage|p1a: Kommo-o|99/502|[from] Leech Seed|[of] p2a: Dusknoir
+|-heal|p2a: Dusknoir|225/436|[silent]
+|upkeep
+|-end|p1a: Kommo-o|Dynamax
+|-heal|p1a: Kommo-o|50/251|[silent]
+|turn|27
+|inactive|ToxicYourMom has 120 seconds left.
+|
+|t:|1658349221
+|move|p1a: Kommo-o|Clanging Scales|p2a: Dusknoir
+|-damage|p2a: Dusknoir|74/436
+|-unboost|p1a: Kommo-o|def|1
+|move|p2a: Dusknoir|Max Hailstorm|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dusknoir|61/436|[from] Hail
+|-heal|p2a: Dusknoir|74/436|[from] item: Leftovers
+|upkeep
+|inactive|ToxicYourMom has 120 seconds left.
+|
+|t:|1658349234
+|switch|p1a: Celesteela|Celesteela, L77|276/276
+|-end|p2a: Dusknoir|Dynamax
+|-heal|p2a: Dusknoir|37/218|[silent]
+|turn|28
+|
+|t:|1658349245
+|switch|p2a: Venusaur|Venusaur, L82, F|262/265
+|-damage|p2a: Venusaur|229/265|[from] Stealth Rock
+|move|p1a: Celesteela|Flash Cannon|p2a: Venusaur
+|-damage|p2a: Venusaur|160/265
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Venusaur|144/265|[from] Hail
+|-damage|p1a: Celesteela|259/276|[from] Hail
+|-heal|p2a: Venusaur|160/265|[from] item: Black Sludge
+|-heal|p1a: Celesteela|276/276|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1658349249
+|move|p2a: Venusaur|Leech Seed|p1a: Celesteela
+|-start|p1a: Celesteela|move: Leech Seed
+|move|p1a: Celesteela|Air Slash|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|26/265
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Venusaur|10/265|[from] Hail
+|-damage|p1a: Celesteela|259/276|[from] Hail
+|-heal|p2a: Venusaur|26/265|[from] item: Black Sludge
+|-heal|p1a: Celesteela|276/276|[from] item: Leftovers
+|-damage|p1a: Celesteela|242/276|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|60/265|[silent]
+|upkeep
+|turn|30
+|
+|t:|1658349261
+|move|p2a: Venusaur|Giga Drain|p1a: Celesteela
+|-resisted|p1a: Celesteela
+|-damage|p1a: Celesteela|213/276
+|-heal|p2a: Venusaur|75/265|[from] drain|[of] p1a: Celesteela
+|move|p1a: Celesteela|Flash Cannon|p2a: Venusaur
+|-damage|p2a: Venusaur|3/265
+|
+|-weather|none
+|-heal|p2a: Venusaur|19/265|[from] item: Black Sludge
+|-heal|p1a: Celesteela|230/276|[from] item: Leftovers
+|-damage|p1a: Celesteela|196/276|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|53/265|[silent]
+|upkeep
+|turn|31
+|j| Nadim-yt
+|
+|t:|1658349278
+|move|p2a: Venusaur|Giga Drain|p1a: Celesteela
+|-resisted|p1a: Celesteela
+|-damage|p1a: Celesteela|169/276
+|-heal|p2a: Venusaur|67/265|[from] drain|[of] p1a: Celesteela
+|move|p1a: Celesteela|Air Slash|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|-ability|p1a: Celesteela|Beast Boost|boost
+|-boost|p1a: Celesteela|spa|1
+|
+|-heal|p1a: Celesteela|186/276|[from] item: Leftovers
+|upkeep
+|
+|t:|1658349280
+|switch|p2a: Alakazam|Alakazam, L78, F|118/214
+|turn|32
+|
+|t:|1658349284
+|move|p2a: Alakazam|Nasty Plot|p2a: Alakazam
+|-boost|p2a: Alakazam|spa|2
+|move|p1a: Celesteela|Flash Cannon|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|-ability|p1a: Celesteela|Beast Boost|boost
+|-boost|p1a: Celesteela|spa|1
+|
+|-heal|p1a: Celesteela|203/276|[from] item: Leftovers
+|upkeep
+|c|☆BoRida|gg
+|-message|BoRida forfeited.
+|
+|win|ToxicYourMom
+|raw|ToxicYourMom's rating: 2502 &rarr; <strong>2522</strong><br />(+20 for winning)
+|raw|BoRida's rating: 2499 &rarr; <strong>2479</strong><br />(-20 for losing)
+|l|☆BoRida

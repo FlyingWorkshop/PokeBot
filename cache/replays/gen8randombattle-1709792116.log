@@ -1,0 +1,184 @@
+|j|☆Teres BAHJi
+|j|☆OnArceus
+|t:|1668350381
+|gametype|singles
+|player|p1|Teres BAHJi|266|2442
+|player|p2|OnArceus|#scl2spartans|2378
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1668350381
+|start
+|switch|p1a: Zeraora|Zeraora, L76|259/259
+|switch|p2a: Heliolisk|Heliolisk, L82, F|236/236
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by OnArceus)
+|
+|t:|1668350396
+|switch|p1a: Hitmonlee|Hitmonlee, L84, M|221/221
+|switch|p2a: Rhyperior|Rhyperior, L82, M|323/323
+|
+|upkeep
+|turn|2
+|
+|t:|1668350402
+|switch|p2a: Tapu Fini|Tapu Fini, L78|237/237
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|147/237
+|
+|-heal|p2a: Tapu Fini|161/237|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1668350419
+|switch|p1a: Klefki|Klefki, L82, F|228/228
+|move|p2a: Tapu Fini|Moonblast|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|180/228
+|
+|-heal|p2a: Tapu Fini|175/237|[from] item: Leftovers
+|-heal|p1a: Klefki|194/228|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1668350424
+|move|p1a: Klefki|Spikes|p2a: Tapu Fini
+|-sidestart|p2: OnArceus|Spikes
+|move|p2a: Tapu Fini|Taunt|p1a: Klefki
+|-start|p1a: Klefki|move: Taunt
+|
+|-heal|p2a: Tapu Fini|189/237|[from] item: Leftovers
+|-heal|p1a: Klefki|208/228|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1668350435
+|move|p2a: Tapu Fini|Defog|p1a: Klefki
+|-unboost|p1a: Klefki|evasion|1
+|-sideend|p2: OnArceus|Spikes|[from] move: Defog|[of] p2a: Tapu Fini
+|-fieldend|Misty Terrain
+|move|p1a: Klefki|Play Rough|p2a: Tapu Fini|[miss]
+|-miss|p1a: Klefki|p2a: Tapu Fini
+|
+|-heal|p2a: Tapu Fini|203/237|[from] item: Leftovers
+|-heal|p1a: Klefki|222/228|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1668350447
+|move|p2a: Tapu Fini|Surf|p1a: Klefki
+|-damage|p1a: Klefki|134/228
+|move|p1a: Klefki|Play Rough|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|130/237
+|
+|-heal|p2a: Tapu Fini|144/237|[from] item: Leftovers
+|-heal|p1a: Klefki|148/228|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1668350452
+|move|p2a: Tapu Fini|Surf|p1a: Klefki
+|-damage|p1a: Klefki|66/228
+|move|p1a: Klefki|Play Rough|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|77/237
+|
+|-heal|p2a: Tapu Fini|91/237|[from] item: Leftovers
+|-heal|p1a: Klefki|80/228|[from] item: Leftovers
+|-end|p1a: Klefki|move: Taunt
+|upkeep
+|turn|8
+|
+|t:|1668350461
+|move|p1a: Klefki|Spikes|p2a: Tapu Fini
+|-sidestart|p2: OnArceus|Spikes
+|move|p2a: Tapu Fini|Taunt|p1a: Klefki
+|-start|p1a: Klefki|move: Taunt
+|
+|-heal|p2a: Tapu Fini|105/237|[from] item: Leftovers
+|-heal|p1a: Klefki|94/228|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1668350464
+|move|p2a: Tapu Fini|Defog|p1a: Klefki
+|-unboost|p1a: Klefki|evasion|1
+|-sideend|p2: OnArceus|Spikes|[from] move: Defog|[of] p2a: Tapu Fini
+|move|p1a: Klefki|Play Rough|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|38/237
+|
+|-heal|p2a: Tapu Fini|52/237|[from] item: Leftovers
+|-heal|p1a: Klefki|108/228|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1668350469
+|move|p2a: Tapu Fini|Surf|p1a: Klefki
+|-damage|p1a: Klefki|20/228
+|move|p1a: Klefki|Play Rough|p2a: Tapu Fini
+|-crit|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|0 fnt
+|faint|p2a: Tapu Fini
+|
+|-heal|p1a: Klefki|34/228|[from] item: Leftovers
+|upkeep
+|
+|t:|1668350472
+|switch|p2a: Rhyperior|Rhyperior, L82, M|323/323
+|turn|11
+|
+|t:|1668350477
+|move|p1a: Klefki|Play Rough|p2a: Rhyperior
+|-damage|p2a: Rhyperior|269/323
+|move|p2a: Rhyperior|Rock Polish|p2a: Rhyperior
+|-boost|p2a: Rhyperior|spe|2
+|
+|-heal|p1a: Klefki|48/228|[from] item: Leftovers
+|-end|p1a: Klefki|move: Taunt
+|upkeep
+|turn|12
+|
+|t:|1668350481
+|move|p1a: Klefki|Spikes|p2a: Rhyperior
+|-sidestart|p2: OnArceus|Spikes
+|move|p2a: Rhyperior|Earthquake|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|
+|upkeep
+|
+|t:|1668350487
+|switch|p1a: Hitmonlee|Hitmonlee, L84, M|221/221
+|turn|13
+|
+|t:|1668350497
+|-start|p2a: Rhyperior|Dynamax|
+|-heal|p2a: Rhyperior|538/646|[silent]
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|325/646
+|-enditem|p2a: Rhyperior|Weakness Policy
+|-boost|p2a: Rhyperior|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Rhyperior|spa|2|[from] item: Weakness Policy
+|move|p2a: Rhyperior|Max Quake|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|-boost|p2a: Rhyperior|spd|1
+|faint|p1a: Hitmonlee
+|
+|upkeep
+|-message|Teres BAHJi forfeited.
+|
+|win|OnArceus
+|raw|Teres BAHJi's rating: 2442 &rarr; <strong>2418</strong><br />(-24 for losing)
+|raw|OnArceus's rating: 2378 &rarr; <strong>2402</strong><br />(+24 for winning)
+|l|☆Teres BAHJi
+|l|☆OnArceus
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

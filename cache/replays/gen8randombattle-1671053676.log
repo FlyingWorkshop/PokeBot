@@ -1,0 +1,285 @@
+|j|☆Vitoran
+|j|‽BMence
+|t:|1664224636
+|gametype|singles
+|player|p1|Vitoran|pokemonbreeder-gen4|2415
+|player|p2|BMence|266|2424
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1664224636
+|start
+|switch|p1a: Obstagoon|Obstagoon, L80, F|280/280
+|switch|p2a: Solrock|Solrock, L88|302/302
+|turn|1
+|c|☆Vitoran|glhf
+|
+|t:|1664224651
+|move|p1a: Obstagoon|Bulk Up|p1a: Obstagoon
+|-boost|p1a: Obstagoon|atk|1
+|-boost|p1a: Obstagoon|def|1
+|move|p2a: Solrock|Stealth Rock|p1a: Obstagoon
+|-sidestart|p1: Vitoran|move: Stealth Rock
+|
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Vitoran)
+|
+|t:|1664224659
+|switch|p2a: Klefki|Klefki, L82, F|228/228
+|move|p1a: Obstagoon|Knock Off|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|136/228
+|-enditem|p2a: Klefki|Leftovers|[from] move: Knock Off|[of] p1a: Obstagoon
+|
+|-damage|p1a: Obstagoon|263/280 brn|[from] brn
+|upkeep
+|turn|3
+|j| BajtheRedeemer
+|
+|t:|1664224677
+|move|p2a: Klefki|Spikes|p1a: Obstagoon
+|-sidestart|p1: Vitoran|Spikes
+|move|p1a: Obstagoon|Close Combat|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|-unboost|p1a: Obstagoon|def|1
+|-unboost|p1a: Obstagoon|spd|1
+|faint|p2a: Klefki
+|
+|-damage|p1a: Obstagoon|246/280 brn|[from] brn
+|upkeep
+|inactive|BMence has 120 seconds left.
+|inactive|BMence has 90 seconds left.
+|
+|t:|1664224739
+|switch|p2a: Blacephalon|Blacephalon, L80|216/216
+|turn|4
+|j| Garutanis
+|inactive|Vitoran has 120 seconds left.
+|
+|t:|1664224772
+|-start|p1a: Obstagoon|Dynamax|
+|-heal|p1a: Obstagoon|492/560 brn|[silent]
+|move|p2a: Blacephalon|Fire Blast|p1a: Obstagoon
+|-damage|p1a: Obstagoon|251/560 brn
+|move|p1a: Obstagoon|Max Darkness|p2a: Blacephalon
+|-supereffective|p2a: Blacephalon
+|-damage|p2a: Blacephalon|0 fnt
+|faint|p2a: Blacephalon
+|
+|-damage|p1a: Obstagoon|234/560 brn|[from] brn
+|upkeep
+|c|☆Vitoran|blacephaloh-no
+|inactive|BMence has 90 seconds left.
+|
+|t:|1664224792
+|switch|p2a: Aromatisse|Aromatisse, L88, M|321/321
+|turn|5
+|
+|t:|1664224797
+|move|p1a: Obstagoon|Max Strike|p2a: Aromatisse
+|-damage|p2a: Aromatisse|39/321
+|-unboost|p2a: Aromatisse|spe|1
+|move|p2a: Aromatisse|Moonblast|p1a: Obstagoon
+|-supereffective|p1a: Obstagoon
+|-damage|p1a: Obstagoon|0 fnt
+|faint|p1a: Obstagoon
+|
+|-heal|p2a: Aromatisse|59/321|[from] item: Leftovers
+|upkeep
+|c| Garutanis|2415 rating match !
+|
+|t:|1664224806
+|switch|p1a: Tsareena|Tsareena, L84, F|258/258
+|-damage|p1a: Tsareena|226/258|[from] Stealth Rock
+|-damage|p1a: Tsareena|194/258|[from] Spikes
+|turn|6
+|
+|t:|1664224813
+|move|p1a: Tsareena|Rapid Spin|p2a: Aromatisse
+|-crit|p2a: Aromatisse
+|-damage|p2a: Aromatisse|0 fnt
+|-boost|p1a: Tsareena|spe|1
+|-sideend|p1: Vitoran|Spikes|[from] move: Rapid Spin|[of] p1a: Tsareena
+|-sideend|p1: Vitoran|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tsareena
+|faint|p2a: Aromatisse
+|
+|upkeep
+|c|☆Vitoran|yeah 3d vs 4th
+|c|☆Vitoran|3rd*
+|inactive|BMence has 90 seconds left.
+|j| Nadim-yt
+|
+|t:|1664224844
+|switch|p2a: Kyurem|Kyurem, L80|331/331
+|-ability|p2a: Kyurem|Pressure
+|turn|7
+|j| 35Q71N
+|
+|t:|1664224863
+|-start|p2a: Kyurem|Dynamax|
+|-heal|p2a: Kyurem|662/662|[silent]
+|move|p1a: Tsareena|High Jump Kick|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|434/662
+|move|p2a: Kyurem|Max Hailstorm|p1a: Tsareena
+|-supereffective|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|-weather|Hail
+|faint|p1a: Tsareena
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|c| 35Q71N|😶‍🌫️
+|inactive|Vitoran has 120 seconds left.
+|inactive|Vitoran has 90 seconds left.
+|j| simTheta
+|
+|t:|1664224938
+|switch|p1a: Stunfisk|Stunfisk, L84, F|320/320
+|turn|8
+|inactive|BMence has 90 seconds left.
+|
+|t:|1664224972
+|move|p2a: Kyurem|Max Hailstorm|p1a: Stunfisk
+|-supereffective|p1a: Stunfisk
+|-damage|p1a: Stunfisk|138/320
+|move|p1a: Stunfisk|Discharge|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|394/662
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Stunfisk|118/320|[from] Hail
+|upkeep
+|turn|9
+|
+|t:|1664224990
+|move|p2a: Kyurem|Max Quake|p1a: Stunfisk
+|-supereffective|p1a: Stunfisk
+|-damage|p1a: Stunfisk|0 fnt
+|-boost|p2a: Kyurem|spd|1
+|faint|p1a: Stunfisk
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|l| Nadim-yt
+|j| Nadim-yt
+|
+|t:|1664225000
+|switch|p1a: Hitmonlee|Hitmonlee, L84, M|221/221
+|-end|p2a: Kyurem|Dynamax
+|-heal|p2a: Kyurem|197/331|[silent]
+|turn|10
+|
+|t:|1664225013
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|115/331
+|move|p1a: Hitmonlee|Curse|p1a: Hitmonlee
+|-unboost|p1a: Hitmonlee|spe|1
+|-boost|p1a: Hitmonlee|atk|1
+|-boost|p1a: Hitmonlee|def|1
+|-enditem|p1a: Hitmonlee|White Herb
+|-clearnegativeboost|p1a: Hitmonlee|[silent]
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Hitmonlee|208/221|[from] Hail
+|upkeep
+|turn|11
+|j| katsuge5
+|
+|t:|1664225030
+|move|p1a: Hitmonlee|Knock Off|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Ice Beam|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|112/221
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1664225050
+|switch|p2a: Basculin|Basculin, L86, M|261/261
+|move|p1a: Hitmonlee|Knock Off|p2a: Basculin
+|-damage|p2a: Basculin|113/261
+|-enditem|p2a: Basculin|Choice Band|[from] move: Knock Off|[of] p1a: Hitmonlee
+|
+|upkeep
+|turn|13
+|inactive|Vitoran has 60 seconds left.
+|
+|t:|1664225086
+|move|p2a: Basculin|Aqua Jet|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|56/221
+|move|p1a: Hitmonlee|Close Combat|p2a: Basculin
+|-damage|p2a: Basculin|0 fnt
+|-unboost|p1a: Hitmonlee|def|1
+|-unboost|p1a: Hitmonlee|spd|1
+|faint|p2a: Basculin
+|
+|upkeep
+|
+|t:|1664225094
+|switch|p2a: Solrock|Solrock, L88|302/302
+|turn|14
+|
+|t:|1664225104
+|move|p1a: Hitmonlee|Knock Off|p2a: Solrock
+|-supereffective|p2a: Solrock
+|-damage|p2a: Solrock|84/302
+|-enditem|p2a: Solrock|Leftovers|[from] move: Knock Off|[of] p1a: Hitmonlee
+|move|p2a: Solrock|Earthquake|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|upkeep
+|
+|t:|1664225123
+|switch|p1a: Scyther|Scyther, L81, F|246/246
+|turn|15
+|
+|t:|1664225130
+|move|p1a: Scyther|Knock Off|p2a: Solrock
+|-supereffective|p2a: Solrock
+|-damage|p2a: Solrock|0 fnt
+|faint|p2a: Solrock
+|
+|upkeep
+|
+|t:|1664225134
+|switch|p2a: Kyurem|Kyurem, L80|115/331
+|-ability|p2a: Kyurem|Pressure
+|turn|16
+|inactive|Vitoran has 60 seconds left.
+|j| imburningbabe
+|c| 35Q71N|Well
+|
+|t:|1664225153
+|move|p1a: Scyther|Dual Wingbeat|p2a: Kyurem
+|-damage|p2a: Kyurem|49/331
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|-hitcount|p2: Kyurem|2
+|
+|win|Vitoran
+|raw|Vitoran's rating: 2415 &rarr; <strong>2436</strong><br />(+21 for winning)
+|raw|BMence's rating: 2424 &rarr; <strong>2403</strong><br />(-21 for losing)
+|c|☆Vitoran|gg
+|l|‽BMence
+|c| 35Q71N|ggs
+|l| simTheta
+|l| Garutanis
+|c|☆Vitoran|tyty
+|l| katsuge5
+|c| 35Q71N|3rd place now
+|c|☆Vitoran|yup
+|c| 35Q71N|Anyway, I should return to my work, see you later XD
+|c|☆Vitoran|glad i'm being consistent enough these past few days
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

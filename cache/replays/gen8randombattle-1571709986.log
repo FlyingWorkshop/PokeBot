@@ -1,0 +1,419 @@
+|j|☆Appelsap
+|j|☆35Q71N
+|t:|1652190657
+|gametype|singles
+|player|p1|Appelsap|169|2406
+|player|p2|35Q71N|byron|2428
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1652190657
+|start
+|switch|p1a: Naganadel|Naganadel, L74|230/230
+|switch|p2a: Dracovish|Dracovish, L80|275/275
+|turn|1
+|c|☆35Q71N|glhf
+|c|☆Appelsap|u2
+|
+|t:|1652190739
+|switch|p2a: Aromatisse|Aromatisse, L88, F|321/321
+|move|p1a: Naganadel|Draco Meteor|p2a: Aromatisse
+|-immune|p2a: Aromatisse
+|
+|upkeep
+|turn|2
+|
+|t:|1652190801
+|switch|p1a: Heatmor|Heatmor, L90, M|299/299
+|switch|p2a: Milotic|Milotic, L82, M|290/290
+|
+|upkeep
+|turn|3
+|
+|t:|1652190819
+|switch|p1a: Gothitelle|Gothitelle, L86, F|261/261
+|move|p2a: Milotic|Scald|p1a: Gothitelle
+|-damage|p1a: Gothitelle|189/261
+|
+|-heal|p1a: Gothitelle|205/261|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1652190842
+|move|p2a: Milotic|Toxic|p1a: Gothitelle
+|-status|p1a: Gothitelle|tox
+|move|p1a: Gothitelle|Nasty Plot|p1a: Gothitelle
+|-boost|p1a: Gothitelle|spa|2
+|
+|-heal|p1a: Gothitelle|221/261 tox|[from] item: Leftovers
+|-damage|p1a: Gothitelle|205/261 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1652190845
+|move|p2a: Milotic|Haze|p2a: Milotic
+|-clearallboost
+|move|p1a: Gothitelle|Thunderbolt|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|180/290
+|
+|-heal|p2a: Milotic|198/290|[from] item: Leftovers
+|-heal|p1a: Gothitelle|221/261 tox|[from] item: Leftovers
+|-damage|p1a: Gothitelle|189/261 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1652190870
+|move|p2a: Milotic|Scald|p1a: Gothitelle
+|-damage|p1a: Gothitelle|116/261 tox
+|move|p1a: Gothitelle|Thunderbolt|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-crit|p2a: Milotic
+|-damage|p2a: Milotic|46/290
+|
+|-heal|p2a: Milotic|64/290|[from] item: Leftovers
+|-heal|p1a: Gothitelle|132/261 tox|[from] item: Leftovers
+|-damage|p1a: Gothitelle|84/261 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1652190874
+|switch|p1a: Naganadel|Naganadel, L74|230/230
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|209/290
+|
+|-heal|p2a: Milotic|227/290|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1652190915
+|move|p1a: Naganadel|Sludge Wave|p2a: Milotic
+|-damage|p2a: Milotic|122/290
+|move|p2a: Milotic|Scald|p1a: Naganadel
+|-resisted|p1a: Naganadel
+|-damage|p1a: Naganadel|175/230
+|
+|-heal|p2a: Milotic|140/290|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1652190923
+|move|p1a: Naganadel|Sludge Wave|p2a: Milotic
+|-damage|p2a: Milotic|17/290
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|162/290
+|
+|-heal|p2a: Milotic|180/290|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1652190928
+|move|p1a: Naganadel|Sludge Wave|p2a: Milotic
+|-damage|p2a: Milotic|69/290
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|214/290
+|
+|-heal|p2a: Milotic|232/290|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1652190936
+|switch|p1a: Rillaboom|Rillaboom, L78, M|284/284
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-enditem|p1a: Rillaboom|Grassy Seed
+|-boost|p1a: Rillaboom|def|1|[from] item: Grassy Seed
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|290/290
+|
+|upkeep
+|turn|12
+|
+|t:|1652190945
+|switch|p2a: Miltank|Miltank, L84, F|297/297
+|move|p1a: Rillaboom|Swords Dance|p1a: Rillaboom
+|-boost|p1a: Rillaboom|atk|2
+|
+|upkeep
+|turn|13
+|
+|t:|1652190996
+|switch|p2a: Mudsdale|Mudsdale, L82, M|298/298
+|move|p1a: Rillaboom|Swords Dance|p1a: Rillaboom
+|-boost|p1a: Rillaboom|atk|2
+|
+|upkeep
+|turn|14
+|j| clownemojiabuser
+|
+|t:|1652191021
+|move|p1a: Rillaboom|Grassy Glide|p2a: Mudsdale
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|0 fnt
+|faint|p2a: Mudsdale
+|
+|upkeep
+|
+|t:|1652191113
+|switch|p2a: Aromatisse|Aromatisse, L88, F|321/321
+|turn|15
+|
+|t:|1652191117
+|-start|p1a: Rillaboom|Dynamax|Gmax
+|-heal|p1a: Rillaboom|568/568|[silent]
+|move|p2a: Aromatisse|Protect|p2a: Aromatisse
+|-singleturn|p2a: Aromatisse|Protect
+|move|p1a: Rillaboom|Max Airstream|p2a: Aromatisse
+|-zbroken|p2a: Aromatisse
+|-damage|p2a: Aromatisse|250/321
+|-boost|p1a: Rillaboom|spe|1
+|
+|-heal|p2a: Aromatisse|270/321|[from] Grassy Terrain
+|-heal|p2a: Aromatisse|290/321|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1652191170
+|switch|p2a: Dracovish|Dracovish, L80|275/275
+|move|p1a: Rillaboom|Max Quake|p2a: Dracovish
+|-damage|p2a: Dracovish|2/275
+|-boost|p1a: Rillaboom|spd|1
+|
+|upkeep
+|turn|17
+|
+|t:|1652191191
+|move|p1a: Rillaboom|Max Quake|p2a: Dracovish
+|-crit|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|-boost|p1a: Rillaboom|spd|1
+|faint|p2a: Dracovish
+|
+|upkeep
+|
+|t:|1652191253
+|switch|p2a: Aromatisse|Aromatisse, L88, F|290/321
+|-end|p1a: Rillaboom|Dynamax
+|-heal|p1a: Rillaboom|284/284|[silent]
+|turn|18
+|
+|t:|1652191266
+|-start|p2a: Aromatisse|Dynamax|
+|-heal|p2a: Aromatisse|580/642|[silent]
+|move|p1a: Rillaboom|Acrobatics|p2a: Aromatisse
+|-damage|p2a: Aromatisse|328/642
+|move|p2a: Aromatisse|Max Starfall|p1a: Rillaboom
+|-damage|p1a: Rillaboom|178/284
+|-fieldstart|move: Misty Terrain
+|
+|-heal|p2a: Aromatisse|348/642|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1652191280
+|move|p1a: Rillaboom|Acrobatics|p2a: Aromatisse
+|-damage|p2a: Aromatisse|78/642
+|move|p2a: Aromatisse|Max Starfall|p1a: Rillaboom
+|-damage|p1a: Rillaboom|73/284
+|
+|-heal|p2a: Aromatisse|98/642|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1652191304
+|move|p1a: Rillaboom|Acrobatics|p2a: Aromatisse
+|-damage|p2a: Aromatisse|0 fnt
+|faint|p2a: Aromatisse
+|
+|upkeep
+|
+|t:|1652191368
+|switch|p2a: Miltank|Miltank, L84, F|297/297
+|turn|21
+|
+|t:|1652191371
+|move|p1a: Rillaboom|Acrobatics|p2a: Miltank
+|-damage|p2a: Miltank|96/297
+|move|p2a: Miltank|Body Slam|p1a: Rillaboom
+|-damage|p1a: Rillaboom|13/284
+|
+|-heal|p2a: Miltank|114/297|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1652191419
+|move|p1a: Rillaboom|Acrobatics|p2a: Miltank
+|-damage|p2a: Miltank|0 fnt
+|faint|p2a: Miltank
+|
+|-fieldend|Misty Terrain
+|upkeep
+|
+|t:|1652191421
+|switch|p2a: Lycanroc|Lycanroc-Dusk, L80, F|251/251
+|turn|23
+|
+|t:|1652191428
+|move|p2a: Lycanroc|Accelerock|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-damage|p2a: Lycanroc|226/251|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1652191442
+|switch|p1a: Heatmor|Heatmor, L90, M|299/299
+|turn|24
+|
+|t:|1652191460
+|move|p2a: Lycanroc|Stone Edge|p1a: Heatmor
+|-supereffective|p1a: Heatmor
+|-damage|p1a: Heatmor|0 fnt
+|faint|p1a: Heatmor
+|-damage|p2a: Lycanroc|201/251|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1652191501
+|switch|p1a: Naganadel|Naganadel, L74|175/230
+|turn|25
+|
+|t:|1652191516
+|switch|p2a: Milotic|Milotic, L82, M|290/290
+|move|p1a: Naganadel|Draco Meteor|p2a: Milotic
+|-damage|p2a: Milotic|133/290
+|-unboost|p1a: Naganadel|spa|2
+|
+|-heal|p2a: Milotic|151/290|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1652191524
+|switch|p1a: Guzzlord|Guzzlord, L84|512/512
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|290/290
+|
+|upkeep
+|turn|27
+|
+|t:|1652191528
+|move|p2a: Milotic|Toxic|p1a: Guzzlord|[miss]
+|-miss|p2a: Milotic|p1a: Guzzlord
+|move|p1a: Guzzlord|Knock Off|p2a: Milotic
+|-damage|p2a: Milotic|181/290
+|-enditem|p2a: Milotic|Leftovers|[from] move: Knock Off|[of] p1a: Guzzlord
+|
+|upkeep
+|turn|28
+|
+|t:|1652191533
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|290/290
+|move|p1a: Guzzlord|Sludge Bomb|p2a: Milotic
+|-damage|p2a: Milotic|241/290
+|-status|p2a: Milotic|psn
+|
+|-damage|p2a: Milotic|205/290 psn|[from] psn
+|upkeep
+|turn|29
+|j| celebyz
+|
+|t:|1652191550
+|switch|p1a: Gothitelle|Gothitelle, L86, F|84/261 tox
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|290/290 psn
+|
+|-heal|p1a: Gothitelle|100/261 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|254/290 psn|[from] psn
+|-damage|p1a: Gothitelle|84/261 tox|[from] psn
+|upkeep
+|turn|30
+|l| clownemojiabuser
+|
+|t:|1652191631
+|move|p2a: Milotic|Scald|p1a: Gothitelle
+|-damage|p1a: Gothitelle|9/261 tox
+|move|p1a: Gothitelle|Thunderbolt|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-crit|p2a: Milotic
+|-damage|p2a: Milotic|104/290 psn
+|
+|-heal|p1a: Gothitelle|25/261 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|68/290 psn|[from] psn
+|-damage|p1a: Gothitelle|0 fnt|[from] psn
+|faint|p1a: Gothitelle
+|upkeep
+|
+|t:|1652191640
+|switch|p1a: Spectrier|Spectrier, L74|270/270
+|turn|31
+|
+|t:|1652191648
+|move|p1a: Spectrier|Shadow Ball|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|-ability|p1a: Spectrier|Grim Neigh|boost
+|-boost|p1a: Spectrier|spa|1
+|
+|upkeep
+|
+|t:|1652191649
+|switch|p2a: Lycanroc|Lycanroc-Dusk, L80, F|201/251
+|turn|32
+|c|☆35Q71N|gg
+|
+|t:|1652191663
+|move|p1a: Spectrier|Shadow Ball|p2a: Lycanroc
+|-damage|p2a: Lycanroc|11/251
+|move|p2a: Lycanroc|Stone Edge|p1a: Spectrier
+|-damage|p1a: Spectrier|40/270
+|-damage|p2a: Lycanroc|0 fnt|[from] item: Life Orb
+|faint|p2a: Lycanroc
+|
+|win|Appelsap
+|raw|Appelsap's rating: 2406 &rarr; <strong>2427</strong><br />(+21 for winning)
+|raw|35Q71N's rating: 2428 &rarr; <strong>2407</strong><br />(-21 for losing)
+|c|☆Appelsap|gg
+|c|☆Appelsap|thank god for rillaboom
+||Ladder isn't responding, score probably updated but might not have (Request timeout).
+|c|☆Appelsap|would never have broken your insane wall team otherwise
+|c|☆35Q71N|I think I should have attacked it with Miltank
+|c|☆Appelsap|and hope for the para
+|c|☆35Q71N|I thought about going for Toxic with Milotic, but it was too risky
+|c|☆35Q71N|I needed Milo for Naga
+|c|☆Appelsap|tough spot
+|c|☆35Q71N|In hindsight, I should have kept clicking Body Slam
+|c|☆35Q71N|And then max with Aromatisse
+|c|☆Appelsap|i would have done the same in your position
+|c|☆35Q71N|And Accelrock to finish it off
+|c|☆Appelsap|but prob not double into muds indeed
+|c|☆35Q71N|Well, that's a relief at least ahah
+|c|☆35Q71N|Yeah, I expected Airstream
+|c|☆Appelsap|well i thought that doesnt ko anyhow
+|c|☆35Q71N|I completely blanked out on the possibility of double sd
+|c|☆Appelsap|and i figured i'd blast through some mons and then dmax naga
+|c|☆Appelsap|but when you gave me the free +4 i figured o well here we go
+|c|☆35Q71N|Yeah...
+|c|☆35Q71N|Naganadel was so scary
+|c|☆Appelsap|max air on aroma was purely to outspeed milo and not get hazed
+|c|☆35Q71N|I even thought about maxing turn one
+|c|☆35Q71N|Yup, it was definitely the right move on your part
+|c|☆Appelsap|but it was specced naga, so milo walls it completely
+|c|☆35Q71N|Yes, but I didn't know that turn one
+|c|☆Appelsap|no ofc
+|c|☆35Q71N|If you were Nasty Plot + LO I was in big trouble
+|c|☆Appelsap|if i had np there it was prob gg turn 1
+|c|☆35Q71N|Yeah, if you click Nasty Plot turn one I don't know what I could have done
+|c|☆Appelsap|but i didnt want to risk you predicting that and psychic fanging me turn 1
+|c|☆Appelsap|so even with orb i prob would have meteored or doubled
+|c|☆35Q71N|And it makes a lot of sense
+|c|☆Appelsap|anyhow gg wp
+|c|☆35Q71N|u2
+|l|☆Appelsap
+|c|☆35Q71N|Very well played

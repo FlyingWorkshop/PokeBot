@@ -1,0 +1,447 @@
+|j|☆MichaelderBeste2
+|j|☆Lycandusk
+|t:|1601755193
+|player|p1|MichaelderBeste2|steven|2502
+|player|p2|Lycandusk|hexmaniac-gen3|2383
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1601755193
+|start
+|switch|p1a: Politoed|Politoed, L82, F|282/282
+|switch|p2a: Vaporeon|Vaporeon, L84, F|356/356
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|c|☆MichaelderBeste2|the highest gxe match
+|c|☆MichaelderBeste2|hf
+|c|☆Lycandusk|!
+|c|☆Lycandusk|gl
+|
+|t:|1601755224
+|switch|p2a: Celebi|Celebi, L82|298/298
+|move|p1a: Politoed|Toxic|p2a: Celebi|[miss]
+|-miss|p1a: Politoed|p2a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1601755233
+|switch|p1a: Bronzong|Bronzong, L84|250/250
+|move|p2a: Celebi|Nasty Plot|p2a: Celebi
+|-boost|p2a: Celebi|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1601755253
+|move|p2a: Celebi|Giga Drain|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|171/250
+|-damage|p2a: Celebi|269/298|[from] item: Life Orb
+|move|p1a: Bronzong|Toxic|p2a: Celebi
+|-status|p2a: Celebi|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Bronzong|186/250|[from] item: Leftovers
+|-damage|p2a: Celebi|251/298 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1601755273
+|switch|p2a: Runerigus|Runerigus, L88, F|245/245
+|move|p1a: Bronzong|Stealth Rock|p2a: Runerigus
+|-sidestart|p2: Lycandusk|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Bronzong|201/250|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1601755280
+|move|p1a: Bronzong|Toxic|p2a: Runerigus|[miss]
+|-miss|p1a: Bronzong|p2a: Runerigus
+|move|p2a: Runerigus|Poltergeist|p1a: Bronzong
+|-activate|p1a: Bronzong|move: Poltergeist|Leftovers
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|-weather|none
+|upkeep
+|c|☆MichaelderBeste2|wow
+|c|☆MichaelderBeste2|2 toxic misses
+|c|☆Lycandusk|rip
+|
+|t:|1601755294
+|switch|p1a: Articuno|Articuno, L84|288/288
+|-ability|p1a: Articuno|Pressure
+|turn|6
+|
+|t:|1601755310
+|move|p1a: Articuno|Toxic|p2a: Runerigus|[miss]
+|-miss|p1a: Articuno|p2a: Runerigus
+|move|p2a: Runerigus|Stealth Rock|p1a: Articuno
+|-sidestart|p1: MichaelderBeste2|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|c|☆Lycandusk|bruh
+|c|☆MichaelderBeste2|hm
+|
+|t:|1601755329
+|move|p1a: Articuno|Toxic|p2a: Runerigus
+|-status|p2a: Runerigus|tox
+|move|p2a: Runerigus|Poltergeist|p1a: Articuno
+|-activate|p1a: Articuno|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Articuno|165/288
+|
+|-damage|p2a: Runerigus|230/245 tox|[from] psn
+|upkeep
+|turn|8
+|c|☆MichaelderBeste2|WE HIT
+|
+|t:|1601755335
+|move|p1a: Articuno|Freeze-Dry|p2a: Runerigus
+|-supereffective|p2a: Runerigus
+|-damage|p2a: Runerigus|98/245 tox
+|move|p2a: Runerigus|Poltergeist|p1a: Articuno
+|-activate|p1a: Articuno|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Articuno|48/288
+|
+|-heal|p2a: Runerigus|113/245 tox|[from] item: Leftovers
+|-damage|p2a: Runerigus|83/245 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1601755339
+|move|p1a: Articuno|Roost|p1a: Articuno
+|-heal|p1a: Articuno|192/288
+|-singleturn|p1a: Articuno|move: Roost
+|move|p2a: Runerigus|Poltergeist|p1a: Articuno
+|-activate|p1a: Articuno|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Articuno|78/288
+|
+|-heal|p2a: Runerigus|98/245 tox|[from] item: Leftovers
+|-damage|p2a: Runerigus|53/245 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1601755343
+|move|p1a: Articuno|Roost|p1a: Articuno
+|-heal|p1a: Articuno|222/288
+|-singleturn|p1a: Articuno|move: Roost
+|move|p2a: Runerigus|Poltergeist|p1a: Articuno
+|-activate|p1a: Articuno|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Articuno|104/288
+|
+|-heal|p2a: Runerigus|68/245 tox|[from] item: Leftovers
+|-damage|p2a: Runerigus|8/245 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1601755349
+|move|p1a: Articuno|Roost|p1a: Articuno
+|-heal|p1a: Articuno|248/288
+|-singleturn|p1a: Articuno|move: Roost
+|move|p2a: Runerigus|Earthquake|p1a: Articuno
+|-damage|p1a: Articuno|145/288
+|
+|-heal|p2a: Runerigus|23/245 tox|[from] item: Leftovers
+|-damage|p2a: Runerigus|0 fnt|[from] psn
+|faint|p2a: Runerigus
+|upkeep
+|
+|t:|1601755364
+|switch|p2a: Crobat|Crobat, L82, F|274/274
+|turn|12
+|
+|t:|1601755369
+|switch|p1a: Politoed|Politoed, L82, F|282/282
+|-damage|p1a: Politoed|247/282|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Crobat|Toxic|p1a: Politoed
+|-status|p1a: Politoed|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|230/282 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1601755382
+|switch|p2a: Tangrowth|Tangrowth, L80, M|291/291
+|-damage|p2a: Tangrowth|255/291|[from] Stealth Rock
+|move|p1a: Politoed|Scald|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|173/291
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|196/282 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1601755390
+|switch|p1a: Bouffalant|Bouffalant, L88, M|310/310
+|-damage|p1a: Bouffalant|272/310|[from] Stealth Rock
+|move|p2a: Tangrowth|Leech Seed|p1a: Bouffalant
+|-ability|p1a: Bouffalant|Sap Sipper|boost
+|-boost|p1a: Bouffalant|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Bouffalant|291/310|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1601755400
+|move|p1a: Bouffalant|Megahorn|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|-damage|p1a: Bouffalant|240/310|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|faint|p2a: Tangrowth
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Bouffalant|259/310|[from] item: Leftovers
+|upkeep
+|
+|t:|1601755407
+|switch|p2a: Vaporeon|Vaporeon, L84, F|356/356
+|-damage|p2a: Vaporeon|312/356|[from] Stealth Rock
+|turn|16
+|
+|t:|1601755412
+|switch|p1a: Mantine|Mantine, L84, M|279/279
+|-damage|p1a: Mantine|210/279|[from] Stealth Rock
+|move|p2a: Vaporeon|Scald|p1a: Mantine
+|-heal|p1a: Mantine|279/279|[from] ability: Water Absorb|[of] p2a: Vaporeon
+|
+|-weather|none
+|-heal|p2a: Vaporeon|334/356|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1601755425
+|move|p1a: Mantine|Hurricane|p2a: Vaporeon
+|-damage|p2a: Vaporeon|232/356
+|move|p2a: Vaporeon|Toxic|p1a: Mantine
+|-status|p1a: Mantine|tox
+|
+|-heal|p2a: Vaporeon|254/356|[from] item: Leftovers
+|-damage|p1a: Mantine|262/279 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1601755436
+|switch|p1a: Articuno|Articuno, L84|145/288
+|-ability|p1a: Articuno|Pressure
+|move|p2a: Vaporeon|Ice Beam|p1a: Articuno
+|-damage|p1a: Articuno|95/288
+|
+|-heal|p2a: Vaporeon|276/356|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1601755442
+|move|p1a: Articuno|Freeze-Dry|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|124/356
+|-status|p2a: Vaporeon|frz
+|cant|p2a: Vaporeon|frz
+|
+|-heal|p2a: Vaporeon|146/356 frz|[from] item: Leftovers
+|upkeep
+|turn|20
+|c|☆MichaelderBeste2|oof
+|
+|t:|1601755449
+|move|p1a: Articuno|Freeze-Dry|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|upkeep
+|c|☆Lycandusk|fair enough tbh
+|c|☆MichaelderBeste2|1 freeze=4 of 5 toxic misses
+|
+|t:|1601755499
+|switch|p2a: Crobat|Crobat, L82, F|274/274
+|turn|21
+|
+|t:|1601755508
+|switch|p1a: Politoed|Politoed, L82, F|196/282 tox
+|-damage|p1a: Politoed|161/282 tox|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Crobat|Brave Bird|p1a: Politoed
+|-damage|p1a: Politoed|37/282 tox
+|-damage|p2a: Crobat|233/274|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|20/282 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1601755511
+|move|p2a: Crobat|Brave Bird|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-damage|p2a: Crobat|226/274|[from] Recoil
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1601755513
+|switch|p1a: Mantine|Mantine, L84, M|262/279 tox
+|-damage|p1a: Mantine|193/279 tox|[from] Stealth Rock
+|turn|23
+|
+|t:|1601755536
+|switch|p2a: Gothitelle|Gothitelle, L88, M|266/266
+|-damage|p2a: Gothitelle|233/266|[from] Stealth Rock
+|move|p1a: Mantine|Scald|p2a: Gothitelle
+|-damage|p2a: Gothitelle|145/266
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Mantine|210/279 tox|[from] item: Leftovers
+|-heal|p2a: Gothitelle|161/266|[from] item: Leftovers
+|-damage|p1a: Mantine|193/279 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1601755550
+|move|p1a: Mantine|Scald|p2a: Gothitelle
+|-damage|p2a: Gothitelle|76/266
+|move|p2a: Gothitelle|Thunderbolt|p1a: Mantine
+|-supereffective|p1a: Mantine
+|-damage|p1a: Mantine|5/279 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Mantine|22/279 tox|[from] item: Leftovers
+|-heal|p2a: Gothitelle|92/266|[from] item: Leftovers
+|-damage|p1a: Mantine|0 fnt|[from] psn
+|faint|p1a: Mantine
+|upkeep
+|
+|t:|1601755552
+|switch|p1a: Volcarona|Volcarona, L80, M|267/267
+|turn|25
+|
+|t:|1601755561
+|switch|p2a: Crobat|Crobat, L82, F|226/274
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|none
+|upkeep
+|turn|26
+|
+|t:|1601755589
+|switch|p1a: Articuno|Articuno, L84|95/288
+|-ability|p1a: Articuno|Pressure
+|-start|p2a: Crobat|Dynamax
+|-heal|p2a: Crobat|452/548|[silent]
+|move|p2a: Crobat|Max Airstream|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|-boost|p2a: Crobat|spe|1
+|faint|p1a: Articuno
+|
+|upkeep
+|
+|t:|1601755591
+|switch|p1a: Bouffalant|Bouffalant, L88, M|259/310
+|-damage|p1a: Bouffalant|221/310|[from] Stealth Rock
+|turn|27
+|
+|t:|1601755667
+|move|p2a: Crobat|Max Airstream|p1a: Bouffalant
+|-damage|p1a: Bouffalant|103/310
+|-boost|p2a: Crobat|spe|1
+|move|p1a: Bouffalant|Swords Dance|p1a: Bouffalant
+|-boost|p1a: Bouffalant|atk|2
+|
+|-heal|p1a: Bouffalant|122/310|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1601755689
+|-end|p2a: Crobat|Dynamax
+|-heal|p2a: Crobat|226/274|[silent]
+|switch|p2a: Gothitelle|Gothitelle, L88, M|92/266
+|-damage|p2a: Gothitelle|59/266|[from] Stealth Rock
+|-start|p1a: Bouffalant|Dynamax
+|-heal|p1a: Bouffalant|244/620|[silent]
+|move|p1a: Bouffalant|Max Guard||[still]
+|-fail|p1a: Bouffalant
+|
+|-heal|p2a: Gothitelle|75/266|[from] item: Leftovers
+|-heal|p1a: Bouffalant|263/620|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1601755695
+|move|p2a: Gothitelle|Psychic|p1a: Bouffalant
+|-damage|p1a: Bouffalant|163/620
+|move|p1a: Bouffalant|Max Strike|p2a: Gothitelle
+|-damage|p2a: Gothitelle|0 fnt
+|faint|p2a: Gothitelle
+|
+|-heal|p1a: Bouffalant|182/620|[from] item: Leftovers
+|upkeep
+|
+|t:|1601755701
+|switch|p2a: Celebi|Celebi, L82|251/298
+|-damage|p2a: Celebi|214/298|[from] Stealth Rock
+|turn|30
+|
+|t:|1601755773
+|switch|p2a: Crobat|Crobat, L82, F|226/274
+|-end|p1a: Bouffalant|Dynamax
+|-heal|p1a: Bouffalant|91/310|[silent]
+|switch|p1a: Volcarona|Volcarona, L80, M|267/267
+|
+|upkeep
+|turn|31
+|c|☆MichaelderBeste2|wow
+|c|☆MichaelderBeste2|well played
+|c|☆Lycandusk|we were
+|c|☆Lycandusk|calcing the same thing lol
+|
+|t:|1601755795
+|move|p2a: Crobat|Brave Bird|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|-status|p2a: Crobat|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|-damage|p2a: Crobat|138/274 brn|[from] Recoil
+|faint|p1a: Volcarona
+|
+|-damage|p2a: Crobat|121/274 brn|[from] brn
+|upkeep
+|
+|t:|1601755798
+|switch|p1a: Bouffalant|Bouffalant, L88, M|91/310
+|-damage|p1a: Bouffalant|53/310|[from] Stealth Rock
+|turn|32
+|c|☆Lycandusk|celebi 3hkos
+|c|☆MichaelderBeste2|yeah
+|c|☆MichaelderBeste2|should have max guarded
+|c|☆Lycandusk|yea
+|
+|t:|1601755853
+|move|p2a: Crobat|Brave Bird|p1a: Bouffalant
+|-damage|p1a: Bouffalant|0 fnt
+|-damage|p2a: Crobat|104/274 brn|[from] Recoil
+|faint|p1a: Bouffalant
+|
+|win|Lycandusk
+|c|☆MichaelderBeste2|gg
+|c|☆Lycandusk|gg
+|raw|MichaelderBeste2's rating: 2502 &rarr; <strong>2475</strong><br />(-27 for losing)
+|raw|Lycandusk's rating: 2383 &rarr; <strong>2410</strong><br />(+27 for winning)

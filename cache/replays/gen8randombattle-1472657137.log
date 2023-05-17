@@ -1,0 +1,412 @@
+|j|☆Izayaforpresident
+|j|☆70to90gxe
+|t:|1639431550
+|gametype|singles
+|player|p1|Izayaforpresident|266|2424
+|player|p2|70to90gxe|#scl1platoon|2456
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1639431550
+|start
+|switch|p1a: Golurk|Golurk, L82|280/280
+|switch|p2a: Lurantis|Lurantis, L86, F|261/261
+|turn|1
+|
+|t:|1639431564
+|switch|p1a: Gourgeist|Gourgeist-Small, L84, M|230/230
+|-item|p2a: Lurantis|Leftovers|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Lurantis|Leaf Storm|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-damage|p1a: Gourgeist|158/230
+|-boost|p2a: Lurantis|spa|2
+|
+|-heal|p1a: Gourgeist|172/230|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1639431567
+|move|p1a: Gourgeist|Poltergeist|p2a: Lurantis
+|-activate|p2a: Lurantis|move: Poltergeist|Leftovers
+|-damage|p2a: Lurantis|155/261
+|move|p2a: Lurantis|Leaf Storm|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-damage|p1a: Gourgeist|31/230
+|-boost|p2a: Lurantis|spa|2
+|
+|-heal|p1a: Gourgeist|45/230|[from] item: Leftovers
+|-heal|p2a: Lurantis|171/261|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1639431571
+|move|p1a: Gourgeist|Poltergeist|p2a: Lurantis
+|-activate|p2a: Lurantis|move: Poltergeist|Leftovers
+|-damage|p2a: Lurantis|69/261
+|move|p2a: Lurantis|Synthesis|p2a: Lurantis
+|-heal|p2a: Lurantis|199/261
+|
+|-heal|p1a: Gourgeist|59/230|[from] item: Leftovers
+|-heal|p2a: Lurantis|215/261|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1639431591
+|move|p1a: Gourgeist|Substitute|p1a: Gourgeist
+|-start|p1a: Gourgeist|Substitute
+|-damage|p1a: Gourgeist|2/230
+|move|p2a: Lurantis|Synthesis|p2a: Lurantis
+|-heal|p2a: Lurantis|261/261
+|
+|-heal|p1a: Gourgeist|16/230|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1639431597
+|move|p1a: Gourgeist|Poltergeist|p2a: Lurantis
+|-activate|p2a: Lurantis|move: Poltergeist|Leftovers
+|-damage|p2a: Lurantis|155/261
+|move|p2a: Lurantis|Leaf Storm|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-end|p1a: Gourgeist|Substitute
+|-boost|p2a: Lurantis|spa|2
+|
+|-heal|p1a: Gourgeist|30/230|[from] item: Leftovers
+|-heal|p2a: Lurantis|171/261|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1639431601
+|move|p1a: Gourgeist|Poltergeist|p2a: Lurantis
+|-activate|p2a: Lurantis|move: Poltergeist|Leftovers
+|-damage|p2a: Lurantis|78/261
+|move|p2a: Lurantis|Synthesis|p2a: Lurantis
+|-heal|p2a: Lurantis|208/261
+|
+|-heal|p1a: Gourgeist|44/230|[from] item: Leftovers
+|-heal|p2a: Lurantis|224/261|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1639431608
+|move|p1a: Gourgeist|Poltergeist|p2a: Lurantis|[miss]
+|-miss|p1a: Gourgeist|p2a: Lurantis
+|move|p2a: Lurantis|Synthesis|p2a: Lurantis
+|-heal|p2a: Lurantis|261/261
+|
+|-heal|p1a: Gourgeist|58/230|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1639431610
+|move|p1a: Gourgeist|Poltergeist|p2a: Lurantis
+|-activate|p2a: Lurantis|move: Poltergeist|Leftovers
+|-damage|p2a: Lurantis|165/261
+|move|p2a: Lurantis|Leaf Storm|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|faint|p1a: Gourgeist
+|
+|-heal|p2a: Lurantis|181/261|[from] item: Leftovers
+|upkeep
+|
+|t:|1639431618
+|switch|p1a: Golurk|Golurk, L82|280/280
+|turn|9
+|
+|t:|1639431621
+|move|p1a: Golurk|Poltergeist|p2a: Lurantis
+|-activate|p2a: Lurantis|move: Poltergeist|Leftovers
+|-damage|p2a: Lurantis|4/261
+|-damage|p1a: Golurk|252/280|[from] item: Life Orb
+|move|p2a: Lurantis|Leaf Storm|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|
+|-heal|p2a: Lurantis|20/261|[from] item: Leftovers
+|upkeep
+|
+|t:|1639431629
+|switch|p1a: Blastoise|Blastoise, L82, F|264/264
+|turn|10
+|
+|t:|1639431633
+|move|p1a: Blastoise|Ice Beam|p2a: Lurantis
+|-supereffective|p2a: Lurantis
+|-damage|p2a: Lurantis|0 fnt
+|faint|p2a: Lurantis
+|
+|upkeep
+|
+|t:|1639431641
+|switch|p2a: Tapu Lele|Tapu Lele, L80|243/243
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|11
+|
+|t:|1639431646
+|switch|p1a: Slowking|Slowking, L86, F|304/304
+|move|p2a: Tapu Lele|Calm Mind|p2a: Tapu Lele
+|-boost|p2a: Tapu Lele|spa|1
+|-boost|p2a: Tapu Lele|spd|1
+|
+|upkeep
+|turn|12
+|
+|t:|1639431650
+|move|p2a: Tapu Lele|Calm Mind|p2a: Tapu Lele
+|-boost|p2a: Tapu Lele|spa|1
+|-boost|p2a: Tapu Lele|spd|1
+|move|p1a: Slowking|Toxic|p2a: Tapu Lele
+|-status|p2a: Tapu Lele|tox
+|
+|-damage|p2a: Tapu Lele|228/243 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1639431651
+|move|p2a: Tapu Lele|Moonblast|p1a: Slowking
+|-damage|p1a: Slowking|53/304
+|-unboost|p1a: Slowking|spa|1
+|-damage|p2a: Tapu Lele|204/243 tox|[from] item: Life Orb
+|move|p1a: Slowking|Psyshock|p2a: Tapu Lele
+|-resisted|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|154/243 tox
+|
+|-heal|p1a: Slowking|72/304|[from] item: Leftovers
+|-damage|p2a: Tapu Lele|124/243 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1639431660
+|move|p2a: Tapu Lele|Psychic|p1a: Slowking
+|-resisted|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|-damage|p2a: Tapu Lele|100/243 tox|[from] item: Life Orb
+|
+|-damage|p2a: Tapu Lele|55/243 tox|[from] psn
+|upkeep
+|
+|t:|1639431666
+|switch|p1a: Umbreon|Umbreon, L82, M|290/290
+|turn|15
+|
+|t:|1639431670
+|switch|p2a: Clefable|Clefable, L82, M|290/290
+|move|p1a: Umbreon|Protect||[still]
+|-fail|p1a: Umbreon
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|16
+|
+|t:|1639431673
+|switch|p1a: Snorlax|Snorlax, L82, F|397/397
+|move|p2a: Clefable|Moonblast|p1a: Snorlax
+|-damage|p1a: Snorlax|288/397
+|
+|upkeep
+|turn|17
+|
+|t:|1639431677
+|switch|p2a: Marowak|Marowak, L86, M|243/243
+|move|p1a: Snorlax|Body Slam|p2a: Marowak
+|-damage|p2a: Marowak|167/243
+|
+|upkeep
+|turn|18
+|
+|t:|1639431682
+|move|p2a: Marowak|Knock Off|p1a: Snorlax
+|-damage|p1a: Snorlax|126/397
+|-enditem|p1a: Snorlax|Chesto Berry|[from] move: Knock Off|[of] p2a: Marowak
+|move|p1a: Snorlax|Body Slam|p2a: Marowak
+|-damage|p2a: Marowak|92/243
+|
+|upkeep
+|turn|19
+|
+|t:|1639431687
+|move|p2a: Marowak|Swords Dance|p2a: Marowak
+|-boost|p2a: Marowak|atk|2
+|move|p1a: Snorlax|Body Slam|p2a: Marowak
+|-damage|p2a: Marowak|17/243
+|
+|upkeep
+|turn|20
+|
+|t:|1639431690
+|move|p2a: Marowak|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|upkeep
+|
+|t:|1639431692
+|switch|p1a: Blastoise|Blastoise, L82, F|264/264
+|turn|21
+|
+|t:|1639431695
+|move|p1a: Blastoise|Ice Beam|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|upkeep
+|
+|t:|1639431698
+|switch|p2a: Tapu Lele|Tapu Lele, L80|55/243 tox
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|22
+|
+|t:|1639431716
+|switch|p1a: Umbreon|Umbreon, L82, M|290/290
+|move|p2a: Tapu Lele|Psychic|p1a: Umbreon
+|-immune|p1a: Umbreon
+|
+|-damage|p2a: Tapu Lele|40/243 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1639431725
+|move|p2a: Tapu Lele|Moonblast|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|53/290
+|-damage|p2a: Tapu Lele|16/243 tox|[from] item: Life Orb
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|71/290|[from] item: Leftovers
+|-damage|p2a: Tapu Lele|0 fnt|[from] psn
+|faint|p2a: Tapu Lele
+|upkeep
+|
+|t:|1639431727
+|switch|p2a: Clefable|Clefable, L82, M|290/290
+|turn|24
+|
+|t:|1639431735
+|switch|p1a: Blastoise|Blastoise, L82, F|264/264
+|move|p2a: Clefable|Stealth Rock|p1a: Blastoise
+|-sidestart|p1: Izayaforpresident|move: Stealth Rock
+|
+|upkeep
+|turn|25
+|
+|t:|1639431742
+|-start|p2a: Clefable|Dynamax
+|-heal|p2a: Clefable|580/580|[silent]
+|move|p1a: Blastoise|Shell Smash|p1a: Blastoise
+|-unboost|p1a: Blastoise|def|1
+|-unboost|p1a: Blastoise|spd|1
+|-boost|p1a: Blastoise|atk|2
+|-boost|p1a: Blastoise|spa|2
+|-boost|p1a: Blastoise|spe|2
+|-enditem|p1a: Blastoise|White Herb
+|-clearnegativeboost|p1a: Blastoise|[silent]
+|move|p2a: Clefable|Max Starfall|p1a: Blastoise
+|-damage|p1a: Blastoise|112/264
+|-fieldstart|move: Misty Terrain
+|
+|upkeep
+|turn|26
+|
+|t:|1639431752
+|-start|p1a: Blastoise|Dynamax
+|-heal|p1a: Blastoise|224/528|[silent]
+|move|p1a: Blastoise|Max Guard|p1a: Blastoise
+|-singleturn|p1a: Blastoise|Max Guard
+|move|p2a: Clefable|Max Starfall|p1a: Blastoise
+|-activate|p1a: Blastoise|move: Max Guard
+|
+|upkeep
+|turn|27
+|
+|t:|1639431756
+|move|p1a: Blastoise|Max Quake|p2a: Clefable
+|-damage|p2a: Clefable|409/580
+|-boost|p1a: Blastoise|spd|1
+|move|p2a: Clefable|Max Starfall|p1a: Blastoise
+|-damage|p1a: Blastoise|117/528
+|
+|-end|p2a: Clefable|Dynamax
+|-heal|p2a: Clefable|205/290|[silent]
+|upkeep
+|turn|28
+|
+|t:|1639431759
+|move|p1a: Blastoise|Max Geyser|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-weather|RainDance
+|faint|p2a: Clefable
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Blastoise|Dynamax
+|-heal|p1a: Blastoise|59/264|[silent]
+|upkeep
+|
+|t:|1639431761
+|switch|p2a: Sharpedo|Sharpedo, L82, M|249/249
+|turn|29
+|
+|t:|1639431802
+|move|p2a: Sharpedo|Protect|p2a: Sharpedo
+|-singleturn|p2a: Sharpedo|Protect
+|move|p1a: Blastoise|Hydro Pump|p2a: Sharpedo
+|-activate|p2a: Sharpedo|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|Misty Terrain
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|30
+|
+|t:|1639431807
+|switch|p2a: Haxorus|Haxorus, L78, F|247/247
+|-ability|p2a: Haxorus|Mold Breaker
+|move|p1a: Blastoise|Hydro Pump|p2a: Haxorus
+|-resisted|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1639431809
+|switch|p2a: Sharpedo|Sharpedo, L82, M|249/249
+|turn|31
+|
+|t:|1639431818
+|move|p2a: Sharpedo|Protect|p2a: Sharpedo
+|-singleturn|p2a: Sharpedo|Protect
+|move|p1a: Blastoise|Hydro Pump|p2a: Sharpedo
+|-activate|p2a: Sharpedo|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|32
+|
+|t:|1639431820
+|move|p2a: Sharpedo|Protect||[still]
+|-fail|p2a: Sharpedo
+|move|p1a: Blastoise|Hydro Pump|p2a: Sharpedo
+|-resisted|p2a: Sharpedo
+|-damage|p2a: Sharpedo|0 fnt
+|faint|p2a: Sharpedo
+|
+|win|Izayaforpresident
+|raw|Izayaforpresident's rating: 2424 &rarr; <strong>2446</strong><br />(+22 for winning)
+|raw|70to90gxe's rating: 2456 &rarr; <strong>2434</strong><br />(-22 for losing)
+|l|☆70to90gxe
+|c|☆Izayaforpresident|Gg
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

@@ -1,0 +1,490 @@
+|j|☆KingZuko
+|j|☆Referrals
+|t:|1651407572
+|gametype|singles
+|player|p1|KingZuko|cynthia|2409
+|player|p2|Referrals|mai|2425
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1651407572
+|start
+|switch|p1a: Dracovish|Dracovish, L80|275/275
+|switch|p2a: Landorus|Landorus-Therian, L72, M|247/247
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dracovish|atk|1
+|turn|1
+|j| JJ09LIE
+|j| 35Q71N
+|c|☆KingZuko|oh baby
+|c| 35Q71N|Again?
+|c| JJ09LIE|Fat
+|c|☆KingZuko|hf
+|j| OiiiiiiiiiO
+|
+|t:|1651407594
+|switch|p2a: Cresselia|Cresselia, L80, F|323/323
+|switch|p1a: Heracross|Heracross, L82, F|265/265
+|
+|-status|p1a: Heracross|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1651407658
+|move|p1a: Heracross|Megahorn|p2a: Cresselia|[miss]
+|-miss|p1a: Heracross|p2a: Cresselia
+|move|p2a: Cresselia|Moonblast|p1a: Heracross
+|-supereffective|p1a: Heracross
+|-damage|p1a: Heracross|165/265 brn
+|
+|-damage|p1a: Heracross|149/265 brn|[from] brn
+|upkeep
+|turn|3
+|c|☆KingZuko|nice
+|c| JJ09LIE|rip
+|c|☆Referrals|oh forgot to say hf back sorry
+|l| JJ09LIE
+|c|☆KingZuko|no worries
+|c|☆Referrals|and srry bout that too lol
+|c|☆KingZuko|all good
+|c| 35Q71N|You didn't forget
+|c| 35Q71N|You knew he wasn't getting luck lol
+|c|☆Referrals|im multi-tasking i swear
+|j| JJ09LIE
+|
+|t:|1651407718
+|switch|p2a: Marshadow|Marshadow, L70|242/242
+|move|p1a: Heracross|Megahorn|p2a: Marshadow|[miss]
+|-miss|p1a: Heracross|p2a: Marshadow
+|
+|-damage|p1a: Heracross|133/265 brn|[from] brn
+|upkeep
+|turn|4
+|c| JJ09LIE|lol
+|c| 35Q71N|Blindest bug of them all
+|c| JJ09LIE|literally gets lucky only against friends
+|
+|t:|1651407749
+|switch|p1a: Ninjask|Ninjask, L86, M|245/245
+|move|p2a: Marshadow|Bulk Up|p2a: Marshadow
+|-boost|p2a: Marshadow|atk|1
+|-boost|p2a: Marshadow|def|1
+|
+|upkeep
+|turn|5
+|c|☆Referrals|that is true lmao
+|c| 35Q71N|Oh, I know it too well
+|
+|t:|1651407758
+|move|p1a: Ninjask|Acrobatics|p2a: Marshadow
+|-supereffective|p2a: Marshadow
+|-damage|p2a: Marshadow|38/242
+|move|p2a: Marshadow|Spectral Thief|p1a: Ninjask
+|-damage|p1a: Ninjask|11/245
+|-damage|p2a: Marshadow|14/242|[from] item: Life Orb
+|
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|6
+|c| 35Q71N|My bad, I wrote the wrong sentence
+|
+|t:|1651407776
+|move|p2a: Marshadow|Shadow Sneak|p1a: Ninjask
+|-damage|p1a: Ninjask|0 fnt
+|faint|p1a: Ninjask
+|-damage|p2a: Marshadow|0 fnt|[from] item: Life Orb
+|faint|p2a: Marshadow
+|
+|upkeep
+|
+|t:|1651407793
+|switch|p1a: Seismitoad|Seismitoad, L84, M|314/314
+|switch|p2a: Cresselia|Cresselia, L80, F|323/323
+|turn|7
+|
+|t:|1651407800
+|move|p2a: Cresselia|Calm Mind|p2a: Cresselia
+|-boost|p2a: Cresselia|spa|1
+|-boost|p2a: Cresselia|spd|1
+|move|p1a: Seismitoad|Stealth Rock|p2a: Cresselia
+|-sidestart|p2: Referrals|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1651407812
+|switch|p1a: Excadrill|Excadrill, L78, M|300/300
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Cresselia|Psyshock|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|227/300
+|
+|-heal|p1a: Excadrill|245/300|[from] item: Leftovers
+|upkeep
+|turn|9
+|c|☆Referrals|i dont like this
+|
+|t:|1651407848
+|switch|p2a: Landorus|Landorus-Therian, L72, M|247/247
+|-damage|p2a: Landorus|217/247|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|
+|-heal|p1a: Excadrill|263/300|[from] item: Leftovers
+|upkeep
+|turn|10
+|j| IOwOI
+|
+|t:|1651407879
+|switch|p1a: Sigilyph|Sigilyph, L83, M|255/255
+|move|p2a: Landorus|Earthquake|p1a: Sigilyph
+|-immune|p1a: Sigilyph
+|
+|upkeep
+|turn|11
+|
+|t:|1651407886
+|switch|p2a: Lunatone|Lunatone, L86|295/295
+|-damage|p2a: Lunatone|259/295|[from] Stealth Rock
+|move|p1a: Sigilyph|Air Slash|p2a: Lunatone
+|-resisted|p2a: Lunatone
+|-damage|p2a: Lunatone|210/295
+|
+|upkeep
+|turn|12
+|
+|t:|1651407901
+|move|p1a: Sigilyph|Energy Ball|p2a: Lunatone
+|-supereffective|p2a: Lunatone
+|-crit|p2a: Lunatone
+|-damage|p2a: Lunatone|0 fnt
+|faint|p2a: Lunatone
+|
+|upkeep
+|c|☆KingZuko|oof
+|
+|t:|1651407905
+|switch|p2a: Polteageist|Polteageist, L78|222/222
+|-damage|p2a: Polteageist|195/222|[from] Stealth Rock
+|turn|13
+|c|☆KingZuko|oi
+|
+|t:|1651407918
+|-start|p1a: Sigilyph|Dynamax|
+|-heal|p1a: Sigilyph|510/510|[silent]
+|move|p1a: Sigilyph|Max Airstream|p2a: Polteageist
+|-damage|p2a: Polteageist|18/222
+|-boost|p1a: Sigilyph|spe|1
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|-enditem|p2a: Polteageist|White Herb
+|-clearnegativeboost|p2a: Polteageist|[silent]
+|
+|upkeep
+|turn|14
+|
+|t:|1651407924
+|move|p1a: Sigilyph|Max Airstream|p2a: Polteageist
+|-crit|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|-boost|p1a: Sigilyph|spe|1
+|faint|p2a: Polteageist
+|
+|upkeep
+|
+|t:|1651407926
+|switch|p2a: Cresselia|Cresselia, L80, F|323/323
+|-damage|p2a: Cresselia|283/323|[from] Stealth Rock
+|turn|15
+|c|☆KingZuko|had to be done
+|c|☆Referrals|fair
+|
+|t:|1651407947
+|-end|p1a: Sigilyph|Dynamax
+|-heal|p1a: Sigilyph|255/255|[silent]
+|switch|p1a: Heracross|Heracross, L82, F|133/265 brn
+|move|p2a: Cresselia|Calm Mind|p2a: Cresselia
+|-boost|p2a: Cresselia|spa|1
+|-boost|p2a: Cresselia|spd|1
+|
+|-heal|p2a: Cresselia|303/323|[from] item: Leftovers
+|-damage|p1a: Heracross|117/265 brn|[from] brn
+|upkeep
+|turn|16
+|c|☆KingZuko|dude
+|c|☆KingZuko|im having deja vu
+|
+|t:|1651407967
+|-start|p2a: Cresselia|Dynamax|
+|-heal|p2a: Cresselia|606/646|[silent]
+|move|p1a: Heracross|Megahorn|p2a: Cresselia|[miss]
+|-miss|p1a: Heracross|p2a: Cresselia
+|move|p2a: Cresselia|Max Mindstorm|p1a: Heracross
+|-supereffective|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|-fieldstart|move: Psychic Terrain
+|faint|p1a: Heracross
+|
+|-heal|p2a: Cresselia|626/646|[from] item: Leftovers
+|upkeep
+|c|☆KingZuko|ok
+|c|☆KingZuko|cursed
+|c|☆KingZuko|ill say it
+|c| 35Q71N|I'm desperately trying not to laugh
+|
+|t:|1651408031
+|switch|p1a: Seismitoad|Seismitoad, L84, M|314/314
+|turn|17
+|c|☆KingZuko|gdi fran
+|c|☆KingZuko|loll
+|
+|t:|1651408053
+|move|p2a: Cresselia|Max Mindstorm|p1a: Seismitoad
+|-damage|p1a: Seismitoad|140/314
+|move|p1a: Seismitoad|Rain Dance|p1a: Seismitoad
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Cresselia|646/646|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1651408071
+|move|p1a: Seismitoad|Liquidation|p2a: Cresselia
+|-damage|p2a: Cresselia|506/646
+|-damage|p1a: Seismitoad|109/314|[from] item: Life Orb
+|move|p2a: Cresselia|Max Mindstorm|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Cresselia|526/646|[from] item: Leftovers
+|upkeep
+|
+|t:|1651408076
+|switch|p1a: Excadrill|Excadrill, L78, M|263/300
+|-ability|p1a: Excadrill|Mold Breaker
+|-end|p2a: Cresselia|Dynamax
+|-heal|p2a: Cresselia|263/323|[silent]
+|turn|19
+|
+|t:|1651408097
+|switch|p2a: Landorus|Landorus-Therian, L72, M|217/247
+|-damage|p2a: Landorus|187/247|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|move|p1a: Excadrill|Iron Head|p2a: Landorus
+|-damage|p2a: Landorus|109/247
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Excadrill|281/300|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1651408106
+|switch|p1a: Sigilyph|Sigilyph, L83, M|255/255
+|move|p2a: Landorus|Stone Edge|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|55/255
+|-damage|p2a: Landorus|85/247|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|21
+|
+|t:|1651408112
+|switch|p2a: Cresselia|Cresselia, L80, F|263/323
+|-damage|p2a: Cresselia|223/323|[from] Stealth Rock
+|move|p1a: Sigilyph|Air Slash|p2a: Cresselia
+|-damage|p2a: Cresselia|136/323
+|
+|-weather|none
+|-heal|p2a: Cresselia|156/323|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1651408116
+|move|p1a: Sigilyph|Air Slash|p2a: Cresselia
+|-damage|p2a: Cresselia|69/323
+|move|p2a: Cresselia|Moonblast|p1a: Sigilyph
+|-damage|p1a: Sigilyph|2/255
+|
+|-heal|p2a: Cresselia|89/323|[from] item: Leftovers
+|upkeep
+|turn|23
+|c|☆Referrals|misclick omg
+|
+|t:|1651408124
+|switch|p1a: Excadrill|Excadrill, L78, M|281/300
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Cresselia|Moonlight|p2a: Cresselia
+|-heal|p2a: Cresselia|250/323
+|
+|-heal|p2a: Cresselia|270/323|[from] item: Leftovers
+|-heal|p1a: Excadrill|299/300|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1651408132
+|switch|p2a: Landorus|Landorus-Therian, L72, M|85/247
+|-damage|p2a: Landorus|55/247|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|
+|-heal|p1a: Excadrill|300/300|[from] item: Leftovers
+|upkeep
+|turn|25
+|c|☆KingZuko|really fk
+|
+|t:|1651408144
+|move|p1a: Excadrill|Rapid Spin|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-boost|p1a: Excadrill|spe|1
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1651408154
+|switch|p2a: Whiscash|Whiscash, L86, M|329/329
+|-damage|p2a: Whiscash|309/329|[from] Stealth Rock
+|turn|26
+|c| OiiiiiiiiiO|Is choice scarf banned for dracowish?
+|
+|t:|1651408180
+|switch|p1a: Dracovish|Dracovish, L80|275/275
+|move|p2a: Whiscash|Earthquake|p1a: Dracovish
+|-damage|p1a: Dracovish|165/275
+|-damage|p2a: Whiscash|277/329|[from] item: Life Orb
+|
+|upkeep
+|turn|27
+|c| JJ09LIE|Oh
+|c| JJ09LIE|no
+|c| 35Q71N|I never saw a Scarf Draco here in the last months
+|c| JJ09LIE|There’s no scarf
+|c|☆KingZuko|ive never seen one
+|c| JJ09LIE|only band
+|c|☆KingZuko|they're all banded in rands
+|c|☆Referrals|only difference is abilities
+|c| OiiiiiiiiiO|Oh, ok. Won't to be great for ficious rend?
+|c|☆Referrals|shoulda predicted the max but i cant focus lol
+|c|☆Referrals|gg
+|
+|t:|1651408241
+|move|p1a: Dracovish|Fishious Rend|p2a: Whiscash
+|-crit|p2a: Whiscash
+|-damage|p2a: Whiscash|0 fnt
+|faint|p2a: Whiscash
+|
+|upkeep
+|
+|t:|1651408243
+|switch|p2a: Cresselia|Cresselia, L80, F|270/323
+|-damage|p2a: Cresselia|230/323|[from] Stealth Rock
+|turn|28
+|c|☆KingZuko|yeah I was suprise
+|c|☆KingZuko|d
+|c| 35Q71N|Yes, scarf Draco + Fishious is insane
+|c|☆KingZuko|no bigger predict
+|c| JJ09LIE|Rip no1
+|
+|t:|1651408266
+|move|p2a: Cresselia|Calm Mind|p2a: Cresselia
+|-boost|p2a: Cresselia|spa|1
+|-boost|p2a: Cresselia|spd|1
+|move|p1a: Dracovish|Fishious Rend|p2a: Cresselia
+|-damage|p2a: Cresselia|88/323
+|
+|-heal|p2a: Cresselia|108/323|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1651408279
+|switch|p1a: Excadrill|Excadrill, L78, M|300/300
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Cresselia|Calm Mind|p2a: Cresselia
+|-boost|p2a: Cresselia|spa|1
+|-boost|p2a: Cresselia|spd|1
+|
+|-heal|p2a: Cresselia|128/323|[from] item: Leftovers
+|upkeep
+|turn|30
+|c| OiiiiiiiiiO|He was already no 1. North of 2500
+|
+|t:|1651408287
+|move|p2a: Cresselia|Psyshock|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|207/300
+|move|p1a: Excadrill|Rapid Spin|p2a: Cresselia
+|-damage|p2a: Cresselia|97/323
+|-boost|p1a: Excadrill|spe|1
+|
+|-heal|p1a: Excadrill|225/300|[from] item: Leftovers
+|-heal|p2a: Cresselia|117/323|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1651408294
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Cresselia|Moonlight|p2a: Cresselia
+|-heal|p2a: Cresselia|278/323
+|
+|-heal|p1a: Excadrill|243/300|[from] item: Leftovers
+|-heal|p2a: Cresselia|298/323|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1651408298
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Cresselia|Psyshock|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|148/300
+|
+|-heal|p1a: Excadrill|166/300|[from] item: Leftovers
+|-heal|p2a: Cresselia|318/323|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1651408303
+|move|p1a: Excadrill|Iron Head|p2a: Cresselia
+|-damage|p2a: Cresselia|89/323
+|move|p2a: Cresselia|Psyshock|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|82/300
+|
+|-heal|p1a: Excadrill|100/300|[from] item: Leftovers
+|-heal|p2a: Cresselia|109/323|[from] item: Leftovers
+|upkeep
+|turn|34
+|c| 35Q71N|gg to both
+|c|☆Referrals|gg
+|
+|t:|1651408316
+|move|p1a: Excadrill|Iron Head|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|faint|p2a: Cresselia
+|
+|win|KingZuko
+|raw|KingZuko's rating: 2409 &rarr; <strong>2430</strong><br />(+21 for winning)
+|raw|Referrals's rating: 2425 &rarr; <strong>2404</strong><br />(-21 for losing)
+|c|☆KingZuko|gg
+|c| OiiiiiiiiiO|Romeo my guy. How have you been
+|l|☆Referrals

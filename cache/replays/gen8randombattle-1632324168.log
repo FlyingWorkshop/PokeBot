@@ -1,0 +1,773 @@
+|j|☆fatfighter2
+|j|☆Crunchman
+|t:|1659643785
+|gametype|singles
+|player|p1|fatfighter2|misty|2454
+|player|p2|Crunchman|#crunchman|2430
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1659643785
+|start
+|switch|p1a: Gothitelle|Gothitelle, L86, M|261/261
+|switch|p2a: Gourgeist|Gourgeist-Large, L84, F|263/263
+|-item|p1a: Gothitelle|Leftovers|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|1
+|c|☆fatfighter2|gaming
+|c|☆fatfighter2|/log fatfighter2 made this room public.
+|j|+avarice
+|c|☆Crunchman|I hereby acknowledge and declare this game to be an official tournament game between Fatfighter2 and Crunchman playing for US Midwest and US West respectively for the Pools Stage of the 2022 World Cup of Random Battles
+|c|☆fatfighter2|I hereby acknowledge and declare this game to be an official tournament game between Fatfighter2 and Crunchman playing for US Midwest and US West respectively for the Pools Stage of the 2022 World Cup of Random Battles
+|j| Tenebrae Operiere
+|j| luchick
+|j| Referrals
+|j|+articoo ☾
+|j|+not haruno
+|
+|t:|1659643915
+|switch|p1a: Arcanine|Arcanine, L82, M|282/282
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Gourgeist|atk|1
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Arcanine
+|-immune|p1a: Arcanine
+|
+|upkeep
+|turn|2
+|c|+not haruno|It's crunchtime
+|
+|t:|1659643924
+|switch|p2a: Wailord|Wailord, L90, F|452/452
+|move|p1a: Arcanine|Toxic|p2a: Wailord
+|-status|p2a: Wailord|tox
+|
+|-damage|p2a: Wailord|424/452 tox|[from] psn
+|upkeep
+|turn|3
+|j| grass is beauty
+|j| Xceloh
+|
+|t:|1659643937
+|switch|p1a: Zekrom|Zekrom, L69|252/252
+|-ability|p1a: Zekrom|Teravolt
+|move|p2a: Wailord|Hydro Pump|p1a: Zekrom|[miss]
+|-miss|p2a: Wailord|p1a: Zekrom
+|
+|-damage|p2a: Wailord|368/452 tox|[from] psn
+|upkeep
+|turn|4
+|j| Lrogue ❀
+|l| Xceloh
+|
+|t:|1659643960
+|switch|p1a: Tornadus|Tornadus, L80, M|258/258
+|switch|p2a: Gourgeist|Gourgeist-Large, L84, F|263/263
+|-item|p1a: Tornadus|Heavy-Duty Boots|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|
+|upkeep
+|turn|5
+|j| CutePokesOnly
+|j| extrarecord
+|
+|t:|1659643986
+|switch|p2a: Jirachi|Jirachi, L79|288/288
+|move|p1a: Tornadus|Hurricane|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|228/288
+|-start|p2a: Jirachi|confusion
+|
+|-heal|p2a: Jirachi|246/288|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1659644004
+|switch|p1a: Zekrom|Zekrom, L69|252/252
+|-ability|p1a: Zekrom|Teravolt
+|switch|p2a: Tornadus|Tornadus-Therian, L78, M|251/251
+|
+|upkeep
+|turn|7
+|
+|t:|1659644013
+|move|p2a: Tornadus|U-turn|p1a: Zekrom
+|-damage|p1a: Zekrom|208/252
+|c| Tenebrae Operiere|who gave u guys the copypasta
+|c|☆fatfighter2|ask crunch
+|c|☆Crunchman|i wrote it in like 20 seconds
+|c| Tenebrae Operiere|o
+|
+|t:|1659644037
+|switch|p2a: Gourgeist|Gourgeist-Large, L84, F|263/263
+|-item|p1a: Zekrom|Lum Berry|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Zekrom|Bolt Strike|p2a: Gourgeist
+|-resisted|p2a: Gourgeist
+|-damage|p2a: Gourgeist|215/263
+|-status|p2a: Gourgeist|par
+|
+|upkeep
+|turn|8
+|
+|t:|1659644047
+|switch|p1a: Arcanine|Arcanine, L82, M|282/282
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Gourgeist|atk|1
+|move|p2a: Gourgeist|Poltergeist|p1a: Arcanine
+|-activate|p1a: Arcanine|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Arcanine|177/282
+|-damage|p2a: Gourgeist|189/263 par|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|j| Fjccn m
+|l| Fjccn m
+|
+|t:|1659644063
+|switch|p1a: Zekrom|Zekrom, L69|208/252
+|-ability|p1a: Zekrom|Teravolt
+|switch|p2a: Tornadus|Tornadus-Therian, L78, M|251/251
+|
+|upkeep
+|turn|10
+|j| TheRealBNW
+|
+|t:|1659644080
+|move|p2a: Tornadus|U-turn|p1a: Zekrom
+|-damage|p1a: Zekrom|167/252
+|
+|t:|1659644084
+|switch|p2a: Gourgeist|Gourgeist-Large, L84, F|189/263 par
+|-item|p1a: Zekrom|Lum Berry|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Zekrom|Dragon Dance|p1a: Zekrom
+|-boost|p1a: Zekrom|atk|1
+|-boost|p1a: Zekrom|spe|1
+|
+|upkeep
+|turn|11
+|j| Kaneki-Random
+|j| EpiclyEpicGamerE
+|j| outz u
+|j|+dnagerbdager
+|
+|t:|1659644123
+|move|p1a: Zekrom|Roost|p1a: Zekrom
+|-heal|p1a: Zekrom|252/252
+|-singleturn|p1a: Zekrom|move: Roost
+|move|p2a: Gourgeist|Poltergeist|p1a: Zekrom
+|-activate|p1a: Zekrom|move: Poltergeist|Lum Berry
+|-damage|p1a: Zekrom|99/252
+|-damage|p2a: Gourgeist|163/263 par|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|l| grass is beauty
+|l| EpiclyEpicGamerE
+|
+|t:|1659644144
+|move|p1a: Zekrom|Roost|p1a: Zekrom
+|-heal|p1a: Zekrom|225/252
+|-singleturn|p1a: Zekrom|move: Roost
+|move|p2a: Gourgeist|Poltergeist|p1a: Zekrom
+|-activate|p1a: Zekrom|move: Poltergeist|Lum Berry
+|-damage|p1a: Zekrom|91/252
+|-damage|p2a: Gourgeist|137/263 par|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+|c| Tenebrae Operiere|69
+|l|☆fatfighter2
+|player|p1|
+|c| luchick|wincon?
+|j|☆fatfighter2
+|player|p1|fatfighter2|misty
+|j| Teres bahji
+|c| Teres bahji|LETS GO FATFIGHTER
+|
+|t:|1659644211
+|move|p1a: Zekrom|Roost|p1a: Zekrom
+|-heal|p1a: Zekrom|217/252
+|-singleturn|p1a: Zekrom|move: Roost
+|move|p2a: Gourgeist|Poltergeist|p1a: Zekrom
+|-activate|p1a: Zekrom|move: Poltergeist|Lum Berry
+|-damage|p1a: Zekrom|68/252
+|-damage|p2a: Gourgeist|111/263 par|[from] item: Life Orb
+|
+|upkeep
+|turn|14
+|c|☆Crunchman|the goat gourgeist of all time
+|c| CutePokesOnly|gourgeist is cuter
+|c| CutePokesOnly|ergo
+|c|+articoo ☾|wish gourgeist's stalk thing wouldn't look like a neck
+|
+|t:|1659644255
+|move|p1a: Zekrom|Roost|p1a: Zekrom
+|-heal|p1a: Zekrom|194/252
+|-singleturn|p1a: Zekrom|move: Roost
+|cant|p2a: Gourgeist|par
+|
+|upkeep
+|turn|15
+|c|+articoo ☾|always throws me off
+|c| Lrogue ❀|Go crunch
+|c| Lrogue ❀|solely bcuz I have a vendetta against any and all gothitelle
+|j| Sigggggggg
+|l| TheRealBNW
+|
+|t:|1659644300
+|-start|p1a: Zekrom|Dynamax|
+|-heal|p1a: Zekrom|388/504|[silent]
+|move|p1a: Zekrom|Max Wyrmwind|p2a: Gourgeist
+|-damage|p2a: Gourgeist|0 fnt
+|faint|p2a: Gourgeist
+|
+|upkeep
+|l|+articoo ☾
+|
+|t:|1659644331
+|switch|p2a: Kyurem|Kyurem-White, L74|307/307
+|-ability|p2a: Kyurem|Turboblaze
+|turn|16
+|j|+articoo ☾
+|
+|t:|1659644342
+|-start|p2a: Kyurem|Dynamax|
+|-heal|p2a: Kyurem|614/614|[silent]
+|move|p1a: Zekrom|Max Wyrmwind|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|146/614
+|-unboost|p2a: Kyurem|atk|1
+|move|p2a: Kyurem|Max Wyrmwind|p1a: Zekrom
+|-supereffective|p1a: Zekrom
+|-damage|p1a: Zekrom|0 fnt
+|faint|p1a: Zekrom
+|
+|-heal|p2a: Kyurem|165/614|[from] item: Leftovers
+|upkeep
+|c| CutePokesOnly|sibling rivalry
+|j| pokeslice
+|
+|t:|1659644387
+|switch|p1a: Sharpedo|Sharpedo, L82, F|249/249
+|turn|17
+|j| uhnwi
+|l| uhnwi
+|c| Teres bahji|ah
+|
+|t:|1659644462
+|move|p2a: Kyurem|Max Guard|p2a: Kyurem
+|-singleturn|p2a: Kyurem|Max Guard
+|move|p1a: Sharpedo|Close Combat|p2a: Kyurem
+|-activate|p2a: Kyurem|move: Max Guard
+|
+|-heal|p2a: Kyurem|184/614|[from] item: Leftovers
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|turn|18
+|j|+heroictobias
+|
+|t:|1659644494
+|-end|p2a: Kyurem|Dynamax
+|-heal|p2a: Kyurem|92/307|[silent]
+|switch|p2a: Wailord|Wailord, L90, F|368/452 tox
+|move|p1a: Sharpedo|Close Combat|p2a: Wailord
+|-damage|p2a: Wailord|185/452 tox
+|-unboost|p1a: Sharpedo|def|1
+|-unboost|p1a: Sharpedo|spd|1
+|-damage|p1a: Sharpedo|225/249|[from] item: Life Orb
+|
+|-damage|p2a: Wailord|157/452 tox|[from] psn
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|turn|19
+|
+|t:|1659644503
+|move|p1a: Sharpedo|Crunch|p2a: Wailord
+|-damage|p2a: Wailord|0 fnt
+|faint|p2a: Wailord
+|-damage|p1a: Sharpedo|201/249|[from] item: Life Orb
+|
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|
+|t:|1659644513
+|switch|p2a: Tornadus|Tornadus-Therian, L78, M|251/251
+|turn|20
+|
+|t:|1659644544
+|switch|p1a: Arcanine|Arcanine, L82, M|177/282
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Tornadus|atk|1
+|move|p2a: Tornadus|U-turn|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|159/282
+|
+|t:|1659644549
+|switch|p2a: Aerodactyl|Aerodactyl, L82, M|265/265
+|-ability|p2a: Aerodactyl|Unnerve
+|
+|upkeep
+|turn|21
+|
+|t:|1659644565
+|switch|p1a: Hitmonlee|Hitmonlee, L84, M|221/221
+|move|p2a: Aerodactyl|Stone Edge|p1a: Hitmonlee|[miss]
+|-miss|p2a: Aerodactyl|p1a: Hitmonlee
+|
+|upkeep
+|turn|22
+|
+|t:|1659644641
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|6/265
+|move|p2a: Aerodactyl|Dual Wingbeat|p1a: Hitmonlee
+|-supereffective|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|93/221
+|-supereffective|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|-hitcount|p1: Hitmonlee|2
+|
+|upkeep
+|j| papiloco
+|c| pokeslice|ate
+|c| Teres bahji|lol
+|
+|t:|1659644656
+|switch|p1a: Gothitelle|Gothitelle, L86, M|261/261
+|turn|23
+|
+|t:|1659644661
+|move|p2a: Aerodactyl|Stone Edge|p1a: Gothitelle
+|-damage|p1a: Gothitelle|167/261
+|move|p1a: Gothitelle|Psychic|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|-heal|p1a: Gothitelle|183/261|[from] item: Leftovers
+|upkeep
+|
+|t:|1659644682
+|switch|p2a: Jirachi|Jirachi, L79|246/288
+|turn|24
+|
+|t:|1659644705
+|move|p2a: Jirachi|Toxic|p1a: Gothitelle
+|-status|p1a: Gothitelle|tox
+|move|p1a: Gothitelle|Shadow Ball|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|132/288
+|
+|-heal|p2a: Jirachi|150/288|[from] item: Leftovers
+|-heal|p1a: Gothitelle|199/261 tox|[from] item: Leftovers
+|-damage|p1a: Gothitelle|183/261 tox|[from] psn
+|upkeep
+|turn|25
+|c| papiloco|Crunchman sucks
+|
+|t:|1659644711
+|switch|p1a: Sharpedo|Sharpedo, L82, F|201/249
+|move|p2a: Jirachi|U-turn|p1a: Sharpedo
+|-supereffective|p1a: Sharpedo
+|-damage|p1a: Sharpedo|45/249
+|
+|t:|1659644718
+|switch|p2a: Tornadus|Tornadus-Therian, L78, M|251/251
+|
+|upkeep
+|turn|26
+|c| CutePokesOnly|is that any way to speak to your mother
+|
+|t:|1659644726
+|move|p1a: Sharpedo|Protect|p1a: Sharpedo
+|-singleturn|p1a: Sharpedo|Protect
+|move|p2a: Tornadus|U-turn|p1a: Sharpedo
+|-activate|p1a: Sharpedo|move: Protect
+|
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|turn|27
+|c|☆Crunchman|i-
+|
+|t:|1659644731
+|switch|p1a: Gothitelle|Gothitelle, L86, M|183/261 tox
+|move|p2a: Tornadus|U-turn|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|93/261 tox
+|
+|t:|1659644734
+|switch|p2a: Kyurem|Kyurem-White, L74|92/307
+|-ability|p2a: Kyurem|Turboblaze
+|
+|-heal|p2a: Kyurem|111/307|[from] item: Leftovers
+|-heal|p1a: Gothitelle|109/261 tox|[from] item: Leftovers
+|-damage|p1a: Gothitelle|93/261 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1659644738
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|265/307
+|-singleturn|p2a: Kyurem|move: Roost
+|move|p1a: Gothitelle|Psychic|p2a: Kyurem
+|-damage|p2a: Kyurem|165/307
+|
+|-heal|p2a: Kyurem|184/307|[from] item: Leftovers
+|-heal|p1a: Gothitelle|109/261 tox|[from] item: Leftovers
+|-damage|p1a: Gothitelle|77/261 tox|[from] psn
+|upkeep
+|turn|29
+|c|+articoo ☾|holy fuck thats a hella cool ca
+|c|+articoo ☾|~~silksongwher~~
+|
+|t:|1659644761
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|307/307
+|-singleturn|p2a: Kyurem|move: Roost
+|move|p1a: Gothitelle|Psychic|p2a: Kyurem
+|-damage|p2a: Kyurem|210/307
+|
+|-heal|p2a: Kyurem|229/307|[from] item: Leftovers
+|-heal|p1a: Gothitelle|93/261 tox|[from] item: Leftovers
+|-damage|p1a: Gothitelle|45/261 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1659644765
+|move|p2a: Kyurem|Ice Beam|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|faint|p1a: Gothitelle
+|
+|-heal|p2a: Kyurem|248/307|[from] item: Leftovers
+|upkeep
+|
+|t:|1659644787
+|switch|p1a: Sharpedo|Sharpedo, L82, F|45/249
+|turn|31
+|l| pokeslice
+|j| demi6ual-wailord
+|
+|t:|1659644807
+|switch|p2a: Tornadus|Tornadus-Therian, L78, M|251/251
+|move|p1a: Sharpedo|Close Combat|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|180/251
+|-unboost|p1a: Sharpedo|def|1
+|-unboost|p1a: Sharpedo|spd|1
+|-damage|p1a: Sharpedo|21/249|[from] item: Life Orb
+|
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|turn|32
+|j| pokeslice
+|
+|t:|1659644860
+|move|p1a: Sharpedo|Crunch|p2a: Tornadus
+|-damage|p2a: Tornadus|24/251
+|-damage|p1a: Sharpedo|0 fnt|[from] item: Life Orb
+|faint|p1a: Sharpedo
+|move|p2a: Tornadus|U-turn|p1: Sharpedo|[notarget]
+|-fail|p2a: Tornadus
+|
+|upkeep
+|j| Artistsrendition
+|j| rdieu
+|j| fespy
+|l| fespy
+|j| uhnwi
+|
+|t:|1659644920
+|switch|p1a: Tornadus|Tornadus, L80, M|258/258
+|turn|33
+|j| Separation
+|
+|t:|1659644935
+|move|p1a: Tornadus|Nasty Plot|p1a: Tornadus
+|-boost|p1a: Tornadus|spa|2
+|move|p2a: Tornadus|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|228/258
+|j| fespy
+|
+|t:|1659644952
+|switch|p2a: Kyurem|Kyurem-White, L74|248/307
+|-ability|p2a: Kyurem|Turboblaze
+|
+|-heal|p2a: Kyurem|267/307|[from] item: Leftovers
+|upkeep
+|turn|34
+|c| Tenebrae Operiere|dmax rn
+|l| fespy
+|c| CutePokesOnly|when does gourgeist come back
+|
+|t:|1659644985
+|move|p1a: Tornadus|Hurricane|p2a: Kyurem|[miss]
+|-miss|p1a: Tornadus|p2a: Kyurem
+|move|p2a: Kyurem|Ice Beam|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-heal|p2a: Kyurem|286/307|[from] item: Leftovers
+|upkeep
+|
+|t:|1659644988
+|switch|p1a: Arcanine|Arcanine, L82, M|159/282
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Kyurem|atk|1
+|turn|35
+|
+|t:|1659644997
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|282/282
+|move|p2a: Kyurem|Draco Meteor|p1a: Arcanine
+|-damage|p1a: Arcanine|84/282
+|-unboost|p2a: Kyurem|spa|2
+|
+|-heal|p2a: Kyurem|305/307|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1659645003
+|switch|p2a: Jirachi|Jirachi, L79|150/288
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|225/282
+|
+|-heal|p2a: Jirachi|168/288|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1659645007
+|move|p2a: Jirachi|Toxic|p1a: Arcanine|[miss]
+|-miss|p2a: Jirachi|p1a: Arcanine
+|move|p1a: Arcanine|Flare Blitz|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|-damage|p1a: Arcanine|170/282|[from] Recoil
+|
+|upkeep
+|c|☆fatfighter2|damn
+|c| Teres bahji|huh
+|
+|t:|1659645030
+|switch|p2a: Tornadus|Tornadus-Therian, L78, M|107/251
+|turn|38
+|c| CutePokesOnly|dw, this tornadus only knows uturn
+|c|☆fatfighter2|whys it clicked u turn 7 times already
+|c|☆Crunchman|all 3 of the other moves are
+|c|☆Crunchman|unappealing
+|c|☆fatfighter2|gotta be cb
+|c|+not haruno|hurricane confusion
+|c|+not haruno|lgi
+|c|☆Crunchman|for various reasons
+|c|☆fatfighter2|bro with how this game is going
+|c| Kaneki-Random|are you guys really playing for wcop?
+|c|☆fatfighter2|its gonna miss
+|
+|t:|1659645107
+|move|p2a: Tornadus|U-turn|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|147/282
+|c|+not haruno|yes kaneki-random
+|c| CutePokesOnly|tailwind, thundershock, ice shard, uturn
+|
+|t:|1659645110
+|switch|p2a: Kyurem|Kyurem-White, L74|305/307
+|-ability|p2a: Kyurem|Turboblaze
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|282/282
+|
+|-heal|p2a: Kyurem|307/307|[from] item: Leftovers
+|upkeep
+|turn|39
+|c|+not haruno|it's actually more prestigious than wcop
+|c| Kaneki-Random|damn this is a first
+|c|+not haruno|it's world cup of randbats
+|
+|t:|1659645119
+|move|p1a: Arcanine|Toxic|p2a: Kyurem
+|-status|p2a: Kyurem|tox
+|move|p2a: Kyurem|Draco Meteor|p1a: Arcanine
+|-damage|p1a: Arcanine|102/282
+|-unboost|p2a: Kyurem|spa|2
+|
+|-damage|p2a: Kyurem|288/307 tox|[from] psn
+|upkeep
+|turn|40
+|c| Kaneki-Random|ladder game that becomes wcop game
+|
+|t:|1659645125
+|switch|p2a: Tornadus|Tornadus-Therian, L78, M|190/251
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|243/282
+|
+|upkeep
+|turn|41
+|
+|t:|1659645130
+|move|p2a: Tornadus|Hurricane|p1a: Arcanine|[miss]
+|-miss|p2a: Tornadus|p1a: Arcanine
+|move|p1a: Arcanine|Flare Blitz|p2a: Tornadus
+|-damage|p2a: Tornadus|46/251
+|-damage|p1a: Arcanine|195/282|[from] Recoil
+|
+|upkeep
+|turn|42
+|c|+articoo ☾|wait mfw-
+|
+|t:|1659645134
+|move|p1a: Arcanine|Extreme Speed|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+|
+|t:|1659645139
+|switch|p2a: Kyurem|Kyurem-White, L74|288/307 tox
+|-ability|p2a: Kyurem|Turboblaze
+|turn|43
+|c|+articoo ☾|didn't even realize this was ladder lmao
+|
+|t:|1659645146
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|282/282
+|move|p2a: Kyurem|Ice Beam|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|215/282
+|-status|p1a: Arcanine|frz
+|
+|-heal|p2a: Kyurem|307/307 tox|[from] item: Leftovers
+|-damage|p2a: Kyurem|288/307 tox|[from] psn
+|upkeep
+|turn|44
+|c| Kaneki-Random|lmaoo arti
+|c| CutePokesOnly|loool
+|c|☆fatfighter2|,
+|c|+not haruno|LMAO
+|l| rdieu
+|c| pokeslice|someone hit a move i swear
+|c| pokeslice|what is this LOLL
+|c| CutePokesOnly|the freeeeeeze
+|c|☆Crunchman|i saw the wincon
+|
+|t:|1659645173
+|-curestatus|p1a: Arcanine|frz|[msg]
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|282/282
+|move|p2a: Kyurem|Draco Meteor|p1a: Arcanine
+|-damage|p1a: Arcanine|96/282
+|-unboost|p2a: Kyurem|spa|2
+|
+|-heal|p2a: Kyurem|307/307 tox|[from] item: Leftovers
+|-damage|p2a: Kyurem|269/307 tox|[from] psn
+|upkeep
+|turn|45
+|c|+not haruno|why is ice beam allowed
+|c|☆fatfighter2|LMAOO
+|c|☆Crunchman|nvm
+|c|+articoo ☾|mood
+|
+|t:|1659645183
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|237/282
+|move|p2a: Kyurem|Ice Beam|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|206/282
+|
+|-heal|p2a: Kyurem|288/307 tox|[from] item: Leftovers
+|-damage|p2a: Kyurem|231/307 tox|[from] psn
+|upkeep
+|turn|46
+|c|☆fatfighter2|bro u better not crit
+|c|+articoo ☾|saw the copypasta and thought "yeah thats just what smogon ppl do"
+|c|+not haruno|draco crit
+|l| Artistsrendition
+|c|+not haruno|lgi
+|
+|t:|1659645191
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|282/282
+|move|p2a: Kyurem|Draco Meteor|p1a: Arcanine
+|-damage|p1a: Arcanine|192/282
+|-unboost|p2a: Kyurem|spa|2
+|
+|-heal|p2a: Kyurem|250/307 tox|[from] item: Leftovers
+|-damage|p2a: Kyurem|174/307 tox|[from] psn
+|upkeep
+|turn|47
+|
+|t:|1659645195
+|move|p1a: Arcanine|Flare Blitz|p2a: Kyurem
+|-damage|p2a: Kyurem|36/307 tox
+|-damage|p1a: Arcanine|146/282|[from] Recoil
+|move|p2a: Kyurem|Draco Meteor|p1a: Arcanine
+|-damage|p1a: Arcanine|82/282
+|-unboost|p2a: Kyurem|spa|2
+|
+|-heal|p2a: Kyurem|55/307 tox|[from] item: Leftovers
+|-damage|p2a: Kyurem|0 fnt|[from] psn
+|faint|p2a: Kyurem
+|
+|win|fatfighter2
+|upkeep
+|raw|fatfighter2's rating: 2454 &rarr; <strong>2473</strong><br />(+19 for winning)
+|raw|Crunchman's rating: 2430 &rarr; <strong>2411</strong><br />(-19 for losing)
+|l| extrarecord
+|c|☆Crunchman|gg1
+|c| Lrogue ❀|think we need to get arti glasses
+|c| CutePokesOnly|jirachi and its bum ass glasses
+|c|☆fatfighter2|gg
+|c|☆Crunchman|okay are we calling fatfighter
+|c|☆fatfighter2|let me do ladder
+|c|☆fatfighter2|I'll probaby lose
+|c|☆Crunchman|hm
+|l| papiloco
+|l| uhnwi
+|l| pokeslice
+|c|☆fatfighter2|lets get on call
+|l| CutePokesOnly
+|c| Tenebrae Operiere|lgi midwest
+|l| outz u
+||Ladder isn't responding, score probably updated but might not have (Request timeout).
+|l| Kaneki-Random
+|l|+dnagerbdager
+|l|☆fatfighter2
+|l| Separation
+|l|+articoo ☾
+|l| Tenebrae Operiere
+|l|+avarice
+|l| luchick
+|l| Lrogue ❀
+|l| demi6ual-wailord
+|j| Kaneki-Random
+|l| Kaneki-Random
+|j| sasha n_n
+|l| sasha n_n
+|j| Kate
+|l|+not haruno
+|j| 35Q71N
+|l| 35Q71N
+|l| Sigggggggg
+|j| Chris Numbers
+|j| gewwge
+|l| Chris Numbers
+|j| Lrogue ❀
+|l| Lrogue ❀
+|l|+heroictobias
+|l| gewwge
+|j| snorlax142857
+|j| 35Q71N
+|l| 35Q71N
+|l| snorlax142857
+|j| Meminger21
+|j|☆fatfighter2
+|player|p1|fatfighter2|misty

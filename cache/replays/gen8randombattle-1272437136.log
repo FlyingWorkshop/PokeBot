@@ -1,0 +1,493 @@
+|j|☆Lycandusk
+|j|☆Sir Missalot III
+|t:|1611999810
+|player|p1|Lycandusk|kahili|2424
+|player|p2|Sir Missalot III|ghetsis|2420
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1611999810
+|start
+|switch|p1a: Tsareena|Tsareena, L86, F|264/264
+|switch|p2a: Pinsir|Pinsir, L86, F|251/251
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sir Missalot III)
+|
+|t:|1611999831
+|switch|p1a: Skarmory|Skarmory, L82, M|241/241
+|move|p2a: Pinsir|Knock Off|p1a: Skarmory
+|-damage|p1a: Skarmory|144/241
+|-enditem|p1a: Skarmory|Leftovers|[from] move: Knock Off|[of] p2a: Pinsir
+|
+|upkeep
+|turn|2
+|
+|t:|1611999849
+|switch|p2a: Cinderace|Cinderace, L78, M|253/253
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|241/241
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|upkeep
+|turn|3
+|
+|t:|1611999857
+|switch|p1a: Carbink|Carbink, L88|231/231
+|move|p2a: Cinderace|Pyro Ball|p1a: Carbink
+|-resisted|p1a: Carbink
+|-damage|p1a: Carbink|192/231
+|
+|upkeep
+|turn|4
+|
+|t:|1611999866
+|move|p2a: Cinderace|Gunk Shot|p1a: Carbink
+|-start|p2a: Cinderace|typechange|Poison|[from] ability: Libero
+|-damage|p1a: Carbink|117/231
+|move|p1a: Carbink|Body Press|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|202/253
+|
+|upkeep
+|turn|5
+|
+|t:|1611999881
+|move|p2a: Cinderace|U-turn|p1a: Carbink
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Carbink
+|-damage|p1a: Carbink|93/231
+|
+|t:|1611999883
+|switch|p2a: Arctovish|Arctovish, L88|302/302
+|move|p1a: Carbink|Reflect|p1a: Carbink
+|-sidestart|p1: Lycandusk|Reflect
+|
+|upkeep
+|turn|6
+|inactive|Lycandusk has 120 seconds left.
+|
+|t:|1611999914
+|switch|p1a: Skarmory|Skarmory, L82, M|241/241
+|move|p2a: Arctovish|Fishious Rend|p1a: Skarmory
+|-damage|p1a: Skarmory|179/241
+|
+|upkeep
+|turn|7
+|
+|t:|1611999930
+|move|p1a: Skarmory|Brave Bird|p2a: Arctovish
+|-damage|p2a: Arctovish|206/302
+|-damage|p1a: Skarmory|147/241|[from] Recoil
+|move|p2a: Arctovish|Freeze-Dry|p1a: Skarmory
+|-damage|p1a: Skarmory|60/241
+|-status|p1a: Skarmory|frz
+|
+|upkeep
+|turn|8
+|c|☆Lycandusk|ye
+|inactive|Lycandusk has 120 seconds left.
+|c|☆Sir Missalot III|sorry
+|inactive|Sir Missalot III has 120 seconds left.
+|
+|t:|1611999955
+|cant|p1a: Skarmory|frz
+|move|p2a: Arctovish|Freeze-Dry|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|upkeep
+|
+|t:|1611999969
+|switch|p1a: Necrozma|Necrozma-Dawn-Wings, L78|279/279
+|turn|9
+|
+|t:|1611999978
+|switch|p2a: Moltres|Moltres-Galar, L78|267/267
+|move|p1a: Necrozma|Photon Geyser|p2a: Moltres
+|-immune|p2a: Moltres
+|
+|upkeep
+|turn|10
+|inactive|Lycandusk has 120 seconds left.
+|
+|t:|1611999989
+|switch|p1a: Sylveon|Sylveon, L86, F|304/304
+|move|p2a: Moltres|Nasty Plot|p2a: Moltres
+|-boost|p2a: Moltres|spa|2
+|
+|upkeep
+|turn|11
+|
+|t:|1612000000
+|-start|p2a: Moltres|Dynamax
+|-heal|p2a: Moltres|534/534|[silent]
+|move|p2a: Moltres|Max Airstream|p1a: Sylveon
+|-damage|p1a: Sylveon|117/304
+|-boost|p2a: Moltres|spe|1
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|136/304|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1612000007
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Moltres|Max Airstream|p1a: Sylveon
+|-zbroken|p1a: Sylveon
+|-damage|p1a: Sylveon|89/304
+|-boost|p2a: Moltres|spe|1
+|
+|-heal|p1a: Sylveon|241/304|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Sylveon|260/304|[from] item: Leftovers
+|-sideend|p1: Lycandusk|Reflect
+|upkeep
+|turn|13
+|
+|t:|1612000024
+|switch|p1a: Carbink|Carbink, L88|93/231
+|move|p2a: Moltres|Max Airstream|p1a: Carbink
+|-resisted|p1a: Carbink
+|-damage|p1a: Carbink|12/231
+|-boost|p2a: Moltres|spe|1
+|
+|-end|p2a: Moltres|Dynamax
+|-heal|p2a: Moltres|267/267|[silent]
+|upkeep
+|turn|14
+|
+|t:|1612000032
+|switch|p1a: Sylveon|Sylveon, L86, F|260/304
+|move|p2a: Moltres|Fiery Wrath|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|197/304
+|
+|-heal|p1a: Sylveon|216/304|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1612000038
+|move|p2a: Moltres|Hurricane|p1a: Sylveon|[miss]
+|-miss|p2a: Moltres|p1a: Sylveon
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|235/304|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1612000043
+|move|p2a: Moltres|Hurricane|p1a: Sylveon|[miss]
+|-miss|p2a: Moltres|p1a: Sylveon
+|move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+|-boost|p1a: Sylveon|spa|1
+|-boost|p1a: Sylveon|spd|1
+|
+|-heal|p1a: Sylveon|304/304|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|17
+|c|☆Sir Missalot III|that should make it up for the freeze :)
+|
+|t:|1612000061
+|move|p2a: Moltres|Nasty Plot|p2a: Moltres
+|-boost|p2a: Moltres|spa|2
+|move|p1a: Sylveon|Hyper Voice|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|upkeep
+|
+|t:|1612000071
+|switch|p2a: Cinderace|Cinderace, L78, M|202/253
+|turn|18
+|
+|t:|1612000074
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Cinderace|Gunk Shot|p1a: Sylveon
+|-start|p2a: Cinderace|typechange|Poison|[from] ability: Libero
+|-activate|p1a: Sylveon|move: Protect
+|
+|upkeep
+|turn|19
+|
+|t:|1612000080
+|switch|p1a: Carbink|Carbink, L88|12/231
+|move|p2a: Cinderace|Gunk Shot|p1a: Carbink|[miss]
+|-miss|p2a: Cinderace|p1a: Carbink
+|
+|upkeep
+|turn|20
+|
+|t:|1612000107
+|move|p2a: Cinderace|Pyro Ball|p1a: Carbink
+|-start|p2a: Cinderace|typechange|Fire|[from] ability: Libero
+|-resisted|p1a: Carbink
+|-damage|p1a: Carbink|0 fnt
+|faint|p1a: Carbink
+|
+|upkeep
+|
+|t:|1612000114
+|switch|p1a: Necrozma|Necrozma-Dawn-Wings, L78|279/279
+|turn|21
+|
+|t:|1612000126
+|move|p2a: Cinderace|U-turn|p1a: Necrozma
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Necrozma|213/279
+|
+|t:|1612000128
+|switch|p2a: Pinsir|Pinsir, L86, F|251/251
+|move|p1a: Necrozma|Stealth Rock|p2a: Pinsir
+|-sidestart|p2: Sir Missalot III|move: Stealth Rock
+|
+|-heal|p1a: Necrozma|230/279|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1612000136
+|switch|p1a: Exeggutor|Exeggutor-Alola, L88, F|310/310
+|-item|p2a: Pinsir|Choice Band|[from] ability: Frisk|[of] p1a: Exeggutor|[identify]
+|move|p2a: Pinsir|Knock Off|p1a: Exeggutor
+|-damage|p1a: Exeggutor|182/310
+|-enditem|p1a: Exeggutor|Life Orb|[from] move: Knock Off|[of] p2a: Pinsir
+|
+|upkeep
+|turn|23
+|
+|t:|1612000149
+|switch|p2a: Cinderace|Cinderace, L78, M|202/253
+|move|p1a: Exeggutor|Trick Room|p1a: Exeggutor
+|-fieldstart|move: Trick Room|[of] p1a: Exeggutor
+|
+|upkeep
+|turn|24
+|
+|t:|1612000170
+|switch|p2a: Arctovish|Arctovish, L88|206/302
+|-damage|p2a: Arctovish|131/302|[from] Stealth Rock
+|-start|p1a: Exeggutor|Dynamax
+|-heal|p1a: Exeggutor|364/620|[silent]
+|move|p1a: Exeggutor|Max Wyrmwind|p2a: Arctovish
+|-damage|p2a: Arctovish|11/302
+|-unboost|p2a: Arctovish|atk|1
+|
+|upkeep
+|turn|25
+|
+|t:|1612000183
+|move|p1a: Exeggutor|Max Overgrowth|p2a: Arctovish
+|-supereffective|p2a: Arctovish
+|-damage|p2a: Arctovish|0 fnt
+|-fieldstart|move: Grassy Terrain
+|faint|p2a: Arctovish
+|
+|-heal|p1a: Exeggutor|383/620|[from] Grassy Terrain
+|upkeep
+|
+|t:|1612000200
+|switch|p2a: Golurk|Golurk, L84|287/287
+|-damage|p2a: Golurk|270/287|[from] Stealth Rock
+|turn|26
+|
+|t:|1612000210
+|move|p1a: Exeggutor|Max Flare|p2a: Golurk
+|-damage|p2a: Golurk|138/287
+|-weather|SunnyDay
+|move|p2a: Golurk|Poltergeist||[still]
+|-fail|p2a: Golurk
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Exeggutor|402/620|[from] Grassy Terrain
+|-heal|p2a: Golurk|155/287|[from] Grassy Terrain
+|-end|p1a: Exeggutor|Dynamax
+|-heal|p1a: Exeggutor|201/310|[silent]
+|upkeep
+|turn|27
+|
+|t:|1612000231
+|move|p2a: Golurk|Rock Polish|p2a: Golurk
+|-boost|p2a: Golurk|spe|2
+|move|p1a: Exeggutor|Trick Room|p1a: Exeggutor
+|-fieldend|move: Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Golurk|172/287|[from] Grassy Terrain
+|-heal|p1a: Exeggutor|220/310|[from] Grassy Terrain
+|upkeep
+|turn|28
+|
+|t:|1612000242
+|move|p2a: Golurk|Stone Edge|p1a: Exeggutor
+|-damage|p1a: Exeggutor|113/310
+|-damage|p2a: Golurk|144/287|[from] item: Life Orb
+|move|p1a: Exeggutor|Trick Room|p1a: Exeggutor
+|-fieldstart|move: Trick Room|[of] p1a: Exeggutor
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Exeggutor|132/310|[from] Grassy Terrain
+|-heal|p2a: Golurk|161/287|[from] Grassy Terrain
+|upkeep
+|turn|29
+|
+|t:|1612000248
+|move|p1a: Exeggutor|Flamethrower|p2a: Golurk
+|-damage|p2a: Golurk|34/287
+|-status|p2a: Golurk|brn
+|move|p2a: Golurk|Stone Edge|p1a: Exeggutor
+|-damage|p1a: Exeggutor|83/310
+|-damage|p2a: Golurk|6/287 brn|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Exeggutor|102/310|[from] Grassy Terrain
+|-heal|p2a: Golurk|23/287 brn|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-damage|p2a: Golurk|6/287 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1612000254
+|move|p1a: Exeggutor|Flamethrower|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|-weather|none
+|upkeep
+|
+|t:|1612000261
+|switch|p2a: Cinderace|Cinderace, L78, M|202/253
+|turn|31
+|
+|t:|1612000267
+|move|p1a: Exeggutor|Draco Meteor|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-unboost|p1a: Exeggutor|spa|2
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1612000286
+|switch|p2a: Pinsir|Pinsir, L86, F|251/251
+|-damage|p2a: Pinsir|189/251|[from] Stealth Rock
+|turn|32
+|
+|t:|1612000292
+|switch|p1a: Sylveon|Sylveon, L86, F|304/304
+|move|p2a: Pinsir|X-Scissor|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|206/304
+|
+|-heal|p1a: Sylveon|225/304|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|33
+|
+|t:|1612000297
+|move|p2a: Pinsir|X-Scissor|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|122/304
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|141/304|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1612000309
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Pinsir|X-Scissor|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-heal|p1a: Sylveon|293/304|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Sylveon|304/304|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1612000311
+|move|p2a: Pinsir|X-Scissor|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|213/304
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|232/304|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1612000315
+|move|p2a: Pinsir|X-Scissor|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|139/304
+|move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+|-boost|p1a: Sylveon|spa|1
+|-boost|p1a: Sylveon|spd|1
+|
+|-heal|p1a: Sylveon|291/304|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Sylveon|304/304|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1612000319
+|switch|p2a: Rayquaza|Rayquaza, L76|285/285
+|-ability|p2a: Rayquaza|Air Lock
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|upkeep
+|turn|38
+|
+|t:|1612000333
+|move|p2a: Rayquaza|Dragon Ascent|p1a: Sylveon
+|-damage|p1a: Sylveon|108/304
+|-unboost|p2a: Rayquaza|def|1
+|-unboost|p2a: Rayquaza|spd|1
+|move|p1a: Sylveon|Hyper Voice|p2a: Rayquaza
+|-supereffective|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|faint|p2a: Rayquaza
+|
+|-heal|p1a: Sylveon|260/304|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Sylveon|279/304|[from] item: Leftovers
+|upkeep
+|
+|t:|1612000339
+|switch|p2a: Pinsir|Pinsir, L86, F|189/251
+|-damage|p2a: Pinsir|127/251|[from] Stealth Rock
+|turn|39
+|c|☆Sir Missalot III|welp gg
+|c|☆Lycandusk|gg
+|c|☆Sir Missalot III|my run ends here :(
+|
+|t:|1612000361
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Pinsir|X-Scissor|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-heal|p1a: Sylveon|298/304|[from] item: Leftovers
+|upkeep
+|turn|40
+|c|☆Lycandusk|yeah i saw you're quite high
+|
+|t:|1612000374
+|move|p2a: Pinsir|X-Scissor|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|197/304
+|move|p1a: Sylveon|Hyper Voice|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|
+|win|Lycandusk
+|raw|Lycandusk's rating: 2425 &rarr; <strong>2445</strong><br />(+20 for winning)
+|raw|Sir Missalot III's rating: 2420 &rarr; <strong>2400</strong><br />(-20 for losing)
+|c|☆Sir Missalot III|was on a tear since yesterday
+|c|☆Sir Missalot III|damn 20 points for you
+|c|☆Sir Missalot III|dope
+|c|☆Lycandusk|yeah..haha
+|c|☆Lycandusk|really good effort from you though

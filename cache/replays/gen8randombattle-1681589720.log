@@ -1,0 +1,347 @@
+|j|☆Separation
+|j|☆Accadere ☁@!
+|t:|1665333554
+|gametype|singles
+|player|p1|Separation|#wcorichina|2427
+|player|p2|Accadere ☁|touristf2|2405
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1665333554
+|start
+|switch|p1a: Drampa|Drampa, L86, F|274/274
+|switch|p2a: Dragapult|Dragapult, L78, M|265/265
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Accadere ☁)
+|
+|t:|1665333566
+|switch|p1a: Ninetales|Ninetales-Alola, L79, F|245/245
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Dragapult|U-turn|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|197/245
+|
+|t:|1665333569
+|switch|p2a: Sandslash|Sandslash-Alola, L86, M|269/269
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1665333578
+|switch|p1a: Drampa|Drampa, L86, F|274/274
+|move|p2a: Sandslash|Knock Off|p1a: Drampa
+|-damage|p1a: Drampa|180/274
+|-enditem|p1a: Drampa|Leftovers|[from] move: Knock Off|[of] p2a: Sandslash
+|-damage|p2a: Sandslash|243/269|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drampa|163/274|[from] Hail
+|upkeep
+|turn|3
+|
+|t:|1665333583
+|move|p2a: Sandslash|Triple Axel|p1a: Drampa
+|-supereffective|p1a: Drampa
+|-damage|p1a: Drampa|106/274
+|-supereffective|p1a: Drampa
+|-damage|p1a: Drampa|0 fnt
+|faint|p1a: Drampa
+|-hitcount|p1: Drampa|2
+|-damage|p2a: Sandslash|217/269|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1665333588
+|switch|p1a: Marshadow|Marshadow, L70|242/242
+|turn|4
+|
+|t:|1665333592
+|switch|p2a: Vileplume|Vileplume, L84, M|263/263
+|move|p1a: Marshadow|Close Combat|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|193/263
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|-status|p1a: Marshadow|slp|[from] ability: Effect Spore|[of] p2a: Vileplume
+|-damage|p1a: Marshadow|218/242 slp|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Marshadow|203/242 slp|[from] Hail
+|-damage|p2a: Vileplume|177/263|[from] Hail
+|-heal|p2a: Vileplume|193/263|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1665333596
+|switch|p1a: Nihilego|Nihilego, L79|302/302
+|move|p2a: Vileplume|Sludge Bomb|p1a: Nihilego
+|-resisted|p1a: Nihilego
+|-damage|p1a: Nihilego|281/302
+|
+|-weather|none
+|-heal|p1a: Nihilego|299/302|[from] item: Black Sludge
+|-heal|p2a: Vileplume|209/263|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1665333601
+|move|p1a: Nihilego|Stealth Rock|p2a: Vileplume
+|-sidestart|p2: Accadere ☁|move: Stealth Rock
+|move|p2a: Vileplume|Sleep Powder|p1a: Nihilego
+|-message|Sleep Clause Mod activated.
+|
+|-heal|p1a: Nihilego|302/302|[from] item: Black Sludge
+|-heal|p2a: Vileplume|225/263|[from] item: Black Sludge
+|upkeep
+|turn|7
+|j| MiniMazeltof
+|j| teres bahji
+|
+|t:|1665333608
+|move|p1a: Nihilego|Sludge Wave|p2a: Vileplume
+|-damage|p2a: Vileplume|110/263
+|move|p2a: Vileplume|Sleep Powder|p1a: Nihilego|[miss]
+|-miss|p2a: Vileplume|p1a: Nihilego
+|
+|-heal|p2a: Vileplume|126/263|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1665333623
+|switch|p2a: Shedinja|Shedinja, L88|1/1
+|move|p1a: Nihilego|Sludge Wave|p2a: Shedinja
+|-immune|p2a: Shedinja|[from] ability: Wonder Guard
+|
+|upkeep
+|turn|9
+|
+|t:|1665333632
+|switch|p1a: Ninetales|Ninetales-Alola, L79, F|197/245
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Shedinja|Poltergeist|p1a: Ninetales
+|-activate|p1a: Ninetales|move: Poltergeist|Light Clay
+|-damage|p1a: Ninetales|53/245
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Shedinja|0 fnt|[from] Hail
+|faint|p2a: Shedinja
+|upkeep
+|
+|t:|1665333641
+|switch|p2a: Dragapult|Dragapult, L78, M|265/265
+|-damage|p2a: Dragapult|232/265|[from] Stealth Rock
+|turn|10
+|
+|t:|1665333645
+|switch|p1a: Nihilego|Nihilego, L79|302/302
+|move|p2a: Dragapult|Shadow Ball|p1a: Nihilego
+|-damage|p1a: Nihilego|215/302
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dragapult|216/265|[from] Hail
+|-damage|p1a: Nihilego|197/302|[from] Hail
+|-heal|p1a: Nihilego|215/302|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1665333648
+|move|p2a: Dragapult|Shadow Ball|p1a: Nihilego
+|-damage|p1a: Nihilego|128/302
+|move|p1a: Nihilego|Sludge Wave|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|154/265
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dragapult|138/265|[from] Hail
+|-damage|p1a: Nihilego|110/302|[from] Hail
+|-heal|p1a: Nihilego|128/302|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1665333656
+|move|p2a: Dragapult|Shadow Ball|p1a: Nihilego
+|-damage|p1a: Nihilego|40/302
+|move|p1a: Nihilego|Sludge Wave|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|75/265
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dragapult|59/265|[from] Hail
+|-damage|p1a: Nihilego|22/302|[from] Hail
+|-heal|p1a: Nihilego|40/302|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1665333660
+|switch|p1a: Marshadow|Marshadow, L70|203/242 slp
+|move|p2a: Dragapult|Shadow Ball|p1a: Marshadow
+|-supereffective|p1a: Marshadow
+|-damage|p1a: Marshadow|0 fnt
+|faint|p1a: Marshadow
+|
+|-weather|none
+|upkeep
+|
+|t:|1665333662
+|switch|p1a: Ditto|Ditto, L76|198/198
+|-transform|p1a: Ditto|p2a: Dragapult|[from] ability: Imposter
+|turn|14
+|
+|t:|1665333664
+|switch|p2a: Guzzlord|Guzzlord, L84|512/512
+|-damage|p2a: Guzzlord|448/512|[from] Stealth Rock
+|move|p1a: Ditto|Shadow Ball|p2a: Guzzlord
+|-resisted|p2a: Guzzlord
+|-damage|p2a: Guzzlord|415/512
+|-unboost|p2a: Guzzlord|spd|1
+|
+|upkeep
+|turn|15
+|
+|t:|1665333674
+|switch|p1a: Bellossom|Bellossom, L82, M|257/257
+|move|p2a: Guzzlord|Knock Off|p1a: Bellossom
+|-damage|p1a: Bellossom|146/257
+|-enditem|p1a: Bellossom|Leftovers|[from] move: Knock Off|[of] p2a: Guzzlord
+|
+|upkeep
+|turn|16
+|
+|t:|1665333682
+|switch|p2a: Vileplume|Vileplume, L84, M|126/263
+|-damage|p2a: Vileplume|94/263|[from] Stealth Rock
+|move|p1a: Bellossom|Moonblast|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|65/263
+|
+|-heal|p2a: Vileplume|81/263|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|t:|1665333687
+|switch|p1a: Ninetales|Ninetales-Alola, L79, F|53/245
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Vileplume|Strength Sap|p1a: Ninetales
+|-unboost|p1a: Ninetales|atk|1
+|-heal|p2a: Vileplume|191/263
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Vileplume|175/263|[from] Hail
+|-heal|p2a: Vileplume|191/263|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|t:|1665333691
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Separation|move: Aurora Veil
+|move|p2a: Vileplume|Sludge Bomb|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Vileplume|175/263|[from] Hail
+|-heal|p2a: Vileplume|191/263|[from] item: Black Sludge
+|upkeep
+|
+|t:|1665333696
+|switch|p1a: Nihilego|Nihilego, L79|40/302
+|turn|19
+|
+|t:|1665333699
+|move|p1a: Nihilego|Sludge Wave|p2a: Vileplume
+|-damage|p2a: Vileplume|83/263
+|move|p2a: Vileplume|Sleep Powder|p1a: Nihilego|[miss]
+|-miss|p2a: Vileplume|p1a: Nihilego
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Nihilego|22/302|[from] Hail
+|-damage|p2a: Vileplume|67/263|[from] Hail
+|-heal|p1a: Nihilego|40/302|[from] item: Black Sludge
+|-heal|p2a: Vileplume|83/263|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|t:|1665333704
+|switch|p2a: Sandslash|Sandslash-Alola, L86, M|217/269
+|-damage|p2a: Sandslash|184/269|[from] Stealth Rock
+|move|p1a: Nihilego|Sludge Wave|p2a: Sandslash
+|-immune|p2a: Sandslash
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Nihilego|22/302|[from] Hail
+|-heal|p1a: Nihilego|40/302|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|t:|1665333708
+|move|p2a: Sandslash|Knock Off|p1a: Nihilego
+|-damage|p1a: Nihilego|0 fnt
+|-enditem|p1a: Nihilego|Black Sludge|[from] move: Knock Off|[of] p2a: Sandslash
+|faint|p1a: Nihilego
+|-damage|p2a: Sandslash|158/269|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1665333713
+|switch|p1a: Ditto|Ditto, L76|198/198
+|-transform|p1a: Ditto|p2a: Sandslash|[from] ability: Imposter
+|turn|22
+|
+|t:|1665333718
+|move|p1a: Ditto|Iron Head|p2a: Sandslash
+|-damage|p2a: Sandslash|95/269
+|cant|p2a: Sandslash|flinch
+|
+|upkeep
+|turn|23
+|
+|t:|1665333722
+|move|p1a: Ditto|Iron Head|p2a: Sandslash
+|-damage|p2a: Sandslash|26/269
+|cant|p2a: Sandslash|flinch
+|
+|upkeep
+|turn|24
+|
+|t:|1665333725
+|move|p1a: Ditto|Iron Head|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|
+|upkeep
+|
+|t:|1665333731
+|switch|p2a: Dragapult|Dragapult, L78, M|59/265
+|-damage|p2a: Dragapult|26/265|[from] Stealth Rock
+|turn|25
+|
+|t:|1665333736
+|-start|p1a: Ditto|Dynamax|
+|-heal|p1a: Ditto|396/396|[silent]
+|move|p2a: Dragapult|Fire Blast|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|-sideend|p1: Separation|move: Aurora Veil
+|upkeep
+|-message|Separation forfeited.
+|
+|win|Accadere ☁
+|raw|Separation's rating: 2427 &rarr; <strong>2406</strong><br />(-21 for losing)
+|raw|Accadere ☁'s rating: 2405 &rarr; <strong>2426</strong><br />(+21 for winning)
+|l|☆Separation
+|l| MiniMazeltof
+|l| teres bahji
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

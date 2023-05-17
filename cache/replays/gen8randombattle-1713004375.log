@@ -1,0 +1,295 @@
+|j|☆Subinator
+|j|☆Boris Huang - YT
+|t:|1668661288
+|gametype|singles
+|player|p1|Subinator|169|2443
+|player|p2|Boris Huang - YT|#teamgapdos|2416
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1668661288
+|start
+|switch|p1a: Beartic|Beartic, L86, F|303/303
+|switch|p2a: Araquanid|Araquanid, L80, M|240/240
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Boris Huang - YT)
+|
+|t:|1668661302
+|move|p1a: Beartic|Stone Edge|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|t:|1668661306
+|switch|p2a: Diggersby|Diggersby, L80, F|267/267
+|turn|2
+|
+|t:|1668661316
+|switch|p1a: Mudsdale|Mudsdale, L82, F|298/298
+|move|p2a: Diggersby|Swords Dance|p2a: Diggersby
+|-boost|p2a: Diggersby|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1668661330
+|switch|p1a: Maractus|Maractus, L95, M|296/296
+|move|p2a: Diggersby|Earthquake|p1a: Maractus
+|-resisted|p1a: Maractus
+|-damage|p1a: Maractus|110/296
+|-damage|p2a: Diggersby|241/267|[from] item: Life Orb
+|
+|-heal|p1a: Maractus|128/296|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1668661336
+|move|p1a: Maractus|Spiky Shield|p1a: Maractus
+|-singleturn|p1a: Maractus|move: Protect
+|move|p2a: Diggersby|Earthquake|p1a: Maractus
+|-activate|p1a: Maractus|move: Protect
+|
+|-heal|p1a: Maractus|146/296|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1668661340
+|move|p2a: Diggersby|Earthquake|p1a: Maractus
+|-resisted|p1a: Maractus
+|-crit|p1a: Maractus
+|-damage|p1a: Maractus|0 fnt
+|faint|p1a: Maractus
+|-damage|p2a: Diggersby|215/267|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1668661345
+|switch|p1a: Lunala|Lunala, L72|316/316
+|turn|6
+|
+|t:|1668661357
+|-start|p2a: Diggersby|Dynamax|
+|-heal|p2a: Diggersby|430/534|[silent]
+|move|p1a: Lunala|Psyshock|p2a: Diggersby
+|-damage|p2a: Diggersby|340/534
+|move|p2a: Diggersby|Max Quake|p1a: Lunala
+|-damage|p1a: Lunala|42/316
+|-boost|p2a: Diggersby|spd|1
+|-damage|p2a: Diggersby|314/534|[from] item: Life Orb
+|
+|-heal|p1a: Lunala|61/316|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1668661361
+|move|p1a: Lunala|Psyshock|p2a: Diggersby
+|-damage|p2a: Diggersby|211/534
+|move|p2a: Diggersby|Max Quake|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|-boost|p2a: Diggersby|spd|1
+|faint|p1a: Lunala
+|-damage|p2a: Diggersby|185/534|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1668661376
+|switch|p1a: Articuno|Articuno-Galar, L80|275/275
+|turn|8
+|
+|t:|1668661383
+|-start|p1a: Articuno|Dynamax|
+|-heal|p1a: Articuno|550/550|[silent]
+|move|p1a: Articuno|Max Guard|p1a: Articuno
+|-singleturn|p1a: Articuno|Max Guard
+|move|p2a: Diggersby|Max Strike|p1a: Articuno
+|-activate|p1a: Articuno|move: Max Guard
+|
+|upkeep
+|-end|p2a: Diggersby|Dynamax
+|-heal|p2a: Diggersby|93/267|[silent]
+|turn|9
+|
+|t:|1668661389
+|move|p1a: Articuno|Max Airstream|p2a: Diggersby
+|-damage|p2a: Diggersby|3/267
+|-boost|p1a: Articuno|spe|1
+|move|p2a: Diggersby|Body Slam|p1a: Articuno
+|-damage|p1a: Articuno|260/550
+|-status|p1a: Articuno|par
+|-damage|p2a: Diggersby|0 fnt|[from] item: Life Orb
+|faint|p2a: Diggersby
+|
+|upkeep
+|
+|t:|1668661399
+|switch|p2a: Meowstic|Meowstic-F, L86, F|268/268
+|turn|10
+|
+|t:|1668661401
+|move|p2a: Meowstic|Nasty Plot|p2a: Meowstic
+|-boost|p2a: Meowstic|spa|2
+|move|p1a: Articuno|Max Airstream|p2a: Meowstic
+|-damage|p2a: Meowstic|109/268
+|-boost|p1a: Articuno|spe|1
+|
+|upkeep
+|-end|p1a: Articuno|Dynamax
+|-heal|p1a: Articuno|130/275 par|[silent]
+|turn|11
+|
+|t:|1668661407
+|move|p2a: Meowstic|Thunderbolt|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|-damage|p2a: Meowstic|83/268|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1668661411
+|switch|p1a: Goodra|Goodra, L82, M|282/282
+|turn|12
+|
+|t:|1668661429
+|move|p2a: Meowstic|Psychic|p1a: Goodra
+|-damage|p1a: Goodra|183/282
+|-damage|p2a: Meowstic|57/268|[from] item: Life Orb
+|move|p1a: Goodra|Earthquake|p2a: Meowstic
+|-crit|p2a: Meowstic
+|-damage|p2a: Meowstic|0 fnt
+|faint|p2a: Meowstic
+|
+|upkeep
+|
+|t:|1668661432
+|switch|p2a: Zacian|Zacian, L68|238/238
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|13
+|
+|t:|1668661436
+|switch|p1a: Mudsdale|Mudsdale, L82, F|298/298
+|move|p2a: Zacian|Swords Dance|p2a: Zacian
+|-boost|p2a: Zacian|atk|2
+|
+|upkeep
+|turn|14
+|
+|t:|1668661453
+|move|p2a: Zacian|Swords Dance|p2a: Zacian
+|-boost|p2a: Zacian|atk|2
+|move|p1a: Mudsdale|Earthquake|p2a: Zacian
+|-damage|p2a: Zacian|109/238
+|
+|upkeep
+|turn|15
+|
+|t:|1668661455
+|move|p2a: Zacian|Play Rough|p1a: Mudsdale
+|-damage|p1a: Mudsdale|33/298
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|move|p1a: Mudsdale|Earthquake|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|
+|-heal|p1a: Mudsdale|51/298|[from] item: Leftovers
+|upkeep
+|
+|t:|1668661462
+|switch|p2a: Cinccino|Cinccino, L84, M|263/263
+|turn|16
+|
+|t:|1668661465
+|move|p2a: Cinccino|Tail Slap|p1a: Mudsdale
+|-damage|p1a: Mudsdale|28/298
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|-damage|p1a: Mudsdale|11/298
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|-damage|p1a: Mudsdale|0 fnt
+|faint|p1a: Mudsdale
+|-hitcount|p1: Mudsdale|3
+|-damage|p2a: Cinccino|237/263|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1668661468
+|switch|p1a: Beartic|Beartic, L86, F|303/303
+|turn|17
+|
+|t:|1668661472
+|switch|p2a: Heatran|Heatran, L78, M|270/270
+|move|p1a: Beartic|Icicle Crash|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|229/270
+|
+|-heal|p2a: Heatran|245/270|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1668661476
+|switch|p2a: Cinccino|Cinccino, L84, M|237/263
+|switch|p1a: Goodra|Goodra, L82, M|183/282
+|
+|upkeep
+|turn|19
+|
+|t:|1668661482
+|move|p2a: Cinccino|Tail Slap|p1a: Goodra
+|-damage|p1a: Goodra|143/282
+|-damage|p1a: Goodra|100/282
+|-damage|p1a: Goodra|56/282
+|-damage|p1a: Goodra|13/282
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|-hitcount|p1: Goodra|5
+|-damage|p2a: Cinccino|211/263|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1668661484
+|switch|p1a: Beartic|Beartic, L86, F|303/303
+|turn|20
+|
+|t:|1668661488
+|move|p2a: Cinccino|Rock Blast|p1a: Beartic
+|-supereffective|p1a: Beartic
+|-damage|p1a: Beartic|248/303
+|-supereffective|p1a: Beartic
+|-damage|p1a: Beartic|196/303
+|-supereffective|p1a: Beartic
+|-damage|p1a: Beartic|144/303
+|-supereffective|p1a: Beartic
+|-damage|p1a: Beartic|100/303
+|-supereffective|p1a: Beartic
+|-damage|p1a: Beartic|51/303
+|-hitcount|p1a: Beartic|5
+|-damage|p2a: Cinccino|185/263|[from] item: Life Orb
+|move|p1a: Beartic|Superpower|p2a: Cinccino
+|-supereffective|p2a: Cinccino
+|-damage|p2a: Cinccino|0 fnt
+|-unboost|p1a: Beartic|atk|1
+|-unboost|p1a: Beartic|def|1
+|faint|p2a: Cinccino
+|
+|upkeep
+|
+|t:|1668661490
+|switch|p2a: Heatran|Heatran, L78, M|245/270
+|turn|21
+|-message|Subinator forfeited.
+|
+|win|Boris Huang - YT
+|raw|Subinator's rating: 2443 &rarr; <strong>2421</strong><br />(-22 for losing)
+|raw|Boris Huang - YT's rating: 2416 &rarr; <strong>2438</strong><br />(+22 for winning)
+|l|☆Subinator

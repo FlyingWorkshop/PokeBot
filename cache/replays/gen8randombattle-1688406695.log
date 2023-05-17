@@ -1,0 +1,350 @@
+|j|☆Memezboi69
+|j|☆JJ09LIE
+|t:|1666061904
+|gametype|singles
+|player|p1|Memezboi69|thorton|2452
+|player|p2|JJ09LIE|akari|2442
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1666061904
+|start
+|switch|p1a: Runerigus|Runerigus, L84, M|235/235
+|switch|p2a: Blacephalon|Blacephalon, L80|215/215
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Memezboi69)
+|inactive|JJ09LIE also wants the timer to be on.
+|
+|t:|1666061909
+|move|p2a: Blacephalon|Shadow Ball|p1a: Runerigus
+|-supereffective|p1a: Runerigus
+|-damage|p1a: Runerigus|43/235
+|move|p1a: Runerigus|Earthquake|p2a: Blacephalon
+|-supereffective|p2a: Blacephalon
+|-enditem|p2a: Blacephalon|Focus Sash
+|-damage|p2a: Blacephalon|1/215
+|
+|-heal|p1a: Runerigus|57/235|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1666061917
+|switch|p1a: Rhydon|Rhydon, L87, F|324/324
+|move|p2a: Blacephalon|Psyshock|p1a: Rhydon
+|-damage|p1a: Rhydon|285/324
+|
+|upkeep
+|turn|3
+|
+|t:|1666061921
+|move|p2a: Blacephalon|Shadow Ball|p1a: Rhydon
+|-damage|p1a: Rhydon|168/324
+|move|p1a: Rhydon|Earthquake|p2a: Blacephalon
+|-supereffective|p2a: Blacephalon
+|-damage|p2a: Blacephalon|0 fnt
+|faint|p2a: Blacephalon
+|
+|upkeep
+|j| eatingbeans69
+|
+|t:|1666061928
+|switch|p2a: Regirock|Regirock, L85|275/275
+|turn|4
+|
+|t:|1666061931
+|move|p2a: Regirock|Body Press|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|62/324
+|move|p1a: Rhydon|Earthquake|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-crit|p2a: Regirock
+|-damage|p2a: Regirock|65/275
+|
+|upkeep
+|turn|5
+|
+|t:|1666061944
+|move|p2a: Regirock|Rest|p2a: Regirock
+|-status|p2a: Regirock|slp|[from] move: Rest
+|-heal|p2a: Regirock|275/275 slp|[silent]
+|-enditem|p2a: Regirock|Chesto Berry|[eat]
+|-curestatus|p2a: Regirock|slp|[msg]
+|move|p1a: Rhydon|Earthquake|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|129/275
+|
+|upkeep
+|turn|6
+|
+|t:|1666061946
+|move|p2a: Regirock|Body Press|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|upkeep
+|
+|t:|1666061951
+|switch|p1a: Genesect|Genesect-Douse, L74|227/227
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|turn|7
+|
+|t:|1666061953
+|move|p1a: Genesect|Techno Blast|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|0 fnt
+|faint|p2a: Regirock
+|
+|upkeep
+|
+|t:|1666061955
+|switch|p2a: Darmanitan|Darmanitan, L80, F|299/299
+|turn|8
+|
+|t:|1666061961
+|switch|p1a: Runerigus|Runerigus, L84, M|57/235
+|move|p2a: Darmanitan|Flare Blitz|p1a: Runerigus
+|-damage|p1a: Runerigus|0 fnt
+|-activate|p1a: Runerigus|ability: Wandering Spirit|Sheer Force|Wandering Spirit|[of] p2a: Darmanitan
+|faint|p1a: Runerigus
+|-damage|p2a: Darmanitan|280/299|[from] Recoil
+|-damage|p2a: Darmanitan|251/299|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1666061963
+|switch|p1a: Clawitzer|Clawitzer, L84, M|256/256
+|turn|9
+|
+|t:|1666061965
+|move|p2a: Darmanitan|U-turn|p1a: Clawitzer
+|-damage|p1a: Clawitzer|169/256
+|-damage|p2a: Darmanitan|222/299|[from] item: Life Orb
+|
+|t:|1666061967
+|switch|p2a: Cresselia|Cresselia, L80, F|323/323
+|move|p1a: Clawitzer|Dark Pulse|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|109/323
+|
+|-heal|p2a: Cresselia|129/323|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1666061973
+|switch|p2a: Morpeko|Morpeko, L86, F|240/240
+|move|p1a: Clawitzer|Dark Pulse|p2a: Morpeko
+|-resisted|p2a: Morpeko
+|-damage|p2a: Morpeko|137/240
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|11
+|
+|t:|1666061980
+|switch|p1a: Lurantis|Lurantis, L86, F|261/261
+|move|p2a: Morpeko|Aura Wheel|p1a: Lurantis
+|-damage|p1a: Lurantis|101/261
+|-boost|p2a: Morpeko|spe|1
+|
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|12
+|
+|t:|1666061991
+|switch|p2a: Cresselia|Cresselia, L80, F|129/323
+|move|p1a: Lurantis|Leaf Storm|p2a: Cresselia
+|-damage|p2a: Cresselia|7/323
+|-boost|p1a: Lurantis|spa|2
+|-damage|p1a: Lurantis|75/261|[from] item: Life Orb
+|
+|-heal|p2a: Cresselia|27/323|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1666061994
+|move|p2a: Cresselia|Psyshock|p1a: Lurantis
+|-damage|p1a: Lurantis|17/261
+|move|p1a: Lurantis|Leaf Storm|p2a: Cresselia|[miss]
+|-miss|p1a: Lurantis|p2a: Cresselia
+|
+|-heal|p2a: Cresselia|47/323|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1666062009
+|move|p2a: Cresselia|Psyshock|p1a: Lurantis
+|-damage|p1a: Lurantis|0 fnt
+|faint|p1a: Lurantis
+|
+|-heal|p2a: Cresselia|67/323|[from] item: Leftovers
+|upkeep
+|
+|t:|1666062016
+|switch|p1a: Genesect|Genesect-Douse, L74|227/227
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|atk|1
+|turn|15
+|
+|t:|1666062025
+|move|p1a: Genesect|U-turn|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|faint|p2a: Cresselia
+|
+|t:|1666062028
+|switch|p1a: Gardevoir|Gardevoir, L82, F|246/246
+|
+|upkeep
+|
+|t:|1666062037
+|switch|p2a: Darmanitan|Darmanitan, L80, F|222/299
+|-ability|p1a: Gardevoir|Sheer Force|[from] ability: Trace|[of] p2a: Darmanitan
+|turn|16
+|
+|t:|1666062050
+|move|p2a: Darmanitan|U-turn|p1a: Gardevoir
+|-damage|p1a: Gardevoir|145/246
+|-damage|p2a: Darmanitan|193/299|[from] item: Life Orb
+|
+|t:|1666062052
+|switch|p2a: Escavalier|Escavalier, L84, M|255/255
+|move|p1a: Gardevoir|Psyshock|p2a: Escavalier
+|-resisted|p2a: Escavalier
+|-damage|p2a: Escavalier|210/255
+|
+|-heal|p1a: Gardevoir|160/246|[from] item: Leftovers
+|-heal|p2a: Escavalier|225/255|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1666062061
+|switch|p2a: Darmanitan|Darmanitan, L80, F|193/299
+|move|p1a: Gardevoir|Moonblast|p2a: Darmanitan
+|-resisted|p2a: Darmanitan
+|-damage|p2a: Darmanitan|87/299
+|
+|-heal|p1a: Gardevoir|175/246|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1666062068
+|move|p2a: Darmanitan|U-turn|p1a: Gardevoir
+|-damage|p1a: Gardevoir|80/246
+|-damage|p2a: Darmanitan|58/299|[from] item: Life Orb
+|
+|t:|1666062070
+|switch|p2a: Escavalier|Escavalier, L84, M|225/255
+|move|p1a: Gardevoir|Moonblast|p2a: Escavalier
+|-resisted|p2a: Escavalier
+|-damage|p2a: Escavalier|164/255
+|
+|-heal|p1a: Gardevoir|95/246|[from] item: Leftovers
+|-heal|p2a: Escavalier|179/255|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1666062073
+|move|p1a: Gardevoir|Moonblast|p2a: Escavalier
+|-resisted|p2a: Escavalier
+|-damage|p2a: Escavalier|113/255
+|move|p2a: Escavalier|Swords Dance|p2a: Escavalier
+|-boost|p2a: Escavalier|atk|2
+|
+|-heal|p1a: Gardevoir|110/246|[from] item: Leftovers
+|-heal|p2a: Escavalier|128/255|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1666062077
+|move|p1a: Gardevoir|Moonblast|p2a: Escavalier
+|-resisted|p2a: Escavalier
+|-damage|p2a: Escavalier|63/255
+|move|p2a: Escavalier|Knock Off|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|-enditem|p1a: Gardevoir|Leftovers|[from] move: Knock Off|[of] p2a: Escavalier
+|faint|p1a: Gardevoir
+|
+|-heal|p2a: Escavalier|78/255|[from] item: Leftovers
+|upkeep
+|
+|t:|1666062097
+|switch|p1a: Genesect|Genesect-Douse, L74|227/227
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|turn|21
+|
+|t:|1666062106
+|-start|p2a: Escavalier|Dynamax|
+|-heal|p2a: Escavalier|156/510|[silent]
+|move|p1a: Genesect|Techno Blast|p2a: Escavalier
+|-damage|p2a: Escavalier|51/510
+|move|p2a: Escavalier|Max Flutterby|p1a: Genesect
+|-resisted|p1a: Genesect
+|-damage|p1a: Genesect|0 fnt
+|faint|p1a: Genesect
+|
+|-heal|p2a: Escavalier|66/510|[from] item: Leftovers
+|upkeep
+|
+|t:|1666062108
+|switch|p1a: Clawitzer|Clawitzer, L84, M|169/256
+|turn|22
+|
+|t:|1666062111
+|move|p1a: Clawitzer|Scald|p2a: Escavalier
+|-damage|p2a: Escavalier|0 fnt
+|faint|p2a: Escavalier
+|
+|upkeep
+|
+|t:|1666062124
+|switch|p2a: Darmanitan|Darmanitan, L80, F|58/299
+|turn|23
+|
+|t:|1666062127
+|-start|p1a: Clawitzer|Dynamax|
+|-heal|p1a: Clawitzer|338/512|[silent]
+|move|p2a: Darmanitan|Superpower|p1a: Clawitzer
+|-damage|p1a: Clawitzer|209/512
+|-unboost|p2a: Darmanitan|atk|1
+|-unboost|p2a: Darmanitan|def|1
+|-damage|p2a: Darmanitan|29/299|[from] item: Life Orb
+|move|p1a: Clawitzer|Max Geyser|p2a: Darmanitan
+|-supereffective|p2a: Darmanitan
+|-damage|p2a: Darmanitan|0 fnt
+|-weather|RainDance
+|faint|p2a: Darmanitan
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1666062130
+|switch|p2a: Morpeko|Morpeko, L86, F|137/240
+|turn|24
+|
+|t:|1666062133
+|move|p2a: Morpeko|Aura Wheel|p1a: Clawitzer
+|-supereffective|p1a: Clawitzer
+|-damage|p1a: Clawitzer|0 fnt
+|-boost|p2a: Morpeko|spe|1
+|faint|p1a: Clawitzer
+|
+|win|JJ09LIE
+|raw|Memezboi69's rating: 2452 &rarr; <strong>2431</strong><br />(-21 for losing)
+|raw|JJ09LIE's rating: 2442 &rarr; <strong>2463</strong><br />(+21 for winning)
+|l|☆Memezboi69
+|l|☆JJ09LIE
+|l| eatingbeans69
+|j|☆Memezboi69
+|player|p1|Memezboi69|thorton
+||Ladder isn't responding, score probably updated but might not have (Request timeout).
+|j|☆JJ09LIE
+|player|p2|JJ09LIE|akari

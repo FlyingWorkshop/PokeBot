@@ -1,0 +1,329 @@
+|j|☆aesf speed
+|j|☆roire
+|t:|1668113206
+|gametype|singles
+|player|p1|aesf speed|170|2451
+|player|p2|roire|101|2431
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1668113206
+|start
+|switch|p1a: Primarina|Primarina, L82, M|265/265
+|switch|p2a: Raichu|Raichu, L86, F|243/243
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by aesf speed)
+|j| Advent Neon
+|l| Advent Neon
+|
+|t:|1668113225
+|move|p2a: Raichu|Volt Switch|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|77/265
+|l|☆roire
+|inactive|roire disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆roire
+|inactive|roire reconnected and has 125 seconds left.
+|player|p2|roire|101
+|inactive|roire has 120 seconds left.
+|
+|t:|1668113257
+|switch|p2a: Slowking|Slowking, L86, M|304/304
+|move|p1a: Primarina|Moonblast|p2a: Slowking
+|-damage|p2a: Slowking|211/304
+|
+|-heal|p2a: Slowking|230/304|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1668113264
+|switch|p1a: Slowbro|Slowbro, L84, M|297/297
+|move|p2a: Slowking|Teleport|p2a: Slowking
+|
+|t:|1668113267
+|switch|p2a: Raichu|Raichu, L86, F|243/243
+|
+|upkeep
+|turn|3
+|
+|t:|1668113269
+|switch|p1a: Tangrowth|Tangrowth, L84, M|305/305
+|move|p2a: Raichu|Volt Switch|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|228/305
+|
+|t:|1668113275
+|switch|p2a: Guzzlord|Guzzlord, L84|512/512
+|
+|upkeep
+|turn|4
+|
+|t:|1668113282
+|switch|p1a: Primarina|Primarina, L82, M|77/265
+|move|p2a: Guzzlord|Fire Blast|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|43/265
+|
+|upkeep
+|turn|5
+|
+|t:|1668113291
+|switch|p1a: Slowbro|Slowbro, L84, M|297/297
+|switch|p2a: Slowking|Slowking, L86, M|304/304
+|
+|upkeep
+|turn|6
+|
+|t:|1668113295
+|move|p2a: Slowking|Toxic|p1a: Slowbro
+|-status|p1a: Slowbro|tox
+|move|p1a: Slowbro|Teleport|p1a: Slowbro
+|
+|t:|1668113300
+|switch|p1a: Tangrowth|Tangrowth, L84, M|305/305
+|
+|upkeep
+|turn|7
+|inactive|roire has 120 seconds left.
+|
+|t:|1668113346
+|move|p1a: Tangrowth|Sludge Bomb|p2a: Slowking
+|-damage|p2a: Slowking|248/304
+|move|p2a: Slowking|Toxic|p1a: Tangrowth
+|-status|p1a: Tangrowth|tox
+|
+|-heal|p2a: Slowking|267/304|[from] item: Leftovers
+|-damage|p1a: Tangrowth|286/305 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1668113349
+|move|p1a: Tangrowth|Sludge Bomb|p2a: Slowking
+|-damage|p2a: Slowking|204/304
+|-status|p2a: Slowking|psn
+|move|p2a: Slowking|Teleport|p2a: Slowking
+|
+|t:|1668113353
+|switch|p2a: Guzzlord|Guzzlord, L84|512/512
+|
+|-damage|p1a: Tangrowth|248/305 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1668113355
+|move|p1a: Tangrowth|Sleep Powder|p2a: Guzzlord
+|-status|p2a: Guzzlord|slp|[from] move: Sleep Powder
+|cant|p2a: Guzzlord|slp
+|
+|-damage|p1a: Tangrowth|191/305 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1668113368
+|switch|p1a: Primarina|Primarina, L82, M|43/265
+|cant|p2a: Guzzlord|slp
+|
+|upkeep
+|turn|11
+|
+|t:|1668113377
+|switch|p2a: Slowking|Slowking, L86, M|304/304 psn
+|move|p1a: Primarina|Moonblast|p2a: Slowking
+|-damage|p2a: Slowking|207/304 psn
+|
+|-heal|p2a: Slowking|226/304 psn|[from] item: Leftovers
+|-damage|p2a: Slowking|188/304 psn|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1668113383
+|switch|p2a: Ferrothorn|Ferrothorn, L78, F|244/244
+|move|p1a: Primarina|Moonblast|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|193/244
+|-unboost|p2a: Ferrothorn|spa|1
+|
+|-heal|p2a: Ferrothorn|208/244|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1668113394
+|switch|p1a: Rayquaza|Rayquaza, L74|277/277
+|-ability|p1a: Rayquaza|Air Lock
+|move|p2a: Ferrothorn|Knock Off|p1a: Rayquaza
+|-damage|p1a: Rayquaza|209/277
+|-enditem|p1a: Rayquaza|Assault Vest|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|223/244|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1668113402
+|switch|p2a: Guzzlord|Guzzlord, L84|512/512 slp
+|move|p1a: Rayquaza|V-create|p2a: Guzzlord|[miss]
+|-miss|p1a: Rayquaza|p2a: Guzzlord
+|
+|upkeep
+|turn|15
+|c|☆roire|lol
+|j| Albaogg
+|c|☆roire|never once seen it miss
+|c|☆aesf speed|lol
+|inactive|aesf speed has 120 seconds left.
+|
+|t:|1668113441
+|move|p1a: Rayquaza|Draco Meteor|p2a: Guzzlord
+|-supereffective|p2a: Guzzlord
+|-damage|p2a: Guzzlord|242/512 slp
+|-unboost|p1a: Rayquaza|spa|2
+|cant|p2a: Guzzlord|slp
+|
+|upkeep
+|turn|16
+|inactive|aesf speed has 120 seconds left.
+|
+|t:|1668113454
+|switch|p1a: Primarina|Primarina, L82, M|43/265
+|-curestatus|p2a: Guzzlord|slp|[msg]
+|move|p2a: Guzzlord|Knock Off|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|-enditem|p1a: Primarina|Choice Scarf|[from] move: Knock Off|[of] p2a: Guzzlord
+|faint|p1a: Primarina
+|-ability|p2a: Guzzlord|Beast Boost|boost
+|-boost|p2a: Guzzlord|atk|1
+|
+|upkeep
+|inactive|aesf speed has 120 seconds left.
+|
+|t:|1668113460
+|switch|p1a: Rayquaza|Rayquaza, L74|209/277
+|-ability|p1a: Rayquaza|Air Lock
+|turn|17
+|
+|t:|1668113464
+|switch|p2a: Ribombee|Ribombee, L82, F|233/233
+|move|p1a: Rayquaza|Dragon Ascent|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|-unboost|p1a: Rayquaza|def|1
+|-unboost|p1a: Rayquaza|spd|1
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|t:|1668113475
+|switch|p2a: Raichu|Raichu, L86, F|243/243
+|turn|18
+|
+|t:|1668113477
+|switch|p1a: Tangrowth|Tangrowth, L84, M|292/305 tox
+|move|p2a: Raichu|Volt Switch|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|217/305 tox
+|
+|t:|1668113505
+|switch|p2a: Guzzlord|Guzzlord, L84|242/512
+|
+|-damage|p1a: Tangrowth|198/305 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1668113510
+|move|p1a: Tangrowth|Sleep Powder|p2a: Guzzlord
+|-status|p2a: Guzzlord|slp|[from] move: Sleep Powder
+|cant|p2a: Guzzlord|slp
+|
+|-damage|p1a: Tangrowth|160/305 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1668113515
+|switch|p1a: Dubwool|Dubwool, L86, F|264/264
+|-curestatus|p2a: Guzzlord|slp|[msg]
+|move|p2a: Guzzlord|Draco Meteor|p1a: Dubwool
+|-damage|p1a: Dubwool|138/264
+|-unboost|p2a: Guzzlord|spa|2
+|
+|-heal|p1a: Dubwool|154/264|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1668113522
+|switch|p2a: Slowking|Slowking, L86, M|289/304 psn
+|move|p1a: Dubwool|Cotton Guard|p1a: Dubwool
+|-boost|p1a: Dubwool|def|3
+|
+|-heal|p1a: Dubwool|170/264|[from] item: Leftovers
+|-heal|p2a: Slowking|304/304 psn|[from] item: Leftovers
+|-damage|p2a: Slowking|266/304 psn|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1668113527
+|move|p1a: Dubwool|Cotton Guard|p1a: Dubwool
+|-boost|p1a: Dubwool|def|3
+|move|p2a: Slowking|Toxic|p1a: Dubwool
+|-status|p1a: Dubwool|tox
+|
+|-heal|p1a: Dubwool|186/264 tox|[from] item: Leftovers
+|-heal|p2a: Slowking|285/304 psn|[from] item: Leftovers
+|-damage|p1a: Dubwool|170/264 tox|[from] psn
+|-damage|p2a: Slowking|247/304 psn|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1668113530
+|move|p1a: Dubwool|Rest|p1a: Dubwool
+|-status|p1a: Dubwool|slp|[from] move: Rest
+|-heal|p1a: Dubwool|264/264 slp|[silent]
+|move|p2a: Slowking|Teleport|p2a: Slowking
+|
+|t:|1668113538
+|switch|p2a: Guzzlord|Guzzlord, L84|242/512
+|
+|upkeep
+|turn|24
+|
+|t:|1668113540
+|cant|p1a: Dubwool|slp
+|move|p1a: Dubwool|Sleep Talk|p1a: Dubwool
+|move|p1a: Dubwool|Body Press|p2a: Guzzlord|[from]move: Sleep Talk
+|-supereffective|p2a: Guzzlord
+|-damage|p2a: Guzzlord|0 fnt
+|faint|p2a: Guzzlord
+|
+|upkeep
+|
+|t:|1668113563
+|switch|p2a: Raichu|Raichu, L86, F|243/243
+|turn|25
+|
+|t:|1668113565
+|move|p2a: Raichu|Thunderbolt|p1a: Dubwool
+|-damage|p1a: Dubwool|135/264 slp
+|cant|p1a: Dubwool|slp
+|move|p1a: Dubwool|Sleep Talk|p1a: Dubwool
+|move|p1a: Dubwool|Body Press|p2a: Raichu|[from]move: Sleep Talk
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|-heal|p1a: Dubwool|151/264 slp|[from] item: Leftovers
+|upkeep
+|c|☆aesf speed|wow
+|-message|roire forfeited.
+|
+|win|aesf speed
+|raw|aesf speed's rating: 2451 &rarr; <strong>2470</strong><br />(+19 for winning)
+|raw|roire's rating: 2431 &rarr; <strong>2412</strong><br />(-19 for losing)
+|l|☆roire
+|l|☆aesf speed
+|l| Albaogg
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

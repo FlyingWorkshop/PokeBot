@@ -1,0 +1,333 @@
+|j|☆pmawarrior
+|j|☆Khoa Alex 45
+|t:|1668475134
+|gametype|singles
+|player|p1|pmawarrior|169|2478
+|player|p2|Khoa Alex 45|102|2390
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1668475134
+|start
+|switch|p1a: Excadrill|Excadrill, L78, M|300/300
+|switch|p2a: Absol|Absol, L84, M|246/246
+|turn|1
+|
+|t:|1668475168
+|switch|p1a: Tapu Fini|Tapu Fini, L78|237/237
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|move|p2a: Absol|Close Combat|p1a: Tapu Fini
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|168/237
+|-unboost|p2a: Absol|def|1
+|-unboost|p2a: Absol|spd|1
+|
+|-heal|p1a: Tapu Fini|182/237|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1668475176
+|switch|p2a: Snorlax|Snorlax, L82, F|397/397
+|move|p1a: Tapu Fini|Moonblast|p2a: Snorlax
+|-damage|p2a: Snorlax|327/397
+|
+|-heal|p1a: Tapu Fini|196/237|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1668475197
+|switch|p2a: Runerigus|Runerigus, L84, F|235/235
+|move|p1a: Tapu Fini|Taunt|p2a: Runerigus
+|-start|p2a: Runerigus|move: Taunt
+|
+|-heal|p1a: Tapu Fini|210/237|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1668475204
+|switch|p2a: Snorlax|Snorlax, L82, F|327/397
+|move|p1a: Tapu Fini|Surf|p2a: Snorlax
+|-damage|p2a: Snorlax|257/397
+|
+|-heal|p1a: Tapu Fini|224/237|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1668475210
+|switch|p1a: Excadrill|Excadrill, L78, M|300/300
+|switch|p2a: Runerigus|Runerigus, L84, F|235/235
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|6
+|
+|t:|1668475216
+|switch|p1a: Delibird|Delibird, M|252/252
+|move|p2a: Runerigus|Toxic Spikes|p1a: Delibird
+|-sidestart|p1: pmawarrior|move: Toxic Spikes
+|
+|upkeep
+|turn|7
+|
+|t:|1668475224
+|switch|p2a: Durant|Durant, L78, M|219/219
+|move|p1a: Delibird|Freeze-Dry|p2a: Durant
+|-resisted|p2a: Durant
+|-damage|p2a: Durant|153/219
+|
+|upkeep
+|turn|8
+|
+|t:|1668475247
+|move|p2a: Durant|Iron Head|p1a: Delibird
+|-supereffective|p1a: Delibird
+|-crit|p1a: Delibird
+|-damage|p1a: Delibird|0 fnt
+|faint|p1a: Delibird
+|
+|upkeep
+|
+|t:|1668475260
+|switch|p1a: Excadrill|Excadrill, L78, M|300/300
+|turn|9
+|
+|t:|1668475268
+|switch|p2a: Runerigus|Runerigus, L84, F|235/235
+|move|p1a: Excadrill|Earthquake|p2a: Runerigus
+|-damage|p2a: Runerigus|126/235
+|-damage|p1a: Excadrill|270/300|[from] item: Life Orb
+|
+|-heal|p2a: Runerigus|140/235|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1668475276
+|switch|p1a: Tapu Fini|Tapu Fini, L78|224/237
+|-status|p1a: Tapu Fini|psn
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|move|p2a: Runerigus|Stealth Rock|p1a: Tapu Fini
+|-sidestart|p1: pmawarrior|move: Stealth Rock
+|
+|-heal|p1a: Tapu Fini|237/237 psn|[from] item: Leftovers
+|-heal|p2a: Runerigus|154/235|[from] item: Leftovers
+|-damage|p1a: Tapu Fini|208/237 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1668475283
+|switch|p2a: Snorlax|Snorlax, L82, F|257/397
+|move|p1a: Tapu Fini|Defog|p2a: Snorlax
+|-unboost|p2a: Snorlax|evasion|1
+|-sideend|p1: pmawarrior|Toxic Spikes|[from] move: Defog|[of] p1a: Tapu Fini
+|-sideend|p1: pmawarrior|Stealth Rock|[from] move: Defog|[of] p1a: Tapu Fini
+|-fieldend|Misty Terrain
+|
+|-heal|p1a: Tapu Fini|222/237 psn|[from] item: Leftovers
+|-damage|p1a: Tapu Fini|193/237 psn|[from] psn
+|upkeep
+|turn|12
+|j| ksvdjbod
+|
+|t:|1668475292
+|move|p1a: Tapu Fini|Moonblast|p2a: Snorlax
+|-damage|p2a: Snorlax|184/397
+|-unboost|p2a: Snorlax|spa|1
+|move|p2a: Snorlax|Double-Edge|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|30/237 psn
+|-damage|p2a: Snorlax|130/397|[from] Recoil
+|
+|-heal|p1a: Tapu Fini|44/237 psn|[from] item: Leftovers
+|-damage|p1a: Tapu Fini|15/237 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1668475303
+|move|p1a: Tapu Fini|Surf|p2a: Snorlax
+|-damage|p2a: Snorlax|55/397
+|move|p2a: Snorlax|Double-Edge|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|0 fnt
+|faint|p1a: Tapu Fini
+|-damage|p2a: Snorlax|50/397|[from] Recoil
+|
+|upkeep
+|
+|t:|1668475316
+|switch|p1a: Excadrill|Excadrill, L78, M|270/300
+|turn|14
+|
+|t:|1668475321
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Snorlax|Double-Edge|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|135/300
+|-damage|p2a: Snorlax|5/397|[from] Recoil
+|
+|upkeep
+|turn|15
+|
+|t:|1668475334
+|move|p1a: Excadrill|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|-damage|p1a: Excadrill|105/300|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1668475336
+|switch|p2a: Darmanitan|Darmanitan, L80, M|299/299
+|turn|16
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Khoa Alex 45)
+|
+|t:|1668475347
+|move|p2a: Darmanitan|Flare Blitz|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|-damage|p2a: Darmanitan|264/299|[from] Recoil
+|
+|upkeep
+|
+|t:|1668475353
+|switch|p1a: Persian|Persian, L88, M|258/258
+|turn|17
+|
+|t:|1668475360
+|switch|p2a: Aromatisse|Aromatisse, L88, M|321/321
+|move|p1a: Persian|Knock Off|p2a: Aromatisse
+|-resisted|p2a: Aromatisse
+|-crit|p2a: Aromatisse
+|-damage|p2a: Aromatisse|241/321
+|-enditem|p2a: Aromatisse|Leftovers|[from] move: Knock Off|[of] p1a: Persian
+|
+|upkeep
+|turn|18
+|
+|t:|1668475380
+|switch|p1a: Scyther|Scyther, L81, F|246/246
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|upkeep
+|turn|19
+|
+|t:|1668475386
+|switch|p1a: Persian|Persian, L88, M|258/258
+|move|p2a: Aromatisse|Toxic|p1a: Persian
+|-status|p1a: Persian|tox
+|
+|-heal|p2a: Aromatisse|321/321|[from] move: Wish|[wisher] Aromatisse
+|-damage|p1a: Persian|242/258 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1668475394
+|move|p2a: Aromatisse|Protect|p2a: Aromatisse
+|-singleturn|p2a: Aromatisse|Protect
+|move|p1a: Persian|Double-Edge|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Protect
+|
+|-damage|p1a: Persian|210/258 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1668475398
+|move|p1a: Persian|Double-Edge|p2a: Aromatisse
+|-damage|p2a: Aromatisse|141/321
+|-damage|p1a: Persian|151/258 tox|[from] Recoil
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|-damage|p1a: Persian|103/258 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1668475409
+|move|p2a: Aromatisse|Protect|p2a: Aromatisse
+|-singleturn|p2a: Aromatisse|Protect
+|move|p1a: Persian|Double-Edge|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Protect
+|
+|-heal|p2a: Aromatisse|301/321|[from] move: Wish|[wisher] Aromatisse
+|-damage|p1a: Persian|39/258 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1668475414
+|switch|p2a: Runerigus|Runerigus, L84, F|154/235
+|move|p1a: Persian|Double-Edge|p2a: Runerigus
+|-immune|p2a: Runerigus
+|
+|-heal|p2a: Runerigus|168/235|[from] item: Leftovers
+|-damage|p1a: Persian|0 fnt|[from] psn
+|faint|p1a: Persian
+|upkeep
+|
+|t:|1668475423
+|switch|p1a: Slurpuff|Slurpuff, L80, M|262/262
+|turn|24
+|
+|t:|1668475432
+|move|p1a: Slurpuff|Belly Drum|p1a: Slurpuff
+|-damage|p1a: Slurpuff|131/262
+|-setboost|p1a: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1a: Slurpuff|196/262|[from] item: Sitrus Berry
+|move|p2a: Runerigus|Earthquake|p1a: Slurpuff
+|-damage|p1a: Slurpuff|76/262
+|
+|-heal|p2a: Runerigus|182/235|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1668475442
+|move|p1a: Slurpuff|Play Rough|p2a: Runerigus
+|-damage|p2a: Runerigus|0 fnt
+|-activate|p2a: Runerigus|ability: Wandering Spirit|Unburden|Wandering Spirit|[of] p1a: Slurpuff
+|faint|p2a: Runerigus
+|
+|upkeep
+|inactive|Khoa Alex 45 has 120 seconds left.
+|
+|t:|1668475499
+|switch|p2a: Durant|Durant, L78, M|153/219
+|turn|26
+|
+|t:|1668475506
+|-start|p2a: Durant|Dynamax|
+|-heal|p2a: Durant|306/438|[silent]
+|move|p2a: Durant|Max Steelspike|p1a: Slurpuff
+|-supereffective|p1a: Slurpuff
+|-damage|p1a: Slurpuff|0 fnt
+|-boost|p2a: Durant|def|1
+|faint|p1a: Slurpuff
+|
+|upkeep
+|
+|t:|1668475525
+|switch|p1a: Scyther|Scyther, L81, F|246/246
+|turn|27
+|
+|t:|1668475536
+|-start|p1a: Scyther|Dynamax|
+|-heal|p1a: Scyther|492/492|[silent]
+|move|p1a: Scyther|Max Knuckle|p2a: Durant
+|-damage|p2a: Durant|267/438
+|-boost|p1a: Scyther|atk|1
+|move|p2a: Durant|Max Rockfall|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|-weather|Sandstorm
+|faint|p1a: Scyther
+|
+|win|Khoa Alex 45
+|raw|pmawarrior's rating: 2478 &rarr; <strong>2453</strong><br />(-25 for losing)
+|raw|Khoa Alex 45's rating: 2390 &rarr; <strong>2415</strong><br />(+25 for winning)
+|l|☆pmawarrior
+|l|☆Khoa Alex 45
+|l| ksvdjbod
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

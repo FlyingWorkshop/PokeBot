@@ -1,0 +1,413 @@
+|j|☆Memezboi69
+|j|☆Sa!duck
+|t:|1658370107
+|gametype|singles
+|player|p1|Memezboi69|thorton|2387
+|player|p2|Sa!duck|cress|2482
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1658370107
+|start
+|switch|p1a: Regidrago|Regidrago, L78|440/440
+|switch|p2a: Clawitzer|Clawitzer, L84, F|256/256
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Memezboi69)
+|j| KingZuko
+|
+|t:|1658370117
+|switch|p1a: Tentacruel|Tentacruel, L84, F|272/272
+|move|p2a: Clawitzer|Ice Beam|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|230/272
+|
+|-heal|p1a: Tentacruel|247/272|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1658370122
+|switch|p2a: Stunfisk|Stunfisk, L84, F|320/320
+|move|p1a: Tentacruel|Knock Off|p2a: Stunfisk
+|-damage|p2a: Stunfisk|265/320
+|-enditem|p2a: Stunfisk|Leftovers|[from] move: Knock Off|[of] p1a: Tentacruel
+|
+|-heal|p1a: Tentacruel|264/272|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1658370127
+|move|p1a: Tentacruel|Scald|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|119/320
+|move|p2a: Stunfisk|Stealth Rock|p1a: Tentacruel
+|-sidestart|p1: Memezboi69|move: Stealth Rock
+|
+|-heal|p1a: Tentacruel|272/272|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1658370137
+|switch|p2a: Hydreigon|Hydreigon, L80, M|278/278
+|move|p1a: Tentacruel|Scald|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|242/278
+|
+|-heal|p2a: Hydreigon|259/278|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1658370140
+|move|p1a: Tentacruel|Knock Off|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|231/278
+|-enditem|p2a: Hydreigon|Leftovers|[from] move: Knock Off|[of] p1a: Tentacruel
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|upkeep
+|turn|6
+|
+|t:|1658370143
+|move|p1a: Tentacruel|Haze|p1a: Tentacruel
+|-clearallboost
+|move|p2a: Hydreigon|Dark Pulse|p1a: Tentacruel
+|-damage|p1a: Tentacruel|196/272
+|
+|-heal|p1a: Tentacruel|213/272|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1658370147
+|move|p1a: Tentacruel|Sludge Bomb|p2a: Hydreigon
+|-damage|p2a: Hydreigon|144/278
+|-status|p2a: Hydreigon|psn
+|move|p2a: Hydreigon|Dark Pulse|p1a: Tentacruel
+|-damage|p1a: Tentacruel|138/272
+|
+|-heal|p1a: Tentacruel|155/272|[from] item: Black Sludge
+|-damage|p2a: Hydreigon|110/278 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1658370151
+|move|p1a: Tentacruel|Sludge Bomb|p2a: Hydreigon
+|-damage|p2a: Hydreigon|20/278 psn
+|move|p2a: Hydreigon|Draco Meteor|p1a: Tentacruel
+|-damage|p1a: Tentacruel|29/272
+|-unboost|p2a: Hydreigon|spa|2
+|
+|-heal|p1a: Tentacruel|46/272|[from] item: Black Sludge
+|-damage|p2a: Hydreigon|0 fnt|[from] psn
+|faint|p2a: Hydreigon
+|upkeep
+|
+|t:|1658370165
+|switch|p2a: Clawitzer|Clawitzer, L84, F|256/256
+|turn|9
+|
+|t:|1658370170
+|move|p1a: Tentacruel|Sludge Bomb|p2a: Clawitzer
+|-damage|p2a: Clawitzer|178/256
+|move|p2a: Clawitzer|Water Pulse|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|upkeep
+|
+|t:|1658370180
+|switch|p1a: Noivern|Noivern, L82, M|274/274
+|turn|10
+|
+|t:|1658370187
+|switch|p2a: Tyranitar|Tyranitar, L78, F|284/284
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Noivern|Flamethrower|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|265/284
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Noivern|257/274|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1658370196
+|switch|p1a: Regidrago|Regidrago, L78|440/440
+|-damage|p1a: Regidrago|385/440|[from] Stealth Rock
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Regidrago|358/440|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1658370206
+|-start|p1a: Regidrago|Dynamax|
+|-heal|p1a: Regidrago|716/880|[silent]
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|move|p1a: Regidrago|Max Wyrmwind|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Regidrago|689/880|[from] Sandstorm
+|upkeep
+|
+|t:|1658370220
+|switch|p2a: Clawitzer|Clawitzer, L84, F|178/256
+|turn|13
+|
+|t:|1658370225
+|move|p1a: Regidrago|Max Wyrmwind|p2a: Clawitzer
+|-damage|p2a: Clawitzer|0 fnt
+|faint|p2a: Clawitzer
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Regidrago|662/880|[from] Sandstorm
+|upkeep
+|
+|t:|1658370233
+|switch|p2a: Lugia|Lugia, L74|279/279
+|turn|14
+|
+|t:|1658370237
+|move|p2a: Lugia|Toxic|p1a: Regidrago
+|-status|p1a: Regidrago|tox
+|-enditem|p1a: Regidrago|Lum Berry|[eat]
+|-curestatus|p1a: Regidrago|tox|[msg]
+|move|p1a: Regidrago|Max Knuckle|p2a: Lugia
+|-resisted|p2a: Lugia
+|-damage|p2a: Lugia|274/279
+|-boost|p1a: Regidrago|atk|1
+|
+|-weather|none
+|upkeep
+|-end|p1a: Regidrago|Dynamax
+|-heal|p1a: Regidrago|331/440|[silent]
+|turn|15
+|
+|t:|1658370240
+|move|p2a: Lugia|Toxic|p1a: Regidrago
+|-status|p1a: Regidrago|tox
+|move|p1a: Regidrago|Dragon Dance|p1a: Regidrago
+|-boost|p1a: Regidrago|atk|1
+|-boost|p1a: Regidrago|spe|1
+|
+|-damage|p1a: Regidrago|304/440 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1658370246
+|-start|p2a: Lugia|Dynamax|
+|-heal|p2a: Lugia|548/558|[silent]
+|move|p2a: Lugia|Max Guard|p2a: Lugia
+|-singleturn|p2a: Lugia|Max Guard
+|move|p1a: Regidrago|Outrage|p2a: Lugia
+|-activate|p2a: Lugia|move: Max Guard
+|
+|-damage|p1a: Regidrago|250/440 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1658370251
+|move|p1a: Regidrago|Outrage|p2a: Lugia
+|-damage|p2a: Lugia|248/558
+|move|p2a: Lugia|Max Airstream|p1a: Regidrago
+|-damage|p1a: Regidrago|102/440 tox
+|-boost|p2a: Lugia|spe|1
+|
+|-damage|p1a: Regidrago|21/440 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1658370256
+|move|p2a: Lugia|Max Airstream|p1a: Regidrago
+|-damage|p1a: Regidrago|0 fnt
+|-boost|p2a: Lugia|spe|1
+|faint|p1a: Regidrago
+|
+|upkeep
+|
+|t:|1658370259
+|switch|p1a: Morpeko|Morpeko, L86, F|240/240
+|-damage|p1a: Morpeko|210/240|[from] Stealth Rock
+|-end|p2a: Lugia|Dynamax
+|-heal|p2a: Lugia|124/279|[silent]
+|turn|19
+|
+|t:|1658370262
+|switch|p2a: Stunfisk|Stunfisk, L84, F|119/320
+|move|p1a: Morpeko|Aura Wheel|p2a: Stunfisk
+|-immune|p2a: Stunfisk
+|
+|-heal|p1a: Morpeko|225/240|[from] item: Leftovers
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|20
+|
+|t:|1658370265
+|move|p1a: Morpeko|Aura Wheel|p2a: Stunfisk
+|-damage|p2a: Stunfisk|0 fnt
+|-boost|p1a: Morpeko|spe|1
+|faint|p2a: Stunfisk
+|
+|-heal|p1a: Morpeko|240/240|[from] item: Leftovers
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|
+|t:|1658370268
+|switch|p2a: Heatran|Heatran, L78, M|270/270
+|turn|21
+|
+|t:|1658370280
+|switch|p1a: Noivern|Noivern, L82, M|257/274
+|move|p2a: Heatran|Toxic|p1a: Noivern
+|-status|p1a: Noivern|tox
+|
+|-damage|p1a: Noivern|240/274 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1658370285
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Noivern|Hurricane|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-damage|p1a: Noivern|206/274 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1658370291
+|switch|p2a: Lugia|Lugia, L74|124/279
+|move|p1a: Noivern|Hurricane|p2a: Lugia
+|-damage|p2a: Lugia|43/279
+|-start|p2a: Lugia|confusion
+|
+|-damage|p1a: Noivern|155/274 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1658370296
+|move|p1a: Noivern|Draco Meteor|p2a: Lugia
+|-damage|p2a: Lugia|0 fnt
+|-unboost|p1a: Noivern|spa|2
+|faint|p2a: Lugia
+|
+|-damage|p1a: Noivern|87/274 tox|[from] psn
+|upkeep
+|
+|t:|1658370298
+|switch|p2a: Heatran|Heatran, L78, M|270/270
+|turn|25
+|
+|t:|1658370303
+|move|p1a: Noivern|Roost|p1a: Noivern
+|-heal|p1a: Noivern|224/274 tox
+|-singleturn|p1a: Noivern|move: Roost
+|move|p2a: Heatran|Toxic|p1a: Noivern
+|-fail|p1a: Noivern|tox
+|
+|-damage|p1a: Noivern|139/274 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1658370306
+|move|p1a: Noivern|Hurricane|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|243/270
+|move|p2a: Heatran|Toxic|p1a: Noivern
+|-fail|p1a: Noivern|tox
+|
+|-heal|p2a: Heatran|259/270|[from] item: Leftovers
+|-damage|p1a: Noivern|37/274 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1658370309
+|move|p1a: Noivern|Hurricane|p2a: Heatran|[miss]
+|-miss|p1a: Noivern|p2a: Heatran
+|move|p2a: Heatran|Toxic|p1a: Noivern
+|-fail|p1a: Noivern|tox
+|
+|-heal|p2a: Heatran|270/270|[from] item: Leftovers
+|-damage|p1a: Noivern|0 fnt|[from] psn
+|faint|p1a: Noivern
+|upkeep
+|
+|t:|1658370311
+|switch|p1a: Zapdos|Zapdos, L78|267/267
+|-damage|p1a: Zapdos|201/267|[from] Stealth Rock
+|turn|28
+|
+|t:|1658370326
+|move|p1a: Zapdos|Discharge|p2a: Heatran
+|-damage|p2a: Heatran|137/270
+|move|p2a: Heatran|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|
+|-heal|p2a: Heatran|153/270|[from] item: Leftovers
+|-damage|p1a: Zapdos|185/267 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1658370330
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Zapdos|Discharge|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-heal|p2a: Heatran|169/270|[from] item: Leftovers
+|-damage|p1a: Zapdos|153/267 tox|[from] psn
+|upkeep
+|turn|30
+|j| Flower4fun46
+|
+|t:|1658370334
+|move|p1a: Zapdos|Discharge|p2a: Heatran
+|-damage|p2a: Heatran|49/270
+|move|p2a: Heatran|Lava Plume|p1a: Zapdos
+|-damage|p1a: Zapdos|54/267 tox
+|
+|-heal|p2a: Heatran|65/270|[from] item: Leftovers
+|-damage|p1a: Zapdos|6/267 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1658370336
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Zapdos|Discharge|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-heal|p2a: Heatran|81/270|[from] item: Leftovers
+|-damage|p1a: Zapdos|0 fnt|[from] psn
+|faint|p1a: Zapdos
+|upkeep
+|
+|t:|1658370338
+|switch|p1a: Lunala|Lunala, L72|316/316
+|-damage|p1a: Lunala|277/316|[from] Stealth Rock
+|turn|32
+|
+|t:|1658370342
+|move|p1a: Lunala|Moongeist Beam|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|win|Memezboi69
+|raw|Memezboi69's rating: 2387 &rarr; <strong>2412</strong><br />(+25 for winning)
+|raw|Sa!duck's rating: 2482 &rarr; <strong>2457</strong><br />(-25 for losing)
+|l|☆Sa!duck
+|l|☆Memezboi69
