@@ -277,9 +277,9 @@ class DataExtractor:
                     line = line.split('|')
                     player_number = int(line[2][1])
                     pokemon_name = line[2].split(' ')[1]
-                    level = int(re.sub(r'\D', '', line[3].split(' ')[1][1:]))
+                    level = int(line[3].split(", ")[1][1:]) #int(re.sub(r'\D', '', line[3].split(' ')[1][1:]))
                     hp_numerator = int(line[4].split('/')[0])
-                    hp_denominator = int(line[4].split('/')[1])
+                    hp_denominator = int(line[4].split('/')[1].split(' ')[0])
 
                 if player_number == 1:
                     if pokemon_name not in curr_battle.team:
@@ -404,12 +404,11 @@ class DataExtractor:
 
             # update stats
             if "|-boost|" in line:
-                boost_regex = r"p(\d+)a:\s\w+\|(\w+)\|(\d+)"
-
-                match = re.search(boost_regex, line)
-                player = int(match.group(1))
-                stat = match.group(2)
-                amount = int(match.group(3))
+                line = line.split('|')
+                #match = re.search(boost_regex, line)
+                player = int(line[2][1])
+                stat = line[3]
+                amount = int(line[4])
 
                 if player == 1:
                     curr_battle.active_pokemon.boosts[stat] += amount
