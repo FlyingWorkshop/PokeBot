@@ -1,0 +1,180 @@
+|j|☆vUchihax
+|j|☆juanjo17
+|t:|1684340704
+|gametype|singles
+|player|p1|vUchihax|swimmerf|1150
+|player|p2|juanjo17|265|1105
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1684340704
+|start
+|switch|p1a: Dialga|Dialga, L74|270/270
+|switch|p2a: Farfetch’d|Farfetch’d, L90, F|239/239
+|-ability|p1a: Dialga|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vUchihax)
+|
+|t:|1684340716
+|move|p1a: Dialga|Toxic|p2a: Farfetch’d|[miss]
+|-miss|p1a: Dialga|p2a: Farfetch’d
+|move|p2a: Farfetch’d|Knock Off|p1a: Dialga
+|-crit|p1a: Dialga
+|-damage|p1a: Dialga|175/270
+|-enditem|p1a: Dialga|Leftovers|[from] move: Knock Off|[of] p2a: Farfetch’d
+|
+|upkeep
+|turn|2
+|
+|t:|1684340724
+|move|p1a: Dialga|Toxic|p2a: Farfetch’d
+|-status|p2a: Farfetch’d|tox
+|move|p2a: Farfetch’d|Swords Dance|p2a: Farfetch’d
+|-boost|p2a: Farfetch’d|atk|2
+|
+|-damage|p2a: Farfetch’d|225/239 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1684340743
+|switch|p1a: Maractus|Maractus, L95, M|296/296
+|move|p2a: Farfetch’d|Close Combat|p1a: Maractus
+|-damage|p1a: Maractus|96/296
+|-unboost|p2a: Farfetch’d|def|1
+|-unboost|p2a: Farfetch’d|spd|1
+|
+|-heal|p1a: Maractus|114/296|[from] item: Leftovers
+|-damage|p2a: Farfetch’d|197/239 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1684340756
+|move|p1a: Maractus|Spiky Shield|p1a: Maractus
+|-singleturn|p1a: Maractus|move: Protect
+|move|p2a: Farfetch’d|Knock Off|p1a: Maractus
+|-activate|p1a: Maractus|move: Protect
+|-damage|p2a: Farfetch’d|168/239 tox|[from] Spiky Shield|[of] p1a: Maractus
+|
+|-heal|p1a: Maractus|132/296|[from] item: Leftovers
+|-damage|p2a: Farfetch’d|126/239 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1684340769
+|move|p1a: Maractus|Leech Seed|p2a: Farfetch’d
+|-start|p2a: Farfetch’d|move: Leech Seed
+|move|p2a: Farfetch’d|Knock Off|p1a: Maractus
+|-crit|p1a: Maractus
+|-damage|p1a: Maractus|0 fnt
+|-enditem|p1a: Maractus|Leftovers|[from] move: Knock Off|[of] p2a: Farfetch’d
+|faint|p1a: Maractus
+|
+|-damage|p2a: Farfetch’d|70/239 tox|[from] psn
+|upkeep
+|
+|t:|1684340777
+|switch|p1a: Dialga|Dialga, L74|175/270
+|-ability|p1a: Dialga|Pressure
+|turn|6
+|
+|t:|1684340783
+|move|p1a: Dialga|Thunderbolt|p2a: Farfetch’d
+|-supereffective|p2a: Farfetch’d
+|-damage|p2a: Farfetch’d|0 fnt
+|faint|p2a: Farfetch’d
+|
+|upkeep
+|
+|t:|1684340792
+|switch|p2a: Hippowdon|Hippowdon, L80, M|304/304
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|7
+|
+|t:|1684340802
+|move|p1a: Dialga|Toxic|p2a: Hippowdon|[miss]
+|-miss|p1a: Dialga|p2a: Hippowdon
+|move|p2a: Hippowdon|Stealth Rock|p1a: Dialga
+|-sidestart|p1: vUchihax|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|c|☆vUchihax|no
+|c|☆vUchihax|bo
+|c|☆vUchihax|no
+|c|☆vUchihax|caralho
+|c|☆vUchihax|foda se
+|c|☆vUchihax|filho da puta
+|c|☆vUchihax|faling twice
+|c|☆vUchihax|gg game is over
+|c|☆vUchihax|what ever
+|
+|t:|1684340824
+|switch|p2a: Magearna|Magearna-Original, L76|247/247
+|move|p1a: Dialga|Toxic|p2a: Magearna|[miss]
+|-miss|p1a: Dialga|p2a: Magearna
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|inactive|vUchihax has 120 seconds left.
+|
+|t:|1684340855
+|switch|p1a: Vanilluxe|Vanilluxe, L82, M|251/251
+|-damage|p1a: Vanilluxe|189/251|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Magearna|232/247|[from] Hail
+|-heal|p2a: Magearna|247/247|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1684340883
+|move|p1a: Vanilluxe|Aurora Veil|p1a: Vanilluxe
+|-sidestart|p1: vUchihax|move: Aurora Veil
+|move|p2a: Magearna|Flash Cannon|p1a: Vanilluxe
+|-supereffective|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|66/251
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Magearna|232/247|[from] Hail
+|-heal|p2a: Magearna|247/247|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1684340895
+|move|p1a: Vanilluxe|Explosion|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|175/247
+|faint|p1a: Vanilluxe
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|move|p2a: Magearna|Agility|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Magearna|160/247|[from] Hail
+|-heal|p2a: Magearna|175/247|[from] item: Leftovers
+|upkeep
+|inactive|vUchihax has 90 seconds left.
+|
+|t:|1684340936
+|switch|p1a: Bewear|Bewear, L82, M|331/331
+|-damage|p1a: Bewear|311/331|[from] Stealth Rock
+|turn|12
+|-message|vUchihax forfeited.
+|
+|win|juanjo17
+|raw|vUchihax's rating: 1173 &rarr; <strong>1143</strong><br />(-30 for losing)
+|raw|juanjo17's rating: 1105 &rarr; <strong>1135</strong><br />(+30 for winning)
+|l|☆vUchihax

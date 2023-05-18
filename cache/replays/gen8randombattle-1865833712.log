@@ -1,0 +1,226 @@
+|j|☆ferrobert23
+|j|☆Shiritu
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1684342207
+|gametype|singles
+|player|p1|ferrobert23|lucas-gen4pt|
+|player|p2|Shiritu|ash-sinnoh|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Dynamax Clause: You cannot dynamax
+|
+|t:|1684342207
+|start
+|switch|p1a: Mesprit|Mesprit, L88|284/284
+|switch|p2a: Moltres|Moltres-Galar, L81|278/278
+|turn|1
+|
+|t:|1684342227
+|switch|p1a: Hippowdon|Hippowdon, L82, M|311/311
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Moltres|Nasty Plot|p2a: Moltres
+|-boost|p2a: Moltres|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|261/278|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1684342237
+|move|p2a: Moltres|Fiery Wrath|p1a: Hippowdon
+|-damage|p1a: Hippowdon|98/311
+|move|p1a: Hippowdon|Toxic|p2a: Moltres
+|-status|p2a: Moltres|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|244/278 tox|[from] Sandstorm
+|-heal|p1a: Hippowdon|117/311|[from] item: Leftovers
+|-damage|p2a: Moltres|227/278 tox|[from] psn
+|upkeep
+|turn|3
+|j|%Tarre25
+|
+|t:|1684342257
+|move|p2a: Moltres|Fiery Wrath|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|210/278 tox|[from] Sandstorm
+|-damage|p2a: Moltres|176/278 tox|[from] psn
+|upkeep
+|
+|t:|1684342270
+|switch|p1a: Linoone|Linoone, L85, F|270/270
+|turn|4
+|
+|t:|1684342279
+|move|p1a: Linoone|Extreme Speed|p2a: Moltres
+|-damage|p2a: Moltres|109/278 tox
+|-ability|p2a: Moltres|Berserk|boost
+|-boost|p2a: Moltres|spa|1
+|move|p2a: Moltres|Fiery Wrath|p1a: Linoone
+|-damage|p1a: Linoone|0 fnt
+|faint|p1a: Linoone
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|92/278 tox|[from] Sandstorm
+|-damage|p2a: Moltres|41/278 tox|[from] psn
+|upkeep
+|
+|t:|1684342298
+|switch|p1a: Exeggutor|Exeggutor-Alola, L87, F|307/307
+|-item|p2a: Moltres|Chesto Berry|[from] ability: Frisk|[of] p1a: Exeggutor|[identify]
+|turn|5
+|
+|t:|1684342303
+|move|p2a: Moltres|Rest|p2a: Moltres
+|-status|p2a: Moltres|slp|[from] move: Rest
+|-heal|p2a: Moltres|278/278 slp|[silent]
+|-enditem|p2a: Moltres|Chesto Berry|[eat]
+|-curestatus|p2a: Moltres|slp|[msg]
+|move|p1a: Exeggutor|Giga Drain|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|217/278
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1684342313
+|move|p2a: Moltres|Hurricane|p1a: Exeggutor|[miss]
+|-miss|p2a: Moltres|p1a: Exeggutor
+|move|p1a: Exeggutor|Giga Drain|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|153/278
+|
+|upkeep
+|turn|7
+|
+|t:|1684342319
+|move|p2a: Moltres|Hurricane|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|upkeep
+|
+|t:|1684342324
+|switch|p1a: Kyurem|Kyurem, L76|315/315
+|-ability|p1a: Kyurem|Pressure
+|turn|8
+|c|☆ferrobert23|gg
+|c|☆ferrobert23|me hace counter a todo el equipo xd
+|
+|t:|1684342339
+|move|p2a: Moltres|Fiery Wrath|p1a: Kyurem
+|-damage|p1a: Kyurem|81/315
+|move|p1a: Kyurem|Ice Beam|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|1/278
+|-ability|p2a: Moltres|Berserk|boost
+|-boost|p2a: Moltres|spa|1
+|
+|upkeep
+|turn|9
+|c|☆Shiritu|A ver
+|c|☆Shiritu|Me lo has regalado
+|c|☆ferrobert23|no tenia ningún pokemon
+|j| mcqopemq
+|c|☆ferrobert23|que se cargara a moltres
+|c|☆Shiritu|Moltres casi siempre se juega rest
+|j| Vicentedelbosque1
+|inactive|Shiritu has 120 seconds left.
+|c|☆ferrobert23|todos son mas lentos
+|c|☆ferrobert23|xd
+|c|☆Shiritu|Perdiste turno con toxico
+|c|☆Shiritu|Dsp con el exeggutor no usaste meteor
+|c|☆Shiritu|Y fijate que ahora esta a un 1% de vida
+|c|☆ferrobert23|hipowdon solo tenia terremoto
+|
+|t:|1684342392
+|move|p2a: Moltres|Fiery Wrath|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+|c|☆Shiritu|Pues pa que lo sacas entonces
+|c|☆ferrobert23|y con exegutor fue missclick
+|c|☆Shiritu|Pierdes un turno por la lead, y dsp otro por sacar al hippo
+|c|☆ferrobert23|porque pensaba que tenia Stone edge
+|inactive|ferrobert23 has 120 seconds left.
+|c|☆ferrobert23|pero fail
+|
+|t:|1684342420
+|switch|p1a: Mesprit|Mesprit, L88|284/284
+|turn|10
+|c|☆Shiritu|Ah, eso es otra
+|c|☆Shiritu|Roar tmb servia
+|c|☆Shiritu|Tenia?
+|
+|t:|1684342429
+|move|p2a: Moltres|Fiery Wrath|p1a: Mesprit
+|-supereffective|p1a: Mesprit
+|-damage|p1a: Mesprit|0 fnt
+|faint|p1a: Mesprit
+|
+|upkeep
+|c|☆ferrobert23|no
+|c|☆ferrobert23|slack off
+|c|☆Shiritu|Toxic sr eq y?
+|c|☆Shiritu|Ah va
+|inactive|ferrobert23 has 120 seconds left.
+|
+|t:|1684342446
+|switch|p1a: Lurantis|Lurantis, L88, F|266/266
+|turn|11
+|c|☆Shiritu|Pues es cosa del missclick
+|
+|t:|1684342458
+|move|p2a: Moltres|Hurricane|p1a: Lurantis|[miss]
+|-miss|p2a: Moltres|p1a: Lurantis
+|move|p1a: Lurantis|Superpower|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|-boost|p1a: Lurantis|atk|1
+|-boost|p1a: Lurantis|def|1
+|faint|p2a: Moltres
+|-damage|p1a: Lurantis|240/266|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1684342479
+|switch|p2a: Alcremie|Alcremie, L88, F|258/258
+|turn|12
+|
+|t:|1684342484
+|move|p2a: Alcremie|Mystical Fire|p1a: Lurantis
+|-supereffective|p1a: Lurantis
+|-damage|p1a: Lurantis|126/266
+|-boost|p1a: Lurantis|spa|1
+|move|p1a: Lurantis|Leaf Storm|p2a: Alcremie
+|-damage|p2a: Alcremie|62/258
+|-boost|p1a: Lurantis|spa|2
+|-damage|p1a: Lurantis|100/266|[from] item: Life Orb
+|
+|-heal|p2a: Alcremie|78/258|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1684342495
+|move|p2a: Alcremie|Mystical Fire|p1a: Lurantis
+|-supereffective|p1a: Lurantis
+|-damage|p1a: Lurantis|0 fnt
+|faint|p1a: Lurantis
+|
+|win|Shiritu
+|n|☆ferrobert23|ferrobert23
+|n|☆Shiritu|shiritu
+|n| Tarre25|tarre25
+|n| mcqopemq|mcqopemq
+|n| Vicentedelbosque1|vicentedelbosque1

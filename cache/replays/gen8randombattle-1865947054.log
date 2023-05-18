@@ -1,0 +1,349 @@
+|j|☆bug hunter 14
+|j|☆Nursey 29
+|t:|1684353099
+|gametype|singles
+|player|p1|bug hunter 14|ballguy|1586
+|player|p2|Nursey 29|lucas|1657
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1684353099
+|start
+|switch|p1a: Skarmory|Skarmory, L80, F|235/235
+|switch|p2a: Tangrowth|Tangrowth, L84, M|305/305
+|turn|1
+|c|☆bug hunter 14|glhf
+|
+|t:|1684353128
+|move|p1a: Skarmory|Stealth Rock|p2a: Tangrowth
+|-sidestart|p2: Nursey 29|move: Stealth Rock
+|move|p2a: Tangrowth|Leech Seed|p1a: Skarmory
+|-start|p1a: Skarmory|move: Leech Seed
+|
+|-damage|p1a: Skarmory|206/235|[from] Leech Seed|[of] p2a: Tangrowth
+|upkeep
+|turn|2
+|c|☆Nursey 29|u2
+|c|☆bug hunter 14|ty
+|
+|t:|1684353148
+|move|p1a: Skarmory|Spikes|p2a: Tangrowth
+|-sidestart|p2: Nursey 29|Spikes
+|move|p2a: Tangrowth|Giga Drain|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|178/235
+|
+|-heal|p1a: Skarmory|192/235|[from] item: Leftovers
+|-damage|p1a: Skarmory|163/235|[from] Leech Seed|[of] p2a: Tangrowth
+|upkeep
+|turn|3
+|
+|t:|1684353162
+|switch|p2a: Lunatone|Lunatone, L86|295/295
+|-damage|p2a: Lunatone|259/295|[from] Stealth Rock
+|move|p1a: Skarmory|Brave Bird|p2a: Lunatone
+|-resisted|p2a: Lunatone
+|-damage|p2a: Lunatone|200/295
+|-damage|p1a: Skarmory|144/235|[from] Recoil
+|
+|-heal|p1a: Skarmory|158/235|[from] item: Leftovers
+|-damage|p1a: Skarmory|129/235|[from] Leech Seed|[of] p2a: Lunatone
+|-heal|p2a: Lunatone|229/295|[silent]
+|upkeep
+|turn|4
+|
+|t:|1684353182
+|switch|p1a: Diggersby|Diggersby, L80, F|267/267
+|move|p2a: Lunatone|Power Gem|p1a: Diggersby
+|-resisted|p1a: Diggersby
+|-damage|p1a: Diggersby|203/267
+|-damage|p2a: Lunatone|200/295|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|t:|1684353193
+|switch|p2a: Hitmonlee|Hitmonlee, L84, M|221/221
+|-damage|p2a: Hitmonlee|208/221|[from] Stealth Rock
+|-damage|p2a: Hitmonlee|181/221|[from] Spikes
+|move|p1a: Diggersby|Knock Off|p2a: Hitmonlee
+|-resisted|p2a: Hitmonlee
+|-crit|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|71/221
+|-enditem|p2a: Hitmonlee|White Herb|[from] move: Knock Off|[of] p1a: Diggersby
+|-damage|p1a: Diggersby|177/267|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|t:|1684353238
+|switch|p1a: Exeggutor|Exeggutor, L86, F|304/304
+|move|p2a: Hitmonlee|Close Combat|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|235/304
+|-unboost|p2a: Hitmonlee|def|1
+|-unboost|p2a: Hitmonlee|spd|1
+|
+|upkeep
+|turn|7
+|
+|t:|1684353246
+|move|p2a: Hitmonlee|Knock Off|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|79/304
+|-enditem|p1a: Exeggutor|Sitrus Berry|[from] move: Knock Off|[of] p2a: Hitmonlee
+|move|p1a: Exeggutor|Psychic|p2a: Hitmonlee
+|-supereffective|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|
+|upkeep
+|
+|t:|1684353268
+|switch|p2a: Gengar|Gengar, L80, M|227/227
+|-damage|p2a: Gengar|199/227|[from] Stealth Rock
+|-damage|p2a: Gengar|171/227|[from] Spikes
+|turn|8
+|
+|t:|1684353291
+|move|p2a: Gengar|Shadow Ball|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|-damage|p2a: Gengar|149/227|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1684353302
+|switch|p1a: Barraskewda|Barraskewda, L80, M|229/229
+|turn|9
+|
+|t:|1684353309
+|switch|p2a: Tangrowth|Tangrowth, L84, M|305/305
+|-damage|p2a: Tangrowth|267/305|[from] Stealth Rock
+|-damage|p2a: Tangrowth|229/305|[from] Spikes
+|move|p1a: Barraskewda|Crunch|p2a: Tangrowth
+|-damage|p2a: Tangrowth|158/305
+|-damage|p1a: Barraskewda|191/229|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|
+|upkeep
+|turn|10
+|
+|t:|1684353323
+|switch|p1a: Skarmory|Skarmory, L80, F|129/235
+|move|p2a: Tangrowth|Leech Seed|p1a: Skarmory
+|-start|p1a: Skarmory|move: Leech Seed
+|
+|-heal|p1a: Skarmory|143/235|[from] item: Leftovers
+|-damage|p1a: Skarmory|114/235|[from] Leech Seed|[of] p2a: Tangrowth
+|-heal|p2a: Tangrowth|187/305|[silent]
+|upkeep
+|turn|11
+|
+|t:|1684353332
+|switch|p2a: Lunatone|Lunatone, L86|200/295
+|-damage|p2a: Lunatone|164/295|[from] Stealth Rock
+|move|p1a: Skarmory|Spikes|p2a: Lunatone
+|-sidestart|p2: Nursey 29|Spikes
+|
+|-heal|p1a: Skarmory|128/235|[from] item: Leftovers
+|-damage|p1a: Skarmory|99/235|[from] Leech Seed|[of] p2a: Lunatone
+|-heal|p2a: Lunatone|193/295|[silent]
+|upkeep
+|turn|12
+|
+|t:|1684353350
+|move|p2a: Lunatone|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: bug hunter 14|move: Stealth Rock
+|move|p1a: Skarmory|Spikes|p2a: Lunatone
+|-sidestart|p2: Nursey 29|Spikes
+|
+|-heal|p1a: Skarmory|113/235|[from] item: Leftovers
+|-damage|p1a: Skarmory|84/235|[from] Leech Seed|[of] p2a: Lunatone
+|-heal|p2a: Lunatone|222/295|[silent]
+|upkeep
+|turn|13
+|
+|t:|1684353359
+|move|p2a: Lunatone|Power Gem|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|-damage|p2a: Lunatone|193/295|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1684353407
+|switch|p1a: Diggersby|Diggersby, L80, F|177/267
+|-damage|p1a: Diggersby|161/267|[from] Stealth Rock
+|turn|14
+|
+|t:|1684353413
+|move|p1a: Diggersby|Knock Off|p2a: Lunatone
+|-supereffective|p2a: Lunatone
+|-damage|p2a: Lunatone|0 fnt
+|-enditem|p2a: Lunatone|Life Orb|[from] move: Knock Off|[of] p1a: Diggersby
+|faint|p2a: Lunatone
+|-damage|p1a: Diggersby|135/267|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1684353424
+|switch|p2a: Gengar|Gengar, L80, M|149/227
+|-damage|p2a: Gengar|121/227|[from] Stealth Rock
+|-damage|p2a: Gengar|65/227|[from] Spikes
+|turn|15
+|
+|t:|1684353434
+|move|p2a: Gengar|Focus Blast|p1a: Diggersby
+|-supereffective|p1a: Diggersby
+|-damage|p1a: Diggersby|0 fnt
+|faint|p1a: Diggersby
+|-damage|p2a: Gengar|43/227|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1684353439
+|switch|p1a: Barraskewda|Barraskewda, L80, M|191/229
+|-damage|p1a: Barraskewda|163/229|[from] Stealth Rock
+|turn|16
+|
+|t:|1684353452
+|move|p1a: Barraskewda|Crunch|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-start|p1a: Barraskewda|Disable|Crunch|[from] ability: Cursed Body|[of] p2a: Gengar
+|faint|p2a: Gengar
+|
+|upkeep
+|
+|t:|1684353460
+|switch|p2a: Roserade|Roserade, L84, M|238/238
+|-damage|p2a: Roserade|209/238|[from] Stealth Rock
+|-damage|p2a: Roserade|150/238|[from] Spikes
+|turn|17
+|
+|t:|1684353483
+|-activate|p1a: Barraskewda|move: Struggle
+|move|p1a: Barraskewda|Struggle|p2a: Roserade
+|-damage|p2a: Roserade|78/238
+|-damage|p1a: Barraskewda|106/229|[from] recoil
+|move|p2a: Roserade|Sludge Bomb|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|-heal|p2a: Roserade|92/238|[from] item: Black Sludge
+|upkeep
+|
+|t:|1684353492
+|switch|p1a: Scyther|Scyther, L81, F|246/246
+|turn|18
+|
+|t:|1684353502
+|move|p1a: Scyther|Dual Wingbeat|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|-hitcount|p2: Roserade|1
+|
+|upkeep
+|
+|t:|1684353507
+|switch|p2a: Golurk|Golurk, L82|280/280
+|-damage|p2a: Golurk|263/280|[from] Stealth Rock
+|-damage|p2a: Golurk|193/280|[from] Spikes
+|turn|19
+|
+|t:|1684353540
+|move|p1a: Scyther|U-turn|p2a: Golurk
+|-resisted|p2a: Golurk
+|-damage|p2a: Golurk|151/280
+|
+|t:|1684353543
+|switch|p1a: Diancie|Diancie, L82|216/216|[from] U-turn
+|-damage|p1a: Diancie|189/216|[from] Stealth Rock
+|move|p2a: Golurk|Stone Edge|p1a: Diancie
+|-damage|p1a: Diancie|100/216
+|
+|-heal|p1a: Diancie|113/216|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1684353556
+|switch|p1a: Scyther|Scyther, L81, F|246/246
+|-start|p2a: Golurk|Dynamax|
+|-heal|p2a: Golurk|302/560|[silent]
+|move|p2a: Golurk|Max Quake|p1a: Scyther
+|-immune|p1a: Scyther
+|
+|upkeep
+|turn|21
+|
+|t:|1684353572
+|move|p1a: Scyther|U-turn|p2a: Golurk
+|-resisted|p2a: Golurk
+|-damage|p2a: Golurk|260/560
+|
+|t:|1684353575
+|switch|p1a: Diancie|Diancie, L82|113/216|[from] U-turn
+|-damage|p1a: Diancie|86/216|[from] Stealth Rock
+|move|p2a: Golurk|Max Rockfall|p1a: Diancie
+|-damage|p1a: Diancie|19/216
+|-weather|Sandstorm
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Diancie|32/216|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1684353587
+|move|p2a: Golurk|Max Knuckle|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|-boost|p2a: Golurk|atk|1
+|faint|p1a: Diancie
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1684353591
+|switch|p1a: Scyther|Scyther, L81, F|246/246
+|-end|p2a: Golurk|Dynamax
+|-heal|p2a: Golurk|130/280|[silent]
+|turn|23
+|
+|t:|1684353598
+|move|p1a: Scyther|Dual Wingbeat|p2a: Golurk
+|-damage|p2a: Golurk|58/280
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|-hitcount|p2: Golurk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Scyther|231/246|[from] Sandstorm
+|upkeep
+|
+|t:|1684353606
+|switch|p2a: Tangrowth|Tangrowth, L84, M|288/305
+|-damage|p2a: Tangrowth|250/305|[from] Stealth Rock
+|-damage|p2a: Tangrowth|174/305|[from] Spikes
+|turn|24
+|c|☆Nursey 29|very well played gg
+|c|☆bug hunter 14|gg
+|
+|t:|1684353627
+|-start|p1a: Scyther|Dynamax|
+|-heal|p1a: Scyther|462/492|[silent]
+|move|p1a: Scyther|Max Airstream|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|-boost|p1a: Scyther|spe|1
+|faint|p2a: Tangrowth
+|
+|win|bug hunter 14
+|raw|bug hunter 14's rating: 1586 &rarr; <strong>1610</strong><br />(+24 for winning)
+|raw|Nursey 29's rating: 1657 &rarr; <strong>1633</strong><br />(-24 for losing)

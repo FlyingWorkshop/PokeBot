@@ -1,0 +1,254 @@
+|j|☆lisavittozzi
+|j|☆rthrthrwth
+|t:|1684270289
+|gametype|singles
+|player|p1|lisavittozzi|102|1463
+|player|p2|rthrthrwth|265|1359
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1684270289
+|start
+|switch|p1a: Rayquaza|Rayquaza, L74|277/277
+|switch|p2a: Qwilfish|Qwilfish, L84, F|246/246
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Rayquaza|atk|1
+|-ability|p1a: Rayquaza|Air Lock
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lisavittozzi)
+|
+|t:|1684270322
+|switch|p2a: Lycanroc|Lycanroc-Dusk, L80, M|251/251
+|switch|p1a: Duraludon|Duraludon, L84, M|255/255
+|
+|upkeep
+|turn|2
+|
+|t:|1684270328
+|move|p2a: Lycanroc|Close Combat|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-crit|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|-unboost|p2a: Lycanroc|def|1
+|-unboost|p2a: Lycanroc|spd|1
+|faint|p1a: Duraludon
+|-damage|p2a: Lycanroc|226/251|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1684270346
+|switch|p1a: Vaporeon|Vaporeon, L84, M|356/356
+|turn|3
+|
+|t:|1684270356
+|switch|p1a: Gengar|Gengar, L80, F|227/227
+|move|p2a: Lycanroc|Close Combat|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|upkeep
+|turn|4
+|inactive|rthrthrwth has 120 seconds left.
+|
+|t:|1684270393
+|move|p2a: Lycanroc|Psychic Fangs|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|-damage|p2a: Lycanroc|201/251|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1684270398
+|switch|p1a: Vaporeon|Vaporeon, L84, M|356/356
+|turn|5
+|
+|t:|1684270404
+|move|p2a: Lycanroc|Close Combat|p1a: Vaporeon
+|-damage|p1a: Vaporeon|147/356
+|-unboost|p2a: Lycanroc|def|1
+|-unboost|p2a: Lycanroc|spd|1
+|-damage|p2a: Lycanroc|176/251|[from] item: Life Orb
+|move|p1a: Vaporeon|Scald|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|faint|p2a: Lycanroc
+|
+|-heal|p1a: Vaporeon|169/356|[from] item: Leftovers
+|upkeep
+|inactive|rthrthrwth has 120 seconds left.
+|
+|t:|1684270430
+|switch|p2a: Sceptile|Sceptile, L86, M|261/261
+|turn|6
+|
+|t:|1684270437
+|move|p2a: Sceptile|Giga Drain|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|upkeep
+|
+|t:|1684270449
+|switch|p1a: Mienshao|Mienshao, L82, M|241/241
+|turn|7
+|inactive|rthrthrwth has 120 seconds left.
+|
+|t:|1684270456
+|move|p2a: Sceptile|Leech Seed|p1a: Mienshao
+|-start|p1a: Mienshao|move: Leech Seed
+|move|p1a: Mienshao|Poison Jab|p2a: Sceptile
+|-supereffective|p2a: Sceptile
+|-damage|p2a: Sceptile|66/261
+|-damage|p1a: Mienshao|217/241|[from] item: Life Orb
+|
+|-heal|p2a: Sceptile|82/261|[from] item: Leftovers
+|-damage|p1a: Mienshao|187/241|[from] Leech Seed|[of] p2a: Sceptile
+|-heal|p2a: Sceptile|112/261|[silent]
+|upkeep
+|turn|8
+|inactive|rthrthrwth has 120 seconds left.
+|
+|t:|1684270475
+|move|p2a: Sceptile|Giga Drain|p1a: Mienshao
+|-damage|p1a: Mienshao|57/241
+|-heal|p2a: Sceptile|177/261|[from] drain|[of] p1a: Mienshao
+|move|p1a: Mienshao|Poison Jab|p2a: Sceptile
+|-supereffective|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|faint|p2a: Sceptile
+|-damage|p1a: Mienshao|33/241|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1684270494
+|switch|p2a: Golisopod|Golisopod, L84, M|263/263
+|turn|9
+|
+|t:|1684270518
+|switch|p1a: Rayquaza|Rayquaza, L74|277/277
+|-ability|p1a: Rayquaza|Air Lock
+|move|p2a: Golisopod|First Impression|p1a: Rayquaza
+|-resisted|p1a: Rayquaza
+|-damage|p1a: Rayquaza|214/277
+|
+|upkeep
+|turn|10
+|
+|t:|1684270527
+|switch|p2a: Beartic|Beartic, L86, F|303/303
+|move|p1a: Rayquaza|Dragon Dance|p1a: Rayquaza
+|-boost|p1a: Rayquaza|atk|1
+|-boost|p1a: Rayquaza|spe|1
+|
+|upkeep
+|turn|11
+|
+|t:|1684270545
+|-start|p1a: Rayquaza|Dynamax|
+|-heal|p1a: Rayquaza|428/554|[silent]
+|move|p1a: Rayquaza|Max Flare|p2a: Beartic
+|-supereffective|p2a: Beartic
+|-damage|p2a: Beartic|0 fnt
+|-weather|SunnyDay
+|faint|p2a: Beartic
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|rthrthrwth has 90 seconds left.
+|
+|t:|1684270556
+|switch|p2a: Magnezone|Magnezone, L84|255/255
+|turn|12
+|
+|t:|1684270567
+|switch|p2a: Qwilfish|Qwilfish, L84, F|246/246
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Rayquaza|atk|1
+|move|p1a: Rayquaza|Max Quake|p2a: Qwilfish
+|-supereffective|p2a: Qwilfish
+|-damage|p2a: Qwilfish|44/246
+|-boost|p1a: Rayquaza|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|inactive|rthrthrwth has 90 seconds left.
+|inactive|rthrthrwth has 60 seconds left.
+|c|☆lisavittozzi|gioca
+|c|☆lisavittozzi|faccia di merda
+|c|☆lisavittozzi|devi muoverti imbecille
+|inactive|rthrthrwth has 30 seconds left.
+|c|☆lisavittozzi|coglione
+|
+|t:|1684270655
+|move|p1a: Rayquaza|Max Quake|p2a: Qwilfish
+|-supereffective|p2a: Qwilfish
+|-damage|p2a: Qwilfish|0 fnt
+|-boost|p1a: Rayquaza|spd|1
+|faint|p2a: Qwilfish
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|rthrthrwth has 30 seconds left this turn.
+|
+|t:|1684270663
+|switch|p2a: Magnezone|Magnezone, L84|255/255
+|-end|p1a: Rayquaza|Dynamax
+|-heal|p1a: Rayquaza|214/277|[silent]
+|turn|14
+|inactive|rthrthrwth has 30 seconds left.
+|
+|t:|1684270673
+|-start|p2a: Magnezone|Dynamax|
+|-heal|p2a: Magnezone|510/510|[silent]
+|move|p1a: Rayquaza|Earthquake|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|238/510
+|move|p2a: Magnezone|Max Lightning|p1a: Rayquaza
+|-damage|p1a: Rayquaza|112/277
+|-fieldstart|move: Electric Terrain
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|inactive|rthrthrwth has 30 seconds left.
+|
+|t:|1684270691
+|move|p1a: Rayquaza|Earthquake|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-crit|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-weather|none
+|upkeep
+|inactive|rthrthrwth has 30 seconds left this turn.
+|
+|t:|1684270694
+|switch|p2a: Golisopod|Golisopod, L84, M|263/263
+|turn|16
+|
+|t:|1684270699
+|move|p2a: Golisopod|First Impression|p1a: Rayquaza
+|-resisted|p1a: Rayquaza
+|-damage|p1a: Rayquaza|48/277
+|move|p1a: Rayquaza|Dragon Ascent|p2a: Golisopod
+|-supereffective|p2a: Golisopod
+|-damage|p2a: Golisopod|71/263
+|-unboost|p1a: Rayquaza|def|1
+|-unboost|p1a: Rayquaza|spd|1
+|
+|upkeep
+|turn|17
+|-message|rthrthrwth forfeited.
+|
+|win|lisavittozzi
+|raw|lisavittozzi's rating: 1463 &rarr; <strong>1477</strong><br />(+14 for winning)
+|raw|rthrthrwth's rating: 1359 &rarr; <strong>1345</strong><br />(-14 for losing)

@@ -1,0 +1,453 @@
+|j|☆Nursey 29
+|j|☆bug hunter 14
+|t:|1684360685
+|gametype|singles
+|player|p1|Nursey 29|lucas|1655
+|player|p2|bug hunter 14|ballguy|1628
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1684360685
+|start
+|switch|p1a: Silvally|Silvally-Bug, L84|297/297
+|switch|p2a: Blaziken|Blaziken, L76, F|247/247
+|turn|1
+|c|☆bug hunter 14|glhf
+|c|☆Nursey 29|u2 :)
+|c|☆bug hunter 14|ty
+|
+|t:|1684360718
+|switch|p2a: Magnezone|Magnezone, L84|255/255
+|move|p1a: Silvally|Parting Shot|p2a: Magnezone
+|-unboost|p2a: Magnezone|atk|1
+|-unboost|p2a: Magnezone|spa|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bug hunter 14)
+|
+|t:|1684360757
+|switch|p1a: Darmanitan|Darmanitan, L80, F|299/299|[from] Parting Shot
+|
+|upkeep
+|turn|2
+|inactive|bug hunter 14 has 120 seconds left.
+|
+|t:|1684360790
+|move|p1a: Darmanitan|Flare Blitz|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|-damage|p1a: Darmanitan|215/299|[from] Recoil
+|
+|upkeep
+|inactive|bug hunter 14 has 120 seconds left.
+|
+|t:|1684360818
+|switch|p2a: Blaziken|Blaziken, L76, F|247/247
+|turn|3
+|
+|t:|1684360823
+|-start|p2a: Blaziken|Dynamax|
+|-heal|p2a: Blaziken|494/494|[silent]
+|move|p1a: Darmanitan|Earthquake|p2a: Blaziken
+|-supereffective|p2a: Blaziken
+|-damage|p2a: Blaziken|208/494
+|-damage|p1a: Darmanitan|186/299|[from] item: Life Orb
+|move|p2a: Blaziken|Max Rockfall|p1a: Darmanitan
+|-supereffective|p1a: Darmanitan
+|-damage|p1a: Darmanitan|0 fnt
+|-weather|Sandstorm
+|faint|p1a: Darmanitan
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blaziken|193/494|[from] Sandstorm
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1684360839
+|switch|p1a: Tapu Fini|Tapu Fini, L78|237/237
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|turn|4
+|inactive|bug hunter 14 has 120 seconds left.
+|
+|t:|1684360855
+|-start|p1a: Tapu Fini|Dynamax|
+|-heal|p1a: Tapu Fini|474/474|[silent]
+|move|p2a: Blaziken|Max Flare|p1a: Tapu Fini
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|414/474
+|-weather|SunnyDay
+|move|p1a: Tapu Fini|Max Geyser|p2a: Blaziken
+|-supereffective|p2a: Blaziken
+|-damage|p2a: Blaziken|49/494
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tapu Fini|428/474|[from] item: Leftovers
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|5
+|inactive|bug hunter 14 has 90 seconds left.
+|
+|t:|1684360886
+|-end|p2a: Blaziken|Dynamax
+|-heal|p2a: Blaziken|25/247|[silent]
+|switch|p2a: Articuno|Articuno, L84|288/288
+|-ability|p2a: Articuno|Pressure
+|move|p1a: Tapu Fini|Max Geyser|p2a: Articuno
+|-damage|p2a: Articuno|153/288
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tapu Fini|442/474|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|bug hunter 14 has 90 seconds left.
+|
+|t:|1684360898
+|move|p2a: Articuno|Roost|p2a: Articuno
+|-heal|p2a: Articuno|288/288
+|-singleturn|p2a: Articuno|move: Roost
+|move|p1a: Tapu Fini|Max Geyser|p2a: Articuno
+|-damage|p2a: Articuno|141/288
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tapu Fini|456/474|[from] item: Leftovers
+|upkeep
+|-end|p1a: Tapu Fini|Dynamax
+|-heal|p1a: Tapu Fini|228/237|[silent]
+|turn|7
+|
+|t:|1684360909
+|move|p2a: Articuno|Roost|p2a: Articuno
+|-heal|p2a: Articuno|285/288
+|-singleturn|p2a: Articuno|move: Roost
+|move|p1a: Tapu Fini|Calm Mind|p1a: Tapu Fini
+|-boost|p1a: Tapu Fini|spa|1
+|-boost|p1a: Tapu Fini|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tapu Fini|237/237|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1684360917
+|move|p2a: Articuno|Freeze-Dry|p1a: Tapu Fini
+|-supereffective|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|163/237
+|move|p1a: Tapu Fini|Taunt|p2a: Articuno
+|-start|p2a: Articuno|move: Taunt
+|
+|-weather|none
+|-heal|p1a: Tapu Fini|177/237|[from] item: Leftovers
+|-fieldend|Misty Terrain
+|upkeep
+|turn|9
+|
+|t:|1684360928
+|move|p2a: Articuno|Freeze-Dry|p1a: Tapu Fini
+|-supereffective|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|103/237
+|move|p1a: Tapu Fini|Surf|p2a: Articuno
+|-damage|p2a: Articuno|191/288
+|
+|-heal|p1a: Tapu Fini|117/237|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|bug hunter 14 has 120 seconds left.
+|
+|t:|1684360936
+|move|p2a: Articuno|Freeze-Dry|p1a: Tapu Fini
+|-supereffective|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|43/237
+|move|p1a: Tapu Fini|Moonblast|p2a: Articuno
+|-damage|p2a: Articuno|85/288
+|
+|-heal|p1a: Tapu Fini|57/237|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1684360944
+|move|p2a: Articuno|Freeze-Dry|p1a: Tapu Fini
+|-supereffective|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|0 fnt
+|faint|p1a: Tapu Fini
+|
+|-end|p2a: Articuno|move: Taunt
+|upkeep
+|
+|t:|1684360950
+|switch|p1a: Weavile|Weavile, L79, M|240/240
+|turn|12
+|
+|t:|1684360960
+|move|p1a: Weavile|Knock Off|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|-enditem|p2a: Articuno|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Weavile
+|faint|p2a: Articuno
+|
+|upkeep
+|
+|t:|1684360970
+|switch|p2a: Ho-Oh|Ho-Oh, L72|272/272
+|turn|13
+|
+|t:|1684360976
+|switch|p1a: Giratina|Giratina, L74|344/344
+|-ability|p1a: Giratina|Pressure
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Giratina
+|-resisted|p1a: Giratina
+|-damage|p1a: Giratina|296/344
+|-status|p1a: Giratina|brn
+|
+|-heal|p1a: Giratina|317/344 brn|[from] item: Leftovers
+|-damage|p1a: Giratina|296/344 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1684360997
+|switch|p2a: Vanilluxe|Vanilluxe, L82, F|251/251
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|move|p1a: Giratina|Toxic|p2a: Vanilluxe
+|-status|p2a: Vanilluxe|tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Giratina|275/344 brn|[from] Hail
+|-heal|p1a: Giratina|296/344 brn|[from] item: Leftovers
+|-damage|p2a: Vanilluxe|236/251 tox|[from] psn
+|-damage|p1a: Giratina|275/344 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1684361013
+|switch|p2a: Sylveon|Sylveon, L84, F|297/297
+|switch|p1a: Silvally|Silvally-Bug, L84|297/297
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Silvally|279/297|[from] Hail
+|-damage|p2a: Sylveon|279/297|[from] Hail
+|-heal|p2a: Sylveon|297/297|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1684361031
+|move|p1a: Silvally|Parting Shot|p2a: Sylveon
+|-unboost|p2a: Sylveon|atk|1
+|-unboost|p2a: Sylveon|spa|1
+|
+|t:|1684361036
+|switch|p1a: Giratina|Giratina, L74|275/344 brn|[from] Parting Shot
+|-ability|p1a: Giratina|Pressure
+|move|p2a: Sylveon|Hyper Voice|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|123/344 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Giratina|102/344 brn|[from] Hail
+|-damage|p2a: Sylveon|279/297|[from] Hail
+|-heal|p1a: Giratina|123/344 brn|[from] item: Leftovers
+|-heal|p2a: Sylveon|297/297|[from] item: Leftovers
+|-damage|p1a: Giratina|102/344 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1684361048
+|move|p1a: Giratina|Toxic|p2a: Sylveon
+|-status|p2a: Sylveon|tox
+|move|p2a: Sylveon|Hyper Voice|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|0 fnt
+|faint|p1a: Giratina
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Sylveon|279/297 tox|[from] Hail
+|-heal|p2a: Sylveon|297/297 tox|[from] item: Leftovers
+|-damage|p2a: Sylveon|279/297 tox|[from] psn
+|upkeep
+|
+|t:|1684361064
+|switch|p1a: Silvally|Silvally-Bug, L84|279/297
+|turn|18
+|
+|t:|1684361074
+|switch|p2a: Ho-Oh|Ho-Oh, L72|272/272
+|move|p1a: Silvally|Thunderbolt|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|174/272
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|t:|1684361082
+|move|p1a: Silvally|Thunderbolt|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|84/272
+|move|p2a: Ho-Oh|Roost|p2a: Ho-Oh
+|-heal|p2a: Ho-Oh|220/272
+|-singleturn|p2a: Ho-Oh|move: Roost
+|
+|upkeep
+|turn|20
+|
+|t:|1684361091
+|move|p1a: Silvally|Thunderbolt|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|128/272
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|99/297
+|
+|upkeep
+|turn|21
+|
+|t:|1684361098
+|move|p1a: Silvally|Thunderbolt|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|42/272
+|move|p2a: Ho-Oh|Roost|p2a: Ho-Oh
+|-heal|p2a: Ho-Oh|178/272
+|-singleturn|p2a: Ho-Oh|move: Roost
+|
+|upkeep
+|turn|22
+|
+|t:|1684361105
+|move|p1a: Silvally|Thunderbolt|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|80/272
+|move|p2a: Ho-Oh|Roost|p2a: Ho-Oh
+|-heal|p2a: Ho-Oh|216/272
+|-singleturn|p2a: Ho-Oh|move: Roost
+|
+|upkeep
+|turn|23
+|
+|t:|1684361114
+|move|p1a: Silvally|Thunderbolt|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|120/272
+|move|p2a: Ho-Oh|Roost|p2a: Ho-Oh
+|-heal|p2a: Ho-Oh|256/272
+|-singleturn|p2a: Ho-Oh|move: Roost
+|
+|upkeep
+|turn|24
+|
+|t:|1684361123
+|move|p1a: Silvally|Thunderbolt|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|160/272
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|upkeep
+|
+|t:|1684361134
+|switch|p1a: Xurkitree|Xurkitree, L76|251/251
+|turn|25
+|
+|t:|1684361149
+|switch|p2a: Vanilluxe|Vanilluxe, L82, F|236/251 tox
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|move|p1a: Xurkitree|Hypnosis||[still]
+|-fail|p1a: Xurkitree
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Xurkitree|236/251|[from] Hail
+|-damage|p2a: Vanilluxe|221/251 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1684361168
+|switch|p1a: Weavile|Weavile, L79, M|240/240
+|move|p2a: Vanilluxe|Explosion|p1a: Weavile
+|-damage|p1a: Weavile|31/240
+|faint|p2a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|inactive|bug hunter 14 has 120 seconds left.
+|
+|t:|1684361190
+|switch|p2a: Ho-Oh|Ho-Oh, L72|250/272
+|turn|27
+|
+|t:|1684361194
+|move|p1a: Weavile|Knock Off|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|130/272
+|-enditem|p2a: Ho-Oh|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Ho-Oh|Brave Bird|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|-damage|p2a: Ho-Oh|120/272|[from] Recoil
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ho-Oh|103/272|[from] Hail
+|upkeep
+|
+|t:|1684361203
+|switch|p1a: Xurkitree|Xurkitree, L76|236/251
+|turn|28
+|
+|t:|1684361212
+|move|p2a: Ho-Oh|Toxic|p1a: Xurkitree
+|-status|p1a: Xurkitree|tox
+|move|p1a: Xurkitree|Hypnosis|p2a: Ho-Oh|[miss]
+|-miss|p1a: Xurkitree|p2a: Ho-Oh
+|-enditem|p1a: Xurkitree|Blunder Policy
+|-boost|p1a: Xurkitree|spe|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Xurkitree|221/251 tox|[from] Hail
+|-damage|p2a: Ho-Oh|86/272|[from] Hail
+|-damage|p1a: Xurkitree|206/251 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1684361224
+|move|p1a: Xurkitree|Thunderbolt|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|0 fnt
+|faint|p2a: Ho-Oh
+|-ability|p1a: Xurkitree|Beast Boost|boost
+|-boost|p1a: Xurkitree|spa|1
+|
+|-weather|none
+|-damage|p1a: Xurkitree|176/251 tox|[from] psn
+|upkeep
+|
+|t:|1684361227
+|switch|p2a: Sylveon|Sylveon, L84, F|279/297 tox
+|turn|30
+|
+|t:|1684361238
+|move|p1a: Xurkitree|Thunderbolt|p2a: Sylveon
+|-damage|p2a: Sylveon|132/297 tox
+|move|p2a: Sylveon|Mystical Fire|p1a: Xurkitree
+|-damage|p1a: Xurkitree|97/251 tox
+|-unboost|p1a: Xurkitree|spa|1
+|
+|-heal|p2a: Sylveon|150/297 tox|[from] item: Leftovers
+|-damage|p1a: Xurkitree|52/251 tox|[from] psn
+|-damage|p2a: Sylveon|132/297 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1684361250
+|move|p1a: Xurkitree|Thunderbolt|p2a: Sylveon
+|-damage|p2a: Sylveon|41/297 tox
+|move|p2a: Sylveon|Hyper Voice|p1a: Xurkitree
+|-damage|p1a: Xurkitree|0 fnt
+|faint|p1a: Xurkitree
+|
+|win|bug hunter 14
+|raw|Nursey 29's rating: 1655 &rarr; <strong>1633</strong><br />(-22 for losing)
+|raw|bug hunter 14's rating: 1628 &rarr; <strong>1650</strong><br />(+22 for winning)

@@ -1,0 +1,386 @@
+|j|☆Sparna_of_Yomi
+|j|☆elduo
+|t:|1684322427
+|gametype|singles
+|player|p1|Sparna_of_Yomi|blackbelt|1452
+|player|p2|elduo|1|1416
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1684322427
+|start
+|switch|p1a: Emolga|Emolga, L88, M|240/240
+|switch|p2a: Thundurus|Thundurus-Therian, L80, M|258/258
+|turn|1
+|j| 6hf4d
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sparna_of_Yomi)
+|
+|t:|1684322464
+|move|p1a: Emolga|Toxic|p2a: Thundurus
+|-status|p2a: Thundurus|tox
+|move|p2a: Thundurus|Psychic|p1a: Emolga
+|-damage|p1a: Emolga|139/240
+|
+|-damage|p2a: Thundurus|242/258 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1684322469
+|move|p1a: Emolga|Roost|p1a: Emolga
+|-heal|p1a: Emolga|240/240
+|-singleturn|p1a: Emolga|move: Roost
+|move|p2a: Thundurus|Psychic|p1a: Emolga
+|-crit|p1a: Emolga
+|-damage|p1a: Emolga|89/240
+|
+|-damage|p2a: Thundurus|210/258 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1684322492
+|switch|p2a: Vanilluxe|Vanilluxe, L82, M|251/251
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|move|p1a: Emolga|Roost|p1a: Emolga
+|-heal|p1a: Emolga|209/240
+|-singleturn|p1a: Emolga|move: Roost
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Emolga|194/240|[from] Hail
+|upkeep
+|turn|4
+|
+|t:|1684322510
+|move|p1a: Emolga|Toxic|p2a: Vanilluxe
+|-status|p2a: Vanilluxe|tox
+|move|p2a: Vanilluxe|Blizzard|p1a: Emolga
+|-supereffective|p1a: Emolga
+|-damage|p1a: Emolga|0 fnt
+|faint|p1a: Emolga
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Vanilluxe|236/251 tox|[from] psn
+|upkeep
+|
+|t:|1684322516
+|switch|p1a: Duraludon|Duraludon, L84, M|255/255
+|turn|5
+|
+|t:|1684322527
+|switch|p2a: Milotic|Milotic, L82, M|290/290
+|move|p1a: Duraludon|Flash Cannon|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|251/290
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Duraludon|240/255|[from] Hail
+|-damage|p2a: Milotic|233/290|[from] Hail
+|-heal|p2a: Milotic|251/290|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1684322537
+|move|p1a: Duraludon|Thunderbolt|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|129/290
+|move|p2a: Milotic|Ice Beam|p1a: Duraludon
+|-damage|p1a: Duraludon|180/255
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Duraludon|165/255|[from] Hail
+|-damage|p2a: Milotic|111/290|[from] Hail
+|-heal|p2a: Milotic|129/290|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1684322566
+|move|p1a: Duraludon|Thunderbolt|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|13/290
+|move|p2a: Milotic|Ice Beam|p1a: Duraludon
+|-damage|p1a: Duraludon|98/255
+|-status|p1a: Duraludon|frz
+|
+|-weather|none
+|-heal|p2a: Milotic|31/290|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1684322576
+|cant|p1a: Duraludon|frz
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|176/290
+|
+|-heal|p2a: Milotic|194/290|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1684322584
+|switch|p1a: Vileplume|Vileplume, L84, M|263/263
+|move|p2a: Milotic|Ice Beam|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|139/263
+|
+|-heal|p2a: Milotic|212/290|[from] item: Leftovers
+|-heal|p1a: Vileplume|155/263|[from] item: Black Sludge
+|upkeep
+|turn|10
+|inactive|elduo has 120 seconds left.
+|
+|t:|1684322617
+|switch|p2a: Thundurus|Thundurus-Therian, L80, M|210/258 tox
+|move|p1a: Vileplume|Sleep Powder|p2a: Thundurus|[miss]
+|-miss|p1a: Vileplume|p2a: Thundurus
+|
+|-heal|p1a: Vileplume|171/263|[from] item: Black Sludge
+|-damage|p2a: Thundurus|194/258 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1684322625
+|switch|p1a: Duraludon|Duraludon, L84, M|98/255 frz
+|move|p2a: Thundurus|Psychic|p1a: Duraludon
+|-resisted|p1a: Duraludon
+|-damage|p1a: Duraludon|58/255 frz
+|
+|-damage|p2a: Thundurus|162/258 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1684322635
+|move|p2a: Thundurus|Focus Blast|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|faint|p1a: Duraludon
+|
+|-damage|p2a: Thundurus|114/258 tox|[from] psn
+|upkeep
+|inactive|Sparna_of_Yomi has 120 seconds left.
+|
+|t:|1684322673
+|switch|p1a: Weezing|Weezing-Galar, L86, M|252/252
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|13
+|inactive|Sparna_of_Yomi has 120 seconds left.
+|
+|t:|1684322680
+|move|p2a: Thundurus|Psychic|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|64/252
+|move|p1a: Weezing|Sludge Bomb|p2a: Thundurus
+|-damage|p2a: Thundurus|14/258 tox
+|
+|-heal|p1a: Weezing|79/252|[from] item: Black Sludge
+|-damage|p2a: Thundurus|0 fnt|[from] psn
+|faint|p2a: Thundurus
+|upkeep
+|
+|t:|1684322694
+|switch|p2a: Hydreigon|Hydreigon, L80, F|278/278
+|turn|14
+|
+|t:|1684322698
+|move|p2a: Hydreigon|Flash Cannon|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|
+|upkeep
+|
+|t:|1684322707
+|switch|p1a: Vileplume|Vileplume, L84, M|171/263
+|turn|15
+|
+|t:|1684322718
+|switch|p2a: Vanilluxe|Vanilluxe, L82, M|236/251 tox
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|move|p1a: Vileplume|Sludge Bomb|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|130/251 tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Vileplume|155/263|[from] Hail
+|-heal|p1a: Vileplume|171/263|[from] item: Black Sludge
+|-damage|p2a: Vanilluxe|115/251 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1684322725
+|move|p2a: Vanilluxe|Blizzard|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Vanilluxe|85/251 tox|[from] psn
+|upkeep
+|
+|t:|1684322728
+|switch|p1a: Kyurem|Kyurem-Black, L73|303/303
+|-ability|p1a: Kyurem|Teravolt
+|turn|17
+|
+|t:|1684322752
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Vanilluxe|Flash Cannon|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|171/303
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Vanilluxe|40/251 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1684322763
+|move|p1a: Kyurem|Fusion Bolt|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|0 fnt
+|faint|p2a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1684322787
+|switch|p2a: Shiinotic|Shiinotic, L86, F|243/243
+|turn|19
+|
+|t:|1684322793
+|-start|p1a: Kyurem|Dynamax|
+|-heal|p1a: Kyurem|342/606|[silent]
+|move|p1a: Kyurem|Max Hailstorm|p2a: Shiinotic
+|-supereffective|p2a: Shiinotic
+|-damage|p2a: Shiinotic|0 fnt
+|faint|p2a: Shiinotic
+|
+|-weather|none
+|upkeep
+|
+|t:|1684322801
+|switch|p2a: Lapras|Lapras, L86, M|363/363
+|turn|20
+|
+|t:|1684322805
+|-start|p2a: Lapras|Dynamax|Gmax
+|-heal|p2a: Lapras|726/726|[silent]
+|move|p2a: Lapras|Max Guard|p2a: Lapras
+|-singleturn|p2a: Lapras|Max Guard
+|move|p1a: Kyurem|Max Lightning|p2a: Lapras
+|-activate|p2a: Lapras|move: Max Guard
+|
+|upkeep
+|turn|21
+|
+|t:|1684322809
+|move|p1a: Kyurem|Max Lightning|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|398/726
+|-fieldstart|move: Electric Terrain
+|move|p2a: Lapras|G-Max Resonance|p1a: Kyurem
+|-damage|p1a: Kyurem|186/606
+|-sidestart|p2: elduo|move: Aurora Veil
+|
+|-heal|p2a: Lapras|420/726|[from] item: Leftovers
+|upkeep
+|-end|p1a: Kyurem|Dynamax
+|-heal|p1a: Kyurem|93/303|[silent]
+|turn|22
+|
+|t:|1684322825
+|move|p1a: Kyurem|Fusion Bolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|254/726
+|move|p2a: Lapras|G-Max Resonance|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|-heal|p2a: Lapras|276/726|[from] item: Leftovers
+|upkeep
+|
+|t:|1684322828
+|switch|p1a: Slurpuff|Slurpuff, L80, M|262/262
+|-end|p2a: Lapras|Dynamax
+|-heal|p2a: Lapras|138/363|[silent]
+|turn|23
+|
+|t:|1684322834
+|move|p1a: Slurpuff|Belly Drum|p1a: Slurpuff
+|-damage|p1a: Slurpuff|131/262
+|-setboost|p1a: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1a: Slurpuff|196/262|[from] item: Sitrus Berry
+|move|p2a: Lapras|Toxic|p1a: Slurpuff
+|-status|p1a: Slurpuff|tox
+|
+|-heal|p2a: Lapras|160/363|[from] item: Leftovers
+|-damage|p1a: Slurpuff|180/262 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1684322838
+|move|p2a: Lapras|Protect|p2a: Lapras
+|-singleturn|p2a: Lapras|Protect
+|move|p1a: Slurpuff|Drain Punch|p2a: Lapras
+|-activate|p2a: Lapras|move: Protect
+|
+|-heal|p2a: Lapras|182/363|[from] item: Leftovers
+|-damage|p1a: Slurpuff|148/262 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1684322845
+|move|p2a: Lapras|Protect|p2a: Lapras
+|-singleturn|p2a: Lapras|Protect
+|move|p1a: Slurpuff|Drain Punch|p2a: Lapras
+|-activate|p2a: Lapras|move: Protect
+|
+|-heal|p2a: Lapras|204/363|[from] item: Leftovers
+|-damage|p1a: Slurpuff|100/262 tox|[from] psn
+|-sideend|p2: elduo|move: Aurora Veil
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|26
+|
+|t:|1684322851
+|move|p1a: Slurpuff|Drain Punch|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|-heal|p1a: Slurpuff|202/262 tox|[from] drain|[of] p2a: Lapras
+|faint|p2a: Lapras
+|
+|-damage|p1a: Slurpuff|138/262 tox|[from] psn
+|upkeep
+|
+|t:|1684322861
+|switch|p2a: Milotic|Milotic, L82, M|212/290
+|turn|27
+|
+|t:|1684322865
+|move|p1a: Slurpuff|Play Rough|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|-damage|p1a: Slurpuff|58/262 tox|[from] psn
+|upkeep
+|c|☆Sparna_of_Yomi|gg
+|
+|t:|1684322878
+|switch|p2a: Hydreigon|Hydreigon, L80, F|278/278
+|turn|28
+|l| 6hf4d
+|
+|t:|1684322892
+|move|p1a: Slurpuff|Drain Punch|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-heal|p1a: Slurpuff|197/262 tox|[from] drain|[of] p2a: Hydreigon
+|faint|p2a: Hydreigon
+|
+|win|Sparna_of_Yomi
+|raw|Sparna_of_Yomi's rating: 1452 &rarr; <strong>1471</strong><br />(+19 for winning)
+|raw|elduo's rating: 1440 &rarr; <strong>1421</strong><br />(-19 for losing)

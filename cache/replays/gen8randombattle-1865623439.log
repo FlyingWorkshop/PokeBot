@@ -1,0 +1,321 @@
+|j|☆MikiBey
+|j|☆hahaua
+|t:|1684319811
+|gametype|singles
+|player|p1|MikiBey|caitlin|1522
+|player|p2|hahaua|1|1459
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1684319811
+|start
+|switch|p1a: Lilligant|Lilligant, L84, F|255/255
+|switch|p2a: Jolteon|Jolteon, L82, M|241/241
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hahaua)
+|
+|t:|1684319826
+|move|p2a: Jolteon|Hyper Voice|p1a: Lilligant
+|-damage|p1a: Lilligant|147/255
+|move|p1a: Lilligant|Sleep Powder|p2a: Jolteon
+|-status|p2a: Jolteon|slp|[from] move: Sleep Powder
+|
+|-heal|p1a: Lilligant|162/255|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1684319829
+|switch|p2a: Blissey|Blissey, L83, F|559/559
+|move|p1a: Lilligant|Quiver Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|spa|1
+|-boost|p1a: Lilligant|spd|1
+|-boost|p1a: Lilligant|spe|1
+|
+|-heal|p1a: Lilligant|177/255|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1684319836
+|switch|p1a: Bronzong|Bronzong, L83|247/247
+|move|p2a: Blissey|Toxic|p1a: Bronzong
+|-immune|p1a: Bronzong
+|
+|upkeep
+|turn|4
+|
+|t:|1684319845
+|switch|p2a: Cobalion|Cobalion, L78|270/270
+|move|p1a: Bronzong|Stealth Rock|p2a: Cobalion
+|-sidestart|p2: hahaua|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1684319851
+|move|p2a: Cobalion|Iron Head|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|220/247
+|move|p1a: Bronzong|Earthquake|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|160/270
+|
+|-heal|p1a: Bronzong|235/247|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1684319858
+|switch|p1a: Torkoal|Torkoal, L86, M|261/261
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Cobalion|Volt Switch|p1a: Torkoal
+|-damage|p1a: Torkoal|214/261
+|
+|t:|1684319869
+|switch|p2a: Blissey|Blissey, L83, F|559/559|[from] Volt Switch
+|-damage|p2a: Blissey|490/559|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blissey|524/559|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1684319878
+|switch|p1a: Bronzong|Bronzong, L83|235/247
+|move|p2a: Blissey|Seismic Toss|p1a: Bronzong
+|-damage|p1a: Bronzong|152/247
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blissey|558/559|[from] item: Leftovers
+|-heal|p1a: Bronzong|167/247|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1684319883
+|move|p2a: Blissey|Seismic Toss|p1a: Bronzong
+|-damage|p1a: Bronzong|84/247
+|move|p1a: Bronzong|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|343/559
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blissey|377/559|[from] item: Leftovers
+|-heal|p1a: Bronzong|99/247|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1684319890
+|switch|p1a: Giratina|Giratina, L74|344/344
+|-ability|p1a: Giratina|Pressure
+|move|p2a: Blissey|Seismic Toss|p1a: Giratina
+|-immune|p1a: Giratina
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blissey|411/559|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1684319901
+|switch|p1a: Bronzong|Bronzong, L83|99/247
+|move|p2a: Blissey|Toxic|p1a: Bronzong
+|-immune|p1a: Bronzong
+|
+|-weather|none
+|-heal|p2a: Blissey|445/559|[from] item: Leftovers
+|-heal|p1a: Bronzong|114/247|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1684319907
+|move|p2a: Blissey|Toxic|p1a: Bronzong
+|-immune|p1a: Bronzong
+|move|p1a: Bronzong|Iron Head|p2a: Blissey
+|-damage|p2a: Blissey|196/559
+|
+|-heal|p2a: Blissey|230/559|[from] item: Leftovers
+|-heal|p1a: Bronzong|129/247|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1684319913
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|510/559
+|move|p1a: Bronzong|Iron Head|p2a: Blissey
+|-damage|p2a: Blissey|266/559
+|
+|-heal|p2a: Blissey|300/559|[from] item: Leftovers
+|-heal|p1a: Bronzong|144/247|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1684319916
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|559/559
+|move|p1a: Bronzong|Iron Head|p2a: Blissey
+|-damage|p2a: Blissey|336/559
+|
+|-heal|p2a: Blissey|370/559|[from] item: Leftovers
+|-heal|p1a: Bronzong|159/247|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1684319918
+|move|p2a: Blissey|Seismic Toss|p1a: Bronzong
+|-damage|p1a: Bronzong|76/247
+|move|p1a: Bronzong|Toxic|p2a: Blissey
+|-status|p2a: Blissey|tox
+|
+|-heal|p2a: Blissey|404/559 tox|[from] item: Leftovers
+|-heal|p1a: Bronzong|91/247|[from] item: Leftovers
+|-damage|p2a: Blissey|370/559 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1684319924
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Cobalion|Cobalion, L78|160/270
+|-damage|p2a: Cobalion|152/270|[from] Stealth Rock
+|move|p1a: Bronzong|Earthquake|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|48/270
+|
+|-heal|p1a: Bronzong|106/247|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1684319933
+|switch|p1a: Torkoal|Torkoal, L86, M|214/261
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Cobalion|Volt Switch|p1a: Torkoal
+|-damage|p1a: Torkoal|166/261
+|
+|t:|1684319942
+|switch|p2a: Blissey|Blissey, L83, F|370/559|[from] Volt Switch
+|-damage|p2a: Blissey|301/559|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blissey|335/559|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1684319947
+|move|p2a: Blissey|Toxic|p1a: Torkoal
+|-status|p1a: Torkoal|tox
+|move|p1a: Torkoal|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|117/559
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blissey|151/559|[from] item: Leftovers
+|-damage|p1a: Torkoal|150/261 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1684319951
+|switch|p1a: Bronzong|Bronzong, L83|106/247
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|431/559
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blissey|465/559|[from] item: Leftovers
+|-heal|p1a: Bronzong|121/247|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1684319954
+|move|p2a: Blissey|Seismic Toss|p1a: Bronzong
+|-damage|p1a: Bronzong|38/247
+|move|p1a: Bronzong|Toxic|p2a: Blissey|[miss]
+|-miss|p1a: Bronzong|p2a: Blissey
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blissey|499/559|[from] item: Leftovers
+|-heal|p1a: Bronzong|53/247|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1684319958
+|move|p2a: Blissey|Seismic Toss|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|-weather|none
+|-heal|p2a: Blissey|533/559|[from] item: Leftovers
+|upkeep
+|
+|t:|1684319969
+|switch|p1a: Kangaskhan|Kangaskhan, L84, F|314/314
+|turn|21
+|
+|t:|1684319984
+|switch|p2a: Walrein|Walrein, L86, F|329/329
+|-damage|p2a: Walrein|247/329|[from] Stealth Rock
+|move|p1a: Kangaskhan|Fake Out|p2a: Walrein
+|-damage|p2a: Walrein|208/329
+|
+|-heal|p2a: Walrein|228/329|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1684319994
+|switch|p1a: Slowking|Slowking, L86, F|304/304
+|move|p2a: Walrein|Toxic|p1a: Slowking
+|-status|p1a: Slowking|tox
+|
+|-heal|p2a: Walrein|248/329|[from] item: Leftovers
+|-damage|p1a: Slowking|285/304 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1684319999
+|move|p2a: Walrein|Ice Beam|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|248/304 tox
+|move|p1a: Slowking|Teleport|p1a: Slowking
+|
+|t:|1684320008
+|switch|p1a: Lilligant|Lilligant, L84, F|177/255|[from] Teleport
+|
+|-heal|p1a: Lilligant|192/255|[from] item: Leftovers
+|-heal|p2a: Walrein|268/329|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1684320013
+|switch|p1a: Kangaskhan|Kangaskhan, L84, F|314/314
+|move|p2a: Walrein|Ice Beam|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|245/314
+|
+|-heal|p2a: Walrein|288/329|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1684320017
+|move|p2a: Walrein|Protect|p2a: Walrein
+|-singleturn|p2a: Walrein|Protect
+|move|p1a: Kangaskhan|Fake Out|p2a: Walrein
+|-activate|p2a: Walrein|move: Protect
+|
+|-heal|p2a: Walrein|308/329|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1684320020
+|move|p1a: Kangaskhan|Double-Edge|p2a: Walrein
+|-damage|p2a: Walrein|193/329
+|-damage|p1a: Kangaskhan|207/314|[from] Recoil
+|move|p2a: Walrein|Toxic|p1a: Kangaskhan
+|-status|p1a: Kangaskhan|tox
+|
+|-heal|p2a: Walrein|213/329|[from] item: Leftovers
+|-damage|p1a: Kangaskhan|188/314 tox|[from] psn
+|upkeep
+|turn|27
+|-message|MikiBey forfeited.
+|
+|win|hahaua
+|raw|MikiBey's rating: 1522 &rarr; <strong>1498</strong><br />(-24 for losing)
+|raw|hahaua's rating: 1459 &rarr; <strong>1483</strong><br />(+24 for winning)
+|l|☆MikiBey

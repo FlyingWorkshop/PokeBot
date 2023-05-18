@@ -1,0 +1,381 @@
+|j|☆Sparna_of_Yomi
+|j|☆Meibomius Livrea
+|t:|1684337968
+|gametype|singles
+|player|p1|Sparna_of_Yomi|blackbelt|1471
+|player|p2|Meibomius Livrea|veteran|1314
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1684337968
+|start
+|switch|p1a: Solrock|Solrock, L88|302/302
+|switch|p2a: Wigglytuff|Wigglytuff, L90, M|398/398
+|-item|p1a: Solrock|Leftovers|[from] ability: Frisk|[of] p2a: Wigglytuff|[identify]
+|turn|1
+|
+|t:|1684337976
+|move|p1a: Solrock|Stealth Rock|p2a: Wigglytuff
+|-sidestart|p2: Meibomius Livrea|move: Stealth Rock
+|move|p2a: Wigglytuff|Reflect|p2a: Wigglytuff
+|-sidestart|p2: Meibomius Livrea|Reflect
+|
+|upkeep
+|turn|2
+|
+|t:|1684337981
+|move|p1a: Solrock|Will-O-Wisp|p2a: Wigglytuff
+|-status|p2a: Wigglytuff|brn
+|move|p2a: Wigglytuff|Light Screen|p2a: Wigglytuff
+|-sidestart|p2: Meibomius Livrea|move: Light Screen
+|
+|-damage|p2a: Wigglytuff|374/398 brn|[from] brn
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sparna_of_Yomi)
+|inactive|Meibomius Livrea has 120 seconds left.
+|inactive|Meibomius Livrea has 90 seconds left.
+|
+|t:|1684338081
+|switch|p2a: Skuntank|Skuntank, L85, F|314/314
+|-damage|p2a: Skuntank|275/314|[from] Stealth Rock
+|move|p1a: Solrock|Rock Slide|p2a: Skuntank
+|-damage|p2a: Skuntank|221/314
+|
+|upkeep
+|turn|4
+|
+|t:|1684338106
+|move|p2a: Skuntank|Crunch|p1a: Solrock
+|-supereffective|p1a: Solrock
+|-damage|p1a: Solrock|91/302
+|-unboost|p1a: Solrock|def|1
+|-damage|p2a: Skuntank|190/314|[from] item: Life Orb
+|move|p1a: Solrock|Will-O-Wisp|p2a: Skuntank
+|-status|p2a: Skuntank|brn
+|
+|-heal|p1a: Solrock|109/302|[from] item: Leftovers
+|-damage|p2a: Skuntank|171/314 brn|[from] brn
+|upkeep
+|turn|5
+|inactive|Meibomius Livrea has 120 seconds left.
+|
+|t:|1684338143
+|move|p2a: Skuntank|Crunch|p1a: Solrock
+|-supereffective|p1a: Solrock
+|-damage|p1a: Solrock|0 fnt
+|faint|p1a: Solrock
+|-damage|p2a: Skuntank|140/314 brn|[from] item: Life Orb
+|
+|-damage|p2a: Skuntank|121/314 brn|[from] brn
+|upkeep
+|
+|t:|1684338152
+|switch|p1a: Aggron|Aggron, L85, M|258/258
+|-item|p1a: Aggron|Air Balloon
+|turn|6
+|
+|t:|1684338164
+|move|p2a: Skuntank|Taunt|p1a: Aggron
+|-start|p1a: Aggron|move: Taunt
+|cant|p1a: Aggron|move: Taunt|Rock Polish
+|
+|-damage|p2a: Skuntank|102/314 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1684338184
+|move|p2a: Skuntank|Crunch|p1a: Aggron
+|-damage|p1a: Aggron|227/258
+|-enditem|p1a: Aggron|Air Balloon
+|-damage|p2a: Skuntank|71/314 brn|[from] item: Life Orb
+|move|p1a: Aggron|Heavy Slam|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|-damage|p1a: Aggron|163/258|[from] ability: Aftermath|[of] p2a: Skuntank
+|faint|p2a: Skuntank
+|
+|upkeep
+|inactive|Meibomius Livrea has 90 seconds left.
+|
+|t:|1684338214
+|switch|p2a: Scrafty|Scrafty, L82, F|241/241
+|-damage|p2a: Scrafty|226/241|[from] Stealth Rock
+|-ability|p2a: Scrafty|Intimidate|boost
+|-unboost|p1a: Aggron|atk|1
+|turn|8
+|
+|t:|1684338228
+|move|p2a: Scrafty|Dragon Dance|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|spe|1
+|move|p1a: Aggron|Body Press|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|150/241
+|
+|-end|p1a: Aggron|move: Taunt
+|-sideend|p2: Meibomius Livrea|Reflect
+|upkeep
+|turn|9
+|inactive|Meibomius Livrea has 90 seconds left.
+|
+|t:|1684338239
+|move|p2a: Scrafty|Dragon Dance|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|spe|1
+|move|p1a: Aggron|Body Press|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|0 fnt
+|faint|p2a: Scrafty
+|
+|-sideend|p2: Meibomius Livrea|move: Light Screen
+|upkeep
+|inactive|Meibomius Livrea has 90 seconds left.
+|
+|t:|1684338257
+|switch|p2a: Tangrowth|Tangrowth, L84, F|305/305
+|-damage|p2a: Tangrowth|267/305|[from] Stealth Rock
+|turn|10
+|
+|t:|1684338262
+|move|p1a: Aggron|Head Smash|p2a: Tangrowth|[miss]
+|-miss|p1a: Aggron|p2a: Tangrowth
+|move|p2a: Tangrowth|Giga Drain|p1a: Aggron
+|-crit|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|-heal|p2a: Tangrowth|305/305|[from] drain|[of] p1a: Aggron
+|faint|p1a: Aggron
+|
+|upkeep
+|
+|t:|1684338273
+|switch|p1a: Type: Null|Type: Null, L86|304/304
+|turn|11
+|
+|t:|1684338278
+|move|p1a: Type: Null|Crush Claw|p2a: Tangrowth
+|-damage|p2a: Tangrowth|239/305
+|-damage|p1a: Type: Null|254/304|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|move|p2a: Tangrowth|Sludge Bomb|p1a: Type: Null
+|-damage|p1a: Type: Null|213/304
+|-status|p1a: Type: Null|psn
+|
+|-damage|p1a: Type: Null|175/304 psn|[from] psn
+|upkeep
+|turn|12
+|inactive|Meibomius Livrea has 90 seconds left.
+|
+|t:|1684338301
+|move|p1a: Type: Null|Crush Claw|p2a: Tangrowth
+|-damage|p2a: Tangrowth|176/305
+|-damage|p1a: Type: Null|125/304 psn|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|move|p2a: Tangrowth|Leech Seed|p1a: Type: Null
+|-start|p1a: Type: Null|move: Leech Seed
+|
+|-damage|p1a: Type: Null|87/304 psn|[from] Leech Seed|[of] p2a: Tangrowth
+|-heal|p2a: Tangrowth|214/305|[silent]
+|-damage|p1a: Type: Null|49/304 psn|[from] psn
+|upkeep
+|turn|13
+|inactive|Meibomius Livrea has 90 seconds left.
+|
+|t:|1684338316
+|move|p1a: Type: Null|Rest|p1a: Type: Null
+|-status|p1a: Type: Null|slp|[from] move: Rest
+|-heal|p1a: Type: Null|304/304 slp|[silent]
+|move|p2a: Tangrowth|Giga Drain|p1a: Type: Null
+|-damage|p1a: Type: Null|246/304 slp
+|-heal|p2a: Tangrowth|243/305|[from] drain|[of] p1a: Type: Null
+|
+|-damage|p1a: Type: Null|208/304 slp|[from] Leech Seed|[of] p2a: Tangrowth
+|-heal|p2a: Tangrowth|281/305|[silent]
+|upkeep
+|turn|14
+|inactive|Meibomius Livrea has 90 seconds left.
+|
+|t:|1684338340
+|cant|p1a: Type: Null|slp
+|move|p2a: Tangrowth|Sludge Bomb|p1a: Type: Null
+|-damage|p1a: Type: Null|161/304 slp
+|
+|-damage|p1a: Type: Null|123/304 slp|[from] Leech Seed|[of] p2a: Tangrowth
+|-heal|p2a: Tangrowth|305/305|[silent]
+|upkeep
+|turn|15
+|inactive|Meibomius Livrea has 90 seconds left.
+|
+|t:|1684338348
+|cant|p1a: Type: Null|slp
+|move|p2a: Tangrowth|Giga Drain|p1a: Type: Null
+|-damage|p1a: Type: Null|66/304 slp
+|
+|-damage|p1a: Type: Null|28/304 slp|[from] Leech Seed|[of] p2a: Tangrowth
+|upkeep
+|turn|16
+|
+|t:|1684338354
+|-curestatus|p1a: Type: Null|slp|[msg]
+|move|p1a: Type: Null|Crush Claw|p2a: Tangrowth
+|-damage|p2a: Tangrowth|239/305
+|-damage|p1a: Type: Null|0 fnt|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|faint|p1a: Type: Null
+|move|p2a: Tangrowth|Sludge Bomb|p1: Type: Null|[notarget]
+|-fail|p2a: Tangrowth
+|
+|upkeep
+|
+|t:|1684338359
+|switch|p1a: Zacian|Zacian, L68|238/238
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|17
+|
+|t:|1684338364
+|move|p1a: Zacian|Play Rough|p2a: Tangrowth
+|-damage|p2a: Tangrowth|106/305
+|-damage|p1a: Zacian|199/238|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|move|p2a: Tangrowth|Sludge Bomb|p1a: Zacian
+|-supereffective|p1a: Zacian
+|-damage|p1a: Zacian|67/238
+|
+|upkeep
+|turn|18
+|
+|t:|1684338374
+|switch|p2a: Wigglytuff|Wigglytuff, L90, M|374/398 brn
+|-damage|p2a: Wigglytuff|325/398 brn|[from] Stealth Rock
+|-item|p1a: Zacian|Choice Band|[from] ability: Frisk|[of] p2a: Wigglytuff|[identify]
+|move|p1a: Zacian|Play Rough|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|37/398 brn
+|
+|-damage|p2a: Wigglytuff|13/398 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1684338386
+|move|p1a: Zacian|Play Rough|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|
+|upkeep
+|
+|t:|1684338391
+|switch|p2a: Tangrowth|Tangrowth, L84, F|207/305
+|-damage|p2a: Tangrowth|169/305|[from] Stealth Rock
+|turn|20
+|
+|t:|1684338395
+|switch|p2a: Tornadus|Tornadus-Therian, L78, M|251/251
+|move|p1a: Zacian|Play Rough|p2a: Tornadus
+|-damage|p2a: Tornadus|31/251
+|
+|upkeep
+|turn|21
+|
+|t:|1684338401
+|switch|p1a: Politoed|Politoed, L86, M|295/295
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Tornadus|Hurricane|p1a: Politoed
+|-damage|p1a: Politoed|199/295
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1684338410
+|move|p2a: Tornadus|Knock Off|p1a: Politoed
+|-damage|p1a: Politoed|133/295
+|-enditem|p1a: Politoed|Chesto Berry|[from] move: Knock Off|[of] p2a: Tornadus
+|move|p1a: Politoed|Ice Beam|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1684338419
+|switch|p2a: Tangrowth|Tangrowth, L84, F|270/305
+|-damage|p2a: Tangrowth|232/305|[from] Stealth Rock
+|turn|23
+|
+|t:|1684338423
+|-start|p1a: Politoed|Dynamax|
+|-heal|p1a: Politoed|266/590|[silent]
+|move|p1a: Politoed|Max Hailstorm|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|-weather|Hail
+|faint|p2a: Tangrowth
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Politoed|248/590|[from] Hail
+|upkeep
+|
+|t:|1684338431
+|switch|p2a: Slurpuff|Slurpuff, L80, M|262/262
+|-damage|p2a: Slurpuff|230/262|[from] Stealth Rock
+|turn|24
+|
+|t:|1684338435
+|move|p1a: Politoed|Max Geyser|p2a: Slurpuff
+|-damage|p2a: Slurpuff|61/262
+|-weather|RainDance
+|-enditem|p2a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p2a: Slurpuff|126/262|[from] item: Sitrus Berry
+|move|p2a: Slurpuff|Belly Drum||[still]
+|-fail|p2a: Slurpuff
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1684338445
+|-start|p2a: Slurpuff|Dynamax|
+|-heal|p2a: Slurpuff|252/524|[silent]
+|move|p2a: Slurpuff|Max Knuckle|p1a: Politoed
+|-damage|p1a: Politoed|191/590
+|-boost|p2a: Slurpuff|atk|1
+|move|p1a: Politoed|Max Geyser|p2a: Slurpuff
+|-damage|p2a: Slurpuff|20/524
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-end|p1a: Politoed|Dynamax
+|-heal|p1a: Politoed|96/295|[silent]
+|turn|26
+|c|☆Sparna_of_Yomi|gg
+|c|☆Meibomius Livrea|gg
+|
+|t:|1684338467
+|move|p2a: Slurpuff|Max Starfall|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-fieldstart|move: Misty Terrain
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1684338469
+|switch|p1a: Melmetal|Melmetal, L74|322/322
+|turn|27
+|
+|t:|1684338475
+|move|p2a: Slurpuff|Max Knuckle|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|194/322
+|-boost|p2a: Slurpuff|atk|1
+|move|p1a: Melmetal|Double Iron Bash|p2a: Slurpuff
+|-supereffective|p2a: Slurpuff
+|-damage|p2a: Slurpuff|0 fnt
+|faint|p2a: Slurpuff
+|-hitcount|p2: Slurpuff|1
+|
+|win|Sparna_of_Yomi
+|raw|Sparna_of_Yomi's rating: 1471 &rarr; <strong>1484</strong><br />(+13 for winning)
+|raw|Meibomius Livrea's rating: 1337 &rarr; <strong>1324</strong><br />(-13 for losing)

@@ -1,0 +1,151 @@
+|j|☆FreeYeezy69
+|j|☆mscar2012
+|t:|1684283928
+|gametype|singles
+|player|p1|FreeYeezy69|clay|1327
+|player|p2|mscar2012|266|1500
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1684283928
+|start
+|switch|p1a: Toxtricity|Toxtricity, L82, M|257/257
+|switch|p2a: Luxray|Luxray, L84, F|272/272
+|-ability|p2a: Luxray|Intimidate|boost
+|-unboost|p1a: Toxtricity|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mscar2012)
+|
+|t:|1684283940
+|switch|p2a: Swampert|Swampert, L80, M|291/291
+|move|p1a: Toxtricity|Boomburst|p2a: Swampert
+|-damage|p2a: Swampert|66/291
+|
+|-heal|p2a: Swampert|84/291|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1684283947
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Toxtricity|Boomburst|p2a: Swampert
+|-activate|p2a: Swampert|move: Protect
+|
+|-heal|p2a: Swampert|102/291|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1684283953
+|switch|p2a: Sceptile|Sceptile, L86, M|261/261
+|move|p1a: Toxtricity|Boomburst|p2a: Sceptile
+|-damage|p2a: Sceptile|49/261
+|
+|upkeep
+|turn|4
+|c|☆mscar2012|that is definitely spec
+|
+|t:|1684283973
+|switch|p1a: Scyther|Scyther, L81, M|246/246
+|move|p2a: Sceptile|Earthquake|p1a: Scyther
+|-immune|p1a: Scyther
+|
+|upkeep
+|turn|5
+|
+|t:|1684283987
+|switch|p2a: Vileplume|Vileplume, L84, F|263/263
+|move|p1a: Scyther|U-turn|p2a: Vileplume
+|-damage|p2a: Vileplume|184/263
+|inactive|FreeYeezy69 has 120 seconds left.
+|
+|t:|1684284009
+|switch|p1a: Entei|Entei, L78|307/307|[from] U-turn
+|
+|-heal|p2a: Vileplume|200/263|[from] item: Black Sludge
+|upkeep
+|turn|6
+|inactive|FreeYeezy69 has 120 seconds left.
+|
+|t:|1684284018
+|switch|p2a: Swampert|Swampert, L80, M|102/291
+|move|p1a: Entei|Sacred Fire|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|21/291
+|
+|-heal|p2a: Swampert|39/291|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1684284027
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Entei|Sacred Fire|p2a: Swampert
+|-activate|p2a: Swampert|move: Protect
+|
+|-heal|p2a: Swampert|57/291|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1684284035
+|move|p1a: Entei|Sacred Fire|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|upkeep
+|
+|t:|1684284043
+|switch|p2a: Gallade|Gallade, L82, M|246/246
+|turn|9
+|
+|t:|1684284057
+|-start|p2a: Gallade|Dynamax|
+|-heal|p2a: Gallade|492/492|[silent]
+|move|p1a: Entei|Sacred Fire|p2a: Gallade
+|-crit|p2a: Gallade
+|-damage|p2a: Gallade|213/492
+|-status|p2a: Gallade|brn
+|move|p2a: Gallade|Max Knuckle|p1a: Entei
+|-damage|p1a: Entei|242/307
+|-boost|p2a: Gallade|atk|1
+|
+|-damage|p2a: Gallade|198/492 brn|[from] brn
+|upkeep
+|turn|10
+|c|☆mscar2012|ok
+|
+|t:|1684284070
+|move|p1a: Entei|Sacred Fire|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|upkeep
+|
+|t:|1684284074
+|switch|p2a: Luxray|Luxray, L84, F|272/272
+|-ability|p2a: Luxray|Intimidate|boost
+|-fail|p1a: Entei|unboost|Attack|[from] ability: Inner Focus|[of] p1a: Entei
+|turn|11
+|
+|t:|1684284078
+|move|p1a: Entei|Sacred Fire|p2a: Luxray
+|-damage|p2a: Luxray|86/272
+|-status|p2a: Luxray|brn
+|move|p2a: Luxray|Agility|p2a: Luxray
+|-boost|p2a: Luxray|spe|2
+|
+|-damage|p2a: Luxray|69/272 brn|[from] brn
+|upkeep
+|turn|12
+|-message|mscar2012 forfeited.
+|
+|win|FreeYeezy69
+|raw|FreeYeezy69's rating: 1327 &rarr; <strong>1356</strong><br />(+29 for winning)
+|raw|mscar2012's rating: 1500 &rarr; <strong>1471</strong><br />(-29 for losing)
+|l|☆mscar2012

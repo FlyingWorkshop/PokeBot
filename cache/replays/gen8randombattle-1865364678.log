@@ -1,0 +1,261 @@
+|j|☆Leon420CoolShit
+|j|☆FreeYeezy69
+|t:|1684278577
+|gametype|singles
+|player|p1|Leon420CoolShit|blaine|1406
+|player|p2|FreeYeezy69|clay|1340
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1684278577
+|start
+|switch|p1a: Mr. Rime|Mr. Rime, L86, M|278/278
+|switch|p2a: Clawitzer|Clawitzer, L84, F|256/256
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Leon420CoolShit)
+|
+|t:|1684278626
+|switch|p1a: Milotic|Milotic, L82, F|290/290
+|switch|p2a: Centiskorch|Centiskorch, L84, M|305/305
+|
+|upkeep
+|turn|2
+|
+|t:|1684278639
+|switch|p2a: Galvantula|Galvantula, L82, M|249/249
+|move|p1a: Milotic|Toxic|p2a: Galvantula
+|-status|p2a: Galvantula|tox
+|
+|-damage|p2a: Galvantula|234/249 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1684278649
+|switch|p1a: Mr. Rime|Mr. Rime, L86, M|278/278
+|move|p2a: Galvantula|Sticky Web|p1a: Mr. Rime
+|-sidestart|p1: Leon420CoolShit|move: Sticky Web
+|
+|-damage|p2a: Galvantula|204/249 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1684278672
+|move|p2a: Galvantula|Bug Buzz|p1a: Mr. Rime
+|-supereffective|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|126/278
+|move|p1a: Mr. Rime|Rapid Spin|p2a: Galvantula
+|-damage|p2a: Galvantula|157/249 tox
+|-boost|p1a: Mr. Rime|spe|1
+|-sideend|p1: Leon420CoolShit|Sticky Web|[from] move: Rapid Spin|[of] p1a: Mr. Rime
+|
+|-damage|p2a: Galvantula|112/249 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1684278685
+|move|p1a: Mr. Rime|Slack Off|p1a: Mr. Rime
+|-heal|p1a: Mr. Rime|265/278
+|move|p2a: Galvantula|Bug Buzz|p1a: Mr. Rime
+|-supereffective|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|115/278
+|
+|-damage|p2a: Galvantula|52/249 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1684278695
+|move|p1a: Mr. Rime|Slack Off|p1a: Mr. Rime
+|-heal|p1a: Mr. Rime|254/278
+|move|p2a: Galvantula|Sticky Web|p1a: Mr. Rime
+|-sidestart|p1: Leon420CoolShit|move: Sticky Web
+|
+|-damage|p2a: Galvantula|0 fnt|[from] psn
+|faint|p2a: Galvantula
+|upkeep
+|
+|t:|1684278714
+|switch|p2a: Calyrex|Calyrex-Shadow, L65|238/238
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|7
+|
+|t:|1684278723
+|move|p1a: Mr. Rime|Freeze-Dry|p2a: Calyrex
+|-damage|p2a: Calyrex|141/238
+|move|p2a: Calyrex|Astral Barrage|p1a: Mr. Rime
+|-supereffective|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|36/278
+|
+|-heal|p2a: Calyrex|155/238|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|FreeYeezy69 has 120 seconds left.
+|
+|t:|1684278746
+|switch|p1a: Milotic|Milotic, L82, F|290/290
+|-activate|p1a: Milotic|move: Sticky Web
+|-unboost|p1a: Milotic|spe|1
+|move|p2a: Calyrex|Nasty Plot|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|2
+|
+|-heal|p2a: Calyrex|169/238|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|FreeYeezy69 has 120 seconds left.
+|
+|t:|1684278767
+|move|p2a: Calyrex|Psyshock|p1a: Milotic
+|-crit|p1a: Milotic
+|-damage|p1a: Milotic|16/290
+|move|p1a: Milotic|Haze|p1a: Milotic
+|-clearallboost
+|
+|-heal|p2a: Calyrex|183/238|[from] item: Leftovers
+|-heal|p1a: Milotic|34/290|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1684278778
+|move|p2a: Calyrex|Astral Barrage|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|
+|-heal|p2a: Calyrex|197/238|[from] item: Leftovers
+|upkeep
+|
+|t:|1684278782
+|switch|p1a: Snorlax|Snorlax, L82, F|397/397
+|-activate|p1a: Snorlax|move: Sticky Web
+|-unboost|p1a: Snorlax|spe|1
+|turn|11
+|inactive|FreeYeezy69 has 120 seconds left.
+|
+|t:|1684278790
+|move|p2a: Calyrex|Psyshock|p1a: Snorlax
+|-damage|p1a: Snorlax|235/397
+|move|p1a: Snorlax|Darkest Lariat|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|upkeep
+|inactive|FreeYeezy69 has 120 seconds left.
+|
+|t:|1684278807
+|switch|p2a: Centiskorch|Centiskorch, L84, M|305/305
+|turn|12
+|
+|t:|1684278819
+|switch|p1a: Gengar|Gengar, L80, M|227/227
+|-activate|p1a: Gengar|move: Sticky Web
+|-unboost|p1a: Gengar|spe|1
+|move|p2a: Centiskorch|Knock Off|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|11/227
+|-start|p2a: Centiskorch|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Gengar
+|-enditem|p1a: Gengar|Life Orb|[from] move: Knock Off|[of] p2a: Centiskorch
+|
+|upkeep
+|turn|13
+|inactive|FreeYeezy69 has 120 seconds left.
+|c|☆FreeYeezy69|ez read
+|inactive|FreeYeezy69 has 90 seconds left.
+|
+|t:|1684278861
+|move|p2a: Centiskorch|Fire Lash|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|upkeep
+|
+|t:|1684278864
+|switch|p1a: Mr. Rime|Mr. Rime, L86, M|36/278
+|turn|14
+|
+|t:|1684278871
+|move|p1a: Mr. Rime|Rapid Spin|p2a: Centiskorch
+|-damage|p2a: Centiskorch|264/305
+|-boost|p1a: Mr. Rime|spe|1
+|-sideend|p1: Leon420CoolShit|Sticky Web|[from] move: Rapid Spin|[of] p1a: Mr. Rime
+|move|p2a: Centiskorch|Fire Lash|p1a: Mr. Rime
+|-supereffective|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|0 fnt
+|faint|p1a: Mr. Rime
+|
+|upkeep
+|
+|t:|1684278877
+|switch|p1a: Snorlax|Snorlax, L82, F|235/397
+|turn|15
+|
+|t:|1684278884
+|move|p2a: Centiskorch|Leech Life|p1a: Snorlax
+|-damage|p1a: Snorlax|109/397
+|-heal|p2a: Centiskorch|305/305|[from] drain|[of] p1a: Snorlax
+|move|p1a: Snorlax|Earthquake|p2a: Centiskorch
+|-damage|p2a: Centiskorch|175/305
+|
+|-end|p2a: Centiskorch|Disable
+|upkeep
+|turn|16
+|
+|t:|1684278895
+|move|p2a: Centiskorch|Leech Life|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|-heal|p2a: Centiskorch|230/305|[from] drain|[of] p1a: Snorlax
+|faint|p1a: Snorlax
+|
+|upkeep
+|
+|t:|1684278899
+|switch|p1a: Sandslash|Sandslash-Alola, L86, M|269/269
+|turn|17
+|
+|t:|1684278918
+|-start|p1a: Sandslash|Dynamax|
+|-heal|p1a: Sandslash|538/538|[silent]
+|move|p1a: Sandslash|Max Hailstorm|p2a: Centiskorch
+|-resisted|p2a: Centiskorch
+|-damage|p2a: Centiskorch|113/305
+|-weather|Hail
+|-damage|p1a: Sandslash|512/538|[from] item: Life Orb
+|move|p2a: Centiskorch|Fire Lash|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|236/538
+|-unboost|p1a: Sandslash|def|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Centiskorch|94/305|[from] Hail
+|upkeep
+|turn|18
+|
+|t:|1684278933
+|-start|p2a: Centiskorch|Dynamax|
+|-heal|p2a: Centiskorch|188/610|[silent]
+|move|p1a: Sandslash|Max Hailstorm|p2a: Centiskorch
+|-resisted|p2a: Centiskorch
+|-damage|p2a: Centiskorch|54/610
+|-damage|p1a: Sandslash|210/538|[from] item: Life Orb
+|move|p2a: Centiskorch|Max Flare|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|-weather|SunnyDay
+|faint|p1a: Sandslash
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Leon420CoolShit forfeited.
+|
+|win|FreeYeezy69
+|raw|Leon420CoolShit's rating: 1406 &rarr; <strong>1382</strong><br />(-24 for losing)
+|raw|FreeYeezy69's rating: 1340 &rarr; <strong>1364</strong><br />(+24 for winning)
+|l|☆Leon420CoolShit
+|c|☆FreeYeezy69|they call me gordon ramsay the way i cook these fools

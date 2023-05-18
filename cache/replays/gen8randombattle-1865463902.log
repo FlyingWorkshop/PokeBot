@@ -1,0 +1,305 @@
+|j|☆bigbandschi
+|j|☆Itachinemo
+|t:|1684291892
+|gametype|singles
+|player|p1|bigbandschi|bruno|1323
+|player|p2|Itachinemo|koga|1390
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1684291892
+|start
+|switch|p1a: Toxtricity|Toxtricity, L82, F|257/257
+|switch|p2a: Mimikyu|Mimikyu, L76, M|209/209
+|turn|1
+|
+|t:|1684291906
+|switch|p2a: Whiscash|Whiscash, L86, F|329/329
+|move|p1a: Toxtricity|Sludge Wave|p2a: Whiscash
+|-resisted|p2a: Whiscash
+|-damage|p2a: Whiscash|266/329
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bigbandschi)
+|
+|t:|1684291917
+|switch|p1a: Tapu Bulu|Tapu Bulu, L82|249/249
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Whiscash|Earthquake|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|226/249
+|-damage|p2a: Whiscash|234/329|[from] item: Life Orb
+|
+|-heal|p1a: Tapu Bulu|241/249|[from] Grassy Terrain
+|-heal|p2a: Whiscash|254/329|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1684291937
+|switch|p2a: Braviary|Braviary, L82, M|298/298
+|move|p1a: Tapu Bulu|Swords Dance|p1a: Tapu Bulu
+|-boost|p1a: Tapu Bulu|atk|2
+|
+|-heal|p1a: Tapu Bulu|249/249|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1684291951
+|move|p2a: Braviary|Brave Bird|p1a: Tapu Bulu
+|-supereffective|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|15/249
+|-damage|p2a: Braviary|221/298|[from] Recoil
+|move|p1a: Tapu Bulu|Stone Edge|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|-damage|p1a: Tapu Bulu|0 fnt|[from] item: Life Orb
+|faint|p1a: Tapu Bulu
+|
+|upkeep
+|
+|t:|1684291965
+|switch|p2a: Shuckle|Shuckle, L87, M|177/177
+|switch|p1a: Sceptile|Sceptile, L86, F|261/261
+|turn|5
+|
+|t:|1684291973
+|move|p1a: Sceptile|Rock Slide|p2a: Shuckle
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|115/177
+|-damage|p1a: Sceptile|235/261|[from] item: Life Orb
+|move|p2a: Shuckle|Toxic|p1a: Sceptile
+|-status|p1a: Sceptile|tox
+|
+|-heal|p1a: Sceptile|251/261 tox|[from] Grassy Terrain
+|-heal|p2a: Shuckle|126/177|[from] Grassy Terrain
+|-damage|p1a: Sceptile|235/261 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1684291984
+|switch|p1a: Stonjourner|Stonjourner, L88, F|319/319
+|move|p2a: Shuckle|Sticky Web|p1a: Stonjourner
+|-sidestart|p1: bigbandschi|move: Sticky Web
+|
+|-heal|p2a: Shuckle|137/177|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1684291993
+|switch|p2a: Whiscash|Whiscash, L86, F|254/329
+|move|p1a: Stonjourner|Stone Edge|p2a: Whiscash
+|-resisted|p2a: Whiscash
+|-damage|p2a: Whiscash|153/329
+|-damage|p1a: Stonjourner|288/319|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|t:|1684292006
+|move|p1a: Stonjourner|Earthquake|p2a: Whiscash
+|-damage|p2a: Whiscash|26/329
+|-damage|p1a: Stonjourner|257/319|[from] item: Life Orb
+|move|p2a: Whiscash|Dragon Dance|p2a: Whiscash
+|-boost|p2a: Whiscash|atk|1
+|-boost|p2a: Whiscash|spe|1
+|
+|upkeep
+|turn|9
+|
+|t:|1684292018
+|move|p2a: Whiscash|Earthquake|p1a: Stonjourner
+|-supereffective|p1a: Stonjourner
+|-damage|p1a: Stonjourner|13/319
+|-damage|p2a: Whiscash|0 fnt|[from] item: Life Orb
+|faint|p2a: Whiscash
+|move|p1a: Stonjourner|Earthquake|p2: Whiscash|[notarget]
+|-fail|p1a: Stonjourner
+|
+|upkeep
+|
+|t:|1684292028
+|switch|p2a: Mimikyu|Mimikyu, L76, M|209/209
+|turn|10
+|inactive|bigbandschi has 120 seconds left.
+|
+|t:|1684292063
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Stonjourner
+|-damage|p1a: Stonjourner|0 fnt
+|faint|p1a: Stonjourner
+|-damage|p2a: Mimikyu|189/209|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1684292081
+|switch|p1a: Toxtricity|Toxtricity, L82, F|257/257
+|-activate|p1a: Toxtricity|move: Sticky Web
+|-unboost|p1a: Toxtricity|spe|1
+|turn|11
+|
+|t:|1684292111
+|switch|p2a: Shuckle|Shuckle, L87, M|137/177
+|move|p1a: Toxtricity|Sludge Wave|p2a: Shuckle
+|-resisted|p2a: Shuckle
+|-damage|p2a: Shuckle|113/177
+|-status|p2a: Shuckle|psn
+|
+|-damage|p2a: Shuckle|91/177 psn|[from] psn
+|upkeep
+|turn|12
+|inactive|bigbandschi has 120 seconds left.
+|
+|t:|1684292130
+|switch|p1a: Lunala|Lunala, L72|316/316
+|-activate|p1a: Lunala|move: Sticky Web
+|-unboost|p1a: Lunala|spe|1
+|move|p2a: Shuckle|Knock Off|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|260/316
+|-enditem|p1a: Lunala|Leftovers|[from] move: Knock Off|[of] p2a: Shuckle
+|
+|-damage|p2a: Shuckle|69/177 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1684292142
+|move|p1a: Lunala|Calm Mind|p1a: Lunala
+|-boost|p1a: Lunala|spa|1
+|-boost|p1a: Lunala|spd|1
+|move|p2a: Shuckle|Stealth Rock|p1a: Lunala
+|-sidestart|p1: bigbandschi|move: Stealth Rock
+|
+|-damage|p2a: Shuckle|47/177 psn|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1684292152
+|move|p1a: Lunala|Calm Mind|p1a: Lunala
+|-boost|p1a: Lunala|spa|1
+|-boost|p1a: Lunala|spd|1
+|move|p2a: Shuckle|Toxic|p1a: Lunala|[miss]
+|-miss|p2a: Shuckle|p1a: Lunala
+|
+|-damage|p2a: Shuckle|25/177 psn|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1684292159
+|move|p1a: Lunala|Moongeist Beam|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|
+|upkeep
+|
+|t:|1684292170
+|switch|p2a: Guzzlord|Guzzlord, L84|512/512
+|turn|16
+|inactive|bigbandschi has 120 seconds left.
+|
+|t:|1684292190
+|-start|p2a: Guzzlord|Dynamax|
+|-heal|p2a: Guzzlord|1024/1024|[silent]
+|move|p1a: Lunala|Moongeist Beam|p2a: Guzzlord
+|-resisted|p2a: Guzzlord
+|-damage|p2a: Guzzlord|919/1024
+|move|p2a: Guzzlord|Max Darkness|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|-ability|p2a: Guzzlord|Beast Boost|boost
+|-boost|p2a: Guzzlord|atk|1
+|
+|upkeep
+|
+|t:|1684292199
+|switch|p1a: Necrozma|Necrozma, L80|286/286
+|-activate|p1a: Necrozma|move: Sticky Web
+|-unboost|p1a: Necrozma|spe|1
+|-damage|p1a: Necrozma|251/286|[from] Stealth Rock
+|turn|17
+|inactive|bigbandschi has 120 seconds left.
+|
+|t:|1684292208
+|move|p2a: Guzzlord|Max Darkness|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|-ability|p2a: Guzzlord|Beast Boost|boost
+|-boost|p2a: Guzzlord|atk|1
+|
+|upkeep
+|inactive|bigbandschi has 120 seconds left.
+|inactive|bigbandschi has 90 seconds left.
+|
+|t:|1684292251
+|switch|p1a: Sceptile|Sceptile, L86, F|235/261 tox
+|-activate|p1a: Sceptile|move: Sticky Web
+|-unboost|p1a: Sceptile|spe|1
+|-damage|p1a: Sceptile|203/261 tox|[from] Stealth Rock
+|turn|18
+|
+|t:|1684292265
+|-start|p1a: Sceptile|Dynamax|
+|-heal|p1a: Sceptile|406/522 tox|[silent]
+|move|p1a: Sceptile|Max Knuckle|p2a: Guzzlord
+|-supereffective|p2a: Guzzlord
+|-damage|p2a: Guzzlord|732/1024
+|-boost|p1a: Sceptile|atk|1
+|-damage|p1a: Sceptile|380/522 tox|[from] item: Life Orb
+|move|p2a: Guzzlord|Max Flare|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-damage|p1a: Sceptile|186/522 tox
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Sceptile|170/522 tox|[from] psn
+|upkeep
+|-end|p2a: Guzzlord|Dynamax
+|-heal|p2a: Guzzlord|366/512|[silent]
+|turn|19
+|inactive|bigbandschi has 90 seconds left.
+|
+|t:|1684292287
+|move|p1a: Sceptile|Max Knuckle|p2a: Guzzlord
+|-supereffective|p2a: Guzzlord
+|-damage|p2a: Guzzlord|168/512
+|-boost|p1a: Sceptile|atk|1
+|-damage|p1a: Sceptile|144/522 tox|[from] item: Life Orb
+|move|p2a: Guzzlord|Sludge Bomb|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-damage|p1a: Sceptile|26/522 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Sceptile|0 fnt|[from] psn
+|faint|p1a: Sceptile
+|upkeep
+|inactive|bigbandschi has 90 seconds left.
+|
+|t:|1684292296
+|switch|p1a: Toxtricity|Toxtricity, L82, F|257/257
+|-activate|p1a: Toxtricity|move: Sticky Web
+|-unboost|p1a: Toxtricity|spe|1
+|-damage|p1a: Toxtricity|225/257|[from] Stealth Rock
+|turn|20
+|
+|t:|1684292312
+|move|p1a: Toxtricity|Boomburst|p2a: Guzzlord
+|-damage|p2a: Guzzlord|46/512
+|move|p2a: Guzzlord|Knock Off|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|-enditem|p1a: Toxtricity|Choice Scarf|[from] move: Knock Off|[of] p2a: Guzzlord
+|faint|p1a: Toxtricity
+|
+|win|Itachinemo
+|raw|bigbandschi's rating: 1323 &rarr; <strong>1307</strong><br />(-16 for losing)
+|raw|Itachinemo's rating: 1390 &rarr; <strong>1406</strong><br />(+16 for winning)
+|l|☆bigbandschi
+|c|☆Itachinemo|gg
