@@ -28,7 +28,22 @@ class DataExtractor:
     def __init__(self, battle_json_path: str):
         self.battle_json = battle_json_path
         self.turns = self.process_battle()
+
+        #-------------------------------------------------
+        #CONSTANTS
         self.unknown_value = -1
+        self.num_side_conditions = len(SideCondition)
+        self.num_weather = len(Weather)
+        self.num_pokemon_per_team = 6
+        self.num_pokemon_stats = 6
+        self.max_num_types = 2
+        self.num_stats_boosts = 7
+        self.num_status = len(Status)
+        self.num_fields = len(Field)
+        #-------------------------------------------------
+
+    def get_turns(self) -> list[Battle]:
+        return self.turns
 
     def extract_side_conditions(self, curr_turn: Battle) -> torch.Tensor:
         indices = {side_condition.name: idx for idx, side_condition in enumerate(SideCondition)}
@@ -36,14 +51,13 @@ class DataExtractor:
         side_conditions = curr_turn._side_conditions
         other_side_conditions = curr_turn._opponent_side_conditions
 
-        res = torch.Tensor([0] * len(indices) * 2)
+        res = torch.Tensor([0] * self.num_side_conditions * 2)
 
         for sc, amt in side_conditions.items():
-            print(sc.name, sc.value)
             res[indices[sc.name]] = amt
         
         for sc, amt in other_side_conditions.items():
-            res[indices[sc.name] + len(indices)] = amt
+            res[indices[sc.name] + self.num_side_conditions] = amt
         
         return res
 
@@ -52,7 +66,7 @@ class DataExtractor:
 
         weather = curr_turn.weather
 
-        res = torch.Tensor([0] * len(indices))
+        res = torch.Tensor([0] * self.num_weather)
 
         if weather:
             res[indices[weather.name]] = 1
@@ -62,26 +76,25 @@ class DataExtractor:
     def extract_pokemon(self, curr_turn: Battle) -> torch.Tensor:
 
         def extract_base_stats(pokemon: Pokemon) -> torch.Tensor:
-            stats = torch.zeros(6)
+            stats = torch.zeros(self.num_pokemon_stats)
             for idx, value in enumerate(pokemon.base_stats.values()):
                 stats[idx] = value
             
             return stats
         def extract_boosts(pokemon: Pokemon) -> torch.Tensor:
-            boosts = torch.zeros(7)
+            boosts = torch.zeros(self.num_stats_boosts)
             for idx, value in enumerate(pokemon.boosts.values()):
                 boosts[idx] = value
             return boosts
         
         def extract_types(pokemon: Pokemon) -> torch.Tensor:
-            type = torch.zeros(2)
-            # print(pokemon.types)
+            type = torch.zeros(self.max_num_types)
             type[0] = pokemon.types[0].value
             type[1] = self.unknown_value if pokemon.types[1] == None else pokemon.types[1].value
             return type
 
         def extract_status(pokemon: Pokemon) -> torch.Tensor:
-            statuses = torch.zeros(7)
+            statuses = torch.zeros(self.num_status)
             indices = {status.name: idx for idx, status in enumerate(Status)}
 
             if pokemon.status is not None:
@@ -89,9 +102,8 @@ class DataExtractor:
 
             return statuses
         
-        res = torch.zeros(12, 6 + 7 + 2 + 7)
+        res = torch.zeros(2 * self.num_pokemon_per_team, self.num_pokemon_stats + self.num_stats_boosts + self.max_num_types + self.num_status)
 
-    
         for i, pokemon in enumerate(curr_turn.team.values()):
             if pokemon._status == Status.BRN:
                 pokemon._base_stats['atk'] = pokemon._base_stats['atk'] // 2
@@ -101,7 +113,7 @@ class DataExtractor:
         
         if len(curr_turn.team) < 6:
             for i in range(len(curr_turn.team), 6):
-                res[i] = torch.Tensor([self.unknown_value] * 22)
+                res[i] = torch.Tensor([self.unknown_value] * res[i].shape[0])
         
         for i, pokemon in enumerate(curr_turn.opponent_team.values(), start=6):
             if pokemon.status == Status.BRN:
@@ -113,8 +125,7 @@ class DataExtractor:
 
         if len(curr_turn.opponent_team) < 6:
             for i in range(len(curr_turn.opponent_team), 6):
-                res[i + 6] = torch.Tensor([self.unknown_value] * 22)
-        
+                res[i + 6] = torch.Tensor([self.unknown_value] * res[i+6].shape[0])
         return res
 
     def extract_field(self, curr_turn: Battle) -> torch.Tensor:
@@ -149,9 +160,12 @@ class DataExtractor:
         for i, pokemon in enumerate(curr_turn.opponent_team.values(), start=6):
             for effect in pokemon.effects:
                 res[i][indices[effect.name]] = 1
+
         if len(curr_turn.opponent_team) < 6:
             for i in range(len(curr_turn.opponent_team), 6):
                 res[i + 6] = torch.Tensor([self.unknown_value] * num_effects)
+        
+        return res
 
     def extract_moves(self, curr_turn: Battle) -> torch.Tensor:
         # move while contain base power (1 element), status chances(1 probability value 0<x<1 for each status), accuracy (1 element), type (1 for the appropriate type, 0 other wise)\
@@ -229,8 +243,7 @@ class DataExtractor:
 
         return res
         
-    
-    def embed(self, curr_turn: Battle) -> torch.embedding:
+    def embed(self, curr_turn: Battle) -> torch.Tensor:
         """
         Calls all extraction functions and concatenates the results into a single embedding
 
@@ -238,14 +251,16 @@ class DataExtractor:
         Output: torch embedding of the turn
         """
         
-        hazards = self.extract_side_conditions(curr_turn)
-        pokemon = self.extract_pokemon(curr_turn)
-        moves = self.extract_moves(curr_turn)
-        field = self.extract_field(curr_turn)
-        weather = self.extract_weather(curr_turn)
-        effects = self.extract_effects(curr_turn)
+        hazards = self.extract_side_conditions(curr_turn).flatten()
+        pokemon = self.extract_pokemon(curr_turn).flatten()
+        moves = self.extract_moves(curr_turn).flatten()
+        field = self.extract_field(curr_turn).flatten()
+        weather = self.extract_weather(curr_turn).flatten()
+        effects = self.extract_effects(curr_turn).flatten()
 
         print("successfully extracted all features")
+
+        return torch.cat((hazards, pokemon, moves, field, weather, effects), dim=0)
 
 
     def process_battle(self) -> list[Battle]:
