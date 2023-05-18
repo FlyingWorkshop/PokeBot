@@ -262,7 +262,6 @@ class DataExtractor:
 
         return torch.cat((hazards, pokemon, moves, field, weather, effects), dim=0)
 
-
     def process_battle(self) -> list[Battle]:
         with open(self.battle_json) as f:
             battle_data = json.load(f)
