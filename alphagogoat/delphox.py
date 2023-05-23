@@ -12,7 +12,7 @@ class Delphox(nn.Module):
         self.softmax = nn.Softmax()
 
 
-    def forward(self, x):
+    def forward(self, environment, team1, team2):
         x = self.fc1(x)
         x = self.relu(x)
         x = self.fc2(x)

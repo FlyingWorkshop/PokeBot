@@ -30,7 +30,7 @@ class DataExtractor:
         self.turns = self.process_battle()
 
         #-------------------------------------------------
-        #CONSTANTS
+        # CONSTANTS
         self.unknown_value = -1
         self.num_side_conditions = len(SideCondition)
         self.num_weather = len(Weather)
@@ -41,6 +41,7 @@ class DataExtractor:
         self.num_status = len(Status)
         self.num_fields = len(Field)
         #-------------------------------------------------
+
 
     def get_turns(self) -> list[Battle]:
         return self.turns
@@ -168,6 +169,8 @@ class DataExtractor:
         return res
 
     def extract_moves(self, curr_turn: Battle) -> torch.Tensor:
+        # TODO: change type to just a number
+        # TODO: handle things like freeze-dry
         # move while contain base power (1 element), status chances(1 probability value 0<x<1 for each status), accuracy (1 element), type (1 for the appropriate type, 0 other wise)\
         # expected hits, weather, and hazard
         status_indices = {status.name: idx for idx, status in enumerate(Status)}
