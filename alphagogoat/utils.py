@@ -14,16 +14,9 @@ import torch
 from collections import defaultdict
 from poke_env.environment.field import Field
 from poke_env.environment.effect import Effect
+from pokedex import make_pokedex
 
-def _get_turns(log) -> list:
-    turns = []
-    turn = []
-    for line in log.split('\n'):
-        if line.startswith("|turn|") and turn:
-            turns.append(turn)
-            turn = []
-        turn.append(line)
-    return turns
+pokedex = make_pokedex()
 class DataExtractor:
     def __init__(self, battle_json_path: str):
         self.battle_json = battle_json_path
