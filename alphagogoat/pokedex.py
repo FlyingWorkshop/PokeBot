@@ -2,8 +2,9 @@ from tqdm import tqdm
 import json
 import numpy as np
 from pathlib import Path
+from enum import IntEnum
 
-def make_pokedex():
+def _make_pokedex():
     pokedex = {}
     for filepath in tqdm(list(Path("../cache/teams").iterdir())):
         with open(filepath, 'r') as f:
@@ -31,3 +32,6 @@ def make_pokedex():
             pokedex[pokemon][k1] = d
 
     return pokedex
+
+
+POKEDEX = _make_pokedex()
