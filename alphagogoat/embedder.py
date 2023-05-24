@@ -4,18 +4,20 @@ import copy
 
 from poke_env.environment.battle import Battle
 from poke_env.environment.pokemon import Pokemon
+from poke_env.environment.status import Status
+from poke_env.environment.side_condition import SideCondition
 from poke_env.environment.effect import Effect
 from poke_env.environment.move import Move, DynamaxMove
 import torch
 
 
-from pokedex import make_pokedex
+from pokedex import POKEDEX
+from catalogs import Item, VolatileStatus, SIDE_COND_MAP
 
 
 LOGGER = logging.getLogger('poke-env')
 GEN = 8
-POKEDEX = make_pokedex()
-MAX_MOVES = max([len(data['moves']) for data in POKEDEX.values()])
+MAX_MOVES = 7
 BOOSTABLE_STATS = ['atk', 'def', 'spa', 'spd', 'spe']
 
 def process_battle(battle_json: str) -> list[Battle]:
@@ -44,7 +46,7 @@ class Embedder:
         """
         >>> embedder = Embedder()
         >>> volcarona = Pokemon(species='Volcarona', gen=8)
-        >>> embedder._embed_move("fierydance", 0, volcarona).shape
+        >>> embedder._embed_move("fierydance", 0, volcarona)
         """
         move = Move(id, gen=8)
         # TODO: handle moves that require no item like poltergeist
@@ -73,20 +75,18 @@ class Embedder:
             move.ignore_evasion,
             move.is_protect_counter,
             move.is_protect_move,
-            # TODO: potentially handle ghost vs non ghost target
             move.priority,
             move.recoil,
-            # TODO: handle secondary effects
             1 if move.self_destruct == 'always' else 0,
             move.self_switch,
-            # TODO: handle side conditions
+            -1 if move.side_condition is None else SideCondition[SIDE_COND_MAP[move.side_condition]].value,
             move.sleep_usable,
             move.steals_boosts,
-            # TODO: handle terrain (is this necessary? yes for dynamax moves)
+            -1 if move.terrain is None else move.terrain.value,
             move.thaws_target,
-            move.type.value
-            # TODO: handle volatile status (e.g., flinch)
-            # TODO: handle weather
+            move.type.value,
+            -1 if move.volatile_status is None else VolatileStatus[move.volatile_status].value,
+            -1 if move.weather is None else move.weather.value
         ]
 
         # handle boosts
@@ -98,6 +98,61 @@ class Embedder:
                 boost = 0 if stat not in move.boosts else move.boosts[stat]
                 boosts.append(boost)
         embedding += boosts
+
+        # handle secondary effects
+        secondary = []
+        status = None
+        secondary_boosts = None
+        # on_hit = None
+        volatile_status = None
+        self_ = None
+        for d in move.secondary:
+            if 'status' in d:
+                status = d
+            elif 'boosts' in d:
+                secondary_boosts = d
+            # elif 'onHit' in d:
+            #     on_hit = d
+            elif 'volatileStatus' in d:
+                volatile_status = d
+            elif 'self' in d:
+                self_ = d
+
+        # secondary status
+        if status is None:
+            secondary += [0, 0]
+        else:
+            secondary += [status['chance'], Status[status['status'].upper].value]
+
+        # onHit is either "throat chop" or "anchor shot" or "tri attack", so we ignore it
+
+        # (secondary) boosts
+        if secondary_boosts is None:
+            secondary += [0] * (len(BOOSTABLE_STATS) + 1)
+        else:
+            secondary.append(secondary_boosts['chance'])
+            for stat in BOOSTABLE_STATS:
+                boost = 0 if stat not in secondary_boosts['boosts'] else secondary_boosts['boosts'][stat]
+                secondary.append(boost)
+            secondary += boosts
+
+        # volatileStatus
+        if volatile_status is None:
+            secondary += [0, 0]
+        else:
+            secondary += [volatile_status['chance'], VolatileStatus[volatile_status['volatileStatus']].value]
+
+        # self_
+        if self_ is None:
+            secondary += [0] * (len(BOOSTABLE_STATS) + 1)
+        else:
+            secondary.append(self_['chance'])
+            for stat in BOOSTABLE_STATS:
+                boost = 0 if stat not in self_['self']['boosts'] else self_['self']['boosts'][stat]
+                secondary.append(boost)
+            secondary += boosts
+
+        embedding += secondary
 
         return torch.Tensor(embedding)
 
@@ -111,7 +166,6 @@ class Embedder:
         """
         # TODO: handle from most recent data (optional)
         # TODO: handle dynamax moves
-        # TODO: handle known moves (IMPORTANT)
 
         # make move embeddings
         embeddings = []
