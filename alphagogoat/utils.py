@@ -14,7 +14,8 @@ import torch
 from collections import defaultdict
 from poke_env.environment.field import Field
 from poke_env.environment.effect import Effect
-from pokedex import _make_pokedex
+# from pokedex import _make_pokedex
+
 class DataExtractor:
     def __init__(self, battle_json_path: str):
         self.battle_json = battle_json_path
