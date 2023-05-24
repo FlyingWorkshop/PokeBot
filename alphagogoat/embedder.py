@@ -5,7 +5,7 @@ import copy
 from poke_env.environment.battle import Battle
 from poke_env.environment.pokemon import Pokemon
 from poke_env.environment.effect import Effect
-from poke_env.environment.move import Move
+from poke_env.environment.move import Move, DynamaxMove
 import torch
 
 
