@@ -84,7 +84,6 @@ def train(data): # data is a dict of list of battles and tensors
             
             non_zeros = set(non_zeros)
             
-            print(team1, team2)
             output, hidden = delphox(team1, team2, hidden)
             
 
