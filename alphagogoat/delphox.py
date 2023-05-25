@@ -9,10 +9,7 @@ from pokedex import *
 from catalogs import *
 #import data_labeler
 from small_dataset import *
-#
-# from poke_env.environment.battle import Battle
-#
-TEAM_SIZE = 6
+from constants import *
 
 
 class Delphox(nn.Module):
@@ -22,11 +19,8 @@ class Delphox(nn.Module):
 
         self.emb = embedder.Embedder()
 
-        self.rnn = nn.LSTM(input_size, output_size, 2)
+        self.rnn = nn.LSTM(input_size, output_size, NUM_HIDDEN_LAYERS)
 
-        self.h0 = torch.randn(2, output_size)
-        self.c0 = torch.randn(2, output_size)
-        
         self.softmax = nn.Softmax(dim = 0)
 
         self.loss = nn.CrossEntropyLoss()
@@ -43,11 +37,9 @@ class Delphox(nn.Module):
             pokemon.append(self.emb._embed_pokemon(t2_pokemon))
             moves.append(self.emb._embed_moves_from_pokemon(t2_pokemon))
 
-        pokemon_embedding_len = pokemon[0].shape[0]
-
-        num_unknown_pokemon = 2 * TEAM_SIZE - len(team1) - len(team2)
+        num_unknown_pokemon = 2 * NUM_POKEMON_PER_TEAM - len(team1) - len(team2)
         # TODO: edit probs
-        pokemon = F.pad(torch.hstack(pokemon), (0, num_unknown_pokemon * pokemon_embedding_len), mode='constant', value=-1)
+        pokemon = F.pad(torch.hstack(pokemon), (0, num_unknown_pokemon * POKEMON_EMBED_SIZE), mode='constant', value=-1)
         moves = F.pad(torch.stack(moves), (0, 0, 0, 0, 0, num_unknown_pokemon))
 
         x = torch.cat((pokemon, moves.flatten())).unsqueeze(0)
@@ -60,14 +52,14 @@ class Delphox(nn.Module):
 
 
 def train(data): # data is a dict of list of battles and tensors
-    delphox = Delphox(7296, 2 * (len(MoveEnum) + 1))
+    delphox = Delphox(LSTM_INPUT_SIZE, LSTM_OUTPUT_SIZE)
 
     optimizer = torch.optim.Adam(delphox.parameters(), lr=0.001)
 
     for battle, tensors in data.items():
 
         loss = 0
-        hidden = (torch.randn(2, 2*(len(MoveEnum) + 1)) , torch.randn(2, 2*(len(MoveEnum) + 1)))
+        hidden = (torch.randn(2, LSTM_OUTPUT_SIZE) , torch.randn(2, LSTM_OUTPUT_SIZE))
         team1_history, team2_history = delphox.emb.get_team_histories(battle)
 
         for idx, ((team1, team2), tensor) in enumerate(zip(zip(team1_history, team2_history), tensors)):
@@ -82,7 +74,7 @@ def train(data): # data is a dict of list of battles and tensors
                 non_zeros.append(MoveEnum[re.sub(r"\s|-|'", "", m.lower())].value - 1)
             
             for m in opponent_moves:
-                non_zeros.append((len(MoveEnum) + 1) + MoveEnum[re.sub(r"\s|-|'", "", m.lower())].value - 1)
+                non_zeros.append((TOTAL_POSSIBLE_MOVES + 1) + MoveEnum[re.sub(r"\s|-|'", "", m.lower())].value - 1)
             
             #print(non_zeros)
             non_zeros = torch.tensor(non_zeros, dtype = torch.int64)
