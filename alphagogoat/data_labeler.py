@@ -4,9 +4,11 @@ from tqdm import tqdm
 import pathlib
 from pathlib import Path
 import multiprocessing as mp
+from catalogs import *
+import torch
 
 
-def process_input_log(log) -> list[tuple]:
+def process_input_log(log):
     input_log = log['inputlog']
 
     input_log = input_log.split('\n')
@@ -25,26 +27,24 @@ def process_input_log(log) -> list[tuple]:
         curr_line = input_log[i]
         next_line = input_log[i+1]
         if curr_line.startswith('>p1') and next_line.startswith('>p2'): # that means this is a normal turn with no fainting or anything
-            pair = []
+            out_me = torch.zeros(len(MoveEnum) + 1)
+            out_them = torch.zeros(len(MoveEnum) + 1)
             curr_line = curr_line.split(' ')
             next_line = next_line.split(' ')
 
             if curr_line[1] == 'move':
-                pair.append(curr_line[2])
+                out_me[MoveEnum[curr_line[2].lower()].value - 1] = 1
             elif curr_line[1] == 'switch':
-                pair.append(curr_line[1])
-            else:
-                pair.append(None)
+                out_me[-1] = 1
             
             if next_line[1] == 'move':
-                pair.append(next_line[2])
+                out_them[MoveEnum[next_line[2].lower()].value - 1] = 1
             elif next_line[1] == 'switch':
-                pair.append(next_line[1])
-            else:
-                pair.append(None)
-            
+                out_them[-1] = 1
+    
+
             i += 1
-            out.append(tuple(pair))
+            out.append(torch.cat((out_me, out_them)))
         else:
             continue
 
@@ -59,15 +59,20 @@ def create_labeled_data():
     
     data = {}
 
-    for filepath in tqdm(list(Path("../cache/replays").iterdir())):
+    for filepath in tqdm(list(Path("/Users/adamzhao/Desktop/PokeBot/cache/replays").iterdir())):
         if str(filepath).endswith('.json'):
             battle = DataExtractor(str(filepath)).turns
             with open(filepath, 'r') as f:
                 replay = json.load(f)
                 turn_actions = process_input_log(replay)
-            
+
+            k, v = [],[]
             for turn, action in zip(battle, turn_actions):
-                data[turn] = action
+                #data[turn] = action
+                k.append(turn)
+                v.append(action)
+            
+            data[tuple(k)] = tuple(v)
 
     return data
 

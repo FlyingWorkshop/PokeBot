@@ -50,6 +50,10 @@ def _make_move_enum():
     for pokemon, data in POKEDEX.items():
         for move in data['moves']:
             move_enum.add(re.sub(r"\s|-|'", "", move.lower()))
+    
+    move_enum.add('struggle')
+    move_enum.add('spiritshackle')
+    #move_enum.add('fishiousrend')
     MoveEnum = IntEnum("MoveEnum", list(sorted(move_enum)))
     return MoveEnum
 

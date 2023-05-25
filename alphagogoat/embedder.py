@@ -211,6 +211,7 @@ class Embedder:
         # TODO: handle abilities
         # TODO: handle items
         # items
+        
         items = []
         for item, prob in POKEDEX[pokemon.species]['items'].items():
             items += [prob, Item[item].value]
@@ -234,6 +235,7 @@ class Embedder:
         type2 = -1 if pokemon.type_2 is None else pokemon.type_2.value
 
         embedding = torch.Tensor(items + stats + effects + [status, status_counter, type1, type2])
+        print('here')
         return embedding
 
     def get_team_histories(self, battles: list[Battle]):

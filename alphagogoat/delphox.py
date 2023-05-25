@@ -7,6 +7,7 @@ import embedder
 from torch.nn.init import xavier_uniform_
 from pokedex import *
 from catalogs import *
+import data_labeler
 #
 # from poke_env.environment.battle import Battle
 #
@@ -27,11 +28,14 @@ class Delphox(nn.Module):
         
         self.softmax = nn.Softmax(dim=1)
 
+        self.loss = nn.CrossEntropyLoss()
+
     def forward(self, team1: dict[str: Pokemon], team2: dict[str: Pokemon], hidden: tuple[torch.tensor]):
         pokemon = []
         moves = []
 
         for t1_pokemon in team1.values():
+            #print(t1_pokemon)
             pokemon.append(self.emb._embed_pokemon(t1_pokemon))
             moves.append(self.emb._embed_moves_from_pokemon(t1_pokemon))
         
@@ -46,43 +50,54 @@ class Delphox(nn.Module):
 
         x = torch.cat(pokemon.flatten(), moves.flatten())
         
-        x, forward = self.rnn(x, hidden)
+        x, hidden = self.rnn(x, hidden)
         
         x = self.softmax(x)
 
-        return x, forward
+        return x, hidden
 
 
-def train(data: dict[Battle: tuple]):
-    delphox = Delphox(7800, 296 + 1)
+def train(data): # data is a dict of list of battles and tensors
+    delphox = Delphox(7800, 2 * (len(MoveEnum) + 1))
 
     optimizer = torch.optim.Adam(delphox.parameters(), lr=0.001)
 
-    for battle, (team1, team2) in data.items():
+    for battle, tensors in data.items():
 
-        my_active, opponent_active = battle.active_pokemon, battle.opponent_active_pokemon
+        hidden = (torch.randn(2, 2*(len(MoveEnum) + 1)) , torch.randn(2, 2*(len(MoveEnum) + 1)))
+        team1_history, team2_history = delphox.emb.get_team_histories(battle)
 
-        my_moves = POKEDEX[my_active.species]['moves']
-        opponent_moves = POKEDEX[opponent_active.species]['moves']
+        for idx, ((team1, team2), tensor) in enumerate(zip(zip(team1_history, team2_history), tensors)):
 
-        non_zeros = []
-        for m in my_moves:
-            non_zeros.append(MoveEnum[m].value - 1)
-        
-        for m in opponent_moves:
-            non_zeros.append(MoveEnum[m].value - 1)
-        
-        non_zeros = set(non_zeros)
+            my_active, opponent_active = battle[idx].active_pokemon, battle[idx].opponent_active_pokemon
 
-        hidden = (torch.randn(2, 296 + 1) , torch.randn(2, 296 + 1))
-        output, hidden = delphox(team1, team2, hidden)
+            my_moves = POKEDEX[my_active.species]['moves']
+            opponent_moves = POKEDEX[opponent_active.species]['moves']
 
-        for i in range(output.shape[1]):
-            if i not in non_zeros:
-                output[0][i] *= 0
+            non_zeros = []
+            for m in my_moves:
+                non_zeros.append(MoveEnum[re.sub(r"\s|-|'", "", m.lower())].value - 1)
+            
+            for m in opponent_moves:
+                non_zeros.append(2 * (len(MoveEnum) + 1) + MoveEnum[re.sub(r"\s|-|'", "", m.lower())].value - 1)
+            
+            non_zeros = set(non_zeros)
+            
+            print(team1, team2)
+            output, hidden = delphox(team1, team2, hidden)
+            
 
-        loss = F.cross_entropy(output, battle.outcome) #TODO fix this loss function
+            for i in range(output.shape[1]):
+                if i not in non_zeros:
+                    output[0][i] *= 0
+
+            output = delphox.softmax(output)
+
+            loss = delphox.loss(output, tensor)
 
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
+
+if __name__ == "__main__":
+    train(data_labeler.DATASET)

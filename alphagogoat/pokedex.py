@@ -6,7 +6,7 @@ from enum import IntEnum
 
 def _make_pokedex():
     pokedex = {}
-    for filepath in tqdm(list(Path("./../cache/teams").iterdir())):
+    for filepath in tqdm(list(Path("/Users/adamzhao/Desktop/PokeBot/cache/teams").iterdir())):
         with open(filepath, 'r') as f:
             data = json.load(f)
         for key, value in data.items():
