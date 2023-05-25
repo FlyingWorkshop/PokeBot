@@ -51,7 +51,7 @@ def process_input_log(log):
 SMALL_DATASET = {}
 i = 0
 for filepath in tqdm(list(Path("./../cache/replays").iterdir())):
-    if i == 10:
+    if i == 1:
         break
     if str(filepath).endswith('.json'):
         i += 1
