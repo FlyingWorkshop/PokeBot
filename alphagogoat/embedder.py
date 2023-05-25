@@ -61,9 +61,6 @@ class Embedder:
         torch.Size([52])
         """
         move = Move(id, gen=8)
-        # TODO: handle moves that require no item like poltergeist
-        # TODO: handle moves that consume berries like stuff cheeks
-        # TODO: handle knock off
         embedding = [
             prob,
             move.accuracy,
@@ -132,7 +129,7 @@ class Embedder:
         if status is None:
             secondary += [0, 0]
         else:
-            secondary += [status['chance'], Status[status['status'].upper].value]
+            secondary += [status['chance'], Status[status['status'].upper()].value]
 
         # onHit is either "throat chop" or "anchor shot" or "tri attack", so we ignore it
 
@@ -172,9 +169,9 @@ class Embedder:
         torch.Size([8, 52])
         >>> embedder._embed_moves_from_pokemon(Pokemon(gen=8, species="Pyukumuku")).shape
         torch.Size([8, 52])
-        >>> embedder._embed_moves_from_pokemon(Pokemon(gen=8, species="Dialga-Origin")).shape
-        torch.Size([8, 52])
         >>> embedder._embed_moves_from_pokemon(Pokemon(gen=8, species="Zygarde-10%")).shape
+        torch.Size([8, 52])
+        >>> embedder._embed_moves_from_pokemon(Pokemon(gen=8, species="Dracovish")).shape
         torch.Size([8, 52])
         """
         # make move embeddings
