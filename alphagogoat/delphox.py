@@ -4,6 +4,7 @@ import torch.nn.functional as F
 from poke_env.environment.battle import Battle
 from poke_env.environment.pokemon import Pokemon
 import embedder
+from torch.nn.init import xavier_uniform_
 #
 # from poke_env.environment.battle import Battle
 #
@@ -19,9 +20,12 @@ class Delphox(nn.Module):
 
         self.rnn = nn.LSTM(input_size, output_size, 2)
 
+        self.h0 = torch.randn(2, output_size)
+        self.c0 = torch.randn(2, output_size)
+        
         self.softmax = nn.Softmax(dim=1)
 
-    def forward(self, team1: dict[str: Pokemon], team2: dict[str: Pokemon]):
+    def forward(self, team1: dict[str: Pokemon], team2: dict[str: Pokemon], hidden: tuple[torch.tensor]):
         pokemon = []
         moves = []
 
@@ -38,13 +42,25 @@ class Delphox(nn.Module):
         pokemon = F.pad(torch.hstack(pokemon), (0, num_unknown_pokemon), mode='constant', value=-1)
         moves = F.pad(torch.stack(moves), (0, 0, 0, 0, 0, num_unknown_pokemon))
 
+        x = torch.cat(pokemon.flatten(), moves.flatten())
+        
+        x, forward = self.rnn(x, hidden)
+        
+        x = self.softmax(x)
 
-        
-        
-        
+        return x, forward
 
-#         x = self.fc1(x)
-#         x = self.relu(x)
-#         x = self.fc2(x)
-#         x = self.softmax(x)
-#         return x
+
+def train(data: dict[Battle: tuple]):
+    delphox = Delphox(7800, 296 + 1)
+
+    optimizer = torch.optim.Adam(delphox.parameters(), lr=0.001)
+
+    for battle, (team1, team2) in data.items():
+        hidden = (torch.randn(2, 296 + 1) , torch.randn(2, 296 + 1))
+        output, hidden = delphox(team1, team2, hidden)
+        loss = F.cross_entropy(output, battle.outcome) #TODO fix this loss function
+        
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
