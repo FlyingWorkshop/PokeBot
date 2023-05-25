@@ -5,7 +5,8 @@ from poke_env.environment.battle import Battle
 from poke_env.environment.pokemon import Pokemon
 import embedder
 from torch.nn.init import xavier_uniform_
-import pokedex
+from pokedex import *
+from catalogs import *
 #
 # from poke_env.environment.battle import Battle
 #
@@ -58,8 +59,28 @@ def train(data: dict[Battle: tuple]):
     optimizer = torch.optim.Adam(delphox.parameters(), lr=0.001)
 
     for battle, (team1, team2) in data.items():
+
+        my_active, opponent_active = battle.active_pokemon, battle.opponent_active_pokemon
+
+        my_moves = POKEDEX[my_active.species]['moves']
+        opponent_moves = POKEDEX[opponent_active.species]['moves']
+
+        non_zeros = []
+        for m in my_moves:
+            non_zeros.append(MoveEnum[m].value - 1)
+        
+        for m in opponent_moves:
+            non_zeros.append(MoveEnum[m].value - 1)
+        
+        non_zeros = set(non_zeros)
+
         hidden = (torch.randn(2, 296 + 1) , torch.randn(2, 296 + 1))
         output, hidden = delphox(team1, team2, hidden)
+
+        for i in range(output.shape[1]):
+            if i not in non_zeros:
+                output[0][i] *= 0
+
         loss = F.cross_entropy(output, battle.outcome) #TODO fix this loss function
 
         optimizer.zero_grad()
