@@ -1,6 +1,7 @@
 import json
 import logging
 import copy
+import re
 
 from poke_env.environment.battle import Battle
 from poke_env.environment.pokemon import Pokemon
@@ -59,6 +60,8 @@ class Embedder:
         torch.Size([52])
         >>> embedder._embed_move("appleacid", 0).shape
         torch.Size([52])
+        >>> embedder._embed_move("uturn", 0).shape
+        torch.Size([52])
         """
         move = Move(id, gen=8)
         embedding = [
@@ -69,7 +72,6 @@ class Embedder:
             move.category.value,
             move.crit_ratio,
             move.current_pp,  # TODO: how to extract this live from battle?
-            # move.damage,  # TODO: handle moves like seismic toss
             move.defensive_category.value,
             move.drain,
             move.expected_hits,
@@ -173,12 +175,14 @@ class Embedder:
         torch.Size([8, 52])
         >>> embedder._embed_moves_from_pokemon(Pokemon(gen=8, species="Dracovish")).shape
         torch.Size([8, 52])
+        >>> embedder._embed_moves_from_pokemon(Pokemon(gen=8, species="Landorus-Therian")).shape
+        torch.Size([8, 52])
         """
         # make move embeddings
         embeddings = []
         moves = POKEDEX[pokemon.species]['moves']
         for name, prob in moves.items():
-            id = name.lower().replace(" ", "")
+            id = re.sub(r"\s|-|'", "", name.lower())
             embedding = self._embed_move(id, prob)
             embeddings.append(embedding)
         embeddings = torch.stack(embeddings)

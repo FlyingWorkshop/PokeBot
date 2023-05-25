@@ -36,7 +36,6 @@ class Delphox(nn.Module):
         moves = []
 
         for t1_pokemon in team1.values():
-            #print(t1_pokemon)
             pokemon.append(self.emb._embed_pokemon(t1_pokemon))
             moves.append(self.emb._embed_moves_from_pokemon(t1_pokemon))
         
@@ -44,12 +43,14 @@ class Delphox(nn.Module):
             pokemon.append(self.emb._embed_pokemon(t2_pokemon))
             moves.append(self.emb._embed_moves_from_pokemon(t2_pokemon))
 
+        pokemon_embedding_len = pokemon[0].shape[0]
+
         num_unknown_pokemon = 2 * TEAM_SIZE - len(team1) - len(team2)
         # TODO: edit probs
-        pokemon = F.pad(torch.hstack(pokemon), (0, num_unknown_pokemon), mode='constant', value=-1)
+        pokemon = F.pad(torch.hstack(pokemon), (0, num_unknown_pokemon * pokemon_embedding_len), mode='constant', value=-1)
         moves = F.pad(torch.stack(moves), (0, 0, 0, 0, 0, num_unknown_pokemon))
 
-        x = torch.cat(pokemon.flatten(), moves.flatten())
+        x = torch.cat((pokemon, moves.flatten())).unsqueeze(0)
         
         x, hidden = self.rnn(x, hidden)
         
@@ -59,7 +60,7 @@ class Delphox(nn.Module):
 
 
 def train(data): # data is a dict of list of battles and tensors
-    delphox = Delphox(7800, 2 * (len(MoveEnum) + 1))
+    delphox = Delphox(7296, 2 * (len(MoveEnum) + 1))
 
     optimizer = torch.optim.Adam(delphox.parameters(), lr=0.001)
 
@@ -97,7 +98,9 @@ def train(data): # data is a dict of list of battles and tensors
 
         optimizer.zero_grad()
         loss.backward()
+        print(f"{loss=}")
         optimizer.step()
+
 
 if __name__ == "__main__":
     train(SMALL_DATASET)
