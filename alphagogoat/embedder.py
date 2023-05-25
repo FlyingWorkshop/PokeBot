@@ -236,19 +236,22 @@ class Embedder:
         embedding = torch.Tensor(items + stats + effects + [status, status_counter, type1, type2])
         return embedding
 
-    def embed_battles(self, battles: list[Battle]):
+    def get_teams(self, battles: list[Battle]):
         """
         >>> embedder = Embedder()
         >>> battles = process_battle("../cache/replays/gen8randombattle-1123651831.json")
-        >>> embedder.embed_battles(battles)
+        >>> embedder.get_teams(battles)
 
         """
+        team1_history, team2_history = [], []
         team1, team2 = {}, {}
         for battle in battles:
             active = battle.active_pokemon
             opponent_active = battle.opponent_active_pokemon
             team1[active.species] = active
             team2[opponent_active.species] = opponent_active
-        return team1, team2
+            team1_history.append(copy.deepcopy(team1))
+            team2_history.append(copy.deepcopy(team2))
+        return team1_history, team2_history
 
 
