@@ -60,3 +60,15 @@ def _make_move_enum():
 
 MoveEnum = _make_move_enum()
 
+def _make_ability():
+    ability_catalog = set()
+    for pokemon, data in POKEDEX.items():
+        ability_catalog.update(data['abilities'])
+
+    ability_catalog = sorted(list(ability_catalog))
+    Ability = IntEnum('Ability', ability_catalog)
+    return Ability
+
+
+Ability = _make_ability()
+

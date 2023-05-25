@@ -12,7 +12,7 @@ import torch
 
 
 from pokedex import POKEDEX
-from catalogs import Item, VolatileStatus, SIDE_COND_MAP
+from catalogs import Item, VolatileStatus, SIDE_COND_MAP, Ability
 
 
 LOGGER = logging.getLogger('poke-env')
@@ -177,9 +177,6 @@ class Embedder:
         >>> embedder._embed_moves_from_pokemon(Pokemon(gen=8, species="Zygarde-10%")).shape
         torch.Size([8, 52])
         """
-        # TODO: handle from most recent data (optional)
-        # TODO: handle dynamax moves
-
         # make move embeddings
         embeddings = []
         moves = POKEDEX[pokemon.species]['moves']
@@ -197,19 +194,24 @@ class Embedder:
         return torch.concat([embeddings, unknown_move_embeddings])
 
 
-
     def _embed_pokemon(self, pokemon: Pokemon) -> torch.Tensor:
         """
         >>> embedder = Embedder()
-        >>> abomasnow = Pokemon(gen=8, species="Abomasnow")
-        >>> embedder._embed_pokemon(abomasnow).shape
-        torch.Size([186])
-        >>> pyukumuku = Pokemon(gen=8, species="pyukumuku")
-        >>> embedder._embed_pokemon(pyukumuku).shape
-        torch.Size([186])
+        >>> embedder._embed_pokemon(Pokemon(gen=8, species="Abomasnow")).shape
+        torch.Size([192])
+        >>> embedder._embed_pokemon(Pokemon(gen=8, species="pyukumuku")).shape
+        torch.Size([192])
+        >>> embedder._embed_pokemon(Pokemon(gen=8, species="dracovish")).shape
+        torch.Size([192])
+        >>> embedder._embed_pokemon(Pokemon(gen=8, species="accelgor")).shape
+        torch.Size([192])
         """
-        # TODO: handle abilities
-        # TODO: handle items
+        # abilities
+        abilities = []
+        for ability, prob in POKEDEX[pokemon.species]['abilities'].items():
+            abilities += [prob, Ability[ability].value]
+        abilities += [0] * (2 * MAX_ABILITIES - len(abilities))
+
         # items
         
         items = []
@@ -217,12 +219,14 @@ class Embedder:
             items += [prob, Item[item].value]
         items += [0] * (2 * MAX_ITEMS - len(items))
 
-        # TODO: handle evs and levels
         stats = pokemon.base_stats
         for stat, val in stats.items():
             if stat == 'hp':
                 continue
             stats[stat] = val + 1 * pokemon.boosts[stat]
+            if 'evs' in POKEDEX[pokemon.species]:
+                if stat in POKEDEX[pokemon.species]['evs']:
+                    stats[stat] += POKEDEX[pokemon.species]['evs'][stat]
         stats = [val for stat, val in sorted(stats.items())]
 
         effects = [0] * len(Effect)
@@ -234,11 +238,11 @@ class Embedder:
         type1 = pokemon.type_1.value
         type2 = -1 if pokemon.type_2 is None else pokemon.type_2.value
 
-        embedding = torch.Tensor(items + stats + effects + [status, status_counter, type1, type2])
-        print('here')
+        embedding = torch.Tensor(abilities + items + stats + effects + [status, status_counter, type1, type2])
         return embedding
 
-    def get_team_histories(self, battles: list[Battle]):
+    @staticmethod
+    def get_team_histories(battles: list[Battle]):
         """
         >>> embedder = Embedder()
         >>> battles = process_battle("../cache/replays/gen8randombattle-1123651831.json")
