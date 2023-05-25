@@ -197,13 +197,14 @@ class Embedder:
     def _embed_pokemon(self, pokemon: Pokemon) -> torch.Tensor:
         """
         >>> embedder = Embedder()
-        >>> abomasnow = Pokemon(gen=8, species="Abomasnow")
-        >>> embedder._embed_pokemon(abomasnow).shape
+        >>> embedder._embed_pokemon(Pokemon(gen=8, species="Abomasnow")).shape
         torch.Size([192])
-        >>> pyukumuku = Pokemon(gen=8, species="pyukumuku")
-        >>> embedder._embed_pokemon(pyukumuku).shape
+        >>> embedder._embed_pokemon(Pokemon(gen=8, species="pyukumuku")).shape
         torch.Size([192])
         >>> embedder._embed_pokemon(Pokemon(gen=8, species="dracovish")).shape
+        torch.Size([192])
+        >>> embedder._embed_pokemon(Pokemon(gen=8, species="accelgor")).shape
+        torch.Size([192])
         """
         # abilities
         abilities = []
@@ -217,12 +218,14 @@ class Embedder:
             items += [prob, Item[item].value]
         items += [0] * (2 * MAX_ITEMS - len(items))
 
-        # TODO: handle evs and levels
         stats = pokemon.base_stats
         for stat, val in stats.items():
             if stat == 'hp':
                 continue
             stats[stat] = val + 1 * pokemon.boosts[stat]
+            if 'evs' in POKEDEX[pokemon.species]:
+                if stat in POKEDEX[pokemon.species]['evs']:
+                    stats[stat] += POKEDEX[pokemon.species]['evs'][stat]
         stats = [val for stat, val in sorted(stats.items())]
 
         effects = [0] * len(Effect)
