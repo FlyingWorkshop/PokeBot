@@ -32,7 +32,14 @@ def _make_pokedex():
                     d[k2] = np.mean(probs)
             pokedex[species][k1] = d
 
+    for species, data in pokedex.items():
+        if 'evs' in data:
+            pokedex[species]['evs'] = data['evs'][0]
+        if 'ivs' in data:
+            del pokedex[species]['ivs']
+
     return pokedex
 
 
 POKEDEX = _make_pokedex()
+print("hi")

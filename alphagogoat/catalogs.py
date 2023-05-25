@@ -65,4 +65,6 @@ def _make_ability():
     Ability = IntEnum('Ability', ability_catalog)
     return Ability
 
+
 Ability = _make_ability()
+
