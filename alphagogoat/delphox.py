@@ -5,6 +5,7 @@ from poke_env.environment.battle import Battle
 from poke_env.environment.pokemon import Pokemon
 import embedder
 from torch.nn.init import xavier_uniform_
+import pokedex
 #
 # from poke_env.environment.battle import Battle
 #
@@ -60,7 +61,7 @@ def train(data: dict[Battle: tuple]):
         hidden = (torch.randn(2, 296 + 1) , torch.randn(2, 296 + 1))
         output, hidden = delphox(team1, team2, hidden)
         loss = F.cross_entropy(output, battle.outcome) #TODO fix this loss function
-        
+
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
