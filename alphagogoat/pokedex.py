@@ -11,12 +11,13 @@ def _make_pokedex():
             data = json.load(f)
         for key, value in data.items():
             if key not in pokedex:
+                key = key.lower().replace("-", "")
                 pokedex[key] = {k: [] for k in value.keys()}
             for k, v in value.items():
                 pokedex[key][k].append(v)
 
-    for pokemon, dicts in tqdm(pokedex.items()):
-        pokedex[pokemon]['level'] = int(np.round(np.mean(pokedex[pokemon]['level'])))
+    for species, dicts in tqdm(pokedex.items()):
+        pokedex[species]['level'] = int(np.round(np.mean(pokedex[species]['level'])))
         for k1 in ['abilities', 'moves', 'items']:
             d = {}
             if k1 in dicts:
@@ -29,7 +30,7 @@ def _make_pokedex():
                         d[k2].append(prob)
                 for k2, probs in d.items():
                     d[k2] = np.mean(probs)
-            pokedex[pokemon][k1] = d
+            pokedex[species][k1] = d
 
     return pokedex
 

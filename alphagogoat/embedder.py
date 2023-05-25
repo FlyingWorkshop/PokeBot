@@ -17,7 +17,9 @@ from catalogs import Item, VolatileStatus, SIDE_COND_MAP
 
 LOGGER = logging.getLogger('poke-env')
 GEN = 8
-MAX_MOVES = 7
+MAX_MOVES = 8
+MAX_ABILITIES = 3
+MAX_ITEMS = 6
 BOOSTABLE_STATS = ['atk', 'def', 'spa', 'spd', 'spe']
 
 def process_battle(battle_json: str) -> list[Battle]:
@@ -42,18 +44,26 @@ class Embedder:
     def __init__(self):
         pass
 
-    def _embed_move(self, id: str, prob: float, pokemon: Pokemon) -> torch.Tensor:
+    def _embed_move(self, id: str, prob: float) -> torch.Tensor:
         """
         >>> embedder = Embedder()
-        >>> volcarona = Pokemon(species='Volcarona', gen=8)
-        >>> embedder._embed_move("fierydance", 0, volcarona)
+        >>> embedder._embed_move("fierydance", 0).shape
+        torch.Size([52])
+        >>> embedder._embed_move("seismictoss", 0).shape
+        torch.Size([52])
+        >>> embedder._embed_move("knockoff", 0).shape
+        torch.Size([52])
+        >>> embedder._embed_move("leechseed", 0).shape
+        torch.Size([52])
+        >>> embedder._embed_move("gravapple", 0).shape
+        torch.Size([52])
+        >>> embedder._embed_move("appleacid", 0).shape
+        torch.Size([52])
         """
         move = Move(id, gen=8)
         # TODO: handle moves that require no item like poltergeist
         # TODO: handle moves that consume berries like stuff cheeks
         # TODO: handle knock off
-        # TODO: handle curse/hex
-        # TODO: handle facade
         embedding = [
             prob,
             move.accuracy,
@@ -62,7 +72,7 @@ class Embedder:
             move.category.value,
             move.crit_ratio,
             move.current_pp,  # TODO: how to extract this live from battle?
-            move.damage,  # TODO: handle moves like seismic toss
+            # move.damage,  # TODO: handle moves like seismic toss
             move.defensive_category.value,
             move.drain,
             move.expected_hits,
@@ -134,7 +144,6 @@ class Embedder:
             for stat in BOOSTABLE_STATS:
                 boost = 0 if stat not in secondary_boosts['boosts'] else secondary_boosts['boosts'][stat]
                 secondary.append(boost)
-            secondary += boosts
 
         # volatileStatus
         if volatile_status is None:
@@ -150,7 +159,6 @@ class Embedder:
             for stat in BOOSTABLE_STATS:
                 boost = 0 if stat not in self_['self']['boosts'] else self_['self']['boosts'][stat]
                 secondary.append(boost)
-            secondary += boosts
 
         embedding += secondary
 
@@ -160,19 +168,24 @@ class Embedder:
     def _embed_moves_from_pokemon(self, pokemon: Pokemon):
         """
         >>> embedder = Embedder()
-        >>> appletun = Pokemon(gen=8, species="Appletun")
-        >>> embedder._embed_moves_from_pokemon(appletun).shape
-        torch.Size([8, 33])
+        >>> embedder._embed_moves_from_pokemon(Pokemon(gen=8, species="Appletun")).shape
+        torch.Size([8, 52])
+        >>> embedder._embed_moves_from_pokemon(Pokemon(gen=8, species="Pyukumuku")).shape
+        torch.Size([8, 52])
+        >>> embedder._embed_moves_from_pokemon(Pokemon(gen=8, species="Dialga-Origin")).shape
+        torch.Size([8, 52])
+        >>> embedder._embed_moves_from_pokemon(Pokemon(gen=8, species="Zygarde-10%")).shape
+        torch.Size([8, 52])
         """
         # TODO: handle from most recent data (optional)
         # TODO: handle dynamax moves
 
         # make move embeddings
         embeddings = []
-        moves = POKEDEX[pokemon.species.capitalize()]['moves']
+        moves = POKEDEX[pokemon.species]['moves']
         for name, prob in moves.items():
             id = name.lower().replace(" ", "")
-            embedding = self._embed_move(id, prob, pokemon)
+            embedding = self._embed_move(id, prob)
             embeddings.append(embedding)
         embeddings = torch.stack(embeddings)
 
@@ -190,10 +203,19 @@ class Embedder:
         >>> embedder = Embedder()
         >>> abomasnow = Pokemon(gen=8, species="Abomasnow")
         >>> embedder._embed_pokemon(abomasnow).shape
-        torch.Size([174])
+        torch.Size([186])
+        >>> pyukumuku = Pokemon(gen=8, species="pyukumuku")
+        >>> embedder._embed_pokemon(pyukumuku).shape
+        torch.Size([186])
         """
         # TODO: handle abilities
         # TODO: handle items
+        # items
+        items = []
+        for item, prob in POKEDEX[pokemon.species]['items'].items():
+            items += [prob, Item[item].value]
+        items += [0] * (2 * MAX_ITEMS - len(items))
+
         # TODO: handle evs and levels
         stats = pokemon.base_stats
         for stat, val in stats.items():
@@ -209,13 +231,24 @@ class Embedder:
         status = -1 if pokemon.status is None else pokemon.status.value
         status_counter = pokemon.status_counter
         type1 = pokemon.type_1.value
-        type2 = pokemon.type_2.value
+        type2 = -1 if pokemon.type_2 is None else pokemon.type_2.value
 
-        embedding = torch.Tensor(stats + effects + [status, status_counter, type1, type2])
+        embedding = torch.Tensor(items + stats + effects + [status, status_counter, type1, type2])
         return embedding
 
-    def embed(self, battle: Battle):
-        # TODO: maintain a list of team1 and team2 pokemon and what moves they have used
-        return
+    def embed_battles(self, battles: list[Battle]):
+        """
+        >>> embedder = Embedder()
+        >>> battles = process_battle("../cache/replays/gen8randombattle-1123651831.json")
+        >>> embedder.embed_battles(battles)
+
+        """
+        team1, team2 = {}, {}
+        for battle in battles:
+            active = battle.active_pokemon
+            opponent_active = battle.opponent_active_pokemon
+            team1[active.species] = active
+            team2[opponent_active.species] = opponent_active
+        return team1, team2
 
 
