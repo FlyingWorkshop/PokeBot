@@ -7,7 +7,7 @@ from poke_env.environment.pokemon import Pokemon
 from poke_env.environment.status import Status
 from poke_env.environment.side_condition import SideCondition
 from poke_env.environment.effect import Effect
-from poke_env.environment.move import Move
+from poke_env.environment.move import Move, DynamaxMove
 import torch
 
 
