@@ -27,7 +27,7 @@ class Delphox(nn.Module):
         self.h0 = torch.randn(2, output_size)
         self.c0 = torch.randn(2, output_size)
         
-        self.softmax = nn.Softmax(dim=1)
+        self.softmax = nn.Softmax(dim = 0)
 
         self.loss = nn.CrossEntropyLoss()
 
@@ -66,6 +66,7 @@ def train(data): # data is a dict of list of battles and tensors
 
     for battle, tensors in data.items():
 
+        loss = 0
         hidden = (torch.randn(2, 2*(len(MoveEnum) + 1)) , torch.randn(2, 2*(len(MoveEnum) + 1)))
         team1_history, team2_history = delphox.emb.get_team_histories(battle)
 
@@ -81,20 +82,23 @@ def train(data): # data is a dict of list of battles and tensors
                 non_zeros.append(MoveEnum[re.sub(r"\s|-|'", "", m.lower())].value - 1)
             
             for m in opponent_moves:
-                non_zeros.append(2 * (len(MoveEnum) + 1) + MoveEnum[re.sub(r"\s|-|'", "", m.lower())].value - 1)
+                non_zeros.append((len(MoveEnum) + 1) + MoveEnum[re.sub(r"\s|-|'", "", m.lower())].value - 1)
             
-            non_zeros = set(non_zeros)
+            #print(non_zeros)
+            non_zeros = torch.tensor(non_zeros, dtype = torch.int64)
             
             output, hidden = delphox(team1, team2, hidden)
-            
 
-            for i in range(output.shape[1]):
-                if i not in non_zeros:
-                    output[0][i] *= 0
+            output = output.squeeze(0)
+            
+            mask = torch.zeros_like(output)
+            mask.scatter_(0, non_zeros, 1)
+
+            output = torch.mul(output, mask)
 
             output = delphox.softmax(output)
 
-            loss = delphox.loss(output, tensor)
+            loss += delphox.loss(output, tensor)
 
         optimizer.zero_grad()
         loss.backward()
