@@ -236,11 +236,11 @@ class Embedder:
         embedding = torch.Tensor(items + stats + effects + [status, status_counter, type1, type2])
         return embedding
 
-    def get_teams(self, battles: list[Battle]):
+    def get_team_histories(self, battles: list[Battle]):
         """
         >>> embedder = Embedder()
         >>> battles = process_battle("../cache/replays/gen8randombattle-1123651831.json")
-        >>> embedder.get_teams(battles)
+        >>> embedder.get_team_histories(battles)
 
         """
         team1_history, team2_history = [], []
