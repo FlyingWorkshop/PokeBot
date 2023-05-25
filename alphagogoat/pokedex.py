@@ -6,7 +6,7 @@ from enum import IntEnum
 
 def _make_pokedex():
     pokedex = {}
-    for filepath in tqdm(list(Path("/Users/adamzhao/Desktop/PokeBot/cache/teams").iterdir())):
+    for filepath in tqdm(list(Path("../cache/teams").iterdir())):
         with open(filepath, 'r') as f:
             data = json.load(f)
         for key, value in data.items():
@@ -38,8 +38,10 @@ def _make_pokedex():
         if 'ivs' in data:
             del pokedex[species]['ivs']
 
+    pokedex['zygarde10'] = pokedex['zygarde10%']
+    del pokedex['zygarde10%']
+
     return pokedex
 
 
 POKEDEX = _make_pokedex()
-print("hi")
