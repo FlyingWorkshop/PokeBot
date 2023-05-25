@@ -28,7 +28,6 @@ class Delphox(nn.Module):
             moves.append(self.emb._embed_moves_from_pokemon(t1_pokemon))
 
         
-        
         for t2_pokemon in team2.values():
             embeddings.append(self.emb._embed_pokemon(t2_pokemon))
             moves.append(self.emb._embed_moves_from_pokemon(t2_pokemon))
