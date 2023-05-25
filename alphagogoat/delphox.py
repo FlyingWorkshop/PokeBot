@@ -49,7 +49,7 @@ class Delphox(nn.Module):
         pokemon = F.pad(torch.hstack(pokemon), (0, num_unknown_pokemon), mode='constant', value=-1)
         moves = F.pad(torch.stack(moves), (0, 0, 0, 0, 0, num_unknown_pokemon))
 
-        x = torch.cat(pokemon.flatten(), moves.flatten())
+        x = torch.cat((pokemon.flatten(), moves.flatten())).unsqueeze(0)
         
         x, hidden = self.rnn(x, hidden)
         
@@ -98,7 +98,9 @@ def train(data): # data is a dict of list of battles and tensors
 
         optimizer.zero_grad()
         loss.backward()
+        print(f"{loss=}")
         optimizer.step()
+
 
 if __name__ == "__main__":
     train(SMALL_DATASET)
