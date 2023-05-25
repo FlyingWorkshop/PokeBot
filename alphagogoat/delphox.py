@@ -7,7 +7,8 @@ import embedder
 from torch.nn.init import xavier_uniform_
 from pokedex import *
 from catalogs import *
-import data_labeler
+#import data_labeler
+from small_dataset import *
 #
 # from poke_env.environment.battle import Battle
 #
@@ -100,4 +101,4 @@ def train(data): # data is a dict of list of battles and tensors
         optimizer.step()
 
 if __name__ == "__main__":
-    train(data_labeler.DATASET)
+    train(SMALL_DATASET)
