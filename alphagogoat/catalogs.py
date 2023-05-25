@@ -44,3 +44,15 @@ def _make_side_condition_mapping():
 
 SIDE_COND_MAP = _make_side_condition_mapping()
 
+
+def _make_move_enum():
+    move_enum = set()
+    for pokemon, data in POKEDEX.items():
+        for move in data['moves']:
+            move_enum.add(re.sub(r"\s|-|'", "", move.lower()))
+    MoveEnum = IntEnum("MoveEnum", list(sorted(move_enum)))
+    return MoveEnum
+
+
+MoveEnum = _make_move_enum()
+
