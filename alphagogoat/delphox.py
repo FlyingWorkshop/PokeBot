@@ -30,12 +30,12 @@ class Delphox(nn.Module):
         moves = []
 
         for t1_pokemon in team1.values():
-            pokemon.append(self.emb._embed_pokemon(t1_pokemon))
-            moves.append(self.emb._embed_moves_from_pokemon(t1_pokemon))
+            pokemon.append(self.emb._embed_pokemon(t1_pokemon).to(device=device))
+            moves.append(self.emb._embed_moves_from_pokemon(t1_pokemon).to(device=device))
         
         for t2_pokemon in team2.values():
-            pokemon.append(self.emb._embed_pokemon(t2_pokemon))
-            moves.append(self.emb._embed_moves_from_pokemon(t2_pokemon))
+            pokemon.append(self.emb._embed_pokemon(t2_pokemon).to(device=device))
+            moves.append(self.emb._embed_moves_from_pokemon(t2_pokemon).to(device=device))
 
         num_unknown_pokemon = 2 * NUM_POKEMON_PER_TEAM - len(team1) - len(team2)
         # TODO: edit probs
@@ -52,18 +52,19 @@ class Delphox(nn.Module):
 
 
 def train(data): # data is a dict of list of battles and tensors
-    delphox = Delphox(LSTM_INPUT_SIZE, LSTM_OUTPUT_SIZE)
+    delphox = Delphox(LSTM_INPUT_SIZE, LSTM_OUTPUT_SIZE).to(device=device)
 
     optimizer = torch.optim.Adam(delphox.parameters(), lr=0.001)
 
     for battle, tensors in data.items():
 
         loss = 0
-        hidden = (torch.randn(2, LSTM_OUTPUT_SIZE) , torch.randn(2, LSTM_OUTPUT_SIZE))
+        hidden = (torch.randn(2, LSTM_OUTPUT_SIZE).to(device=device) , torch.randn(2, LSTM_OUTPUT_SIZE).to(device=device))
         team1_history, team2_history = delphox.emb.get_team_histories(battle)
 
         for idx, ((team1, team2), tensor) in enumerate(zip(zip(team1_history, team2_history), tensors)):
-
+            
+            tensor = tensor.to(device=device)
             my_active, opponent_active = battle[idx].active_pokemon, battle[idx].opponent_active_pokemon
 
             my_moves = POKEDEX[my_active.species]['moves']
@@ -77,13 +78,13 @@ def train(data): # data is a dict of list of battles and tensors
                 non_zeros.append((TOTAL_POSSIBLE_MOVES + 1) + MoveEnum[re.sub(r"\s|-|'", "", m.lower())].value - 1)
             
             #print(non_zeros)
-            non_zeros = torch.tensor(non_zeros, dtype = torch.int64)
+            non_zeros = torch.tensor(non_zeros, dtype = torch.int64).to(device=device)
             
             output, hidden = delphox(team1, team2, hidden)
 
             output = output.squeeze(0)
             
-            mask = torch.zeros_like(output)
+            mask = torch.zeros_like(output).to(device=device)
             mask.scatter_(0, non_zeros, 1)
 
             output = torch.mul(output, mask)
