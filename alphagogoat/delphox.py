@@ -1,15 +1,12 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from poke_env.environment.battle import Battle
 from poke_env.environment.pokemon import Pokemon
-import embedder
-from torch.nn.init import xavier_uniform_
-from pokedex import *
-from catalogs import *
-#import data_labeler
-from small_dataset import *
-from constants import *
+from tqdm.auto import tqdm
+
+from .embedder import Embedder, get_team_histories
+# import data_labeler
+from .constants import *
 
 
 class Delphox(nn.Module):
@@ -17,7 +14,7 @@ class Delphox(nn.Module):
         # TODO: make Delphox a RNN or LSTM; perhaps use meta-learning
         super().__init__()
 
-        self.emb = embedder.Embedder()
+        self.emb = Embedder()
 
         self.rnn = nn.LSTM(input_size, output_size, NUM_HIDDEN_LAYERS)
 
@@ -51,53 +48,43 @@ class Delphox(nn.Module):
         return x, hidden
 
 
-def train(data): # data is a dict of list of battles and tensors
-    delphox = Delphox(LSTM_INPUT_SIZE, LSTM_OUTPUT_SIZE).to(device=device)
-
+def train(delphox: Delphox, data, reps=10): # data is a dict of list of battles and tensors
     optimizer = torch.optim.Adam(delphox.parameters(), lr=0.001)
 
-    for battle, tensors in data.items():
+    for _ in range(reps):
+        for battle, h1, h2, tensors_grid in tqdm(data):
+            loss = 0
+            hidden = (torch.randn(2, LSTM_OUTPUT_SIZE).to(device=device) , torch.randn(2, LSTM_OUTPUT_SIZE).to(device=device))
+            for turn, team1, team2, tensor in zip(battle, h1, h2, tensors_grid):
+                tensor = tensor.to(device=device)
+                my_active, opponent_active = turn.active_pokemon, turn.opponent_active_pokemon
 
-        loss = 0
-        hidden = (torch.randn(2, LSTM_OUTPUT_SIZE).to(device=device) , torch.randn(2, LSTM_OUTPUT_SIZE).to(device=device))
-        team1_history, team2_history = delphox.emb.get_team_histories(battle)
+                my_moves = {} if my_active.species == 'typenull' else POKEDEX[my_active.species]['moves']
+                opponent_moves = {} if opponent_active.species == 'typenull' else POKEDEX[opponent_active.species]['moves']
 
-        for idx, ((team1, team2), tensor) in enumerate(zip(zip(team1_history, team2_history), tensors)):
-            
-            tensor = tensor.to(device=device)
-            my_active, opponent_active = battle[idx].active_pokemon, battle[idx].opponent_active_pokemon
+                non_zeros = []
+                for m in my_moves:
+                    non_zeros.append(MoveEnum[re.sub(r"\s|-|'", "", m.lower())].value - 1)
 
-            my_moves = POKEDEX[my_active.species]['moves']
-            opponent_moves = POKEDEX[opponent_active.species]['moves']
+                for m in opponent_moves:
+                    non_zeros.append((TOTAL_POSSIBLE_MOVES + 1) + MoveEnum[re.sub(r"\s|-|'", "", m.lower())].value - 1)
 
-            non_zeros = []
-            for m in my_moves:
-                non_zeros.append(MoveEnum[re.sub(r"\s|-|'", "", m.lower())].value - 1)
-            
-            for m in opponent_moves:
-                non_zeros.append((TOTAL_POSSIBLE_MOVES + 1) + MoveEnum[re.sub(r"\s|-|'", "", m.lower())].value - 1)
-            
-            #print(non_zeros)
-            non_zeros = torch.tensor(non_zeros, dtype = torch.int64).to(device=device)
-            
-            output, hidden = delphox(team1, team2, hidden)
+                non_zeros = torch.tensor(non_zeros, dtype = torch.int64).to(device=device)
+                output, hidden = delphox(team1, team2, hidden)
+                output = output.squeeze(0)
+                mask = torch.zeros_like(output).to(device=device)
+                mask.scatter_(0, non_zeros, 1)
+                output = torch.mul(output, mask)
+                output = delphox.softmax(output)
+                loss += delphox.loss(output, tensor)
 
-            output = output.squeeze(0)
-            
-            mask = torch.zeros_like(output).to(device=device)
-            mask.scatter_(0, non_zeros, 1)
-
-            output = torch.mul(output, mask)
-
-            output = delphox.softmax(output)
-
-            loss += delphox.loss(output, tensor)
-
-        optimizer.zero_grad()
-        loss.backward()
-        print(f"{loss=}")
-        optimizer.step()
+            optimizer.zero_grad()
+            # TODO: fix this hacky solution on example 103/145
+            if isinstance(loss, torch.Tensor):
+                loss.backward()
+            print(f"### {loss=}")
+            optimizer.step()
 
 
-if __name__ == "__main__":
-    train(SMALL_DATASET)
+# if __name__ == "__main__":
+#     train(SMALL_DATASET)

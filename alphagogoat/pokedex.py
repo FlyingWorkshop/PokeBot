@@ -4,14 +4,17 @@ import numpy as np
 from pathlib import Path
 from enum import IntEnum
 
+import re
+
 def _make_pokedex():
     pokedex = {}
-    for filepath in tqdm(list(Path("/Users/adamzhao/Desktop/PokeBot/cache/teams").iterdir())):
+    folder = Path(__file__).parent.parent / "cache" / "teams"
+    for filepath in tqdm(list(folder.iterdir())):
         with open(filepath, 'r') as f:
             data = json.load(f)
         for key, value in data.items():
             if key not in pokedex:
-                key = key.lower().replace("-", "")
+                key = re.sub(r"[-’\s\.]", "", key.lower())
                 pokedex[key] = {k: [] for k in value.keys()}
             for k, v in value.items():
                 pokedex[key][k].append(v)
@@ -38,8 +41,31 @@ def _make_pokedex():
         if 'ivs' in data:
             del pokedex[species]['ivs']
 
+    mons = list(pokedex.keys())
+    for species in mons:
+        if 'gmax' in species:
+            pokedex[species[:-4]] = pokedex[species]
+            del pokedex[species]
+
     pokedex['zygarde10'] = pokedex['zygarde10%']
     del pokedex['zygarde10%']
+
+    pokedex['gastrodoneast'] = pokedex['gastrodon']
+    pokedex['gastrodonwest'] = pokedex['gastrodon']
+
+    pokedex['pikachualola'] = pokedex['pikachu']
+    pokedex['pikachuoriginal'] = pokedex['pikachu']
+    pokedex['pikachuhoenn'] = pokedex['pikachu']
+    pokedex['pikachusinnoh'] = pokedex['pikachu']
+    pokedex['pikachuunova'] = pokedex['pikachu']
+    pokedex['pikachukalos'] = pokedex['pikachu']
+    pokedex['pikachupartner'] = pokedex['pikachu']
+
+
+    pokedex['zygardecomplete'] = pokedex['zygarde']
+
+    # TODO: handle wishi washi base stat changes and zygarde state changes
+    pokedex['wishiwashi'] = pokedex['wishiwashischool']
 
     return pokedex
 

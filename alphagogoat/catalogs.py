@@ -1,4 +1,4 @@
-from pokedex import POKEDEX
+from .pokedex import POKEDEX
 from enum import IntEnum
 from poke_env.environment.move import Move
 from poke_env.environment.side_condition import SideCondition
@@ -31,6 +31,8 @@ def _make_volatile_status_enum():
             continue
         volatile_status_catalog.add(move.volatile_status)
     volatile_status_catalog.add('flinch')
+    volatile_status_catalog.add('confusion')
+    volatile_status_catalog.add('sparklingaria')
     VolatileStatus = IntEnum("VolatileStatus", list(sorted(volatile_status_catalog)))
     return VolatileStatus
 
@@ -53,6 +55,7 @@ def _make_move_enum():
     
     move_enum.add('struggle')
     move_enum.add('spiritshackle')
+    move_enum.add('spiritbreak')
     MoveEnum = IntEnum("MoveEnum", list(sorted(move_enum)))
     return MoveEnum
 

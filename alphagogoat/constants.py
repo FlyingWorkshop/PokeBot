@@ -1,4 +1,4 @@
-from catalogs import *
+from .catalogs import *
 import torch
 
 MAX_NUM_POSSIBLE_MOVES = 8

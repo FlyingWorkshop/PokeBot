@@ -12,8 +12,8 @@ from poke_env.environment.move import Move, DynamaxMove
 import torch
 
 
-from pokedex import POKEDEX
-from catalogs import Item, VolatileStatus, SIDE_COND_MAP, Ability
+from .pokedex import POKEDEX
+from .catalogs import Item, VolatileStatus, SIDE_COND_MAP, Ability
 
 
 LOGGER = logging.getLogger('poke-env')
@@ -178,6 +178,9 @@ class Embedder:
         >>> embedder._embed_moves_from_pokemon(Pokemon(gen=8, species="Landorus-Therian")).shape
         torch.Size([8, 52])
         """
+        if pokemon.species == 'typenull':
+            return torch.zeros((8, 52))
+
         # make move embeddings
         embeddings = []
         moves = POKEDEX[pokemon.species]['moves']
@@ -207,6 +210,9 @@ class Embedder:
         >>> embedder._embed_pokemon(Pokemon(gen=8, species="accelgor")).shape
         torch.Size([192])
         """
+        if pokemon.species == 'typenull':
+            return torch.zeros(192)
+
         # abilities
         abilities = []
         for ability, prob in POKEDEX[pokemon.species]['abilities'].items():
@@ -242,23 +248,26 @@ class Embedder:
         embedding = torch.Tensor(abilities + items + stats + effects + [status, status_counter, type1, type2])
         return embedding
 
-    @staticmethod
-    def get_team_histories(battles: list[Battle]):
-        """
-        >>> embedder = Embedder()
-        >>> battles = process_battle("../cache/replays/gen8randombattle-1123651831.json")
-        >>> embedder.get_team_histories(battles)
-
-        """
-        team1_history, team2_history = [], []
-        team1, team2 = {}, {}
-        for battle in battles:
-            active = battle.active_pokemon
-            opponent_active = battle.opponent_active_pokemon
-            team1[active.species] = active
-            team2[opponent_active.species] = opponent_active
+def get_team_histories(battles: list[Battle]):
+    """
+    >>> battles = process_battle("../cache/replays/gen8randombattle-1123651831.json")
+    >>> get_team_histories(battles)
+    """
+    team1_history, team2_history = [], []
+    team1, team2 = {}, {}
+    for battle in battles:
+        active = battle.active_pokemon
+        opponent_active = battle.opponent_active_pokemon
+        team1[active.species] = active
+        team2[opponent_active.species] = opponent_active
+        if active.species not in team1:
             team1_history.append(copy.deepcopy(team1))
+        else:
+            team1_history.append(team1)
+        if opponent_active.species not in team2:
             team2_history.append(copy.deepcopy(team2))
-        return team1_history, team2_history
+        else:
+            team2_history.append(team2)
+    return team1_history, team2_history
 
 
