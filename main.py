@@ -23,8 +23,8 @@ def process_input_log(log):
     >>> log = Path("cache/replays/gen8randombattle-1123651831.log").read_text()
     >>> process_input_log(log)
     """
-    # input_log = log['inputlog']
-    input_log = log.split('\n')
+    input_log = log['inputlog']
+    input_log = input_log.split('\n')
     start = 0
     for line in input_log:
         if line.startswith('>p1'):
@@ -32,7 +32,8 @@ def process_input_log(log):
         start += 1
 
     input_log = input_log[start:]
-    out = []
+    out1 = []
+    out2 = []
 
     for i in range(len(input_log) - 1):
         curr_line = input_log[i]
@@ -53,11 +54,12 @@ def process_input_log(log):
             elif next_line[1] == 'switch':
                 out_them[-1] = 1
             i += 1
-            out.append(torch.cat((out_me, out_them)))
+            out1.append(out_me)
+            out2.append(out_them)
         else:
             continue
 
-    return out
+    return out1, out2
 
 def make_data(filepath):
     with open(filepath) as f:
@@ -80,8 +82,8 @@ def make_data(filepath):
 
 def main():
     json_files = [filepath for filepath in Path("cache/replays").iterdir() if filepath.name.endswith('.json')]
-    dataset = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(json_files))
-    delphox = Delphox(LSTM_INPUT_SIZE, LSTM_OUTPUT_SIZE).to(device=device)
+    dataset = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(json_files[:3]))
+    delphox = Delphox(LSTM_INPUT_SIZE).to(device=device)
     train(delphox, dataset)
 
 

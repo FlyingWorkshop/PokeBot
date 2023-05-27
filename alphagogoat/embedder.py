@@ -247,7 +247,7 @@ class Embedder:
         """
         >>> embedder = Embedder()
         >>> battles = process_battle("../cache/replays/gen8randombattle-1123651831.json")
-        >>> embedder.embed_pokemon(battles[0].active_pokemon)
+        >>> embedder.embed_pokemon(battles[0].active_pokemon).shape
 
         """
         # TODO: feature reduction
@@ -324,26 +324,3 @@ def get_team_histories(battles: list[Battle]):
             team2_history.append(team2)
     return team1_history, team2_history
 
-
-def get_turn_histories(battles: list[Battle]):
-    """
-    >>> battles = process_battle("../cache/replays/gen8randombattle-1123651831.json")
-    >>> get_turn_histories(battles)
-    """
-    # TODO:
-    # team1_history, team2_history = [], []
-    # team1, team2 = {}, {}
-    # for battle in battles:
-    #     active = battle.active_pokemon
-    #     opponent_active = battle.opponent_active_pokemon
-    #     team1[active.species] = active
-    #     team2[opponent_active.species] = opponent_active
-    #     if active.species not in team1:
-    #         team1_history.append(copy.deepcopy(team1))
-    #     else:
-    #         team1_history.append(team1)
-    #     if opponent_active.species not in team2:
-    #         team2_history.append(copy.deepcopy(team2))
-    #     else:
-    #         team2_history.append(team2)
-    # return team1_history, team2_history

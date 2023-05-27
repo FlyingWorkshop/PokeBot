@@ -5,7 +5,9 @@ from poke_env.environment.pokemon import Pokemon
 from poke_env.environment.battle import Battle
 from tqdm.auto import tqdm
 
-from .embedder import Embedder, get_team_histories
+import math
+
+from .embedder import Embedder
 from .constants import *
 
 EMBEDDER = Embedder()
@@ -20,32 +22,14 @@ class Delphox(nn.Module):
         # TODO: maybe add an encoder?
         self.rnn = nn.LSTM(input_size, Delphox.LSTM_OUTPUT_SIZE, hidden_layers)
         self.softmax = nn.Softmax(dim=0)
-        self.loss = nn.CrossEntropyLoss()
+        self.loss = nn.L1Loss()
 
     def forward(self, x, hidden):
+        hidden1 = (torch.randn(2, Delphox.LSTM_OUTPUT_SIZE), torch.randn(2, Delphox.LSTM_OUTPUT_SIZE))
+        hidden2 = (torch.randn(2, Delphox.LSTM_OUTPUT_SIZE), torch.randn(2, Delphox.LSTM_OUTPUT_SIZE))
         move, hidden = self.rnn(x, hidden)
         move = self.softmax(move)
         return move, hidden
-
-    # def forward(self, team1: dict[str: Pokemon], team2: dict[str: Pokemon], hidden: tuple[torch.tensor]):
-    #     pokemon = []
-    #     moves = []
-    #
-    #     for t1_pokemon in team1.values():
-    #         pokemon.append(self.emb.embed_pokemon(t1_pokemon).to(device=device))
-    #         moves.append(self.emb.embed_moves_from_pokemon(t1_pokemon).to(device=device))
-    #
-    #     for t2_pokemon in team2.values():
-    #         pokemon.append(self.emb.embed_pokemon(t2_pokemon).to(device=device))
-    #         moves.append(self.emb.embed_moves_from_pokemon(t2_pokemon).to(device=device))
-    #
-    #     num_unknown_pokemon = 2 * NUM_POKEMON_PER_TEAM - len(team1) - len(team2)
-    #     pokemon = F.pad(torch.hstack(pokemon), (0, num_unknown_pokemon * POKEMON_EMBED_SIZE), mode='constant', value=-1)
-    #     moves = F.pad(torch.stack(moves), (0, 0, 0, 0, 0, num_unknown_pokemon))
-    #     x = torch.cat((pokemon, moves.flatten())).unsqueeze(0)
-    #     x, hidden = self.rnn(x, hidden)
-    #     x = self.softmax(x)
-    #     return x, hidden
 
 def make_x(turn: Battle, team1: dict[str: Pokemon], team2: dict[str: Pokemon]):
     pokemon = []
@@ -62,6 +46,7 @@ def make_x(turn: Battle, team1: dict[str: Pokemon], team2: dict[str: Pokemon]):
     num_unknown_pokemon = 2 * NUM_POKEMON_PER_TEAM - len(team1) - len(team2)
     pokemon = F.pad(torch.hstack(pokemon), (0, num_unknown_pokemon * POKEMON_EMBED_SIZE), mode='constant', value=-1)
     moves = F.pad(torch.stack(moves), (0, 0, 0, 0, 0, num_unknown_pokemon))
+    # TODO: add prob modification and pp updates
     x = torch.cat((pokemon, moves.flatten())).unsqueeze(0)
     return x
 
@@ -69,25 +54,37 @@ def make_x(turn: Battle, team1: dict[str: Pokemon], team2: dict[str: Pokemon]):
 def train(delphox: Delphox, data, lr=0.001, discount=0.5):
     assert 0 <= discount <= 1
     optimizer = torch.optim.Adam(delphox.parameters(), lr=lr)
+    torch.autograd.set_detect_anomaly(True)
     for turns, history1, history2, moves1, moves2 in data:
-        # TODO: punish bad predictions on early turns less
+
         # TODO: have representations of the future
-        for i, (turn, team1, team2, move1, move2) in tqdm(enumerate(zip(turns, history1, history2, moves1, moves2)), total=len(turns)):
-            gamma = 1 - discount / torch.exp(i)
+
+        hidden2 = (torch.randn(2, Delphox.LSTM_OUTPUT_SIZE), torch.randn(2, Delphox.LSTM_OUTPUT_SIZE))
+
+        loss = 0
+
+        for i, (turn, team1, team2, move1, move2) in tqdm(enumerate(zip(turns, history1, history2, moves1, moves2)), total=len(turns), position=0):
+            hidden1 = (torch.randn(2, Delphox.LSTM_OUTPUT_SIZE), torch.randn(2, Delphox.LSTM_OUTPUT_SIZE))
+            gamma = 1 - discount / math.exp(i)
             x1 = make_x(turn, team1, team2)
-            move1_pred = delphox(x1)
-
+            move1_pred, hidden1 = delphox(x1, hidden1)
+            move1_pred = move1_pred.squeeze(0)
             optimizer.zero_grad()
-            loss = gamma * delphox.loss(move1_pred, move1)
-            loss.backward()
+            L = gamma * delphox.loss(move1_pred, move1)
+            #loss += L
+            print(f"{L=}")
+            L.backward() #retain_graph=True
             optimizer.step()
-
-            x2 = make_x(turn, team2, team1)
-            move2_pred = delphox(x2)
-            optimizer.zero_grad()
-            loss = gamma * delphox.loss(move2_pred, move1)
-            loss.backward()
-            optimizer.step()
+            #
+            # x2 = make_x(turn, team2, team1)
+            # move2_pred, hidden2 = delphox(x2, hidden2)
+            #
+            # move2_pred = move2_pred.squeeze(0)
+            #
+            # optimizer.zero_grad()
+            # loss = gamma * delphox.loss(move2_pred, move1)
+            # loss.backward()
+            # optimizer.step()
 
 
     # for _ in range(reps):
