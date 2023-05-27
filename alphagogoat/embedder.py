@@ -11,10 +11,10 @@ from poke_env.environment.effect import Effect
 from poke_env.environment.move import Move
 import torch
 
-# from .pokedex import POKEDEX
-# from .catalogs import Item, VolatileStatus, SIDE_COND_MAP, Ability
-from pokedex import POKEDEX
-from catalogs import Item, VolatileStatus, SIDE_COND_MAP, Ability, MoveEnum
+from .pokedex import POKEDEX
+from .catalogs import Item, VolatileStatus, SIDE_COND_MAP, Ability
+# from pokedex import POKEDEX
+# from catalogs import Item, VolatileStatus, SIDE_COND_MAP, Ability, MoveEnum
 
 
 MAX_MOVES = 8

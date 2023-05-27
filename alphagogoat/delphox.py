@@ -2,11 +2,13 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from poke_env.environment.pokemon import Pokemon
+from poke_env.environment.battle import Battle
 from tqdm.auto import tqdm
 
 from .embedder import Embedder, get_team_histories
-# import data_labeler
 from .constants import *
+
+EMBEDDER = Embedder()
 
 class Delphox(nn.Module):
     LSTM_OUTPUT_SIZE = len(MoveEnum) + 1
@@ -15,34 +17,14 @@ class Delphox(nn.Module):
         # TODO: make Delphox a RNN or LSTM; perhaps use meta-learning
         super().__init__()
 
-        self.emb = Embedder()
         # TODO: maybe add an encoder?
         self.rnn = nn.LSTM(input_size, Delphox.LSTM_OUTPUT_SIZE, hidden_layers)
         self.softmax = nn.Softmax(dim=0)
         self.loss = nn.CrossEntropyLoss()
 
-    def forward(self, team1, team2, hidden):
-        pokemon = []
-        moves = []
-
-        for t1_pokemon in team1.values():
-            pokemon.append(self.emb.embed_pokemon(t1_pokemon).to(device=device))
-            moves.append(self.emb.embed_moves_from_pokemon(t1_pokemon).to(device=device))
-
-        for t2_pokemon in team2.values():
-            pokemon.append(self.emb.embed_pokemon(t2_pokemon).to(device=device))
-            moves.append(self.emb.embed_moves_from_pokemon(t2_pokemon).to(device=device))
-
-        num_unknown_pokemon = 2 * NUM_POKEMON_PER_TEAM - len(team1) - len(team2)
-
-        pokemon = F.pad(torch.hstack(pokemon), (0, num_unknown_pokemon * POKEMON_EMBED_SIZE), mode='constant', value=-1)
-        moves = F.pad(torch.stack(moves), (0, 0, 0, 0, 0, num_unknown_pokemon))
-        # TODO: update probabilities
-
-        x = torch.cat((pokemon, moves.flatten())).unsqueeze(0)
+    def forward(self, x, hidden):
         move, hidden = self.rnn(x, hidden)
         move = self.softmax(move)
-
         return move, hidden
 
     # def forward(self, team1: dict[str: Pokemon], team2: dict[str: Pokemon], hidden: tuple[torch.tensor]):
@@ -65,14 +47,48 @@ class Delphox(nn.Module):
     #     x = self.softmax(x)
     #     return x, hidden
 
+def make_x(turn: Battle, team1: dict[str: Pokemon], team2: dict[str: Pokemon]):
+    pokemon = []
+    moves = []
 
-def train(delphox: Delphox, data, lr=0.001):
+    for t1_pokemon in team1.values():
+        pokemon.append(EMBEDDER.embed_pokemon(t1_pokemon).to(device=device))
+        moves.append(EMBEDDER.embed_moves_from_pokemon(t1_pokemon).to(device=device))
+
+    for t2_pokemon in team2.values():
+        pokemon.append(EMBEDDER.embed_pokemon(t2_pokemon).to(device=device))
+        moves.append(EMBEDDER.embed_moves_from_pokemon(t2_pokemon).to(device=device))
+
+    num_unknown_pokemon = 2 * NUM_POKEMON_PER_TEAM - len(team1) - len(team2)
+    pokemon = F.pad(torch.hstack(pokemon), (0, num_unknown_pokemon * POKEMON_EMBED_SIZE), mode='constant', value=-1)
+    moves = F.pad(torch.stack(moves), (0, 0, 0, 0, 0, num_unknown_pokemon))
+    x = torch.cat((pokemon, moves.flatten())).unsqueeze(0)
+    return x
+
+
+def train(delphox: Delphox, data, lr=0.001, discount=0.5):
+    assert 0 <= discount <= 1
     optimizer = torch.optim.Adam(delphox.parameters(), lr=lr)
-    for turns, history1, history2, labels1, labels2 in data:
-        hidden1 = (torch.randn(2, Delphox.LSTM_OUTPUT_SIZE).to(device=device), torch.randn(2, Delphox.LSTM_OUTPUT_SIZE).to(device=device))
-        hidden2 = (torch.randn(2, Delphox.LSTM_OUTPUT_SIZE).to(device=device), torch.randn(2, Delphox.LSTM_OUTPUT_SIZE).to(device=device))
-        for turn, team1, team2, y1, y2 in zip(turns, history1, history2, labels1, labels2):
-            de
+    for turns, history1, history2, moves1, moves2 in data:
+        # TODO: punish bad predictions on early turns less
+        # TODO: have representations of the future
+        for i, (turn, team1, team2, move1, move2) in tqdm(enumerate(zip(turns, history1, history2, moves1, moves2)), total=len(turns)):
+            gamma = 1 - discount / torch.exp(i)
+            x1 = make_x(turn, team1, team2)
+            move1_pred = delphox(x1)
+
+            optimizer.zero_grad()
+            loss = gamma * delphox.loss(move1_pred, move1)
+            loss.backward()
+            optimizer.step()
+
+            x2 = make_x(turn, team2, team1)
+            move2_pred = delphox(x2)
+            optimizer.zero_grad()
+            loss = gamma * delphox.loss(move2_pred, move1)
+            loss.backward()
+            optimizer.step()
+
 
     # for _ in range(reps):
     #     for battle, h1, h2, tensors_grid in tqdm(data):
@@ -106,7 +122,7 @@ def train(delphox: Delphox, data, lr=0.001):
     #             non_zeros = torch.tensor(non_zeros, dtype=torch.int64).to(device=device)
     #
     #             for x in [a, b]:
-    #             output, hidden = delphox(x, hidden)
+    #             e
     #             output = output.squeeze(0)
     #             mask = torch.zeros_like(output).to(device=device)
     #             mask.scatter_(0, non_zeros, 1)
