@@ -18,7 +18,8 @@ def process_input_log(log):
         start += 1
     
     input_log = input_log[start:]
-    out = []
+    out1 = []
+    out2 = []
 
     for i in range(len(input_log) - 1):
         curr_line = input_log[i]
@@ -40,11 +41,14 @@ def process_input_log(log):
                 out_them[-1] = 1
 
             i += 1
-            out.append(torch.cat((out_me, out_them)))
+
+            out1.append(out_me)
+            out2.append(out_them)
+            
         else:
             continue
 
-    return out
+    return out1, out2
 
 def create_labeled_data():
     """
