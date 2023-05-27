@@ -2,7 +2,6 @@ from tqdm import tqdm
 import json
 import numpy as np
 from pathlib import Path
-from enum import IntEnum
 
 import re
 
