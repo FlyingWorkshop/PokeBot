@@ -1,0 +1,381 @@
+|j|☆piaa
+|j|☆BoboMania
+|t:|1685160661
+|gametype|singles
+|player|p1|piaa|#rbtt6teamchienpaof|
+|player|p2|BoboMania|twins-gen4dp|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685160661
+|start
+|switch|p1a: Raikou|Raikou, L80|275/275
+|switch|p2a: Gourgeist|Gourgeist-Small, L84, F|230/230
+|-ability|p1a: Raikou|Pressure
+|-item|p1a: Raikou|Leftovers|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|1
+|
+|t:|1685160700
+|switch|p1a: Whimsicott|Whimsicott, L84, M|238/238
+|move|p2a: Gourgeist|Power Whip|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|184/238
+|
+|-heal|p1a: Whimsicott|198/238|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685160706
+|move|p1a: Whimsicott|Moonblast|p2a: Gourgeist
+|-damage|p2a: Gourgeist|130/230
+|move|p2a: Gourgeist|Poltergeist|p1a: Whimsicott
+|-activate|p1a: Whimsicott|move: Poltergeist|Leftovers
+|-damage|p1a: Whimsicott|92/238
+|
+|-heal|p1a: Whimsicott|106/238|[from] item: Leftovers
+|-heal|p2a: Gourgeist|144/230|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685160712
+|move|p1a: Whimsicott|U-turn|p2a: Gourgeist
+|-damage|p2a: Gourgeist|116/230
+|
+|t:|1685160714
+|switch|p1a: Incineroar|Incineroar, L80, M|283/283|[from] U-turn
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Gourgeist|atk|1
+|move|p2a: Gourgeist|Poltergeist|p1a: Incineroar
+|-activate|p1a: Incineroar|move: Poltergeist|Heavy-Duty Boots
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|248/283
+|
+|-heal|p2a: Gourgeist|130/230|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685160719
+|switch|p2a: Araquanid|Araquanid, L80, M|240/240
+|move|p1a: Incineroar|Knock Off|p2a: Araquanid
+|-damage|p2a: Araquanid|138/240
+|-enditem|p2a: Araquanid|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|turn|5
+|
+|t:|1685160731
+|move|p1a: Incineroar|Parting Shot|p2a: Araquanid
+|-unboost|p2a: Araquanid|atk|1
+|-unboost|p2a: Araquanid|spa|1
+|
+|t:|1685160733
+|switch|p1a: Buzzwole|Buzzwole, L77|291/291|[from] Parting Shot
+|move|p2a: Araquanid|Liquidation|p1a: Buzzwole
+|-damage|p1a: Buzzwole|227/291
+|
+|upkeep
+|turn|6
+|
+|t:|1685160741
+|switch|p2a: Gourgeist|Gourgeist-Small, L84, F|130/230
+|-item|p1a: Buzzwole|Choice Band|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Buzzwole|Leech Life|p2a: Gourgeist
+|-damage|p2a: Gourgeist|22/230
+|-heal|p1a: Buzzwole|281/291|[from] drain|[of] p2a: Gourgeist
+|
+|-heal|p2a: Gourgeist|36/230|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685160747
+|switch|p2a: Dialga|Dialga, L74|270/270
+|-ability|p2a: Dialga|Pressure
+|move|p1a: Buzzwole|Leech Life|p2a: Dialga
+|-resisted|p2a: Dialga
+|-damage|p2a: Dialga|211/270
+|-heal|p1a: Buzzwole|291/291|[from] drain|[of] p2a: Dialga
+|
+|-heal|p2a: Dialga|227/270|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685160763
+|-start|p1a: Buzzwole|Dynamax|
+|-heal|p1a: Buzzwole|582/582|[silent]
+|move|p2a: Dialga|Toxic|p1a: Buzzwole
+|-status|p1a: Buzzwole|tox
+|move|p1a: Buzzwole|Max Knuckle|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-damage|p2a: Dialga|41/270
+|-boost|p1a: Buzzwole|atk|1
+|
+|-heal|p2a: Dialga|57/270|[from] item: Leftovers
+|-damage|p1a: Buzzwole|564/582 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1685160771
+|move|p2a: Dialga|Draco Meteor|p1a: Buzzwole
+|-damage|p1a: Buzzwole|335/582 tox
+|-unboost|p2a: Dialga|spa|2
+|move|p1a: Buzzwole|Max Airstream|p2a: Dialga
+|-resisted|p2a: Dialga
+|-damage|p2a: Dialga|0 fnt
+|-boost|p1a: Buzzwole|spe|1
+|faint|p2a: Dialga
+|-ability|p1a: Buzzwole|Beast Boost|boost
+|-boost|p1a: Buzzwole|atk|1
+|
+|-damage|p1a: Buzzwole|299/582 tox|[from] psn
+|upkeep
+|
+|t:|1685160789
+|switch|p2a: Shuckle|Shuckle, L87, F|177/177
+|turn|10
+|
+|t:|1685160799
+|move|p1a: Buzzwole|Max Flutterby|p2a: Shuckle
+|-damage|p2a: Shuckle|33/177
+|-unboost|p2a: Shuckle|spa|1
+|move|p2a: Shuckle|Sticky Web|p1a: Buzzwole
+|-sidestart|p1: piaa|move: Sticky Web
+|
+|-damage|p1a: Buzzwole|245/582 tox|[from] psn
+|upkeep
+|-end|p1a: Buzzwole|Dynamax
+|-heal|p1a: Buzzwole|123/291 tox|[silent]
+|turn|11
+|
+|t:|1685160808
+|move|p1a: Buzzwole|Leech Life|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|-heal|p1a: Buzzwole|140/291 tox|[from] drain|[of] p2a: Shuckle
+|faint|p2a: Shuckle
+|-ability|p1a: Buzzwole|Beast Boost|boost
+|-boost|p1a: Buzzwole|atk|1
+|
+|-damage|p1a: Buzzwole|68/291 tox|[from] psn
+|upkeep
+|
+|t:|1685160814
+|switch|p2a: Gourgeist|Gourgeist-Small, L84, F|36/230
+|-item|p1a: Buzzwole|Choice Band|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|12
+|
+|t:|1685160816
+|move|p1a: Buzzwole|Leech Life|p2a: Gourgeist
+|-damage|p2a: Gourgeist|0 fnt
+|-heal|p1a: Buzzwole|86/291 tox|[from] drain|[of] p2a: Gourgeist
+|faint|p2a: Gourgeist
+|-ability|p1a: Buzzwole|Beast Boost|boost
+|-boost|p1a: Buzzwole|atk|1
+|
+|-damage|p1a: Buzzwole|0 fnt|[from] psn
+|faint|p1a: Buzzwole
+|upkeep
+|
+|t:|1685160825
+|switch|p2a: Venusaur|Venusaur, L82, M|265/265
+|switch|p1a: Whimsicott|Whimsicott, L84, M|106/238
+|-activate|p1a: Whimsicott|move: Sticky Web
+|-unboost|p1a: Whimsicott|spe|1
+|turn|13
+|
+|t:|1685160830
+|move|p2a: Venusaur|Substitute|p2a: Venusaur
+|-start|p2a: Venusaur|Substitute
+|-damage|p2a: Venusaur|199/265
+|move|p1a: Whimsicott|U-turn|p2a: Venusaur
+|-activate|p2a: Venusaur|move: Substitute|[damage]
+|
+|t:|1685160835
+|switch|p1a: Incineroar|Incineroar, L80, M|248/283|[from] U-turn
+|-ability|p1a: Incineroar|Intimidate|boost
+|-immune|p2a: Venusaur
+|
+|-heal|p2a: Venusaur|215/265|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|t:|1685160838
+|move|p2a: Venusaur|Sleep Powder|p1a: Incineroar
+|-status|p1a: Incineroar|slp|[from] move: Sleep Powder
+|cant|p1a: Incineroar|slp
+|
+|-heal|p2a: Venusaur|231/265|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|t:|1685160846
+|move|p2a: Venusaur|Leech Seed|p1a: Incineroar
+|-start|p1a: Incineroar|move: Leech Seed
+|cant|p1a: Incineroar|slp
+|
+|-heal|p2a: Venusaur|247/265|[from] item: Black Sludge
+|-damage|p1a: Incineroar|213/283 slp|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|265/265|[silent]
+|upkeep
+|turn|16
+|c|☆BoboMania|earth power instead of hydro pump means dragalge is about 50% since it doesnt have to eat two ice beams so hydrei would have to draco meaning rhydon can take more hits
+|c|☆BoboMania|but i dont think its enough to deal with articuno
+|
+|t:|1685160878
+|move|p2a: Venusaur|Sludge Bomb|p1a: Incineroar
+|-damage|p1a: Incineroar|126/283 slp
+|cant|p1a: Incineroar|slp
+|
+|-damage|p1a: Incineroar|91/283 slp|[from] Leech Seed|[of] p2a: Venusaur
+|upkeep
+|turn|17
+|c|☆piaa|depends if you hit your moves
+|
+|t:|1685160905
+|move|p2a: Venusaur|Sludge Bomb|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|upkeep
+|c|☆BoboMania|that too
+|
+|t:|1685160930
+|switch|p1a: Cradily|Cradily, L86, M|288/288
+|-activate|p1a: Cradily|move: Sticky Web
+|-unboost|p1a: Cradily|spe|1
+|turn|18
+|c|☆piaa|man
+|
+|t:|1685160941
+|move|p2a: Venusaur|Sludge Bomb|p1a: Cradily
+|-crit|p1a: Cradily
+|-damage|p1a: Cradily|170/288
+|move|p1a: Cradily|Swords Dance|p1a: Cradily
+|-boost|p1a: Cradily|atk|2
+|
+|-heal|p1a: Cradily|188/288|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1685160945
+|move|p2a: Venusaur|Sludge Bomb|p1a: Cradily
+|-damage|p1a: Cradily|112/288
+|move|p1a: Cradily|Recover|p1a: Cradily
+|-heal|p1a: Cradily|256/288
+|
+|-heal|p1a: Cradily|274/288|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1685160952
+|move|p2a: Venusaur|Sludge Bomb|p1a: Cradily
+|-damage|p1a: Cradily|195/288
+|move|p1a: Cradily|Stone Edge|p2a: Venusaur
+|-end|p2a: Venusaur|Substitute
+|
+|-heal|p1a: Cradily|213/288|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1685160956
+|move|p2a: Venusaur|Sludge Bomb|p1a: Cradily
+|-damage|p1a: Cradily|140/288
+|move|p1a: Cradily|Stone Edge|p2a: Venusaur
+|-damage|p2a: Venusaur|70/265
+|
+|-heal|p2a: Venusaur|86/265|[from] item: Black Sludge
+|-heal|p1a: Cradily|158/288|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1685160970
+|move|p2a: Venusaur|Sludge Bomb|p1a: Cradily
+|-damage|p1a: Cradily|76/288
+|-status|p1a: Cradily|psn
+|move|p1a: Cradily|Stone Edge|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|-heal|p1a: Cradily|94/288 psn|[from] item: Leftovers
+|-damage|p1a: Cradily|58/288 psn|[from] psn
+|upkeep
+|
+|t:|1685160974
+|switch|p2a: Araquanid|Araquanid, L80, M|138/240
+|turn|23
+|
+|t:|1685160977
+|move|p2a: Araquanid|Leech Life|p1a: Cradily
+|-supereffective|p1a: Cradily
+|-damage|p1a: Cradily|0 fnt
+|-heal|p2a: Araquanid|167/240|[from] drain|[of] p1a: Cradily
+|faint|p1a: Cradily
+|
+|upkeep
+|
+|t:|1685160981
+|switch|p1a: Raikou|Raikou, L80|275/275
+|-activate|p1a: Raikou|move: Sticky Web
+|-unboost|p1a: Raikou|spe|1
+|-ability|p1a: Raikou|Pressure
+|turn|24
+|
+|t:|1685160987
+|move|p1a: Raikou|Thunderbolt|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|3/240
+|move|p2a: Araquanid|Mirror Coat|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|
+|upkeep
+|
+|t:|1685160992
+|switch|p1a: Whimsicott|Whimsicott, L84, M|106/238
+|-activate|p1a: Whimsicott|move: Sticky Web
+|-unboost|p1a: Whimsicott|spe|1
+|turn|25
+|
+|t:|1685160995
+|move|p1a: Whimsicott|Energy Ball|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|-heal|p1a: Whimsicott|120/238|[from] item: Leftovers
+|upkeep
+|
+|t:|1685160997
+|switch|p2a: Espeon|Espeon, L82, M|241/241
+|turn|26
+|
+|t:|1685161003
+|-start|p2a: Espeon|Dynamax|
+|-heal|p2a: Espeon|482/482|[silent]
+|move|p2a: Espeon|Max Mindstorm|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|-fieldstart|move: Psychic Terrain
+|faint|p1a: Whimsicott
+|-damage|p2a: Espeon|458/482|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685161005
+|switch|p1a: Diggersby|Diggersby, L80, M|267/267
+|-activate|p1a: Diggersby|move: Sticky Web
+|-unboost|p1a: Diggersby|spe|1
+|turn|27
+|c|☆piaa|man
+|c|☆piaa|if i just got parting shot off
+|c|☆piaa|you can't break raikou sub without dynamax on venu
+|c|☆piaa|gg
+|
+|t:|1685161056
+|move|p2a: Espeon|Max Mindstorm|p1a: Diggersby
+|-damage|p1a: Diggersby|0 fnt
+|faint|p1a: Diggersby
+|-damage|p2a: Espeon|434/482|[from] item: Life Orb
+|
+|win|BoboMania

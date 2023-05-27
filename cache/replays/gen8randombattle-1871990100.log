@@ -1,0 +1,278 @@
+|j|☆cashida
+|j|☆S0JA
+|t:|1685157497
+|gametype|singles
+|player|p1|cashida|benga|
+|player|p2|S0JA|unknown|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685157497
+|start
+|switch|p1a: Marowak|Marowak, L86, M|243/243
+|switch|p2a: Rhyperior|Rhyperior, L82, M|323/323
+|turn|1
+|j| Kurtlima
+|
+|t:|1685157531
+|switch|p1a: Rhydon|Rhydon, L87, M|324/324
+|move|p2a: Rhyperior|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|108/324
+|
+|upkeep
+|turn|2
+|
+|t:|1685157543
+|move|p1a: Rhydon|Earthquake|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|152/323
+|move|p2a: Rhyperior|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|upkeep
+|
+|t:|1685157554
+|switch|p1a: Marowak|Marowak, L86, M|243/243
+|turn|3
+|
+|t:|1685157558
+|move|p1a: Marowak|Earthquake|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|upkeep
+|
+|t:|1685157567
+|switch|p2a: Gyarados|Gyarados, L76, F|269/269
+|turn|4
+|
+|t:|1685157591
+|move|p2a: Gyarados|Waterfall|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|109/243
+|move|p1a: Marowak|Stone Edge|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|t:|1685157601
+|switch|p2a: Seaking|Seaking, L88, F|284/284
+|turn|5
+|
+|t:|1685157612
+|move|p2a: Seaking|Swords Dance|p2a: Seaking
+|-boost|p2a: Seaking|atk|2
+|move|p1a: Marowak|Earthquake|p2a: Seaking
+|-damage|p2a: Seaking|50/284
+|
+|upkeep
+|turn|6
+|
+|t:|1685157619
+|move|p2a: Seaking|Waterfall|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|-damage|p2a: Seaking|22/284|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685157625
+|switch|p1a: Regieleki|Regieleki, L78|253/253
+|turn|7
+|
+|t:|1685157635
+|switch|p2a: Raichu|Raichu, L86, M|243/243
+|move|p1a: Regieleki|Volt Switch|p2a: Raichu
+|-ability|p2a: Raichu|Lightning Rod|boost
+|-boost|p2a: Raichu|spa|1
+|
+|upkeep
+|turn|8
+|
+|t:|1685157645
+|move|p1a: Regieleki|Explosion|p2a: Raichu
+|-crit|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p1a: Regieleki
+|faint|p2a: Raichu
+|
+|upkeep
+|
+|t:|1685157656
+|switch|p1a: Virizion|Virizion, L82|283/283
+|switch|p2a: Seaking|Seaking, L88, F|22/284
+|turn|9
+|
+|t:|1685157668
+|move|p1a: Virizion|Swords Dance|p1a: Virizion
+|-boost|p1a: Virizion|atk|2
+|move|p2a: Seaking|Knock Off|p1a: Virizion
+|-resisted|p1a: Virizion
+|-damage|p1a: Virizion|226/283
+|-ability|p1a: Virizion|Justified|boost
+|-boost|p1a: Virizion|atk|1
+|-enditem|p1a: Virizion|Lum Berry|[from] move: Knock Off|[of] p2a: Seaking
+|-damage|p2a: Seaking|0 fnt|[from] item: Life Orb
+|faint|p2a: Seaking
+|
+|upkeep
+|
+|t:|1685157677
+|switch|p2a: Garchomp|Garchomp, L74, F|282/282
+|turn|10
+|
+|t:|1685157685
+|-start|p1a: Virizion|Dynamax|
+|-heal|p1a: Virizion|452/566|[silent]
+|-start|p2a: Garchomp|Dynamax|
+|-heal|p2a: Garchomp|564/564|[silent]
+|move|p1a: Virizion|Max Overgrowth|p2a: Garchomp
+|-damage|p2a: Garchomp|245/564
+|-fieldstart|move: Grassy Terrain
+|move|p2a: Garchomp|Max Wyrmwind|p1a: Virizion
+|-damage|p1a: Virizion|284/566
+|-unboost|p1a: Virizion|atk|1
+|
+|-heal|p1a: Virizion|301/566|[from] Grassy Terrain
+|-heal|p2a: Garchomp|262/564|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1685157699
+|move|p2a: Garchomp|Max Guard|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Max Guard
+|move|p1a: Virizion|Max Overgrowth|p2a: Garchomp
+|-activate|p2a: Garchomp|move: Max Guard
+|
+|-heal|p1a: Virizion|318/566|[from] Grassy Terrain
+|-heal|p2a: Garchomp|279/564|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1685157708
+|move|p2a: Garchomp|Max Guard||[still]
+|-fail|p2a: Garchomp
+|move|p1a: Virizion|Max Overgrowth|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-heal|p1a: Virizion|335/566|[from] Grassy Terrain
+|upkeep
+|
+|t:|1685157720
+|switch|p2a: Regirock|Regirock, L85|275/275
+|-end|p1a: Virizion|Dynamax
+|-heal|p1a: Virizion|168/283|[silent]
+|turn|13
+|
+|t:|1685157739
+|move|p1a: Virizion|Close Combat|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-crit|p2a: Regirock
+|-ability|p2a: Regirock|Sturdy
+|-damage|p2a: Regirock|1/275
+|-unboost|p1a: Virizion|def|1
+|-unboost|p1a: Virizion|spd|1
+|move|p2a: Regirock|Curse|p2a: Regirock
+|-unboost|p2a: Regirock|spe|1
+|-boost|p2a: Regirock|atk|1
+|-boost|p2a: Regirock|def|1
+|
+|-heal|p1a: Virizion|185/283|[from] Grassy Terrain
+|-heal|p2a: Regirock|18/275|[from] Grassy Terrain
+|upkeep
+|turn|14
+|j| james parker 5
+|l| james parker 5
+|
+|t:|1685157788
+|switch|p1a: Metagross|Metagross, L79|256/256
+|move|p2a: Regirock|Rest|p2a: Regirock
+|-status|p2a: Regirock|slp|[from] move: Rest
+|-heal|p2a: Regirock|275/275 slp|[silent]
+|-enditem|p2a: Regirock|Chesto Berry|[eat]
+|-curestatus|p2a: Regirock|slp|[msg]
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1685157801
+|move|p1a: Metagross|Stealth Rock|p2a: Regirock
+|-sidestart|p2: S0JA|move: Stealth Rock
+|move|p2a: Regirock|Body Press|p1a: Metagross
+|-damage|p1a: Metagross|134/256
+|
+|-heal|p1a: Metagross|150/256|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685157809
+|move|p1a: Metagross|Stealth Rock||[still]
+|-fail|p1a: Metagross
+|move|p2a: Regirock|Body Press|p1a: Metagross
+|-damage|p1a: Metagross|36/256
+|
+|-heal|p1a: Metagross|52/256|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685157816
+|move|p1a: Metagross|Stealth Rock||[still]
+|-fail|p1a: Metagross
+|move|p2a: Regirock|Body Press|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|upkeep
+|
+|t:|1685157821
+|switch|p1a: Tapu Lele|Tapu Lele, L79|240/240
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|18
+|
+|t:|1685157828
+|move|p1a: Tapu Lele|Focus Blast|p2a: Regirock|[miss]
+|-miss|p1a: Tapu Lele|p2a: Regirock
+|move|p2a: Regirock|Rock Slide|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|84/240
+|
+|upkeep
+|turn|19
+|
+|t:|1685157835
+|move|p1a: Tapu Lele|Focus Blast|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|44/275
+|-damage|p1a: Tapu Lele|60/240|[from] item: Life Orb
+|move|p2a: Regirock|Rock Slide|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|0 fnt
+|faint|p1a: Tapu Lele
+|
+|upkeep
+|
+|t:|1685157841
+|switch|p1a: Virizion|Virizion, L82|185/283
+|turn|20
+|
+|t:|1685157865
+|move|p1a: Virizion|Swords Dance|p1a: Virizion
+|-boost|p1a: Virizion|atk|2
+|move|p2a: Regirock|Body Press|p1a: Virizion
+|-damage|p1a: Virizion|0 fnt
+|faint|p1a: Virizion
+|
+|win|S0JA
+|l| Kurtlima

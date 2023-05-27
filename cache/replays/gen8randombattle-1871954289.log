@@ -1,0 +1,253 @@
+|j|☆burriedinkillarney
+|j|☆Gaudet95
+|t:|1685152205
+|gametype|singles
+|player|p1|burriedinkillarney|cyrus|1390
+|player|p2|Gaudet95|1|1385
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685152205
+|start
+|switch|p1a: Starmie|Starmie, L84|238/238
+|switch|p2a: Aurorus|Aurorus, L84, M|344/344
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Aurorus
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gaudet95)
+|c|☆Gaudet95|gl hf! :)
+|inactive|burriedinkillarney has 120 seconds left.
+|
+|t:|1685152240
+|move|p1a: Starmie|Hydro Pump|p2a: Aurorus
+|-supereffective|p2a: Aurorus
+|-damage|p2a: Aurorus|132/344
+|move|p2a: Aurorus|Stealth Rock|p1a: Starmie
+|-sidestart|p1: burriedinkillarney|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starmie|224/238|[from] Hail
+|-heal|p1a: Starmie|238/238|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685152249
+|move|p1a: Starmie|Hydro Pump|p2a: Aurorus
+|-supereffective|p2a: Aurorus
+|-damage|p2a: Aurorus|0 fnt
+|faint|p2a: Aurorus
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Starmie|224/238|[from] Hail
+|-heal|p1a: Starmie|238/238|[from] item: Leftovers
+|upkeep
+|
+|t:|1685152272
+|switch|p2a: Crustle|Crustle, L82, F|249/249
+|turn|3
+|
+|t:|1685152283
+|move|p1a: Starmie|Hydro Pump|p2a: Crustle|[miss]
+|-miss|p1a: Starmie|p2a: Crustle
+|move|p2a: Crustle|Shell Smash|p2a: Crustle
+|-unboost|p2a: Crustle|def|1
+|-unboost|p2a: Crustle|spd|1
+|-boost|p2a: Crustle|atk|2
+|-boost|p2a: Crustle|spa|2
+|-boost|p2a: Crustle|spe|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Crustle|234/249|[from] Hail
+|-damage|p1a: Starmie|224/238|[from] Hail
+|-heal|p1a: Starmie|238/238|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685152294
+|move|p2a: Crustle|X-Scissor|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Crustle|219/249|[from] Hail
+|upkeep
+|inactive|burriedinkillarney has 120 seconds left.
+|
+|t:|1685152334
+|switch|p1a: Wigglytuff|Wigglytuff, L90, F|398/398
+|-damage|p1a: Wigglytuff|349/398|[from] Stealth Rock
+|-item|p2a: Crustle|Heavy-Duty Boots|[from] ability: Frisk|[of] p1a: Wigglytuff|[identify]
+|turn|5
+|
+|t:|1685152347
+|move|p2a: Crustle|Earthquake|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|138/398
+|move|p1a: Wigglytuff|Reflect|p1a: Wigglytuff
+|-sidestart|p1: burriedinkillarney|Reflect
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1685152354
+|move|p2a: Crustle|Earthquake|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|40/398
+|move|p1a: Wigglytuff|Dazzling Gleam|p2a: Crustle
+|-damage|p2a: Crustle|77/249
+|
+|upkeep
+|turn|7
+|
+|t:|1685152360
+|move|p2a: Crustle|Earthquake|p1a: Wigglytuff
+|-crit|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|0 fnt
+|faint|p1a: Wigglytuff
+|
+|upkeep
+|
+|t:|1685152371
+|switch|p1a: Omastar|Omastar, L82, M|249/249
+|-damage|p1a: Omastar|218/249|[from] Stealth Rock
+|turn|8
+|
+|t:|1685152386
+|move|p2a: Crustle|Earthquake|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|102/249
+|move|p1a: Omastar|Shell Smash|p1a: Omastar
+|-unboost|p1a: Omastar|def|1
+|-unboost|p1a: Omastar|spd|1
+|-boost|p1a: Omastar|atk|2
+|-boost|p1a: Omastar|spa|2
+|-boost|p1a: Omastar|spe|2
+|-enditem|p1a: Omastar|White Herb
+|-clearnegativeboost|p1a: Omastar|[silent]
+|
+|upkeep
+|turn|9
+|
+|t:|1685152397
+|move|p1a: Omastar|Earth Power|p2a: Crustle
+|-damage|p2a: Crustle|0 fnt
+|faint|p2a: Crustle
+|
+|upkeep
+|
+|t:|1685152418
+|switch|p2a: Mew|Mew, L80|291/291
+|turn|10
+|
+|t:|1685152441
+|-start|p1a: Omastar|Dynamax|
+|-heal|p1a: Omastar|204/498|[silent]
+|move|p1a: Omastar|Max Geyser|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|-weather|RainDance
+|faint|p2a: Mew
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685152449
+|switch|p2a: Kingler|Kingler, L84, M|230/230
+|turn|11
+|
+|t:|1685152461
+|move|p1a: Omastar|Max Quake|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|-boost|p1a: Omastar|spd|1
+|faint|p2a: Kingler
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685152472
+|switch|p2a: Blaziken|Blaziken, L76, M|247/247
+|turn|12
+|
+|t:|1685152477
+|move|p1a: Omastar|Max Geyser|p2a: Blaziken
+|-supereffective|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: burriedinkillarney|Reflect
+|upkeep
+|
+|t:|1685152484
+|switch|p2a: Rayquaza|Rayquaza, L74|277/277
+|-ability|p2a: Rayquaza|Air Lock
+|-end|p1a: Omastar|Dynamax
+|-heal|p1a: Omastar|102/249|[silent]
+|turn|13
+|
+|t:|1685152492
+|-start|p2a: Rayquaza|Dynamax|
+|-heal|p2a: Rayquaza|554/554|[silent]
+|move|p1a: Omastar|Ice Beam|p2a: Rayquaza
+|-supereffective|p2a: Rayquaza
+|-damage|p2a: Rayquaza|130/554
+|move|p2a: Rayquaza|Max Quake|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|-boost|p2a: Rayquaza|spd|1
+|faint|p1a: Omastar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685152505
+|switch|p1a: Rotom|Rotom, L84|221/221
+|-damage|p1a: Rotom|194/221|[from] Stealth Rock
+|turn|14
+|
+|t:|1685152514
+|move|p1a: Rotom|Will-O-Wisp|p2a: Rayquaza
+|-status|p2a: Rayquaza|brn
+|move|p2a: Rayquaza|Max Airstream|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|145/221
+|-boost|p2a: Rayquaza|spe|1
+|
+|-weather|none
+|-damage|p2a: Rayquaza|113/554 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1685152527
+|move|p2a: Rayquaza|Max Wyrmwind|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-damage|p2a: Rayquaza|96/554 brn|[from] brn
+|upkeep
+|
+|t:|1685152530
+|switch|p1a: Lycanroc|Lycanroc, L80, F|251/251
+|-damage|p1a: Lycanroc|220/251|[from] Stealth Rock
+|-end|p2a: Rayquaza|Dynamax
+|-heal|p2a: Rayquaza|48/277 brn|[silent]
+|turn|16
+|
+|t:|1685152539
+|move|p1a: Lycanroc|Accelerock|p2a: Rayquaza
+|-supereffective|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|faint|p2a: Rayquaza
+|
+|win|burriedinkillarney
+|raw|burriedinkillarney's rating: 1390 &rarr; <strong>1410</strong><br />(+20 for winning)
+|raw|Gaudet95's rating: 1385 &rarr; <strong>1365</strong><br />(-20 for losing)
+|l|☆burriedinkillarney
+|c|☆Gaudet95|gg
+|l|☆Gaudet95
+|j|☆burriedinkillarney
+|player|p1|burriedinkillarney|cyrus

@@ -1,0 +1,62 @@
+|j|☆peppe26
+|j|☆gareeb adani
+|t:|1685186710
+|gametype|singles
+|player|p1|peppe26|colress|1414
+|player|p2|gareeb adani|170|1525
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685186710
+|start
+|switch|p1a: Rotom|Rotom-Fan, L84|221/221
+|switch|p2a: Hydreigon|Hydreigon, L80, M|278/278
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gareeb adani)
+|
+|t:|1685186724
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|move|p1a: Rotom|Will-O-Wisp|p2a: Hydreigon|[miss]
+|-miss|p1a: Rotom|p2a: Hydreigon
+|
+|upkeep
+|turn|2
+|
+|t:|1685186740
+|move|p2a: Hydreigon|Dark Pulse|p1a: Rotom
+|-damage|p1a: Rotom|47/221
+|cant|p1a: Rotom|flinch
+|
+|upkeep
+|turn|3
+|
+|t:|1685186746
+|move|p2a: Hydreigon|Dark Pulse|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1685186771
+|switch|p1a: Cloyster|Cloyster, L80, M|211/211
+|turn|4
+|
+|t:|1685186792
+|move|p2a: Hydreigon|Dark Pulse|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+|-message|peppe26 forfeited.
+|
+|win|gareeb adani
+|raw|peppe26's rating: 1414 &rarr; <strong>1401</strong><br />(-13 for losing)
+|raw|gareeb adani's rating: 1540 &rarr; <strong>1553</strong><br />(+13 for winning)
+|l|☆peppe26

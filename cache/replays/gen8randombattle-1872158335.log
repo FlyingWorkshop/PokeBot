@@ -1,0 +1,113 @@
+|j|☆apetito123
+|j|☆djdufjjdjffndjapfj
+|t:|1685189874
+|gametype|singles
+|player|p1|apetito123|102|1009
+|player|p2|djdufjjdjffndjapfj|101|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685189874
+|start
+|switch|p1a: Persian|Persian, L88, M|258/258
+|switch|p2a: Celebi|Celebi, L82|298/298
+|turn|1
+|
+|t:|1685189895
+|move|p1a: Persian|Fake Out|p2a: Celebi
+|-damage|p2a: Celebi|227/298
+|-damage|p1a: Persian|233/258|[from] item: Life Orb
+|cant|p2a: Celebi|flinch
+|
+|-heal|p2a: Celebi|245/298|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685189906
+|move|p1a: Persian|Knock Off|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|97/298
+|-enditem|p2a: Celebi|Leftovers|[from] move: Knock Off|[of] p1a: Persian
+|-damage|p1a: Persian|208/258|[from] item: Life Orb
+|move|p2a: Celebi|Nasty Plot|p2a: Celebi
+|-boost|p2a: Celebi|spa|2
+|
+|upkeep
+|turn|3
+|
+|t:|1685189916
+|move|p1a: Persian|Knock Off|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|-damage|p1a: Persian|183/258|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685189922
+|switch|p2a: Barraskewda|Barraskewda, L80, M|227/227
+|turn|4
+|
+|t:|1685189937
+|move|p1a: Persian|Double-Edge|p2a: Barraskewda
+|-damage|p2a: Barraskewda|28/227
+|replace|p2a: Zoroark|Zoroark, L80, M
+|-end|p2a: Zoroark|Illusion
+|-damage|p1a: Persian|117/258|[from] Recoil
+|-damage|p1a: Persian|92/258|[from] item: Life Orb
+|move|p2a: Zoroark|Dark Pulse|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|-damage|p2a: Zoroark|6/227|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685189960
+|switch|p1a: Exeggutor|Exeggutor, L86, M|304/304
+|turn|5
+|
+|t:|1685189964
+|move|p2a: Zoroark|Flamethrower|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|93/304
+|-status|p1a: Exeggutor|brn
+|-enditem|p1a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p1a: Exeggutor|169/304 brn|[from] item: Sitrus Berry
+|-damage|p2a: Zoroark|0 fnt|[from] item: Life Orb
+|faint|p2a: Zoroark
+|move|p1a: Exeggutor|Giga Drain|p2: Zoroark|[notarget]
+|-fail|p1a: Exeggutor
+|
+|-damage|p1a: Exeggutor|150/304 brn|[from] brn
+|-item|p1a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p1a: Exeggutor|226/304 brn|[from] item: Sitrus Berry
+|
+|t:|1685189967
+|switch|p2a: Victini|Victini, L78|283/283
+|turn|6
+|
+|t:|1685189984
+|switch|p1a: Kingdra|Kingdra, L82, F|257/257
+|move|p2a: Victini|V-create|p1a: Kingdra
+|-resisted|p1a: Kingdra
+|-damage|p1a: Kingdra|218/257
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|
+|upkeep
+|turn|7
+|-message|djdufjjdjffndjapfj forfeited.
+|
+|win|apetito123
+|raw|apetito123's rating: 1009 &rarr; <strong>1047</strong><br />(+38 for winning)
+|raw|djdufjjdjffndjapfj's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|l|☆djdufjjdjffndjapfj

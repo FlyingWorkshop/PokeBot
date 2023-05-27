@@ -1,0 +1,139 @@
+|j|☆Jackem
+|j|☆Itachinemo
+|t:|1685158166
+|gametype|singles
+|player|p1|Jackem|riley|1266
+|player|p2|Itachinemo|101|1336
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685158166
+|start
+|switch|p1a: Umbreon|Umbreon, L82, F|290/290
+|switch|p2a: Lycanroc|Lycanroc-Dusk, L80, M|251/251
+|turn|1
+|
+|t:|1685158191
+|switch|p1a: Scolipede|Scolipede, L80, M|227/227
+|move|p2a: Lycanroc|Close Combat|p1a: Scolipede
+|-resisted|p1a: Scolipede
+|-damage|p1a: Scolipede|198/227
+|-unboost|p2a: Lycanroc|def|1
+|-unboost|p2a: Lycanroc|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1685158200
+|move|p1a: Scolipede|Earthquake|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-enditem|p2a: Lycanroc|Focus Sash
+|-damage|p2a: Lycanroc|1/251
+|move|p2a: Lycanroc|Stone Edge|p1a: Scolipede|[miss]
+|-miss|p2a: Lycanroc|p1a: Scolipede
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Itachinemo)
+|
+|t:|1685158221
+|move|p2a: Lycanroc|Accelerock|p1a: Scolipede
+|-supereffective|p1a: Scolipede
+|-damage|p1a: Scolipede|84/227
+|move|p1a: Scolipede|Earthquake|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|faint|p2a: Lycanroc
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|
+|t:|1685158234
+|switch|p2a: Togekiss|Togekiss, L80, M|267/267
+|turn|4
+|
+|t:|1685158248
+|move|p1a: Scolipede|Poison Jab|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|105/267
+|-status|p2a: Togekiss|psn
+|move|p2a: Togekiss|Air Slash|p1a: Scolipede
+|-supereffective|p1a: Scolipede
+|-damage|p1a: Scolipede|0 fnt
+|faint|p1a: Scolipede
+|
+|-damage|p2a: Togekiss|72/267 psn|[from] psn
+|upkeep
+|
+|t:|1685158260
+|switch|p1a: Reshiram|Reshiram, L74|270/270
+|-ability|p1a: Reshiram|Turboblaze
+|turn|5
+|
+|t:|1685158269
+|switch|p2a: Kyogre|Kyogre, L72|263/263
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|move|p1a: Reshiram|Blue Flare|p2a: Kyogre
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|234/263
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1685158289
+|switch|p1a: Umbreon|Umbreon, L82, F|290/290
+|move|p2a: Kyogre|Water Spout|p1a: Umbreon
+|-damage|p1a: Umbreon|61/290
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Umbreon|79/290|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685158297
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Kyogre|Water Spout|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Umbreon|97/290|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685158307
+|move|p2a: Kyogre|Water Spout|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|faint|p1a: Umbreon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685158317
+|switch|p1a: Aromatisse|Aromatisse, L88, F|321/321
+|turn|9
+|
+|t:|1685158326
+|switch|p2a: Maractus|Maractus, L95, M|296/296
+|move|p1a: Aromatisse|Protect||[still]
+|-fail|p1a: Aromatisse
+|
+|-weather|none
+|upkeep
+|turn|10
+|-message|Jackem forfeited.
+|
+|win|Itachinemo
+|raw|Jackem's rating: 1243 &rarr; <strong>1225</strong><br />(-18 for losing)
+|raw|Itachinemo's rating: 1336 &rarr; <strong>1351</strong><br />(+15 for winning)
+|l|☆Jackem

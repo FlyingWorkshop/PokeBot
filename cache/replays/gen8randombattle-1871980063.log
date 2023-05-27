@@ -1,0 +1,420 @@
+|j|☆woopre
+|j|☆piaa
+|t:|1685155978
+|gametype|singles
+|player|p1|woopre|cynthia-anime2|
+|player|p2|piaa|#rbtt6teamchienpaof|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685155978
+|start
+|switch|p1a: Gothitelle|Gothitelle, L86, F|261/261
+|switch|p2a: Coalossal|Coalossal, L87, M|333/333
+|turn|1
+|c|☆piaa|u-turn on king into shard sealed the deal
+|c|☆piaa|could played better though so whatever
+|c|☆woopre|yeah that was rly unfortunate
+|
+|t:|1685156042
+|switch|p1a: Carbink|Carbink, L86|226/226
+|move|p2a: Coalossal|Stealth Rock|p1a: Carbink
+|-sidestart|p1: woopre|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1685156077
+|switch|p2a: Lunala|Lunala, L72|316/316
+|move|p1a: Carbink|Stealth Rock|p2a: Lunala
+|-sidestart|p2: piaa|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1685156092
+|switch|p1a: Celesteela|Celesteela, L77|276/276
+|-damage|p1a: Celesteela|242/276|[from] Stealth Rock
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|
+|-heal|p1a: Celesteela|259/276|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685156112
+|move|p2a: Lunala|Moongeist Beam|p1a: Celesteela
+|-damage|p1a: Celesteela|99/276
+|move|p1a: Celesteela|Leech Seed|p2a: Lunala
+|-start|p2a: Lunala|move: Leech Seed
+|
+|-heal|p1a: Celesteela|116/276|[from] item: Leftovers
+|-damage|p2a: Lunala|277/316|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|155/276|[silent]
+|upkeep
+|turn|5
+|
+|t:|1685156134
+|switch|p2a: Coalossal|Coalossal, L87, M|333/333
+|move|p1a: Celesteela|Flash Cannon|p2a: Coalossal
+|-crit|p2a: Coalossal
+|-damage|p2a: Coalossal|233/333
+|-unboost|p2a: Coalossal|spd|1
+|
+|-heal|p1a: Celesteela|172/276|[from] item: Leftovers
+|upkeep
+|turn|6
+|c|☆piaa|sheesh
+|
+|t:|1685156147
+|switch|p1a: Carbink|Carbink, L86|226/226
+|-damage|p1a: Carbink|198/226|[from] Stealth Rock
+|switch|p2a: Lunala|Lunala, L72|277/316
+|-damage|p2a: Lunala|238/316|[from] Stealth Rock
+|
+|-heal|p2a: Lunala|257/316|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685156154
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|move|p1a: Carbink|Light Screen|p1a: Carbink
+|-sidestart|p1: woopre|move: Light Screen
+|
+|-heal|p2a: Lunala|276/316|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685156161
+|switch|p1a: Crawdaunt|Crawdaunt, L84, F|243/243
+|-damage|p1a: Crawdaunt|213/243|[from] Stealth Rock
+|move|p2a: Lunala|Moongeist Beam|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|157/243
+|
+|-heal|p2a: Lunala|295/316|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1685156207
+|switch|p2a: Dubwool|Dubwool, L86, F|264/264
+|-damage|p2a: Dubwool|231/264|[from] Stealth Rock
+|move|p1a: Crawdaunt|Knock Off|p2a: Dubwool
+|-damage|p2a: Dubwool|141/264
+|-enditem|p2a: Dubwool|Leftovers|[from] move: Knock Off|[of] p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|133/243|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|t:|1685156240
+|switch|p1a: Gothitelle|Gothitelle, L86, F|261/261
+|-damage|p1a: Gothitelle|229/261|[from] Stealth Rock
+|move|p2a: Dubwool|Rest|p2a: Dubwool
+|-status|p2a: Dubwool|slp|[from] move: Rest
+|-heal|p2a: Dubwool|264/264 slp|[silent]
+|
+|-heal|p1a: Gothitelle|245/261|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1685156266
+|cant|p2a: Dubwool|slp
+|move|p2a: Dubwool|Sleep Talk|p2a: Dubwool
+|move|p2a: Dubwool|Body Press|p1a: Gothitelle|[from]move: Sleep Talk
+|-resisted|p1a: Gothitelle
+|-damage|p1a: Gothitelle|220/261
+|move|p1a: Gothitelle|Nasty Plot|p1a: Gothitelle
+|-boost|p1a: Gothitelle|spa|2
+|
+|-heal|p1a: Gothitelle|236/261|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685156273
+|cant|p2a: Dubwool|slp
+|move|p2a: Dubwool|Sleep Talk|p2a: Dubwool
+|move|p2a: Dubwool|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Dubwool
+|move|p1a: Gothitelle|Nasty Plot|p1a: Gothitelle
+|-boost|p1a: Gothitelle|spa|2
+|
+|-heal|p1a: Gothitelle|252/261|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685156278
+|-curestatus|p2a: Dubwool|slp|[msg]
+|move|p2a: Dubwool|Cotton Guard|p2a: Dubwool
+|-boost|p2a: Dubwool|def|3
+|move|p1a: Gothitelle|Psychic|p2a: Dubwool
+|-damage|p2a: Dubwool|5/264
+|
+|-heal|p1a: Gothitelle|261/261|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685156283
+|move|p2a: Dubwool|Body Press|p1a: Gothitelle
+|-resisted|p1a: Gothitelle
+|-damage|p1a: Gothitelle|191/261
+|move|p1a: Gothitelle|Psychic|p2a: Dubwool
+|-damage|p2a: Dubwool|0 fnt
+|faint|p2a: Dubwool
+|
+|-heal|p1a: Gothitelle|207/261|[from] item: Leftovers
+|-sideend|p1: woopre|move: Light Screen
+|upkeep
+|
+|t:|1685156286
+|switch|p2a: Lunala|Lunala, L72|295/316
+|-damage|p2a: Lunala|256/316|[from] Stealth Rock
+|turn|15
+|
+|t:|1685156290
+|move|p2a: Lunala|Moongeist Beam|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|39/261
+|move|p1a: Gothitelle|Shadow Ball|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|
+|-heal|p1a: Gothitelle|55/261|[from] item: Leftovers
+|upkeep
+|
+|t:|1685156297
+|switch|p2a: Scolipede|Scolipede, L80, M|227/227
+|-damage|p2a: Scolipede|171/227|[from] Stealth Rock
+|turn|16
+|
+|t:|1685156318
+|move|p2a: Scolipede|Poison Jab|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|faint|p1a: Gothitelle
+|-damage|p2a: Scolipede|149/227|[from] item: Life Orb
+|
+|-ability|p2a: Scolipede|Speed Boost|boost
+|-boost|p2a: Scolipede|spe|1
+|upkeep
+|
+|t:|1685156322
+|switch|p1a: Celesteela|Celesteela, L77|172/276
+|-damage|p1a: Celesteela|138/276|[from] Stealth Rock
+|turn|17
+|
+|t:|1685156332
+|switch|p2a: Coalossal|Coalossal, L87, M|233/333
+|move|p1a: Celesteela|Leech Seed|p2a: Coalossal
+|-start|p2a: Coalossal|move: Leech Seed
+|
+|-heal|p1a: Celesteela|155/276|[from] item: Leftovers
+|-damage|p2a: Coalossal|192/333|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|196/276|[silent]
+|upkeep
+|turn|18
+|
+|t:|1685156339
+|move|p1a: Celesteela|Protect|p1a: Celesteela
+|-singleturn|p1a: Celesteela|Protect
+|move|p2a: Coalossal|Overheat|p1a: Celesteela
+|-activate|p1a: Celesteela|move: Protect
+|
+|-heal|p1a: Celesteela|213/276|[from] item: Leftovers
+|-damage|p2a: Coalossal|151/333|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|254/276|[silent]
+|upkeep
+|turn|19
+|
+|t:|1685156345
+|switch|p1a: Carbink|Carbink, L86|198/226
+|-damage|p1a: Carbink|170/226|[from] Stealth Rock
+|move|p2a: Coalossal|Spikes|p1a: Carbink
+|-sidestart|p1: woopre|Spikes
+|
+|-damage|p2a: Coalossal|110/333|[from] Leech Seed|[of] p1a: Carbink
+|-heal|p1a: Carbink|211/226|[silent]
+|upkeep
+|turn|20
+|
+|t:|1685156351
+|move|p1a: Carbink|Reflect|p1a: Carbink
+|-sidestart|p1: woopre|Reflect
+|move|p2a: Coalossal|Spikes|p1a: Carbink
+|-sidestart|p1: woopre|Spikes
+|
+|-damage|p2a: Coalossal|69/333|[from] Leech Seed|[of] p1a: Carbink
+|-heal|p1a: Carbink|226/226|[silent]
+|upkeep
+|turn|21
+|
+|t:|1685156363
+|switch|p1a: Mr. Mime|Mr. Mime, L86, M|209/209
+|-damage|p1a: Mr. Mime|183/209|[from] Stealth Rock
+|-damage|p1a: Mr. Mime|149/209|[from] Spikes
+|move|p2a: Coalossal|Spikes|p1a: Mr. Mime
+|-sidestart|p1: woopre|Spikes
+|
+|-damage|p2a: Coalossal|28/333|[from] Leech Seed|[of] p1a: Mr. Mime
+|-heal|p1a: Mr. Mime|190/209|[silent]
+|upkeep
+|turn|22
+|
+|t:|1685156371
+|move|p1a: Mr. Mime|Dazzling Gleam|p2a: Coalossal
+|-resisted|p2a: Coalossal
+|-damage|p2a: Coalossal|0 fnt
+|faint|p2a: Coalossal
+|-damage|p1a: Mr. Mime|170/209|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685156388
+|switch|p2a: Celebi|Celebi, L82|298/298
+|-damage|p2a: Celebi|261/298|[from] Stealth Rock
+|turn|23
+|
+|t:|1685156396
+|switch|p1a: Celesteela|Celesteela, L77|254/276
+|-damage|p1a: Celesteela|220/276|[from] Stealth Rock
+|move|p2a: Celebi|Nasty Plot|p2a: Celebi
+|-boost|p2a: Celebi|spa|2
+|
+|-heal|p2a: Celebi|279/298|[from] item: Leftovers
+|-heal|p1a: Celesteela|237/276|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1685156402
+|-start|p2a: Celebi|Dynamax|
+|-heal|p2a: Celebi|558/596|[silent]
+|-start|p1a: Celesteela|Dynamax|
+|-heal|p1a: Celesteela|474/552|[silent]
+|move|p2a: Celebi|Max Mindstorm|p1a: Celesteela
+|-resisted|p1a: Celesteela
+|-damage|p1a: Celesteela|346/552
+|-fieldstart|move: Psychic Terrain
+|move|p1a: Celesteela|Max Airstream|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|312/596
+|-boost|p1a: Celesteela|spe|1
+|
+|-heal|p2a: Celebi|330/596|[from] item: Leftovers
+|-heal|p1a: Celesteela|363/552|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1685156412
+|move|p2a: Celebi|Max Guard|p2a: Celebi
+|-singleturn|p2a: Celebi|Max Guard
+|move|p1a: Celesteela|Max Guard||[still]
+|-fail|p1a: Celesteela
+|
+|-heal|p2a: Celebi|348/596|[from] item: Leftovers
+|-heal|p1a: Celesteela|380/552|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1685156415
+|move|p2a: Celebi|Max Mindstorm|p1a: Celesteela
+|-resisted|p1a: Celesteela
+|-damage|p1a: Celesteela|201/552
+|move|p1a: Celesteela|Max Airstream|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|112/596
+|-boost|p1a: Celesteela|spe|1
+|
+|-heal|p1a: Celesteela|218/552|[from] item: Leftovers
+|-heal|p2a: Celebi|130/596|[from] item: Leftovers
+|upkeep
+|-end|p1a: Celesteela|Dynamax
+|-heal|p1a: Celesteela|109/276|[silent]
+|-end|p2a: Celebi|Dynamax
+|-heal|p2a: Celebi|65/298|[silent]
+|turn|27
+|
+|t:|1685156421
+|switch|p2a: Scolipede|Scolipede, L80, M|149/227
+|-damage|p2a: Scolipede|93/227|[from] Stealth Rock
+|move|p1a: Celesteela|Air Slash|p2a: Scolipede
+|-supereffective|p2a: Scolipede
+|-crit|p2a: Scolipede
+|-damage|p2a: Scolipede|0 fnt
+|faint|p2a: Scolipede
+|-ability|p1a: Celesteela|Beast Boost|boost
+|-boost|p1a: Celesteela|spa|1
+|
+|-heal|p1a: Celesteela|126/276|[from] item: Leftovers
+|-sideend|p1: woopre|Reflect
+|upkeep
+|
+|t:|1685156423
+|switch|p2a: Beartic|Beartic, L86, F|304/304
+|turn|28
+|
+|t:|1685156433
+|move|p1a: Celesteela|Protect|p1a: Celesteela
+|-singleturn|p1a: Celesteela|Protect
+|move|p2a: Beartic|Icicle Crash|p1a: Celesteela
+|-activate|p1a: Celesteela|move: Protect
+|
+|-heal|p1a: Celesteela|143/276|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|29
+|
+|t:|1685156438
+|move|p1a: Celesteela|Flash Cannon|p2a: Beartic
+|-supereffective|p2a: Beartic
+|-damage|p2a: Beartic|50/304
+|move|p2a: Beartic|Icicle Crash|p1a: Celesteela
+|-damage|p1a: Celesteela|29/276
+|
+|-heal|p1a: Celesteela|46/276|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1685156445
+|move|p1a: Celesteela|Flash Cannon|p2a: Beartic
+|-supereffective|p2a: Beartic
+|-damage|p2a: Beartic|0 fnt
+|faint|p2a: Beartic
+|-ability|p1a: Celesteela|Beast Boost|boost
+|-boost|p1a: Celesteela|spa|1
+|
+|-heal|p1a: Celesteela|63/276|[from] item: Leftovers
+|upkeep
+|c|☆piaa|whats your last
+|c|☆piaa|idk why you'd risk sd into crash
+|c|☆piaa|ggs though
+|c|☆piaa|gl in rest
+|
+|t:|1685156455
+|switch|p2a: Celebi|Celebi, L82|65/298
+|-damage|p2a: Celebi|28/298|[from] Stealth Rock
+|turn|31
+|c|☆woopre|boltund
+|c|☆piaa|ah
+|c|☆woopre|i was making sure icicle didnt ohko steela but it was a pretty shit play regardless
+|c|☆piaa|it was rough this game
+|c|☆woopre|super bad MU into steela yeah
+|c|☆piaa|steela and crawdaunt one shots half my team with a dd lol
+|c|☆piaa|my only answer gets walled by steela
+|c|☆woopre|unfortunate
+|c|☆piaa|gl in rest i suppose
+|
+|t:|1685156537
+|move|p1a: Celesteela|Flash Cannon|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|win|woopre
+|c|☆woopre|ty

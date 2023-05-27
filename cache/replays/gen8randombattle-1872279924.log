@@ -1,0 +1,307 @@
+|j|☆HolySteel
+|j|☆i bada the bing
+|t:|1685206073
+|gametype|singles
+|player|p1|HolySteel|2|
+|player|p2|i bada the bing|blackbelt-gen4dp|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685206073
+|start
+|switch|p1a: Amoonguss|Amoonguss, L84, F|329/329
+|switch|p2a: Zygarde|Zygarde, L70|267/267
+|turn|1
+|
+|t:|1685206109
+|switch|p2a: Jynx|Jynx, L86, F|252/252
+|switch|p1a: Dhelmise|Dhelmise, L86|261/261
+|
+|upkeep
+|turn|2
+|
+|t:|1685206182
+|move|p2a: Jynx|Ice Beam|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|39/261
+|move|p1a: Dhelmise|Anchor Shot|p2a: Jynx
+|-supereffective|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|upkeep
+|
+|t:|1685206196
+|switch|p2a: Inteleon|Inteleon, L80, M|243/243
+|turn|3
+|
+|t:|1685206206
+|move|p2a: Inteleon|Surf|p1a: Dhelmise
+|-resisted|p1a: Dhelmise
+|-damage|p1a: Dhelmise|0 fnt
+|faint|p1a: Dhelmise
+|
+|upkeep
+|
+|t:|1685206232
+|switch|p1a: Rotom|Rotom-Frost, L84|221/221
+|turn|4
+|
+|t:|1685206252
+|switch|p2a: Spiritomb|Spiritomb, L88, M|231/231
+|move|p1a: Rotom|Will-O-Wisp|p2a: Spiritomb|[miss]
+|-miss|p1a: Rotom|p2a: Spiritomb
+|
+|upkeep
+|turn|5
+|
+|t:|1685206273
+|switch|p1a: Seaking|Seaking, L88, M|284/284
+|move|p2a: Spiritomb|Trick|p1a: Seaking
+|-activate|p2a: Spiritomb|move: Trick|[of] p1a: Seaking
+|-item|p1a: Seaking|Choice Band|[from] move: Trick
+|-item|p2a: Spiritomb|Life Orb|[from] move: Trick
+|
+|upkeep
+|turn|6
+|
+|t:|1685206294
+|switch|p2a: Shiinotic|Shiinotic, L86, M|243/243
+|move|p1a: Seaking|Waterfall|p2a: Shiinotic
+|-resisted|p2a: Shiinotic
+|-damage|p2a: Shiinotic|170/243
+|
+|-heal|p2a: Shiinotic|185/243|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685206316
+|switch|p1a: Amoonguss|Amoonguss, L84, F|329/329
+|switch|p2a: Zygarde|Zygarde, L70|267/267
+|
+|upkeep
+|turn|8
+|
+|t:|1685206331
+|switch|p1a: Carbink|Carbink, L86|226/226
+|move|p2a: Zygarde|Substitute|p2a: Zygarde
+|-start|p2a: Zygarde|Substitute
+|-damage|p2a: Zygarde|201/267
+|
+|-heal|p2a: Zygarde|217/267|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1685206346
+|move|p2a: Zygarde|Thousand Arrows|p1a: Carbink
+|-supereffective|p1a: Carbink
+|-damage|p1a: Carbink|128/226
+|move|p1a: Carbink|Reflect|p1a: Carbink
+|-sidestart|p1: HolySteel|Reflect
+|
+|-heal|p2a: Zygarde|233/267|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685206369
+|switch|p2a: Shiinotic|Shiinotic, L86, M|185/243
+|move|p1a: Carbink|Moonblast|p2a: Shiinotic
+|-damage|p2a: Shiinotic|131/243
+|
+|-heal|p2a: Shiinotic|146/243|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1685206376
+|move|p1a: Carbink|Stealth Rock|p2a: Shiinotic
+|-sidestart|p2: i bada the bing|move: Stealth Rock
+|move|p2a: Shiinotic|Energy Ball|p1a: Carbink
+|-supereffective|p1a: Carbink
+|-damage|p1a: Carbink|14/226
+|
+|-heal|p2a: Shiinotic|161/243|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685206410
+|move|p1a: Carbink|Light Screen|p1a: Carbink
+|-sidestart|p1: HolySteel|move: Light Screen
+|move|p2a: Shiinotic|Moonblast|p1a: Carbink
+|-damage|p1a: Carbink|0 fnt
+|faint|p1a: Carbink
+|
+|-heal|p2a: Shiinotic|176/243|[from] item: Leftovers
+|upkeep
+|
+|t:|1685206432
+|switch|p1a: Amoonguss|Amoonguss, L84, F|329/329
+|turn|13
+|
+|t:|1685206447
+|switch|p2a: Spiritomb|Spiritomb, L88, M|231/231
+|-damage|p2a: Spiritomb|203/231|[from] Stealth Rock
+|move|p1a: Amoonguss|Toxic|p2a: Spiritomb
+|-status|p2a: Spiritomb|tox
+|
+|-damage|p2a: Spiritomb|189/231 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1685206490
+|move|p2a: Spiritomb|Poltergeist|p1a: Amoonguss
+|-activate|p1a: Amoonguss|move: Poltergeist|Black Sludge
+|-damage|p1a: Amoonguss|129/329
+|-damage|p2a: Spiritomb|166/231 tox|[from] item: Life Orb
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Spiritomb
+|-resisted|p2a: Spiritomb
+|-damage|p2a: Spiritomb|128/231 tox
+|
+|-heal|p1a: Amoonguss|149/329|[from] item: Black Sludge
+|-damage|p2a: Spiritomb|100/231 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1685206500
+|switch|p1a: Aggron|Aggron, L85, F|258/258
+|-item|p1a: Aggron|Air Balloon
+|move|p2a: Spiritomb|Poltergeist|p1a: Aggron
+|-activate|p1a: Aggron|move: Poltergeist|Air Balloon
+|-damage|p1a: Aggron|163/258
+|-enditem|p1a: Aggron|Air Balloon
+|-damage|p2a: Spiritomb|77/231 tox|[from] item: Life Orb
+|
+|-damage|p2a: Spiritomb|35/231 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1685206533
+|move|p1a: Aggron|Rock Polish|p1a: Aggron
+|-boost|p1a: Aggron|spe|2
+|move|p2a: Spiritomb|Poltergeist||[still]
+|-fail|p2a: Spiritomb
+|
+|-damage|p2a: Spiritomb|0 fnt|[from] psn
+|faint|p2a: Spiritomb
+|-sideend|p1: HolySteel|Reflect
+|upkeep
+|
+|t:|1685206541
+|switch|p2a: Zygarde|Zygarde, L70|233/267
+|-damage|p2a: Zygarde|217/267|[from] Stealth Rock
+|turn|17
+|
+|t:|1685206561
+|move|p1a: Aggron|Head Smash|p2a: Zygarde
+|-resisted|p2a: Zygarde
+|-damage|p2a: Zygarde|128/267
+|move|p2a: Zygarde|Dragon Dance|p2a: Zygarde
+|-boost|p2a: Zygarde|atk|1
+|-boost|p2a: Zygarde|spe|1
+|
+|-heal|p2a: Zygarde|144/267|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1685206603
+|move|p1a: Aggron|Head Smash|p2a: Zygarde
+|-resisted|p2a: Zygarde
+|-damage|p2a: Zygarde|59/267
+|move|p2a: Zygarde|Dragon Dance|p2a: Zygarde
+|-boost|p2a: Zygarde|atk|1
+|-boost|p2a: Zygarde|spe|1
+|
+|-heal|p2a: Zygarde|75/267|[from] item: Leftovers
+|-activate|p2a: Zygarde|ability: Power Construct
+|detailschange|p2a: Zygarde|Zygarde-Complete, L70
+|-heal|p2a: Zygarde|226/418|[silent]
+|upkeep
+|turn|19
+|c|☆HolySteel|well
+|c|☆i bada the bing|yea this thing is kinda stupid
+|
+|t:|1685206629
+|move|p2a: Zygarde|Substitute|p2a: Zygarde
+|-start|p2a: Zygarde|Substitute
+|-damage|p2a: Zygarde|122/418
+|move|p1a: Aggron|Head Smash|p2a: Zygarde
+|-resisted|p2a: Zygarde
+|-activate|p2a: Zygarde|move: Substitute|[damage]
+|
+|-heal|p2a: Zygarde|148/418|[from] item: Leftovers
+|-sideend|p1: HolySteel|move: Light Screen
+|upkeep
+|turn|20
+|
+|t:|1685206634
+|move|p2a: Zygarde|Thousand Arrows|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|faint|p1a: Aggron
+|
+|-heal|p2a: Zygarde|174/418|[from] item: Leftovers
+|upkeep
+|
+|t:|1685206642
+|switch|p1a: Amoonguss|Amoonguss, L84, F|258/329
+|turn|21
+|
+|t:|1685206654
+|switch|p1a: Seaking|Seaking, L88, M|284/284
+|move|p2a: Zygarde|Thousand Arrows|p1a: Seaking
+|-damage|p1a: Seaking|107/284
+|
+|-heal|p2a: Zygarde|200/418|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1685206668
+|move|p2a: Zygarde|Thousand Arrows|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|faint|p1a: Seaking
+|
+|-heal|p2a: Zygarde|226/418|[from] item: Leftovers
+|upkeep
+|
+|t:|1685206671
+|switch|p1a: Rotom|Rotom-Frost, L84|221/221
+|turn|23
+|
+|t:|1685206681
+|move|p2a: Zygarde|Thousand Arrows|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-heal|p2a: Zygarde|252/418|[from] item: Leftovers
+|upkeep
+|
+|t:|1685206683
+|switch|p1a: Amoonguss|Amoonguss, L84, F|329/329
+|turn|24
+|
+|t:|1685206686
+|move|p2a: Zygarde|Outrage|p1a: Amoonguss
+|-damage|p1a: Amoonguss|91/329
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Zygarde
+|-resisted|p2a: Zygarde
+|-end|p2a: Zygarde|Substitute
+|
+|-heal|p2a: Zygarde|278/418|[from] item: Leftovers
+|-heal|p1a: Amoonguss|111/329|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|t:|1685206689
+|move|p2a: Zygarde|Outrage|p1a: Amoonguss|[from]lockedmove
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|-start|p2a: Zygarde|confusion|[fatigue]
+|
+|win|i bada the bing
+|c|☆HolySteel|gg
+|c|☆i bada the bing|ggs

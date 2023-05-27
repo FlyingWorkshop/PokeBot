@@ -1,0 +1,71 @@
+|j|☆RobiJ
+|j|☆battlebob69
+|t:|1685150178
+|gametype|singles
+|player|p1|RobiJ|flannery|1100
+|player|p2|battlebob69|boarder|1080
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685150178
+|start
+|switch|p1a: Ribombee|Ribombee, L82, F|233/233
+|switch|p2a: Beheeyem|Beheeyem, L86, F|269/269
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RobiJ)
+|inactive|battlebob69 also wants the timer to be on.
+|
+|t:|1685150199
+|move|p1a: Ribombee|Sticky Web|p2a: Beheeyem
+|-sidestart|p2: battlebob69|move: Sticky Web
+|move|p2a: Beheeyem|Trick|p1a: Ribombee
+|-activate|p2a: Beheeyem|move: Trick|[of] p1a: Ribombee
+|-item|p1a: Ribombee|Choice Specs|[from] move: Trick
+|-item|p2a: Beheeyem|Focus Sash|[from] move: Trick
+|
+|upkeep
+|turn|2
+|inactive|battlebob69 has 120 seconds left.
+|
+|t:|1685150232
+|move|p1a: Ribombee|U-turn|p2a: Beheeyem
+|-supereffective|p2a: Beheeyem
+|-damage|p2a: Beheeyem|161/269
+|
+|t:|1685150235
+|switch|p1a: Tyranitar|Tyranitar, L78, F|284/284|[from] U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Beheeyem|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|211/284
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Beheeyem|145/269|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1685150245
+|move|p1a: Tyranitar|Crunch|p2a: Beheeyem
+|-supereffective|p2a: Beheeyem
+|-damage|p2a: Beheeyem|0 fnt
+|faint|p2a: Beheeyem
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1685150250
+|switch|p2a: Cofagrigus|Cofagrigus, L86, F|240/240
+|-activate|p2a: Cofagrigus|move: Sticky Web
+|-unboost|p2a: Cofagrigus|spe|1
+|turn|4
+|-message|battlebob69 forfeited.
+|
+|win|RobiJ
+|raw|RobiJ's rating: 1100 &rarr; <strong>1124</strong><br />(+24 for winning)
+|raw|battlebob69's rating: 1080 &rarr; <strong>1059</strong><br />(-21 for losing)
+|l|☆battlebob69

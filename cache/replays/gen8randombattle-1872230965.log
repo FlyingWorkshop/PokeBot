@@ -1,0 +1,312 @@
+|j|☆Fluore
+|j|☆Teres bahji
+|t:|1685200155
+|gametype|singles
+|player|p1|Fluore|#bltviiiturtwigs|
+|player|p2|Teres bahji|#rbtt6teamzarudef|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685200155
+|start
+|switch|p1a: Vanilluxe|Vanilluxe, L82, M|251/251
+|switch|p2a: Milotic|Milotic, L82, F|290/290
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fluore)
+|
+|t:|1685200169
+|move|p2a: Milotic|Toxic|p1a: Vanilluxe
+|-status|p1a: Vanilluxe|tox
+|move|p1a: Vanilluxe|Aurora Veil|p1a: Vanilluxe
+|-sidestart|p1: Fluore|move: Aurora Veil
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Milotic|272/290|[from] Hail
+|-heal|p2a: Milotic|290/290|[from] item: Leftovers
+|-damage|p1a: Vanilluxe|236/251 tox|[from] psn
+|upkeep
+|turn|2
+|c|☆Teres bahji|hf
+|c|☆Fluore|hf
+|
+|t:|1685200180
+|move|p2a: Milotic|Scald|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|195/251 tox
+|move|p1a: Vanilluxe|Explosion|p2a: Milotic
+|-damage|p2a: Milotic|120/290
+|faint|p1a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Milotic|102/290|[from] Hail
+|-heal|p2a: Milotic|120/290|[from] item: Leftovers
+|upkeep
+|
+|t:|1685200187
+|switch|p1a: Araquanid|Araquanid, L80, M|240/240
+|turn|3
+|
+|t:|1685200199
+|move|p2a: Milotic|Toxic|p1a: Araquanid
+|-status|p1a: Araquanid|tox
+|move|p1a: Araquanid|Toxic|p2a: Milotic
+|-status|p2a: Milotic|tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Milotic|102/290 tox|[from] Hail
+|-damage|p1a: Araquanid|225/240 tox|[from] Hail
+|-heal|p2a: Milotic|120/290 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|102/290 tox|[from] psn
+|-damage|p1a: Araquanid|210/240 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1685200207
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|247/290 tox
+|move|p1a: Araquanid|Sticky Web|p2a: Milotic
+|-sidestart|p2: Teres bahji|move: Sticky Web
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Milotic|229/290 tox|[from] Hail
+|-damage|p1a: Araquanid|195/240 tox|[from] Hail
+|-heal|p2a: Milotic|247/290 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|211/290 tox|[from] psn
+|-damage|p1a: Araquanid|165/240 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1685200213
+|switch|p2a: Trevenant|Trevenant, L86, F|286/286
+|-activate|p2a: Trevenant|move: Sticky Web
+|-unboost|p2a: Trevenant|spe|1
+|move|p1a: Araquanid|Mirror Coat||[still]
+|-fail|p1a: Araquanid
+|
+|-weather|none
+|-damage|p1a: Araquanid|120/240 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1685200221
+|move|p1a: Araquanid|Toxic|p2a: Trevenant
+|-status|p2a: Trevenant|tox
+|move|p2a: Trevenant|Trick Room|p2a: Trevenant
+|-fieldstart|move: Trick Room|[of] p2a: Trevenant
+|
+|-damage|p2a: Trevenant|269/286 tox|[from] psn
+|-damage|p1a: Araquanid|60/240 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1685200229
+|move|p2a: Trevenant|Poltergeist|p1a: Araquanid
+|-activate|p1a: Araquanid|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|-damage|p2a: Trevenant|241/286 tox|[from] item: Life Orb
+|
+|-damage|p2a: Trevenant|207/286 tox|[from] psn
+|upkeep
+|
+|t:|1685200231
+|switch|p1a: Diggersby|Diggersby, L80, M|267/267
+|turn|8
+|
+|t:|1685200240
+|switch|p1a: Arcanine|Arcanine, L82, M|282/282
+|move|p2a: Trevenant|Horn Leech|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|251/282
+|-heal|p2a: Trevenant|223/286 tox|[from] drain|[of] p1a: Arcanine
+|-damage|p2a: Trevenant|195/286 tox|[from] item: Life Orb
+|
+|-damage|p2a: Trevenant|144/286 tox|[from] psn
+|-sideend|p1: Fluore|move: Aurora Veil
+|upkeep
+|turn|9
+|
+|t:|1685200255
+|-curestatus|p2a: Trevenant|tox|[from] ability: Natural Cure
+|switch|p2a: Milotic|Milotic, L82, F|211/290 tox
+|-activate|p2a: Milotic|move: Sticky Web
+|-unboost|p2a: Milotic|spe|1
+|switch|p1a: Diggersby|Diggersby, L80, M|267/267
+|
+|-heal|p2a: Milotic|229/290 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|211/290 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1685200261
+|switch|p1a: Seaking|Seaking, L88, M|284/284
+|move|p2a: Milotic|Scald|p1a: Seaking
+|-resisted|p1a: Seaking
+|-damage|p1a: Seaking|243/284
+|
+|-heal|p2a: Milotic|229/290 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|193/290 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1685200267
+|move|p1a: Seaking|Swords Dance|p1a: Seaking
+|-boost|p1a: Seaking|atk|2
+|move|p2a: Milotic|Toxic|p1a: Seaking
+|-status|p1a: Seaking|tox
+|
+|-heal|p2a: Milotic|211/290 tox|[from] item: Leftovers
+|-damage|p1a: Seaking|226/284 tox|[from] psn
+|-damage|p2a: Milotic|157/290 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1685200276
+|move|p1a: Seaking|Megahorn|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|-damage|p1a: Seaking|198/284 tox|[from] item: Life Orb
+|
+|-damage|p1a: Seaking|164/284 tox|[from] psn
+|upkeep
+|
+|t:|1685200284
+|switch|p2a: Thundurus|Thundurus, L80, M|258/258
+|turn|13
+|
+|t:|1685200292
+|move|p2a: Thundurus|Thunderbolt|p1a: Seaking
+|-supereffective|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|faint|p1a: Seaking
+|
+|upkeep
+|
+|t:|1685200311
+|switch|p1a: Diggersby|Diggersby, L80, M|267/267
+|turn|14
+|
+|t:|1685200321
+|-start|p1a: Diggersby|Dynamax|
+|-heal|p1a: Diggersby|534/534|[silent]
+|move|p2a: Thundurus|Grass Knot||[still]
+|-fail|p2a: Thundurus|move: Grass Knot|[from] Dynamax
+|move|p1a: Diggersby|Max Strike|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|-damage|p1a: Diggersby|508/534|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685200330
+|switch|p2a: Trevenant|Trevenant, L86, F|144/286
+|-activate|p2a: Trevenant|move: Sticky Web
+|-unboost|p2a: Trevenant|spe|1
+|turn|15
+|
+|t:|1685200337
+|switch|p2a: Turtonator|Turtonator, L84, F|238/238
+|-activate|p2a: Turtonator|move: Sticky Web
+|-unboost|p2a: Turtonator|spe|1
+|-enditem|p2a: Turtonator|White Herb
+|-clearnegativeboost|p2a: Turtonator|[silent]
+|move|p1a: Diggersby|Max Quake|p2a: Turtonator
+|-supereffective|p2a: Turtonator
+|-damage|p2a: Turtonator|0 fnt
+|-boost|p1a: Diggersby|spd|1
+|faint|p2a: Turtonator
+|-damage|p1a: Diggersby|482/534|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685200342
+|switch|p2a: Trevenant|Trevenant, L86, F|144/286
+|-activate|p2a: Trevenant|move: Sticky Web
+|-unboost|p2a: Trevenant|spe|1
+|turn|16
+|
+|t:|1685200364
+|move|p1a: Diggersby|Max Quake|p2a: Trevenant
+|-resisted|p2a: Trevenant
+|-damage|p2a: Trevenant|15/286
+|-boost|p1a: Diggersby|spd|1
+|-damage|p1a: Diggersby|456/534|[from] item: Life Orb
+|move|p2a: Trevenant|Trick Room|p2a: Trevenant
+|-fieldstart|move: Trick Room|[of] p2a: Trevenant
+|
+|upkeep
+|-end|p1a: Diggersby|Dynamax
+|-heal|p1a: Diggersby|228/267|[silent]
+|turn|17
+|
+|t:|1685200373
+|switch|p1a: Arcanine|Arcanine, L82, M|251/282
+|move|p2a: Trevenant|Horn Leech|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|191/282
+|-heal|p2a: Trevenant|45/286|[from] drain|[of] p1a: Arcanine
+|-damage|p2a: Trevenant|17/286|[from] item: Life Orb
+|
+|upkeep
+|turn|18
+|
+|t:|1685200395
+|move|p2a: Trevenant|Poltergeist|p1a: Arcanine
+|-activate|p1a: Arcanine|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|-damage|p2a: Trevenant|0 fnt|[from] item: Life Orb
+|faint|p2a: Trevenant
+|
+|upkeep
+|
+|t:|1685200401
+|switch|p2a: Azumarill|Azumarill, L84, F|305/305
+|switch|p1a: Diggersby|Diggersby, L80, M|228/267
+|-activate|p2a: Azumarill|move: Sticky Web
+|-unboost|p2a: Azumarill|spe|1
+|turn|19
+|
+|t:|1685200406
+|move|p2a: Azumarill|Liquidation|p1a: Diggersby
+|-supereffective|p1a: Diggersby
+|-damage|p1a: Diggersby|0 fnt
+|faint|p1a: Diggersby
+|
+|upkeep
+|
+|t:|1685200408
+|switch|p1a: Solgaleo|Solgaleo, L72|316/316
+|turn|20
+|
+|t:|1685200413
+|-start|p2a: Azumarill|Dynamax|
+|-heal|p2a: Azumarill|610/610|[silent]
+|move|p2a: Azumarill|Max Geyser|p1a: Solgaleo
+|-damage|p1a: Solgaleo|153/316
+|-weather|RainDance
+|move|p1a: Solgaleo|Sunsteel Strike|p2a: Azumarill
+|-damage|p2a: Azumarill|453/610
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|21
+|
+|t:|1685200418
+|move|p1a: Solgaleo|Sunsteel Strike|p2a: Azumarill
+|-damage|p2a: Azumarill|297/610
+|move|p2a: Azumarill|Max Geyser|p1a: Solgaleo
+|-damage|p1a: Solgaleo|0 fnt
+|faint|p1a: Solgaleo
+|
+|win|Teres bahji
+|c|☆Fluore|ggs
+|c|☆Teres bahji|sorry
+|l|☆Fluore

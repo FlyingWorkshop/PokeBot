@@ -1,0 +1,378 @@
+|j|☆Wait2Seconds
+|j|☆SHONE
+|t:|1685182718
+|gametype|singles
+|player|p1|Wait2Seconds|#rbtt6teampalkia|
+|player|p2|SHONE|lady-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685182718
+|start
+|switch|p1a: Flapple|Flapple, L84, F|255/255
+|switch|p2a: Hitmontop|Hitmontop, L85, M|224/224
+|turn|1
+|c|☆Wait2Seconds|hf
+|c|☆SHONE|glhf
+|
+|t:|1685182750
+|switch|p1a: Alcremie|Alcremie, L86, F|252/252
+|move|p2a: Hitmontop|Triple Axel|p1a: Alcremie
+|-damage|p1a: Alcremie|227/252
+|-damage|p1a: Alcremie|178/252
+|-hitcount|p1a: Alcremie|2
+|
+|-heal|p1a: Alcremie|193/252|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685182787
+|switch|p2a: Pikachu|Pikachu-World, L92, M|214/214
+|move|p1a: Alcremie|Psychic|p2a: Pikachu
+|-damage|p2a: Pikachu|114/214
+|
+|-heal|p1a: Alcremie|208/252|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685182813
+|switch|p1a: Flapple|Flapple, L84, F|255/255
+|move|p2a: Pikachu|Iron Tail|p1a: Flapple
+|-damage|p1a: Flapple|134/255
+|-unboost|p1a: Flapple|def|1
+|
+|upkeep
+|turn|4
+|
+|t:|1685182833
+|switch|p1a: Bewear|Bewear, L82, F|331/331
+|move|p2a: Pikachu|Iron Tail|p1a: Bewear
+|-damage|p1a: Bewear|266/331
+|
+|upkeep
+|turn|5
+|
+|t:|1685182851
+|switch|p2a: Hitmontop|Hitmontop, L85, M|224/224
+|move|p1a: Bewear|Close Combat|p2a: Hitmontop
+|-damage|p2a: Hitmontop|45/224
+|-unboost|p1a: Bewear|def|1
+|-unboost|p1a: Bewear|spd|1
+|-damage|p1a: Bewear|233/331|[from] item: Life Orb
+|
+|-heal|p2a: Hitmontop|59/224|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685182868
+|switch|p1a: Alcremie|Alcremie, L86, F|208/252
+|move|p2a: Hitmontop|Close Combat|p1a: Alcremie
+|-resisted|p1a: Alcremie
+|-damage|p1a: Alcremie|140/252
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|
+|-heal|p2a: Hitmontop|73/224|[from] item: Leftovers
+|-heal|p1a: Alcremie|155/252|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685182882
+|move|p2a: Hitmontop|Toxic|p1a: Alcremie
+|-status|p1a: Alcremie|tox
+|move|p1a: Alcremie|Recover|p1a: Alcremie
+|-heal|p1a: Alcremie|252/252 tox
+|
+|-heal|p2a: Hitmontop|87/224|[from] item: Leftovers
+|-damage|p1a: Alcremie|237/252 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1685182891
+|switch|p2a: Audino|Audino, L91, F|335/335
+|move|p1a: Alcremie|Psychic|p2a: Audino
+|-damage|p2a: Audino|261/335
+|
+|-heal|p1a: Alcremie|252/252 tox|[from] item: Leftovers
+|-heal|p2a: Audino|281/335|[from] item: Leftovers
+|-damage|p1a: Alcremie|222/252 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1685182901
+|switch|p1a: Gigalith|Gigalith, L82, F|274/274
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Audino|Wish|p2a: Audino
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Audino|261/335|[from] Sandstorm
+|-heal|p2a: Audino|281/335|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685182914
+|move|p2a: Audino|Knock Off|p1a: Gigalith
+|-damage|p1a: Gigalith|230/274
+|-enditem|p1a: Gigalith|Choice Band|[from] move: Knock Off|[of] p2a: Audino
+|move|p1a: Gigalith|Superpower|p2a: Audino
+|-supereffective|p2a: Audino
+|-crit|p2a: Audino
+|-damage|p2a: Audino|9/335
+|-unboost|p1a: Gigalith|atk|1
+|-unboost|p1a: Gigalith|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Audino|0 fnt|[from] Sandstorm
+|faint|p2a: Audino
+|upkeep
+|
+|t:|1685182936
+|switch|p2a: Hitmontop|Hitmontop, L85, M|87/224
+|turn|11
+|
+|t:|1685182953
+|switch|p1a: Alcremie|Alcremie, L86, F|222/252 tox
+|move|p2a: Hitmontop|Triple Axel|p1a: Alcremie
+|-damage|p1a: Alcremie|198/252 tox
+|-damage|p1a: Alcremie|152/252 tox
+|-damage|p1a: Alcremie|82/252 tox
+|-hitcount|p1a: Alcremie|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hitmontop|73/224|[from] Sandstorm
+|-damage|p1a: Alcremie|67/252 tox|[from] Sandstorm
+|-heal|p2a: Hitmontop|87/224|[from] item: Leftovers
+|-heal|p1a: Alcremie|82/252 tox|[from] item: Leftovers
+|-damage|p1a: Alcremie|67/252 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1685182981
+|move|p2a: Hitmontop|Close Combat|p1a: Alcremie
+|-resisted|p1a: Alcremie
+|-damage|p1a: Alcremie|0 fnt
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|faint|p1a: Alcremie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hitmontop|73/224|[from] Sandstorm
+|-heal|p2a: Hitmontop|87/224|[from] item: Leftovers
+|upkeep
+|
+|t:|1685183007
+|switch|p1a: Kyogre|Kyogre, L72|263/263
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|13
+|
+|t:|1685183026
+|switch|p2a: Froslass|Froslass, L84, F|255/255
+|move|p1a: Kyogre|Origin Pulse|p2a: Froslass|[miss]
+|-miss|p1a: Kyogre|p2a: Froslass
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1685183035
+|move|p2a: Froslass|Poltergeist|p1a: Kyogre
+|-activate|p1a: Kyogre|move: Poltergeist|Leftovers
+|-crit|p1a: Kyogre
+|-damage|p1a: Kyogre|85/263
+|move|p1a: Kyogre|Thunder|p2a: Froslass
+|-damage|p2a: Froslass|162/255
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyogre|101/263|[from] item: Leftovers
+|upkeep
+|turn|15
+|c|☆Wait2Seconds|^^
+|
+|t:|1685183053
+|switch|p1a: Gigalith|Gigalith, L82, F|230/274
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Froslass|Triple Axel|p1a: Gigalith
+|-damage|p1a: Gigalith|215/274
+|-damage|p1a: Gigalith|188/274
+|-damage|p1a: Gigalith|148/274
+|-hitcount|p1a: Gigalith|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Froslass|147/255|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|t:|1685183078
+|move|p2a: Froslass|Destiny Bond|p2a: Froslass
+|-singlemove|p2a: Froslass|Destiny Bond
+|move|p1a: Gigalith|Earthquake|p2a: Froslass
+|-damage|p2a: Froslass|47/255
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Froslass|32/255|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|t:|1685183091
+|switch|p1a: Kyogre|Kyogre, L72|101/263
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|move|p2a: Froslass|Poltergeist|p1a: Kyogre
+|-activate|p1a: Kyogre|move: Poltergeist|Leftovers
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Wait2Seconds|w/e
+|
+|t:|1685183105
+|switch|p1a: Gigalith|Gigalith, L82, F|148/274
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|18
+|
+|t:|1685183115
+|move|p2a: Froslass|Poltergeist||[still]
+|-fail|p2a: Froslass
+|move|p1a: Gigalith|Earthquake|p2a: Froslass
+|-damage|p2a: Froslass|0 fnt
+|faint|p2a: Froslass
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1685183126
+|switch|p2a: Hitmontop|Hitmontop, L85, M|87/224
+|turn|19
+|
+|t:|1685183131
+|switch|p1a: Solrock|Solrock, L88|302/302
+|move|p2a: Hitmontop|Close Combat|p1a: Solrock
+|-damage|p1a: Solrock|178/302
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hitmontop|73/224|[from] Sandstorm
+|-heal|p1a: Solrock|196/302|[from] item: Leftovers
+|-heal|p2a: Hitmontop|87/224|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Wait2Seconds)
+|inactive|SHONE has 270 seconds left.
+|
+|t:|1685183196
+|switch|p2a: Rapidash|Rapidash, L84, M|246/246
+|move|p1a: Solrock|Earthquake|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|70/246
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rapidash|55/246|[from] Sandstorm
+|-heal|p1a: Solrock|214/302|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1685183222
+|move|p2a: Rapidash|Flare Blitz|p1a: Solrock
+|-resisted|p1a: Solrock
+|-damage|p1a: Solrock|149/302
+|-damage|p2a: Rapidash|34/246|[from] Recoil
+|move|p1a: Solrock|Stealth Rock|p2a: Rapidash
+|-sidestart|p2: SHONE|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rapidash|19/246|[from] Sandstorm
+|-heal|p1a: Solrock|167/302|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1685183233
+|move|p2a: Rapidash|Swords Dance|p2a: Rapidash
+|-boost|p2a: Rapidash|atk|2
+|move|p1a: Solrock|Morning Sun|p1a: Solrock
+|-heal|p1a: Solrock|242/302
+|
+|-weather|none
+|-heal|p1a: Solrock|260/302|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1685183242
+|move|p2a: Rapidash|Flare Blitz|p1a: Solrock
+|-resisted|p1a: Solrock
+|-damage|p1a: Solrock|125/302
+|-damage|p2a: Rapidash|0 fnt|[from] Recoil
+|faint|p2a: Rapidash
+|move|p1a: Solrock|Earthquake|p2: Rapidash|[notarget]
+|-fail|p1a: Solrock
+|
+|-heal|p1a: Solrock|143/302|[from] item: Leftovers
+|upkeep
+|
+|t:|1685183256
+|switch|p2a: Cobalion|Cobalion, L78|270/270
+|-damage|p2a: Cobalion|262/270|[from] Stealth Rock
+|turn|24
+|
+|t:|1685183277
+|-start|p2a: Cobalion|Dynamax|
+|-heal|p2a: Cobalion|524/540|[silent]
+|-start|p1a: Solrock|Dynamax|
+|-heal|p1a: Solrock|286/604|[silent]
+|move|p2a: Cobalion|Max Steelspike|p1a: Solrock
+|-supereffective|p1a: Solrock
+|-damage|p1a: Solrock|64/604
+|-boost|p2a: Cobalion|def|1
+|move|p1a: Solrock|Max Quake|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|410/540
+|-boost|p1a: Solrock|spd|1
+|
+|-heal|p1a: Solrock|82/604|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1685183288
+|move|p2a: Cobalion|Max Knuckle|p1a: Solrock
+|-damage|p1a: Solrock|7/604
+|-boost|p2a: Cobalion|atk|1
+|move|p1a: Solrock|Max Quake|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|294/540
+|-boost|p1a: Solrock|spd|1
+|
+|-heal|p1a: Solrock|25/604|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1685183295
+|move|p1a: Solrock|Max Guard|p1a: Solrock
+|-singleturn|p1a: Solrock|Max Guard
+|move|p2a: Cobalion|Max Knuckle|p1a: Solrock
+|-activate|p1a: Solrock|move: Max Guard
+|
+|-heal|p1a: Solrock|43/604|[from] item: Leftovers
+|upkeep
+|-end|p2a: Cobalion|Dynamax
+|-heal|p2a: Cobalion|147/270|[silent]
+|-end|p1a: Solrock|Dynamax
+|-heal|p1a: Solrock|22/302|[silent]
+|turn|27
+|
+|t:|1685183299
+|move|p2a: Cobalion|Iron Head|p1a: Solrock
+|-supereffective|p1a: Solrock
+|-damage|p1a: Solrock|0 fnt
+|faint|p1a: Solrock
+|
+|upkeep
+|-message|Wait2Seconds forfeited.
+|
+|win|SHONE
+|l|☆Wait2Seconds
+|c|☆SHONE|gg wp

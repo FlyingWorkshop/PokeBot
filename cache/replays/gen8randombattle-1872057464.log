@@ -1,0 +1,465 @@
+|j|☆mikeyuwu
+|j|☆jaidenblasck
+|t:|1685169909
+|gametype|singles
+|player|p1|mikeyuwu|psychic-gen4|1395
+|player|p2|jaidenblasck|101|1377
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685169909
+|start
+|switch|p1a: Spectrier|Spectrier, L74|270/270
+|switch|p2a: Bouffalant|Bouffalant, L84, M|297/297
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mikeyuwu)
+|
+|t:|1685169944
+|switch|p1a: Rillaboom|Rillaboom, L78, M|284/284
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Bouffalant|Earthquake|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|262/284
+|
+|-heal|p1a: Rillaboom|279/284|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1685169953
+|switch|p2a: Heracross|Heracross, L82, F|265/265
+|move|p1a: Rillaboom|U-turn|p2a: Heracross
+|-resisted|p2a: Heracross
+|-damage|p2a: Heracross|216/265
+|
+|t:|1685169960
+|switch|p1a: Tornadus|Tornadus, L80, M|258/258|[from] U-turn
+|
+|-heal|p2a: Heracross|232/265|[from] Grassy Terrain
+|-status|p2a: Heracross|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1685169970
+|switch|p2a: Magmortar|Magmortar, L86, M|269/269
+|move|p1a: Tornadus|Heat Wave|p2a: Magmortar
+|-resisted|p2a: Magmortar
+|-damage|p2a: Magmortar|235/269
+|
+|-heal|p2a: Magmortar|251/269|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1685169978
+|switch|p1a: Coalossal|Coalossal, L87, M|333/333
+|move|p2a: Magmortar|Fire Blast|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|299/333
+|
+|-heal|p2a: Magmortar|267/269|[from] Grassy Terrain
+|-heal|p1a: Coalossal|319/333|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1685169994
+|move|p2a: Magmortar|Earthquake|p1a: Coalossal
+|-supereffective|p1a: Coalossal
+|-damage|p1a: Coalossal|215/333
+|move|p1a: Coalossal|Stealth Rock|p2a: Magmortar
+|-sidestart|p2: jaidenblasck|move: Stealth Rock
+|
+|-heal|p2a: Magmortar|269/269|[from] Grassy Terrain
+|-heal|p1a: Coalossal|235/333|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1685170003
+|switch|p1a: Rillaboom|Rillaboom, L78, M|279/284
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Magmortar|Earthquake|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|260/284
+|
+|-heal|p1a: Rillaboom|277/284|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1685170014
+|switch|p1a: Dracozolt|Dracozolt, L78|268/268
+|move|p2a: Magmortar|Fire Blast|p1a: Dracozolt
+|-resisted|p1a: Dracozolt
+|-damage|p1a: Dracozolt|176/268
+|
+|-heal|p1a: Dracozolt|192/268|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1685170025
+|move|p1a: Dracozolt|Outrage|p2a: Magmortar|[miss]
+|-miss|p1a: Dracozolt|p2a: Magmortar
+|move|p2a: Magmortar|Earthquake|p1a: Dracozolt
+|-supereffective|p1a: Dracozolt
+|-damage|p1a: Dracozolt|116/268
+|
+|-heal|p1a: Dracozolt|132/268|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1685170040
+|move|p1a: Dracozolt|Outrage|p2a: Magmortar
+|-damage|p2a: Magmortar|52/269
+|move|p2a: Magmortar|Earthquake|p1a: Dracozolt
+|-supereffective|p1a: Dracozolt
+|-damage|p1a: Dracozolt|52/268
+|
+|-heal|p1a: Dracozolt|68/268|[from] Grassy Terrain
+|-heal|p2a: Magmortar|68/269|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1685170050
+|switch|p2a: Corviknight|Corviknight, L78, M|281/281
+|-damage|p2a: Corviknight|246/281|[from] Stealth Rock
+|move|p1a: Dracozolt|Outrage|p2a: Corviknight|[from]lockedmove
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|168/281
+|
+|-heal|p1a: Dracozolt|84/268|[from] Grassy Terrain
+|-heal|p2a: Corviknight|185/281|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1685170063
+|move|p1a: Dracozolt|Outrage|p2a: Corviknight|[from]lockedmove
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|111/281
+|-start|p1a: Dracozolt|confusion|[fatigue]
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|128/281|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685170070
+|switch|p1a: Ninetales|Ninetales, L82, M|254/254
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|269/281
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Corviknight|281/281|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685170081
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|2
+|move|p2a: Corviknight|Body Press|p1a: Ninetales
+|-damage|p1a: Ninetales|165/254
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1685170086
+|switch|p2a: Magmortar|Magmortar, L86, M|68/269
+|move|p1a: Ninetales|Fire Blast|p2a: Magmortar|[miss]
+|-miss|p1a: Ninetales|p2a: Magmortar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1685170093
+|-start|p1a: Ninetales|Dynamax|
+|-heal|p1a: Ninetales|330/508|[silent]
+|move|p1a: Ninetales|Max Flare|p2a: Magmortar
+|-resisted|p2a: Magmortar
+|-damage|p2a: Magmortar|0 fnt
+|faint|p2a: Magmortar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685170099
+|switch|p2a: Wobbuffet|Wobbuffet, L92, M|499/499
+|-damage|p2a: Wobbuffet|437/499|[from] Stealth Rock
+|turn|16
+|
+|t:|1685170106
+|move|p1a: Ninetales|Max Flare|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|23/499
+|-enditem|p2a: Wobbuffet|Sitrus Berry|[eat]
+|-heal|p2a: Wobbuffet|147/499|[from] item: Sitrus Berry
+|move|p2a: Wobbuffet|Mirror Coat|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|none
+|upkeep
+|
+|t:|1685170111
+|switch|p1a: Rillaboom|Rillaboom, L78, M|277/284
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|17
+|
+|t:|1685170116
+|move|p1a: Rillaboom|Grassy Glide|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|0 fnt
+|faint|p2a: Wobbuffet
+|
+|-heal|p1a: Rillaboom|284/284|[from] Grassy Terrain
+|upkeep
+|
+|t:|1685170126
+|switch|p2a: Corviknight|Corviknight, L78, M|281/281
+|-damage|p2a: Corviknight|246/281|[from] Stealth Rock
+|turn|18
+|
+|t:|1685170130
+|switch|p1a: Spectrier|Spectrier, L74|270/270
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|263/281|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1685170138
+|move|p1a: Spectrier|Substitute|p1a: Spectrier
+|-start|p1a: Spectrier|Substitute
+|-damage|p1a: Spectrier|203/270
+|move|p2a: Corviknight|Brave Bird|p1a: Spectrier
+|-end|p1a: Spectrier|Substitute
+|-damage|p2a: Corviknight|241/281|[from] Recoil|[of] p1a: Spectrier
+|
+|-heal|p1a: Spectrier|219/270|[from] Grassy Terrain
+|-heal|p1a: Spectrier|235/270|[from] item: Leftovers
+|-heal|p2a: Corviknight|258/281|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1685170148
+|switch|p1a: Coalossal|Coalossal, L87, M|235/333
+|move|p2a: Corviknight|Brave Bird|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|181/333
+|-status|p2a: Corviknight|brn|[from] ability: Flame Body|[of] p1a: Coalossal
+|-damage|p2a: Corviknight|240/281 brn|[from] Recoil
+|
+|-heal|p2a: Corviknight|257/281 brn|[from] item: Leftovers
+|-heal|p1a: Coalossal|201/333|[from] Grassy Terrain
+|-damage|p2a: Corviknight|240/281 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1685170155
+|switch|p1a: Spectrier|Spectrier, L74|235/270
+|move|p2a: Corviknight|Body Press|p1a: Spectrier
+|-immune|p1a: Spectrier
+|
+|-heal|p1a: Spectrier|251/270|[from] Grassy Terrain
+|-heal|p1a: Spectrier|267/270|[from] item: Leftovers
+|-heal|p2a: Corviknight|257/281 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|240/281 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|22
+|
+|t:|1685170163
+|move|p1a: Spectrier|Substitute|p1a: Spectrier
+|-start|p1a: Spectrier|Substitute
+|-damage|p1a: Spectrier|200/270
+|move|p2a: Corviknight|Brave Bird|p1a: Spectrier
+|-end|p1a: Spectrier|Substitute
+|-damage|p2a: Corviknight|218/281 brn|[from] Recoil|[of] p1a: Spectrier
+|
+|-heal|p1a: Spectrier|216/270|[from] item: Leftovers
+|-heal|p2a: Corviknight|235/281 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|218/281 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1685170173
+|switch|p1a: Tornadus|Tornadus, L80, M|258/258
+|move|p2a: Corviknight|Brave Bird|p1a: Tornadus
+|-damage|p1a: Tornadus|166/258
+|-damage|p2a: Corviknight|188/281 brn|[from] Recoil
+|
+|-heal|p2a: Corviknight|205/281 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|188/281 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1685170178
+|move|p1a: Tornadus|Heat Wave|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|20/281 brn
+|move|p2a: Corviknight|Brave Bird|p1a: Tornadus
+|-damage|p1a: Tornadus|71/258
+|-damage|p2a: Corviknight|0 fnt|[from] Recoil
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1685170195
+|switch|p2a: Articuno|Articuno-Galar, L80|275/275
+|turn|25
+|
+|t:|1685170209
+|move|p1a: Tornadus|Hurricane|p2a: Articuno
+|-damage|p2a: Articuno|151/275
+|move|p2a: Articuno|Freezing Glare|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|
+|t:|1685170214
+|switch|p1a: Spectrier|Spectrier, L74|216/270
+|turn|26
+|
+|t:|1685170222
+|move|p1a: Spectrier|Substitute|p1a: Spectrier
+|-start|p1a: Spectrier|Substitute
+|-damage|p1a: Spectrier|149/270
+|move|p2a: Articuno|Air Slash|p1a: Spectrier
+|-end|p1a: Spectrier|Substitute
+|
+|-heal|p1a: Spectrier|165/270|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1685170227
+|move|p1a: Spectrier|Shadow Ball|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|-ability|p1a: Spectrier|Grim Neigh|boost
+|-boost|p1a: Spectrier|spa|1
+|
+|-heal|p1a: Spectrier|181/270|[from] item: Leftovers
+|upkeep
+|
+|t:|1685170234
+|switch|p2a: Heracross|Heracross, L82, F|232/265 brn
+|-damage|p2a: Heracross|199/265 brn|[from] Stealth Rock
+|turn|28
+|
+|t:|1685170238
+|move|p1a: Spectrier|Substitute|p1a: Spectrier
+|-start|p1a: Spectrier|Substitute
+|-damage|p1a: Spectrier|114/270
+|move|p2a: Heracross|Knock Off|p1a: Spectrier
+|-supereffective|p1a: Spectrier
+|-end|p1a: Spectrier|Substitute
+|
+|-heal|p1a: Spectrier|130/270|[from] item: Leftovers
+|-damage|p2a: Heracross|183/265 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1685170246
+|move|p1a: Spectrier|Dark Pulse|p2a: Heracross
+|-resisted|p2a: Heracross
+|-damage|p2a: Heracross|139/265 brn
+|move|p2a: Heracross|Knock Off|p1a: Spectrier
+|-supereffective|p1a: Spectrier
+|-damage|p1a: Spectrier|0 fnt
+|-enditem|p1a: Spectrier|Leftovers|[from] move: Knock Off|[of] p2a: Heracross
+|faint|p1a: Spectrier
+|
+|-damage|p2a: Heracross|123/265 brn|[from] brn
+|upkeep
+|
+|t:|1685170252
+|switch|p1a: Rillaboom|Rillaboom, L78, M|284/284
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|30
+|
+|t:|1685170266
+|-start|p2a: Heracross|Dynamax|
+|-heal|p2a: Heracross|246/530 brn|[silent]
+|move|p2a: Heracross|Max Knuckle|p1a: Rillaboom
+|-damage|p1a: Rillaboom|107/284
+|-boost|p2a: Heracross|atk|1
+|move|p1a: Rillaboom|U-turn|p2a: Heracross
+|-resisted|p2a: Heracross
+|-damage|p2a: Heracross|202/530 brn
+|
+|t:|1685170274
+|switch|p1a: Dracozolt|Dracozolt, L78|84/268|[from] U-turn
+|
+|-heal|p1a: Dracozolt|100/268|[from] Grassy Terrain
+|-heal|p2a: Heracross|218/530 brn|[from] Grassy Terrain
+|-damage|p2a: Heracross|202/530 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1685170279
+|move|p1a: Dracozolt|Aerial Ace|p2a: Heracross
+|-supereffective|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|
+|-heal|p1a: Dracozolt|116/268|[from] Grassy Terrain
+|upkeep
+|
+|t:|1685170283
+|switch|p2a: Bouffalant|Bouffalant, L84, M|297/297
+|-damage|p2a: Bouffalant|260/297|[from] Stealth Rock
+|turn|32
+|
+|t:|1685170293
+|move|p1a: Dracozolt|Aerial Ace|p2a: Bouffalant
+|-damage|p2a: Bouffalant|204/297
+|move|p2a: Bouffalant|Close Combat|p1a: Dracozolt
+|-damage|p1a: Dracozolt|21/268
+|-unboost|p2a: Bouffalant|def|1
+|-unboost|p2a: Bouffalant|spd|1
+|
+|-heal|p1a: Dracozolt|37/268|[from] Grassy Terrain
+|-heal|p2a: Bouffalant|222/297|[from] Grassy Terrain
+|-heal|p2a: Bouffalant|240/297|[from] item: Leftovers
+|upkeep
+|turn|33
+|c|☆mikeyuwu|Gg
+|c|☆mikeyuwu|Long match, ypu love to see it
+|
+|t:|1685170303
+|move|p1a: Dracozolt|Aerial Ace|p2a: Bouffalant
+|-damage|p2a: Bouffalant|155/297
+|move|p2a: Bouffalant|Head Charge|p1a: Dracozolt
+|-damage|p1a: Dracozolt|0 fnt
+|faint|p1a: Dracozolt
+|-damage|p2a: Bouffalant|146/297|[from] Recoil
+|
+|-heal|p2a: Bouffalant|164/297|[from] Grassy Terrain
+|-heal|p2a: Bouffalant|182/297|[from] item: Leftovers
+|upkeep
+|
+|t:|1685170306
+|switch|p1a: Rillaboom|Rillaboom, L78, M|107/284
+|turn|34
+|
+|t:|1685170311
+|move|p1a: Rillaboom|Wood Hammer|p2a: Bouffalant
+|-damage|p2a: Bouffalant|0 fnt
+|faint|p2a: Bouffalant
+|-damage|p1a: Rillaboom|47/284|[from] Recoil
+|
+|win|mikeyuwu
+|raw|mikeyuwu's rating: 1395 &rarr; <strong>1414</strong><br />(+19 for winning)
+|raw|jaidenblasck's rating: 1377 &rarr; <strong>1358</strong><br />(-19 for losing)
+|l|☆jaidenblasck
