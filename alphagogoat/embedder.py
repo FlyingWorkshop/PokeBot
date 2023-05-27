@@ -10,8 +10,10 @@ from poke_env.environment.move import Move
 from poke_env.environment.pokemon import Pokemon
 from poke_env.environment.side_condition import SideCondition
 from poke_env.environment.status import Status
+from poke_env.environment.weather import Weather
+from poke_env.environment.field import Field
 
-from .catalogs import Item, VolatileStatus, SIDE_COND_MAP, Ability
+from .catalogs import Item, VolatileStatus, SIDE_COND_MAP, Ability, MoveEnum
 from .pokedex import POKEDEX
 
 # from pokedex import POKEDEX
@@ -91,6 +93,38 @@ class Embedder:
     def __init__(self):
         pass
 
+    def _embed_conditions(self, battle: Battle) -> torch.FloatTensor:
+        # takes in a battle object, and returns a tensor filled with the 
+        # side conditions of both sides, field, and weather of both sides
+        embed = []
+        for side_condition in SideCondition:
+            if side_condition in battle.side_conditions and battle.side_conditions[side_condition]:
+                embed.append(battle.side_conditions[side_condition])
+            else:
+                embed.append(0)
+        
+        for side_condition in SideCondition:
+            if side_condition in battle.opponent_side_conditions and battle.opponent_side_conditions[side_condition]:
+                embed.append(battle.opponent_side_conditions[side_condition])
+            else:
+                embed.append(0)
+        
+        for w in Weather:
+            if w in battle.weather and battle.weather[w]:
+                embed.append(battle.weather[w])
+            else:
+                embed.append(0)
+        
+        for f in Field:
+            if f in battle.fields and battle.fields[f]:
+                embed.append(battle.fields[f])
+            else:
+                embed.append(0)
+        
+        return torch.FloatTensor(embed)
+
+
+            
     def _embed_move(self, id: str, prob: float) -> torch.Tensor:
         """
         >>> embedder = Embedder()

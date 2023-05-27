@@ -81,7 +81,7 @@ def make_data(filepath):
 
 def main():
     json_files = [filepath for filepath in Path("cache/replays").iterdir() if filepath.name.endswith('.json')]
-    dataset = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(json_files))
+    dataset = Parallel(n_jobs=12)(delayed(make_data)(filepath) for filepath in tqdm(json_files[:5]))
     delphox = Delphox(LSTM_INPUT_SIZE).to(device=device)
     train(delphox, dataset)
 
