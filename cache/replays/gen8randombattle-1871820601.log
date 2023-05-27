@@ -1,0 +1,178 @@
+|j|☆Satanitar
+|j|☆gareeb adani
+|t:|1685133987
+|gametype|singles
+|player|p1|Satanitar|169|1354
+|player|p2|gareeb adani|2|1506
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685133987
+|start
+|switch|p1a: Kartana|Kartana, L74|209/209
+|switch|p2a: Volcarona|Volcarona, L76, F|254/254
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gareeb adani)
+|
+|t:|1685134028
+|switch|p1a: Corsola|Corsola-Galar, L84, M|238/238
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1685134041
+|move|p2a: Volcarona|Fire Blast|p1a: Corsola
+|-damage|p1a: Corsola|121/238
+|-start|p2a: Volcarona|Disable|Fire Blast|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Haze|p1a: Corsola
+|-clearallboost
+|
+|upkeep
+|turn|3
+|
+|t:|1685134051
+|switch|p2a: Decidueye|Decidueye, L86, M|274/274
+|switch|p1a: Keldeo|Keldeo-Resolute, L79|273/273
+|
+|upkeep
+|turn|4
+|
+|t:|1685134067
+|move|p1a: Keldeo|Air Slash|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|164/274
+|move|p2a: Decidueye|Leaf Blade|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|39/273
+|
+|upkeep
+|turn|5
+|
+|t:|1685134074
+|switch|p2a: Corsola|Corsola-Galar, L84, F|238/238
+|move|p1a: Keldeo|Air Slash|p2a: Corsola
+|-damage|p2a: Corsola|204/238
+|
+|upkeep
+|turn|6
+|
+|t:|1685134103
+|switch|p1a: Jolteon|Jolteon, L82, F|241/241
+|move|p2a: Corsola|Stealth Rock|p1a: Jolteon
+|-sidestart|p1: Satanitar|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|inactive|gareeb adani has 120 seconds left.
+|
+|t:|1685134121
+|move|p1a: Jolteon|Shadow Ball|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|86/238
+|-start|p1a: Jolteon|Disable|Shadow Ball|[from] ability: Cursed Body|[of] p2a: Corsola
+|move|p2a: Corsola|Night Shade|p1a: Jolteon
+|-damage|p1a: Jolteon|157/241
+|
+|upkeep
+|turn|8
+|
+|t:|1685134132
+|switch|p1a: Kartana|Kartana, L74|209/209
+|-damage|p1a: Kartana|196/209|[from] Stealth Rock
+|move|p2a: Corsola|Strength Sap|p1a: Kartana
+|-unboost|p1a: Kartana|atk|1
+|-heal|p2a: Corsola|238/238
+|
+|upkeep
+|turn|9
+|inactive|gareeb adani has 120 seconds left.
+|
+|t:|1685134174
+|move|p1a: Kartana|Knock Off|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|142/238
+|-enditem|p2a: Corsola|Eviolite|[from] move: Knock Off|[of] p1a: Kartana
+|-damage|p1a: Kartana|176/209|[from] item: Life Orb
+|move|p2a: Corsola|Will-O-Wisp|p1a: Kartana
+|-status|p1a: Kartana|brn
+|
+|-damage|p1a: Kartana|163/209 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1685134192
+|move|p1a: Kartana|Knock Off|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|93/238
+|-damage|p1a: Kartana|143/209 brn|[from] item: Life Orb
+|move|p2a: Corsola|Strength Sap|p1a: Kartana
+|-unboost|p1a: Kartana|atk|1
+|-heal|p2a: Corsola|238/238
+|
+|-damage|p1a: Kartana|130/209 brn|[from] brn
+|upkeep
+|turn|11
+|inactive|gareeb adani has 90 seconds left.
+|inactive|gareeb adani has 60 seconds left.
+|
+|t:|1685134256
+|switch|p1a: Jolteon|Jolteon, L82, F|157/241
+|-damage|p1a: Jolteon|127/241|[from] Stealth Rock
+|move|p2a: Corsola|Night Shade|p1a: Jolteon
+|-damage|p1a: Jolteon|43/241
+|
+|upkeep
+|turn|12
+|inactive|Satanitar has 120 seconds left.
+|
+|t:|1685134307
+|move|p1a: Jolteon|Shadow Ball|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|84/238
+|-unboost|p2a: Corsola|spd|1
+|move|p2a: Corsola|Night Shade|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|upkeep
+|inactive|Satanitar has 90 seconds left.
+|
+|t:|1685134335
+|switch|p1a: Dragapult|Dragapult, L78, M|265/265
+|-damage|p1a: Dragapult|232/265|[from] Stealth Rock
+|turn|13
+|
+|t:|1685134351
+|move|p1a: Dragapult|Shadow Ball|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-crit|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|t:|1685134355
+|switch|p2a: Magmortar|Magmortar, L86, M|269/269
+|turn|14
+|inactive|Satanitar has 90 seconds left.
+|inactive|Satanitar has 60 seconds left.
+|inactive|Satanitar has 30 seconds left.
+|inactive|Satanitar has 20 seconds left.
+|inactive|Satanitar has 15 seconds left.
+|inactive|Satanitar has 10 seconds left.
+|inactive|Satanitar has 5 seconds left.
+|-message|Satanitar lost due to inactivity.
+|
+|win|gareeb adani
+|raw|Satanitar's rating: 1354 &rarr; <strong>1343</strong><br />(-11 for losing)
+|raw|gareeb adani's rating: 1517 &rarr; <strong>1528</strong><br />(+11 for winning)

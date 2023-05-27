@@ -1,0 +1,202 @@
+|j|☆ITACHI37
+|j|☆MyPasswordIsPeePee
+|t:|1685115300
+|gametype|singles
+|player|p1|ITACHI37|red|1471
+|player|p2|MyPasswordIsPeePee|102|1654
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685115300
+|start
+|switch|p1a: Rhyperior|Rhyperior, L82, M|323/323
+|switch|p2a: Bronzong|Bronzong, L83|247/247
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ITACHI37)
+|
+|t:|1685115339
+|switch|p1a: Absol|Absol, L84, M|246/246
+|move|p2a: Bronzong|Stealth Rock|p1a: Absol
+|-sidestart|p1: ITACHI37|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1685115346
+|switch|p2a: Passimian|Passimian, L82, M|298/298
+|move|p1a: Absol|Knock Off|p2a: Passimian
+|-resisted|p2a: Passimian
+|-damage|p2a: Passimian|202/298
+|-enditem|p2a: Passimian|Choice Band|[from] move: Knock Off|[of] p1a: Absol
+|
+|upkeep
+|turn|3
+|
+|t:|1685115357
+|switch|p1a: Togekiss|Togekiss, L80, M|267/267
+|move|p2a: Passimian|Knock Off|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-crit|p1a: Togekiss
+|-damage|p1a: Togekiss|211/267
+|-enditem|p1a: Togekiss|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Passimian
+|
+|upkeep
+|turn|4
+|
+|t:|1685115367
+|move|p2a: Passimian|U-turn|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|199/267
+|
+|t:|1685115368
+|switch|p2a: Bronzong|Bronzong, L83|247/247|[from] U-turn
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|
+|upkeep
+|turn|5
+|
+|t:|1685115386
+|switch|p1a: Absol|Absol, L84, M|246/246
+|-damage|p1a: Absol|216/246|[from] Stealth Rock
+|move|p2a: Bronzong|Toxic|p1a: Absol
+|-status|p1a: Absol|tox
+|
+|-damage|p1a: Absol|201/246 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1685115397
+|switch|p2a: Garbodor|Garbodor, L87, F|281/281
+|move|p1a: Absol|Play Rough|p2a: Garbodor
+|-resisted|p2a: Garbodor
+|-damage|p2a: Garbodor|221/281
+|
+|-heal|p2a: Garbodor|238/281|[from] item: Black Sludge
+|-damage|p1a: Absol|171/246 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1685115411
+|switch|p2a: Passimian|Passimian, L82, M|202/298
+|switch|p1a: Togekiss|Togekiss, L80, M|199/267
+|-damage|p1a: Togekiss|133/267|[from] Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1685115421
+|move|p2a: Passimian|U-turn|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|120/267
+|
+|t:|1685115424
+|switch|p2a: Bronzong|Bronzong, L83|247/247|[from] U-turn
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|254/267
+|-singleturn|p1a: Togekiss|move: Roost
+|
+|upkeep
+|turn|9
+|
+|t:|1685115435
+|move|p1a: Togekiss|Thunder Wave|p2a: Bronzong
+|-status|p2a: Bronzong|par
+|move|p2a: Bronzong|Iron Head|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|90/267
+|
+|upkeep
+|turn|10
+|
+|t:|1685115443
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|224/267
+|-singleturn|p1a: Togekiss|move: Roost
+|move|p2a: Bronzong|Iron Head|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|60/267
+|
+|upkeep
+|turn|11
+|
+|t:|1685115454
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|194/267
+|-singleturn|p1a: Togekiss|move: Roost
+|move|p2a: Bronzong|Iron Head|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|30/267
+|
+|upkeep
+|turn|12
+|
+|t:|1685115464
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|164/267
+|-singleturn|p1a: Togekiss|move: Roost
+|move|p2a: Bronzong|Iron Head|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|18/267
+|
+|upkeep
+|turn|13
+|
+|t:|1685115472
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|152/267
+|-singleturn|p1a: Togekiss|move: Roost
+|move|p2a: Bronzong|Iron Head|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|2/267
+|
+|upkeep
+|turn|14
+|
+|t:|1685115480
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|136/267
+|-singleturn|p1a: Togekiss|move: Roost
+|move|p2a: Bronzong|Iron Head|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|t:|1685115498
+|switch|p1a: Absol|Absol, L84, M|171/246 tox
+|-damage|p1a: Absol|141/246 tox|[from] Stealth Rock
+|turn|15
+|
+|t:|1685115509
+|switch|p2a: Garbodor|Garbodor, L87, F|238/281
+|move|p1a: Absol|Play Rough|p2a: Garbodor
+|-resisted|p2a: Garbodor
+|-damage|p2a: Garbodor|177/281
+|
+|-heal|p2a: Garbodor|194/281|[from] item: Black Sludge
+|-damage|p1a: Absol|126/246 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1685115535
+|switch|p1a: Frosmoth|Frosmoth, L82, F|249/249
+|move|p2a: Garbodor|Gunk Shot|p1a: Frosmoth
+|-damage|p1a: Frosmoth|75/249
+|
+|-heal|p2a: Garbodor|211/281|[from] item: Black Sludge
+|upkeep
+|turn|17
+|-message|ITACHI37 forfeited.
+|
+|win|MyPasswordIsPeePee
+|raw|ITACHI37's rating: 1471 &rarr; <strong>1461</strong><br />(-10 for losing)
+|raw|MyPasswordIsPeePee's rating: 1654 &rarr; <strong>1664</strong><br />(+10 for winning)
+|l|☆ITACHI37

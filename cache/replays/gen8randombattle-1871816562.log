@@ -1,0 +1,505 @@
+|j|☆balloonflavors
+|j|☆gareeb adani
+|t:|1685133521
+|gametype|singles
+|player|p1|balloonflavors|169|1348
+|player|p2|gareeb adani|2|1532
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685133521
+|start
+|switch|p1a: Persian|Persian, L88, F|258/258
+|switch|p2a: Latias|Latias, L80, F|259/259
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gareeb adani)
+|
+|t:|1685133538
+|switch|p2a: Hippowdon|Hippowdon, L80, F|304/304
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Persian|Play Rough|p2a: Hippowdon
+|-damage|p2a: Hippowdon|237/304
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Persian|242/258|[from] Sandstorm
+|-heal|p2a: Hippowdon|256/304|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685133556
+|switch|p1a: Gourgeist|Gourgeist-Large, L84, M|263/263
+|-item|p2a: Hippowdon|Leftovers|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Hippowdon|Stealth Rock|p1a: Gourgeist
+|-sidestart|p1: balloonflavors|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gourgeist|247/263|[from] Sandstorm
+|-heal|p1a: Gourgeist|263/263|[from] item: Leftovers
+|-heal|p2a: Hippowdon|275/304|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685133585
+|switch|p2a: Umbreon|Umbreon, L82, M|290/290
+|move|p1a: Gourgeist|Will-O-Wisp|p2a: Umbreon|[miss]
+|-miss|p1a: Gourgeist|p2a: Umbreon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gourgeist|247/263|[from] Sandstorm
+|-damage|p2a: Umbreon|272/290|[from] Sandstorm
+|-heal|p1a: Gourgeist|263/263|[from] item: Leftovers
+|-heal|p2a: Umbreon|290/290|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685133603
+|switch|p1a: Garbodor|Garbodor, L87, F|281/281
+|-damage|p1a: Garbodor|246/281|[from] Stealth Rock
+|move|p2a: Umbreon|Foul Play|p1a: Garbodor
+|-damage|p1a: Garbodor|140/281
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Garbodor|123/281|[from] Sandstorm
+|-damage|p2a: Umbreon|272/290|[from] Sandstorm
+|-heal|p1a: Garbodor|140/281|[from] item: Black Sludge
+|-heal|p2a: Umbreon|290/290|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|gareeb adani has 120 seconds left.
+|inactive|gareeb adani has 90 seconds left.
+|
+|t:|1685133669
+|move|p1a: Garbodor|Toxic Spikes|p2a: Umbreon
+|-sidestart|p2: gareeb adani|move: Toxic Spikes
+|move|p2a: Umbreon|Foul Play|p1a: Garbodor
+|-damage|p1a: Garbodor|47/281
+|
+|-weather|none
+|-heal|p1a: Garbodor|64/281|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1685133678
+|move|p1a: Garbodor|Pain Split|p2a: Umbreon
+|-sethp|p2a: Umbreon|177/290|[from] move: Pain Split|[silent]
+|-sethp|p1a: Garbodor|177/281|[from] move: Pain Split
+|move|p2a: Umbreon|Foul Play|p1a: Garbodor
+|-damage|p1a: Garbodor|66/281
+|
+|-heal|p1a: Garbodor|83/281|[from] item: Black Sludge
+|-heal|p2a: Umbreon|195/290|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|gareeb adani has 90 seconds left.
+|inactive|gareeb adani has 60 seconds left.
+|
+|t:|1685133722
+|move|p1a: Garbodor|Pain Split|p2a: Umbreon
+|-sethp|p2a: Umbreon|139/290|[from] move: Pain Split|[silent]
+|-sethp|p1a: Garbodor|139/281|[from] move: Pain Split
+|move|p2a: Umbreon|Foul Play|p1a: Garbodor
+|-damage|p1a: Garbodor|40/281
+|
+|-heal|p1a: Garbodor|57/281|[from] item: Black Sludge
+|-heal|p2a: Umbreon|157/290|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685133748
+|move|p1a: Garbodor|Toxic Spikes|p2a: Umbreon
+|-sidestart|p2: gareeb adani|move: Toxic Spikes
+|move|p2a: Umbreon|Foul Play|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|-damage|p2a: Umbreon|85/290|[from] ability: Aftermath|[of] p1a: Garbodor
+|faint|p1a: Garbodor
+|
+|-heal|p2a: Umbreon|103/290|[from] item: Leftovers
+|upkeep
+|inactive|balloonflavors has 120 seconds left.
+|
+|t:|1685133764
+|switch|p1a: Persian|Persian, L88, F|242/258
+|-damage|p1a: Persian|210/258|[from] Stealth Rock
+|turn|9
+|
+|t:|1685133783
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Persian|Play Rough|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|121/290|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685133790
+|switch|p2a: Hippowdon|Hippowdon, L80, F|275/304
+|-status|p2a: Hippowdon|tox
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Persian|Play Rough|p2a: Hippowdon
+|-damage|p2a: Hippowdon|210/304 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Persian|194/258|[from] Sandstorm
+|-heal|p2a: Hippowdon|229/304 tox|[from] item: Leftovers
+|-damage|p2a: Hippowdon|210/304 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1685133807
+|switch|p1a: Gourgeist|Gourgeist-Large, L84, M|263/263
+|-damage|p1a: Gourgeist|231/263|[from] Stealth Rock
+|-item|p2a: Hippowdon|Leftovers|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Hippowdon|Stone Edge|p1a: Gourgeist
+|-damage|p1a: Gourgeist|179/263
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gourgeist|163/263|[from] Sandstorm
+|-heal|p1a: Gourgeist|179/263|[from] item: Leftovers
+|-heal|p2a: Hippowdon|229/304 tox|[from] item: Leftovers
+|-damage|p2a: Hippowdon|191/304 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1685133822
+|switch|p2a: Umbreon|Umbreon, L82, M|121/290
+|-status|p2a: Umbreon|tox
+|move|p1a: Gourgeist|Synthesis|p1a: Gourgeist
+|-heal|p1a: Gourgeist|245/263
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gourgeist|229/263|[from] Sandstorm
+|-damage|p2a: Umbreon|103/290 tox|[from] Sandstorm
+|-heal|p1a: Gourgeist|245/263|[from] item: Leftovers
+|-heal|p2a: Umbreon|121/290 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|103/290 tox|[from] psn
+|upkeep
+|turn|13
+|inactive|balloonflavors has 120 seconds left.
+|inactive|gareeb adani has 60 seconds left.
+|inactive|gareeb adani has 30 seconds left.
+|
+|t:|1685133882
+|switch|p1a: Toxapex|Toxapex, L82, F|216/216
+|-damage|p1a: Toxapex|189/216|[from] Stealth Rock
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Umbreon|85/290 tox|[from] Sandstorm
+|-damage|p1a: Toxapex|176/216|[from] Sandstorm
+|-heal|p2a: Umbreon|103/290 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|189/216|[from] item: Black Sludge
+|-damage|p2a: Umbreon|67/290 tox|[from] psn
+|upkeep
+|turn|14
+|inactive|balloonflavors has 120 seconds left.
+|
+|t:|1685133895
+|switch|p2a: Latias|Latias, L80, F|259/259
+|move|p1a: Toxapex|Scald|p2a: Latias
+|-resisted|p2a: Latias
+|-crit|p2a: Latias
+|-damage|p2a: Latias|230/259
+|
+|-weather|none
+|-heal|p2a: Latias|259/259|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Toxapex|202/216|[from] item: Black Sludge
+|upkeep
+|turn|15
+|inactive|balloonflavors has 120 seconds left.
+|inactive|gareeb adani has 30 seconds left.
+|inactive|gareeb adani has 20 seconds left.
+|
+|t:|1685133924
+|move|p2a: Latias|Psychic|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|74/216
+|move|p1a: Toxapex|Toxic|p2a: Latias
+|-status|p2a: Latias|tox
+|
+|-heal|p1a: Toxapex|87/216|[from] item: Black Sludge
+|-damage|p2a: Latias|243/259 tox|[from] psn
+|upkeep
+|turn|16
+|inactive|gareeb adani has 30 seconds left this turn.
+|inactive|balloonflavors has 120 seconds left.
+|
+|t:|1685133935
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Latias|Psychic|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p2a: Latias|259/259 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|100/216|[from] item: Black Sludge
+|-damage|p2a: Latias|227/259 tox|[from] psn
+|upkeep
+|turn|17
+|inactive|balloonflavors has 120 seconds left.
+|inactive|gareeb adani has 30 seconds left.
+|
+|t:|1685133951
+|switch|p1a: Mantine|Mantine, L86, F|286/286
+|move|p2a: Latias|Psychic|p1a: Mantine
+|-damage|p1a: Mantine|216/286
+|
+|-heal|p2a: Latias|243/259 tox|[from] item: Leftovers
+|-damage|p2a: Latias|195/259 tox|[from] psn
+|upkeep
+|turn|18
+|inactive|balloonflavors has 120 seconds left.
+|inactive|gareeb adani has 30 seconds left.
+|
+|t:|1685133960
+|switch|p2a: Umbreon|Umbreon, L82, M|67/290 tox
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|286/286
+|-singleturn|p1a: Mantine|move: Roost
+|
+|-heal|p2a: Umbreon|85/290 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|67/290 tox|[from] psn
+|upkeep
+|turn|19
+|inactive|gareeb adani has 30 seconds left.
+|inactive|gareeb adani has 20 seconds left.
+|
+|t:|1685133982
+|move|p1a: Mantine|Scald|p2a: Umbreon
+|-damage|p2a: Umbreon|9/290 tox
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|27/290 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|0 fnt|[from] psn
+|faint|p2a: Umbreon
+|upkeep
+|inactive|gareeb adani has 25 seconds left this turn.
+|inactive|gareeb adani has 20 seconds left.
+|
+|t:|1685133992
+|switch|p2a: Mew|Mew, L80|291/291
+|-status|p2a: Mew|tox
+|-enditem|p2a: Mew|Lum Berry|[eat]
+|-curestatus|p2a: Mew|tox|[msg]
+|turn|20
+|inactive|gareeb adani has 30 seconds left this turn.
+|
+|t:|1685133999
+|move|p2a: Mew|Dragon Dance|p2a: Mew
+|-boost|p2a: Mew|atk|1
+|-boost|p2a: Mew|spe|1
+|move|p1a: Mantine|Toxic|p2a: Mew
+|-status|p2a: Mew|tox
+|-activate|p2a: Mew|ability: Synchronize
+|-status|p1a: Mantine|tox
+|
+|-damage|p2a: Mew|273/291 tox|[from] psn
+|-damage|p1a: Mantine|269/286 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1685134010
+|move|p2a: Mew|Dragon Dance|p2a: Mew
+|-boost|p2a: Mew|atk|1
+|-boost|p2a: Mew|spe|1
+|move|p1a: Mantine|Scald|p2a: Mew
+|-damage|p2a: Mew|201/291 tox
+|
+|-damage|p2a: Mew|165/291 tox|[from] psn
+|-damage|p1a: Mantine|235/286 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1685134018
+|-start|p2a: Mew|Dynamax|
+|-heal|p2a: Mew|330/582 tox|[silent]
+|move|p2a: Mew|Max Mindstorm|p1a: Mantine
+|-damage|p1a: Mantine|0 fnt
+|-fieldstart|move: Psychic Terrain
+|faint|p1a: Mantine
+|
+|-damage|p2a: Mew|276/582 tox|[from] psn
+|upkeep
+|
+|t:|1685134031
+|switch|p1a: Gourgeist|Gourgeist-Large, L84, M|245/263
+|-damage|p1a: Gourgeist|213/263|[from] Stealth Rock
+|turn|23
+|
+|t:|1685134038
+|move|p1a: Gourgeist|Shadow Sneak|p2a: Mew
+|-activate|p2a: Mew|move: Psychic Terrain
+|move|p2a: Mew|Max Flare|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|-weather|SunnyDay
+|faint|p1a: Gourgeist
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Mew|204/582 tox|[from] psn
+|upkeep
+|
+|t:|1685134051
+|switch|p1a: Toxapex|Toxapex, L82, F|172/216
+|-damage|p1a: Toxapex|145/216|[from] Stealth Rock
+|turn|24
+|inactive|gareeb adani has 60 seconds left.
+|
+|t:|1685134058
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Mew|Max Mindstorm|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-zbroken|p1a: Toxapex
+|-damage|p1a: Toxapex|43/216
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Toxapex|56/216|[from] item: Black Sludge
+|-damage|p2a: Mew|114/582 tox|[from] psn
+|upkeep
+|-end|p2a: Mew|Dynamax
+|-heal|p2a: Mew|57/291 tox|[silent]
+|turn|25
+|
+|t:|1685134074
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Mew|Psychic Fangs|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Toxapex|69/216|[from] item: Black Sludge
+|-damage|p2a: Mew|0 fnt|[from] psn
+|faint|p2a: Mew
+|upkeep
+|inactive|gareeb adani has 60 seconds left.
+|inactive|gareeb adani has 30 seconds left.
+|inactive|gareeb adani has 20 seconds left.
+|inactive|gareeb adani has 15 seconds left.
+|
+|t:|1685134135
+|switch|p2a: Latias|Latias, L80, F|195/259 tox
+|turn|26
+|inactive|gareeb adani has 25 seconds left this turn.
+|
+|t:|1685134142
+|move|p2a: Latias|Psychic|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Latias|211/259 tox|[from] item: Leftovers
+|-damage|p2a: Latias|195/259 tox|[from] psn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|inactive|gareeb adani has 30 seconds left this turn.
+|
+|t:|1685134164
+|switch|p1a: Persian|Persian, L88, F|194/258
+|-damage|p1a: Persian|162/258|[from] Stealth Rock
+|turn|27
+|
+|t:|1685134172
+|switch|p2a: Hippowdon|Hippowdon, L80, F|191/304 tox
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Persian|Play Rough|p2a: Hippowdon
+|-damage|p2a: Hippowdon|121/304 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Persian|146/258|[from] Sandstorm
+|-heal|p2a: Hippowdon|140/304 tox|[from] item: Leftovers
+|-damage|p2a: Hippowdon|121/304 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1685134190
+|-start|p1a: Persian|Dynamax|
+|-heal|p1a: Persian|292/516|[silent]
+|move|p1a: Persian|Max Starfall|p2a: Hippowdon
+|-damage|p2a: Hippowdon|56/304 tox
+|-fieldstart|move: Misty Terrain
+|move|p2a: Hippowdon|Earthquake|p1a: Persian
+|-damage|p1a: Persian|163/516
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Persian|147/516|[from] Sandstorm
+|-heal|p2a: Hippowdon|75/304 tox|[from] item: Leftovers
+|-damage|p2a: Hippowdon|37/304 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1685134206
+|move|p1a: Persian|Max Flutterby|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Persian|131/516|[from] Sandstorm
+|upkeep
+|inactive|gareeb adani has 30 seconds left.
+|
+|t:|1685134239
+|switch|p2a: Mimikyu|Mimikyu, L76, M|209/209
+|turn|30
+|
+|t:|1685134250
+|move|p1a: Persian|Max Starfall|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|209/209
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, L76, M
+|-damage|p2a: Mimikyu|183/209|[from] pokemon: Mimikyu-Busted
+|move|p2a: Mimikyu|Play Rough|p1a: Persian
+|-damage|p1a: Persian|9/516
+|-damage|p2a: Mimikyu|163/209|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Persian|0 fnt|[from] Sandstorm
+|-damage|p2a: Mimikyu|150/209|[from] Sandstorm
+|faint|p1a: Persian
+|upkeep
+|
+|t:|1685134262
+|switch|p1a: Entei|Entei, L78|307/307
+|-damage|p1a: Entei|231/307|[from] Stealth Rock
+|turn|31
+|
+|t:|1685134276
+|move|p1a: Entei|Stone Edge|p2a: Mimikyu
+|-damage|p2a: Mimikyu|26/209
+|move|p2a: Mimikyu|Shadow Claw|p1a: Entei
+|-damage|p1a: Entei|152/307
+|-damage|p2a: Mimikyu|6/209|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|32
+|
+|t:|1685134285
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Entei
+|-damage|p1a: Entei|100/307
+|-damage|p2a: Mimikyu|0 fnt|[from] item: Life Orb
+|faint|p2a: Mimikyu
+|move|p1a: Entei|Stone Edge|p2: Mimikyu|[notarget]
+|-fail|p1a: Entei
+|
+|-fieldend|Misty Terrain
+|upkeep
+|
+|t:|1685134286
+|switch|p2a: Latias|Latias, L80, F|195/259 tox
+|turn|33
+|
+|t:|1685134293
+|move|p2a: Latias|Psychic|p1a: Entei
+|-damage|p1a: Entei|0 fnt
+|faint|p1a: Entei
+|
+|win|gareeb adani
+|raw|balloonflavors's rating: 1348 &rarr; <strong>1337</strong><br />(-11 for losing)
+|raw|gareeb adani's rating: 1506 &rarr; <strong>1517</strong><br />(+11 for winning)

@@ -1,0 +1,227 @@
+|j|☆ABHI625
+|j|☆Killawilla
+|t:|1685112202
+|gametype|singles
+|player|p1|ABHI625|wallace|1097
+|player|p2|Killawilla|102|1115
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685112202
+|start
+|switch|p1a: Accelgor|Accelgor, L86, F|278/278
+|switch|p2a: Obstagoon|Obstagoon, L80, F|280/280
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Killawilla)
+|
+|t:|1685112213
+|move|p1a: Accelgor|Focus Blast|p2a: Obstagoon
+|-supereffective|p2a: Obstagoon
+|-damage|p2a: Obstagoon|0 fnt
+|faint|p2a: Obstagoon
+|
+|upkeep
+|
+|t:|1685112238
+|switch|p2a: Cobalion|Cobalion, L78|270/270
+|turn|2
+|
+|t:|1685112263
+|move|p1a: Accelgor|Focus Blast|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|118/270
+|move|p2a: Cobalion|Stone Edge|p1a: Accelgor
+|-supereffective|p1a: Accelgor
+|-damage|p1a: Accelgor|98/278
+|
+|upkeep
+|turn|3
+|
+|t:|1685112270
+|move|p1a: Accelgor|Focus Blast|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|faint|p2a: Cobalion
+|
+|upkeep
+|
+|t:|1685112275
+|switch|p2a: Appletun|Appletun, L90, F|344/344
+|turn|4
+|
+|t:|1685112283
+|move|p1a: Accelgor|Sludge Bomb|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|206/344
+|move|p2a: Appletun|Apple Acid|p1a: Accelgor
+|-resisted|p1a: Accelgor
+|-damage|p1a: Accelgor|32/278
+|-unboost|p1a: Accelgor|spd|1
+|
+|-heal|p2a: Appletun|227/344|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685112290
+|move|p1a: Accelgor|Sludge Bomb|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|77/344
+|move|p2a: Appletun|Apple Acid|p1a: Accelgor
+|-resisted|p1a: Accelgor
+|-damage|p1a: Accelgor|0 fnt
+|faint|p1a: Accelgor
+|
+|-heal|p2a: Appletun|98/344|[from] item: Leftovers
+|upkeep
+|
+|t:|1685112306
+|switch|p1a: Salamence|Salamence, L76, F|269/269
+|turn|6
+|
+|t:|1685112323
+|move|p1a: Salamence|Outrage|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|0 fnt
+|faint|p2a: Appletun
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|upkeep
+|
+|t:|1685112334
+|switch|p2a: Araquanid|Araquanid, L80, F|240/240
+|turn|7
+|
+|t:|1685112339
+|move|p1a: Salamence|Outrage|p2a: Araquanid|[from]lockedmove
+|-damage|p2a: Araquanid|33/240
+|-start|p1a: Salamence|confusion|[fatigue]
+|move|p2a: Araquanid|Toxic|p1a: Salamence
+|-status|p1a: Salamence|tox
+|
+|-damage|p1a: Salamence|253/269 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1685112347
+|-activate|p1a: Salamence|confusion
+|-damage|p1a: Salamence|197/269 tox|[from] confusion
+|move|p2a: Araquanid|Sticky Web|p1a: Salamence
+|-sidestart|p1: ABHI625|move: Sticky Web
+|
+|-damage|p1a: Salamence|165/269 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1685112351
+|-activate|p1a: Salamence|confusion
+|move|p1a: Salamence|Earthquake|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|-damage|p1a: Salamence|117/269 tox|[from] psn
+|upkeep
+|
+|t:|1685112354
+|switch|p2a: Orbeetle|Orbeetle, L86, F|243/243
+|-item|p1a: Salamence|Heavy-Duty Boots|[from] ability: Frisk|[of] p2a: Orbeetle|[identify]
+|turn|10
+|
+|t:|1685112376
+|move|p2a: Orbeetle|Calm Mind|p2a: Orbeetle
+|-boost|p2a: Orbeetle|spa|1
+|-boost|p2a: Orbeetle|spd|1
+|-activate|p1a: Salamence|confusion
+|-damage|p1a: Salamence|42/269 tox|[from] confusion
+|
+|-damage|p1a: Salamence|0 fnt|[from] psn
+|faint|p1a: Salamence
+|upkeep
+|
+|t:|1685112391
+|switch|p1a: Kabutops|Kabutops, L82, F|233/233
+|-activate|p1a: Kabutops|move: Sticky Web
+|-unboost|p1a: Kabutops|spe|1
+|turn|11
+|
+|t:|1685112415
+|move|p2a: Orbeetle|Calm Mind|p2a: Orbeetle
+|-boost|p2a: Orbeetle|spa|1
+|-boost|p2a: Orbeetle|spd|1
+|move|p1a: Kabutops|Stone Edge|p2a: Orbeetle
+|-supereffective|p2a: Orbeetle
+|-damage|p2a: Orbeetle|1/243
+|-damage|p1a: Kabutops|210/233|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|t:|1685112421
+|move|p2a: Orbeetle|Bug Buzz|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|faint|p1a: Kabutops
+|
+|upkeep
+|
+|t:|1685112433
+|switch|p1a: Arctozolt|Arctozolt, L86|295/295
+|turn|13
+|
+|t:|1685112437
+|move|p2a: Orbeetle|Bug Buzz|p1a: Arctozolt
+|-damage|p1a: Arctozolt|127/295
+|move|p1a: Arctozolt|Freeze-Dry|p2a: Orbeetle
+|-damage|p2a: Orbeetle|0 fnt
+|faint|p2a: Orbeetle
+|
+|upkeep
+|
+|t:|1685112442
+|switch|p2a: Drednaw|Drednaw, L84, F|288/288
+|turn|14
+|
+|t:|1685112454
+|move|p2a: Drednaw|Stone Edge|p1a: Arctozolt|[miss]
+|-miss|p2a: Drednaw|p1a: Arctozolt
+|move|p1a: Arctozolt|Bolt Beak|p2a: Drednaw
+|-supereffective|p2a: Drednaw
+|-damage|p2a: Drednaw|84/288
+|
+|upkeep
+|turn|15
+|
+|t:|1685112461
+|move|p2a: Drednaw|Stone Edge|p1a: Arctozolt
+|-supereffective|p1a: Arctozolt
+|-damage|p1a: Arctozolt|0 fnt
+|faint|p1a: Arctozolt
+|-damage|p2a: Drednaw|56/288|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685112465
+|switch|p1a: Rillaboom|Rillaboom, L78, F|284/284
+|-activate|p1a: Rillaboom|move: Sticky Web
+|-unboost|p1a: Rillaboom|spe|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|16
+|
+|t:|1685112470
+|move|p1a: Rillaboom|Grassy Glide|p2a: Drednaw
+|-supereffective|p2a: Drednaw
+|-damage|p2a: Drednaw|0 fnt
+|faint|p2a: Drednaw
+|
+|win|ABHI625
+|raw|ABHI625's rating: 1097 &rarr; <strong>1124</strong><br />(+27 for winning)
+|raw|Killawilla's rating: 1115 &rarr; <strong>1089</strong><br />(-26 for losing)
+|l|☆Killawilla

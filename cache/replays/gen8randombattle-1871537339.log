@@ -1,0 +1,316 @@
+|j|☆Mori.❄️148
+|j|☆MrGuy420
+|t:|1685104379
+|gametype|singles
+|player|p1|Mori.❄️148|steven|1099
+|player|p2|MrGuy420|101|1058
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685104379
+|start
+|switch|p1a: Registeel|Registeel, L83|268/268
+|switch|p2a: Drampa|Drampa, L86, M|274/274
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MrGuy420)
+|inactive|Mori.❄️148 also wants the timer to be on.
+|
+|t:|1685104398
+|move|p1a: Registeel|Curse|p1a: Registeel
+|-unboost|p1a: Registeel|spe|1
+|-boost|p1a: Registeel|atk|1
+|-boost|p1a: Registeel|def|1
+|move|p2a: Drampa|Fire Blast|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|116/268
+|
+|upkeep
+|turn|2
+|
+|t:|1685104407
+|move|p2a: Drampa|Fire Blast|p1a: Registeel|[miss]
+|-miss|p2a: Drampa|p1a: Registeel
+|move|p1a: Registeel|Body Press|p2a: Drampa
+|-supereffective|p2a: Drampa
+|-damage|p2a: Drampa|50/274
+|-ability|p2a: Drampa|Berserk|boost
+|-boost|p2a: Drampa|spa|1
+|
+|-heal|p2a: Drampa|67/274|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685104428
+|move|p2a: Drampa|Fire Blast|p1a: Registeel|[miss]
+|-miss|p2a: Drampa|p1a: Registeel
+|move|p1a: Registeel|Body Press|p2a: Drampa
+|-supereffective|p2a: Drampa
+|-damage|p2a: Drampa|0 fnt
+|faint|p2a: Drampa
+|
+|upkeep
+|
+|t:|1685104436
+|switch|p2a: Gastrodon|Gastrodon, L84, F|324/324
+|turn|4
+|
+|t:|1685104448
+|move|p2a: Gastrodon|Earthquake|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|32/268
+|move|p1a: Registeel|Body Press|p2a: Gastrodon
+|-damage|p2a: Gastrodon|185/324
+|
+|-heal|p2a: Gastrodon|205/324|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685104459
+|move|p2a: Gastrodon|Earthquake|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|0 fnt
+|faint|p1a: Registeel
+|
+|-heal|p2a: Gastrodon|225/324|[from] item: Leftovers
+|upkeep
+|
+|t:|1685104478
+|switch|p1a: Dubwool|Dubwool, L86, F|264/264
+|turn|6
+|
+|t:|1685104494
+|move|p1a: Dubwool|Cotton Guard|p1a: Dubwool
+|-boost|p1a: Dubwool|def|3
+|move|p2a: Gastrodon|Scald|p1a: Dubwool
+|-damage|p1a: Dubwool|180/264
+|
+|-heal|p1a: Dubwool|196/264|[from] item: Leftovers
+|-heal|p2a: Gastrodon|245/324|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685104500
+|move|p1a: Dubwool|Cotton Guard|p1a: Dubwool
+|-boost|p1a: Dubwool|def|3
+|move|p2a: Gastrodon|Scald|p1a: Dubwool
+|-damage|p1a: Dubwool|123/264
+|-status|p1a: Dubwool|brn
+|
+|-heal|p1a: Dubwool|139/264 brn|[from] item: Leftovers
+|-heal|p2a: Gastrodon|265/324|[from] item: Leftovers
+|-damage|p1a: Dubwool|123/264 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1685104508
+|move|p1a: Dubwool|Rest|p1a: Dubwool
+|-status|p1a: Dubwool|slp|[from] move: Rest
+|-heal|p1a: Dubwool|264/264 slp|[silent]
+|move|p2a: Gastrodon|Scald|p1a: Dubwool
+|-damage|p1a: Dubwool|186/264 slp
+|
+|-heal|p1a: Dubwool|202/264 slp|[from] item: Leftovers
+|-heal|p2a: Gastrodon|285/324|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1685104516
+|switch|p2a: Wobbuffet|Wobbuffet, L92, F|499/499
+|cant|p1a: Dubwool|slp
+|move|p1a: Dubwool|Sleep Talk|p1a: Dubwool
+|move|p1a: Dubwool|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Dubwool
+|
+|-heal|p1a: Dubwool|218/264 slp|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685104526
+|cant|p1a: Dubwool|slp
+|move|p1a: Dubwool|Sleep Talk|p1a: Dubwool
+|move|p1a: Dubwool|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Dubwool
+|move|p2a: Wobbuffet|Counter||[still]
+|-fail|p2a: Wobbuffet
+|
+|-heal|p1a: Dubwool|234/264 slp|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1685104532
+|-curestatus|p1a: Dubwool|slp|[msg]
+|move|p1a: Dubwool|Sleep Talk||[still]
+|-fail|p1a: Dubwool
+|move|p2a: Wobbuffet|Charm|p1a: Dubwool
+|-unboost|p1a: Dubwool|atk|2
+|
+|-heal|p1a: Dubwool|250/264|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685104536
+|move|p1a: Dubwool|Body Press|p2a: Wobbuffet
+|-resisted|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|358/499
+|move|p2a: Wobbuffet|Counter|p1a: Dubwool
+|-damage|p1a: Dubwool|0 fnt
+|faint|p1a: Dubwool
+|
+|upkeep
+|
+|t:|1685104545
+|switch|p1a: Meowstic|Meowstic-F, L86, F|268/268
+|turn|13
+|
+|t:|1685104550
+|move|p1a: Meowstic|Shadow Ball|p2a: Wobbuffet
+|-supereffective|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|181/499
+|-enditem|p2a: Wobbuffet|Sitrus Berry|[eat]
+|-heal|p2a: Wobbuffet|305/499|[from] item: Sitrus Berry
+|-damage|p1a: Meowstic|242/268|[from] item: Life Orb
+|move|p2a: Wobbuffet|Encore|p1a: Meowstic
+|-start|p1a: Meowstic|Encore
+|
+|upkeep
+|turn|14
+|
+|t:|1685104557
+|move|p1a: Meowstic|Shadow Ball|p2a: Wobbuffet
+|-supereffective|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|146/499
+|-damage|p1a: Meowstic|216/268|[from] item: Life Orb
+|move|p2a: Wobbuffet|Mirror Coat|p1a: Meowstic
+|-damage|p1a: Meowstic|0 fnt
+|faint|p1a: Meowstic
+|
+|upkeep
+|
+|t:|1685104567
+|switch|p1a: Aggron|Aggron, L85, F|258/258
+|-item|p1a: Aggron|Air Balloon
+|turn|15
+|
+|t:|1685104575
+|move|p1a: Aggron|Earthquake|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|44/499
+|move|p2a: Wobbuffet|Counter|p1a: Aggron
+|-damage|p1a: Aggron|54/258
+|-enditem|p1a: Aggron|Air Balloon
+|
+|upkeep
+|turn|16
+|
+|t:|1685104587
+|switch|p2a: Mantine|Mantine, L86, F|286/286
+|move|p1a: Aggron|Heavy Slam|p2a: Mantine
+|-resisted|p2a: Mantine
+|-damage|p2a: Mantine|258/286
+|
+|upkeep
+|turn|17
+|
+|t:|1685104592
+|move|p2a: Mantine|Scald|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|faint|p1a: Aggron
+|
+|upkeep
+|
+|t:|1685104598
+|switch|p1a: Dracozolt|Dracozolt, L78|268/268
+|turn|18
+|
+|t:|1685104606
+|move|p1a: Dracozolt|Bolt Beak|p2a: Mantine
+|-supereffective|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|faint|p2a: Mantine
+|
+|upkeep
+|
+|t:|1685104609
+|switch|p2a: Gastrodon|Gastrodon, L84, F|285/324
+|turn|19
+|
+|t:|1685104628
+|-start|p1a: Dracozolt|Dynamax|
+|-heal|p1a: Dracozolt|536/536|[silent]
+|move|p1a: Dracozolt|Max Knuckle|p2a: Gastrodon
+|-damage|p2a: Gastrodon|166/324
+|-boost|p1a: Dracozolt|atk|1
+|move|p2a: Gastrodon|Ice Beam|p1a: Dracozolt
+|-supereffective|p1a: Dracozolt
+|-damage|p1a: Dracozolt|392/536
+|
+|-heal|p2a: Gastrodon|186/324|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1685104641
+|move|p1a: Dracozolt|Max Knuckle|p2a: Gastrodon
+|-damage|p2a: Gastrodon|1/324
+|-boost|p1a: Dracozolt|atk|1
+|move|p2a: Gastrodon|Ice Beam|p1a: Dracozolt
+|-supereffective|p1a: Dracozolt
+|-damage|p1a: Dracozolt|226/536
+|
+|-heal|p2a: Gastrodon|21/324|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1685104649
+|move|p1a: Dracozolt|Max Knuckle|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|-boost|p1a: Dracozolt|atk|1
+|faint|p2a: Gastrodon
+|
+|upkeep
+|
+|t:|1685104654
+|switch|p2a: Wobbuffet|Wobbuffet, L92, F|44/499
+|-end|p1a: Dracozolt|Dynamax
+|-heal|p1a: Dracozolt|113/268|[silent]
+|turn|22
+|
+|t:|1685104659
+|move|p1a: Dracozolt|Bolt Beak|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|0 fnt
+|faint|p2a: Wobbuffet
+|
+|upkeep
+|
+|t:|1685104662
+|switch|p2a: Decidueye|Decidueye, L86, F|274/274
+|turn|23
+|
+|t:|1685104671
+|move|p1a: Dracozolt|Bolt Beak|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|
+|upkeep
+|
+|t:|1685104674
+|switch|p2a: Lilligant|Lilligant, L84, F|255/255
+|turn|24
+|
+|t:|1685104681
+|move|p1a: Dracozolt|Bolt Beak|p2a: Lilligant
+|-resisted|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|win|Mori.❄️148
+|raw|Mori.❄️148's rating: 1099 &rarr; <strong>1121</strong><br />(+22 for winning)
+|raw|MrGuy420's rating: 1058 &rarr; <strong>1041</strong><br />(-17 for losing)
+|l|☆MrGuy420
+|c|☆Mori.❄️148|ggz

@@ -1,0 +1,317 @@
+|j|☆ABHI625
+|j|☆Abella Dvnger
+|t:|1685112132
+|gametype|singles
+|player|p1|ABHI625|wallace|1097
+|player|p2|Abella Dvnger|169|1214
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685112132
+|start
+|switch|p1a: Rotom|Rotom-Frost, L84|221/221
+|switch|p2a: Dugtrio|Dugtrio-Alola, L82, F|192/192
+|turn|1
+|
+|t:|1685112203
+|switch|p1a: Conkeldurr|Conkeldurr, L80, M|299/299
+|move|p2a: Dugtrio|Iron Head|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|223/299
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1685112221
+|switch|p2a: Noivern|Noivern, L82, M|274/274
+|move|p1a: Conkeldurr|Close Combat|p2a: Noivern
+|-resisted|p2a: Noivern
+|-damage|p2a: Noivern|134/274
+|-unboost|p1a: Conkeldurr|def|1
+|-unboost|p1a: Conkeldurr|spd|1
+|
+|-damage|p1a: Conkeldurr|205/299 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1685112231
+|move|p2a: Noivern|Hurricane|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|t:|1685112243
+|switch|p1a: Darmanitan|Darmanitan, L80, M|299/299
+|turn|4
+|
+|t:|1685112250
+|move|p2a: Noivern|Draco Meteor|p1a: Darmanitan
+|-damage|p1a: Darmanitan|124/299
+|-unboost|p2a: Noivern|spa|2
+|move|p1a: Darmanitan|Rock Slide|p2a: Noivern
+|-supereffective|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|upkeep
+|
+|t:|1685112260
+|switch|p2a: Dugtrio|Dugtrio-Alola, L82, F|192/192
+|turn|5
+|
+|t:|1685112275
+|move|p2a: Dugtrio|Earthquake|p1a: Darmanitan
+|-supereffective|p1a: Darmanitan
+|-damage|p1a: Darmanitan|0 fnt
+|faint|p1a: Darmanitan
+|
+|upkeep
+|
+|t:|1685112295
+|switch|p1a: Tsareena|Tsareena, L84, F|258/258
+|turn|6
+|
+|t:|1685112302
+|move|p2a: Dugtrio|Stealth Rock|p1a: Tsareena
+|-sidestart|p1: ABHI625|move: Stealth Rock
+|move|p1a: Tsareena|Power Whip|p2a: Dugtrio
+|-enditem|p2a: Dugtrio|Focus Sash
+|-damage|p2a: Dugtrio|1/192
+|-ability|p2a: Dugtrio|Tangling Hair
+|-unboost|p1a: Tsareena|spe|1
+|
+|upkeep
+|turn|7
+|
+|t:|1685112317
+|move|p2a: Dugtrio|Iron Head|p1a: Tsareena
+|-crit|p1a: Tsareena
+|-damage|p1a: Tsareena|146/258
+|move|p1a: Tsareena|Knock Off|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|-ability|p2a: Dugtrio|Tangling Hair
+|-unboost|p1a: Tsareena|spe|1
+|faint|p2a: Dugtrio
+|
+|upkeep
+|
+|t:|1685112341
+|switch|p2a: Orbeetle|Orbeetle, L86, F|243/243
+|-item|p1a: Tsareena|Assault Vest|[from] ability: Frisk|[of] p2a: Orbeetle|[identify]
+|turn|8
+|
+|t:|1685112360
+|switch|p1a: Rotom|Rotom-Frost, L84|221/221
+|move|p2a: Orbeetle|Calm Mind|p2a: Orbeetle
+|-boost|p2a: Orbeetle|spa|1
+|-boost|p2a: Orbeetle|spd|1
+|
+|upkeep
+|turn|9
+|
+|t:|1685112402
+|move|p2a: Orbeetle|Psychic|p1a: Rotom
+|-damage|p1a: Rotom|101/221
+|-unboost|p1a: Rotom|spd|1
+|move|p1a: Rotom|Thunderbolt|p2a: Orbeetle
+|-damage|p2a: Orbeetle|194/243
+|
+|upkeep
+|turn|10
+|
+|t:|1685112424
+|move|p2a: Orbeetle|Psychic|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1685112444
+|switch|p1a: Mesprit|Mesprit, L84|272/272
+|-damage|p1a: Mesprit|238/272|[from] Stealth Rock
+|turn|11
+|
+|t:|1685112448
+|move|p2a: Orbeetle|Bug Buzz|p1a: Mesprit
+|-supereffective|p1a: Mesprit
+|-damage|p1a: Mesprit|8/272
+|move|p1a: Mesprit|Thunder Wave|p2a: Orbeetle|[miss]
+|-miss|p1a: Mesprit|p2a: Orbeetle
+|
+|-heal|p1a: Mesprit|25/272|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|☆Abella Dvnger|:/
+|c|☆ABHI625|?
+|
+|t:|1685112490
+|move|p2a: Orbeetle|Bug Buzz|p1a: Mesprit
+|-supereffective|p1a: Mesprit
+|-damage|p1a: Mesprit|0 fnt
+|faint|p1a: Mesprit
+|
+|upkeep
+|
+|t:|1685112517
+|switch|p1a: Tsareena|Tsareena, L84, F|146/258
+|-damage|p1a: Tsareena|114/258|[from] Stealth Rock
+|turn|13
+|c|☆Abella Dvnger|That was unlucky the missed thunder wave
+|
+|t:|1685112526
+|move|p2a: Orbeetle|Psychic|p1a: Tsareena
+|-damage|p1a: Tsareena|30/258
+|move|p1a: Tsareena|Rapid Spin|p2a: Orbeetle
+|-damage|p2a: Orbeetle|158/243
+|-boost|p1a: Tsareena|spe|1
+|-sideend|p1: ABHI625|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tsareena
+|
+|upkeep
+|turn|14
+|c|☆ABHI625|Yeah
+|c|☆Abella Dvnger|im dumb
+|
+|t:|1685112543
+|move|p1a: Tsareena|Power Whip|p2a: Orbeetle
+|-resisted|p2a: Orbeetle
+|-damage|p2a: Orbeetle|95/243
+|move|p2a: Orbeetle|Bug Buzz|p1a: Tsareena
+|-supereffective|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|faint|p1a: Tsareena
+|
+|upkeep
+|c|☆Abella Dvnger|should use Bug buzz
+|
+|t:|1685112550
+|switch|p1a: Slowking|Slowking-Galar, L84, M|297/297
+|turn|15
+|
+|t:|1685112557
+|move|p2a: Orbeetle|Calm Mind|p2a: Orbeetle
+|-boost|p2a: Orbeetle|spa|1
+|-boost|p2a: Orbeetle|spd|1
+|move|p1a: Slowking|Fire Blast|p2a: Orbeetle
+|-supereffective|p2a: Orbeetle
+|-damage|p2a: Orbeetle|27/243
+|
+|upkeep
+|turn|16
+|
+|t:|1685112568
+|move|p2a: Orbeetle|Recover|p2a: Orbeetle
+|-heal|p2a: Orbeetle|149/243
+|move|p1a: Slowking|Sludge Bomb|p2a: Orbeetle
+|-damage|p2a: Orbeetle|112/243
+|-status|p2a: Orbeetle|psn
+|
+|-damage|p2a: Orbeetle|82/243 psn|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1685112576
+|move|p2a: Orbeetle|Recover|p2a: Orbeetle
+|-heal|p2a: Orbeetle|204/243 psn
+|move|p1a: Slowking|Fire Blast|p2a: Orbeetle
+|-supereffective|p2a: Orbeetle
+|-damage|p2a: Orbeetle|134/243 psn
+|
+|-damage|p2a: Orbeetle|104/243 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1685112586
+|move|p2a: Orbeetle|Psychic|p1a: Slowking
+|-damage|p1a: Slowking|150/297
+|move|p1a: Slowking|Fire Blast|p2a: Orbeetle
+|-supereffective|p2a: Orbeetle
+|-damage|p2a: Orbeetle|34/243 psn
+|
+|-heal|p1a: Slowking|168/297|[from] item: Black Sludge
+|-damage|p2a: Orbeetle|4/243 psn|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1685112597
+|move|p2a: Orbeetle|Bug Buzz|p1a: Slowking
+|-damage|p1a: Slowking|15/297
+|-unboost|p1a: Slowking|spd|1
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|164/297
+|
+|-heal|p1a: Slowking|182/297|[from] item: Black Sludge
+|-damage|p2a: Orbeetle|0 fnt|[from] psn
+|faint|p2a: Orbeetle
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ABHI625)
+|
+|t:|1685112613
+|switch|p2a: Melmetal|Melmetal, L74|322/322
+|turn|20
+|
+|t:|1685112620
+|-start|p1a: Slowking|Dynamax|
+|-heal|p1a: Slowking|364/594|[silent]
+|move|p1a: Slowking|Max Flare|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|10/322
+|-weather|SunnyDay
+|move|p2a: Melmetal|Double Iron Bash|p1a: Slowking
+|-damage|p1a: Slowking|282/594
+|-damage|p1a: Slowking|198/594
+|-hitcount|p1a: Slowking|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowking|216/594|[from] item: Black Sludge
+|-heal|p2a: Melmetal|30/322|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1685112635
+|move|p1a: Slowking|Max Mindstorm|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|-fieldstart|move: Psychic Terrain
+|faint|p2a: Melmetal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowking|234/594|[from] item: Black Sludge
+|upkeep
+|
+|t:|1685112647
+|switch|p2a: Thundurus|Thundurus, L80, M|258/258
+|turn|22
+|
+|t:|1685112655
+|move|p2a: Thundurus|Nasty Plot|p2a: Thundurus
+|-boost|p2a: Thundurus|spa|2
+|move|p1a: Slowking|Max Mindstorm|p2a: Thundurus
+|-damage|p2a: Thundurus|38/258
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowking|252/594|[from] item: Black Sludge
+|upkeep
+|-end|p1a: Slowking|Dynamax
+|-heal|p1a: Slowking|126/297|[silent]
+|turn|23
+|
+|t:|1685112666
+|-start|p2a: Thundurus|Dynamax|
+|-heal|p2a: Thundurus|76/516|[silent]
+|move|p2a: Thundurus|Max Lightning|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-fieldstart|move: Electric Terrain
+|faint|p1a: Slowking
+|
+|win|Abella Dvnger
+|raw|ABHI625's rating: 1124 &rarr; <strong>1105</strong><br />(-19 for losing)
+|raw|Abella Dvnger's rating: 1214 &rarr; <strong>1233</strong><br />(+19 for winning)
+|c|☆Abella Dvnger|gg

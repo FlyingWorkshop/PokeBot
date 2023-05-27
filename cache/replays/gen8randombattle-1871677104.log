@@ -1,0 +1,269 @@
+|j|☆GmEuan
+|j|‽MinatoUzxmaki
+|t:|1685118806
+|gametype|singles
+|player|p1|GmEuan|169|1049
+|player|p2|MinatoUzxmaki|102|1109
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685118806
+|start
+|switch|p1a: Scrafty|Scrafty, L82, M|241/241
+|switch|p2a: Emolga|Emolga, L88, F|240/240
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Emolga|atk|1
+|turn|1
+|
+|t:|1685118820
+|move|p2a: Emolga|Air Slash|p1a: Scrafty
+|-supereffective|p1a: Scrafty
+|-damage|p1a: Scrafty|121/241
+|cant|p1a: Scrafty|flinch
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MinatoUzxmaki)
+|
+|t:|1685118829
+|switch|p1a: Poliwrath|Poliwrath, L84, F|288/288
+|move|p2a: Emolga|Air Slash|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|132/288
+|
+|upkeep
+|turn|3
+|
+|t:|1685118838
+|move|p2a: Emolga|Air Slash|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|0 fnt
+|faint|p1a: Poliwrath
+|
+|upkeep
+|
+|t:|1685118846
+|switch|p1a: Genesect|Genesect-Douse, L74|227/227
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|turn|4
+|
+|t:|1685118855
+|switch|p2a: Slowbro|Slowbro-Galar, L86, F|304/304
+|move|p1a: Genesect|Iron Head|p2a: Slowbro
+|-damage|p2a: Slowbro|228/304
+|
+|upkeep
+|turn|5
+|
+|t:|1685118864
+|move|p1a: Genesect|Thunderbolt|p2a: Slowbro
+|-damage|p2a: Slowbro|129/304
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Flamethrower|p1a: Genesect
+|-supereffective|p1a: Genesect
+|-damage|p1a: Genesect|0 fnt
+|faint|p1a: Genesect
+|-damage|p2a: Slowbro|99/304 par|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685118874
+|switch|p1a: Inteleon|Inteleon, L80, F|243/243
+|turn|6
+|
+|t:|1685118882
+|move|p1a: Inteleon|Surf|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|upkeep
+|
+|t:|1685118896
+|switch|p2a: Emolga|Emolga, L88, F|240/240
+|turn|7
+|inactive|GmEuan has 120 seconds left.
+|
+|t:|1685118928
+|move|p1a: Inteleon|Air Slash|p2a: Emolga
+|-resisted|p2a: Emolga
+|-damage|p2a: Emolga|205/240
+|move|p2a: Emolga|Thunderbolt|p1a: Inteleon
+|-supereffective|p1a: Inteleon
+|-damage|p1a: Inteleon|13/243
+|
+|upkeep
+|turn|8
+|inactive|GmEuan has 120 seconds left.
+|
+|t:|1685118938
+|move|p1a: Inteleon|Surf|p2a: Emolga
+|-crit|p2a: Emolga
+|-damage|p2a: Emolga|0 fnt
+|faint|p2a: Emolga
+|
+|upkeep
+|
+|t:|1685118943
+|switch|p2a: Ninjask|Ninjask, L86, M|245/245
+|turn|9
+|
+|t:|1685118949
+|move|p2a: Ninjask|Leech Life|p1a: Inteleon
+|-damage|p1a: Inteleon|0 fnt
+|faint|p1a: Inteleon
+|
+|-ability|p2a: Ninjask|Speed Boost|boost
+|-boost|p2a: Ninjask|spe|1
+|upkeep
+|
+|t:|1685118955
+|switch|p1a: Incineroar|Incineroar, L80, F|283/283
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ninjask|atk|1
+|turn|10
+|
+|t:|1685118966
+|move|p2a: Ninjask|U-turn|p1a: Incineroar
+|-damage|p1a: Incineroar|226/283
+|
+|t:|1685118974
+|switch|p2a: Garchomp|Garchomp, L74, M|282/282|[from] U-turn
+|move|p1a: Incineroar|Flare Blitz|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|215/282
+|-damage|p1a: Incineroar|191/283|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Incineroar|169/283|[from] Recoil
+|
+|upkeep
+|turn|11
+|
+|t:|1685118985
+|switch|p1a: Xerneas|Xerneas, L67|280/280
+|-ability|p1a: Xerneas|Fairy Aura
+|move|p2a: Garchomp|Earthquake|p1a: Xerneas
+|-damage|p1a: Xerneas|157/280
+|
+|upkeep
+|turn|12
+|
+|t:|1685118994
+|switch|p2a: Duraludon|Duraludon, L84, F|255/255
+|move|p1a: Xerneas|Moonblast|p2a: Duraludon
+|-damage|p2a: Duraludon|0 fnt
+|faint|p2a: Duraludon
+|
+|upkeep
+|
+|t:|1685119019
+|switch|p2a: Garchomp|Garchomp, L74, M|215/282
+|turn|13
+|
+|t:|1685119038
+|move|p2a: Garchomp|Earthquake|p1a: Xerneas
+|-damage|p1a: Xerneas|33/280
+|move|p1a: Xerneas|Moonblast|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1685119048
+|switch|p2a: Ninjask|Ninjask, L86, M|245/245
+|turn|14
+|
+|t:|1685119057
+|move|p2a: Ninjask|Acrobatics|p1a: Xerneas
+|-damage|p1a: Xerneas|0 fnt
+|faint|p1a: Xerneas
+|
+|-ability|p2a: Ninjask|Speed Boost|boost
+|-boost|p2a: Ninjask|spe|1
+|upkeep
+|
+|t:|1685119063
+|switch|p1a: Scrafty|Scrafty, L82, M|121/241
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Ninjask|atk|1
+|turn|15
+|
+|t:|1685119070
+|move|p2a: Ninjask|Acrobatics|p1a: Scrafty
+|-supereffective|p1a: Scrafty
+|-damage|p1a: Scrafty|1/241
+|move|p1a: Scrafty|Close Combat|p2a: Ninjask
+|-resisted|p2a: Ninjask
+|-damage|p2a: Ninjask|199/245
+|-unboost|p1a: Scrafty|def|1
+|-unboost|p1a: Scrafty|spd|1
+|
+|-ability|p2a: Ninjask|Speed Boost|boost
+|-boost|p2a: Ninjask|spe|1
+|upkeep
+|turn|16
+|
+|t:|1685119080
+|move|p2a: Ninjask|Swords Dance|p2a: Ninjask
+|-boost|p2a: Ninjask|atk|2
+|move|p1a: Scrafty|Knock Off|p2a: Ninjask
+|-damage|p2a: Ninjask|99/245
+|
+|-ability|p2a: Ninjask|Speed Boost|boost
+|-boost|p2a: Ninjask|spe|1
+|upkeep
+|turn|17
+|
+|t:|1685119087
+|move|p2a: Ninjask|Acrobatics|p1a: Scrafty
+|-supereffective|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|
+|-ability|p2a: Ninjask|Speed Boost|boost
+|-boost|p2a: Ninjask|spe|1
+|upkeep
+|
+|t:|1685119093
+|switch|p1a: Incineroar|Incineroar, L80, F|169/283
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ninjask|atk|1
+|turn|18
+|
+|t:|1685119100
+|move|p2a: Ninjask|Acrobatics|p1a: Incineroar
+|-damage|p1a: Incineroar|51/283
+|move|p1a: Incineroar|Knock Off|p2a: Ninjask
+|-damage|p2a: Ninjask|0 fnt
+|faint|p2a: Ninjask
+|
+|upkeep
+|
+|t:|1685119104
+|switch|p2a: Tapu Fini|Tapu Fini, L78|237/237
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|turn|19
+|inactive|GmEuan has 120 seconds left.
+|
+|t:|1685119152
+|-start|p1a: Incineroar|Dynamax|
+|-heal|p1a: Incineroar|102/566|[silent]
+|-start|p2a: Tapu Fini|Dynamax|
+|-heal|p2a: Tapu Fini|474/474|[silent]
+|move|p2a: Tapu Fini|Max Geyser|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-crit|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-weather|RainDance
+|faint|p1a: Incineroar
+|
+|win|MinatoUzxmaki
+|raw|GmEuan's rating: 1049 &rarr; <strong>1035</strong><br />(-14 for losing)
+|raw|MinatoUzxmaki's rating: 1109 &rarr; <strong>1130</strong><br />(+21 for winning)
+|l|☆GmEuan

@@ -1,0 +1,269 @@
+|j|☆XYZ15
+|j|☆Lord Rekkuza
+|t:|1685135215
+|gametype|singles
+|player|p1|XYZ15|rei|
+|player|p2|Lord Rekkuza|lance-masters|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685135215
+|start
+|switch|p1a: Dragapult|Dragapult, L78, F|265/265
+|switch|p2a: Rotom|Rotom-Mow, L86|226/226
+|turn|1
+|c|☆Lord Rekkuza|Glhf
+|c|☆XYZ15|same
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lord Rekkuza)
+|inactive|Lord Rekkuza has 270 seconds left.
+|
+|t:|1685135281
+|switch|p2a: Lickilicky|Lickilicky, L86, F|329/329
+|move|p1a: Dragapult|U-turn|p2a: Lickilicky
+|-damage|p2a: Lickilicky|277/329
+|
+|t:|1685135285
+|switch|p1a: Buzzwole|Buzzwole, L77|291/291|[from] U-turn
+|
+|-heal|p2a: Lickilicky|297/329|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685135308
+|switch|p2a: Corviknight|Corviknight, L78, F|281/281
+|-start|p1a: Buzzwole|Dynamax|
+|-heal|p1a: Buzzwole|582/582|[silent]
+|move|p1a: Buzzwole|Max Airstream|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|233/281
+|-boost|p1a: Buzzwole|spe|1
+|
+|-heal|p2a: Corviknight|250/281|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Lord Rekkuza has 270 seconds left.
+|
+|t:|1685135333
+|-start|p2a: Corviknight|Dynamax|
+|-heal|p2a: Corviknight|500/562|[silent]
+|move|p1a: Buzzwole|Max Knuckle|p2a: Corviknight
+|-damage|p2a: Corviknight|395/562
+|-boost|p1a: Buzzwole|atk|1
+|move|p2a: Corviknight|Max Airstream|p1a: Buzzwole
+|-supereffective|p1a: Buzzwole
+|-damage|p1a: Buzzwole|222/582
+|-boost|p2a: Corviknight|spe|1
+|
+|-heal|p2a: Corviknight|412/562|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Lord Rekkuza has 270 seconds left.
+|
+|t:|1685135350
+|move|p1a: Buzzwole|Max Knuckle|p2a: Corviknight
+|-damage|p2a: Corviknight|262/562
+|-boost|p1a: Buzzwole|atk|1
+|move|p2a: Corviknight|Max Airstream|p1a: Buzzwole
+|-supereffective|p1a: Buzzwole
+|-damage|p1a: Buzzwole|0 fnt
+|-boost|p2a: Corviknight|spe|1
+|faint|p1a: Buzzwole
+|
+|-heal|p2a: Corviknight|279/562|[from] item: Leftovers
+|upkeep
+|
+|t:|1685135359
+|switch|p1a: Porygon-Z|Porygon-Z, L80|267/267
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|spa|1
+|turn|5
+|inactive|Lord Rekkuza has 270 seconds left.
+|
+|t:|1685135372
+|move|p2a: Corviknight|Max Guard|p2a: Corviknight
+|-singleturn|p2a: Corviknight|Max Guard
+|move|p1a: Porygon-Z|Thunderbolt|p2a: Corviknight
+|-activate|p2a: Corviknight|move: Max Guard
+|
+|-heal|p2a: Corviknight|296/562|[from] item: Leftovers
+|upkeep
+|-end|p2a: Corviknight|Dynamax
+|-heal|p2a: Corviknight|148/281|[silent]
+|turn|6
+|inactive|Lord Rekkuza has 270 seconds left.
+|j| AndreyVGC
+|
+|t:|1685135386
+|switch|p2a: Rotom|Rotom-Mow, L86|226/226
+|move|p1a: Porygon-Z|Thunderbolt|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|194/226
+|-damage|p1a: Porygon-Z|241/267|[from] item: Life Orb
+|
+|-heal|p2a: Rotom|208/226|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Lord Rekkuza has 270 seconds left.
+|
+|t:|1685135403
+|move|p2a: Rotom|Volt Switch|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|147/267
+|
+|t:|1685135415
+|switch|p2a: Lickilicky|Lickilicky, L86, F|297/329|[from] Volt Switch
+|move|p1a: Porygon-Z|Tri Attack|p2a: Lickilicky
+|-damage|p2a: Lickilicky|102/329
+|-damage|p1a: Porygon-Z|121/267|[from] item: Life Orb
+|
+|-heal|p2a: Lickilicky|122/329|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685135434
+|move|p1a: Porygon-Z|Tri Attack|p2a: Lickilicky
+|-damage|p2a: Lickilicky|0 fnt
+|faint|p2a: Lickilicky
+|-damage|p1a: Porygon-Z|95/267|[from] item: Life Orb
+|
+|upkeep
+|inactive|Lord Rekkuza has 240 seconds left.
+|
+|t:|1685135454
+|switch|p2a: Rotom|Rotom-Mow, L86|208/226
+|turn|9
+|
+|t:|1685135463
+|switch|p1a: Dragapult|Dragapult, L78, F|265/265
+|move|p2a: Rotom|Thunderbolt|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|197/265
+|
+|-heal|p2a: Rotom|222/226|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Lord Rekkuza has 240 seconds left.
+|
+|t:|1685135494
+|move|p1a: Dragapult|U-turn|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|142/226
+|
+|t:|1685135506
+|switch|p1a: Luxray|Luxray, L84, F|272/272|[from] U-turn
+|-ability|p1a: Luxray|Intimidate|boost
+|-unboost|p2a: Rotom|atk|1
+|move|p2a: Rotom|Volt Switch|p1a: Luxray
+|-resisted|p1a: Luxray
+|-damage|p1a: Luxray|241/272
+|
+|t:|1685135535
+|switch|p2a: Whiscash|Whiscash, L86, M|329/329|[from] Volt Switch
+|
+|upkeep
+|turn|11
+|inactive|Lord Rekkuza has 210 seconds left.
+|
+|t:|1685135571
+|switch|p1a: Polteageist|Polteageist, L78|222/222
+|move|p2a: Whiscash|Dragon Dance|p2a: Whiscash
+|-boost|p2a: Whiscash|atk|1
+|-boost|p2a: Whiscash|spe|1
+|
+|upkeep
+|turn|12
+|inactive|Lord Rekkuza has 180 seconds left.
+|inactive|Lord Rekkuza has 150 seconds left.
+|
+|t:|1685135625
+|switch|p2a: Corviknight|Corviknight, L78, F|148/281
+|move|p1a: Polteageist|Giga Drain|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|133/281
+|
+|-heal|p2a: Corviknight|150/281|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Lord Rekkuza has 150 seconds left.
+|
+|t:|1685135647
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|-enditem|p1a: Polteageist|White Herb
+|-clearnegativeboost|p1a: Polteageist|[silent]
+|move|p2a: Corviknight|Brave Bird|p1a: Polteageist
+|-damage|p1a: Polteageist|92/222
+|-start|p2a: Corviknight|Disable|Brave Bird|[from] ability: Cursed Body|[of] p1a: Polteageist
+|-damage|p2a: Corviknight|107/281|[from] Recoil
+|
+|-heal|p2a: Corviknight|124/281|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685135675
+|move|p1a: Polteageist|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|inactive|Lord Rekkuza has 120 seconds left.
+|
+|t:|1685135702
+|switch|p2a: Jirachi|Jirachi, L79|288/288
+|turn|15
+|
+|t:|1685135705
+|move|p1a: Polteageist|Shadow Ball|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|upkeep
+|inactive|Lord Rekkuza has 90 seconds left.
+|
+|t:|1685135748
+|switch|p2a: Rotom|Rotom-Mow, L86|142/226
+|turn|16
+|
+|t:|1685135751
+|move|p1a: Polteageist|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|inactive|Lord Rekkuza has 90 seconds left.
+|
+|t:|1685135758
+|switch|p2a: Hawlucha|Hawlucha, L80, F|256/256
+|turn|17
+|
+|t:|1685135764
+|move|p1a: Polteageist|Shadow Ball|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|t:|1685135767
+|switch|p2a: Whiscash|Whiscash, L86, M|329/329
+|turn|18
+|
+|t:|1685135770
+|move|p1a: Polteageist|Giga Drain|p2a: Whiscash
+|-supereffective|p2a: Whiscash
+|-damage|p2a: Whiscash|0 fnt
+|-heal|p1a: Polteageist|222/222|[from] drain|[of] p2a: Whiscash
+|faint|p2a: Whiscash
+|
+|win|XYZ15
+|c|☆XYZ15|gg
+|c|☆XYZ15|1-0
+|c|☆Lord Rekkuza|gg

@@ -1,0 +1,270 @@
+|j|☆bug hunter 2
+|j|☆gareeb adani
+|t:|1685109674
+|gametype|singles
+|player|p1|bug hunter 2|ballguy|1518
+|player|p2|gareeb adani|101|1482
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685109674
+|start
+|switch|p1a: Zapdos|Zapdos, L78|268/268
+|switch|p2a: Bellossom|Bellossom, L82, M|257/257
+|turn|1
+|c|☆bug hunter 2|glhf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gareeb adani)
+|
+|t:|1685109703
+|move|p1a: Zapdos|U-turn|p2a: Bellossom
+|-supereffective|p2a: Bellossom
+|-crit|p2a: Bellossom
+|-damage|p2a: Bellossom|131/257
+|
+|t:|1685109712
+|switch|p1a: Pinsir|Pinsir, L84, F|246/246|[from] U-turn
+|-ability|p1a: Pinsir|Mold Breaker
+|move|p2a: Bellossom|Quiver Dance|p2a: Bellossom
+|-boost|p2a: Bellossom|spa|1
+|-boost|p2a: Bellossom|spd|1
+|-boost|p2a: Bellossom|spe|1
+|
+|-heal|p2a: Bellossom|147/257|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685109718
+|move|p2a: Bellossom|Strength Sap|p1a: Pinsir
+|-unboost|p1a: Pinsir|atk|1
+|-heal|p2a: Bellossom|257/257
+|move|p1a: Pinsir|X-Scissor|p2a: Bellossom
+|-supereffective|p2a: Bellossom
+|-damage|p2a: Bellossom|125/257
+|
+|-heal|p2a: Bellossom|141/257|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685109721
+|move|p2a: Bellossom|Strength Sap|p1a: Pinsir
+|-unboost|p1a: Pinsir|atk|1
+|-heal|p2a: Bellossom|257/257
+|move|p1a: Pinsir|X-Scissor|p2a: Bellossom
+|-supereffective|p2a: Bellossom
+|-damage|p2a: Bellossom|161/257
+|
+|-heal|p2a: Bellossom|177/257|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685109731
+|move|p2a: Bellossom|Quiver Dance|p2a: Bellossom
+|-boost|p2a: Bellossom|spa|1
+|-boost|p2a: Bellossom|spd|1
+|-boost|p2a: Bellossom|spe|1
+|move|p1a: Pinsir|Knock Off|p2a: Bellossom
+|-damage|p2a: Bellossom|135/257
+|-enditem|p2a: Bellossom|Leftovers|[from] move: Knock Off|[of] p1a: Pinsir
+|
+|upkeep
+|turn|5
+|
+|t:|1685109736
+|move|p2a: Bellossom|Strength Sap|p1a: Pinsir
+|-unboost|p1a: Pinsir|atk|1
+|-heal|p2a: Bellossom|257/257
+|move|p1a: Pinsir|X-Scissor|p2a: Bellossom
+|-supereffective|p2a: Bellossom
+|-damage|p2a: Bellossom|179/257
+|
+|upkeep
+|turn|6
+|
+|t:|1685109738
+|move|p2a: Bellossom|Moonblast|p1a: Pinsir
+|-damage|p1a: Pinsir|106/246
+|move|p1a: Pinsir|X-Scissor|p2a: Bellossom
+|-supereffective|p2a: Bellossom
+|-damage|p2a: Bellossom|99/257
+|
+|upkeep
+|turn|7
+|
+|t:|1685109751
+|move|p2a: Bellossom|Strength Sap|p1a: Pinsir
+|-unboost|p1a: Pinsir|atk|1
+|-heal|p2a: Bellossom|202/257
+|move|p1a: Pinsir|X-Scissor|p2a: Bellossom
+|-supereffective|p2a: Bellossom
+|-damage|p2a: Bellossom|130/257
+|
+|upkeep
+|turn|8
+|
+|t:|1685109756
+|move|p2a: Bellossom|Moonblast|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|
+|upkeep
+|
+|t:|1685109760
+|switch|p1a: Scyther|Scyther, L81, M|246/246
+|turn|9
+|
+|t:|1685109768
+|move|p2a: Bellossom|Strength Sap|p1a: Scyther
+|-unboost|p1a: Scyther|atk|1
+|-heal|p2a: Bellossom|257/257
+|move|p1a: Scyther|Dual Wingbeat|p2a: Bellossom
+|-supereffective|p2a: Bellossom
+|-crit|p2a: Bellossom
+|-damage|p2a: Bellossom|69/257
+|-supereffective|p2a: Bellossom
+|-damage|p2a: Bellossom|0 fnt
+|faint|p2a: Bellossom
+|-hitcount|p2: Bellossom|2
+|
+|upkeep
+|
+|t:|1685109773
+|switch|p2a: Jolteon|Jolteon, L82, M|241/241
+|turn|10
+|
+|t:|1685109786
+|move|p2a: Jolteon|Thunderbolt|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|faint|p1a: Scyther
+|
+|upkeep
+|
+|t:|1685109801
+|switch|p1a: Zapdos|Zapdos, L78|268/268
+|turn|11
+|
+|t:|1685109814
+|move|p2a: Jolteon|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|109/268
+|move|p1a: Zapdos|U-turn|p2a: Jolteon
+|-damage|p2a: Jolteon|187/241
+|
+|t:|1685109816
+|switch|p1a: Slurpuff|Slurpuff, L80, M|262/262|[from] U-turn
+|
+|upkeep
+|turn|12
+|
+|t:|1685109820
+|move|p2a: Jolteon|Thunderbolt|p1a: Slurpuff
+|-damage|p1a: Slurpuff|94/262
+|-enditem|p1a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1a: Slurpuff|159/262|[from] item: Sitrus Berry
+|move|p1a: Slurpuff|Belly Drum|p1a: Slurpuff
+|-damage|p1a: Slurpuff|28/262
+|-setboost|p1a: Slurpuff|atk|6|[from] move: Belly Drum
+|
+|upkeep
+|turn|13
+|
+|t:|1685109828
+|switch|p2a: Drifblim|Drifblim, L84, F|389/389
+|move|p1a: Slurpuff|Drain Punch|p2a: Drifblim
+|-immune|p2a: Drifblim
+|
+|upkeep
+|turn|14
+|inactive|gareeb adani has 120 seconds left.
+|
+|t:|1685109876
+|move|p1a: Slurpuff|Play Rough|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|
+|upkeep
+|
+|t:|1685109880
+|switch|p2a: Marowak|Marowak-Alola, L84, F|238/238
+|turn|15
+|
+|t:|1685109888
+|move|p1a: Slurpuff|Play Rough|p2a: Marowak
+|-resisted|p2a: Marowak
+|-damage|p2a: Marowak|103/238
+|-unboost|p2a: Marowak|atk|1
+|move|p2a: Marowak|Flame Charge|p1a: Slurpuff
+|-damage|p1a: Slurpuff|0 fnt
+|-boost|p2a: Marowak|spe|1
+|faint|p1a: Slurpuff
+|
+|upkeep
+|
+|t:|1685109918
+|switch|p1a: Palkia|Palkia, L74|255/255
+|-ability|p1a: Palkia|Pressure
+|turn|16
+|inactive|gareeb adani has 120 seconds left.
+|
+|t:|1685109938
+|move|p1a: Palkia|Hydro Pump|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|upkeep
+|
+|t:|1685109941
+|switch|p2a: Jolteon|Jolteon, L82, M|187/241
+|turn|17
+|
+|t:|1685109948
+|-start|p1a: Palkia|Dynamax|
+|-heal|p1a: Palkia|510/510|[silent]
+|move|p2a: Jolteon|Thunderbolt|p1a: Palkia
+|-damage|p1a: Palkia|368/510
+|move|p1a: Palkia|Max Geyser|p2a: Jolteon
+|-damage|p2a: Jolteon|1/241
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1685109952
+|move|p2a: Jolteon|Thunderbolt|p1a: Palkia
+|-damage|p1a: Palkia|235/510
+|move|p1a: Palkia|Max Wyrmwind|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685109962
+|switch|p2a: Magearna|Magearna-Original, L76|247/247
+|turn|19
+|
+|t:|1685109965
+|move|p1a: Palkia|Max Geyser|p2a: Magearna
+|-damage|p2a: Magearna|3/247
+|move|p2a: Magearna|Agility|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magearna|18/247|[from] item: Leftovers
+|upkeep
+|-end|p1a: Palkia|Dynamax
+|-heal|p1a: Palkia|118/255|[silent]
+|turn|20
+|-message|bug hunter 2 forfeited.
+|
+|win|gareeb adani
+|raw|bug hunter 2's rating: 1518 &rarr; <strong>1498</strong><br />(-20 for losing)
+|raw|gareeb adani's rating: 1512 &rarr; <strong>1532</strong><br />(+20 for winning)
+|l|☆bug hunter 2

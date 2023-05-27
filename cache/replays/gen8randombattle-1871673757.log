@@ -1,0 +1,334 @@
+|j|☆Itachinemo
+|j|‽Oracall
+|t:|1685118479
+|gametype|singles
+|player|p1|Itachinemo|2|1331
+|player|p2|Oracall|2|1274
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685118479
+|start
+|switch|p1a: Tentacruel|Tentacruel, L84, F|272/272
+|switch|p2a: Weezing|Weezing-Galar, L86, F|252/252
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Oracall)
+|
+|t:|1685118491
+|move|p1a: Tentacruel|Knock Off|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|229/252
+|-enditem|p2a: Weezing|Black Sludge|[from] move: Knock Off|[of] p1a: Tentacruel
+|move|p2a: Weezing|Toxic Spikes|p1a: Tentacruel
+|-sidestart|p1: Itachinemo|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1685118502
+|move|p1a: Tentacruel|Scald|p2a: Weezing
+|-damage|p2a: Weezing|139/252
+|move|p2a: Weezing|Toxic Spikes|p1a: Tentacruel
+|-sidestart|p1: Itachinemo|move: Toxic Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1685118510
+|move|p1a: Tentacruel|Scald|p2a: Weezing
+|-damage|p2a: Weezing|55/252
+|move|p2a: Weezing|Strange Steam|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|239/272
+|
+|-heal|p1a: Tentacruel|256/272|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1685118527
+|move|p1a: Tentacruel|Scald|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|-heal|p1a: Tentacruel|272/272|[from] item: Black Sludge
+|upkeep
+|
+|t:|1685118529
+|switch|p2a: Rillaboom|Rillaboom, L78, M|284/284
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|5
+|
+|t:|1685118549
+|move|p2a: Rillaboom|Grassy Glide|p1a: Tentacruel
+|-damage|p1a: Tentacruel|95/272
+|move|p1a: Tentacruel|Sludge Bomb|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|72/284
+|
+|-heal|p1a: Tentacruel|112/272|[from] Grassy Terrain
+|-heal|p1a: Tentacruel|129/272|[from] item: Black Sludge
+|-heal|p2a: Rillaboom|89/284|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1685118570
+|move|p2a: Rillaboom|Grassy Glide|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-heal|p2a: Rillaboom|106/284|[from] Grassy Terrain
+|upkeep
+|inactive|Itachinemo has 120 seconds left.
+|
+|t:|1685118591
+|switch|p1a: Mr. Rime|Mr. Rime, L86, F|278/278
+|turn|7
+|
+|t:|1685118604
+|-start|p2a: Rillaboom|Dynamax|
+|-heal|p2a: Rillaboom|212/568|[silent]
+|move|p2a: Rillaboom|Max Darkness|p1a: Mr. Rime
+|-supereffective|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|82/278
+|-unboost|p1a: Mr. Rime|spd|1
+|move|p1a: Mr. Rime|Rapid Spin|p2a: Rillaboom
+|-damage|p2a: Rillaboom|175/568
+|-boost|p1a: Mr. Rime|spe|1
+|-sideend|p1: Itachinemo|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Mr. Rime
+|
+|-heal|p1a: Mr. Rime|99/278|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|192/568|[from] Grassy Terrain
+|upkeep
+|turn|8
+|inactive|Itachinemo has 120 seconds left.
+|
+|t:|1685118620
+|move|p1a: Mr. Rime|Freeze-Dry|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Mr. Rime|116/278|[from] Grassy Terrain
+|upkeep
+|
+|t:|1685118626
+|switch|p2a: Spectrier|Spectrier, L74|270/270
+|turn|9
+|inactive|Itachinemo has 120 seconds left.
+|
+|t:|1685118652
+|move|p1a: Mr. Rime|Freeze-Dry|p2a: Spectrier
+|-damage|p2a: Spectrier|168/270
+|move|p2a: Spectrier|Shadow Ball|p1a: Mr. Rime
+|-supereffective|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|0 fnt
+|faint|p1a: Mr. Rime
+|-ability|p2a: Spectrier|Grim Neigh|boost
+|-boost|p2a: Spectrier|spa|1
+|
+|-heal|p2a: Spectrier|184/270|[from] Grassy Terrain
+|-heal|p2a: Spectrier|200/270|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1685118664
+|switch|p1a: Seaking|Seaking, L88, F|284/284
+|turn|10
+|
+|t:|1685118669
+|move|p2a: Spectrier|Shadow Ball|p1a: Seaking
+|-damage|p1a: Seaking|139/284
+|-unboost|p1a: Seaking|spd|1
+|move|p1a: Seaking|Knock Off|p2a: Spectrier
+|-supereffective|p2a: Spectrier
+|-damage|p2a: Spectrier|0 fnt
+|-enditem|p2a: Spectrier|Leftovers|[from] move: Knock Off|[of] p1a: Seaking
+|faint|p2a: Spectrier
+|-damage|p1a: Seaking|111/284|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685118677
+|switch|p2a: Tornadus|Tornadus, L80, M|258/258
+|turn|11
+|
+|t:|1685118693
+|move|p2a: Tornadus|Grass Knot|p1a: Seaking
+|-supereffective|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|faint|p1a: Seaking
+|
+|upkeep
+|
+|t:|1685118708
+|switch|p1a: Druddigon|Druddigon, L84, M|267/267
+|turn|12
+|inactive|Itachinemo has 90 seconds left.
+|
+|t:|1685118726
+|switch|p2a: Espeon|Espeon, L82, F|241/241
+|move|p1a: Druddigon|Gunk Shot|p2a: Espeon
+|-damage|p2a: Espeon|60/241
+|-status|p2a: Espeon|psn
+|-damage|p1a: Druddigon|241/267|[from] item: Life Orb
+|
+|-heal|p2a: Espeon|75/241 psn|[from] item: Leftovers
+|-damage|p2a: Espeon|45/241 psn|[from] psn
+|upkeep
+|turn|13
+|inactive|Itachinemo has 90 seconds left.
+|
+|t:|1685118739
+|move|p2a: Espeon|Dazzling Gleam|p1a: Druddigon
+|-supereffective|p1a: Druddigon
+|-damage|p1a: Druddigon|103/267
+|move|p1a: Druddigon|Outrage|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|-damage|p1a: Druddigon|77/267|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685118742
+|switch|p2a: Tornadus|Tornadus, L80, M|258/258
+|turn|14
+|
+|t:|1685118749
+|move|p2a: Tornadus|Hurricane|p1a: Druddigon
+|-damage|p1a: Druddigon|0 fnt
+|faint|p1a: Druddigon
+|
+|upkeep
+|
+|t:|1685118757
+|switch|p1a: Wobbuffet|Wobbuffet, L92, M|499/499
+|turn|15
+|
+|t:|1685118766
+|move|p2a: Tornadus|Nasty Plot|p2a: Tornadus
+|-boost|p2a: Tornadus|spa|2
+|move|p1a: Wobbuffet|Charm|p2a: Tornadus
+|-unboost|p2a: Tornadus|atk|2
+|
+|upkeep
+|turn|16
+|
+|t:|1685118775
+|move|p2a: Tornadus|Nasty Plot|p2a: Tornadus
+|-boost|p2a: Tornadus|spa|2
+|move|p1a: Wobbuffet|Mirror Coat||[still]
+|-fail|p1a: Wobbuffet
+|
+|upkeep
+|turn|17
+|
+|t:|1685118780
+|move|p2a: Tornadus|Nasty Plot|p2a: Tornadus
+|-boost|p2a: Tornadus|spa|2
+|move|p1a: Wobbuffet|Encore|p2a: Tornadus
+|-start|p2a: Tornadus|Encore
+|
+|upkeep
+|turn|18
+|inactive|Itachinemo has 120 seconds left.
+|
+|t:|1685118787
+|switch|p1a: Throh|Throh, L86, M|347/347
+|move|p2a: Tornadus|Nasty Plot|p2a: Tornadus
+|-boost|p2a: Tornadus|spa|0
+|
+|upkeep
+|turn|19
+|
+|t:|1685118796
+|move|p2a: Tornadus|Nasty Plot|p2a: Tornadus
+|-boost|p2a: Tornadus|spa|0
+|move|p1a: Throh|Bulk Up|p1a: Throh
+|-boost|p1a: Throh|atk|1
+|-boost|p1a: Throh|def|1
+|
+|upkeep
+|turn|20
+|
+|t:|1685118804
+|-start|p1a: Throh|Dynamax|
+|-heal|p1a: Throh|694/694|[silent]
+|move|p2a: Tornadus|Nasty Plot|p2a: Tornadus
+|-boost|p2a: Tornadus|spa|0
+|move|p1a: Throh|Max Knuckle|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|141/258
+|-boost|p1a: Throh|atk|1
+|
+|-end|p2a: Tornadus|Encore
+|upkeep
+|turn|21
+|
+|t:|1685118818
+|move|p2a: Tornadus|Hurricane|p1a: Throh|[miss]
+|-miss|p2a: Tornadus|p1a: Throh
+|move|p1a: Throh|Max Knuckle|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|24/258
+|-boost|p1a: Throh|atk|1
+|
+|upkeep
+|turn|22
+|
+|t:|1685118831
+|move|p2a: Tornadus|Hurricane|p1a: Throh
+|-supereffective|p1a: Throh
+|-damage|p1a: Throh|0 fnt
+|faint|p1a: Throh
+|
+|upkeep
+|
+|t:|1685118836
+|switch|p1a: Wobbuffet|Wobbuffet, L92, M|499/499
+|turn|23
+|
+|t:|1685118840
+|move|p2a: Tornadus|Hurricane|p1a: Wobbuffet|[miss]
+|-miss|p2a: Tornadus|p1a: Wobbuffet
+|move|p1a: Wobbuffet|Mirror Coat||[still]
+|-fail|p1a: Wobbuffet
+|
+|upkeep
+|turn|24
+|
+|t:|1685118851
+|move|p2a: Tornadus|Hurricane|p1a: Wobbuffet|[miss]
+|-miss|p2a: Tornadus|p1a: Wobbuffet
+|move|p1a: Wobbuffet|Mirror Coat||[still]
+|-fail|p1a: Wobbuffet
+|
+|upkeep
+|turn|25
+|
+|t:|1685118857
+|move|p2a: Tornadus|Hurricane|p1a: Wobbuffet|[miss]
+|-miss|p2a: Tornadus|p1a: Wobbuffet
+|move|p1a: Wobbuffet|Charm|p2a: Tornadus
+|-unboost|p2a: Tornadus|atk|2
+|
+|upkeep
+|turn|26
+|
+|t:|1685118865
+|move|p2a: Tornadus|Hurricane|p1a: Wobbuffet
+|-damage|p1a: Wobbuffet|0 fnt
+|faint|p1a: Wobbuffet
+|
+|win|Oracall
+|raw|Itachinemo's rating: 1331 &rarr; <strong>1308</strong><br />(-23 for losing)
+|raw|Oracall's rating: 1274 &rarr; <strong>1303</strong><br />(+29 for winning)
+|l|‽Oracall

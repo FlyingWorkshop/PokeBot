@@ -1,0 +1,129 @@
+|j|☆Kiga12345
+|j|‽joejoemamamamajoe
+|t:|1685101010
+|gametype|singles
+|player|p1|Kiga12345|parasollady|1054
+|player|p2|joejoemamamamajoe|benga|1136
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685101010
+|start
+|switch|p1a: Absol|Absol, L84, M|246/246
+|switch|p2a: Stunfisk|Stunfisk, L84, M|320/320
+|turn|1
+|
+|t:|1685101023
+|move|p1a: Absol|Swords Dance|p1a: Absol
+|-boost|p1a: Absol|atk|2
+|move|p2a: Stunfisk|Stealth Rock|p1a: Absol
+|-sidestart|p1: Kiga12345|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1685101032
+|move|p1a: Absol|Knock Off|p2a: Stunfisk
+|-damage|p2a: Stunfisk|58/320
+|-status|p1a: Absol|par|[from] ability: Static|[of] p2a: Stunfisk
+|-enditem|p2a: Stunfisk|Leftovers|[from] move: Knock Off|[of] p1a: Absol
+|move|p2a: Stunfisk|Discharge|p1a: Absol
+|-damage|p1a: Absol|153/246 par
+|
+|upkeep
+|turn|3
+|
+|t:|1685101054
+|move|p1a: Absol|Sucker Punch|p2a: Stunfisk
+|-damage|p2a: Stunfisk|0 fnt
+|faint|p2a: Stunfisk
+|
+|upkeep
+|
+|t:|1685101092
+|switch|p2a: Cursola|Cursola, L86, F|243/243
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kiga12345)
+|
+|t:|1685101097
+|cant|p1a: Absol|par
+|move|p2a: Cursola|Hydro Pump|p1a: Absol|[miss]
+|-miss|p2a: Cursola|p1a: Absol
+|
+|upkeep
+|turn|5
+|
+|t:|1685101116
+|cant|p1a: Absol|par
+|move|p2a: Cursola|Hydro Pump|p1a: Absol
+|-crit|p1a: Absol
+|-damage|p1a: Absol|0 fnt
+|faint|p1a: Absol
+|
+|upkeep
+|j| MinatoUzxmaki
+|
+|t:|1685101128
+|switch|p1a: Butterfree|Butterfree, L87, F|246/246
+|turn|6
+|c| MinatoUzxmaki|Imagine being locked
+|c| MinatoUzxmaki|I said all that bad stuff yesterday
+|
+|t:|1685101141
+|move|p1a: Butterfree|Sleep Powder|p2a: Cursola
+|-status|p2a: Cursola|slp|[from] move: Sleep Powder
+|cant|p2a: Cursola|slp
+|
+|upkeep
+|turn|7
+|
+|t:|1685101150
+|switch|p2a: Blastoise|Blastoise, L82, F|264/264
+|move|p1a: Butterfree|Quiver Dance|p1a: Butterfree
+|-boost|p1a: Butterfree|spa|1
+|-boost|p1a: Butterfree|spd|1
+|-boost|p1a: Butterfree|spe|1
+|
+|upkeep
+|turn|8
+|c| MinatoUzxmaki|just for you to get locked for saying suck my fat ___
+|
+|t:|1685101156
+|move|p1a: Butterfree|Sleep Powder|p2a: Blastoise|[miss]
+|-miss|p1a: Butterfree|p2a: Blastoise
+|move|p2a: Blastoise|Shell Smash|p2a: Blastoise
+|-unboost|p2a: Blastoise|def|1
+|-unboost|p2a: Blastoise|spd|1
+|-boost|p2a: Blastoise|atk|2
+|-boost|p2a: Blastoise|spa|2
+|-boost|p2a: Blastoise|spe|2
+|-enditem|p2a: Blastoise|White Herb
+|-clearnegativeboost|p2a: Blastoise|[silent]
+|
+|upkeep
+|turn|9
+|
+|t:|1685101172
+|move|p2a: Blastoise|Ice Beam|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|98/246
+|move|p1a: Butterfree|Sleep Powder|p2a: Blastoise
+|-message|Sleep Clause Mod activated.
+|-hint|Sleep Clause Mod prevents players from putting more than one of their opponent's Pokémon to sleep at a time
+|
+|upkeep
+|turn|10
+|c| MinatoUzxmaki|I was talking about selling drugs calling you bitches and hoes
+|-message|Kiga12345 forfeited.
+|
+|win|joejoemamamamajoe
+|raw|Kiga12345's rating: 1054 &rarr; <strong>1040</strong><br />(-14 for losing)
+|raw|joejoemamamamajoe's rating: 1136 &rarr; <strong>1155</strong><br />(+19 for winning)
+|c| MinatoUzxmaki|and I still didnt get locked
+|l|☆Kiga12345

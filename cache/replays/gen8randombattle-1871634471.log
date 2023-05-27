@@ -1,0 +1,394 @@
+|j|☆Bka Onon
+|j|☆Miss Novelist
+|t:|1685114587
+|gametype|singles
+|player|p1|Bka Onon|amelia-shuffle|
+|player|p2|Miss Novelist|veteranf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685114587
+|start
+|switch|p1a: Necrozma|Necrozma, L80|286/286
+|switch|p2a: Crobat|Crobat, L82, F|274/274
+|turn|1
+|c|☆Miss Novelist|glhf!
+|c|☆Bka Onon|u2
+|
+|t:|1685114600
+|move|p2a: Crobat|Taunt|p1a: Necrozma
+|-start|p1a: Necrozma|move: Taunt
+|move|p1a: Necrozma|Photon Geyser|p2a: Crobat
+|-supereffective|p2a: Crobat
+|-damage|p2a: Crobat|14/274
+|
+|upkeep
+|turn|2
+|
+|t:|1685114608
+|switch|p2a: Grimmsnarl|Grimmsnarl, L82, M|290/290
+|move|p1a: Necrozma|Photon Geyser|p2a: Grimmsnarl
+|-immune|p2a: Grimmsnarl
+|
+|upkeep
+|turn|3
+|j| ArkenCiel
+|
+|t:|1685114624
+|switch|p1a: Celesteela|Celesteela, L77|276/276
+|move|p2a: Grimmsnarl|Darkest Lariat|p1a: Celesteela
+|-damage|p1a: Celesteela|122/276
+|
+|-heal|p1a: Celesteela|139/276|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685114633
+|move|p1a: Celesteela|Protect|p1a: Celesteela
+|-singleturn|p1a: Celesteela|Protect
+|move|p2a: Grimmsnarl|Darkest Lariat|p1a: Celesteela
+|-activate|p1a: Celesteela|move: Protect
+|
+|-heal|p1a: Celesteela|156/276|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685114640
+|switch|p1a: Diancie|Diancie, L82|216/216
+|move|p2a: Grimmsnarl|Darkest Lariat|p1a: Diancie
+|-resisted|p1a: Diancie
+|-crit|p1a: Diancie
+|-damage|p1a: Diancie|138/216
+|
+|upkeep
+|turn|6
+|
+|t:|1685114651
+|switch|p2a: Genesect|Genesect-Douse, L74|227/227
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|spa|1
+|move|p1a: Diancie|Diamond Storm|p2a: Genesect
+|-crit|p2a: Genesect
+|-damage|p2a: Genesect|73/227
+|-boost|p1a: Diancie|def|2
+|
+|upkeep
+|turn|7
+|
+|t:|1685114669
+|move|p2a: Genesect|Iron Head|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|38/216
+|move|p1a: Diancie|Body Press|p2a: Genesect
+|-damage|p2a: Genesect|0 fnt
+|faint|p2a: Genesect
+|
+|upkeep
+|
+|t:|1685114694
+|switch|p2a: Whiscash|Whiscash, L86, F|329/329
+|turn|8
+|
+|t:|1685114701
+|move|p2a: Whiscash|Liquidation|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|
+|upkeep
+|
+|t:|1685114708
+|switch|p1a: Exeggutor|Exeggutor-Alola, L87, F|307/307
+|-item|p2a: Whiscash|Choice Band|[from] ability: Frisk|[of] p1a: Exeggutor|[identify]
+|turn|9
+|
+|t:|1685114719
+|switch|p2a: Clefable|Clefable, L82, F|290/290
+|move|p1a: Exeggutor|Giga Drain|p2a: Clefable
+|-damage|p2a: Clefable|148/290
+|-damage|p1a: Exeggutor|277/307|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|t:|1685114728
+|switch|p1a: Celesteela|Celesteela, L77|156/276
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|290/290
+|
+|-heal|p1a: Celesteela|173/276|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1685114747
+|move|p1a: Celesteela|Protect|p1a: Celesteela
+|-singleturn|p1a: Celesteela|Protect
+|move|p2a: Clefable|Thunder Wave|p1a: Celesteela
+|-activate|p1a: Celesteela|move: Protect
+|
+|-heal|p1a: Celesteela|190/276|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685114754
+|move|p2a: Clefable|Fire Blast|p1a: Celesteela|[miss]
+|-miss|p2a: Clefable|p1a: Celesteela
+|move|p1a: Celesteela|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|144/290
+|
+|-heal|p1a: Celesteela|207/276|[from] item: Leftovers
+|upkeep
+|turn|13
+|c|☆Bka Onon|mb
+|
+|t:|1685114760
+|move|p2a: Clefable|Fire Blast|p1a: Celesteela
+|-supereffective|p1a: Celesteela
+|-damage|p1a: Celesteela|28/276
+|move|p1a: Celesteela|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|-ability|p1a: Celesteela|Beast Boost|boost
+|-boost|p1a: Celesteela|spa|1
+|
+|-heal|p1a: Celesteela|45/276|[from] item: Leftovers
+|upkeep
+|
+|t:|1685114779
+|switch|p2a: Grimmsnarl|Grimmsnarl, L82, M|290/290
+|turn|14
+|
+|t:|1685114789
+|move|p1a: Celesteela|Protect|p1a: Celesteela
+|-singleturn|p1a: Celesteela|Protect
+|move|p2a: Grimmsnarl|Play Rough|p1a: Celesteela
+|-activate|p1a: Celesteela|move: Protect
+|
+|-heal|p1a: Celesteela|62/276|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685114820
+|switch|p2a: Whiscash|Whiscash, L86, F|329/329
+|move|p1a: Celesteela|Protect||[still]
+|-fail|p1a: Celesteela
+|
+|-heal|p1a: Celesteela|79/276|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685114827
+|move|p1a: Celesteela|Protect|p1a: Celesteela
+|-singleturn|p1a: Celesteela|Protect
+|move|p2a: Whiscash|Liquidation|p1a: Celesteela
+|-activate|p1a: Celesteela|move: Protect
+|
+|-heal|p1a: Celesteela|96/276|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685114839
+|switch|p1a: Exeggutor|Exeggutor-Alola, L87, F|277/307
+|-item|p2a: Whiscash|Choice Band|[from] ability: Frisk|[of] p1a: Exeggutor|[identify]
+|move|p2a: Whiscash|Liquidation|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|248/307
+|
+|upkeep
+|turn|18
+|
+|t:|1685114853
+|switch|p2a: Guzzlord|Guzzlord, L84|512/512
+|move|p1a: Exeggutor|Giga Drain|p2a: Guzzlord
+|-resisted|p2a: Guzzlord
+|-damage|p2a: Guzzlord|450/512
+|-heal|p1a: Exeggutor|279/307|[from] drain|[of] p2a: Guzzlord
+|-damage|p1a: Exeggutor|249/307|[from] item: Life Orb
+|
+|upkeep
+|turn|19
+|
+|t:|1685114866
+|switch|p1a: Aromatisse|Aromatisse, L88, F|321/321
+|move|p2a: Guzzlord|Draco Meteor|p1a: Aromatisse
+|-immune|p1a: Aromatisse
+|
+|upkeep
+|turn|20
+|
+|t:|1685114873
+|move|p2a: Guzzlord|Knock Off|p1a: Aromatisse
+|-resisted|p1a: Aromatisse
+|-crit|p1a: Aromatisse
+|-damage|p1a: Aromatisse|239/321
+|-enditem|p1a: Aromatisse|Leftovers|[from] move: Knock Off|[of] p2a: Guzzlord
+|move|p1a: Aromatisse|Moonblast|p2a: Guzzlord
+|-supereffective|p2a: Guzzlord
+|-crit|p2a: Guzzlord
+|-damage|p2a: Guzzlord|0 fnt
+|faint|p2a: Guzzlord
+|
+|upkeep
+|
+|t:|1685114887
+|switch|p2a: Whiscash|Whiscash, L86, F|329/329
+|turn|21
+|
+|t:|1685114897
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Whiscash|Zen Headbutt|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|upkeep
+|turn|22
+|
+|t:|1685114903
+|switch|p1a: Necrozma|Necrozma, L80|286/286
+|move|p2a: Whiscash|Zen Headbutt|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|252/286
+|
+|-heal|p1a: Necrozma|269/286|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1685114913
+|move|p1a: Necrozma|Heat Wave|p2a: Whiscash
+|-resisted|p2a: Whiscash
+|-damage|p2a: Whiscash|283/329
+|move|p2a: Whiscash|Zen Headbutt|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|236/286
+|
+|-heal|p1a: Necrozma|253/286|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1685114919
+|switch|p2a: Grimmsnarl|Grimmsnarl, L82, M|290/290
+|move|p1a: Necrozma|Heat Wave|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|207/290
+|
+|-heal|p1a: Necrozma|270/286|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1685114926
+|switch|p1a: Aromatisse|Aromatisse, L88, F|239/321
+|move|p2a: Grimmsnarl|Trick|p1a: Aromatisse
+|-activate|p2a: Grimmsnarl|move: Trick|[of] p1a: Aromatisse
+|-item|p1a: Aromatisse|Choice Band|[from] move: Trick
+|-enditem|p2a: Grimmsnarl|Choice Band|[silent]|[from] move: Trick
+|
+|upkeep
+|turn|26
+|
+|t:|1685114940
+|switch|p2a: Whiscash|Whiscash, L86, F|283/329
+|move|p1a: Aromatisse|Moonblast|p2a: Whiscash
+|-damage|p2a: Whiscash|153/329
+|
+|upkeep
+|turn|27
+|
+|t:|1685114949
+|switch|p1a: Necrozma|Necrozma, L80|270/286
+|move|p2a: Whiscash|Liquidation|p1a: Necrozma
+|-damage|p1a: Necrozma|165/286
+|
+|-heal|p1a: Necrozma|182/286|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1685114958
+|move|p1a: Necrozma|Calm Mind|p1a: Necrozma
+|-boost|p1a: Necrozma|spa|1
+|-boost|p1a: Necrozma|spd|1
+|move|p2a: Whiscash|Liquidation|p1a: Necrozma
+|-damage|p1a: Necrozma|70/286
+|
+|-heal|p1a: Necrozma|87/286|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1685114963
+|move|p1a: Necrozma|Moonlight|p1a: Necrozma
+|-heal|p1a: Necrozma|230/286
+|move|p2a: Whiscash|Liquidation|p1a: Necrozma
+|-damage|p1a: Necrozma|116/286
+|
+|-heal|p1a: Necrozma|133/286|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1685114972
+|move|p1a: Necrozma|Calm Mind|p1a: Necrozma
+|-boost|p1a: Necrozma|spa|1
+|-boost|p1a: Necrozma|spd|1
+|move|p2a: Whiscash|Liquidation|p1a: Necrozma
+|-damage|p1a: Necrozma|10/286
+|-unboost|p1a: Necrozma|def|1
+|
+|-heal|p1a: Necrozma|27/286|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1685114981
+|move|p1a: Necrozma|Photon Geyser|p2a: Whiscash
+|-damage|p2a: Whiscash|0 fnt
+|faint|p2a: Whiscash
+|
+|-heal|p1a: Necrozma|44/286|[from] item: Leftovers
+|upkeep
+|
+|t:|1685114986
+|switch|p2a: Grimmsnarl|Grimmsnarl, L82, M|207/290
+|turn|32
+|
+|t:|1685114992
+|move|p2a: Grimmsnarl|Sucker Punch||[still]
+|-fail|p2a: Grimmsnarl
+|move|p1a: Necrozma|Moonlight|p1a: Necrozma
+|-heal|p1a: Necrozma|187/286
+|
+|-heal|p1a: Necrozma|204/286|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1685115000
+|move|p1a: Necrozma|Heat Wave|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|18/290
+|-status|p2a: Grimmsnarl|brn
+|move|p2a: Grimmsnarl|Darkest Lariat|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|137/286
+|
+|-heal|p1a: Necrozma|154/286|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|0 fnt|[from] brn
+|faint|p2a: Grimmsnarl
+|upkeep
+|
+|t:|1685115005
+|switch|p2a: Crobat|Crobat, L82, F|14/274
+|turn|34
+|c|☆Miss Novelist|gg
+|c|☆Bka Onon|gg
+|
+|t:|1685115011
+|-start|p1a: Necrozma|Dynamax|
+|-heal|p1a: Necrozma|308/572|[silent]
+|move|p2a: Crobat|Brave Bird|p1a: Necrozma
+|-damage|p1a: Necrozma|152/572
+|-damage|p2a: Crobat|0 fnt|[from] Recoil
+|faint|p2a: Crobat
+|
+|win|Bka Onon
+|l| ArkenCiel

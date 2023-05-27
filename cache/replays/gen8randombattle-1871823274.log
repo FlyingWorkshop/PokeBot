@@ -1,0 +1,442 @@
+|j|☆gareeb adani
+|j|☆MyPasswordIsPeePee
+|t:|1685134302
+|gametype|singles
+|player|p1|gareeb adani|2|1517
+|player|p2|MyPasswordIsPeePee|266|1666
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685134302
+|start
+|switch|p1a: Cramorant|Cramorant, L84, M|255/255
+|switch|p2a: Turtonator|Turtonator, L84, M|238/238
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MyPasswordIsPeePee)
+|
+|t:|1685134345
+|move|p1a: Cramorant|Surf|p2a: Turtonator
+|-formechange|p1a: Cramorant|Cramorant-Gulping|
+|-damage|p2a: Turtonator|156/238
+|move|p2a: Turtonator|Will-O-Wisp|p1a: Cramorant
+|-status|p1a: Cramorant|brn
+|
+|-damage|p1a: Cramorant|240/255 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1685134368
+|switch|p2a: Octillery|Octillery, L86, M|269/269
+|move|p1a: Cramorant|Brave Bird|p2a: Octillery
+|-damage|p2a: Octillery|207/269
+|-damage|p1a: Cramorant|220/255 brn|[from] Recoil
+|
+|-heal|p2a: Octillery|223/269|[from] item: Leftovers
+|-damage|p1a: Cramorant|205/255 brn|[from] brn
+|-ability|p2a: Octillery|Moody|boost
+|-boost|p2a: Octillery|spe|2
+|-unboost|p2a: Octillery|spd|1
+|upkeep
+|turn|3
+|
+|t:|1685134377
+|switch|p1a: Jynx|Jynx, L86, F|251/251
+|move|p2a: Octillery|Protect||[still]
+|-fail|p2a: Octillery
+|
+|-heal|p2a: Octillery|239/269|[from] item: Leftovers
+|-ability|p2a: Octillery|Moody|boost
+|-boost|p2a: Octillery|spe|2
+|-unboost|p2a: Octillery|spd|1
+|upkeep
+|turn|4
+|inactive|gareeb adani has 120 seconds left.
+|
+|t:|1685134415
+|move|p2a: Octillery|Gunk Shot|p1a: Jynx
+|-damage|p1a: Jynx|88/251
+|move|p1a: Jynx|Ice Beam|p2a: Octillery
+|-resisted|p2a: Octillery
+|-damage|p2a: Octillery|82/269
+|-damage|p1a: Jynx|63/251|[from] item: Life Orb
+|
+|-heal|p2a: Octillery|98/269|[from] item: Leftovers
+|-ability|p2a: Octillery|Moody|boost
+|-boost|p2a: Octillery|def|2
+|-unboost|p2a: Octillery|spa|1
+|upkeep
+|turn|5
+|
+|t:|1685134421
+|switch|p1a: Cramorant|Cramorant, L84, M|205/255 brn
+|move|p2a: Octillery|Protect||[still]
+|-fail|p2a: Octillery
+|
+|-heal|p2a: Octillery|114/269|[from] item: Leftovers
+|-damage|p1a: Cramorant|190/255 brn|[from] brn
+|-ability|p2a: Octillery|Moody|boost
+|-boost|p2a: Octillery|def|2
+|-unboost|p2a: Octillery|spd|1
+|upkeep
+|turn|6
+|inactive|gareeb adani has 120 seconds left.
+|
+|t:|1685134437
+|move|p2a: Octillery|Protect|p2a: Octillery
+|-singleturn|p2a: Octillery|Protect
+|move|p1a: Cramorant|Surf|p2a: Octillery
+|-activate|p2a: Octillery|move: Protect
+|
+|-heal|p2a: Octillery|130/269|[from] item: Leftovers
+|-damage|p1a: Cramorant|175/255 brn|[from] brn
+|-ability|p2a: Octillery|Moody|boost
+|-boost|p2a: Octillery|spa|2
+|-unboost|p2a: Octillery|spd|1
+|upkeep
+|turn|7
+|inactive|MyPasswordIsPeePee has 120 seconds left.
+|
+|t:|1685134478
+|move|p2a: Octillery|Energy Ball|p1a: Cramorant
+|-damage|p1a: Cramorant|78/255 brn
+|move|p1a: Cramorant|Surf|p2a: Octillery
+|-formechange|p1a: Cramorant|Cramorant-Gorging|
+|-resisted|p2a: Octillery
+|-damage|p2a: Octillery|0 fnt
+|faint|p2a: Octillery
+|
+|-damage|p1a: Cramorant|63/255 brn|[from] brn
+|upkeep
+|
+|t:|1685134501
+|switch|p2a: Grimmsnarl|Grimmsnarl, L82, M|290/290
+|turn|8
+|inactive|gareeb adani has 120 seconds left.
+|
+|t:|1685134547
+|move|p2a: Grimmsnarl|Taunt|p1a: Cramorant
+|-start|p1a: Cramorant|move: Taunt
+|cant|p1a: Cramorant|move: Taunt|Defog
+|
+|-damage|p1a: Cramorant|48/255 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1685134558
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: MyPasswordIsPeePee|move: Light Screen
+|move|p1a: Cramorant|Surf|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|239/290
+|
+|-damage|p1a: Cramorant|33/255 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1685134575
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: MyPasswordIsPeePee|Reflect
+|move|p1a: Cramorant|Surf|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|194/290
+|
+|-damage|p1a: Cramorant|18/255 brn|[from] brn
+|-end|p1a: Cramorant|move: Taunt
+|upkeep
+|turn|11
+|inactive|MyPasswordIsPeePee has 120 seconds left.
+|
+|t:|1685134585
+|move|p1a: Cramorant|Surf|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|144/290
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Cramorant
+|-damage|p1a: Cramorant|0 fnt
+|-damage|p2a: Grimmsnarl|72/290|[from] ability: Gulp Missile|[of] p1a: Cramorant
+|-status|p2a: Grimmsnarl|par
+|-formechange|p1a: Cramorant|Cramorant|
+|faint|p1a: Cramorant
+|
+|upkeep
+|inactive|gareeb adani has 90 seconds left.
+|inactive|gareeb adani has 60 seconds left.
+|inactive|gareeb adani has 30 seconds left.
+|inactive|gareeb adani has 20 seconds left.
+|inactive|gareeb adani has 15 seconds left.
+|
+|t:|1685134687
+|switch|p1a: Xurkitree|Xurkitree, L76|251/251
+|turn|12
+|inactive|gareeb adani has 25 seconds left this turn.
+|
+|t:|1685134691
+|switch|p2a: Dugtrio|Dugtrio-Alola, L82, F|192/192
+|move|p1a: Xurkitree|Dazzling Gleam|p2a: Dugtrio
+|-resisted|p2a: Dugtrio
+|-damage|p2a: Dugtrio|159/192
+|
+|upkeep
+|turn|13
+|inactive|gareeb adani has 30 seconds left.
+|
+|t:|1685134699
+|switch|p1a: Gourgeist|Gourgeist-Small, L84, M|230/230
+|-item|p2a: Dugtrio|Life Orb|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Dugtrio|Stealth Rock|p1a: Gourgeist
+|-sidestart|p1: gareeb adani|move: Stealth Rock
+|
+|upkeep
+|turn|14
+|
+|t:|1685134706
+|switch|p2a: Turtonator|Turtonator, L84, M|156/238
+|move|p1a: Gourgeist|Substitute|p1a: Gourgeist
+|-start|p1a: Gourgeist|Substitute
+|-damage|p1a: Gourgeist|173/230
+|
+|-heal|p1a: Gourgeist|187/230|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685134715
+|move|p1a: Gourgeist|Leech Seed|p2a: Turtonator
+|-start|p2a: Turtonator|move: Leech Seed
+|move|p2a: Turtonator|Fire Blast|p1a: Gourgeist|[miss]
+|-miss|p2a: Turtonator|p1a: Gourgeist
+|
+|-heal|p1a: Gourgeist|201/230|[from] item: Leftovers
+|-damage|p2a: Turtonator|127/238|[from] Leech Seed|[of] p1a: Gourgeist
+|-heal|p1a: Gourgeist|230/230|[silent]
+|upkeep
+|turn|16
+|
+|t:|1685134719
+|move|p1a: Gourgeist|Poltergeist|p2a: Turtonator
+|-activate|p2a: Turtonator|move: Poltergeist|Heavy-Duty Boots
+|-damage|p2a: Turtonator|87/238
+|move|p2a: Turtonator|Fire Blast|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-end|p1a: Gourgeist|Substitute
+|
+|-damage|p2a: Turtonator|58/238|[from] Leech Seed|[of] p1a: Gourgeist
+|-sideend|p2: MyPasswordIsPeePee|move: Light Screen
+|upkeep
+|turn|17
+|inactive|gareeb adani has 60 seconds left.
+|
+|t:|1685134727
+|switch|p2a: Grimmsnarl|Grimmsnarl, L82, M|72/290 par
+|move|p1a: Gourgeist|Substitute|p1a: Gourgeist
+|-start|p1a: Gourgeist|Substitute
+|-damage|p1a: Gourgeist|173/230
+|
+|-heal|p1a: Gourgeist|187/230|[from] item: Leftovers
+|-sideend|p2: MyPasswordIsPeePee|Reflect
+|upkeep
+|turn|18
+|inactive|gareeb adani has 60 seconds left.
+|
+|t:|1685134738
+|cant|p2a: Grimmsnarl|par
+|move|p1a: Gourgeist|Power Whip|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-heal|p1a: Gourgeist|201/230|[from] item: Leftovers
+|upkeep
+|
+|t:|1685134746
+|switch|p2a: Flapple|Flapple, L84, F|255/255
+|turn|19
+|
+|t:|1685134759
+|move|p2a: Flapple|Sucker Punch|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-end|p1a: Gourgeist|Substitute
+|-damage|p2a: Flapple|230/255|[from] item: Life Orb
+|move|p1a: Gourgeist|Poltergeist|p2a: Flapple
+|-activate|p2a: Flapple|move: Poltergeist|Life Orb
+|-damage|p2a: Flapple|110/255
+|
+|-heal|p1a: Gourgeist|215/230|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1685134766
+|move|p1a: Gourgeist|Substitute|p1a: Gourgeist
+|-start|p1a: Gourgeist|Substitute
+|-damage|p1a: Gourgeist|158/230
+|move|p2a: Flapple|Outrage|p1a: Gourgeist
+|-end|p1a: Gourgeist|Substitute
+|-damage|p2a: Flapple|85/255|[from] item: Life Orb
+|
+|-heal|p1a: Gourgeist|172/230|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|gareeb adani has 60 seconds left.
+|
+|t:|1685134797
+|move|p1a: Gourgeist|Poltergeist|p2a: Flapple
+|-activate|p2a: Flapple|move: Poltergeist|Life Orb
+|-damage|p2a: Flapple|0 fnt
+|faint|p2a: Flapple
+|
+|-heal|p1a: Gourgeist|186/230|[from] item: Leftovers
+|upkeep
+|
+|t:|1685134824
+|switch|p2a: Dugtrio|Dugtrio-Alola, L82, F|159/192
+|turn|22
+|inactive|gareeb adani has 60 seconds left.
+|
+|t:|1685134860
+|-start|p2a: Dugtrio|Dynamax|
+|-heal|p2a: Dugtrio|318/384|[silent]
+|move|p2a: Dugtrio|Max Darkness|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|30/230
+|-unboost|p1a: Gourgeist|spd|1
+|-damage|p2a: Dugtrio|299/384|[from] item: Life Orb
+|move|p1a: Gourgeist|Substitute|p1a: Gourgeist
+|-fail|p1a: Gourgeist|move: Substitute|[weak]
+|
+|-heal|p1a: Gourgeist|44/230|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1685134875
+|switch|p1a: Jynx|Jynx, L86, F|63/251
+|-damage|p1a: Jynx|1/251|[from] Stealth Rock
+|move|p2a: Dugtrio|Max Steelspike|p1a: Jynx
+|-supereffective|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|-boost|p2a: Dugtrio|def|1
+|faint|p1a: Jynx
+|-damage|p2a: Dugtrio|280/384|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685134888
+|switch|p1a: Gourgeist|Gourgeist-Small, L84, M|44/230
+|-damage|p1a: Gourgeist|16/230|[from] Stealth Rock
+|-item|p2a: Dugtrio|Life Orb|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|turn|24
+|
+|t:|1685134894
+|move|p2a: Dugtrio|Max Quake|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|-boost|p2a: Dugtrio|spd|1
+|faint|p1a: Gourgeist
+|-damage|p2a: Dugtrio|261/384|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685134898
+|switch|p1a: Stonjourner|Stonjourner, L88, F|319/319
+|-damage|p1a: Stonjourner|280/319|[from] Stealth Rock
+|-end|p2a: Dugtrio|Dynamax
+|-heal|p2a: Dugtrio|131/192|[silent]
+|turn|25
+|
+|t:|1685134914
+|-start|p1a: Stonjourner|Dynamax|
+|-heal|p1a: Stonjourner|560/638|[silent]
+|move|p2a: Dugtrio|Earthquake|p1a: Stonjourner
+|-supereffective|p1a: Stonjourner
+|-damage|p1a: Stonjourner|378/638
+|-damage|p2a: Dugtrio|112/192|[from] item: Life Orb
+|move|p1a: Stonjourner|Max Quake|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|-boost|p1a: Stonjourner|spd|1
+|faint|p2a: Dugtrio
+|-damage|p1a: Stonjourner|347/638|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685134919
+|switch|p2a: Turtonator|Turtonator, L84, M|58/238
+|turn|26
+|inactive|gareeb adani has 60 seconds left.
+|
+|t:|1685134935
+|switch|p2a: Kartana|Kartana, L74|209/209
+|move|p1a: Stonjourner|Max Rockfall|p2a: Kartana
+|-resisted|p2a: Kartana
+|-damage|p2a: Kartana|113/209
+|-weather|Sandstorm
+|-damage|p1a: Stonjourner|316/638|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|27
+|inactive|gareeb adani has 60 seconds left.
+|
+|t:|1685134974
+|switch|p2a: Turtonator|Turtonator, L84, M|58/238
+|move|p1a: Stonjourner|Max Flare|p2a: Turtonator
+|-resisted|p2a: Turtonator
+|-damage|p2a: Turtonator|27/238
+|-weather|SunnyDay
+|-damage|p1a: Stonjourner|285/638|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-end|p1a: Stonjourner|Dynamax
+|-heal|p1a: Stonjourner|143/319|[silent]
+|turn|28
+|
+|t:|1685134981
+|move|p1a: Stonjourner|Earthquake|p2a: Turtonator
+|-supereffective|p2a: Turtonator
+|-damage|p2a: Turtonator|0 fnt
+|faint|p2a: Turtonator
+|-damage|p1a: Stonjourner|112/319|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685134982
+|switch|p2a: Kartana|Kartana, L74|113/209
+|turn|29
+|
+|t:|1685134997
+|move|p2a: Kartana|Leaf Blade|p1a: Stonjourner
+|-supereffective|p1a: Stonjourner
+|-damage|p1a: Stonjourner|0 fnt
+|faint|p1a: Stonjourner
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|-damage|p2a: Kartana|93/209|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685135001
+|switch|p1a: Xurkitree|Xurkitree, L76|251/251
+|-damage|p1a: Xurkitree|220/251|[from] Stealth Rock
+|turn|30
+|c|☆MyPasswordIsPeePee|Specs or scarf lol
+|
+|t:|1685135011
+|move|p2a: Kartana|Leaf Blade|p1a: Xurkitree
+|-damage|p1a: Xurkitree|0 fnt
+|faint|p1a: Xurkitree
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|-damage|p2a: Kartana|73/209|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|gareeb adani forfeited.
+|
+|win|MyPasswordIsPeePee
+|raw|gareeb adani's rating: 1546 &rarr; <strong>1533</strong><br />(-13 for losing)
+|raw|MyPasswordIsPeePee's rating: 1666 &rarr; <strong>1679</strong><br />(+13 for winning)
+|l|☆gareeb adani
+|j|☆gareeb adani
+|player|p1|gareeb adani|2

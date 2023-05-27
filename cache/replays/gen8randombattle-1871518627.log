@@ -1,0 +1,111 @@
+|j|☆pokemonkorea co kr
+|j|☆ANoobWithoutAName
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|j|*Lady Monita
+|t:|1685101909
+|gametype|singles
+|player|p1|pokemonkorea co kr|wally|
+|player|p2|ANoobWithoutAName|volo-ginkgo|
+|teamsize|p1|24
+|teamsize|p2|24
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Registeel, L84|
+|poke|p1|Gourgeist-*, L88, F|
+|poke|p1|Haxorus, L80, F|
+|poke|p1|Meowstic-F, L88, F|
+|poke|p1|Pinsir, L88, F|
+|poke|p1|Lurantis, L88, M|
+|poke|p1|Palkia, L76|
+|poke|p1|Arctovish, L88|
+|poke|p1|Zapdos-Galar, L81|
+|poke|p1|Pincurchin, L88, F|
+|poke|p1|Coalossal, L88, M|
+|poke|p1|Celebi, L84|
+|poke|p1|Dugtrio, L84, F|
+|poke|p1|Kyogre, L73|
+|poke|p1|Dialga, L76|
+|poke|p1|Reshiram, L76|
+|poke|p1|Blacephalon, L80|
+|poke|p1|Mawile, L88, M|
+|poke|p1|Urshifu-*, L80, M|
+|poke|p1|Hitmontop, L86, M|
+|poke|p1|Malamar, L88, M|
+|poke|p1|Marowak-Alola, L84, M|
+|poke|p1|Dragapult, L80, F|
+|poke|p1|Shedinja, L92|
+|poke|p2|Sceptile, L87, M|
+|poke|p2|Glastrier, L88|
+|poke|p2|Gurdurr, L88, F|
+|poke|p2|Pikachu-World, L92, M|
+|poke|p2|Lopunny, L88, M|
+|poke|p2|Pinsir, L88, M|
+|poke|p2|Hitmonlee, L88, M|
+|poke|p2|Gourgeist-*, L88, F|
+|poke|p2|Pangoro, L85, F|
+|poke|p2|Wailord, L88, F|
+|poke|p2|Mantine, L86, F|
+|poke|p2|Regieleki, L82|
+|poke|p2|Genesect, L76|
+|poke|p2|Inteleon, L80, F|
+|poke|p2|Dragapult, L80, M|
+|poke|p2|Araquanid, L87, F|
+|poke|p2|Wigglytuff, L88, F|
+|poke|p2|Linoone, L85, F|
+|poke|p2|Altaria, L88, F|
+|poke|p2|Rayquaza, L76|
+|poke|p2|Delibird, M|
+|poke|p2|Heliolisk, L86, F|
+|poke|p2|Politoed, L88, M|
+|poke|p2|Shuckle, L88, M|
+|teampreview|6
+|inactive|pokemonkorea co kr has 120 seconds left.
+|inactive|ANoobWithoutAName has 120 seconds left.
+|j| redeba
+|inactive|pokemonkorea co kr has 90 seconds left.
+|inactive|ANoobWithoutAName has 90 seconds left.
+|inactive|pokemonkorea co kr has 60 seconds left.
+|inactive|ANoobWithoutAName has 60 seconds left.
+|inactive|ANoobWithoutAName has 30 seconds left.
+|inactive|ANoobWithoutAName has 20 seconds left.
+|
+|t:|1685102042
+|start
+|switch|p1a: Dialga|Dialga, L76|277/277
+|switch|p2a: Mantine|Mantine, L86, F|321/321
+|turn|1
+|
+|t:|1685102051
+|move|p2a: Mantine|Earthquake|p1a: Dialga
+|-supereffective|p1a: Dialga
+|-damage|p1a: Dialga|27/277
+|-damage|p2a: Mantine|289/321|[from] item: Life Orb
+|move|p1a: Dialga|Iron Head|p2a: Mantine
+|-resisted|p2a: Mantine
+|-damage|p2a: Mantine|220/321
+|
+|upkeep
+|turn|2
+|c|☆pokemonkorea co kr|gg
+|inactive|ANoobWithoutAName has 90 seconds left.
+|c|☆ANoobWithoutAName|Gg
+|
+|t:|1685102058
+|move|p2a: Mantine|Earthquake|p1a: Dialga
+|-supereffective|p1a: Dialga
+|-damage|p1a: Dialga|0 fnt
+|faint|p1a: Dialga
+|-damage|p2a: Mantine|188/321|[from] item: Life Orb
+|
+|win|ANoobWithoutAName
+|n|☆pokemonkorea co kr|pokemonkoreacokr
+|n|☆ANoobWithoutAName|anoobwithoutaname
+|n|*Lady Monita|ladymonita
+|n| redeba|redeba
+|l|*Lady Monita

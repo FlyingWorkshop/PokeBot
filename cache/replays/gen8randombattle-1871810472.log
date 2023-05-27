@@ -1,0 +1,283 @@
+|j|☆bandrizzlelol^-^✿
+|j|☆Squirtell
+|t:|1685132809
+|gametype|singles
+|player|p1|bandrizzlelol^-^✿|1|
+|player|p2|Squirtell|richboy-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685132809
+|start
+|switch|p1a: Jellicent|Jellicent, L84, F|305/305
+|switch|p2a: Cloyster|Cloyster, L80, M|211/211
+|turn|1
+|c|☆bandrizzlelol^-^✿|hf
+|c|☆Squirtell|hf
+|
+|t:|1685132843
+|switch|p2a: Decidueye|Decidueye, L86, F|274/274
+|move|p1a: Jellicent|Shadow Ball|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|130/274
+|
+|upkeep
+|turn|2
+|
+|t:|1685132870
+|switch|p1a: Articuno|Articuno, L84|288/288
+|-ability|p1a: Articuno|Pressure
+|move|p2a: Decidueye|Roost|p2a: Decidueye
+|-heal|p2a: Decidueye|267/274
+|-singleturn|p2a: Decidueye|move: Roost
+|
+|upkeep
+|turn|3
+|
+|t:|1685132881
+|switch|p2a: Flareon|Flareon, L86, F|251/251
+|move|p1a: Articuno|Freeze-Dry|p2a: Flareon
+|-resisted|p2a: Flareon
+|-damage|p2a: Flareon|221/251
+|
+|-status|p2a: Flareon|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|t:|1685132917
+|switch|p1a: Jellicent|Jellicent, L84, F|305/305
+|move|p2a: Flareon|Flare Blitz|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|150/305
+|-damage|p2a: Flareon|170/251 tox|[from] Recoil
+|
+|-heal|p1a: Jellicent|169/305|[from] item: Leftovers
+|-damage|p2a: Flareon|155/251 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1685132925
+|switch|p2a: Decidueye|Decidueye, L86, F|267/274
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|305/305
+|
+|upkeep
+|turn|6
+|
+|t:|1685132931
+|switch|p1a: Articuno|Articuno, L84|288/288
+|-ability|p1a: Articuno|Pressure
+|move|p2a: Decidueye|Poltergeist|p1a: Articuno
+|-activate|p1a: Articuno|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Articuno|132/288
+|-damage|p2a: Decidueye|240/274|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|t:|1685132972
+|switch|p2a: Cloyster|Cloyster, L80, M|211/211
+|move|p1a: Articuno|Roost|p1a: Articuno
+|-heal|p1a: Articuno|276/288
+|-singleturn|p1a: Articuno|move: Roost
+|
+|upkeep
+|turn|8
+|
+|t:|1685132986
+|move|p1a: Articuno|Freeze-Dry|p2a: Cloyster
+|-damage|p2a: Cloyster|94/211
+|move|p2a: Cloyster|Rock Blast|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-crit|p1a: Articuno
+|-damage|p1a: Articuno|192/288
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|132/288
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|72/288
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|8/288
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|-hitcount|p1: Articuno|5
+|
+|upkeep
+|
+|t:|1685133002
+|switch|p1a: Dedenne|Dedenne, L87, M|258/258
+|turn|9
+|
+|t:|1685133023
+|switch|p2a: Decidueye|Decidueye, L86, F|240/274
+|move|p1a: Dedenne|Thunderbolt|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|201/274
+|
+|upkeep
+|turn|10
+|
+|t:|1685133041
+|move|p1a: Dedenne|Toxic|p2a: Decidueye
+|-status|p2a: Decidueye|tox
+|move|p2a: Decidueye|Leaf Blade|p1a: Dedenne
+|-crit|p1a: Dedenne
+|-damage|p1a: Dedenne|1/258
+|-enditem|p1a: Dedenne|Sitrus Berry|[eat]
+|-heal|p1a: Dedenne|65/258|[from] item: Sitrus Berry
+|-heal|p1a: Dedenne|151/258|[from] ability: Cheek Pouch
+|-damage|p2a: Decidueye|174/274 tox|[from] item: Life Orb
+|
+|-damage|p2a: Decidueye|157/274 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1685133053
+|move|p1a: Dedenne|Protect|p1a: Dedenne
+|-singleturn|p1a: Dedenne|Protect
+|move|p2a: Decidueye|Leaf Blade|p1a: Dedenne
+|-activate|p1a: Dedenne|move: Protect
+|
+|-damage|p2a: Decidueye|123/274 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1685133060
+|move|p1a: Dedenne|Thunderbolt|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|81/274 tox
+|move|p2a: Decidueye|Leaf Blade|p1a: Dedenne
+|-damage|p1a: Dedenne|0 fnt
+|faint|p1a: Dedenne
+|-damage|p2a: Decidueye|54/274 tox|[from] item: Life Orb
+|
+|-damage|p2a: Decidueye|3/274 tox|[from] psn
+|upkeep
+|
+|t:|1685133075
+|switch|p1a: Carracosta|Carracosta, L84, M|262/262
+|turn|13
+|
+|t:|1685133104
+|switch|p2a: Primarina|Primarina, L82, F|265/265
+|move|p1a: Carracosta|Aqua Jet|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|237/265
+|
+|upkeep
+|turn|14
+|
+|t:|1685133126
+|switch|p1a: Jellicent|Jellicent, L84, F|305/305
+|move|p2a: Primarina|Energy Ball|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|169/305
+|
+|-heal|p1a: Jellicent|188/305|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685133176
+|-start|p2a: Primarina|Dynamax|
+|-heal|p2a: Primarina|474/530|[silent]
+|move|p1a: Jellicent|Shadow Ball|p2a: Primarina
+|-damage|p2a: Primarina|414/530
+|move|p2a: Primarina|Max Overgrowth|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|-fieldstart|move: Grassy Terrain
+|faint|p1a: Jellicent
+|
+|-heal|p2a: Primarina|430/530|[from] Grassy Terrain
+|upkeep
+|
+|t:|1685133190
+|switch|p1a: Zekrom|Zekrom, L69|252/252
+|-ability|p1a: Zekrom|Teravolt
+|turn|16
+|
+|t:|1685133198
+|-start|p1a: Zekrom|Dynamax|
+|-heal|p1a: Zekrom|504/504|[silent]
+|move|p1a: Zekrom|Max Lightning|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|124/530
+|-fieldstart|move: Electric Terrain
+|move|p2a: Primarina|Max Starfall|p1a: Zekrom
+|-supereffective|p1a: Zekrom
+|-damage|p1a: Zekrom|166/504
+|-fieldstart|move: Misty Terrain
+|
+|upkeep
+|turn|17
+|
+|t:|1685133212
+|-end|p2a: Primarina|Dynamax
+|-heal|p2a: Primarina|62/265|[silent]
+|switch|p2a: Decidueye|Decidueye, L86, F|3/274 tox
+|move|p1a: Zekrom|Max Lightning|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|-fieldstart|move: Electric Terrain
+|faint|p2a: Decidueye
+|
+|upkeep
+|
+|t:|1685133239
+|switch|p2a: Primarina|Primarina, L82, F|62/265
+|turn|18
+|
+|t:|1685133245
+|move|p2a: Primarina|Moonblast|p1a: Zekrom
+|-supereffective|p1a: Zekrom
+|-damage|p1a: Zekrom|0 fnt
+|faint|p1a: Zekrom
+|
+|upkeep
+|
+|t:|1685133248
+|switch|p1a: Carracosta|Carracosta, L84, M|262/262
+|turn|19
+|
+|t:|1685133255
+|move|p2a: Primarina|Moonblast|p1a: Carracosta
+|-damage|p1a: Carracosta|106/262
+|move|p1a: Carracosta|Shell Smash|p1a: Carracosta
+|-unboost|p1a: Carracosta|def|1
+|-unboost|p1a: Carracosta|spd|1
+|-boost|p1a: Carracosta|atk|2
+|-boost|p1a: Carracosta|spa|2
+|-boost|p1a: Carracosta|spe|2
+|
+|upkeep
+|turn|20
+|
+|t:|1685133269
+|move|p1a: Carracosta|Aqua Jet|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|7/265
+|move|p2a: Primarina|Moonblast|p1a: Carracosta
+|-damage|p1a: Carracosta|0 fnt
+|faint|p1a: Carracosta
+|
+|upkeep
+|
+|t:|1685133271
+|switch|p1a: Pangoro|Pangoro, L84, F|297/297
+|turn|21
+|c|☆bandrizzlelol^-^✿|ggs
+|
+|t:|1685133275
+|move|p2a: Primarina|Moonblast|p1a: Pangoro
+|-supereffective|p1a: Pangoro
+|-damage|p1a: Pangoro|0 fnt
+|faint|p1a: Pangoro
+|
+|win|Squirtell
+|l|☆bandrizzlelol^-^✿
+|c|☆Squirtell|ggs

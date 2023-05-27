@@ -1,0 +1,391 @@
+|j|☆ja...flava
+|j|☆VapidPigeon
+|t:|1685139279
+|gametype|singles
+|player|p1|ja...flava|170|1406
+|player|p2|VapidPigeon|hugh|1524
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685139279
+|start
+|switch|p1a: Magmortar|Magmortar, L86, F|269/269
+|switch|p2a: Gothitelle|Gothitelle, L86, M|261/261
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by VapidPigeon)
+|
+|t:|1685139374
+|move|p2a: Gothitelle|Trick|p1a: Magmortar
+|-activate|p2a: Gothitelle|move: Trick|[of] p1a: Magmortar
+|-item|p1a: Magmortar|Choice Scarf|[from] move: Trick
+|-item|p2a: Gothitelle|Heavy-Duty Boots|[from] move: Trick
+|move|p1a: Magmortar|Taunt|p2a: Gothitelle
+|-start|p2a: Gothitelle|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1685139387
+|move|p1a: Magmortar|Taunt||[still]
+|-fail|p1a: Magmortar
+|move|p2a: Gothitelle|Psychic|p1a: Magmortar
+|-damage|p1a: Magmortar|181/269
+|
+|upkeep
+|turn|3
+|
+|t:|1685139392
+|move|p1a: Magmortar|Taunt||[still]
+|-fail|p1a: Magmortar
+|move|p2a: Gothitelle|Psychic|p1a: Magmortar
+|-damage|p1a: Magmortar|96/269
+|
+|upkeep
+|turn|4
+|
+|t:|1685139409
+|switch|p2a: Thundurus|Thundurus, L80, M|258/258
+|move|p1a: Magmortar|Taunt|p2a: Thundurus
+|-start|p2a: Thundurus|move: Taunt
+|
+|upkeep
+|turn|5
+|inactive|ja...flava has 120 seconds left.
+|
+|t:|1685139440
+|switch|p1a: Xurkitree|Xurkitree, L76|251/251
+|move|p2a: Thundurus|Thunderbolt|p1a: Xurkitree
+|-resisted|p1a: Xurkitree
+|-damage|p1a: Xurkitree|186/251
+|
+|upkeep
+|turn|6
+|inactive|ja...flava has 120 seconds left.
+|inactive|VapidPigeon has 120 seconds left.
+|
+|t:|1685139479
+|switch|p2a: Gothitelle|Gothitelle, L86, M|261/261
+|move|p1a: Xurkitree|Volt Switch|p2a: Gothitelle
+|-damage|p2a: Gothitelle|180/261
+|inactive|ja...flava has 120 seconds left.
+|
+|t:|1685139488
+|switch|p1a: Lickilicky|Lickilicky, L86, F|243/243|[from] Volt Switch
+|
+|upkeep
+|turn|7
+|inactive|VapidPigeon has 120 seconds left.
+|
+|t:|1685139503
+|move|p1a: Lickilicky|Dark Pulse|p2a: Gothitelle
+|-supereffective|p2a: Gothitelle
+|-damage|p2a: Gothitelle|0 fnt
+|faint|p2a: Gothitelle
+|-damage|p1a: Lickilicky|219/243|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685139509
+|switch|p2a: Liepard|Liepard, L86, M|250/250
+|turn|8
+|
+|t:|1685139517
+|switch|p1a: Magmortar|Magmortar, L86, F|96/269
+|move|p2a: Liepard|Knock Off|p1a: Magmortar
+|-damage|p1a: Magmortar|0 fnt
+|-enditem|p1a: Magmortar|Choice Scarf|[from] move: Knock Off|[of] p2a: Liepard
+|faint|p1a: Magmortar
+|
+|upkeep
+|inactive|ja...flava has 120 seconds left.
+|
+|t:|1685139539
+|switch|p1a: Xurkitree|Xurkitree, L76|186/251
+|turn|9
+|
+|t:|1685139544
+|move|p1a: Xurkitree|Dazzling Gleam|p2a: Liepard
+|-supereffective|p2a: Liepard
+|-damage|p2a: Liepard|40/250
+|move|p2a: Liepard|U-turn|p1a: Xurkitree
+|-damage|p1a: Xurkitree|118/251
+|
+|t:|1685139553
+|switch|p2a: Mawile|Mawile, L86, F|226/226|[from] U-turn
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Xurkitree|atk|1
+|
+|upkeep
+|turn|10
+|
+|t:|1685139563
+|switch|p1a: Lickilicky|Lickilicky, L86, F|329/329
+|move|p2a: Mawile|Swords Dance|p2a: Mawile
+|-boost|p2a: Mawile|atk|2
+|
+|upkeep
+|turn|11
+|
+|t:|1685139576
+|move|p1a: Lickilicky|Wish|p1a: Lickilicky
+|move|p2a: Mawile|Play Rough|p1a: Lickilicky
+|-damage|p1a: Lickilicky|130/329
+|-damage|p2a: Mawile|204/226|[from] item: Life Orb
+|
+|-heal|p1a: Lickilicky|150/329|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685139586
+|move|p2a: Mawile|Play Rough|p1a: Lickilicky
+|-damage|p1a: Lickilicky|0 fnt
+|faint|p1a: Lickilicky
+|-damage|p2a: Mawile|182/226|[from] item: Life Orb
+|
+|upkeep
+|inactive|ja...flava has 120 seconds left.
+|
+|t:|1685139622
+|switch|p1a: Mamoswine|Mamoswine, L80, F|307/307
+|turn|13
+|inactive|ja...flava has 120 seconds left.
+|
+|t:|1685139633
+|move|p2a: Mawile|Sucker Punch|p1a: Mamoswine
+|-damage|p1a: Mamoswine|159/307
+|-damage|p2a: Mawile|160/226|[from] item: Life Orb
+|move|p1a: Mamoswine|Earthquake|p2a: Mawile
+|-supereffective|p2a: Mawile
+|-damage|p2a: Mawile|0 fnt
+|faint|p2a: Mawile
+|-damage|p1a: Mamoswine|129/307|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685139636
+|switch|p2a: Liepard|Liepard, L86, M|40/250
+|turn|14
+|inactive|ja...flava has 120 seconds left.
+|
+|t:|1685139654
+|switch|p1a: Hawlucha|Hawlucha, L80, F|256/256
+|move|p2a: Liepard|Knock Off|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|198/256
+|-enditem|p1a: Hawlucha|White Herb|[from] move: Knock Off|[of] p2a: Liepard
+|
+|-heal|p2a: Liepard|55/250|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|ja...flava has 120 seconds left.
+|
+|t:|1685139688
+|-start|p1a: Hawlucha|Dynamax|
+|-heal|p1a: Hawlucha|396/512|[silent]
+|move|p2a: Liepard|Thunder Wave|p1a: Hawlucha
+|-status|p1a: Hawlucha|par
+|move|p1a: Hawlucha|Max Knuckle|p2a: Liepard
+|-supereffective|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|-boost|p1a: Hawlucha|atk|1
+|faint|p2a: Liepard
+|
+|upkeep
+|
+|t:|1685139710
+|switch|p2a: Thundurus|Thundurus, L80, M|258/258
+|turn|16
+|
+|t:|1685139715
+|move|p2a: Thundurus|Nasty Plot|p2a: Thundurus
+|-boost|p2a: Thundurus|spa|2
+|move|p1a: Hawlucha|Max Rockfall|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|-weather|Sandstorm
+|faint|p2a: Thundurus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hawlucha|380/512 par|[from] Sandstorm
+|upkeep
+|
+|t:|1685139721
+|switch|p2a: Melmetal|Melmetal, L74|322/322
+|turn|17
+|inactive|ja...flava has 120 seconds left.
+|
+|t:|1685139727
+|-start|p2a: Melmetal|Dynamax|
+|-heal|p2a: Melmetal|644/644|[silent]
+|move|p2a: Melmetal|Max Guard|p2a: Melmetal
+|-singleturn|p2a: Melmetal|Max Guard
+|cant|p1a: Hawlucha|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hawlucha|364/512 par|[from] Sandstorm
+|upkeep
+|-end|p1a: Hawlucha|Dynamax
+|-heal|p1a: Hawlucha|182/256 par|[silent]
+|turn|18
+|inactive|ja...flava has 120 seconds left.
+|
+|t:|1685139738
+|move|p1a: Hawlucha|Close Combat|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|408/644
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|move|p2a: Melmetal|Max Steelspike|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|-boost|p2a: Melmetal|def|1
+|faint|p1a: Hawlucha
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Melmetal|428/644|[from] item: Leftovers
+|upkeep
+|inactive|ja...flava has 120 seconds left.
+|
+|t:|1685139747
+|switch|p1a: Xurkitree|Xurkitree, L86|219/243
+|turn|19
+|inactive|ja...flava has 120 seconds left.
+|
+|t:|1685139761
+|move|p1a: Xurkitree|Flamethrower|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|155/644
+|-damage|p1a: Xurkitree|195/243|[from] item: Life Orb
+|move|p2a: Melmetal|Max Quake|p1a: Xurkitree
+|-damage|p1a: Xurkitree|78/243
+|-boost|p2a: Melmetal|spd|1
+|replace|p1a: Zoroark|Zoroark, L86, F
+|-end|p1a: Zoroark|Illusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zoroark|63/243|[from] Sandstorm
+|-heal|p2a: Melmetal|175/644|[from] item: Leftovers
+|upkeep
+|-end|p2a: Melmetal|Dynamax
+|-heal|p2a: Melmetal|88/322|[silent]
+|turn|20
+|inactive|ja...flava has 120 seconds left.
+|
+|t:|1685139779
+|move|p1a: Zoroark|Flamethrower|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|-damage|p1a: Zoroark|39/243|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1685139782
+|switch|p2a: Regigigas|Regigigas, L82|315/315
+|-start|p2a: Regigigas|ability: Slow Start
+|turn|21
+|inactive|ja...flava has 120 seconds left.
+|
+|t:|1685139804
+|move|p1a: Zoroark|Dark Pulse|p2a: Regigigas
+|-damage|p2a: Regigigas|202/315
+|-damage|p1a: Zoroark|15/243|[from] item: Life Orb
+|move|p2a: Regigigas|Substitute|p2a: Regigigas
+|-start|p2a: Regigigas|Substitute
+|-damage|p2a: Regigigas|124/315
+|
+|-heal|p2a: Regigigas|143/315|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1685139813
+|move|p2a: Regigigas|Protect|p2a: Regigigas
+|-singleturn|p2a: Regigigas|Protect
+|move|p1a: Zoroark|Dark Pulse|p2a: Regigigas
+|-activate|p2a: Regigigas|move: Protect
+|
+|-heal|p2a: Regigigas|162/315|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1685139817
+|move|p1a: Zoroark|Dark Pulse|p2a: Regigigas
+|-end|p2a: Regigigas|Substitute
+|-damage|p1a: Zoroark|0 fnt|[from] item: Life Orb
+|faint|p1a: Zoroark
+|move|p2a: Regigigas|Substitute|p2a: Regigigas
+|-start|p2a: Regigigas|Substitute
+|-damage|p2a: Regigigas|84/315
+|
+|-heal|p2a: Regigigas|103/315|[from] item: Leftovers
+|upkeep
+|inactive|ja...flava has 120 seconds left.
+|
+|t:|1685139844
+|switch|p1a: Xurkitree|Xurkitree, L76|118/251
+|turn|24
+|
+|t:|1685139848
+|move|p1a: Xurkitree|Volt Switch|p2a: Regigigas
+|-end|p2a: Regigigas|Substitute
+|
+|t:|1685139854
+|switch|p1a: Mamoswine|Mamoswine, L80, F|129/307|[from] Volt Switch
+|move|p2a: Regigigas|Body Slam|p1a: Mamoswine
+|-damage|p1a: Mamoswine|53/307
+|
+|-heal|p2a: Regigigas|122/315|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1685139863
+|move|p2a: Regigigas|Protect|p2a: Regigigas
+|-singleturn|p2a: Regigigas|Protect
+|move|p1a: Mamoswine|Earthquake|p2a: Regigigas
+|-activate|p2a: Regigigas|move: Protect
+|
+|-heal|p2a: Regigigas|141/315|[from] item: Leftovers
+|-end|p2a: Regigigas|Slow Start
+|upkeep
+|turn|26
+|
+|t:|1685139867
+|move|p2a: Regigigas|Body Slam|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|-heal|p2a: Regigigas|160/315|[from] item: Leftovers
+|upkeep
+|
+|t:|1685139870
+|switch|p1a: Xurkitree|Xurkitree, L76|118/251
+|turn|27
+|
+|t:|1685139876
+|move|p2a: Regigigas|Protect|p2a: Regigigas
+|-singleturn|p2a: Regigigas|Protect
+|move|p1a: Xurkitree|Thunderbolt|p2a: Regigigas
+|-activate|p2a: Regigigas|move: Protect
+|
+|-heal|p2a: Regigigas|179/315|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1685139879
+|move|p1a: Xurkitree|Thunderbolt|p2a: Regigigas
+|-damage|p2a: Regigigas|61/315
+|-status|p2a: Regigigas|par
+|move|p2a: Regigigas|Body Slam|p1a: Xurkitree
+|-damage|p1a: Xurkitree|0 fnt
+|faint|p1a: Xurkitree
+|
+|win|VapidPigeon
+|raw|ja...flava's rating: 1406 &rarr; <strong>1393</strong><br />(-13 for losing)
+|raw|VapidPigeon's rating: 1524 &rarr; <strong>1537</strong><br />(+13 for winning)
+|c|☆VapidPigeon|gg

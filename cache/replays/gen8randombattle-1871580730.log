@@ -1,0 +1,275 @@
+|j|☆PrinceOfAllTacos
+|j|☆Ev_Evan
+|t:|1685109234
+|gametype|singles
+|player|p1|PrinceOfAllTacos|#psplxtournaments|
+|player|p2|Ev_Evan|volkner|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685109234
+|start
+|switch|p1a: Excadrill|Excadrill, L78, F|300/300
+|switch|p2a: Lycanroc|Lycanroc-Midnight, L82, F|274/274
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ev_Evan)
+|c|☆PrinceOfAllTacos|gl hf
+|c|☆Ev_Evan|glhf
+|c|☆Ev_Evan|game1
+|inactive|Ev_Evan has 270 seconds left.
+|
+|t:|1685109280
+|switch|p1a: Heracross|Heracross, L82, F|265/265
+|move|p2a: Lycanroc|Close Combat|p1a: Heracross
+|-resisted|p1a: Heracross
+|-damage|p1a: Heracross|182/265
+|-unboost|p2a: Lycanroc|def|1
+|-unboost|p2a: Lycanroc|spd|1
+|
+|-status|p1a: Heracross|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|inactive|Ev_Evan has 270 seconds left.
+|
+|t:|1685109336
+|switch|p2a: Pyukumuku|Pyukumuku, L84, F|230/230
+|move|p1a: Heracross|Close Combat|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|61/230
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|
+|-heal|p2a: Pyukumuku|75/230|[from] item: Leftovers
+|-damage|p1a: Heracross|166/265 brn|[from] brn
+|upkeep
+|turn|3
+|inactive|Ev_Evan has 240 seconds left.
+|
+|t:|1685109363
+|switch|p2a: Shedinja|Shedinja, L88|1/1
+|move|p1a: Heracross|Facade|p2a: Shedinja
+|-immune|p2a: Shedinja|[from] ability: Wonder Guard
+|
+|-damage|p1a: Heracross|150/265 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1685109390
+|switch|p2a: Lycanroc|Lycanroc-Midnight, L82, F|274/274
+|move|p1a: Heracross|Knock Off|p2a: Lycanroc
+|-damage|p2a: Lycanroc|126/274
+|-enditem|p2a: Lycanroc|Choice Band|[from] move: Knock Off|[of] p1a: Heracross
+|
+|-damage|p1a: Heracross|134/265 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1685109399
+|-start|p2a: Lycanroc|Dynamax|
+|-heal|p2a: Lycanroc|252/548|[silent]
+|move|p1a: Heracross|Close Combat|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|faint|p2a: Lycanroc
+|
+|-damage|p1a: Heracross|118/265 brn|[from] brn
+|upkeep
+|
+|t:|1685109411
+|switch|p2a: Lapras|Lapras, L86, M|363/363
+|turn|6
+|
+|t:|1685109418
+|move|p1a: Heracross|Close Combat|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|faint|p2a: Lapras
+|
+|-damage|p1a: Heracross|102/265 brn|[from] brn
+|upkeep
+|
+|t:|1685109422
+|switch|p2a: Corviknight|Corviknight, L78, F|281/281
+|-ability|p2a: Corviknight|Pressure
+|turn|7
+|
+|t:|1685109430
+|switch|p1a: Vikavolt|Vikavolt, L82, F|260/260
+|move|p2a: Corviknight|Brave Bird|p1a: Vikavolt
+|-damage|p1a: Vikavolt|161/260
+|-damage|p2a: Corviknight|248/281|[from] Recoil
+|
+|-heal|p2a: Corviknight|265/281|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685109440
+|switch|p2a: Shedinja|Shedinja, L88|1/1
+|switch|p1a: Excadrill|Excadrill, L78, F|300/300
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|upkeep
+|turn|9
+|inactive|Ev_Evan has 240 seconds left.
+|c|☆Ev_Evan|this is so bad for me
+|
+|t:|1685109453
+|switch|p2a: Pyukumuku|Pyukumuku, L84, F|75/230
+|move|p1a: Excadrill|Rock Slide|p2a: Pyukumuku|[miss]
+|-miss|p1a: Excadrill|p2a: Pyukumuku
+|
+|-heal|p2a: Pyukumuku|89/230|[from] item: Leftovers
+|upkeep
+|turn|10
+|c|☆PrinceOfAllTacos|yea these teams are very unfortunate
+|
+|t:|1685109463
+|move|p1a: Excadrill|Earthquake|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|0 fnt
+|faint|p2a: Pyukumuku
+|-damage|p1a: Excadrill|270/300|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685109468
+|switch|p2a: Tyrantrum|Tyrantrum, L82, M|269/269
+|turn|11
+|
+|t:|1685109475
+|move|p1a: Excadrill|Earthquake|p2a: Tyrantrum
+|-supereffective|p2a: Tyrantrum
+|-damage|p2a: Tyrantrum|32/269
+|-damage|p1a: Excadrill|240/300|[from] item: Life Orb
+|move|p2a: Tyrantrum|Dragon Dance|p2a: Tyrantrum
+|-boost|p2a: Tyrantrum|atk|1
+|-boost|p2a: Tyrantrum|spe|1
+|
+|upkeep
+|turn|12
+|
+|t:|1685109487
+|switch|p1a: Vikavolt|Vikavolt, L82, F|161/260
+|move|p2a: Tyrantrum|Earthquake|p1a: Vikavolt
+|-immune|p1a: Vikavolt|[from] ability: Levitate
+|
+|upkeep
+|turn|13
+|
+|t:|1685109493
+|move|p2a: Tyrantrum|Outrage|p1a: Vikavolt
+|-damage|p1a: Vikavolt|0 fnt
+|faint|p1a: Vikavolt
+|-damage|p2a: Tyrantrum|6/269|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685109501
+|switch|p1a: Blastoise|Blastoise, L82, F|264/264
+|turn|14
+|c|☆Ev_Evan|i lose this
+|
+|t:|1685109504
+|move|p2a: Tyrantrum|Outrage|p1a: Blastoise|[from]lockedmove
+|-damage|p1a: Blastoise|1/264
+|-damage|p2a: Tyrantrum|0 fnt|[from] item: Life Orb
+|faint|p2a: Tyrantrum
+|move|p1a: Blastoise|Shell Smash|p1a: Blastoise
+|-unboost|p1a: Blastoise|def|1
+|-unboost|p1a: Blastoise|spd|1
+|-boost|p1a: Blastoise|atk|2
+|-boost|p1a: Blastoise|spa|2
+|-boost|p1a: Blastoise|spe|2
+|-enditem|p1a: Blastoise|White Herb
+|-clearnegativeboost|p1a: Blastoise|[silent]
+|
+|upkeep
+|inactive|Ev_Evan has 270 seconds left.
+|
+|t:|1685109510
+|switch|p2a: Shedinja|Shedinja, L88|1/1
+|turn|15
+|
+|t:|1685109514
+|-start|p1a: Blastoise|Dynamax|
+|-heal|p1a: Blastoise|2/528|[silent]
+|move|p2a: Shedinja|Shadow Sneak|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|upkeep
+|
+|t:|1685109516
+|switch|p1a: Excadrill|Excadrill, L78, F|240/300
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|16
+|
+|t:|1685109521
+|move|p1a: Excadrill|Rock Slide|p2a: Shedinja
+|-supereffective|p2a: Shedinja
+|-enditem|p2a: Shedinja|Focus Sash
+|-damage|p2a: Shedinja|1/1
+|-damage|p1a: Excadrill|210/300|[from] item: Life Orb
+|move|p2a: Shedinja|Swords Dance|p2a: Shedinja
+|-boost|p2a: Shedinja|atk|2
+|
+|upkeep
+|turn|17
+|
+|t:|1685109528
+|move|p1a: Excadrill|Iron Head|p2a: Shedinja
+|-damage|p2a: Shedinja|0 fnt
+|faint|p2a: Shedinja
+|-damage|p1a: Excadrill|180/300|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685109540
+|switch|p2a: Corviknight|Corviknight, L78, F|265/281
+|-ability|p2a: Corviknight|Pressure
+|turn|18
+|c|☆PrinceOfAllTacos|hopefully g2 is more clean sorry about this one
+|
+|t:|1685109551
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Corviknight|Body Press|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|22/300
+|
+|-heal|p2a: Corviknight|281/281|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1685109565
+|move|p1a: Excadrill|Rock Slide|p2a: Corviknight
+|-damage|p2a: Corviknight|126/281
+|-damage|p1a: Excadrill|0 fnt|[from] item: Life Orb
+|faint|p1a: Excadrill
+|move|p2a: Corviknight|Body Press|p1: Excadrill|[notarget]
+|-fail|p2a: Corviknight
+|
+|-heal|p2a: Corviknight|143/281|[from] item: Leftovers
+|upkeep
+|
+|t:|1685109568
+|switch|p1a: Heracross|Heracross, L82, F|102/265 brn
+|turn|20
+|c|☆Ev_Evan|its k
+|
+|t:|1685109579
+|move|p1a: Heracross|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|faint|p2a: Corviknight
+|
+|win|PrinceOfAllTacos

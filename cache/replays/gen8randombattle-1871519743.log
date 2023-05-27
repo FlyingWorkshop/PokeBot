@@ -1,0 +1,114 @@
+|j|☆Hallo815
+|j|☆ANoobWithoutAName
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1685102064
+|gametype|singles
+|player|p1|Hallo815|hexmaniac-gen6|
+|player|p2|ANoobWithoutAName|volo-ginkgo|
+|teamsize|p1|24
+|teamsize|p2|24
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Gardevoir, L84, M|
+|poke|p1|Relicanth, L88, M|
+|poke|p1|Whiscash, L88, M|
+|poke|p1|Hippowdon, L82, F|
+|poke|p1|Scolipede, L83, M|
+|poke|p1|Doublade, L88, F|
+|poke|p1|Charizard, L88, M|
+|poke|p1|Raichu-Alola, L87, F|
+|poke|p1|Beartic, L88, F|
+|poke|p1|Dhelmise, L86|
+|poke|p1|Aerodactyl, L86, F|
+|poke|p1|Farfetch’d, L88, F|
+|poke|p1|Golisopod, L84, F|
+|poke|p1|Drampa, L87, F|
+|poke|p1|Umbreon, L84, M|
+|poke|p1|Tentacruel, L84, M|
+|poke|p1|Grapploct, L88, F|
+|poke|p1|Clawitzer, L87, F|
+|poke|p1|Seismitoad, L84, M|
+|poke|p1|Mr. Mime-Galar, L88, F|
+|poke|p1|Wobbuffet, L86, M|
+|poke|p1|Butterfree, L88, M|
+|poke|p1|Luxray, L88, F|
+|poke|p1|Sceptile, L87, F|
+|poke|p2|Shiftry, L88, F|
+|poke|p2|Orbeetle, L88, F|
+|poke|p2|Ludicolo, L88, F|
+|poke|p2|Magmortar, L88, F|
+|poke|p2|Whiscash, L88, M|
+|poke|p2|Galvantula, L88, F|
+|poke|p2|Dhelmise, L86|
+|poke|p2|Gothitelle, L88, M|
+|poke|p2|Rotom-Mow, L86|
+|poke|p2|Froslass, L88, F|
+|poke|p2|Corsola, L88, F|
+|poke|p2|Latios, L81, M|
+|poke|p2|Morpeko, L88, F|
+|poke|p2|Drampa, L87, M|
+|poke|p2|Kyurem, L76|
+|poke|p2|Arctozolt, L88|
+|poke|p2|Wigglytuff, L88, F|
+|poke|p2|Chansey, L82, F|
+|poke|p2|Regigigas, L88|
+|poke|p2|Type: Null, L88|
+|poke|p2|Garbodor, L88, M|
+|poke|p2|Gourgeist-*, L88, F|
+|poke|p2|Trevenant, L88, F|
+|poke|p2|Diancie, L86|
+|teampreview|6
+|j|*Lady Monita
+|j| redeba
+|inactive|Hallo815 has 120 seconds left.
+|inactive|ANoobWithoutAName has 120 seconds left.
+|inactive|Hallo815 has 90 seconds left.
+|inactive|ANoobWithoutAName has 90 seconds left.
+|j| Decala
+|inactive|ANoobWithoutAName has 60 seconds left.
+|l| Decala
+|inactive|ANoobWithoutAName has 30 seconds left.
+|inactive|ANoobWithoutAName has 20 seconds left.
+|inactive|Hallo815 has 60 seconds left.
+|
+|t:|1685102226
+|start
+|switch|p1a: Golisopod|Golisopod, L84, F|251/251
+|switch|p2a: Whiscash|Whiscash, L88, M|363/363
+|turn|1
+|
+|t:|1685102233
+|move|p2a: Whiscash|Calm Mind|p2a: Whiscash
+|-boost|p2a: Whiscash|spa|1
+|-boost|p2a: Whiscash|spd|1
+|move|p1a: Golisopod|Leaf Storm|p2a: Whiscash
+|-supereffective|p2a: Whiscash
+|-damage|p2a: Whiscash|71/363
+|-unboost|p1a: Golisopod|spa|2
+|-ability|p2a: Whiscash|Berserk|boost
+|-boost|p2a: Whiscash|spa|1
+|
+|-status|p1a: Golisopod|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|inactive|Hallo815 has 120 seconds left.
+|inactive|ANoobWithoutAName has 90 seconds left.
+|
+|t:|1685102242
+|move|p2a: Whiscash|Moonblast|p1a: Golisopod
+|-crit|p1a: Golisopod
+|-damage|p1a: Golisopod|0 fnt
+|faint|p1a: Golisopod
+|-damage|p2a: Whiscash|35/363|[from] item: Life Orb
+|
+|win|ANoobWithoutAName
+|n|☆Hallo815|hallo815
+|n|☆ANoobWithoutAName|anoobwithoutaname
+|n|*Lady Monita|ladymonita
+|n| redeba|redeba

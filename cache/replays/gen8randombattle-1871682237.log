@@ -1,0 +1,211 @@
+|j|☆Thomas Yeah!
+|j|☆ibeat12yearolds
+|t:|1685119301
+|gametype|singles
+|player|p1|Thomas Yeah!|2|1098
+|player|p2|ibeat12yearolds|2|1105
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685119301
+|start
+|switch|p1a: Haxorus|Haxorus, L77, M|244/244
+|switch|p2a: Silvally|Silvally-Fairy, L84|297/297
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|1
+|c|☆ibeat12yearolds|r u 12???
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ibeat12yearolds)
+|c|☆ibeat12yearolds|cuzz if u r u suk
+|
+|t:|1685119326
+|switch|p1a: Magearna|Magearna, L76|247/247
+|move|p2a: Silvally|Swords Dance|p2a: Silvally
+|-boost|p2a: Silvally|atk|2
+|
+|upkeep
+|turn|2
+|c|☆ibeat12yearolds|and i will fuk u
+|
+|t:|1685119337
+|move|p2a: Silvally|Flame Charge|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|125/247
+|-boost|p2a: Silvally|spe|1
+|move|p1a: Magearna|Agility|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|
+|-heal|p1a: Magearna|140/247|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685119351
+|-start|p2a: Silvally|Dynamax|
+|-heal|p2a: Silvally|594/594|[silent]
+|move|p2a: Silvally|Max Flare|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|-weather|SunnyDay
+|faint|p1a: Magearna
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆ibeat12yearolds|gg
+|c|☆ibeat12yearolds|u suk lmfao
+|inactive|Thomas Yeah! has 120 seconds left.
+|
+|t:|1685119384
+|switch|p1a: Barraskewda|Barraskewda, L80, M|229/229
+|turn|4
+|inactive|Thomas Yeah! has 120 seconds left.
+|
+|t:|1685119397
+|move|p2a: Silvally|Max Mindstorm|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|-fieldstart|move: Psychic Terrain
+|faint|p1a: Barraskewda
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685119405
+|switch|p1a: Thundurus|Thundurus, L80, M|258/258
+|turn|5
+|inactive|Thomas Yeah! has 120 seconds left.
+|
+|t:|1685119413
+|move|p2a: Silvally|Max Mindstorm|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685119417
+|switch|p1a: Wobbuffet|Wobbuffet, L92, F|499/499
+|-end|p2a: Silvally|Dynamax
+|-heal|p2a: Silvally|297/297|[silent]
+|turn|6
+|c|☆ibeat12yearolds|get fuked
+|inactive|Thomas Yeah! has 120 seconds left.
+|
+|t:|1685119441
+|move|p2a: Silvally|Multi-Attack|p1a: Wobbuffet
+|-damage|p1a: Wobbuffet|178/499
+|-enditem|p1a: Wobbuffet|Sitrus Berry|[eat]
+|-heal|p1a: Wobbuffet|302/499|[from] item: Sitrus Berry
+|move|p1a: Wobbuffet|Mirror Coat||[still]
+|-fail|p1a: Wobbuffet
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|inactive|Thomas Yeah! has 120 seconds left.
+|
+|t:|1685119449
+|move|p2a: Silvally|Multi-Attack|p1a: Wobbuffet
+|-damage|p1a: Wobbuffet|17/499
+|move|p1a: Wobbuffet|Counter|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|-weather|none
+|upkeep
+|
+|t:|1685119456
+|switch|p2a: Salamence|Salamence, L76, F|269/269
+|turn|8
+|
+|t:|1685119460
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|move|p1a: Wobbuffet|Charm|p2a: Salamence
+|-unboost|p2a: Salamence|atk|2
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|t:|1685119466
+|move|p2a: Salamence|Earthquake|p1a: Wobbuffet
+|-damage|p1a: Wobbuffet|0 fnt
+|faint|p1a: Wobbuffet
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|upkeep
+|
+|t:|1685119472
+|switch|p1a: Froslass|Froslass, L84, F|255/255
+|turn|10
+|
+|t:|1685119490
+|move|p2a: Salamence|Outrage|p1a: Froslass
+|-damage|p1a: Froslass|99/255
+|move|p1a: Froslass|Taunt|p2a: Salamence
+|-start|p2a: Salamence|move: Taunt
+|
+|upkeep
+|turn|11
+|
+|t:|1685119494
+|move|p2a: Salamence|Outrage|p1a: Froslass|[from]lockedmove
+|-damage|p1a: Froslass|0 fnt
+|faint|p1a: Froslass
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|-start|p2a: Salamence|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1685119501
+|switch|p1a: Haxorus|Haxorus, L77, M|244/244
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|12
+|
+|t:|1685119509
+|-start|p1a: Haxorus|Dynamax|
+|-heal|p1a: Haxorus|488/488|[silent]
+|-activate|p2a: Salamence|confusion
+|move|p2a: Salamence|Outrage|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|68/488
+|move|p1a: Haxorus|Max Wyrmwind|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|-damage|p1a: Haxorus|44/488|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685119518
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L78, F|284/284
+|turn|13
+|c|☆ibeat12yearolds|u sukkkk
+|
+|t:|1685119527
+|move|p1a: Haxorus|Max Guard|p1a: Haxorus
+|-singleturn|p1a: Haxorus|Max Guard
+|move|p2a: Urshifu|Substitute|p2a: Urshifu
+|-start|p2a: Urshifu|Substitute
+|-damage|p2a: Urshifu|213/284
+|
+|-heal|p2a: Urshifu|230/284|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685119531
+|move|p2a: Urshifu|Drain Punch|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|-heal|p2a: Urshifu|252/284|[from] drain|[of] p1a: Haxorus
+|faint|p1a: Haxorus
+|
+|win|ibeat12yearolds
+|raw|Thomas Yeah!'s rating: 1098 &rarr; <strong>1074</strong><br />(-24 for losing)
+|raw|ibeat12yearolds's rating: 1105 &rarr; <strong>1129</strong><br />(+24 for winning)

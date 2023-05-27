@@ -1,0 +1,298 @@
+|j|☆KuroMegaCharletX
+|j|☆Iamsleep
+|t:|1685107297
+|gametype|singles
+|player|p1|KuroMegaCharletX|red|
+|player|p2|Iamsleep|caitlin|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685107297
+|start
+|switch|p1a: Aggron|Aggron, L85, M|258/258
+|switch|p2a: Sigilyph|Sigilyph, L83, F|255/255
+|-item|p1a: Aggron|Air Balloon
+|turn|1
+|c|☆Iamsleep|gl hf buddy
+|c|☆KuroMegaCharletX|Tnx
+|c|☆KuroMegaCharletX|This item is dumb
+|c|☆Iamsleep|no ?
+|c|☆KuroMegaCharletX|On this mon
+|c|☆Iamsleep|you got a x4 weakness to ground so now you're immune
+|c|☆KuroMegaCharletX|Oh wait right i was thinking that flying type move doesn't damage I'm dumb
+|
+|t:|1685107417
+|move|p2a: Sigilyph|Energy Ball|p1a: Aggron
+|-damage|p1a: Aggron|129/258
+|-enditem|p1a: Aggron|Air Balloon
+|move|p1a: Aggron|Rock Polish|p1a: Aggron
+|-boost|p1a: Aggron|spe|2
+|
+|upkeep
+|turn|2
+|
+|t:|1685107426
+|move|p1a: Aggron|Head Smash|p2a: Sigilyph
+|-supereffective|p2a: Sigilyph
+|-crit|p2a: Sigilyph
+|-damage|p2a: Sigilyph|0 fnt
+|faint|p2a: Sigilyph
+|
+|upkeep
+|
+|t:|1685107431
+|switch|p2a: Hitmonchan|Hitmonchan, L86, M|226/226
+|turn|3
+|c|☆KuroMegaCharletX|The crit
+|c|☆Iamsleep|killed anyway, it's a 150 bp move or smth
+|c|☆KuroMegaCharletX|K
+|
+|t:|1685107475
+|move|p1a: Aggron|Heavy Slam|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|61/226
+|move|p2a: Hitmonchan|Drain Punch|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|-heal|p2a: Hitmonchan|126/226|[from] drain|[of] p1a: Aggron
+|faint|p1a: Aggron
+|
+|-heal|p2a: Hitmonchan|140/226|[from] item: Leftovers
+|upkeep
+|
+|t:|1685107491
+|switch|p1a: Gardevoir|Gardevoir, L82, F|246/246
+|-ability|p1a: Gardevoir|Iron Fist|[from] ability: Trace|[of] p2a: Hitmonchan
+|turn|4
+|c|☆KuroMegaCharletX|Mommy
+|
+|t:|1685107513
+|switch|p2a: Meowstic|Meowstic, L84, M|262/262
+|move|p1a: Gardevoir|Psyshock|p2a: Meowstic
+|-resisted|p2a: Meowstic
+|-damage|p2a: Meowstic|211/262
+|
+|upkeep
+|turn|5
+|c|☆KuroMegaCharletX|If u kill mommy I'll kill u
+|
+|t:|1685107537
+|switch|p1a: Shiftry|Shiftry, L86, M|295/295
+|move|p2a: Meowstic|Light Screen|p2a: Meowstic
+|-sidestart|p2: Iamsleep|move: Light Screen
+|
+|upkeep
+|turn|6
+|
+|t:|1685107545
+|move|p2a: Meowstic|Reflect|p2a: Meowstic
+|-sidestart|p2: Iamsleep|Reflect
+|move|p1a: Shiftry|Nasty Plot|p1a: Shiftry
+|-boost|p1a: Shiftry|spa|2
+|
+|upkeep
+|turn|7
+|
+|t:|1685107553
+|move|p2a: Meowstic|Thunder Wave|p1a: Shiftry
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Shiftry
+|move|p1a: Shiftry|Dark Pulse|p2a: Meowstic
+|-supereffective|p2a: Meowstic
+|-damage|p2a: Meowstic|0 fnt
+|faint|p2a: Meowstic
+|-damage|p1a: Shiftry|266/295|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685107564
+|switch|p2a: Hitmonchan|Hitmonchan, L86, M|140/226
+|turn|8
+|c|☆KuroMegaCharletX|R.I.P
+|c|☆Iamsleep|right that's a thing
+|
+|t:|1685107594
+|move|p1a: Shiftry|Leaf Storm|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|-unboost|p1a: Shiftry|spa|2
+|faint|p2a: Hitmonchan
+|-damage|p1a: Shiftry|237/295|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685107598
+|switch|p2a: Porygon-Z|Porygon-Z, L80|267/267
+|turn|9
+|c|☆KuroMegaCharletX|Sacrificed 2x
+|c|☆KuroMegaCharletX|God level tactic
+|
+|t:|1685107632
+|move|p2a: Porygon-Z|Ice Beam|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-damage|p1a: Shiftry|49/295
+|move|p1a: Shiftry|Dark Pulse|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|199/267
+|-damage|p1a: Shiftry|20/295|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|c|☆KuroMegaCharletX|Shiftry has decent spa
+|
+|t:|1685107666
+|move|p2a: Porygon-Z|Ice Beam|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-damage|p1a: Shiftry|0 fnt
+|faint|p1a: Shiftry
+|
+|upkeep
+|
+|t:|1685107686
+|switch|p1a: Pyukumuku|Pyukumuku, L84, M|230/230
+|turn|11
+|
+|t:|1685107702
+|switch|p2a: Drampa|Drampa, L86, M|274/274
+|move|p1a: Pyukumuku|Toxic|p2a: Drampa
+|-status|p2a: Drampa|tox
+|
+|-damage|p2a: Drampa|257/274 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1685107736
+|move|p2a: Drampa|Glare|p1a: Pyukumuku
+|-status|p1a: Pyukumuku|par
+|cant|p1a: Pyukumuku|par
+|
+|-heal|p2a: Drampa|274/274 tox|[from] item: Leftovers
+|-damage|p2a: Drampa|240/274 tox|[from] psn
+|-sideend|p2: Iamsleep|move: Light Screen
+|upkeep
+|turn|13
+|
+|t:|1685107741
+|move|p2a: Drampa|Thunderbolt|p1a: Pyukumuku
+|-supereffective|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|110/230 par
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p2a: Drampa|257/274 tox|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|124/230 par|[from] item: Leftovers
+|-damage|p2a: Drampa|206/274 tox|[from] psn
+|-sideend|p2: Iamsleep|Reflect
+|upkeep
+|turn|14
+|
+|t:|1685107747
+|move|p2a: Drampa|Thunderbolt|p1a: Pyukumuku
+|-supereffective|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|2/230 par
+|move|p1a: Pyukumuku|Mirror Coat|p2a: Drampa
+|-damage|p2a: Drampa|0 fnt
+|faint|p2a: Drampa
+|
+|-heal|p1a: Pyukumuku|16/230 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1685107751
+|switch|p2a: Porygon-Z|Porygon-Z, L80|199/267
+|turn|15
+|
+|t:|1685107762
+|move|p2a: Porygon-Z|Tri Attack|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|0 fnt
+|faint|p1a: Pyukumuku
+|
+|upkeep
+|
+|t:|1685107773
+|switch|p1a: Stunfisk|Stunfisk, L84, F|320/320
+|turn|16
+|
+|t:|1685107780
+|move|p2a: Porygon-Z|Tri Attack|p1a: Stunfisk
+|-damage|p1a: Stunfisk|190/320
+|move|p1a: Stunfisk|Sludge Bomb|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|132/267
+|
+|-heal|p1a: Stunfisk|210/320|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685107790
+|move|p2a: Porygon-Z|Tri Attack|p1a: Stunfisk
+|-damage|p1a: Stunfisk|82/320
+|move|p1a: Stunfisk|Sludge Bomb|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|66/267
+|
+|-heal|p1a: Stunfisk|102/320|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1685107803
+|move|p2a: Porygon-Z|Tri Attack|p1a: Stunfisk
+|-damage|p1a: Stunfisk|0 fnt
+|faint|p1a: Stunfisk
+|
+|upkeep
+|
+|t:|1685107820
+|switch|p1a: Gardevoir|Gardevoir, L82, F|246/246
+|-ability|p1a: Gardevoir|Adaptability|[from] ability: Trace|[of] p2a: Porygon-Z
+|turn|19
+|
+|t:|1685107829
+|move|p2a: Porygon-Z|Tri Attack|p1a: Gardevoir
+|-damage|p1a: Gardevoir|136/246
+|move|p1a: Gardevoir|Psyshock|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|faint|p2a: Porygon-Z
+|
+|-heal|p1a: Gardevoir|151/246|[from] item: Leftovers
+|upkeep
+|
+|t:|1685107831
+|switch|p2a: Sudowoodo|Sudowoodo, L87, F|264/264
+|turn|20
+|
+|t:|1685107855
+|move|p1a: Gardevoir|Calm Mind|p1a: Gardevoir
+|-boost|p1a: Gardevoir|spa|1
+|-boost|p1a: Gardevoir|spd|1
+|move|p2a: Sudowoodo|Head Smash|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|upkeep
+|
+|t:|1685107861
+|switch|p1a: Duraludon|Duraludon, L84, M|255/255
+|turn|21
+|c|☆KuroMegaCharletX|Gg
+|c|☆Iamsleep|gg
+|
+|t:|1685107869
+|move|p1a: Duraludon|Flash Cannon|p2a: Sudowoodo
+|-supereffective|p2a: Sudowoodo
+|-damage|p2a: Sudowoodo|10/264
+|move|p2a: Sudowoodo|Head Smash|p1a: Duraludon
+|-resisted|p1a: Duraludon
+|-damage|p1a: Duraludon|141/255
+|
+|upkeep
+|turn|22
+|c|☆Iamsleep|should've gone earthquake
+|
+|t:|1685107881
+|move|p1a: Duraludon|Flash Cannon|p2a: Sudowoodo
+|-supereffective|p2a: Sudowoodo
+|-damage|p2a: Sudowoodo|0 fnt
+|faint|p2a: Sudowoodo
+|
+|win|KuroMegaCharletX
+|l|☆Iamsleep

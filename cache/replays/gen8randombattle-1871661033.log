@@ -1,0 +1,465 @@
+|j|☆Prajintheking
+|j|☆ABHI625
+|t:|1685117224
+|gametype|singles
+|player|p1|Prajintheking|nate|
+|player|p2|ABHI625|wallace|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685117224
+|start
+|switch|p1a: Froslass|Froslass, L84, F|255/255
+|switch|p2a: Silvally|Silvally-Electric, L84|297/297
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Prajintheking)
+|inactive|ABHI625 also wants the timer to be on.
+|
+|t:|1685117242
+|move|p1a: Froslass|Triple Axel|p2a: Silvally
+|-damage|p2a: Silvally|278/297
+|-damage|p2a: Silvally|241/297
+|-damage|p2a: Silvally|186/297
+|-hitcount|p2a: Silvally|3
+|move|p2a: Silvally|Parting Shot|p1a: Froslass
+|-unboost|p1a: Froslass|atk|1
+|-unboost|p1a: Froslass|spa|1
+|
+|t:|1685117249
+|switch|p2a: Charizard|Charizard, L82, M|262/262|[from] Parting Shot
+|
+|upkeep
+|turn|2
+|
+|t:|1685117259
+|move|p1a: Froslass|Poltergeist|p2a: Charizard
+|-activate|p2a: Charizard|move: Poltergeist|Heavy-Duty Boots
+|-damage|p2a: Charizard|189/262
+|move|p2a: Charizard|Fire Blast|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|faint|p1a: Froslass
+|
+|upkeep
+|
+|t:|1685117265
+|switch|p1a: Morpeko|Morpeko, L86, M|240/240
+|turn|3
+|
+|t:|1685117290
+|switch|p2a: Vileplume|Vileplume, L84, M|263/263
+|move|p1a: Morpeko|Aura Wheel|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|203/263
+|-boost|p1a: Morpeko|spe|1
+|
+|-heal|p2a: Vileplume|219/263|[from] item: Black Sludge
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|4
+|
+|t:|1685117296
+|move|p1a: Morpeko|Psychic Fangs|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|93/263
+|move|p2a: Vileplume|Sleep Powder|p1a: Morpeko|[miss]
+|-miss|p2a: Vileplume|p1a: Morpeko
+|
+|-heal|p2a: Vileplume|109/263|[from] item: Black Sludge
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|5
+|
+|t:|1685117304
+|switch|p2a: Spiritomb|Spiritomb, L88, M|231/231
+|move|p1a: Morpeko|Psychic Fangs|p2a: Spiritomb
+|-immune|p2a: Spiritomb
+|
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|6
+|
+|t:|1685117316
+|switch|p1a: Audino|Audino, L91, M|335/335
+|move|p2a: Spiritomb|Trick|p1a: Audino
+|-activate|p2a: Spiritomb|move: Trick|[of] p1a: Audino
+|-item|p1a: Audino|Choice Band|[from] move: Trick
+|-item|p2a: Spiritomb|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|7
+|
+|t:|1685117337
+|move|p2a: Spiritomb|Sucker Punch|p1a: Audino
+|-damage|p1a: Audino|260/335
+|move|p1a: Audino|Knock Off|p2a: Spiritomb
+|-damage|p2a: Spiritomb|165/231
+|-enditem|p2a: Spiritomb|Leftovers|[from] move: Knock Off|[of] p1a: Audino
+|
+|upkeep
+|turn|8
+|
+|t:|1685117344
+|switch|p2a: Charizard|Charizard, L82, M|189/262
+|move|p1a: Audino|Knock Off|p2a: Charizard
+|-damage|p2a: Charizard|102/262
+|-enditem|p2a: Charizard|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Audino
+|
+|upkeep
+|turn|9
+|
+|t:|1685117349
+|move|p2a: Charizard|Focus Blast|p1a: Audino
+|-supereffective|p1a: Audino
+|-damage|p1a: Audino|98/335
+|move|p1a: Audino|Knock Off|p2a: Charizard
+|-damage|p2a: Charizard|39/262
+|
+|upkeep
+|turn|10
+|
+|t:|1685117356
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|170/262
+|-singleturn|p2a: Charizard|move: Roost
+|move|p1a: Audino|Knock Off|p2a: Charizard
+|-damage|p2a: Charizard|109/262
+|
+|upkeep
+|turn|11
+|
+|t:|1685117364
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|240/262
+|-singleturn|p2a: Charizard|move: Roost
+|move|p1a: Audino|Knock Off|p2a: Charizard
+|-damage|p2a: Charizard|175/262
+|
+|upkeep
+|turn|12
+|
+|t:|1685117373
+|switch|p1a: Mewtwo|Mewtwo, L72|272/272
+|-ability|p1a: Mewtwo|Unnerve
+|move|p2a: Charizard|Fire Blast|p1a: Mewtwo
+|-damage|p1a: Mewtwo|140/272
+|
+|-heal|p1a: Mewtwo|157/272|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685117382
+|-start|p1a: Mewtwo|Dynamax|
+|-heal|p1a: Mewtwo|314/544|[silent]
+|move|p1a: Mewtwo|Max Mindstorm|p2a: Charizard
+|-damage|p2a: Charizard|13/262
+|-fieldstart|move: Psychic Terrain
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|144/262
+|-singleturn|p2a: Charizard|move: Roost
+|
+|-heal|p1a: Mewtwo|331/544|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685117394
+|move|p1a: Mewtwo|Max Mindstorm|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|-heal|p1a: Mewtwo|348/544|[from] item: Leftovers
+|upkeep
+|
+|t:|1685117400
+|switch|p2a: Galvantula|Galvantula, L82, M|249/249
+|turn|15
+|
+|t:|1685117407
+|move|p1a: Mewtwo|Max Mindstorm|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|-heal|p1a: Mewtwo|365/544|[from] item: Leftovers
+|upkeep
+|
+|t:|1685117413
+|switch|p2a: Spiritomb|Spiritomb, L88, M|165/231
+|-end|p1a: Mewtwo|Dynamax
+|-heal|p1a: Mewtwo|183/272|[silent]
+|turn|16
+|c|☆Prajintheking|Nakku
+|c|☆Prajintheking|Sethapayaley
+|
+|t:|1685117426
+|move|p1a: Mewtwo|Shadow Ball|p2a: Spiritomb
+|-damage|p2a: Spiritomb|116/231
+|move|p2a: Spiritomb|Poltergeist|p1a: Mewtwo
+|-activate|p1a: Mewtwo|move: Poltergeist|Leftovers
+|-supereffective|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|upkeep
+|
+|t:|1685117430
+|switch|p1a: Charizard|Charizard, L82, M|262/262
+|turn|17
+|
+|t:|1685117436
+|move|p1a: Charizard|Fire Blast|p2a: Spiritomb
+|-damage|p2a: Spiritomb|20/231
+|move|p2a: Spiritomb|Poltergeist|p1a: Charizard
+|-activate|p1a: Charizard|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Charizard|115/262
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|18
+|
+|t:|1685117450
+|switch|p2a: Qwilfish|Qwilfish, L84, M|246/246
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|move|p1a: Charizard|Roost|p1a: Charizard
+|-heal|p1a: Charizard|246/262
+|-singleturn|p1a: Charizard|move: Roost
+|
+|upkeep
+|turn|19
+|
+|t:|1685117457
+|move|p1a: Charizard|Earthquake|p2a: Qwilfish
+|-supereffective|p2a: Qwilfish
+|-damage|p2a: Qwilfish|166/246
+|move|p2a: Qwilfish|Waterfall|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|60/262
+|
+|-heal|p2a: Qwilfish|181/246|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|t:|1685117465
+|move|p1a: Charizard|Roost|p1a: Charizard
+|-heal|p1a: Charizard|191/262
+|-singleturn|p1a: Charizard|move: Roost
+|move|p2a: Qwilfish|Toxic Spikes|p1a: Charizard
+|-sidestart|p1: Prajintheking|move: Toxic Spikes
+|
+|-heal|p2a: Qwilfish|196/246|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|t:|1685117472
+|move|p1a: Charizard|Earthquake|p2a: Qwilfish
+|-supereffective|p2a: Qwilfish
+|-damage|p2a: Qwilfish|114/246
+|move|p2a: Qwilfish|Waterfall|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|5/262
+|
+|-heal|p2a: Qwilfish|129/246|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|t:|1685117480
+|move|p1a: Charizard|Roost|p1a: Charizard
+|-heal|p1a: Charizard|136/262
+|-singleturn|p1a: Charizard|move: Roost
+|move|p2a: Qwilfish|Waterfall|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-heal|p2a: Qwilfish|144/246|[from] item: Black Sludge
+|upkeep
+|
+|t:|1685117483
+|switch|p1a: Morpeko|Morpeko, L86, M|240/240
+|-status|p1a: Morpeko|psn
+|turn|23
+|
+|t:|1685117494
+|switch|p2a: Silvally|Silvally-Electric, L84|186/297
+|move|p1a: Morpeko|Aura Wheel|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|128/297
+|-boost|p1a: Morpeko|spe|1
+|
+|-damage|p1a: Morpeko|210/240 psn|[from] psn
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|24
+|c|☆Prajintheking|Last match
+|c|☆Prajintheking|See on tg
+|c|☆ABHI625|K
+|c|☆ABHI625|K
+|
+|t:|1685117523
+|-start|p2a: Silvally|Dynamax|
+|-heal|p2a: Silvally|256/594|[silent]
+|move|p1a: Morpeko|Foul Play|p2a: Silvally
+|-damage|p2a: Silvally|156/594
+|move|p2a: Silvally|Max Hailstorm|p1a: Morpeko
+|-damage|p1a: Morpeko|81/240 psn
+|-weather|Hail
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Morpeko|66/240 psn|[from] Hail
+|-damage|p2a: Silvally|138/594|[from] Hail
+|-heal|p1a: Morpeko|81/240 psn|[from] item: Leftovers
+|-damage|p1a: Morpeko|51/240 psn|[from] psn
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|25
+|
+|t:|1685117534
+|move|p1a: Morpeko|Foul Play|p2a: Silvally
+|-damage|p2a: Silvally|36/594
+|move|p2a: Silvally|Max Hailstorm|p1a: Morpeko
+|-damage|p1a: Morpeko|0 fnt
+|faint|p1a: Morpeko
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Silvally|18/594|[from] Hail
+|upkeep
+|
+|t:|1685117537
+|switch|p1a: Throh|Throh, L86, M|347/347
+|-status|p1a: Throh|psn
+|turn|26
+|
+|t:|1685117542
+|move|p2a: Silvally|Max Flare|p1a: Throh
+|-damage|p1a: Throh|251/347 psn
+|-weather|SunnyDay
+|move|p1a: Throh|Circle Throw|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Throh|272/347 psn|[from] item: Leftovers
+|-damage|p1a: Throh|229/347 psn|[from] psn
+|upkeep
+|
+|t:|1685117553
+|switch|p2a: Vileplume|Vileplume, L84, M|109/263
+|turn|27
+|
+|t:|1685117563
+|move|p2a: Vileplume|Strength Sap|p1a: Throh
+|-unboost|p1a: Throh|atk|1
+|-heal|p2a: Vileplume|263/263
+|move|p1a: Throh|Knock Off|p2a: Vileplume
+|-damage|p2a: Vileplume|182/263
+|-enditem|p2a: Vileplume|Black Sludge|[from] move: Knock Off|[of] p1a: Throh
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Throh|250/347 psn|[from] item: Leftovers
+|-damage|p1a: Throh|207/347 psn|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1685117569
+|move|p2a: Vileplume|Giga Drain|p1a: Throh
+|-damage|p1a: Throh|113/347 psn
+|-heal|p2a: Vileplume|229/263|[from] drain|[of] p1a: Throh
+|move|p1a: Throh|Rest|p1a: Throh
+|-status|p1a: Throh|slp|[from] move: Rest
+|-heal|p1a: Throh|347/347 slp|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|29
+|
+|t:|1685117573
+|move|p2a: Vileplume|Giga Drain|p1a: Throh
+|-damage|p1a: Throh|265/347 slp
+|-heal|p2a: Vileplume|263/263|[from] drain|[of] p1a: Throh
+|cant|p1a: Throh|slp
+|move|p1a: Throh|Sleep Talk|p1a: Throh
+|move|p1a: Throh|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Throh
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Throh|286/347 slp|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1685117578
+|move|p2a: Vileplume|Giga Drain|p1a: Throh
+|-damage|p1a: Throh|192/347 slp
+|cant|p1a: Throh|slp
+|
+|-weather|none
+|-heal|p1a: Throh|213/347 slp|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1685117582
+|switch|p1a: Audino|Audino, L91, M|209/335
+|-status|p1a: Audino|psn
+|move|p2a: Vileplume|Giga Drain|p1a: Audino
+|-damage|p1a: Audino|133/335 psn
+|
+|-damage|p1a: Audino|92/335 psn|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1685117594
+|move|p1a: Audino|Toxic|p2a: Vileplume
+|-immune|p2a: Vileplume
+|move|p2a: Vileplume|Sludge Bomb|p1a: Audino
+|-damage|p1a: Audino|1/335 psn
+|
+|-damage|p1a: Audino|0 fnt|[from] psn
+|faint|p1a: Audino
+|upkeep
+|
+|t:|1685117596
+|switch|p1a: Throh|Throh, L86, M|213/347 slp
+|turn|33
+|
+|t:|1685117599
+|move|p2a: Vileplume|Sludge Bomb|p1a: Throh
+|-damage|p1a: Throh|114/347 slp
+|-curestatus|p1a: Throh|slp|[msg]
+|move|p1a: Throh|Knock Off|p2a: Vileplume
+|-damage|p2a: Vileplume|210/263
+|
+|-heal|p1a: Throh|135/347|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1685117605
+|move|p2a: Vileplume|Sleep Powder|p1a: Throh
+|-status|p1a: Throh|slp|[from] move: Sleep Powder
+|cant|p1a: Throh|slp
+|
+|-heal|p1a: Throh|156/347 slp|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1685117610
+|move|p2a: Vileplume|Giga Drain|p1a: Throh
+|-damage|p1a: Throh|62/347 slp
+|-heal|p2a: Vileplume|257/263|[from] drain|[of] p1a: Throh
+|cant|p1a: Throh|slp
+|
+|-heal|p1a: Throh|83/347 slp|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1685117614
+|move|p2a: Vileplume|Giga Drain|p1a: Throh
+|-damage|p1a: Throh|0 fnt
+|-heal|p2a: Vileplume|263/263|[from] drain|[of] p1a: Throh
+|faint|p1a: Throh
+|
+|win|ABHI625
+|l|☆Prajintheking

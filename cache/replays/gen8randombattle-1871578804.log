@@ -1,0 +1,233 @@
+|j|☆Satanitar
+|j|☆gareeb adani
+|t:|1685109034
+|gametype|singles
+|player|p1|Satanitar|2|1376
+|player|p2|gareeb adani|101|1432
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685109034
+|start
+|switch|p1a: Arctovish|Arctovish, L86|295/295
+|switch|p2a: Weavile|Weavile, L79, M|240/240
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Satanitar)
+|
+|t:|1685109055
+|move|p2a: Weavile|Knock Off|p1a: Arctovish
+|-damage|p1a: Arctovish|195/295
+|-enditem|p1a: Arctovish|Choice Band|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Arctovish|Body Slam|p2a: Weavile
+|-damage|p2a: Weavile|167/240
+|
+|upkeep
+|turn|2
+|
+|t:|1685109066
+|switch|p2a: Drapion|Drapion, L82, F|249/249
+|move|p1a: Arctovish|Body Slam|p2a: Drapion
+|-damage|p2a: Drapion|201/249
+|
+|-heal|p2a: Drapion|216/249|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1685109077
+|move|p2a: Drapion|Earthquake|p1a: Arctovish
+|-damage|p1a: Arctovish|137/295
+|move|p1a: Arctovish|Body Slam|p2a: Drapion
+|-damage|p2a: Drapion|160/249
+|-status|p2a: Drapion|par
+|
+|-heal|p2a: Drapion|175/249 par|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1685109098
+|move|p1a: Arctovish|Fishious Rend|p2a: Drapion
+|-damage|p2a: Drapion|9/249 par
+|move|p2a: Drapion|Earthquake|p1a: Arctovish
+|-damage|p1a: Arctovish|84/295
+|
+|-heal|p2a: Drapion|24/249 par|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1685109105
+|move|p1a: Arctovish|Fishious Rend|p2a: Drapion
+|-damage|p2a: Drapion|0 fnt
+|faint|p2a: Drapion
+|
+|upkeep
+|
+|t:|1685109109
+|switch|p2a: Nihilego|Nihilego, L79|302/302
+|turn|6
+|
+|t:|1685109124
+|move|p2a: Nihilego|Power Gem|p1a: Arctovish
+|-supereffective|p1a: Arctovish
+|-damage|p1a: Arctovish|0 fnt
+|faint|p1a: Arctovish
+|-ability|p2a: Nihilego|Beast Boost|boost
+|-boost|p2a: Nihilego|spa|1
+|
+|upkeep
+|
+|t:|1685109130
+|switch|p1a: Slowbro|Slowbro-Galar, L86, F|304/304
+|turn|7
+|
+|t:|1685109137
+|move|p2a: Nihilego|Power Gem|p1a: Slowbro
+|-damage|p1a: Slowbro|84/304
+|move|p1a: Slowbro|Psychic|p2a: Nihilego
+|-supereffective|p2a: Nihilego
+|-damage|p2a: Nihilego|81/302
+|-damage|p1a: Slowbro|54/304|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|t:|1685109141
+|move|p2a: Nihilego|Power Gem|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|-ability|p2a: Nihilego|Beast Boost|boost
+|-boost|p2a: Nihilego|spa|1
+|
+|upkeep
+|
+|t:|1685109152
+|switch|p1a: Magmortar|Magmortar, L86, M|269/269
+|turn|9
+|
+|t:|1685109155
+|-start|p1a: Magmortar|Dynamax|
+|-heal|p1a: Magmortar|538/538|[silent]
+|move|p2a: Nihilego|Power Gem|p1a: Magmortar
+|-supereffective|p1a: Magmortar
+|-damage|p1a: Magmortar|56/538
+|move|p1a: Magmortar|Max Quake|p2a: Nihilego
+|-supereffective|p2a: Nihilego
+|-damage|p2a: Nihilego|0 fnt
+|-boost|p1a: Magmortar|spd|1
+|faint|p2a: Nihilego
+|
+|upkeep
+|
+|t:|1685109161
+|switch|p2a: Weavile|Weavile, L79, M|167/240
+|turn|10
+|
+|t:|1685109175
+|move|p2a: Weavile|Knock Off|p1a: Magmortar
+|-damage|p1a: Magmortar|0 fnt
+|-status|p2a: Weavile|brn|[from] ability: Flame Body|[of] p1a: Magmortar
+|-enditem|p1a: Magmortar|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Weavile
+|faint|p1a: Magmortar
+|
+|-damage|p2a: Weavile|152/240 brn|[from] brn
+|upkeep
+|
+|t:|1685109180
+|switch|p1a: Tapu Fini|Tapu Fini, L78|237/237
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|turn|11
+|inactive|gareeb adani has 120 seconds left.
+|
+|t:|1685109229
+|switch|p2a: Lurantis|Lurantis, L86, F|261/261
+|move|p1a: Tapu Fini|Moonblast|p2a: Lurantis
+|-damage|p2a: Lurantis|183/261
+|
+|upkeep
+|turn|12
+|
+|t:|1685109244
+|switch|p1a: Hydreigon|Hydreigon, L80, M|278/278
+|move|p2a: Lurantis|Leaf Storm|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|199/278
+|-boost|p2a: Lurantis|spa|2
+|-damage|p2a: Lurantis|157/261|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+|inactive|gareeb adani has 120 seconds left.
+|
+|t:|1685109253
+|move|p1a: Hydreigon|Dark Pulse|p2a: Lurantis
+|-damage|p2a: Lurantis|28/261
+|-damage|p1a: Hydreigon|172/278|[from] item: Life Orb
+|move|p2a: Lurantis|Superpower|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-boost|p2a: Lurantis|atk|1
+|-boost|p2a: Lurantis|def|1
+|faint|p1a: Hydreigon
+|-damage|p2a: Lurantis|2/261|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685109282
+|switch|p1a: Shiftry|Shiftry, L86, F|295/295
+|turn|14
+|
+|t:|1685109285
+|move|p1a: Shiftry|Heat Wave|p2a: Lurantis
+|-supereffective|p2a: Lurantis
+|-damage|p2a: Lurantis|0 fnt
+|faint|p2a: Lurantis
+|-damage|p1a: Shiftry|266/295|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685109294
+|switch|p2a: Kommo-o|Kommo-o, L80, F|251/251
+|turn|15
+|inactive|Satanitar has 120 seconds left.
+|
+|t:|1685109351
+|switch|p1a: Tapu Fini|Tapu Fini, L78|237/237
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|169/251
+|-enditem|p2a: Kommo-o|Throat Spray
+|-boost|p2a: Kommo-o|spa|1|[from] item: Throat Spray
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|16
+|
+|t:|1685109355
+|-start|p2a: Kommo-o|Dynamax|
+|-heal|p2a: Kommo-o|338/502|[silent]
+|move|p2a: Kommo-o|Max Ooze|p1a: Tapu Fini
+|-supereffective|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|59/237
+|-boost|p2a: Kommo-o|spa|1
+|move|p1a: Tapu Fini|Moonblast|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|142/502
+|
+|-heal|p1a: Tapu Fini|73/237|[from] item: Leftovers
+|upkeep
+|turn|17
+|-message|Satanitar forfeited.
+|
+|win|gareeb adani
+|raw|Satanitar's rating: 1393 &rarr; <strong>1376</strong><br />(-17 for losing)
+|raw|gareeb adani's rating: 1454 &rarr; <strong>1471</strong><br />(+17 for winning)
+|l|☆Satanitar

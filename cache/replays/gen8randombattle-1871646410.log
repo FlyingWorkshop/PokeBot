@@ -1,0 +1,275 @@
+|j|☆9125tienphong
+|j|‽MagneJ15
+|t:|1685115762
+|gametype|singles
+|player|p1|9125tienphong|1|1043
+|player|p2|MagneJ15|101|1096
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685115762
+|start
+|switch|p1a: Espeon|Espeon, L82, M|241/241
+|switch|p2a: Volcanion|Volcanion, L80|259/259
+|turn|1
+|
+|t:|1685115786
+|switch|p2a: Comfey|Comfey, L86, M|228/228
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1685115795
+|move|p1a: Espeon|Psychic|p2a: Comfey
+|-damage|p2a: Comfey|75/228
+|move|p2a: Comfey|Calm Mind|p2a: Comfey
+|-boost|p2a: Comfey|spa|1
+|-boost|p2a: Comfey|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1685115805
+|move|p2a: Comfey|Giga Drain|p1a: Espeon
+|-damage|p1a: Espeon|176/241
+|-heal|p2a: Comfey|108/228|[from] drain|[of] p1a: Espeon
+|-damage|p2a: Comfey|86/228|[from] item: Life Orb
+|move|p1a: Espeon|Psychic|p2a: Comfey
+|-damage|p2a: Comfey|0 fnt
+|faint|p2a: Comfey
+|
+|-heal|p1a: Espeon|191/241|[from] item: Leftovers
+|upkeep
+|
+|t:|1685115820
+|switch|p2a: Celesteela|Celesteela, L77|276/276
+|turn|4
+|
+|t:|1685115848
+|switch|p1a: Genesect|Genesect, L74|227/227
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|move|p2a: Celesteela|Protect||[still]
+|-fail|p2a: Celesteela
+|
+|upkeep
+|turn|5
+|
+|t:|1685115856
+|move|p1a: Genesect|Thunderbolt|p2a: Celesteela
+|-supereffective|p2a: Celesteela
+|-damage|p2a: Celesteela|32/276
+|-damage|p1a: Genesect|205/227|[from] item: Life Orb
+|move|p2a: Celesteela|Leech Seed|p1a: Genesect
+|-start|p1a: Genesect|move: Leech Seed
+|
+|-heal|p2a: Celesteela|49/276|[from] item: Leftovers
+|-damage|p1a: Genesect|177/227|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|77/276|[silent]
+|upkeep
+|turn|6
+|
+|t:|1685115868
+|move|p2a: Celesteela|Protect|p2a: Celesteela
+|-singleturn|p2a: Celesteela|Protect
+|move|p1a: Genesect|Thunderbolt|p2a: Celesteela
+|-activate|p2a: Celesteela|move: Protect
+|
+|-heal|p2a: Celesteela|94/276|[from] item: Leftovers
+|-damage|p1a: Genesect|149/227|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|122/276|[silent]
+|upkeep
+|turn|7
+|
+|t:|1685115878
+|move|p2a: Celesteela|Protect|p2a: Celesteela
+|-singleturn|p2a: Celesteela|Protect
+|move|p1a: Genesect|Thunderbolt|p2a: Celesteela
+|-activate|p2a: Celesteela|move: Protect
+|
+|-heal|p2a: Celesteela|139/276|[from] item: Leftovers
+|-damage|p1a: Genesect|121/227|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|167/276|[silent]
+|upkeep
+|turn|8
+|
+|t:|1685115890
+|move|p1a: Genesect|Thunderbolt|p2a: Celesteela
+|-supereffective|p2a: Celesteela
+|-damage|p2a: Celesteela|0 fnt
+|faint|p2a: Celesteela
+|-damage|p1a: Genesect|99/227|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685115912
+|switch|p2a: Type: Null|Type: Null, L86|304/304
+|turn|9
+|
+|t:|1685115921
+|switch|p1a: Weezing|Weezing, L86, M|252/252
+|move|p2a: Type: Null|Swords Dance|p2a: Type: Null
+|-boost|p2a: Type: Null|atk|2
+|
+|upkeep
+|turn|10
+|
+|t:|1685115932
+|move|p1a: Weezing|Toxic Spikes|p2a: Type: Null
+|-sidestart|p2: MagneJ15|move: Toxic Spikes
+|move|p2a: Type: Null|Crush Claw|p1a: Weezing
+|-damage|p1a: Weezing|137/252
+|
+|-heal|p1a: Weezing|152/252|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1685115940
+|move|p1a: Weezing|Toxic Spikes|p2a: Type: Null
+|-sidestart|p2: MagneJ15|move: Toxic Spikes
+|move|p2a: Type: Null|Swords Dance|p2a: Type: Null
+|-boost|p2a: Type: Null|atk|2
+|
+|-heal|p1a: Weezing|167/252|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1685115949
+|move|p1a: Weezing|Will-O-Wisp|p2a: Type: Null
+|-status|p2a: Type: Null|brn
+|move|p2a: Type: Null|Crush Claw|p1a: Weezing
+|-damage|p1a: Weezing|76/252
+|-unboost|p1a: Weezing|def|1
+|
+|-heal|p1a: Weezing|91/252|[from] item: Black Sludge
+|-damage|p2a: Type: Null|285/304 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1685115962
+|move|p1a: Weezing|Sludge Bomb|p2a: Type: Null
+|-damage|p2a: Type: Null|231/304 brn
+|move|p2a: Type: Null|Swords Dance|p2a: Type: Null
+|-boost|p2a: Type: Null|atk|2
+|
+|-heal|p1a: Weezing|106/252|[from] item: Black Sludge
+|-damage|p2a: Type: Null|212/304 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1685115972
+|move|p1a: Weezing|Sludge Bomb|p2a: Type: Null
+|-damage|p2a: Type: Null|152/304 brn
+|move|p2a: Type: Null|Rest|p2a: Type: Null
+|-status|p2a: Type: Null|slp|[from] move: Rest
+|-heal|p2a: Type: Null|304/304 slp|[silent]
+|
+|-heal|p1a: Weezing|121/252|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|t:|1685115982
+|move|p1a: Weezing|Fire Blast|p2a: Type: Null
+|-damage|p2a: Type: Null|254/304 slp
+|cant|p2a: Type: Null|slp
+|move|p2a: Type: Null|Sleep Talk|p2a: Type: Null
+|move|p2a: Type: Null|Swords Dance|p2a: Type: Null|[from]move: Sleep Talk
+|-boost|p2a: Type: Null|atk|0
+|
+|-heal|p1a: Weezing|136/252|[from] item: Black Sludge
+|upkeep
+|turn|16
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 9125tienphong)
+|
+|t:|1685115994
+|switch|p1a: Registeel|Registeel, L83|268/268
+|cant|p2a: Type: Null|slp
+|move|p2a: Type: Null|Sleep Talk|p2a: Type: Null
+|move|p2a: Type: Null|Crush Claw|p1a: Registeel|[from]move: Sleep Talk
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|155/268
+|
+|-heal|p1a: Registeel|171/268|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685116005
+|-curestatus|p2a: Type: Null|slp|[msg]
+|move|p2a: Type: Null|Crush Claw|p1a: Registeel
+|-resisted|p1a: Registeel
+|-crit|p1a: Registeel
+|-damage|p1a: Registeel|18/268
+|move|p1a: Registeel|Iron Head|p2a: Type: Null
+|-damage|p2a: Type: Null|212/304
+|
+|-heal|p1a: Registeel|34/268|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1685116025
+|move|p2a: Type: Null|Crush Claw|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|0 fnt
+|faint|p1a: Registeel
+|
+|upkeep
+|
+|t:|1685116027
+|switch|p1a: Genesect|Genesect, L74|99/227
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|turn|19
+|
+|t:|1685116036
+|-start|p2a: Type: Null|Dynamax|
+|-heal|p2a: Type: Null|424/608|[silent]
+|move|p1a: Genesect|Iron Head|p2a: Type: Null
+|-damage|p2a: Type: Null|356/608
+|-damage|p1a: Genesect|77/227|[from] item: Life Orb
+|move|p2a: Type: Null|Max Strike|p1a: Genesect
+|-resisted|p1a: Genesect
+|-damage|p1a: Genesect|0 fnt
+|faint|p1a: Genesect
+|
+|upkeep
+|
+|t:|1685116045
+|switch|p1a: Weezing|Weezing, L86, M|136/252
+|turn|20
+|
+|t:|1685116051
+|move|p1a: Weezing|Will-O-Wisp|p2a: Type: Null|[miss]
+|-miss|p1a: Weezing|p2a: Type: Null
+|move|p2a: Type: Null|Max Strike|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|upkeep
+|
+|t:|1685116055
+|switch|p1a: Mr. Rime|Mr. Rime, L86, F|278/278
+|turn|21
+|
+|t:|1685116061
+|move|p1a: Mr. Rime|Slack Off||[still]
+|-fail|p1a: Mr. Rime|heal
+|move|p2a: Type: Null|Max Strike|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|0 fnt
+|faint|p1a: Mr. Rime
+|
+|upkeep
+|-message|9125tienphong forfeited.
+|
+|win|MagneJ15
+|raw|9125tienphong's rating: 1043 &rarr; <strong>1029</strong><br />(-14 for losing)
+|raw|MagneJ15's rating: 1096 &rarr; <strong>1118</strong><br />(+22 for winning)
+|l|☆9125tienphong

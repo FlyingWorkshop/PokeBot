@@ -1,0 +1,323 @@
+|j|☆Darkrai1717
+|j|☆trying_toget_tough
+|t:|1685125788
+|gametype|singles
+|player|p1|Darkrai1717|169|1295
+|player|p2|trying_toget_tough|170|1310
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685125788
+|start
+|switch|p1a: Greedent|Greedent, L84, M|339/339
+|switch|p2a: Tornadus|Tornadus-Therian, L78, M|251/251
+|turn|1
+|
+|t:|1685125797
+|move|p2a: Tornadus|Superpower|p1a: Greedent
+|-supereffective|p1a: Greedent
+|-damage|p1a: Greedent|191/339
+|-unboost|p2a: Tornadus|atk|1
+|-unboost|p2a: Tornadus|def|1
+|move|p1a: Greedent|Swords Dance|p1a: Greedent
+|-boost|p1a: Greedent|atk|2
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by trying_toget_tough)
+|
+|t:|1685125806
+|move|p2a: Tornadus|Knock Off|p1a: Greedent
+|-damage|p1a: Greedent|150/339
+|-enditem|p1a: Greedent|Sitrus Berry|[from] move: Knock Off|[of] p2a: Tornadus
+|move|p1a: Greedent|Swords Dance|p1a: Greedent
+|-boost|p1a: Greedent|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1685125814
+|move|p2a: Tornadus|Superpower|p1a: Greedent
+|-supereffective|p1a: Greedent
+|-damage|p1a: Greedent|48/339
+|-unboost|p2a: Tornadus|atk|1
+|-unboost|p2a: Tornadus|def|1
+|move|p1a: Greedent|Swords Dance|p1a: Greedent
+|-boost|p1a: Greedent|atk|2
+|
+|upkeep
+|turn|4
+|
+|t:|1685125826
+|move|p2a: Tornadus|Superpower|p1a: Greedent
+|-supereffective|p1a: Greedent
+|-damage|p1a: Greedent|0 fnt
+|-unboost|p2a: Tornadus|atk|1
+|-unboost|p2a: Tornadus|def|1
+|faint|p1a: Greedent
+|
+|upkeep
+|c|☆trying_toget_tough|what was the goal here?
+|
+|t:|1685125839
+|switch|p1a: Lycanroc|Lycanroc, L80, M|251/251
+|turn|5
+|
+|t:|1685125844
+|switch|p2a: Quagsire|Quagsire, L84, M|297/297
+|move|p1a: Lycanroc|Accelerock|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|267/297
+|-damage|p1a: Lycanroc|226/251|[from] item: Life Orb
+|
+|-heal|p2a: Quagsire|285/297|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685125854
+|switch|p1a: Noivern|Noivern, L82, F|274/274
+|move|p2a: Quagsire|Scald|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|238/274
+|-status|p1a: Noivern|brn
+|
+|-heal|p2a: Quagsire|297/297|[from] item: Leftovers
+|-damage|p1a: Noivern|221/274 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1685125876
+|move|p1a: Noivern|Hurricane|p2a: Quagsire
+|-damage|p2a: Quagsire|167/297
+|-start|p2a: Quagsire|confusion
+|-activate|p2a: Quagsire|confusion
+|move|p2a: Quagsire|Scald|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|188/274 brn
+|
+|-heal|p2a: Quagsire|185/297|[from] item: Leftovers
+|-damage|p1a: Noivern|171/274 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1685125892
+|move|p1a: Noivern|Hurricane|p2a: Quagsire
+|-damage|p2a: Quagsire|41/297
+|-activate|p2a: Quagsire|confusion
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|190/297
+|
+|-heal|p2a: Quagsire|208/297|[from] item: Leftovers
+|-damage|p1a: Noivern|154/274 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1685125900
+|move|p1a: Noivern|Roost|p1a: Noivern
+|-heal|p1a: Noivern|274/274 brn
+|-singleturn|p1a: Noivern|move: Roost
+|-activate|p2a: Quagsire|confusion
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|297/297
+|
+|-damage|p1a: Noivern|257/274 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1685125913
+|switch|p2a: Aromatisse|Aromatisse, L88, F|321/321
+|move|p1a: Noivern|Hurricane|p2a: Aromatisse|[miss]
+|-miss|p1a: Noivern|p2a: Aromatisse
+|
+|-damage|p1a: Noivern|240/274 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1685125925
+|switch|p1a: Roserade|Roserade, L84, F|238/238
+|move|p2a: Aromatisse|Calm Mind|p2a: Aromatisse
+|-boost|p2a: Aromatisse|spa|1
+|-boost|p2a: Aromatisse|spd|1
+|
+|upkeep
+|turn|12
+|
+|t:|1685125937
+|switch|p2a: Slowking|Slowking-Galar, L84, F|297/297
+|move|p1a: Roserade|Sleep Powder|p2a: Slowking|[miss]
+|-miss|p1a: Roserade|p2a: Slowking
+|
+|upkeep
+|turn|13
+|
+|t:|1685125944
+|move|p1a: Roserade|Sleep Powder|p2a: Slowking
+|-status|p2a: Slowking|slp|[from] move: Sleep Powder
+|cant|p2a: Slowking|slp
+|
+|upkeep
+|turn|14
+|
+|t:|1685125959
+|switch|p1a: Noivern|Noivern, L82, F|240/274 brn
+|switch|p2a: Reuniclus|Reuniclus, L84, F|322/322
+|
+|-damage|p1a: Noivern|223/274 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1685125968
+|move|p1a: Noivern|Hurricane|p2a: Reuniclus
+|-damage|p2a: Reuniclus|207/322
+|move|p2a: Reuniclus|Trick Room|p2a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p2a: Reuniclus
+|
+|-damage|p1a: Noivern|206/274 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1685125979
+|move|p2a: Reuniclus|Psychic|p1a: Noivern
+|-damage|p1a: Noivern|42/274 brn
+|-unboost|p1a: Noivern|spd|1
+|move|p1a: Noivern|Draco Meteor|p2a: Reuniclus
+|-damage|p2a: Reuniclus|65/322
+|-unboost|p1a: Noivern|spa|2
+|
+|-damage|p1a: Noivern|25/274 brn|[from] brn
+|upkeep
+|turn|17
+|inactive|Darkrai1717 has 120 seconds left.
+|
+|t:|1685126007
+|switch|p1a: Roserade|Roserade, L84, F|238/238
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|226/322
+|
+|upkeep
+|turn|18
+|
+|t:|1685126013
+|move|p2a: Reuniclus|Psychic|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|upkeep
+|
+|t:|1685126018
+|switch|p1a: Lycanroc|Lycanroc, L80, M|226/251
+|turn|19
+|
+|t:|1685126023
+|move|p2a: Reuniclus|Focus Blast|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|faint|p1a: Lycanroc
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1685126028
+|switch|p1a: Flygon|Flygon, L80, F|259/259
+|turn|20
+|
+|t:|1685126036
+|move|p1a: Flygon|Dragon Dance|p1a: Flygon
+|-boost|p1a: Flygon|atk|1
+|-boost|p1a: Flygon|spe|1
+|move|p2a: Reuniclus|Trick Room|p2a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p2a: Reuniclus
+|
+|upkeep
+|turn|21
+|
+|t:|1685126044
+|move|p2a: Reuniclus|Psychic|p1a: Flygon
+|-crit|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|upkeep
+|
+|t:|1685126051
+|switch|p1a: Volcarona|Volcarona, L76, F|254/254
+|turn|22
+|
+|t:|1685126063
+|switch|p2a: Quagsire|Quagsire, L84, M|297/297
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|upkeep
+|turn|23
+|
+|t:|1685126078
+|move|p2a: Quagsire|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|133/254
+|move|p1a: Volcarona|Bug Buzz|p2a: Quagsire
+|-damage|p2a: Quagsire|174/297
+|
+|-heal|p2a: Quagsire|192/297|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1685126090
+|move|p2a: Quagsire|Toxic|p1a: Volcarona
+|-status|p1a: Volcarona|tox
+|move|p1a: Volcarona|Bug Buzz|p2a: Quagsire
+|-damage|p2a: Quagsire|54/297
+|
+|-heal|p2a: Quagsire|72/297|[from] item: Leftovers
+|-damage|p1a: Volcarona|118/254 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|25
+|
+|t:|1685126099
+|move|p1a: Volcarona|Bug Buzz|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|-damage|p1a: Volcarona|88/254 tox|[from] psn
+|upkeep
+|
+|t:|1685126112
+|switch|p2a: Tornadus|Tornadus-Therian, L78, M|251/251
+|turn|26
+|
+|t:|1685126122
+|-start|p2a: Tornadus|Dynamax|
+|-heal|p2a: Tornadus|502/502|[silent]
+|move|p1a: Volcarona|Fire Blast|p2a: Tornadus
+|-damage|p2a: Tornadus|370/502
+|move|p2a: Tornadus|Max Airstream|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|-boost|p2a: Tornadus|spe|1
+|faint|p1a: Volcarona
+|
+|upkeep
+|
+|t:|1685126134
+|switch|p1a: Noivern|Noivern, L82, F|25/274 brn
+|turn|27
+|
+|t:|1685126142
+|move|p2a: Tornadus|Max Airstream|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|-boost|p2a: Tornadus|spe|1
+|faint|p1a: Noivern
+|
+|win|trying_toget_tough
+|raw|Darkrai1717's rating: 1295 &rarr; <strong>1271</strong><br />(-24 for losing)
+|raw|trying_toget_tough's rating: 1310 &rarr; <strong>1329</strong><br />(+19 for winning)

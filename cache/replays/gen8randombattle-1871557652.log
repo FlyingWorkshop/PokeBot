@@ -1,0 +1,268 @@
+|j|☆KuroMegaCharletX
+|j|☆Iamsleep
+|t:|1685106769
+|gametype|singles
+|player|p1|KuroMegaCharletX|red|
+|player|p2|Iamsleep|caitlin|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685106769
+|start
+|switch|p1a: Linoone|Linoone, L84, M|268/268
+|switch|p2a: Zapdos|Zapdos, L78|268/268
+|turn|1
+|c|☆Iamsleep|gl hf buddy
+|c|☆KuroMegaCharletX|Tnx
+|
+|t:|1685106837
+|move|p1a: Linoone|Belly Drum|p1a: Linoone
+|-damage|p1a: Linoone|134/268
+|-setboost|p1a: Linoone|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Linoone|Wiki Berry|[eat]
+|-heal|p1a: Linoone|223/268|[from] item: Wiki Berry
+|move|p2a: Zapdos|Discharge|p1a: Linoone
+|-damage|p1a: Linoone|111/268
+|
+|upkeep
+|turn|2
+|
+|t:|1685106858
+|move|p1a: Linoone|Throat Chop|p2a: Zapdos
+|-damage|p2a: Zapdos|71/268
+|-start|p2a: Zapdos|Throat Chop|[silent]
+|move|p2a: Zapdos|Discharge|p1a: Linoone
+|-damage|p1a: Linoone|3/268
+|
+|upkeep
+|turn|3
+|
+|t:|1685106871
+|move|p1a: Linoone|Throat Chop|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-status|p1a: Linoone|par|[from] ability: Static|[of] p2a: Zapdos
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1685106883
+|switch|p2a: Nihilego|Nihilego, L79|302/302
+|turn|4
+|
+|t:|1685106893
+|move|p1a: Linoone|Extreme Speed|p2a: Nihilego
+|-resisted|p2a: Nihilego
+|-damage|p2a: Nihilego|95/302
+|move|p2a: Nihilego|Sludge Wave|p1a: Linoone
+|-damage|p1a: Linoone|0 fnt
+|faint|p1a: Linoone
+|-ability|p2a: Nihilego|Beast Boost|boost
+|-boost|p2a: Nihilego|spa|1
+|
+|-heal|p2a: Nihilego|113/302|[from] item: Black Sludge
+|upkeep
+|c|☆KuroMegaCharletX|Decent damage k
+|
+|t:|1685106914
+|switch|p1a: Mesprit|Mesprit, L84|272/272
+|turn|5
+|
+|t:|1685106927
+|move|p2a: Nihilego|Toxic Spikes|p1a: Mesprit
+|-sidestart|p1: KuroMegaCharletX|move: Toxic Spikes
+|move|p1a: Mesprit|Psychic|p2a: Nihilego
+|-supereffective|p2a: Nihilego
+|-damage|p2a: Nihilego|0 fnt
+|faint|p2a: Nihilego
+|
+|upkeep
+|
+|t:|1685106935
+|switch|p2a: Mimikyu|Mimikyu, L76, F|209/209
+|turn|6
+|
+|t:|1685106968
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|move|p1a: Mesprit|Nasty Plot|p1a: Mesprit
+|-boost|p1a: Mesprit|spa|2
+|
+|upkeep
+|turn|7
+|
+|t:|1685106986
+|move|p2a: Mimikyu|Shadow Claw|p1a: Mesprit
+|-supereffective|p1a: Mesprit
+|-damage|p1a: Mesprit|7/272
+|-damage|p2a: Mimikyu|189/209|[from] item: Life Orb
+|move|p1a: Mesprit|Ice Beam|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|189/209
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, L76, F
+|-damage|p2a: Mimikyu|163/209|[from] pokemon: Mimikyu-Busted
+|
+|-heal|p1a: Mesprit|24/272|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685106998
+|move|p2a: Mimikyu|Shadow Claw|p1a: Mesprit
+|-supereffective|p1a: Mesprit
+|-damage|p1a: Mesprit|0 fnt
+|faint|p1a: Mesprit
+|-damage|p2a: Mimikyu|143/209|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685107008
+|switch|p1a: Sableye|Sableye, L88, M|231/231
+|-status|p1a: Sableye|psn
+|turn|9
+|
+|t:|1685107044
+|move|p1a: Sableye|Toxic|p2a: Mimikyu
+|-status|p2a: Mimikyu|tox
+|move|p2a: Mimikyu|Play Rough|p1a: Sableye
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|-damage|p2a: Mimikyu|123/209 tox|[from] item: Life Orb
+|
+|-damage|p2a: Mimikyu|110/209 tox|[from] psn
+|upkeep
+|
+|t:|1685107056
+|switch|p1a: Scizor|Scizor, L80, F|243/243
+|turn|10
+|
+|t:|1685107063
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Scizor
+|-damage|p1a: Scizor|161/243
+|-damage|p2a: Mimikyu|90/209 tox|[from] item: Life Orb
+|move|p1a: Scizor|Bullet Punch|p2a: Mimikyu
+|-supereffective|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|-damage|p1a: Scizor|137/243|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685107076
+|switch|p2a: Greedent|Greedent, L84, M|339/339
+|turn|11
+|
+|t:|1685107086
+|move|p1a: Scizor|Superpower|p2a: Greedent
+|-supereffective|p2a: Greedent
+|-damage|p2a: Greedent|87/339
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|-enditem|p2a: Greedent|Sitrus Berry|[eat]
+|-heal|p2a: Greedent|171/339|[from] item: Sitrus Berry
+|-heal|p2a: Greedent|284/339|[from] ability: Cheek Pouch
+|-damage|p1a: Scizor|113/243|[from] item: Life Orb
+|move|p2a: Greedent|Fire Fang|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1685107103
+|switch|p1a: Sandslash|Sandslash, L86, F|269/269
+|-status|p1a: Sandslash|psn
+|turn|12
+|
+|t:|1685107125
+|move|p1a: Sandslash|Swords Dance|p1a: Sandslash
+|-boost|p1a: Sandslash|atk|2
+|move|p2a: Greedent|Swords Dance|p2a: Greedent
+|-boost|p2a: Greedent|atk|2
+|
+|-damage|p1a: Sandslash|236/269 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1685107130
+|move|p1a: Sandslash|Swords Dance|p1a: Sandslash
+|-boost|p1a: Sandslash|atk|2
+|move|p2a: Greedent|Body Slam|p1a: Sandslash
+|-damage|p1a: Sandslash|97/269 psn
+|
+|-heal|p1a: Sandslash|113/269 psn|[from] item: Leftovers
+|-damage|p1a: Sandslash|80/269 psn|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1685107136
+|move|p1a: Sandslash|Earthquake|p2a: Greedent
+|-damage|p2a: Greedent|0 fnt
+|faint|p2a: Greedent
+|
+|-heal|p1a: Sandslash|96/269 psn|[from] item: Leftovers
+|-damage|p1a: Sandslash|63/269 psn|[from] psn
+|upkeep
+|
+|t:|1685107141
+|switch|p2a: Gallade|Gallade, L82, M|246/246
+|turn|15
+|
+|t:|1685107156
+|move|p2a: Gallade|Close Combat|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|-unboost|p2a: Gallade|def|1
+|-unboost|p2a: Gallade|spd|1
+|faint|p1a: Sandslash
+|-damage|p2a: Gallade|222/246|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685107159
+|switch|p1a: Pelipper|Pelipper, L86, M|243/243
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|16
+|
+|t:|1685107171
+|move|p2a: Gallade|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|146/243
+|-enditem|p1a: Pelipper|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Gallade
+|-damage|p2a: Gallade|198/246|[from] item: Life Orb
+|move|p1a: Pelipper|Hurricane|p2a: Gallade
+|-supereffective|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685107174
+|switch|p2a: Jynx|Jynx, L86, F|252/252
+|turn|17
+|c|☆KuroMegaCharletX|Close match
+|
+|t:|1685107194
+|move|p2a: Jynx|Ice Beam|p1a: Pelipper
+|-damage|p1a: Pelipper|4/243
+|move|p1a: Pelipper|U-turn|p2a: Jynx
+|-supereffective|p2a: Jynx
+|-damage|p2a: Jynx|132/252
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jynx|163/252|[from] ability: Dry Skin
+|upkeep
+|turn|18
+|c|☆KuroMegaCharletX|Gg
+|c|☆Iamsleep|gg
+|
+|t:|1685107210
+|move|p2a: Jynx|Ice Beam|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|win|Iamsleep
+|c|☆KuroMegaCharletX|If only i roasted

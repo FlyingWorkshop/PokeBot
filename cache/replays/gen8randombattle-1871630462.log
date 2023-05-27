@@ -1,0 +1,239 @@
+|j|☆Bka Onon
+|j|☆Miss Novelist
+|t:|1685114202
+|gametype|singles
+|player|p1|Bka Onon|amelia-shuffle|
+|player|p2|Miss Novelist|veteranf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685114202
+|start
+|switch|p1a: Landorus|Landorus, L76, M|260/260
+|switch|p2a: Seaking|Seaking, L88, M|284/284
+|turn|1
+|c|☆Bka Onon|hf
+|c|☆Miss Novelist|glhf!
+|j| ArkenCiel
+|
+|t:|1685114228
+|switch|p1a: Slurpuff|Slurpuff, L80, M|262/262
+|move|p2a: Seaking|Waterfall|p1a: Slurpuff
+|-damage|p1a: Slurpuff|132/262
+|-damage|p2a: Seaking|256/284|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|t:|1685114243
+|move|p2a: Seaking|Waterfall|p1a: Slurpuff
+|-damage|p1a: Slurpuff|2/262
+|-enditem|p1a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1a: Slurpuff|67/262|[from] item: Sitrus Berry
+|-damage|p2a: Seaking|228/284|[from] item: Life Orb
+|move|p1a: Slurpuff|Play Rough|p2a: Seaking
+|-damage|p2a: Seaking|131/284
+|
+|upkeep
+|turn|3
+|
+|t:|1685114252
+|move|p1a: Slurpuff|Play Rough|p2a: Seaking
+|-damage|p2a: Seaking|40/284
+|move|p2a: Seaking|Waterfall|p1a: Slurpuff
+|-damage|p1a: Slurpuff|0 fnt
+|faint|p1a: Slurpuff
+|-damage|p2a: Seaking|12/284|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685114263
+|switch|p1a: Landorus|Landorus, L76, M|260/260
+|turn|4
+|
+|t:|1685114281
+|move|p1a: Landorus|Earth Power|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|faint|p2a: Seaking
+|
+|upkeep
+|
+|t:|1685114300
+|switch|p2a: Regidrago|Regidrago, L78|440/440
+|turn|5
+|c| ArkenCiel|uh oh
+|
+|t:|1685114313
+|move|p1a: Landorus|Earth Power|p2a: Regidrago
+|-damage|p2a: Regidrago|210/440
+|move|p2a: Regidrago|Dragon Dance|p2a: Regidrago
+|-boost|p2a: Regidrago|atk|1
+|-boost|p2a: Regidrago|spe|1
+|
+|upkeep
+|turn|6
+|
+|t:|1685114355
+|switch|p1a: Centiskorch|Centiskorch, L84, M|305/305
+|move|p2a: Regidrago|Outrage|p1a: Centiskorch
+|-damage|p1a: Centiskorch|0 fnt
+|faint|p1a: Centiskorch
+|
+|upkeep
+|
+|t:|1685114360
+|switch|p1a: Marowak|Marowak, L86, M|243/243
+|turn|7
+|
+|t:|1685114366
+|move|p2a: Regidrago|Outrage|p1a: Marowak|[from]lockedmove
+|-damage|p1a: Marowak|32/243
+|move|p1a: Marowak|Earthquake|p2a: Regidrago
+|-damage|p2a: Regidrago|0 fnt
+|faint|p2a: Regidrago
+|
+|upkeep
+|
+|t:|1685114375
+|switch|p2a: Kartana|Kartana, L74|209/209
+|turn|8
+|
+|t:|1685114384
+|move|p2a: Kartana|Leaf Blade|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|-damage|p2a: Kartana|189/209|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685114426
+|switch|p1a: Thundurus|Thundurus, L80, M|258/258
+|turn|9
+|
+|t:|1685114438
+|switch|p2a: Stunfisk|Stunfisk, L84, M|320/320
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|
+|upkeep
+|turn|10
+|
+|t:|1685114447
+|-start|p1a: Thundurus|Dynamax|
+|-heal|p1a: Thundurus|516/516|[silent]
+|move|p1a: Thundurus|Max Overgrowth|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|0 fnt
+|-fieldstart|move: Grassy Terrain
+|faint|p2a: Stunfisk
+|
+|upkeep
+|
+|t:|1685114463
+|switch|p2a: Garbodor|Garbodor, L87, M|281/281
+|turn|11
+|
+|t:|1685114477
+|-start|p2a: Garbodor|Dynamax|Gmax
+|-heal|p2a: Garbodor|562/562|[silent]
+|move|p2a: Garbodor|Max Guard|p2a: Garbodor
+|-singleturn|p2a: Garbodor|Max Guard
+|move|p1a: Thundurus|Max Lightning|p2a: Garbodor
+|-activate|p2a: Garbodor|move: Max Guard
+|
+|upkeep
+|turn|12
+|
+|t:|1685114484
+|move|p1a: Thundurus|Max Lightning|p2a: Garbodor
+|-damage|p2a: Garbodor|235/562
+|-fieldstart|move: Electric Terrain
+|move|p2a: Garbodor|Max Strike|p1a: Thundurus
+|-damage|p1a: Thundurus|371/516
+|-unboost|p1a: Thundurus|spe|1
+|
+|-heal|p2a: Garbodor|252/562|[from] item: Black Sludge
+|upkeep
+|-end|p1a: Thundurus|Dynamax
+|-heal|p1a: Thundurus|186/258|[silent]
+|turn|13
+|
+|t:|1685114508
+|move|p2a: Garbodor|G-Max Malodor|p1a: Thundurus
+|-damage|p1a: Thundurus|59/258
+|-status|p1a: Thundurus|psn
+|move|p1a: Thundurus|Thunderbolt|p2a: Garbodor
+|-damage|p2a: Garbodor|44/562
+|
+|-heal|p2a: Garbodor|61/562|[from] item: Black Sludge
+|-damage|p1a: Thundurus|27/258 psn|[from] psn
+|upkeep
+|-end|p2a: Garbodor|Dynamax
+|-heal|p2a: Garbodor|31/281|[silent]
+|turn|14
+|
+|t:|1685114518
+|move|p2a: Garbodor|Gunk Shot|p1a: Thundurus|[miss]
+|-miss|p2a: Garbodor|p1a: Thundurus
+|move|p1a: Thundurus|Thunderbolt|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|-damage|p1a: Thundurus|0 fnt|[from] psn
+|faint|p1a: Thundurus
+|upkeep
+|
+|t:|1685114529
+|switch|p1a: Landorus|Landorus, L76, M|260/260
+|switch|p2a: Kartana|Kartana, L74|189/209
+|turn|15
+|
+|t:|1685114536
+|move|p2a: Kartana|Leaf Blade|p1a: Landorus
+|-damage|p1a: Landorus|91/260
+|-damage|p2a: Kartana|169/209|[from] item: Life Orb
+|move|p1a: Landorus|Earth Power|p2a: Kartana
+|-damage|p2a: Kartana|0 fnt
+|faint|p2a: Kartana
+|
+|upkeep
+|
+|t:|1685114546
+|switch|p2a: Cinderace|Cinderace, L74, F|240/240
+|turn|16
+|c|☆Bka Onon|gg
+|
+|t:|1685114555
+|move|p2a: Cinderace|High Jump Kick|p1a: Landorus
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-resisted|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|c|☆Miss Novelist|gg
+|
+|t:|1685114561
+|switch|p1a: Genesect|Genesect, L74|227/227
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|turn|17
+|
+|t:|1685114567
+|move|p2a: Cinderace|Pyro Ball|p1a: Genesect
+|-start|p2a: Cinderace|typechange|Fire|[from] ability: Libero
+|-supereffective|p1a: Genesect
+|-damage|p1a: Genesect|0 fnt
+|faint|p1a: Genesect
+|
+|win|Miss Novelist

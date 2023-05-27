@@ -1,0 +1,227 @@
+|j|☆goldpoyo
+|j|☆ShaunBRO
+|t:|1685134797
+|gametype|singles
+|player|p1|goldpoyo|infielder|
+|player|p2|ShaunBRO|hooligans|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685134797
+|start
+|switch|p1a: Ribombee|Ribombee, L82, F|233/233
+|switch|p2a: Heatmor|Heatmor, L90, F|299/299
+|turn|1
+|c|☆ShaunBRO|gat
+|
+|t:|1685134828
+|switch|p1a: Yveltal|Yveltal, L69|288/288
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Heatmor|Knock Off|p1a: Yveltal
+|-resisted|p1a: Yveltal
+|-damage|p1a: Yveltal|230/288
+|-enditem|p1a: Yveltal|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Heatmor
+|
+|upkeep
+|turn|2
+|c|☆ShaunBRO|get your self a egg and beat it
+|c|☆ShaunBRO|giga niger
+|
+|t:|1685134859
+|move|p1a: Yveltal|Knock Off|p2a: Heatmor
+|-damage|p2a: Heatmor|172/299
+|-enditem|p2a: Heatmor|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Yveltal
+|move|p2a: Heatmor|Giga Drain|p1a: Yveltal
+|-resisted|p1a: Yveltal
+|-damage|p1a: Yveltal|197/288
+|-heal|p2a: Heatmor|189/299|[from] drain|[of] p1a: Yveltal
+|
+|upkeep
+|turn|3
+|
+|t:|1685134882
+|move|p1a: Yveltal|Oblivion Wing|p2a: Heatmor
+|-damage|p2a: Heatmor|102/299
+|-heal|p1a: Yveltal|262/288|[from] drain|[of] p2a: Heatmor
+|move|p2a: Heatmor|Giga Drain|p1a: Yveltal
+|-resisted|p1a: Yveltal
+|-damage|p1a: Yveltal|227/288
+|-heal|p2a: Heatmor|120/299|[from] drain|[of] p1a: Yveltal
+|
+|upkeep
+|turn|4
+|
+|t:|1685134909
+|move|p1a: Yveltal|Sucker Punch|p2a: Heatmor
+|-damage|p2a: Heatmor|21/299
+|move|p2a: Heatmor|Fire Lash|p1a: Yveltal
+|-damage|p1a: Yveltal|124/288
+|-unboost|p1a: Yveltal|def|1
+|
+|upkeep
+|turn|5
+|
+|t:|1685134946
+|move|p1a: Yveltal|Roost|p1a: Yveltal
+|-heal|p1a: Yveltal|268/288
+|-singleturn|p1a: Yveltal|move: Roost
+|move|p2a: Heatmor|Fire Lash|p1a: Yveltal
+|-damage|p1a: Yveltal|109/288
+|-unboost|p1a: Yveltal|def|1
+|
+|upkeep
+|turn|6
+|
+|t:|1685134954
+|move|p1a: Yveltal|Sucker Punch|p2a: Heatmor
+|-damage|p2a: Heatmor|0 fnt
+|faint|p2a: Heatmor
+|
+|upkeep
+|
+|t:|1685134965
+|switch|p2a: Froslass|Froslass, L84, F|255/255
+|turn|7
+|
+|t:|1685134976
+|move|p2a: Froslass|Poltergeist||[still]
+|-fail|p2a: Froslass
+|move|p1a: Yveltal|Knock Off|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|0 fnt
+|-enditem|p2a: Froslass|Wide Lens|[from] move: Knock Off|[of] p1a: Yveltal
+|faint|p2a: Froslass
+|
+|upkeep
+|
+|t:|1685134984
+|switch|p2a: Arctovish|Arctovish, L86|295/295
+|turn|8
+|
+|t:|1685134991
+|move|p1a: Yveltal|Knock Off|p2a: Arctovish
+|-damage|p2a: Arctovish|186/295
+|-enditem|p2a: Arctovish|Choice Band|[from] move: Knock Off|[of] p1a: Yveltal
+|move|p2a: Arctovish|Fishious Rend|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|faint|p1a: Yveltal
+|
+|upkeep
+|
+|t:|1685134999
+|switch|p1a: Toxtricity|Toxtricity, L82, F|257/257
+|turn|9
+|
+|t:|1685135006
+|move|p1a: Toxtricity|Overdrive|p2a: Arctovish
+|-supereffective|p2a: Arctovish
+|-damage|p2a: Arctovish|0 fnt
+|faint|p2a: Arctovish
+|-enditem|p1a: Toxtricity|Throat Spray
+|-boost|p1a: Toxtricity|spa|1|[from] item: Throat Spray
+|
+|upkeep
+|
+|t:|1685135012
+|switch|p2a: Tyranitar|Tyranitar, L78, M|284/284
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|10
+|c|☆ShaunBRO|nigar
+|n|‽goldpoyo|goldpoyo
+|
+|t:|1685135090
+|switch|p1a: Gurdurr|Gurdurr, L83, F|277/277
+|move|p2a: Tyranitar|Stone Edge|p1a: Gurdurr|[miss]
+|-miss|p2a: Tyranitar|p1a: Gurdurr
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gurdurr|260/277|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1685135107
+|move|p2a: Tyranitar|Fire Punch|p1a: Gurdurr
+|-damage|p1a: Gurdurr|219/277
+|move|p1a: Gurdurr|Drain Punch|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-heal|p1a: Gurdurr|277/277|[from] drain|[of] p2a: Tyranitar
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gurdurr|260/277|[from] Sandstorm
+|upkeep
+|
+|t:|1685135117
+|switch|p2a: Buzzwole|Buzzwole, L77|291/291
+|turn|12
+|
+|t:|1685135130
+|switch|p1a: Ribombee|Ribombee, L82, F|233/233
+|move|p2a: Buzzwole|Close Combat|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|167/233
+|-unboost|p2a: Buzzwole|def|1
+|-unboost|p2a: Buzzwole|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ribombee|153/233|[from] Sandstorm
+|-damage|p2a: Buzzwole|273/291|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1685135143
+|move|p1a: Ribombee|Moonblast|p2a: Buzzwole
+|-supereffective|p2a: Buzzwole
+|-damage|p2a: Buzzwole|0 fnt
+|faint|p2a: Buzzwole
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ribombee|139/233|[from] Sandstorm
+|upkeep
+|
+|t:|1685135157
+|switch|p2a: Pikachu|Pikachu-Partner, L92, M|214/214
+|turn|14
+|
+|t:|1685135166
+|move|p1a: Ribombee|Stun Spore|p2a: Pikachu|[miss]
+|-miss|p1a: Ribombee|p2a: Pikachu
+|move|p2a: Pikachu|Volt Tackle|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|-damage|p2a: Pikachu|168/214|[from] Recoil
+|
+|-weather|none
+|upkeep
+|
+|t:|1685135177
+|switch|p1a: Regidrago|Regidrago, L78|440/440
+|turn|15
+|
+|t:|1685135184
+|-start|p2a: Pikachu|Dynamax|
+|-heal|p2a: Pikachu|336/428|[silent]
+|move|p2a: Pikachu|Max Geyser|p1a: Regidrago
+|-resisted|p1a: Regidrago
+|-damage|p1a: Regidrago|338/440
+|-weather|RainDance
+|move|p1a: Regidrago|Dragon Dance|p1a: Regidrago
+|-boost|p1a: Regidrago|atk|1
+|-boost|p1a: Regidrago|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1685135202
+|move|p1a: Regidrago|Outrage|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|faint|p2a: Pikachu
+|
+|win|goldpoyo
