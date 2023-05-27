@@ -8,7 +8,6 @@ from .embedder import Embedder, get_team_histories
 # import data_labeler
 from .constants import *
 
-
 class Delphox(nn.Module):
     def __init__(self, input_size, output_size):
         # TODO: make Delphox a RNN or LSTM; perhaps use meta-learning
