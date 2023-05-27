@@ -73,9 +73,9 @@ def make_data(filepath):
                 battles.append(deepcopy(b))
         except:
             continue
-    turn_actions = process_input_log(replay)
+    move1, move2 = process_input_log(replay)
     h1, h2 = get_team_histories(battles)
-    return battles, h1, h2, turn_actions
+    return battles, h1, h2, move1, move2
 
 
 def main():
