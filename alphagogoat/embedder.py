@@ -223,9 +223,12 @@ class Embedder:
         torch.Size([8, 52])
         >>> embedder.embed_moves_from_pokemon(Pokemon(gen=8, species="Cinderace")).shape
         torch.Size([8, 52])
+        >>> embedder.embed_moves_from_pokemon(Pokemon(gen=8, species="Solrock")).shape
+        torch.Size([8, 52])
+        >>> embedder.embed_moves_from_pokemon(Pokemon(gen=8, species="Type: Null")).shape
+        torch.Size([8, 52])
         """
-        if pokemon.species == 'typenull':
-            return torch.zeros((8, 52))
+
 
         # make move embeddings
         embeddings = []
@@ -249,7 +252,9 @@ class Embedder:
         >>> embedder = Embedder()
         >>> battles = process_battle("../cache/replays/gen8randombattle-1123651831.json")
         >>> embedder.embed_pokemon(battles[0].active_pokemon).shape
-
+        torch.Size([195])
+        >>> embedder.embed_pokemon(Pokemon(species='Solrock', gen=8)).shape
+        torch.Size([195])
         """
         # TODO: feature reduction
         # TODO:add more flags and data (is dynamaxed, level, preparing, weight)
