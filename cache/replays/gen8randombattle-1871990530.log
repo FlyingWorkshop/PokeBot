@@ -1,0 +1,277 @@
+|j|☆Itachinemo
+|j|☆just 4444 fun
+|t:|1685157563
+|gametype|singles
+|player|p1|Itachinemo|101|1308
+|player|p2|just 4444 fun|266|1465
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685157563
+|start
+|switch|p1a: Duraludon|Duraludon, L84, F|255/255
+|switch|p2a: Arctozolt|Arctozolt, L86|295/295
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Itachinemo)
+|
+|t:|1685157584
+|switch|p2a: Cinderace|Cinderace, L74, F|240/240
+|move|p1a: Duraludon|Flash Cannon|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|176/240
+|
+|upkeep
+|turn|2
+|
+|t:|1685157608
+|switch|p1a: Dugtrio|Dugtrio, L82, F|192/192
+|move|p2a: Cinderace|High Jump Kick|p1a: Dugtrio
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|upkeep
+|
+|t:|1685157616
+|switch|p1a: Cursola|Cursola, L86, F|243/243
+|turn|3
+|
+|t:|1685157625
+|move|p2a: Cinderace|Bulk Up|p2a: Cinderace
+|-boost|p2a: Cinderace|atk|1
+|-boost|p2a: Cinderace|def|1
+|move|p1a: Cursola|Earth Power|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1685157639
+|switch|p2a: Arctozolt|Arctozolt, L86|295/295
+|turn|4
+|
+|t:|1685157650
+|switch|p1a: Wigglytuff|Wigglytuff, L90, M|398/398
+|move|p2a: Arctozolt|Bolt Beak|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|127/398
+|
+|upkeep
+|turn|5
+|
+|t:|1685157671
+|move|p2a: Arctozolt|Bolt Beak|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|0 fnt
+|faint|p1a: Wigglytuff
+|
+|upkeep
+|
+|t:|1685157678
+|switch|p1a: Duraludon|Duraludon, L84, F|255/255
+|turn|6
+|
+|t:|1685157687
+|switch|p2a: Venusaur|Venusaur, L82, F|265/265
+|move|p1a: Duraludon|Flash Cannon|p2a: Venusaur
+|-damage|p2a: Venusaur|177/265
+|
+|-heal|p2a: Venusaur|193/265|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1685157695
+|move|p1a: Duraludon|Stealth Rock|p2a: Venusaur
+|-sidestart|p2: just 4444 fun|move: Stealth Rock
+|move|p2a: Venusaur|Leech Seed|p1a: Duraludon
+|-start|p1a: Duraludon|move: Leech Seed
+|
+|-heal|p2a: Venusaur|209/265|[from] item: Black Sludge
+|-damage|p1a: Duraludon|224/255|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|240/265|[silent]
+|upkeep
+|turn|8
+|
+|t:|1685157717
+|switch|p1a: Buzzwole|Buzzwole, L77|291/291
+|move|p2a: Venusaur|Leech Seed|p1a: Buzzwole
+|-start|p1a: Buzzwole|move: Leech Seed
+|
+|-heal|p2a: Venusaur|256/265|[from] item: Black Sludge
+|-damage|p1a: Buzzwole|255/291|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|265/265|[silent]
+|upkeep
+|turn|9
+|
+|t:|1685157732
+|move|p2a: Venusaur|Giga Drain|p1a: Buzzwole
+|-resisted|p1a: Buzzwole
+|-damage|p1a: Buzzwole|190/291
+|move|p1a: Buzzwole|Leech Life|p2a: Venusaur
+|-damage|p2a: Venusaur|120/265
+|-heal|p1a: Buzzwole|263/291|[from] drain|[of] p2a: Venusaur
+|
+|-heal|p2a: Venusaur|136/265|[from] item: Black Sludge
+|-damage|p1a: Buzzwole|227/291|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|172/265|[silent]
+|upkeep
+|turn|10
+|
+|t:|1685157743
+|move|p2a: Venusaur|Giga Drain|p1a: Buzzwole
+|-resisted|p1a: Buzzwole
+|-damage|p1a: Buzzwole|172/291
+|-heal|p2a: Venusaur|200/265|[from] drain|[of] p1a: Buzzwole
+|move|p1a: Buzzwole|Leech Life|p2a: Venusaur
+|-damage|p2a: Venusaur|58/265
+|-heal|p1a: Buzzwole|243/291|[from] drain|[of] p2a: Venusaur
+|
+|-heal|p2a: Venusaur|74/265|[from] item: Black Sludge
+|-damage|p1a: Buzzwole|207/291|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|110/265|[silent]
+|upkeep
+|turn|11
+|
+|t:|1685157754
+|switch|p2a: Gigalith|Gigalith, L82, F|274/274
+|-damage|p2a: Gigalith|240/274|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Buzzwole|Leech Life|p2a: Gigalith
+|-damage|p2a: Gigalith|134/274
+|-heal|p1a: Buzzwole|260/291|[from] drain|[of] p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Buzzwole|242/291|[from] Sandstorm
+|-heal|p2a: Gigalith|151/274|[from] item: Leftovers
+|-damage|p1a: Buzzwole|206/291|[from] Leech Seed|[of] p2a: Gigalith
+|-heal|p2a: Gigalith|187/274|[silent]
+|upkeep
+|turn|12
+|
+|t:|1685157769
+|switch|p1a: Cursola|Cursola, L86, F|243/243
+|move|p2a: Gigalith|Stone Edge|p1a: Cursola|[miss]
+|-miss|p2a: Gigalith|p1a: Cursola
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cursola|228/243|[from] Sandstorm
+|-heal|p2a: Gigalith|204/274|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685157785
+|move|p1a: Cursola|Earth Power|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|10/274
+|move|p2a: Gigalith|Stone Edge|p1a: Cursola
+|-damage|p1a: Cursola|30/243
+|-ability|p1a: Cursola|Weak Armor|boost
+|-unboost|p1a: Cursola|def|1
+|-boost|p1a: Cursola|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cursola|15/243|[from] Sandstorm
+|-heal|p2a: Gigalith|27/274|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685157797
+|move|p1a: Cursola|Earth Power|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cursola|0 fnt|[from] Sandstorm
+|faint|p1a: Cursola
+|upkeep
+|
+|t:|1685157826
+|switch|p1a: Buzzwole|Buzzwole, L77|206/291
+|switch|p2a: Mimikyu|Mimikyu, L76, F|209/209
+|-damage|p2a: Mimikyu|183/209|[from] Stealth Rock
+|turn|15
+|
+|t:|1685157840
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|move|p1a: Buzzwole|Leech Life|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|183/209
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, L76, F
+|-damage|p2a: Mimikyu|157/209|[from] pokemon: Mimikyu-Busted
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1685157851
+|move|p2a: Mimikyu|Play Rough|p1a: Buzzwole
+|-supereffective|p1a: Buzzwole
+|-damage|p1a: Buzzwole|0 fnt
+|faint|p1a: Buzzwole
+|-damage|p2a: Mimikyu|137/209|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685157862
+|switch|p1a: Duraludon|Duraludon, L84, F|224/255
+|turn|17
+|
+|t:|1685157870
+|-start|p1a: Duraludon|Dynamax|
+|-heal|p1a: Duraludon|448/510|[silent]
+|-start|p2a: Mimikyu|Dynamax|
+|-heal|p2a: Mimikyu|274/418|[silent]
+|move|p1a: Duraludon|Max Steelspike|p2a: Mimikyu
+|-supereffective|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|-boost|p1a: Duraludon|def|1
+|faint|p2a: Mimikyu
+|
+|upkeep
+|
+|t:|1685157891
+|switch|p2a: Venusaur|Venusaur, L82, F|110/265
+|-damage|p2a: Venusaur|77/265|[from] Stealth Rock
+|turn|18
+|
+|t:|1685157902
+|move|p1a: Duraludon|Max Wyrmwind|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|upkeep
+|inactive|just 4444 fun has 120 seconds left.
+|
+|t:|1685157939
+|switch|p2a: Rillaboom|Rillaboom, L78, M|284/284
+|-damage|p2a: Rillaboom|249/284|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|19
+|
+|t:|1685157954
+|move|p1a: Duraludon|Max Wyrmwind|p2a: Rillaboom
+|-damage|p2a: Rillaboom|26/284
+|-unboost|p2a: Rillaboom|atk|1
+|move|p2a: Rillaboom|Knock Off|p1a: Duraludon
+|-damage|p1a: Duraludon|407/510
+|-enditem|p1a: Duraludon|Focus Sash|[from] move: Knock Off|[of] p2a: Rillaboom
+|
+|-heal|p1a: Duraludon|422/510|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|43/284|[from] Grassy Terrain
+|upkeep
+|-end|p1a: Duraludon|Dynamax
+|-heal|p1a: Duraludon|211/255|[silent]
+|turn|20
+|inactive|just 4444 fun has 120 seconds left.
+|-message|just 4444 fun forfeited.
+|
+|win|Itachinemo
+|raw|Itachinemo's rating: 1308 &rarr; <strong>1336</strong><br />(+28 for winning)
+|raw|just 4444 fun's rating: 1465 &rarr; <strong>1437</strong><br />(-28 for losing)
+|l|☆just 4444 fun

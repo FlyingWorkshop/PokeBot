@@ -1,0 +1,141 @@
+|j|☆we up
+|j|☆FrootLoops007
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1685148532
+|gametype|singles
+|player|p1|we up|caitlin-masters|
+|player|p2|FrootLoops007|roughneck-gen4|
+|teamsize|p1|24
+|teamsize|p2|24
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Metagross, L84|
+|poke|p1|Maractus, L88, M|
+|poke|p1|Pheromosa, L76|
+|poke|p1|Nidoqueen, L84, F|
+|poke|p1|Spectrier, L76|
+|poke|p1|Blissey, L80, F|
+|poke|p1|Jynx, L88, F|
+|poke|p1|Lickilicky, L88, F|
+|poke|p1|Togekiss, L84, F|
+|poke|p1|Tentacruel, L84, M|
+|poke|p1|Swampert, L82, F|
+|poke|p1|Spiritomb, L88, F|
+|poke|p1|Gourgeist-*, L88, F|
+|poke|p1|Crobat, L84, M|
+|poke|p1|Palossand, L88, M|
+|poke|p1|Omastar, L87, F|
+|poke|p1|Salazzle, L86, F|
+|poke|p1|Araquanid, L87, M|
+|poke|p1|Rhyperior, L84, F|
+|poke|p1|Reuniclus, L87, M|
+|poke|p1|Morpeko, L88, M|
+|poke|p1|Absol, L88, F|
+|poke|p1|Zacian-*, L72|
+|poke|p1|Shedinja, L92|
+|poke|p2|Accelgor, L88, F|
+|poke|p2|Glaceon, L88, F|
+|poke|p2|Alakazam, L81, F|
+|poke|p2|Eternatus, L73|
+|poke|p2|Mesprit, L88|
+|poke|p2|Persian, L88, M|
+|poke|p2|Cramorant, L88, F|
+|poke|p2|Garbodor, L88, F|
+|poke|p2|Lapras, L88, F|
+|poke|p2|Metagross, L84|
+|poke|p2|Azelf, L82|
+|poke|p2|Vileplume, L86, M|
+|poke|p2|Garchomp, L80, M|
+|poke|p2|Slowbro-Galar, L83, M|
+|poke|p2|Scyther, L87, M|
+|poke|p2|Swoobat, L84, F|
+|poke|p2|Escavalier, L86, F|
+|poke|p2|Exploud, L86, M|
+|poke|p2|Azumarill, L82, M|
+|poke|p2|Oranguru, L88, M|
+|poke|p2|Flareon, L88, M|
+|poke|p2|Uxie, L88|
+|poke|p2|Salazzle, L86, F|
+|poke|p2|Kingler, L87, M|
+|teampreview|6
+|j|*Lady Monita
+|inactive|we up also wants the timer to be on.
+|inactive|we up has 120 seconds left.
+|inactive|FrootLoops007 has 120 seconds left.
+|j| Hiusi guy
+|j| Crown Oji
+|inactive|we up has 90 seconds left.
+|inactive|FrootLoops007 has 90 seconds left.
+|j| Mrdrainpunch
+|inactive|we up has 60 seconds left.
+|inactive|FrootLoops007 has 60 seconds left.
+|inactive|FrootLoops007 has 30 seconds left.
+|inactive|FrootLoops007 has 20 seconds left.
+|inactive|FrootLoops007 has 15 seconds left.
+|c|☆we up|im sorry in advance
+|inactive|FrootLoops007 has 10 seconds left.
+|inactive|FrootLoops007 has 5 seconds left.
+|
+|t:|1685148681
+|start
+|switch|p1a: Spiritomb|Spiritomb, L88, F|305/305
+|switch|p2a: Escavalier|Escavalier, L86, F|326/326
+|turn|1
+|
+|t:|1685148692
+|move|p1a: Spiritomb|Knock Off|p2a: Escavalier
+|-damage|p2a: Escavalier|194/326
+|-enditem|p2a: Escavalier|Leftovers|[from] move: Knock Off|[of] p1a: Spiritomb
+|move|p2a: Escavalier|Meteor Mash|p1a: Spiritomb
+|-immune|p1a: Spiritomb|[from] ability: Wonder Guard
+|
+|upkeep
+|turn|2
+|c| Hiusi guy|lmoa
+|l| Crown Oji
+|
+|t:|1685148703
+|move|p1a: Spiritomb|Earthquake|p2a: Escavalier
+|-damage|p2a: Escavalier|110/326
+|move|p2a: Escavalier|Thunder Punch|p1a: Spiritomb
+|-immune|p1a: Spiritomb|[from] ability: Wonder Guard
+|
+|upkeep
+|turn|3
+|c| Hiusi guy|unfort mu
+|l| Hiusi guy
+|
+|t:|1685148723
+|move|p1a: Spiritomb|Toxic|p2a: Escavalier
+|-immune|p2a: Escavalier
+|move|p2a: Escavalier|Thunder Punch|p1a: Spiritomb
+|-immune|p1a: Spiritomb|[from] ability: Wonder Guard
+|
+|upkeep
+|turn|4
+|
+|t:|1685148732
+|move|p1a: Spiritomb|Earthquake|p2a: Escavalier
+|-damage|p2a: Escavalier|23/326
+|move|p2a: Escavalier|Meteor Mash|p1a: Spiritomb
+|-immune|p1a: Spiritomb|[from] ability: Wonder Guard
+|
+|upkeep
+|turn|5
+|
+|t:|1685148739
+|move|p1a: Spiritomb|Earthquake|p2a: Escavalier
+|-damage|p2a: Escavalier|0 fnt
+|faint|p2a: Escavalier
+|
+|win|we up
+|n|☆we up|weup
+|n|☆FrootLoops007|frootloops007
+|n|*Lady Monita|ladymonita
+|n| Mrdrainpunch|mrdrainpunch

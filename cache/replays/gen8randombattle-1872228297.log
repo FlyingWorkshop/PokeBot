@@ -1,0 +1,334 @@
+|j|☆Fluore
+|j|☆Teres bahji
+|t:|1685199803
+|gametype|singles
+|player|p1|Fluore|#bltviiiturtwigs|
+|player|p2|Teres bahji|#rbtt6teamzarudef|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685199803
+|start
+|switch|p1a: Steelix|Steelix, L84, F|263/263
+|switch|p2a: Dragonite|Dragonite, L75, F|260/260
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fluore)
+|
+|t:|1685199813
+|switch|p2a: Omastar|Omastar, L82, F|249/249
+|move|p1a: Steelix|Dragon Dance|p1a: Steelix
+|-boost|p1a: Steelix|atk|1
+|-boost|p1a: Steelix|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1685199821
+|move|p1a: Steelix|Earthquake|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|43/249
+|move|p2a: Omastar|Hydro Pump|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|faint|p1a: Steelix
+|
+|-heal|p2a: Omastar|58/249|[from] item: Leftovers
+|upkeep
+|
+|t:|1685199841
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L78, F|284/284
+|turn|3
+|inactive|Teres bahji has 270 seconds left.
+|
+|t:|1685199880
+|switch|p2a: Eldegoss|Eldegoss, L90, F|254/254
+|move|p1a: Urshifu|Surging Strikes|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-crit|p2a: Eldegoss
+|-damage|p2a: Eldegoss|228/254
+|-resisted|p2a: Eldegoss
+|-crit|p2a: Eldegoss
+|-damage|p2a: Eldegoss|201/254
+|-resisted|p2a: Eldegoss
+|-crit|p2a: Eldegoss
+|-damage|p2a: Eldegoss|176/254
+|-hitcount|p2a: Eldegoss|3
+|-damage|p1a: Urshifu|256/284|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1685199893
+|switch|p1a: Glastrier|Glastrier, L82|298/298
+|switch|p2a: Lunala|Lunala, L72|316/316
+|
+|upkeep
+|turn|5
+|
+|t:|1685199906
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|move|p1a: Glastrier|Icicle Crash|p2a: Lunala
+|-damage|p2a: Lunala|245/316
+|
+|-heal|p2a: Lunala|264/316|[from] item: Leftovers
+|upkeep
+|turn|6
+|c|☆Teres bahji|wait
+|inactive|Teres bahji has 270 seconds left.
+|c|☆Teres bahji|then u r not +3 u r like +8 or something
+|
+|t:|1685199928
+|move|p2a: Lunala|Moongeist Beam|p1a: Glastrier
+|-damage|p1a: Glastrier|175/298
+|move|p1a: Glastrier|Swords Dance|p1a: Glastrier
+|-boost|p1a: Glastrier|atk|2
+|
+|-heal|p2a: Lunala|283/316|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|☆Fluore|I said I was +9
+|inactive|Teres bahji has 270 seconds left.
+|
+|t:|1685199941
+|move|p2a: Lunala|Moongeist Beam|p1a: Glastrier
+|-damage|p1a: Glastrier|48/298
+|move|p1a: Glastrier|Icicle Crash|p2a: Lunala
+|-damage|p2a: Lunala|15/316
+|
+|-heal|p2a: Lunala|34/316|[from] item: Leftovers
+|upkeep
+|turn|8
+|c|☆Teres bahji|ah
+|c|☆Teres bahji|makes sense
+|
+|t:|1685199950
+|move|p2a: Lunala|Moongeist Beam|p1a: Glastrier
+|-damage|p1a: Glastrier|0 fnt
+|faint|p1a: Glastrier
+|
+|-heal|p2a: Lunala|53/316|[from] item: Leftovers
+|upkeep
+|
+|t:|1685199955
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L78, F|256/284
+|turn|9
+|
+|t:|1685199962
+|switch|p2a: Eldegoss|Eldegoss, L90, F|254/254
+|move|p1a: Urshifu|Ice Punch|p2a: Eldegoss
+|-supereffective|p2a: Eldegoss
+|-damage|p2a: Eldegoss|121/254
+|-damage|p1a: Urshifu|228/284|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|t:|1685199970
+|switch|p2a: Omastar|Omastar, L82, F|58/249
+|move|p1a: Urshifu|Ice Punch|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|28/249
+|-damage|p1a: Urshifu|200/284|[from] item: Life Orb
+|
+|-heal|p2a: Omastar|43/249|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1685199975
+|move|p1a: Urshifu|Surging Strikes|p2a: Omastar
+|-crit|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+|-hitcount|p2: Omastar|1
+|-damage|p1a: Urshifu|172/284|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685199977
+|switch|p2a: Eldegoss|Eldegoss, L90, F|205/254
+|turn|12
+|c|☆Teres bahji|since i used to live in japan
+|c|☆Teres bahji|and both time zones are similar ig
+|c|☆Fluore|its the same
+|
+|t:|1685200006
+|move|p1a: Urshifu|Ice Punch|p2a: Eldegoss
+|-supereffective|p2a: Eldegoss
+|-damage|p2a: Eldegoss|67/254
+|-damage|p1a: Urshifu|144/284|[from] item: Life Orb
+|move|p2a: Eldegoss|Energy Ball|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|upkeep
+|
+|t:|1685200013
+|switch|p1a: Blastoise|Blastoise, L82, F|264/264
+|turn|13
+|c|☆Teres bahji|noice
+|
+|t:|1685200018
+|move|p1a: Blastoise|Ice Beam|p2a: Eldegoss
+|-supereffective|p2a: Eldegoss
+|-crit|p2a: Eldegoss
+|-damage|p2a: Eldegoss|0 fnt
+|faint|p2a: Eldegoss
+|
+|upkeep
+|
+|t:|1685200024
+|switch|p2a: Drampa|Drampa, L86, M|274/274
+|turn|14
+|
+|t:|1685200031
+|move|p1a: Blastoise|Shell Smash|p1a: Blastoise
+|-unboost|p1a: Blastoise|def|1
+|-unboost|p1a: Blastoise|spd|1
+|-boost|p1a: Blastoise|atk|2
+|-boost|p1a: Blastoise|spa|2
+|-boost|p1a: Blastoise|spe|2
+|-enditem|p1a: Blastoise|White Herb
+|-clearnegativeboost|p1a: Blastoise|[silent]
+|move|p2a: Drampa|Thunderbolt|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-damage|p1a: Blastoise|26/264
+|
+|upkeep
+|turn|15
+|
+|t:|1685200042
+|move|p1a: Blastoise|Ice Beam|p2a: Drampa
+|-supereffective|p2a: Drampa
+|-damage|p2a: Drampa|72/274
+|-ability|p2a: Drampa|Berserk|boost
+|-boost|p2a: Drampa|spa|1
+|move|p2a: Drampa|Thunderbolt|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|-heal|p2a: Drampa|89/274|[from] item: Leftovers
+|upkeep
+|
+|t:|1685200050
+|switch|p1a: Dragonite|Dragonite, L75, F|260/260
+|turn|16
+|
+|t:|1685200070
+|move|p1a: Dragonite|Dual Wingbeat|p2a: Drampa
+|-damage|p2a: Drampa|43/274
+|-damage|p2a: Drampa|0 fnt
+|faint|p2a: Drampa
+|-hitcount|p2: Drampa|2
+|
+|upkeep
+|
+|t:|1685200080
+|switch|p2a: Dragonite|Dragonite, L75, F|260/260
+|turn|17
+|
+|t:|1685200092
+|-start|p2a: Dragonite|Dynamax|
+|-heal|p2a: Dragonite|520/520|[silent]
+|-start|p1a: Dragonite|Dynamax|
+|-heal|p1a: Dragonite|520/520|[silent]
+|move|p2a: Dragonite|Max Wyrmwind|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|346/520
+|-unboost|p1a: Dragonite|atk|1
+|move|p1a: Dragonite|Max Airstream|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|409/520
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|18
+|
+|t:|1685200107
+|move|p1a: Dragonite|Max Wyrmwind|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|187/520
+|-unboost|p2a: Dragonite|atk|1
+|move|p2a: Dragonite|Max Airstream|p1a: Dragonite
+|-damage|p1a: Dragonite|240/520
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|19
+|
+|t:|1685200114
+|move|p2a: Dragonite|Max Guard|p2a: Dragonite
+|-singleturn|p2a: Dragonite|Max Guard
+|move|p1a: Dragonite|Max Wyrmwind|p2a: Dragonite
+|-activate|p2a: Dragonite|move: Max Guard
+|
+|upkeep
+|-end|p1a: Dragonite|Dynamax
+|-heal|p1a: Dragonite|120/260|[silent]
+|-end|p2a: Dragonite|Dynamax
+|-heal|p2a: Dragonite|94/260|[silent]
+|turn|20
+|
+|t:|1685200122
+|move|p2a: Dragonite|Outrage|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1685200123
+|switch|p1a: Calyrex|Calyrex-Ice, L72|263/263
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|21
+|
+|t:|1685200128
+|move|p2a: Dragonite|Outrage|p1a: Calyrex|[from]lockedmove
+|-damage|p1a: Calyrex|193/263
+|move|p1a: Calyrex|Glacial Lance|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1685200133
+|switch|p2a: Nihilego|Nihilego, L79|302/302
+|turn|22
+|
+|t:|1685200135
+|move|p2a: Nihilego|Power Gem|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|37/263
+|-enditem|p1a: Calyrex|Weakness Policy
+|-boost|p1a: Calyrex|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Calyrex|spa|2|[from] item: Weakness Policy
+|move|p1a: Calyrex|High Horsepower|p2a: Nihilego|[miss]
+|-miss|p1a: Calyrex|p2a: Nihilego
+|
+|upkeep
+|turn|23
+|c|☆Teres bahji|mb
+|c|☆Fluore|gg
+|
+|t:|1685200145
+|move|p2a: Nihilego|Power Gem|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|win|Teres bahji
+|l|☆Fluore

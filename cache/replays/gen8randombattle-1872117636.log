@@ -1,0 +1,348 @@
+|j|☆Wait2Seconds
+|j|☆SHONE
+|t:|1685182261
+|gametype|singles
+|player|p1|Wait2Seconds|#rbtt6teampalkia|
+|player|p2|SHONE|lady-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685182261
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L82, M|290/290
+|switch|p2a: Slowking|Slowking, L86, M|304/304
+|turn|1
+|c|☆Wait2Seconds|hf
+|c|☆SHONE|Glhf
+|
+|t:|1685182292
+|switch|p2a: Drapion|Drapion, L82, M|249/249
+|move|p1a: Grimmsnarl|Taunt|p2a: Drapion
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Drapion
+|
+|upkeep
+|turn|2
+|
+|t:|1685182310
+|switch|p1a: Guzzlord|Guzzlord, L84|512/512
+|move|p2a: Drapion|Knock Off|p1a: Guzzlord
+|-resisted|p1a: Guzzlord
+|-damage|p1a: Guzzlord|430/512
+|-enditem|p1a: Guzzlord|Assault Vest|[from] move: Knock Off|[of] p2a: Drapion
+|-damage|p2a: Drapion|225/249|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1685182332
+|switch|p2a: Cobalion|Cobalion, L78|270/270
+|move|p1a: Guzzlord|Draco Meteor|p2a: Cobalion
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|191/270
+|-unboost|p1a: Guzzlord|spa|2
+|
+|upkeep
+|turn|4
+|
+|t:|1685182349
+|switch|p1a: Crobat|Crobat, L82, M|274/274
+|move|p2a: Cobalion|Swords Dance|p2a: Cobalion
+|-boost|p2a: Cobalion|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1685182362
+|move|p1a: Crobat|Brave Bird|p2a: Cobalion
+|-damage|p2a: Cobalion|98/270
+|-damage|p1a: Crobat|243/274|[from] Recoil
+|move|p2a: Cobalion|Stone Edge|p1a: Crobat
+|-supereffective|p1a: Crobat
+|-damage|p1a: Crobat|0 fnt
+|faint|p1a: Crobat
+|
+|upkeep
+|
+|t:|1685182368
+|switch|p1a: Jolteon|Jolteon, L82, M|241/241
+|turn|6
+|
+|t:|1685182379
+|switch|p2a: Swampert|Swampert, L80, F|291/291
+|move|p1a: Jolteon|Thunderbolt|p2a: Swampert
+|-immune|p2a: Swampert
+|
+|upkeep
+|turn|7
+|
+|t:|1685182394
+|switch|p1a: Tsareena|Tsareena, L84, F|258/258
+|move|p2a: Swampert|Stealth Rock|p1a: Tsareena
+|-sidestart|p1: Wait2Seconds|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1685182407
+|switch|p2a: Trevenant|Trevenant, L86, F|286/286
+|move|p1a: Tsareena|Rapid Spin|p2a: Trevenant
+|-immune|p2a: Trevenant
+|
+|upkeep
+|turn|9
+|
+|t:|1685182416
+|move|p1a: Tsareena|Knock Off|p2a: Trevenant
+|-supereffective|p2a: Trevenant
+|-damage|p2a: Trevenant|100/286
+|-enditem|p2a: Trevenant|Choice Band|[from] move: Knock Off|[of] p1a: Tsareena
+|move|p2a: Trevenant|Wood Hammer|p1a: Tsareena
+|-resisted|p1a: Tsareena
+|-damage|p1a: Tsareena|192/258
+|-damage|p2a: Trevenant|78/286|[from] Recoil
+|
+|upkeep
+|turn|10
+|
+|t:|1685182430
+|move|p1a: Tsareena|Rapid Spin|p2a: Trevenant
+|-immune|p2a: Trevenant
+|move|p2a: Trevenant|Poltergeist|p1a: Tsareena
+|-activate|p1a: Tsareena|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Tsareena|74/258
+|
+|upkeep
+|turn|11
+|
+|t:|1685182441
+|move|p1a: Tsareena|Synthesis|p1a: Tsareena
+|-heal|p1a: Tsareena|203/258
+|move|p2a: Trevenant|Poltergeist|p1a: Tsareena
+|-activate|p1a: Tsareena|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Tsareena|77/258
+|
+|upkeep
+|turn|12
+|
+|t:|1685182449
+|move|p1a: Tsareena|Synthesis|p1a: Tsareena
+|-heal|p1a: Tsareena|206/258
+|move|p2a: Trevenant|Poltergeist|p1a: Tsareena
+|-activate|p1a: Tsareena|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Tsareena|85/258
+|
+|upkeep
+|turn|13
+|
+|t:|1685182459
+|switch|p2a: Nihilego|Nihilego, L79|302/302
+|move|p1a: Tsareena|Synthesis|p1a: Tsareena
+|-heal|p1a: Tsareena|214/258
+|
+|upkeep
+|turn|14
+|
+|t:|1685182470
+|move|p2a: Nihilego|Sludge Wave|p1a: Tsareena
+|-supereffective|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|faint|p1a: Tsareena
+|-ability|p2a: Nihilego|Beast Boost|boost
+|-boost|p2a: Nihilego|spa|1
+|
+|upkeep
+|
+|t:|1685182475
+|switch|p1a: Guzzlord|Guzzlord, L84|430/512
+|-damage|p1a: Guzzlord|366/512|[from] Stealth Rock
+|turn|15
+|
+|t:|1685182496
+|switch|p2a: Trevenant|Trevenant, L86, F|78/286
+|move|p1a: Guzzlord|Draco Meteor|p2a: Trevenant|[miss]
+|-miss|p1a: Guzzlord|p2a: Trevenant
+|
+|upkeep
+|turn|16
+|
+|t:|1685182505
+|move|p2a: Trevenant|Rock Slide|p1a: Guzzlord
+|-damage|p1a: Guzzlord|283/512
+|cant|p1a: Guzzlord|flinch
+|
+|upkeep
+|turn|17
+|
+|t:|1685182511
+|move|p2a: Trevenant|Rock Slide|p1a: Guzzlord
+|-damage|p1a: Guzzlord|197/512
+|move|p1a: Guzzlord|Knock Off|p2a: Trevenant
+|-supereffective|p2a: Trevenant
+|-damage|p2a: Trevenant|0 fnt
+|faint|p2a: Trevenant
+|-ability|p1a: Guzzlord|Beast Boost|boost
+|-boost|p1a: Guzzlord|atk|1
+|
+|upkeep
+|
+|t:|1685182524
+|switch|p2a: Cobalion|Cobalion, L78|98/270
+|turn|18
+|
+|t:|1685182536
+|move|p2a: Cobalion|Close Combat|p1a: Guzzlord
+|-supereffective|p1a: Guzzlord
+|-damage|p1a: Guzzlord|0 fnt
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|faint|p1a: Guzzlord
+|
+|upkeep
+|
+|t:|1685182541
+|switch|p1a: Heliolisk|Heliolisk, L82, M|236/236
+|-damage|p1a: Heliolisk|207/236|[from] Stealth Rock
+|turn|19
+|
+|t:|1685182555
+|move|p1a: Heliolisk|Hyper Voice|p2a: Cobalion
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|faint|p2a: Cobalion
+|
+|upkeep
+|
+|t:|1685182567
+|switch|p2a: Drapion|Drapion, L82, M|225/249
+|turn|20
+|
+|t:|1685182588
+|-start|p1a: Heliolisk|Dynamax|
+|-heal|p1a: Heliolisk|414/472|[silent]
+|move|p1a: Heliolisk|Max Lightning|p2a: Drapion
+|-damage|p2a: Drapion|68/249
+|-fieldstart|move: Electric Terrain
+|move|p2a: Drapion|Earthquake|p1a: Heliolisk
+|-supereffective|p1a: Heliolisk
+|-damage|p1a: Heliolisk|167/472
+|-damage|p2a: Drapion|44/249|[from] item: Life Orb
+|
+|upkeep
+|turn|21
+|
+|t:|1685182604
+|switch|p2a: Slowking|Slowking, L86, M|304/304
+|move|p1a: Heliolisk|Max Strike|p2a: Slowking
+|-damage|p2a: Slowking|186/304
+|-unboost|p2a: Slowking|spe|1
+|
+|-heal|p2a: Slowking|205/304|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1685182618
+|switch|p2a: Drapion|Drapion, L82, M|44/249
+|move|p1a: Heliolisk|Max Lightning|p2a: Drapion
+|-damage|p2a: Drapion|0 fnt
+|faint|p2a: Drapion
+|
+|upkeep
+|
+|t:|1685182623
+|switch|p2a: Nihilego|Nihilego, L79|302/302
+|-end|p1a: Heliolisk|Dynamax
+|-heal|p1a: Heliolisk|84/236|[silent]
+|turn|23
+|
+|t:|1685182634
+|switch|p1a: Grimmsnarl|Grimmsnarl, L82, M|290/290
+|-damage|p1a: Grimmsnarl|254/290|[from] Stealth Rock
+|-start|p2a: Nihilego|Dynamax|
+|-heal|p2a: Nihilego|604/604|[silent]
+|move|p2a: Nihilego|Max Overgrowth|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|128/290
+|-fieldstart|move: Grassy Terrain
+|
+|-heal|p1a: Grimmsnarl|146/290|[from] Grassy Terrain
+|upkeep
+|turn|24
+|
+|t:|1685182645
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Wait2Seconds|move: Light Screen
+|move|p2a: Nihilego|Max Ooze|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|31/290
+|-boost|p2a: Nihilego|spa|1
+|
+|-heal|p1a: Grimmsnarl|49/290|[from] Grassy Terrain
+|upkeep
+|turn|25
+|
+|t:|1685182658
+|move|p2a: Nihilego|Max Ooze|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-boost|p2a: Nihilego|spa|1
+|faint|p1a: Grimmsnarl
+|-ability|p2a: Nihilego|Beast Boost|boost
+|-boost|p2a: Nihilego|spa|1
+|
+|upkeep
+|
+|t:|1685182661
+|switch|p1a: Jolteon|Jolteon, L82, M|241/241
+|-damage|p1a: Jolteon|211/241|[from] Stealth Rock
+|-end|p2a: Nihilego|Dynamax
+|-heal|p2a: Nihilego|302/302|[silent]
+|turn|26
+|
+|t:|1685182673
+|move|p1a: Jolteon|Thunderbolt|p2a: Nihilego
+|-damage|p2a: Nihilego|184/302
+|move|p2a: Nihilego|Sludge Wave|p1a: Jolteon
+|-damage|p1a: Jolteon|80/241
+|
+|-heal|p1a: Jolteon|95/241|[from] Grassy Terrain
+|-heal|p2a: Nihilego|202/302|[from] Grassy Terrain
+|-heal|p2a: Nihilego|220/302|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|t:|1685182682
+|move|p1a: Jolteon|Thunderbolt|p2a: Nihilego
+|-crit|p2a: Nihilego
+|-damage|p2a: Nihilego|55/302
+|move|p2a: Nihilego|Sludge Wave|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|-ability|p2a: Nihilego|Beast Boost|boost
+|-boost|p2a: Nihilego|spa|1
+|
+|-heal|p2a: Nihilego|73/302|[from] Grassy Terrain
+|-heal|p2a: Nihilego|91/302|[from] item: Black Sludge
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1685182686
+|switch|p1a: Heliolisk|Heliolisk, L82, M|84/236
+|-damage|p1a: Heliolisk|55/236|[from] Stealth Rock
+|turn|28
+|
+|t:|1685182695
+|move|p1a: Heliolisk|Hyper Voice|p2a: Nihilego
+|-resisted|p2a: Nihilego
+|-damage|p2a: Nihilego|32/302
+|move|p2a: Nihilego|Sludge Wave|p1a: Heliolisk
+|-damage|p1a: Heliolisk|0 fnt
+|faint|p1a: Heliolisk
+|
+|win|SHONE
+|c|☆SHONE|gg1
+|l|☆Wait2Seconds

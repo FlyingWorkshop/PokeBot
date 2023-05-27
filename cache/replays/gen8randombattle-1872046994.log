@@ -1,0 +1,138 @@
+|j|☆raiden_5x
+|j|☆dwings1235
+|t:|1685167676
+|gametype|singles
+|player|p1|raiden_5x|2|1043
+|player|p2|dwings1235|galacticgrunt|1199
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685167676
+|start
+|switch|p1a: Glastrier|Glastrier, L82|298/298
+|switch|p2a: Whimsicott|Whimsicott, L84, M|238/238
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dwings1235)
+|
+|t:|1685167683
+|move|p2a: Whimsicott|Stun Spore|p1a: Glastrier
+|-status|p1a: Glastrier|par
+|move|p1a: Glastrier|Icicle Crash|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-crit|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|upkeep
+|inactive|dwings1235 has 120 seconds left.
+|
+|t:|1685167726
+|switch|p2a: Buzzwole|Buzzwole, L77|291/291
+|turn|2
+|
+|t:|1685167731
+|move|p2a: Buzzwole|Stone Edge|p1a: Glastrier
+|-supereffective|p1a: Glastrier
+|-crit|p1a: Glastrier
+|-damage|p1a: Glastrier|8/298 par
+|cant|p1a: Glastrier|par
+|
+|upkeep
+|turn|3
+|inactive|dwings1235 has 120 seconds left.
+|
+|t:|1685167741
+|move|p2a: Buzzwole|Stone Edge|p1a: Glastrier
+|-supereffective|p1a: Glastrier
+|-damage|p1a: Glastrier|0 fnt
+|faint|p1a: Glastrier
+|-ability|p2a: Buzzwole|Beast Boost|boost
+|-boost|p2a: Buzzwole|atk|1
+|
+|upkeep
+|inactive|raiden_5x has 120 seconds left.
+|
+|t:|1685167767
+|switch|p1a: Dedenne|Dedenne, L87, M|258/258
+|turn|4
+|inactive|dwings1235 has 120 seconds left.
+|
+|t:|1685167782
+|move|p1a: Dedenne|Toxic|p2a: Buzzwole
+|-status|p2a: Buzzwole|tox
+|move|p2a: Buzzwole|Stone Edge|p1a: Dedenne
+|-crit|p1a: Dedenne
+|-damage|p1a: Dedenne|0 fnt
+|faint|p1a: Dedenne
+|-ability|p2a: Buzzwole|Beast Boost|boost
+|-boost|p2a: Buzzwole|atk|1
+|
+|-damage|p2a: Buzzwole|273/291 tox|[from] psn
+|upkeep
+|
+|t:|1685167792
+|switch|p1a: Zarude|Zarude-Dada, L78|292/292
+|turn|5
+|inactive|dwings1235 has 120 seconds left.
+|
+|t:|1685167811
+|-start|p2a: Buzzwole|Dynamax|
+|-heal|p2a: Buzzwole|546/582 tox|[silent]
+|move|p1a: Zarude|Darkest Lariat|p2a: Buzzwole
+|-resisted|p2a: Buzzwole
+|-damage|p2a: Buzzwole|510/582 tox
+|move|p2a: Buzzwole|Max Airstream|p1a: Zarude
+|-supereffective|p1a: Zarude
+|-damage|p1a: Zarude|0 fnt
+|-boost|p2a: Buzzwole|spe|1
+|faint|p1a: Zarude
+|-ability|p2a: Buzzwole|Beast Boost|boost
+|-boost|p2a: Buzzwole|atk|1
+|
+|-damage|p2a: Buzzwole|474/582 tox|[from] psn
+|upkeep
+|inactive|raiden_5x has 120 seconds left.
+|
+|t:|1685167827
+|switch|p1a: Shuckle|Shuckle, L87, M|177/177
+|turn|6
+|inactive|raiden_5x has 120 seconds left.
+|
+|t:|1685167844
+|move|p2a: Buzzwole|Max Rockfall|p1a: Shuckle
+|-supereffective|p1a: Shuckle
+|-ability|p1a: Shuckle|Sturdy
+|-damage|p1a: Shuckle|1/177
+|-weather|Sandstorm
+|move|p1a: Shuckle|Knock Off|p2a: Buzzwole
+|-resisted|p2a: Buzzwole
+|-damage|p2a: Buzzwole|466/582 tox
+|-enditem|p2a: Buzzwole|Choice Band|[from] move: Knock Off|[of] p1a: Shuckle
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Buzzwole|448/582 tox|[from] Sandstorm
+|-damage|p2a: Buzzwole|394/582 tox|[from] psn
+|upkeep
+|turn|7
+|inactive|dwings1235 has 120 seconds left.
+|inactive|dwings1235 has 90 seconds left.
+|inactive|dwings1235 has 60 seconds left.
+|inactive|dwings1235 has 30 seconds left.
+|inactive|dwings1235 has 20 seconds left.
+|inactive|dwings1235 has 15 seconds left.
+|inactive|dwings1235 has 10 seconds left.
+|inactive|dwings1235 has 5 seconds left.
+|-message|dwings1235 lost due to inactivity.
+|
+|win|raiden_5x
+|raw|raiden_5x's rating: 1043 &rarr; <strong>1091</strong><br />(+48 for winning)
+|raw|dwings1235's rating: 1199 &rarr; <strong>1163</strong><br />(-36 for losing)
+|l|☆raiden_5x

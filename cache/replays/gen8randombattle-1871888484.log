@@ -1,0 +1,231 @@
+|j|‽Applejuicebruh
+|j|☆CrystaLove_x0
+|t:|1685142681
+|gametype|singles
+|player|p1|Applejuicebruh|101|1184
+|player|p2|CrystaLove_x0|pokekid|1023
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685142681
+|start
+|switch|p1a: Galvantula|Galvantula, L82, M|249/249
+|switch|p2a: Sudowoodo|Sudowoodo, L87, F|264/264
+|turn|1
+|
+|t:|1685142717
+|move|p2a: Sudowoodo|Sucker Punch||[still]
+|-fail|p2a: Sudowoodo
+|move|p1a: Galvantula|Sticky Web|p2a: Sudowoodo
+|-sidestart|p2: CrystaLove_x0|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1685142728
+|move|p1a: Galvantula|Bug Buzz|p2a: Sudowoodo
+|-damage|p2a: Sudowoodo|159/264
+|-unboost|p2a: Sudowoodo|spd|1
+|move|p2a: Sudowoodo|Wood Hammer|p1a: Galvantula
+|-resisted|p1a: Galvantula
+|-damage|p1a: Galvantula|189/249
+|
+|-heal|p2a: Sudowoodo|175/264|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685142737
+|move|p2a: Sudowoodo|Sucker Punch|p1a: Galvantula
+|-damage|p1a: Galvantula|122/249
+|move|p1a: Galvantula|Thunder|p2a: Sudowoodo
+|-damage|p2a: Sudowoodo|0 fnt
+|faint|p2a: Sudowoodo
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CrystaLove_x0)
+|
+|t:|1685142742
+|switch|p2a: Exploud|Exploud, L84, F|312/312
+|-activate|p2a: Exploud|move: Sticky Web
+|-unboost|p2a: Exploud|spe|1
+|turn|4
+|
+|t:|1685142747
+|move|p1a: Galvantula|Bug Buzz|p2a: Exploud
+|-damage|p2a: Exploud|204/312
+|move|p2a: Exploud|Fire Blast|p1a: Galvantula|[miss]
+|-miss|p2a: Exploud|p1a: Galvantula
+|
+|upkeep
+|turn|5
+|inactive|CrystaLove_x0 has 120 seconds left.
+|
+|t:|1685142792
+|move|p1a: Galvantula|Bug Buzz|p2a: Exploud
+|-damage|p2a: Exploud|104/312
+|move|p2a: Exploud|Fire Blast|p1a: Galvantula
+|-supereffective|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|upkeep
+|
+|t:|1685142816
+|switch|p1a: Zygarde|Zygarde, L70|267/267
+|turn|6
+|inactive|CrystaLove_x0 has 120 seconds left.
+|
+|t:|1685142823
+|move|p1a: Zygarde|Dragon Dance|p1a: Zygarde
+|-boost|p1a: Zygarde|atk|1
+|-boost|p1a: Zygarde|spe|1
+|move|p2a: Exploud|Fire Blast|p1a: Zygarde
+|-resisted|p1a: Zygarde
+|-damage|p1a: Zygarde|203/267
+|
+|-heal|p1a: Zygarde|219/267|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685142826
+|move|p1a: Zygarde|Dragon Dance|p1a: Zygarde
+|-boost|p1a: Zygarde|atk|1
+|-boost|p1a: Zygarde|spe|1
+|move|p2a: Exploud|Fire Blast|p1a: Zygarde
+|-resisted|p1a: Zygarde
+|-damage|p1a: Zygarde|160/267
+|
+|-heal|p1a: Zygarde|176/267|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|CrystaLove_x0 has 120 seconds left.
+|
+|t:|1685142847
+|move|p1a: Zygarde|Dragon Dance|p1a: Zygarde
+|-boost|p1a: Zygarde|atk|1
+|-boost|p1a: Zygarde|spe|1
+|move|p2a: Exploud|Fire Blast|p1a: Zygarde
+|-resisted|p1a: Zygarde
+|-damage|p1a: Zygarde|118/267
+|
+|-heal|p1a: Zygarde|134/267|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1685142854
+|move|p1a: Zygarde|Substitute|p1a: Zygarde
+|-start|p1a: Zygarde|Substitute
+|-damage|p1a: Zygarde|68/267
+|move|p2a: Exploud|Fire Blast|p1a: Zygarde
+|-resisted|p1a: Zygarde
+|-end|p1a: Zygarde|Substitute
+|
+|-heal|p1a: Zygarde|84/267|[from] item: Leftovers
+|-activate|p1a: Zygarde|ability: Power Construct
+|detailschange|p1a: Zygarde|Zygarde-Complete, L70
+|-heal|p1a: Zygarde|235/418|[silent]
+|upkeep
+|turn|10
+|
+|t:|1685142865
+|move|p1a: Zygarde|Thousand Arrows|p2a: Exploud
+|-damage|p2a: Exploud|0 fnt
+|faint|p2a: Exploud
+|
+|-heal|p1a: Zygarde|261/418|[from] item: Leftovers
+|upkeep
+|
+|t:|1685142876
+|switch|p2a: Regidrago|Regidrago, L78|440/440
+|-activate|p2a: Regidrago|move: Sticky Web
+|-unboost|p2a: Regidrago|spe|1
+|turn|11
+|
+|t:|1685142890
+|-start|p1a: Zygarde|Dynamax|
+|-heal|p1a: Zygarde|522/836|[silent]
+|move|p1a: Zygarde|Max Quake|p2a: Regidrago
+|-damage|p2a: Regidrago|74/440
+|-boost|p1a: Zygarde|spd|1
+|move|p2a: Regidrago|Hammer Arm|p1a: Zygarde
+|-damage|p1a: Zygarde|462/836
+|-unboost|p2a: Regidrago|spe|1
+|
+|-heal|p1a: Zygarde|488/836|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685142914
+|move|p1a: Zygarde|Max Quake|p2a: Regidrago
+|-damage|p2a: Regidrago|0 fnt
+|-boost|p1a: Zygarde|spd|1
+|faint|p2a: Regidrago
+|
+|-heal|p1a: Zygarde|514/836|[from] item: Leftovers
+|upkeep
+|
+|t:|1685142918
+|switch|p2a: Qwilfish|Qwilfish, L84, F|246/246
+|-activate|p2a: Qwilfish|move: Sticky Web
+|-unboost|p2a: Qwilfish|spe|1
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Zygarde|atk|1
+|turn|13
+|
+|t:|1685142923
+|move|p1a: Zygarde|Max Quake|p2a: Qwilfish
+|-supereffective|p2a: Qwilfish
+|-damage|p2a: Qwilfish|0 fnt
+|-boost|p1a: Zygarde|spd|1
+|faint|p2a: Qwilfish
+|
+|-heal|p1a: Zygarde|540/836|[from] item: Leftovers
+|upkeep
+|
+|t:|1685142926
+|switch|p2a: Hitmonchan|Hitmonchan, L86, M|226/226
+|-activate|p2a: Hitmonchan|move: Sticky Web
+|-unboost|p2a: Hitmonchan|spe|1
+|-end|p1a: Zygarde|Dynamax
+|-heal|p1a: Zygarde|270/418|[silent]
+|turn|14
+|
+|t:|1685142933
+|move|p1a: Zygarde|Thousand Arrows|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|85/226
+|move|p2a: Hitmonchan|Throat Chop|p1a: Zygarde
+|-damage|p1a: Zygarde|186/418
+|-start|p1a: Zygarde|Throat Chop|[silent]
+|-damage|p2a: Hitmonchan|63/226|[from] item: Life Orb
+|
+|-heal|p1a: Zygarde|212/418|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685142938
+|move|p1a: Zygarde|Thousand Arrows|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|
+|-heal|p1a: Zygarde|238/418|[from] item: Leftovers
+|-end|p1a: Zygarde|Throat Chop|[silent]
+|upkeep
+|l|☆CrystaLove_x0
+|inactive|CrystaLove_x0 disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|CrystaLove_x0 has 30 seconds to reconnect!
+|inactive|CrystaLove_x0 has 20 seconds to reconnect!
+|inactive|CrystaLove_x0 has 15 seconds to reconnect!
+|inactive|CrystaLove_x0 has 10 seconds to reconnect!
+|inactive|CrystaLove_x0 has 5 seconds to reconnect!
+|-message|CrystaLove_x0 lost due to inactivity.
+|
+|win|Applejuicebruh
+|raw|Applejuicebruh's rating: 1184 &rarr; <strong>1198</strong><br />(+14 for winning)
+|raw|CrystaLove_x0's rating: 1023 &rarr; <strong>1015</strong><br />(-8 for losing)

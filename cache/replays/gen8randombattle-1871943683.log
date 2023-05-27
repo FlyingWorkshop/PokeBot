@@ -1,0 +1,298 @@
+|j|☆jjlaro
+|j|☆rampagale12
+|t:|1685150646
+|gametype|singles
+|player|p1|jjlaro|hugh|
+|player|p2|rampagale12|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685150646
+|start
+|switch|p1a: Thundurus|Thundurus, L80, M|258/258
+|switch|p2a: Nidoqueen|Nidoqueen, L84, F|288/288
+|turn|1
+|
+|t:|1685150654
+|move|p1a: Thundurus|Grass Knot|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|224/288
+|move|p2a: Nidoqueen|Sludge Wave|p1a: Thundurus
+|-damage|p1a: Thundurus|112/258
+|
+|upkeep
+|turn|2
+|
+|t:|1685150668
+|move|p1a: Thundurus|Knock Off|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|146/288
+|-enditem|p2a: Nidoqueen|Life Orb|[from] move: Knock Off|[of] p1a: Thundurus
+|move|p2a: Nidoqueen|Sludge Wave|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|t:|1685150681
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane, L67|241/241
+|turn|3
+|
+|t:|1685150687
+|move|p2a: Nidoqueen|Sludge Wave|p1a: Necrozma
+|-immune|p1a: Necrozma
+|move|p1a: Necrozma|Sunsteel Strike|p2a: Nidoqueen
+|-crit|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|upkeep
+|
+|t:|1685150692
+|switch|p2a: Palkia|Palkia, L74|255/255
+|-ability|p2a: Palkia|Pressure
+|turn|4
+|
+|t:|1685150702
+|-start|p2a: Palkia|Dynamax|
+|-heal|p2a: Palkia|510/510|[silent]
+|move|p2a: Palkia|Max Flare|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|57/241
+|-weather|SunnyDay
+|-enditem|p1a: Necrozma|Weakness Policy
+|-boost|p1a: Necrozma|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Necrozma|spa|2|[from] item: Weakness Policy
+|move|p1a: Necrozma|Earthquake|p2a: Palkia
+|-damage|p2a: Palkia|379/510
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1685150725
+|-start|p1a: Necrozma|Dynamax|
+|-heal|p1a: Necrozma|114/482|[silent]
+|move|p2a: Palkia|Max Flare|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685150744
+|switch|p1a: Palossand|Palossand, L86, M|286/286
+|turn|6
+|
+|t:|1685150751
+|move|p2a: Palkia|Max Geyser|p1a: Palossand
+|-supereffective|p1a: Palossand
+|-crit|p1a: Palossand
+|-damage|p1a: Palossand|0 fnt
+|-weather|RainDance
+|faint|p1a: Palossand
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685150758
+|switch|p1a: Vaporeon|Vaporeon, L84, M|356/356
+|-end|p2a: Palkia|Dynamax
+|-heal|p2a: Palkia|190/255|[silent]
+|turn|7
+|
+|t:|1685150767
+|move|p2a: Palkia|Draco Meteor|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|82/356
+|-unboost|p2a: Palkia|spa|2
+|move|p1a: Vaporeon|Scald|p2a: Palkia
+|-resisted|p2a: Palkia
+|-crit|p2a: Palkia
+|-damage|p2a: Palkia|141/255
+|-status|p2a: Palkia|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|104/356|[from] item: Leftovers
+|-damage|p2a: Palkia|126/255 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1685150781
+|move|p2a: Palkia|Draco Meteor|p1a: Vaporeon
+|-damage|p1a: Vaporeon|13/356
+|-unboost|p2a: Palkia|spa|2
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|35/356|[from] item: Leftovers
+|-damage|p2a: Palkia|111/255 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1685150790
+|move|p2a: Palkia|Fire Blast|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|28/356
+|move|p1a: Vaporeon|Toxic||[still]
+|-fail|p1a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Vaporeon|206/356|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vaporeon|228/356|[from] item: Leftovers
+|-damage|p2a: Palkia|96/255 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1685150801
+|move|p2a: Palkia|Draco Meteor|p1a: Vaporeon
+|-damage|p1a: Vaporeon|174/356
+|-unboost|p2a: Palkia|spa|2
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-weather|none
+|-heal|p1a: Vaporeon|196/356|[from] item: Leftovers
+|-damage|p2a: Palkia|81/255 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1685150811
+|switch|p2a: Latios|Latios, L78, M|253/253
+|move|p1a: Vaporeon|Toxic|p2a: Latios
+|-status|p2a: Latios|tox
+|
+|-heal|p1a: Vaporeon|356/356|[from] move: Wish|[wisher] Vaporeon
+|-damage|p2a: Latios|238/253 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1685150821
+|move|p2a: Latios|Psyshock|p1a: Vaporeon
+|-damage|p1a: Vaporeon|211/356
+|move|p1a: Vaporeon|Scald|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|197/253 tox
+|
+|-heal|p1a: Vaporeon|233/356|[from] item: Leftovers
+|-damage|p2a: Latios|167/253 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1685150830
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Latios|Psyshock|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|255/356|[from] item: Leftovers
+|-damage|p2a: Latios|122/253 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1685150839
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Latios|Calm Mind|p2a: Latios
+|-boost|p2a: Latios|spa|1
+|-boost|p2a: Latios|spd|1
+|
+|-heal|p1a: Vaporeon|277/356|[from] item: Leftovers
+|-damage|p2a: Latios|62/253 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1685150848
+|move|p2a: Latios|Psyshock|p1a: Vaporeon
+|-damage|p1a: Vaporeon|72/356
+|move|p1a: Vaporeon|Scald|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|34/253 tox
+|
+|-heal|p1a: Vaporeon|94/356|[from] item: Leftovers
+|-damage|p2a: Latios|0 fnt|[from] psn
+|faint|p2a: Latios
+|upkeep
+|
+|t:|1685150855
+|switch|p2a: Weezing|Weezing-Galar, L86, M|252/252
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|16
+|
+|t:|1685150863
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|move|p2a: Weezing|Strange Steam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|12/356
+|
+|-heal|p1a: Vaporeon|34/356|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685150870
+|move|p1a: Vaporeon|Scald|p2a: Weezing
+|-damage|p2a: Weezing|150/252
+|-status|p2a: Weezing|brn
+|move|p2a: Weezing|Strange Steam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|-heal|p2a: Weezing|165/252 brn|[from] item: Black Sludge
+|-damage|p2a: Weezing|150/252 brn|[from] brn
+|upkeep
+|
+|t:|1685150882
+|switch|p1a: Zamazenta|Zamazenta, L73|255/255
+|turn|18
+|
+|t:|1685150889
+|move|p1a: Zamazenta|Close Combat|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|117/252 brn
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|move|p2a: Weezing|Strange Steam|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-heal|p2a: Weezing|132/252 brn|[from] item: Black Sludge
+|-damage|p2a: Weezing|117/252 brn|[from] brn
+|upkeep
+|
+|t:|1685150901
+|switch|p1a: Sharpedo|Sharpedo, L82, F|249/249
+|turn|19
+|
+|t:|1685150906
+|move|p1a: Sharpedo|Hydro Pump|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|-damage|p1a: Sharpedo|225/249|[from] item: Life Orb
+|
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|
+|t:|1685150912
+|switch|p2a: Ninetales|Ninetales, L82, F|254/254
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|20
+|
+|t:|1685150917
+|move|p1a: Sharpedo|Hydro Pump|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|134/254
+|-damage|p1a: Sharpedo|201/249|[from] item: Life Orb
+|move|p2a: Ninetales|Solar Beam||[still]
+|-prepare|p2a: Ninetales|Solar Beam
+|-anim|p2a: Ninetales|Solar Beam|p1a: Sharpedo
+|-supereffective|p1a: Sharpedo
+|-damage|p1a: Sharpedo|0 fnt
+|faint|p1a: Sharpedo
+|
+|win|rampagale12
+|l|☆jjlaro

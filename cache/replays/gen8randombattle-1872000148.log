@@ -1,0 +1,379 @@
+|j|☆piaa
+|j|☆BoboMania
+|t:|1685159046
+|gametype|singles
+|player|p1|piaa|#rbtt6teamchienpaof|
+|player|p2|BoboMania|twins-gen4dp|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685159046
+|start
+|switch|p1a: Hawlucha|Hawlucha, L80, M|256/256
+|switch|p2a: Lunala|Lunala, L72|316/316
+|turn|1
+|c|☆BoboMania|idk i also got the burns i needed
+|c|☆piaa|toxapex
+|c|☆piaa|such a fair and balanced mon
+|c|☆piaa|amiright
+|
+|t:|1685159089
+|switch|p1a: Heatmor|Heatmor, L90, F|299/299
+|move|p2a: Lunala|Psyshock|p1a: Heatmor
+|-damage|p1a: Heatmor|196/299
+|
+|upkeep
+|turn|2
+|c|☆BoboMania|this team is nasty
+|c|☆BoboMania|i want to throw up
+|j| Lrogue ❀
+|
+|t:|1685159121
+|switch|p2a: Flapple|Flapple, L84, F|255/255
+|move|p1a: Heatmor|Knock Off|p2a: Flapple
+|-damage|p2a: Flapple|172/255
+|-enditem|p2a: Flapple|Choice Band|[from] move: Knock Off|[of] p1a: Heatmor
+|
+|upkeep
+|turn|3
+|c|☆piaa|now you know how i felt
+|
+|t:|1685159136
+|switch|p1a: Magearna|Magearna, L76|247/247
+|move|p2a: Flapple|Outrage|p1a: Magearna
+|-immune|p1a: Magearna
+|
+|upkeep
+|turn|4
+|c|☆piaa|good pokemon aler
+|
+|t:|1685159144
+|move|p2a: Flapple|U-turn|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|230/247
+|
+|t:|1685159151
+|switch|p2a: Cursola|Cursola, L86, F|243/243|[from] U-turn
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|245/247|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685159224
+|-start|p2a: Cursola|Dynamax|
+|-heal|p2a: Cursola|486/486|[silent]
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Cursola|Max Quake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|135/247
+|-boost|p2a: Cursola|spd|1
+|
+|-heal|p1a: Magearna|150/247|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685159236
+|switch|p1a: Rotom|Rotom-Mow, L86|226/226
+|move|p2a: Cursola|Max Quake|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|upkeep
+|turn|7
+|
+|t:|1685159248
+|move|p1a: Rotom|Leaf Storm|p2a: Cursola
+|-damage|p2a: Cursola|410/486
+|-unboost|p1a: Rotom|spa|2
+|move|p2a: Cursola|Max Phantasm|p1a: Rotom
+|-damage|p1a: Rotom|43/226
+|-unboost|p1a: Rotom|def|1
+|
+|-heal|p1a: Rotom|57/226|[from] item: Leftovers
+|-heal|p2a: Cursola|425/486|[from] item: Leftovers
+|upkeep
+|-end|p2a: Cursola|Dynamax
+|-heal|p2a: Cursola|213/243|[silent]
+|turn|8
+|
+|t:|1685159260
+|move|p1a: Rotom|Will-O-Wisp|p2a: Cursola
+|-status|p2a: Cursola|brn
+|move|p2a: Cursola|Stealth Rock|p1a: Rotom
+|-sidestart|p1: piaa|move: Stealth Rock
+|
+|-heal|p1a: Rotom|71/226|[from] item: Leftovers
+|-heal|p2a: Cursola|228/243 brn|[from] item: Leftovers
+|-damage|p2a: Cursola|213/243 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1685159266
+|move|p1a: Rotom|Thunderbolt|p2a: Cursola
+|-damage|p2a: Cursola|183/243 brn
+|move|p2a: Cursola|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-heal|p2a: Cursola|198/243 brn|[from] item: Leftovers
+|-damage|p2a: Cursola|183/243 brn|[from] brn
+|upkeep
+|
+|t:|1685159269
+|switch|p1a: Scizor|Scizor, L80, F|243/243
+|-damage|p1a: Scizor|213/243|[from] Stealth Rock
+|turn|10
+|
+|t:|1685159276
+|move|p1a: Scizor|Knock Off|p2a: Cursola
+|-supereffective|p2a: Cursola
+|-damage|p2a: Cursola|0 fnt
+|-enditem|p2a: Cursola|Leftovers|[from] move: Knock Off|[of] p1a: Scizor
+|faint|p2a: Cursola
+|-damage|p1a: Scizor|189/243|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685159283
+|switch|p2a: Vespiquen|Vespiquen, L96, F|290/290
+|-ability|p2a: Vespiquen|Pressure
+|turn|11
+|
+|t:|1685159296
+|move|p1a: Scizor|Knock Off|p2a: Vespiquen
+|-damage|p2a: Vespiquen|203/290
+|-enditem|p2a: Vespiquen|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Scizor
+|-damage|p1a: Scizor|165/243|[from] item: Life Orb
+|move|p2a: Vespiquen|Air Slash|p1a: Scizor
+|-damage|p1a: Scizor|65/243
+|
+|upkeep
+|turn|12
+|
+|t:|1685159300
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|187/243
+|-singleturn|p1a: Scizor|move: Roost
+|move|p2a: Vespiquen|U-turn|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|144/243
+|c|☆piaa|knock off
+|
+|t:|1685159316
+|switch|p2a: Flapple|Flapple, L84, F|172/255|[from] U-turn
+|
+|upkeep
+|turn|13
+|c|☆piaa|i haven't said this much before and while its good
+|c|☆piaa|here its literally just filler
+|c|☆piaa|i mean its a dark move for coverage but
+|c|☆piaa|not doing many favors
+|
+|t:|1685159346
+|switch|p2a: Vespiquen|Vespiquen, L96, F|203/290
+|-ability|p2a: Vespiquen|Pressure
+|move|p1a: Scizor|Bullet Punch|p2a: Vespiquen
+|-damage|p2a: Vespiquen|133/290
+|-damage|p1a: Scizor|120/243|[from] item: Life Orb
+|
+|upkeep
+|turn|14
+|
+|t:|1685159350
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|242/243
+|-singleturn|p1a: Scizor|move: Roost
+|move|p2a: Vespiquen|Roost|p2a: Vespiquen
+|-heal|p2a: Vespiquen|278/290
+|-singleturn|p2a: Vespiquen|move: Roost
+|
+|upkeep
+|turn|15
+|
+|t:|1685159356
+|-start|p1a: Scizor|Dynamax|
+|-heal|p1a: Scizor|484/486|[silent]
+|move|p1a: Scizor|Max Knuckle|p2a: Vespiquen
+|-resisted|p2a: Vespiquen
+|-damage|p2a: Vespiquen|260/290
+|-boost|p1a: Scizor|atk|1
+|-damage|p1a: Scizor|460/486|[from] item: Life Orb
+|move|p2a: Vespiquen|Air Slash|p1a: Scizor
+|-damage|p1a: Scizor|367/486
+|
+|upkeep
+|turn|16
+|
+|t:|1685159361
+|move|p1a: Scizor|Max Steelspike|p2a: Vespiquen
+|-damage|p2a: Vespiquen|92/290
+|-boost|p1a: Scizor|def|1
+|-damage|p1a: Scizor|343/486|[from] item: Life Orb
+|move|p2a: Vespiquen|Roost|p2a: Vespiquen
+|-heal|p2a: Vespiquen|237/290
+|-singleturn|p2a: Vespiquen|move: Roost
+|
+|upkeep
+|turn|17
+|
+|t:|1685159365
+|move|p1a: Scizor|Max Knuckle|p2a: Vespiquen
+|-resisted|p2a: Vespiquen
+|-damage|p2a: Vespiquen|207/290
+|-boost|p1a: Scizor|atk|1
+|-damage|p1a: Scizor|319/486|[from] item: Life Orb
+|move|p2a: Vespiquen|Roost|p2a: Vespiquen
+|-heal|p2a: Vespiquen|290/290
+|-singleturn|p2a: Vespiquen|move: Roost
+|
+|upkeep
+|-end|p1a: Scizor|Dynamax
+|-heal|p1a: Scizor|160/243|[silent]
+|turn|18
+|
+|t:|1685159369
+|move|p1a: Scizor|Bullet Punch|p2a: Vespiquen
+|-damage|p2a: Vespiquen|142/290
+|-damage|p1a: Scizor|136/243|[from] item: Life Orb
+|move|p2a: Vespiquen|Air Slash|p1a: Scizor|[miss]
+|-miss|p2a: Vespiquen|p1a: Scizor
+|
+|upkeep
+|turn|19
+|
+|t:|1685159374
+|move|p1a: Scizor|Bullet Punch|p2a: Vespiquen
+|-damage|p2a: Vespiquen|0 fnt
+|faint|p2a: Vespiquen
+|-damage|p1a: Scizor|112/243|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685159376
+|switch|p2a: Tapu Lele|Tapu Lele, L79|240/240
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|20
+|c|☆piaa|oh come on
+|
+|t:|1685159384
+|move|p2a: Tapu Lele|Focus Blast|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|-damage|p2a: Tapu Lele|216/240|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685159388
+|switch|p1a: Magearna|Magearna, L76|150/247
+|-damage|p1a: Magearna|135/247|[from] Stealth Rock
+|turn|21
+|
+|t:|1685159397
+|switch|p2a: Lunala|Lunala, L72|316/316
+|move|p1a: Magearna|Flash Cannon|p2a: Lunala
+|-damage|p2a: Lunala|272/316
+|
+|-heal|p2a: Lunala|291/316|[from] item: Leftovers
+|-heal|p1a: Magearna|150/247|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1685159403
+|switch|p1a: Heatmor|Heatmor, L90, F|196/299
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|
+|-heal|p2a: Lunala|310/316|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1685159410
+|move|p2a: Lunala|Psyshock|p1a: Heatmor
+|-damage|p1a: Heatmor|0 fnt
+|faint|p1a: Heatmor
+|
+|-heal|p2a: Lunala|316/316|[from] item: Leftovers
+|upkeep
+|
+|t:|1685159412
+|switch|p1a: Rhyperior|Rhyperior, L82, M|323/323
+|-damage|p1a: Rhyperior|303/323|[from] Stealth Rock
+|turn|24
+|c|☆piaa|"this team is nasty" he says
+|
+|t:|1685159424
+|move|p2a: Lunala|Moongeist Beam|p1a: Rhyperior
+|-damage|p1a: Rhyperior|81/323
+|move|p1a: Rhyperior|Earthquake|p2a: Lunala
+|-damage|p2a: Lunala|232/316
+|
+|-heal|p2a: Lunala|251/316|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|25
+|
+|t:|1685159428
+|move|p2a: Lunala|Moongeist Beam|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|-heal|p2a: Lunala|270/316|[from] item: Leftovers
+|upkeep
+|
+|t:|1685159430
+|switch|p1a: Hawlucha|Hawlucha, L80, M|256/256
+|-damage|p1a: Hawlucha|224/256|[from] Stealth Rock
+|turn|26
+|
+|t:|1685159434
+|move|p1a: Hawlucha|Brave Bird|p2a: Lunala
+|-damage|p2a: Lunala|150/316
+|-damage|p1a: Hawlucha|184/256|[from] Recoil
+|move|p2a: Lunala|Psyshock|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-heal|p2a: Lunala|169/316|[from] item: Leftovers
+|upkeep
+|
+|t:|1685159436
+|switch|p1a: Magearna|Magearna, L76|150/247
+|-damage|p1a: Magearna|135/247|[from] Stealth Rock
+|turn|27
+|c|☆piaa|gg
+|
+|t:|1685159442
+|move|p2a: Lunala|Moongeist Beam|p1a: Magearna
+|-damage|p1a: Magearna|8/247
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p2a: Lunala|188/316|[from] item: Leftovers
+|-heal|p1a: Magearna|23/247|[from] item: Leftovers
+|upkeep
+|turn|28
+|c|☆BoboMania|this team won in spite of itseklf
+|c|☆BoboMania|last is abomasnow
+|
+|t:|1685159451
+|move|p2a: Lunala|Moongeist Beam|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|win|BoboMania
+|c|☆piaa|classic "this is really bad"
+|c|☆piaa|into winning
+|c|☆piaa|everyone says it
+|c|☆piaa|even me

@@ -1,0 +1,309 @@
+|j|☆D_Verv
+|j|☆gareeb adani
+|t:|1685186213
+|gametype|singles
+|player|p1|D_Verv|102|1356
+|player|p2|gareeb adani|170|1502
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685186213
+|start
+|switch|p1a: Uxie|Uxie, L82|257/257
+|switch|p2a: Tapu Koko|Tapu Koko, L78|237/237
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gareeb adani)
+|
+|t:|1685186222
+|move|p2a: Tapu Koko|Calm Mind|p2a: Tapu Koko
+|-boost|p2a: Tapu Koko|spa|1
+|-boost|p2a: Tapu Koko|spd|1
+|move|p1a: Uxie|Yawn|p2a: Tapu Koko
+|-activate|p2a: Tapu Koko|move: Electric Terrain
+|
+|upkeep
+|turn|2
+|
+|t:|1685186230
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Uxie
+|-damage|p1a: Uxie|130/257
+|move|p1a: Uxie|Stealth Rock|p2a: Tapu Koko
+|-sidestart|p2: gareeb adani|move: Stealth Rock
+|
+|-heal|p1a: Uxie|146/257|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685186247
+|switch|p1a: Zeraora|Zeraora, L76|259/259
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Zeraora
+|-immune|p1a: Zeraora|[from] ability: Volt Absorb
+|
+|upkeep
+|turn|4
+|
+|t:|1685186260
+|move|p1a: Zeraora|Plasma Fists|p2a: Tapu Koko
+|-resisted|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|127/237
+|-fieldactivate|move: Ion Deluge
+|-hint|Normal-type moves become Electric-type after using Plasma Fists.
+|move|p2a: Tapu Koko|Dazzling Gleam|p1a: Zeraora
+|-damage|p1a: Zeraora|141/259
+|
+|-heal|p2a: Tapu Koko|141/237|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685186269
+|move|p1a: Zeraora|Plasma Fists|p2a: Tapu Koko
+|-resisted|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|45/237
+|-fieldactivate|move: Ion Deluge
+|-hint|Normal-type moves become Electric-type after using Plasma Fists.
+|move|p2a: Tapu Koko|Dazzling Gleam|p1a: Zeraora
+|-damage|p1a: Zeraora|9/259
+|
+|-heal|p2a: Tapu Koko|59/237|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1685186285
+|switch|p1a: Doublade|Doublade, L82, F|231/231
+|move|p2a: Tapu Koko|Dazzling Gleam|p1a: Doublade
+|-resisted|p1a: Doublade
+|-damage|p1a: Doublade|176/231
+|
+|-heal|p2a: Tapu Koko|73/237|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685186294
+|switch|p2a: Thievul|Thievul, L86, F|261/261
+|-damage|p2a: Thievul|229/261|[from] Stealth Rock
+|move|p1a: Doublade|Shadow Sneak|p2a: Thievul
+|-resisted|p2a: Thievul
+|-damage|p2a: Thievul|202/261
+|
+|upkeep
+|turn|8
+|
+|t:|1685186302
+|move|p2a: Thievul|Dark Pulse|p1a: Doublade
+|-supereffective|p1a: Doublade
+|-damage|p1a: Doublade|0 fnt
+|faint|p1a: Doublade
+|-damage|p2a: Thievul|176/261|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685186318
+|switch|p1a: Zeraora|Zeraora, L76|9/259
+|turn|9
+|
+|t:|1685186333
+|move|p1a: Zeraora|Close Combat|p2a: Thievul
+|-supereffective|p2a: Thievul
+|-damage|p2a: Thievul|0 fnt
+|-unboost|p1a: Zeraora|def|1
+|-unboost|p1a: Zeraora|spd|1
+|faint|p2a: Thievul
+|
+|upkeep
+|
+|t:|1685186336
+|switch|p2a: Slowking|Slowking-Galar, L84, F|297/297
+|-damage|p2a: Slowking|260/297|[from] Stealth Rock
+|turn|10
+|
+|t:|1685186350
+|switch|p1a: Goodra|Goodra, L82, M|282/282
+|move|p2a: Slowking|Sludge Bomb|p1a: Goodra
+|-damage|p1a: Goodra|207/282
+|-status|p1a: Goodra|psn
+|
+|-damage|p1a: Goodra|172/282 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1685186362
+|move|p1a: Goodra|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|124/297
+|move|p2a: Slowking|Sludge Bomb|p1a: Goodra
+|-damage|p1a: Goodra|94/282 psn
+|
+|-damage|p1a: Goodra|59/282 psn|[from] psn
+|upkeep
+|turn|12
+|inactive|gareeb adani has 120 seconds left.
+|
+|t:|1685186405
+|switch|p2a: Flapple|Flapple, L84, M|255/255
+|-damage|p2a: Flapple|224/255|[from] Stealth Rock
+|move|p1a: Goodra|Earthquake|p2a: Flapple
+|-resisted|p2a: Flapple
+|-damage|p2a: Flapple|187/255
+|
+|-damage|p1a: Goodra|24/282 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1685186418
+|switch|p2a: Tapu Koko|Tapu Koko, L78|73/237
+|-damage|p2a: Tapu Koko|44/237|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|move|p1a: Goodra|Draco Meteor|p2a: Tapu Koko
+|-immune|p2a: Tapu Koko
+|
+|-heal|p2a: Tapu Koko|58/237|[from] item: Leftovers
+|-damage|p1a: Goodra|0 fnt|[from] psn
+|faint|p1a: Goodra
+|upkeep
+|inactive|D_Verv has 120 seconds left.
+|
+|t:|1685186447
+|switch|p1a: Groudon|Groudon, L73|266/266
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|14
+|inactive|D_Verv has 120 seconds left.
+|inactive|gareeb adani has 120 seconds left.
+|
+|t:|1685186478
+|move|p2a: Tapu Koko|Dazzling Gleam|p1a: Groudon
+|-damage|p1a: Groudon|190/266
+|move|p1a: Groudon|Heavy Slam|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|0 fnt
+|faint|p2a: Tapu Koko
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|206/266|[from] item: Leftovers
+|upkeep
+|
+|t:|1685186480
+|switch|p2a: Indeedee|Indeedee, L83, M|235/235
+|-damage|p2a: Indeedee|206/235|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|15
+|
+|t:|1685186493
+|move|p2a: Indeedee|Expanding Force|p1a: Groudon
+|-crit|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|-damage|p2a: Indeedee|183/235|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|D_Verv has 120 seconds left.
+|
+|t:|1685186509
+|switch|p1a: Zeraora|Zeraora, L76|9/259
+|turn|16
+|inactive|gareeb adani has 120 seconds left.
+|
+|t:|1685186548
+|move|p1a: Zeraora|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-enditem|p2a: Indeedee|Life Orb|[from] move: Knock Off|[of] p1a: Zeraora
+|faint|p2a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685186552
+|switch|p2a: Melmetal|Melmetal, L74|322/322
+|-damage|p2a: Melmetal|302/322|[from] Stealth Rock
+|turn|17
+|
+|t:|1685186559
+|switch|p1a: Uxie|Uxie, L82|146/257
+|move|p2a: Melmetal|Double Iron Bash|p1a: Uxie
+|-damage|p1a: Uxie|46/257
+|-damage|p1a: Uxie|0 fnt
+|faint|p1a: Uxie
+|-hitcount|p1: Uxie|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685186568
+|switch|p1a: Zeraora|Zeraora, L76|9/259
+|turn|18
+|inactive|gareeb adani has 120 seconds left.
+|
+|t:|1685186587
+|move|p1a: Zeraora|Close Combat|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|108/322
+|-unboost|p1a: Zeraora|def|1
+|-unboost|p1a: Zeraora|spd|1
+|move|p2a: Melmetal|Double Iron Bash|p1a: Zeraora
+|-resisted|p1a: Zeraora
+|-damage|p1a: Zeraora|0 fnt
+|faint|p1a: Zeraora
+|-hitcount|p1: Zeraora|1
+|
+|-weather|none
+|upkeep
+|
+|t:|1685186598
+|switch|p1a: Lycanroc|Lycanroc-Dusk, L80, F|251/251
+|turn|19
+|inactive|gareeb adani has 120 seconds left.
+|
+|t:|1685186609
+|-start|p1a: Lycanroc|Dynamax|
+|-heal|p1a: Lycanroc|502/502|[silent]
+|move|p1a: Lycanroc|Max Knuckle|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|-boost|p1a: Lycanroc|atk|1
+|faint|p2a: Melmetal
+|-damage|p1a: Lycanroc|477/502|[from] item: Life Orb
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|inactive|gareeb adani has 120 seconds left.
+|
+|t:|1685186615
+|switch|p2a: Flapple|Flapple, L84, M|187/255
+|-damage|p2a: Flapple|156/255|[from] Stealth Rock
+|turn|20
+|
+|t:|1685186624
+|-start|p2a: Flapple|Dynamax|
+|-heal|p2a: Flapple|312/510|[silent]
+|move|p2a: Flapple|Max Guard|p2a: Flapple
+|-singleturn|p2a: Flapple|Max Guard
+|move|p1a: Lycanroc|Max Knuckle|p2a: Flapple
+|-activate|p2a: Flapple|move: Max Guard
+|
+|upkeep
+|turn|21
+|
+|t:|1685186637
+|move|p1a: Lycanroc|Max Knuckle|p2a: Flapple
+|-crit|p2a: Flapple
+|-damage|p2a: Flapple|88/510
+|-boost|p1a: Lycanroc|atk|1
+|-damage|p1a: Lycanroc|452/502|[from] item: Life Orb
+|move|p2a: Flapple|Max Overgrowth|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|-fieldstart|move: Grassy Terrain
+|faint|p1a: Lycanroc
+|-damage|p2a: Flapple|63/510|[from] item: Life Orb
+|
+|win|gareeb adani
+|raw|D_Verv's rating: 1356 &rarr; <strong>1344</strong><br />(-12 for losing)
+|raw|gareeb adani's rating: 1513 &rarr; <strong>1525</strong><br />(+12 for winning)
