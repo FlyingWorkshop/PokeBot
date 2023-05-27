@@ -1,14 +1,10 @@
-import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from poke_env.environment.pokemon import Pokemon
 from poke_env.environment.battle import Battle
-from tqdm.auto import tqdm
+from poke_env.environment.pokemon import Pokemon
 
-import math
-
-from .embedder import Embedder
 from .constants import *
+from .embedder import Embedder
 
 EMBEDDER = Embedder()
 

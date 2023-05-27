@@ -1,5 +1,6 @@
-from .catalogs import *
 import torch
+
+from .catalogs import *
 
 MAX_NUM_POSSIBLE_MOVES = 8
 MOVE_EMBED_SIZE = 52

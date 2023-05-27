@@ -1,11 +1,11 @@
-import numpy as np
-from gym.spaces import Space, Box
-from poke_env.player import Gen8EnvSinglePlayer
-from poke_env.environment.abstract_battle import AbstractBattle
 import math
 import random
-import torch
 
+import numpy as np
+import torch
+from gym.spaces import Space, Box
+from poke_env.environment.abstract_battle import AbstractBattle
+from poke_env.player import Gen8EnvSinglePlayer
 
 
 class Node:

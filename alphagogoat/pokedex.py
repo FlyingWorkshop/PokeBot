@@ -1,9 +1,10 @@
-from tqdm import tqdm
 import json
-import numpy as np
+import re
 from pathlib import Path
 
-import re
+import numpy as np
+from tqdm import tqdm
+
 
 def _make_pokedex():
     pokedex = {}

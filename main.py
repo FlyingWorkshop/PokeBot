@@ -1,21 +1,19 @@
-from alphagogoat.embedder import process_battle, get_team_histories
-from alphagogoat.catalogs import MoveEnum
-from alphagogoat.delphox import Delphox, train
-from alphagogoat.constants import LSTM_INPUT_SIZE, LSTM_OUTPUT_SIZE, device
-
-
-from poke_env.environment.battle import Battle
-from tqdm.auto import tqdm
-import torch
-
 import json
 import logging
+import pickle
+import re
 from copy import deepcopy
 from pathlib import Path
-from joblib import Parallel, delayed
-import re
-import pickle
 
+import torch
+from joblib import Parallel, delayed
+from poke_env.environment.battle import Battle
+from tqdm.auto import tqdm
+
+from alphagogoat.catalogs import MoveEnum
+from alphagogoat.constants import LSTM_INPUT_SIZE, device
+from alphagogoat.delphox import Delphox, train
+from alphagogoat.embedder import get_team_histories
 
 LOGGER = logging.getLogger('poke-env')
 
