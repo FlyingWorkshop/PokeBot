@@ -62,10 +62,11 @@ def _make_pokedex():
     pokedex['pikachuunova'] = pokedex['pikachu']
     pokedex['pikachukalos'] = pokedex['pikachu']
     pokedex['pikachupartner'] = pokedex['pikachu']
-
+    pokedex['pikachuworld'] = pokedex['pikachu']
 
     pokedex['zygardecomplete'] = pokedex['zygarde']
     pokedex['wishiwashi'] = pokedex['wishiwashischool']
+    pokedex['eiscuenoice'] = pokedex['eiscue']
 
     # TODO aegislash
 

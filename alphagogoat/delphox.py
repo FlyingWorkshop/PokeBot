@@ -28,18 +28,46 @@ def make_x(turn: Battle, team1: dict[str: Pokemon], team2: dict[str: Pokemon]):
     pokemon = []
     moves = []
 
-    for t1_pokemon in team1.values():
+    for species, t1_pokemon in team1.items():
         pokemon.append(EMBEDDER.embed_pokemon(t1_pokemon).to(device=device))
-        moves.append(EMBEDDER.embed_moves_from_pokemon(t1_pokemon).to(device=device))
+        moveset = EMBEDDER.embed_moves_from_pokemon(t1_pokemon).to(device=device)
 
-    for t2_pokemon in team2.values():
+        # change the probability of seen moves to 100
+        possible_moves = sorted(POKEDEX[species]['moves'].keys())
+        for move in t1_pokemon.moves:
+            i = possible_moves.index(move)
+            moveset[i, 0] = 1
+        moves.append(moveset)
+
+        # TODO: handle moves that come in pairs like wish and protect
+
+        # if we've seen all four moves, then 0 the probability of impossible moves
+        if len(t1_pokemon.moves) == 4:
+            for i, move in enumerate(possible_moves):
+                if move not in t1_pokemon.moves:
+                    moveset[i, 0] = 0
+
+
+    for species, t2_pokemon in team2.values():
         pokemon.append(EMBEDDER.embed_pokemon(t2_pokemon).to(device=device))
-        moves.append(EMBEDDER.embed_moves_from_pokemon(t2_pokemon).to(device=device))
+        moveset = EMBEDDER.embed_moves_from_pokemon(t2_pokemon).to(device=device)
+        possible_moves = sorted(POKEDEX[species]['moves'].keys())
+        for move in t2_pokemon.moves:
+            i = possible_moves.index(move)
+            moveset[i, 0] = 1
+        moves.append(moveset)
+
+        # if we've seen all four moves, then 0 the probability of impossible moves
+        if len(t2_pokemon.moves) == 4:
+            for i, move in enumerate(possible_moves):
+                if move not in t2_pokemon.moves:
+                    moveset[i, 0] = 0
 
     num_unknown_pokemon = 2 * NUM_POKEMON_PER_TEAM - len(team1) - len(team2)
     pokemon = F.pad(torch.hstack(pokemon), (0, num_unknown_pokemon * POKEMON_EMBED_SIZE), mode='constant', value=-1)
     moves = F.pad(torch.stack(moves), (0, 0, 0, 0, 0, num_unknown_pokemon))
     # TODO: add prob modification and pp updates
+
     x = torch.cat((pokemon, moves.flatten())).unsqueeze(0)
     return x
 

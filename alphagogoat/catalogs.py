@@ -1,11 +1,11 @@
 import re
-# from pokedex import POKEDEX
 from enum import IntEnum
 
 from poke_env.environment.move import Move
 from poke_env.environment.side_condition import SideCondition
 
 from .pokedex import POKEDEX
+# from pokedex import POKEDEX
 
 
 def _make_item_enum():
