@@ -66,6 +66,9 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5):
             
             my_active, opponent_active = turn.active_pokemon, turn.opponent_active_pokemon
 
+            print(f"{my_active=}")
+            print(f"{opponent_active=}")
+
             my_moves = {} if my_active.species == 'typenull' else POKEDEX[my_active.species]['moves']
             opponent_moves = {} if opponent_active.species == 'typenull' else POKEDEX[opponent_active.species]['moves']
 

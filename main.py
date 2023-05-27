@@ -13,6 +13,7 @@ import logging
 from copy import deepcopy
 from pathlib import Path
 from joblib import Parallel, delayed
+import re
 
 
 LOGGER = logging.getLogger('poke-env')
@@ -45,12 +46,13 @@ def process_input_log(log):
             next_line = next_line.split(' ')
 
             if curr_line[1] == 'move':
-                out_me[MoveEnum[curr_line[2].lower()].value - 1] = 1
+                out_me[MoveEnum[re.sub(r"\s|-|'", "", curr_line[2].lower())].value - 1] = 1
             elif curr_line[1] == 'switch':
                 out_me[-1] = 1
 
             if next_line[1] == 'move':
-                out_them[MoveEnum[next_line[2].lower()].value - 1] = 1
+                #print(re.sub(r"\s|-|'", "", next_line[2].lower()))
+                out_them[MoveEnum[re.sub(r"\s|-|'", "", next_line[2].lower())].value - 1] = 1
             elif next_line[1] == 'switch':
                 out_them[-1] = 1
             i += 1
