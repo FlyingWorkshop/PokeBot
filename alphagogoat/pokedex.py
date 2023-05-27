@@ -14,7 +14,7 @@ def _make_pokedex():
             data = json.load(f)
         for key, value in data.items():
             if key not in pokedex:
-                key = re.sub(r"[-’\s\.]", "", key.lower())
+                key = re.sub(r"[-’\s\.:]", "", key.lower())
                 pokedex[key] = {k: [] for k in value.keys()}
             for k, v in value.items():
                 pokedex[key][k].append(v)
