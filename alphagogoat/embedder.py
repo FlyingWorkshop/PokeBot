@@ -15,7 +15,6 @@ from poke_env.environment.field import Field
 
 from .catalogs import Item, VolatileStatus, SIDE_COND_MAP, Ability, MoveEnum
 from .pokedex import POKEDEX
-
 # from pokedex import POKEDEX
 # from catalogs import Item, VolatileStatus, SIDE_COND_MAP, Ability, MoveEnum
 
@@ -263,12 +262,10 @@ class Embedder:
         >>> embedder.embed_moves_from_pokemon(Pokemon(gen=8, species="Type: Null")).shape
         torch.Size([8, 52])
         """
-
-
         # make move embeddings
         embeddings = []
         moves = POKEDEX[pokemon.species]['moves']
-        for name, prob in moves.items():
+        for name, prob in sorted(moves.items()):
             id = re.sub(r"\s|-|'", "", name.lower())
             embedding = self._embed_move(id, prob)
             embeddings.append(embedding)
