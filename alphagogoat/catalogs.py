@@ -1,5 +1,5 @@
-from .pokedex import POKEDEX
-# from pokedex import POKEDEX
+# from .pokedex import POKEDEX
+from pokedex import POKEDEX
 from enum import IntEnum
 from poke_env.environment.move import Move
 from poke_env.environment.side_condition import SideCondition

@@ -41,11 +41,13 @@ def _make_pokedex():
         if 'ivs' in data:
             del pokedex[species]['ivs']
 
-    # mons = list(pokedex.keys())
-    # for species in mons:
-    #     if 'gmax' in species:
-    #         pokedex[species[:-4]] = pokedex[species]
-    #         del pokedex[species]
+    mons = list(pokedex.keys())
+    for species in mons:
+        if 'gmax' in species:
+            no_gmax_species = species[:-4]
+            if no_gmax_species not in mons:
+                pokedex[species[:-4]] = pokedex[species]
+                del pokedex[species]
 
     pokedex['zygarde10'] = pokedex['zygarde10%']
     del pokedex['zygarde10%']

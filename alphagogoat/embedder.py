@@ -11,10 +11,10 @@ from poke_env.environment.effect import Effect
 from poke_env.environment.move import Move
 import torch
 
-from .pokedex import POKEDEX
-from .catalogs import Item, VolatileStatus, SIDE_COND_MAP, Ability
-# from pokedex import POKEDEX
-# from catalogs import Item, VolatileStatus, SIDE_COND_MAP, Ability, MoveEnum
+# from .pokedex import POKEDEX
+# from .catalogs import Item, VolatileStatus, SIDE_COND_MAP, Ability
+from pokedex import POKEDEX
+from catalogs import Item, VolatileStatus, SIDE_COND_MAP, Ability, MoveEnum
 
 
 MAX_MOVES = 8
@@ -71,7 +71,6 @@ def process_battle(battle_json: str) -> list[Battle]:
         battle_data = json.load(f)
 
     log = battle_data['log'].split('\n')
-    hi = process_input_log(battle_data['inputlog'].split('\n'))
     curr_battle = Battle(battle_data['id'], battle_data['p1'], logging.getLogger('poke-env'), 8)
     curr_battle._opponent_username = battle_data['p2']
     battle_objects = []
@@ -221,6 +220,8 @@ class Embedder:
         >>> embedder.embed_moves_from_pokemon(Pokemon(gen=8, species="Dracovish")).shape
         torch.Size([8, 52])
         >>> embedder.embed_moves_from_pokemon(Pokemon(gen=8, species="Landorus-Therian")).shape
+        torch.Size([8, 52])
+        >>> embedder.embed_moves_from_pokemon(Pokemon(gen=8, species="Cinderace")).shape
         torch.Size([8, 52])
         """
         if pokemon.species == 'typenull':
