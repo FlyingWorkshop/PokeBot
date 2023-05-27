@@ -80,15 +80,8 @@ def make_data(filepath):
     return battles, h1, h2, move1, move2
 
 def main():
-    pickle_file = "dataset.pkl"
-    if not Path(pickle_file).exists():
-        json_files = [filepath for filepath in Path("cache/replays").iterdir() if filepath.name.endswith('.json')]
-        dataset = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(json_files))
-        with open(pickle_file, "wb") as f:
-            pickle.dump(dataset, f)
-    else:
-        with open(pickle_file, 'rb') as f:
-            dataset = pickle.load(f)
+    json_files = [filepath for filepath in Path("cache/replays").iterdir() if filepath.name.endswith('.json')]
+    dataset = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(json_files))
     delphox = Delphox(LSTM_INPUT_SIZE).to(device=device)
     train(delphox, dataset)
 

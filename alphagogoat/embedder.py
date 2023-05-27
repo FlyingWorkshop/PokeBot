@@ -260,9 +260,6 @@ class Embedder:
         # TODO: feature reduction
         # TODO:add more flags and data (is dynamaxed, level, preparing, weight)
 
-        if pokemon.species == 'typenull':
-            return torch.zeros(192)
-
         data = POKEDEX[pokemon.species]
         embedding = [
             pokemon.current_hp,
