@@ -108,7 +108,7 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5):
             #print("Sum: ", torch.sum(move1_pred))
             #loss += L
             print(f"{L=}")
-            L.backward(retain_graph=True) #retain_graph=True
+            L.backward(retain_graph=True)
             optimizer.step()
 
             x2 = make_x(turn, team2, team1)
