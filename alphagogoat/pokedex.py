@@ -63,9 +63,8 @@ def _make_pokedex():
 
 
     pokedex['zygardecomplete'] = pokedex['zygarde']
-
-    # TODO: handle wishi washi base stat changes and zygarde state changes
     pokedex['wishiwashi'] = pokedex['wishiwashischool']
+
 
     return pokedex
 

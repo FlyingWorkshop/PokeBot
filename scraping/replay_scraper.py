@@ -11,8 +11,20 @@ from selenium.webdriver.common.by import By
 
 
 def main():
-    with open("Replays - Pokémon Showdown.html") as f:
-        html = f.read()
+    replays_url = "https://replay.pokemonshowdown.com/"
+    driver = webdriver.Chrome()
+    driver.get(replays_url)
+    text_box = driver.find_element(by=By.NAME, value="format")
+    submit_button = \
+    driver.find_elements(by=By.CSS_SELECTOR, value="body > div.pfx-panel > div > form:nth-child(5) > p > button")[0]
+    text_box.send_keys("gen8randombattle")
+    submit_button.click()
+    time.sleep(0.5)
+    html = driver.page_source
+    driver.close()
+
+    # with open("Replays - Pokémon Showdown.html") as f:
+    #     html = f.read()
 
     # make cache directory if none exists yet
     path = Path("../cache/replays/")

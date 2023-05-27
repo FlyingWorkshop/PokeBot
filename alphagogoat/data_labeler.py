@@ -9,12 +9,9 @@ import torch
 
 
 def process_input_log(log):
-    input_log = log['inputlog']
-
-    input_log = input_log.split('\n')
+    input_log = log['inputlog'].split('\n')
 
     start = 0
-
     for line in input_log:
         if line.startswith('>p1'):
             break
@@ -26,7 +23,7 @@ def process_input_log(log):
     for i in range(len(input_log) - 1):
         curr_line = input_log[i]
         next_line = input_log[i+1]
-        if curr_line.startswith('>p1') and next_line.startswith('>p2'): # that means this is a normal turn with no fainting or anything
+        if curr_line.startswith('>p1') and next_line.startswith('>p2'):  # that means this is a normal turn with no fainting or anything
             out_me = torch.zeros(len(MoveEnum) + 1)
             out_them = torch.zeros(len(MoveEnum) + 1)
             curr_line = curr_line.split(' ')
@@ -41,7 +38,6 @@ def process_input_log(log):
                 out_them[MoveEnum[next_line[2].lower()].value - 1] = 1
             elif next_line[1] == 'switch':
                 out_them[-1] = 1
-    
 
             i += 1
             out.append(torch.cat((out_me, out_them)))

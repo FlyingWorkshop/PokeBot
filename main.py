@@ -19,8 +19,12 @@ LOGGER = logging.getLogger('poke-env')
 
 
 def process_input_log(log):
-    input_log = log['inputlog']
-    input_log = input_log.split('\n')
+    """
+    >>> log = Path("cache/replays/gen8randombattle-1123651831.log").read_text()
+    >>> process_input_log(log)
+    """
+    # input_log = log['inputlog']
+    input_log = log.split('\n')
     start = 0
     for line in input_log:
         if line.startswith('>p1'):
