@@ -8,7 +8,6 @@ from .embedder import Embedder, get_team_histories
 # import data_labeler
 from .constants import *
 
-
 class Delphox(nn.Module):
     LSTM_OUTPUT_SIZE = len(MoveEnum) + 1
 
