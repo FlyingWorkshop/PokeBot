@@ -1,0 +1,64 @@
+|j|☆jfjrr
+|j|☆Prodigy5555
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1685288859
+|gametype|singles
+|player|p1|jfjrr|brendan-contest|
+|player|p2|Prodigy5555|265|
+|teamsize|p1|3
+|teamsize|p2|3
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mienshao, L82, F|
+|poke|p1|Blacephalon, L80|
+|poke|p1|Glalie, L80, M|
+|poke|p2|Scolipede, L80, M|
+|poke|p2|Kartana, L74|
+|poke|p2|Orbeetle, L86, F|
+|teampreview|1
+|j|*Lady Monita
+|inactive|Prodigy5555 has 120 seconds left.
+|
+|t:|1685288898
+|start
+|switch|p1a: Blacephalon|Blacephalon, L80|216/216
+|switch|p2a: Orbeetle|Orbeetle, L86, F|243/243
+|-item|p1a: Blacephalon|Heavy-Duty Boots|[from] ability: Frisk|[of] p2a: Orbeetle|[identify]
+|turn|1
+|
+|t:|1685288908
+|-start|p1a: Blacephalon|Dynamax|
+|-heal|p1a: Blacephalon|432/432|[silent]
+|-start|p2a: Orbeetle|Dynamax|
+|-heal|p2a: Orbeetle|486/486|[silent]
+|move|p1a: Blacephalon|Max Flare|p2a: Orbeetle
+|-supereffective|p2a: Orbeetle
+|-damage|p2a: Orbeetle|208/486
+|-weather|SunnyDay
+|move|p2a: Orbeetle|Max Mindstorm|p1a: Blacephalon
+|-damage|p1a: Blacephalon|278/432
+|-fieldstart|move: Psychic Terrain
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1685288923
+|move|p1a: Blacephalon|Max Flare|p2a: Orbeetle
+|-supereffective|p2a: Orbeetle
+|-damage|p2a: Orbeetle|0 fnt
+|faint|p2a: Orbeetle
+|
+|win|jfjrr
+|n|☆jfjrr|jfjrr
+|n|☆Prodigy5555|prodigy5555
+|n|*Lady Monita|ladymonita
+|l|*Lady Monita
+|l|☆jfjrr
+|l|☆Prodigy5555
+|j| Juytre

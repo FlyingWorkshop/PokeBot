@@ -1,0 +1,228 @@
+|j|☆VicsX7
+|j|☆gareeb adani
+|t:|1685288419
+|gametype|singles
+|player|p1|VicsX7|170|1408
+|player|p2|gareeb adani|169|1439
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685288419
+|start
+|switch|p1a: Stunfisk|Stunfisk, L84, M|320/320
+|switch|p2a: Togekiss|Togekiss, L80, M|267/267
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gareeb adani)
+|
+|t:|1685288430
+|switch|p2a: Basculin|Basculin, L86, M|261/261
+|move|p1a: Stunfisk|Stealth Rock|p2a: Basculin
+|-sidestart|p2: gareeb adani|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1685288443
+|move|p2a: Basculin|Liquidation|p1a: Stunfisk
+|-supereffective|p1a: Stunfisk
+|-damage|p1a: Stunfisk|0 fnt
+|faint|p1a: Stunfisk
+|
+|upkeep
+|
+|t:|1685288454
+|switch|p1a: Kyurem|Kyurem-Black, L73|303/303
+|-ability|p1a: Kyurem|Teravolt
+|turn|3
+|
+|t:|1685288467
+|switch|p2a: Urshifu|Urshifu, L76, M|277/277
+|-damage|p2a: Urshifu|260/277|[from] Stealth Rock
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|
+|-heal|p2a: Urshifu|277/277|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685288480
+|-start|p1a: Kyurem|Dynamax|
+|-heal|p1a: Kyurem|606/606|[silent]
+|move|p1a: Kyurem|Max Wyrmwind|p2a: Urshifu
+|-damage|p2a: Urshifu|27/277
+|-unboost|p2a: Urshifu|atk|1
+|move|p2a: Urshifu|Drain Punch|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|490/606
+|-heal|p2a: Urshifu|85/277|[from] drain|[of] p1a: Kyurem
+|
+|-heal|p2a: Urshifu|102/277|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685288497
+|switch|p2a: Togekiss|Togekiss, L80, M|267/267
+|move|p1a: Kyurem|Max Hailstorm|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|-weather|Hail
+|faint|p2a: Togekiss
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1685288501
+|switch|p2a: Bouffalant|Bouffalant, L84, F|297/297
+|-damage|p2a: Bouffalant|260/297|[from] Stealth Rock
+|turn|6
+|
+|t:|1685288506
+|-start|p2a: Bouffalant|Dynamax|
+|-heal|p2a: Bouffalant|520/594|[silent]
+|move|p2a: Bouffalant|Max Guard|p2a: Bouffalant
+|-singleturn|p2a: Bouffalant|Max Guard
+|move|p1a: Kyurem|Max Wyrmwind|p2a: Bouffalant
+|-activate|p2a: Bouffalant|move: Max Guard
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Bouffalant|502/594|[from] Hail
+|-heal|p2a: Bouffalant|520/594|[from] item: Leftovers
+|upkeep
+|-end|p1a: Kyurem|Dynamax
+|-heal|p1a: Kyurem|245/303|[silent]
+|turn|7
+|
+|t:|1685288515
+|move|p1a: Kyurem|Outrage|p2a: Bouffalant
+|-damage|p2a: Bouffalant|309/594
+|move|p2a: Bouffalant|Max Knuckle|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|81/303
+|-boost|p2a: Bouffalant|atk|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Bouffalant|291/594|[from] Hail
+|-heal|p2a: Bouffalant|309/594|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685288518
+|move|p1a: Kyurem|Outrage|p2a: Bouffalant|[from]lockedmove
+|-damage|p2a: Bouffalant|84/594
+|move|p2a: Bouffalant|Max Knuckle|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|-boost|p2a: Bouffalant|atk|1
+|faint|p1a: Kyurem
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Bouffalant|66/594|[from] Hail
+|-heal|p2a: Bouffalant|84/594|[from] item: Leftovers
+|upkeep
+|
+|t:|1685288529
+|switch|p1a: Golduck|Golduck, L86, M|278/278
+|-end|p2a: Bouffalant|Dynamax
+|-heal|p2a: Bouffalant|42/297|[silent]
+|turn|9
+|
+|t:|1685288534
+|move|p1a: Golduck|Scald|p2a: Bouffalant
+|-damage|p2a: Bouffalant|0 fnt
+|faint|p2a: Bouffalant
+|
+|-weather|none
+|upkeep
+|
+|t:|1685288536
+|switch|p2a: Bellossom|Bellossom, L82, M|257/257
+|-damage|p2a: Bellossom|225/257|[from] Stealth Rock
+|turn|10
+|
+|t:|1685288541
+|move|p1a: Golduck|Substitute|p1a: Golduck
+|-start|p1a: Golduck|Substitute
+|-damage|p1a: Golduck|209/278
+|move|p2a: Bellossom|Quiver Dance|p2a: Bellossom
+|-boost|p2a: Bellossom|spa|1
+|-boost|p2a: Bellossom|spd|1
+|-boost|p2a: Bellossom|spe|1
+|
+|-heal|p1a: Golduck|226/278|[from] item: Leftovers
+|-heal|p2a: Bellossom|241/257|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1685288556
+|move|p1a: Golduck|Calm Mind|p1a: Golduck
+|-boost|p1a: Golduck|spa|1
+|-boost|p1a: Golduck|spd|1
+|move|p2a: Bellossom|Quiver Dance|p2a: Bellossom
+|-boost|p2a: Bellossom|spa|1
+|-boost|p2a: Bellossom|spd|1
+|-boost|p2a: Bellossom|spe|1
+|
+|-heal|p2a: Bellossom|257/257|[from] item: Leftovers
+|-heal|p1a: Golduck|243/278|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685288561
+|move|p2a: Bellossom|Quiver Dance|p2a: Bellossom
+|-boost|p2a: Bellossom|spa|1
+|-boost|p2a: Bellossom|spd|1
+|-boost|p2a: Bellossom|spe|1
+|move|p1a: Golduck|Calm Mind|p1a: Golduck
+|-boost|p1a: Golduck|spa|1
+|-boost|p1a: Golduck|spd|1
+|
+|-heal|p1a: Golduck|260/278|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685288578
+|move|p2a: Bellossom|Giga Drain|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-end|p1a: Golduck|Substitute
+|move|p1a: Golduck|Focus Blast|p2a: Bellossom
+|-damage|p2a: Bellossom|194/257
+|
+|-heal|p2a: Bellossom|210/257|[from] item: Leftovers
+|-heal|p1a: Golduck|277/278|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685288584
+|move|p2a: Bellossom|Giga Drain|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-crit|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|-heal|p2a: Bellossom|257/257|[from] drain|[of] p1a: Golduck
+|faint|p1a: Golduck
+|
+|upkeep
+|
+|t:|1685288594
+|switch|p1a: Urshifu|Urshifu, L76, F|277/277
+|turn|15
+|
+|t:|1685288606
+|move|p2a: Bellossom|Moonblast|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|upkeep
+|-message|VicsX7 forfeited.
+|
+|win|gareeb adani
+|raw|VicsX7's rating: 1408 &rarr; <strong>1391</strong><br />(-17 for losing)
+|raw|gareeb adani's rating: 1457 &rarr; <strong>1474</strong><br />(+17 for winning)
+|l|☆VicsX7

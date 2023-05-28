@@ -1,0 +1,386 @@
+|j|☆hibye721
+|j|☆donutplayerisshit
+|t:|1685256940
+|gametype|singles
+|player|p1|hibye721|bugcatcher-gen4dp|
+|player|p2|donutplayerisshit|cynthia|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685256940
+|start
+|switch|p1a: Type: Null|Type: Null, L86|304/304
+|switch|p2a: Kyurem|Kyurem-White, L74|307/307
+|-ability|p2a: Kyurem|Turboblaze
+|turn|1
+|
+|t:|1685256972
+|move|p2a: Kyurem|Freeze-Dry|p1a: Type: Null
+|-damage|p1a: Type: Null|247/304
+|move|p1a: Type: Null|Swords Dance|p1a: Type: Null
+|-boost|p1a: Type: Null|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1685256989
+|switch|p2a: Bewear|Bewear, L82, F|331/331
+|move|p1a: Type: Null|Swords Dance|p1a: Type: Null
+|-boost|p1a: Type: Null|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1685256997
+|move|p1a: Type: Null|Crush Claw|p2a: Bewear
+|-damage|p2a: Bewear|196/331
+|move|p2a: Bewear|Swords Dance|p2a: Bewear
+|-boost|p2a: Bewear|atk|2
+|
+|upkeep
+|turn|4
+|
+|t:|1685257008
+|move|p1a: Type: Null|Crush Claw|p2a: Bewear
+|-damage|p2a: Bewear|65/331
+|move|p2a: Bewear|Close Combat|p1a: Type: Null
+|-supereffective|p1a: Type: Null
+|-damage|p1a: Type: Null|0 fnt
+|-unboost|p2a: Bewear|def|1
+|-unboost|p2a: Bewear|spd|1
+|faint|p1a: Type: Null
+|-damage|p2a: Bewear|32/331|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685257038
+|switch|p1a: Lapras|Lapras, L86, F|363/363
+|turn|5
+|
+|t:|1685257061
+|switch|p2a: Decidueye|Decidueye, L86, F|274/274
+|move|p1a: Lapras|Sparkling Aria|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|235/274
+|
+|upkeep
+|turn|6
+|
+|t:|1685257076
+|move|p2a: Decidueye|Swords Dance|p2a: Decidueye
+|-boost|p2a: Decidueye|atk|2
+|move|p1a: Lapras|Toxic|p2a: Decidueye
+|-status|p2a: Decidueye|tox
+|
+|-damage|p2a: Decidueye|218/274 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1685257086
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p2a: Decidueye|Leaf Blade|p1a: Lapras
+|-activate|p1a: Lapras|move: Protect
+|
+|-damage|p2a: Decidueye|184/274 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1685257102
+|switch|p1a: Pangoro|Pangoro, L84, M|297/297
+|move|p2a: Decidueye|Leaf Blade|p1a: Pangoro
+|-damage|p1a: Pangoro|0 fnt
+|faint|p1a: Pangoro
+|-damage|p2a: Decidueye|157/274 tox|[from] item: Life Orb
+|
+|-damage|p2a: Decidueye|106/274 tox|[from] psn
+|upkeep
+|
+|t:|1685257115
+|switch|p1a: Xatu|Xatu, L89, M|260/260
+|turn|9
+|
+|t:|1685257127
+|move|p1a: Xatu|Heat Wave|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|
+|upkeep
+|
+|t:|1685257138
+|switch|p2a: Registeel|Registeel, L83|268/268
+|turn|10
+|
+|t:|1685257155
+|switch|p2a: Rapidash|Rapidash-Galar, L84, M|246/246
+|move|p1a: Xatu|Psychic|p2a: Rapidash
+|-resisted|p2a: Rapidash
+|-damage|p2a: Rapidash|192/246
+|
+|upkeep
+|turn|11
+|
+|t:|1685257166
+|move|p2a: Rapidash|Swords Dance|p2a: Rapidash
+|-boost|p2a: Rapidash|atk|2
+|move|p1a: Xatu|Heat Wave|p2a: Rapidash
+|-damage|p2a: Rapidash|117/246
+|
+|upkeep
+|turn|12
+|
+|t:|1685257187
+|move|p2a: Rapidash|Play Rough|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|-damage|p2a: Rapidash|93/246|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685257201
+|switch|p1a: Lurantis|Lurantis, L86, M|261/261
+|turn|13
+|
+|t:|1685257216
+|move|p2a: Rapidash|Play Rough|p1a: Lurantis
+|-damage|p1a: Lurantis|18/261
+|-damage|p2a: Rapidash|69/246|[from] item: Life Orb
+|move|p1a: Lurantis|Knock Off|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|-enditem|p2a: Rapidash|Life Orb|[from] move: Knock Off|[of] p1a: Lurantis
+|faint|p2a: Rapidash
+|
+|-heal|p1a: Lurantis|34/261|[from] item: Leftovers
+|upkeep
+|
+|t:|1685257238
+|switch|p2a: Registeel|Registeel, L83|268/268
+|turn|14
+|
+|t:|1685257259
+|move|p2a: Registeel|Body Press|p1a: Lurantis
+|-damage|p1a: Lurantis|0 fnt
+|faint|p1a: Lurantis
+|
+|upkeep
+|
+|t:|1685257266
+|switch|p1a: Dracovish|Dracovish, L80|275/275
+|turn|15
+|
+|t:|1685257277
+|move|p1a: Dracovish|Low Kick|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|114/268
+|move|p2a: Registeel|Toxic|p1a: Dracovish
+|-status|p1a: Dracovish|tox
+|
+|-damage|p1a: Dracovish|258/275 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1685257293
+|move|p1a: Dracovish|Low Kick|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|0 fnt
+|faint|p2a: Registeel
+|
+|-damage|p1a: Dracovish|224/275 tox|[from] psn
+|upkeep
+|
+|t:|1685257298
+|switch|p2a: Kyurem|Kyurem-White, L74|307/307
+|-ability|p2a: Kyurem|Turboblaze
+|turn|17
+|
+|t:|1685257335
+|switch|p1a: Lapras|Lapras, L86, F|363/363
+|move|p2a: Kyurem|Ice Beam|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|335/363
+|
+|-heal|p1a: Lapras|357/363|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1685257349
+|switch|p2a: Wobbuffet|Wobbuffet, L92, M|499/499
+|move|p1a: Lapras|Toxic|p2a: Wobbuffet
+|-status|p2a: Wobbuffet|tox
+|
+|-heal|p1a: Lapras|363/363|[from] item: Leftovers
+|-damage|p2a: Wobbuffet|468/499 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1685257365
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p2a: Wobbuffet|Charm|p1a: Lapras
+|-activate|p1a: Lapras|move: Protect
+|
+|-damage|p2a: Wobbuffet|406/499 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1685257374
+|move|p1a: Lapras|Toxic|p2a: Wobbuffet
+|-fail|p2a: Wobbuffet|tox
+|move|p2a: Wobbuffet|Charm|p1a: Lapras
+|-unboost|p1a: Lapras|atk|2
+|
+|-damage|p2a: Wobbuffet|313/499 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1685257387
+|move|p1a: Lapras|Toxic|p2a: Wobbuffet
+|-fail|p2a: Wobbuffet|tox
+|move|p2a: Wobbuffet|Charm|p1a: Lapras
+|-unboost|p1a: Lapras|atk|2
+|
+|-damage|p2a: Wobbuffet|189/499 tox|[from] psn
+|upkeep
+|-enditem|p2a: Wobbuffet|Sitrus Berry|[eat]
+|-heal|p2a: Wobbuffet|313/499 tox|[from] item: Sitrus Berry
+|turn|22
+|
+|t:|1685257409
+|move|p1a: Lapras|Toxic|p2a: Wobbuffet
+|-fail|p2a: Wobbuffet|tox
+|move|p2a: Wobbuffet|Charm|p1a: Lapras
+|-unboost|p1a: Lapras|atk|2
+|
+|-damage|p2a: Wobbuffet|158/499 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1685257420
+|switch|p2a: Kyurem|Kyurem-White, L74|307/307
+|-ability|p2a: Kyurem|Turboblaze
+|move|p1a: Lapras|Protect||[still]
+|-fail|p1a: Lapras
+|
+|upkeep
+|turn|24
+|
+|t:|1685257436
+|-start|p2a: Kyurem|Dynamax|
+|-heal|p2a: Kyurem|614/614|[silent]
+|-start|p1a: Lapras|Dynamax|Gmax
+|-heal|p1a: Lapras|726/726|[silent]
+|move|p2a: Kyurem|Max Wyrmwind|p1a: Lapras
+|-damage|p1a: Lapras|572/726
+|-unboost|p1a: Lapras|atk|0
+|move|p1a: Lapras|G-Max Resonance|p2a: Kyurem
+|-damage|p2a: Kyurem|473/614
+|-sidestart|p1: hibye721|move: Aurora Veil
+|
+|-heal|p1a: Lapras|594/726|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1685257456
+|move|p2a: Kyurem|Max Wyrmwind|p1a: Lapras
+|-damage|p1a: Lapras|507/726
+|-unboost|p1a: Lapras|atk|0
+|move|p1a: Lapras|G-Max Resonance|p2a: Kyurem
+|-damage|p2a: Kyurem|331/614
+|
+|-heal|p1a: Lapras|529/726|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1685257477
+|move|p2a: Kyurem|Max Wyrmwind|p1a: Lapras
+|-damage|p1a: Lapras|448/726
+|-unboost|p1a: Lapras|atk|0
+|move|p1a: Lapras|G-Max Resonance|p2a: Kyurem
+|-damage|p2a: Kyurem|189/614
+|
+|-heal|p1a: Lapras|470/726|[from] item: Leftovers
+|upkeep
+|-end|p2a: Kyurem|Dynamax
+|-heal|p2a: Kyurem|95/307|[silent]
+|-end|p1a: Lapras|Dynamax
+|-heal|p1a: Lapras|235/363|[silent]
+|turn|27
+|
+|t:|1685257494
+|move|p2a: Kyurem|Draco Meteor|p1a: Lapras
+|-damage|p1a: Lapras|155/363
+|-unboost|p2a: Kyurem|spa|2
+|move|p1a: Lapras|Toxic|p2a: Kyurem
+|-status|p2a: Kyurem|tox
+|
+|-heal|p1a: Lapras|177/363|[from] item: Leftovers
+|-damage|p2a: Kyurem|76/307 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1685257514
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p2a: Kyurem|Draco Meteor|p1a: Lapras
+|-activate|p1a: Lapras|move: Protect
+|
+|-heal|p1a: Lapras|199/363|[from] item: Leftovers
+|-damage|p2a: Kyurem|38/307 tox|[from] psn
+|-sideend|p1: hibye721|move: Aurora Veil
+|upkeep
+|turn|29
+|
+|t:|1685257526
+|switch|p2a: Bewear|Bewear, L82, F|32/331
+|move|p1a: Lapras|Ice Beam|p2a: Bewear
+|-damage|p2a: Bewear|0 fnt
+|faint|p2a: Bewear
+|
+|-heal|p1a: Lapras|221/363|[from] item: Leftovers
+|upkeep
+|
+|t:|1685257534
+|switch|p2a: Wobbuffet|Wobbuffet, L92, M|158/499 tox
+|turn|30
+|
+|t:|1685257556
+|move|p1a: Lapras|Sparkling Aria|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|37/499 tox
+|move|p2a: Wobbuffet|Encore|p1a: Lapras
+|-start|p1a: Lapras|Encore
+|
+|-heal|p1a: Lapras|243/363|[from] item: Leftovers
+|-damage|p2a: Wobbuffet|6/499 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1685257657
+|move|p1a: Lapras|Sparkling Aria|p2a: Wobbuffet
+|-damage|p2a: Wobbuffet|0 fnt
+|faint|p2a: Wobbuffet
+|
+|-heal|p1a: Lapras|265/363|[from] item: Leftovers
+|upkeep
+|
+|t:|1685257664
+|switch|p2a: Kyurem|Kyurem-White, L74|38/307 tox
+|-ability|p2a: Kyurem|Turboblaze
+|turn|32
+|
+|t:|1685257688
+|move|p2a: Kyurem|Freeze-Dry|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|136/363
+|move|p1a: Lapras|Sparkling Aria|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|win|hibye721
+|l|☆hibye721

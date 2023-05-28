@@ -1,0 +1,253 @@
+|j|☆WilliamTazCole
+|j|☆Bromeer
+|t:|1685262341
+|gametype|singles
+|player|p1|WilliamTazCole|170|
+|player|p2|Bromeer|elesa|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685262341
+|start
+|switch|p1a: Dedenne|Dedenne, L87, F|258/258
+|switch|p2a: Shiftry|Shiftry, L86, M|295/295
+|turn|1
+|
+|t:|1685262360
+|move|p1a: Dedenne|Toxic|p2a: Shiftry
+|-status|p2a: Shiftry|tox
+|move|p2a: Shiftry|Nasty Plot|p2a: Shiftry
+|-boost|p2a: Shiftry|spa|2
+|
+|-damage|p2a: Shiftry|277/295 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1685262387
+|switch|p1a: Altaria|Altaria, L90, M|281/281
+|move|p2a: Shiftry|Nasty Plot|p2a: Shiftry
+|-boost|p2a: Shiftry|spa|2
+|
+|-damage|p2a: Shiftry|241/295 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1685262402
+|move|p1a: Altaria|Draco Meteor|p2a: Shiftry
+|-damage|p2a: Shiftry|73/295 tox
+|-unboost|p1a: Altaria|spa|2
+|move|p2a: Shiftry|Dark Pulse|p1a: Altaria
+|-damage|p1a: Altaria|67/281
+|
+|-damage|p2a: Shiftry|19/295 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1685262411
+|move|p1a: Altaria|Draco Meteor|p2a: Shiftry
+|-damage|p2a: Shiftry|0 fnt
+|-unboost|p1a: Altaria|spa|2
+|faint|p2a: Shiftry
+|
+|upkeep
+|
+|t:|1685262420
+|switch|p2a: Luxray|Luxray, L84, F|272/272
+|turn|5
+|
+|t:|1685262446
+|switch|p1a: Stonjourner|Stonjourner, L88, M|319/319
+|move|p2a: Luxray|Wild Charge|p1a: Stonjourner
+|-damage|p1a: Stonjourner|238/319
+|-damage|p2a: Luxray|252/272|[from] Recoil
+|
+|-status|p2a: Luxray|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1685262455
+|move|p1a: Stonjourner|Earthquake|p2a: Luxray
+|-supereffective|p2a: Luxray
+|-damage|p2a: Luxray|0 fnt
+|faint|p2a: Luxray
+|-damage|p1a: Stonjourner|207/319|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685262464
+|switch|p2a: Virizion|Virizion, L82|283/283
+|turn|7
+|
+|t:|1685262486
+|switch|p1a: Inteleon|Inteleon, L80, M|243/243
+|move|p2a: Virizion|Close Combat|p1a: Inteleon
+|-damage|p1a: Inteleon|95/243
+|-unboost|p2a: Virizion|def|1
+|-unboost|p2a: Virizion|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1685262494
+|move|p1a: Inteleon|Ice Beam|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|119/283
+|move|p2a: Virizion|Leaf Blade|p1a: Inteleon
+|-supereffective|p1a: Inteleon
+|-damage|p1a: Inteleon|0 fnt
+|faint|p1a: Inteleon
+|
+|upkeep
+|
+|t:|1685262507
+|switch|p1a: Stonjourner|Stonjourner, L88, M|207/319
+|turn|9
+|
+|t:|1685262515
+|move|p2a: Virizion|Close Combat|p1a: Stonjourner
+|-supereffective|p1a: Stonjourner
+|-damage|p1a: Stonjourner|61/319
+|-unboost|p2a: Virizion|def|1
+|-unboost|p2a: Virizion|spd|1
+|move|p1a: Stonjourner|Heat Crash|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|0 fnt
+|faint|p2a: Virizion
+|-damage|p1a: Stonjourner|30/319|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685262528
+|switch|p2a: Crustle|Crustle, L82, F|249/249
+|turn|10
+|
+|t:|1685262539
+|move|p1a: Stonjourner|Heat Crash|p2a: Crustle
+|-damage|p2a: Crustle|196/249
+|-damage|p1a: Stonjourner|0 fnt|[from] item: Life Orb
+|faint|p1a: Stonjourner
+|move|p2a: Crustle|Earthquake|p1: Stonjourner|[notarget]
+|-fail|p2a: Crustle
+|
+|upkeep
+|
+|t:|1685262556
+|switch|p1a: Kartana|Kartana, L74|209/209
+|turn|11
+|
+|t:|1685262567
+|move|p1a: Kartana|Swords Dance|p1a: Kartana
+|-boost|p1a: Kartana|atk|2
+|move|p2a: Crustle|X-Scissor|p1a: Kartana
+|-damage|p1a: Kartana|137/209
+|
+|upkeep
+|turn|12
+|
+|t:|1685262575
+|switch|p2a: Drampa|Drampa, L86, M|274/274
+|move|p1a: Kartana|Leaf Blade|p2a: Drampa
+|-resisted|p2a: Drampa
+|-damage|p2a: Drampa|126/274
+|-ability|p2a: Drampa|Berserk|boost
+|-boost|p2a: Drampa|spa|1
+|-damage|p1a: Kartana|117/209|[from] item: Life Orb
+|
+|-heal|p2a: Drampa|143/274|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685262602
+|switch|p2a: Miltank|Miltank, L84, F|297/297
+|move|p1a: Kartana|Leaf Blade|p2a: Miltank
+|-crit|p2a: Miltank
+|-damage|p2a: Miltank|0 fnt
+|faint|p2a: Miltank
+|-ability|p1a: Kartana|Beast Boost|boost
+|-boost|p1a: Kartana|atk|1
+|-damage|p1a: Kartana|97/209|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685262612
+|switch|p2a: Drampa|Drampa, L86, M|143/274
+|turn|14
+|
+|t:|1685262616
+|-start|p2a: Drampa|Dynamax|
+|-heal|p2a: Drampa|286/548|[silent]
+|move|p1a: Kartana|Leaf Blade|p2a: Drampa
+|-resisted|p2a: Drampa
+|-damage|p2a: Drampa|75/548
+|-ability|p2a: Drampa|Berserk|boost
+|-boost|p2a: Drampa|spa|1
+|-damage|p1a: Kartana|77/209|[from] item: Life Orb
+|move|p2a: Drampa|Max Flare|p1a: Kartana
+|-supereffective|p1a: Kartana
+|-damage|p1a: Kartana|0 fnt
+|-weather|SunnyDay
+|faint|p1a: Kartana
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Drampa|92/548|[from] item: Leftovers
+|upkeep
+|
+|t:|1685262636
+|switch|p1a: Alakazam|Alakazam, L78, F|214/214
+|turn|15
+|
+|t:|1685262650
+|-start|p1a: Alakazam|Dynamax|
+|-heal|p1a: Alakazam|428/428|[silent]
+|move|p1a: Alakazam|Max Mindstorm|p2a: Drampa
+|-damage|p2a: Drampa|0 fnt
+|-fieldstart|move: Psychic Terrain
+|faint|p2a: Drampa
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685262658
+|switch|p2a: Crustle|Crustle, L82, F|196/249
+|turn|16
+|
+|t:|1685262672
+|move|p1a: Alakazam|Max Knuckle|p2a: Crustle
+|-damage|p2a: Crustle|179/249
+|-boost|p1a: Alakazam|atk|1
+|move|p2a: Crustle|X-Scissor|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|126/428
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1685262684
+|move|p1a: Alakazam|Max Phantasm|p2a: Crustle
+|-damage|p2a: Crustle|63/249
+|-unboost|p2a: Crustle|def|1
+|move|p2a: Crustle|X-Scissor|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685262696
+|switch|p1a: Altaria|Altaria, L90, M|67/281
+|turn|18
+|
+|t:|1685262709
+|move|p1a: Altaria|Draco Meteor|p2a: Crustle
+|-damage|p2a: Crustle|0 fnt
+|-unboost|p1a: Altaria|spa|2
+|faint|p2a: Crustle
+|
+|win|WilliamTazCole

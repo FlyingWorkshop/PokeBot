@@ -1,0 +1,298 @@
+|j|☆Irpachuza!
+|j|☆TheBugsHaveArrived
+|t:|1685290941
+|gametype|singles
+|player|p1|Irpachuza!|#irpachuza|
+|player|p2|TheBugsHaveArrived|bugsy|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685290941
+|start
+|switch|p1a: Turtonator|Turtonator, L84, F|238/238
+|switch|p2a: Sawk|Sawk, L86, M|269/269
+|-ability|p2a: Sawk|Mold Breaker
+|turn|1
+|c|☆Irpachuza!|glhf
+|c|☆TheBugsHaveArrived|u2
+|
+|t:|1685290956
+|move|p2a: Sawk|Bulk Up|p2a: Sawk
+|-boost|p2a: Sawk|atk|1
+|-boost|p2a: Sawk|def|1
+|move|p1a: Turtonator|Shell Smash|p1a: Turtonator
+|-unboost|p1a: Turtonator|def|1
+|-unboost|p1a: Turtonator|spd|1
+|-boost|p1a: Turtonator|atk|2
+|-boost|p1a: Turtonator|spa|2
+|-boost|p1a: Turtonator|spe|2
+|-enditem|p1a: Turtonator|White Herb
+|-clearnegativeboost|p1a: Turtonator|[silent]
+|
+|upkeep
+|turn|2
+|c|☆TheBugsHaveArrived|I forgot it had that
+|
+|t:|1685290969
+|move|p1a: Turtonator|Fire Blast|p2a: Sawk
+|-damage|p2a: Sawk|26/269
+|move|p2a: Sawk|Stone Edge|p1a: Turtonator
+|-supereffective|p1a: Turtonator
+|-damage|p1a: Turtonator|0 fnt
+|faint|p1a: Turtonator
+|-damage|p2a: Sawk|0 fnt|[from] item: Life Orb
+|faint|p2a: Sawk
+|
+|upkeep
+|
+|t:|1685290985
+|switch|p2a: Nidoqueen|Nidoqueen, L84, F|288/288
+|switch|p1a: Galvantula|Galvantula, L82, F|249/249
+|turn|3
+|
+|t:|1685290991
+|move|p1a: Galvantula|Sticky Web|p2a: Nidoqueen
+|-sidestart|p2: TheBugsHaveArrived|move: Sticky Web
+|move|p2a: Nidoqueen|Stealth Rock|p1a: Galvantula
+|-sidestart|p1: Irpachuza!|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1685291001
+|switch|p1a: Beartic|Beartic, L86, M|304/304
+|move|p2a: Nidoqueen|Earth Power|p1a: Beartic
+|-damage|p1a: Beartic|168/304
+|
+|upkeep
+|turn|5
+|
+|t:|1685291009
+|move|p2a: Nidoqueen|Sludge Wave|p1a: Beartic
+|-damage|p1a: Beartic|12/304
+|move|p1a: Beartic|Icicle Crash|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|30/288
+|
+|upkeep
+|turn|6
+|
+|t:|1685291015
+|move|p2a: Nidoqueen|Sludge Wave|p1a: Beartic
+|-damage|p1a: Beartic|0 fnt
+|faint|p1a: Beartic
+|
+|upkeep
+|
+|t:|1685291023
+|switch|p1a: Galvantula|Galvantula, L82, F|249/249
+|turn|7
+|
+|t:|1685291056
+|move|p1a: Galvantula|Giga Drain|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|upkeep
+|
+|t:|1685291062
+|switch|p2a: Slowking|Slowking-Galar, L84, M|238/238
+|-activate|p2a: Slowking|move: Sticky Web
+|-unboost|p2a: Slowking|spe|1
+|turn|8
+|
+|t:|1685291073
+|move|p2a: Slowking|Flamethrower|p1a: Galvantula
+|-supereffective|p1a: Galvantula
+|-damage|p1a: Galvantula|39/249
+|move|p1a: Galvantula|Thunder|p2a: Slowking
+|-damage|p2a: Slowking|94/238
+|-status|p2a: Slowking|par
+|replace|p2a: Zoroark|Zoroark, L84, M
+|-end|p2a: Zoroark|Illusion
+|
+|upkeep
+|turn|9
+|
+|t:|1685291079
+|move|p1a: Galvantula|Bug Buzz|p2a: Zoroark
+|-supereffective|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|
+|upkeep
+|
+|t:|1685291092
+|switch|p2a: Slowking|Slowking-Galar, L84, M|297/297
+|-activate|p2a: Slowking|move: Sticky Web
+|-unboost|p2a: Slowking|spe|1
+|turn|10
+|
+|t:|1685291099
+|move|p1a: Galvantula|Thunder|p2a: Slowking
+|-damage|p2a: Slowking|209/297
+|move|p2a: Slowking|Sludge Bomb|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|-heal|p2a: Slowking|227/297|[from] item: Black Sludge
+|upkeep
+|
+|t:|1685291106
+|switch|p1a: Throh|Throh, L86, M|347/347
+|-damage|p1a: Throh|326/347|[from] Stealth Rock
+|turn|11
+|
+|t:|1685291115
+|move|p1a: Throh|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|81/297
+|-enditem|p2a: Slowking|Black Sludge|[from] move: Knock Off|[of] p1a: Throh
+|move|p2a: Slowking|Sludge Bomb|p1a: Throh
+|-damage|p1a: Throh|217/347
+|
+|-heal|p1a: Throh|238/347|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|☆TheBugsHaveArrived|Huh so it wasn't zoroark
+|
+|t:|1685291128
+|move|p1a: Throh|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-heal|p1a: Throh|259/347|[from] item: Leftovers
+|upkeep
+|
+|t:|1685291133
+|switch|p2a: Magmortar|Magmortar, L86, F|269/269
+|turn|13
+|
+|t:|1685291158
+|move|p2a: Magmortar|Psychic|p1a: Throh
+|-supereffective|p1a: Throh
+|-damage|p1a: Throh|85/347
+|move|p1a: Throh|Knock Off|p2a: Magmortar
+|-damage|p2a: Magmortar|175/269
+|-enditem|p2a: Magmortar|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Throh
+|
+|-heal|p1a: Throh|106/347|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685291165
+|move|p2a: Magmortar|Psychic|p1a: Throh
+|-supereffective|p1a: Throh
+|-crit|p1a: Throh
+|-damage|p1a: Throh|0 fnt
+|faint|p1a: Throh
+|
+|upkeep
+|
+|t:|1685291169
+|switch|p1a: Clefable|Clefable, L82, F|290/290
+|turn|15
+|
+|t:|1685291179
+|move|p2a: Magmortar|Fire Blast|p1a: Clefable
+|-damage|p1a: Clefable|139/290
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|upkeep
+|turn|16
+|
+|t:|1685291206
+|move|p2a: Magmortar|Taunt|p1a: Clefable
+|-start|p1a: Clefable|move: Taunt
+|cant|p1a: Clefable|move: Taunt|Soft-Boiled
+|
+|upkeep
+|turn|17
+|
+|t:|1685291227
+|move|p2a: Magmortar|Fire Blast|p1a: Clefable
+|-damage|p1a: Clefable|34/290
+|move|p1a: Clefable|Moonblast|p2a: Magmortar
+|-resisted|p2a: Magmortar
+|-damage|p2a: Magmortar|92/269
+|
+|upkeep
+|turn|18
+|
+|t:|1685291258
+|move|p2a: Magmortar|Psychic|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|t:|1685291260
+|switch|p1a: Tapu Lele|Tapu Lele, L79|240/240
+|-damage|p1a: Tapu Lele|210/240|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|19
+|
+|t:|1685291269
+|move|p1a: Tapu Lele|Psychic|p2a: Magmortar
+|-damage|p2a: Magmortar|0 fnt
+|faint|p2a: Magmortar
+|-damage|p1a: Tapu Lele|186/240|[from] item: Life Orb
+|
+|upkeep
+|j|+Javitu
+|
+|t:|1685291273
+|switch|p2a: Cinccino|Cinccino, L84, M|263/263
+|-activate|p2a: Cinccino|move: Sticky Web
+|-unboost|p2a: Cinccino|spe|1
+|turn|20
+|
+|t:|1685291282
+|-start|p1a: Tapu Lele|Dynamax|
+|-heal|p1a: Tapu Lele|372/480|[silent]
+|-start|p2a: Cinccino|Dynamax|
+|-heal|p2a: Cinccino|526/526|[silent]
+|move|p1a: Tapu Lele|Max Mindstorm|p2a: Cinccino
+|-damage|p2a: Cinccino|206/526
+|-damage|p1a: Tapu Lele|348/480|[from] item: Life Orb
+|move|p2a: Cinccino|Max Strike|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|137/480
+|-unboost|p1a: Tapu Lele|spe|1
+|-damage|p2a: Cinccino|180/526|[from] item: Life Orb
+|
+|upkeep
+|turn|21
+|
+|t:|1685291295
+|move|p1a: Tapu Lele|Max Guard|p1a: Tapu Lele
+|-singleturn|p1a: Tapu Lele|Max Guard
+|move|p2a: Cinccino|Max Strike|p1a: Tapu Lele
+|-activate|p1a: Tapu Lele|move: Max Guard
+|
+|upkeep
+|turn|22
+|
+|t:|1685291301
+|move|p2a: Cinccino|Max Strike|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|0 fnt
+|faint|p1a: Tapu Lele
+|-damage|p2a: Cinccino|154/526|[from] item: Life Orb
+|
+|win|TheBugsHaveArrived
+|c|☆TheBugsHaveArrived|ggwp
+|c|☆Irpachuza!|ggs
+|c|☆TheBugsHaveArrived|wow I didn't think I'd win
+|l|☆Irpachuza!
+|c|☆TheBugsHaveArrived|that was really close
+|l|☆TheBugsHaveArrived
+|l|+Javitu
+|j|☆TheBugsHaveArrived
+|player|p2|TheBugsHaveArrived|bugsy

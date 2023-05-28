@@ -1,0 +1,92 @@
+|j|☆Big ol Tim
+|j|☆jfjrr
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1685289063
+|gametype|singles
+|j|*Lady Monita
+|player|p1|Big ol Tim|swimmer|
+|player|p2|jfjrr|brendan-contest|
+|teamsize|p1|3
+|teamsize|p2|3
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Terrakion, L78|
+|poke|p1|Chansey, L84, F|
+|poke|p1|Drampa, L86, M|
+|poke|p2|Kyurem-White, L74|
+|poke|p2|Relicanth, L86, M|
+|poke|p2|Regidrago, L78|
+|teampreview|1
+|j| DragonPhoenix333
+|
+|t:|1685289079
+|start
+|switch|p1a: Terrakion|Terrakion, L78|270/270
+|switch|p2a: Regidrago|Regidrago, L78|440/440
+|turn|1
+|
+|t:|1685289090
+|-start|p1a: Terrakion|Dynamax|
+|-heal|p1a: Terrakion|540/540|[silent]
+|-start|p2a: Regidrago|Dynamax|
+|-heal|p2a: Regidrago|880/880|[silent]
+|move|p1a: Terrakion|Max Knuckle|p2a: Regidrago
+|-damage|p2a: Regidrago|638/880
+|-boost|p1a: Terrakion|atk|1
+|-damage|p1a: Terrakion|513/540|[from] item: Life Orb
+|move|p2a: Regidrago|Max Wyrmwind|p1a: Terrakion
+|-damage|p1a: Terrakion|314/540
+|-unboost|p1a: Terrakion|atk|1
+|
+|upkeep
+|turn|2
+|
+|t:|1685289097
+|move|p1a: Terrakion|Max Knuckle|p2a: Regidrago
+|-damage|p2a: Regidrago|391/880
+|-boost|p1a: Terrakion|atk|1
+|-damage|p1a: Terrakion|287/540|[from] item: Life Orb
+|move|p2a: Regidrago|Max Knuckle|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|167/540
+|-boost|p2a: Regidrago|atk|1
+|
+|upkeep
+|turn|3
+|
+|t:|1685289105
+|move|p1a: Terrakion|Max Guard|p1a: Terrakion
+|-singleturn|p1a: Terrakion|Max Guard
+|move|p2a: Regidrago|Max Wyrmwind|p1a: Terrakion
+|-activate|p1a: Terrakion|move: Max Guard
+|
+|upkeep
+|-end|p1a: Terrakion|Dynamax
+|-heal|p1a: Terrakion|84/270|[silent]
+|-end|p2a: Regidrago|Dynamax
+|-heal|p2a: Regidrago|196/440|[silent]
+|turn|4
+|
+|t:|1685289114
+|move|p1a: Terrakion|Close Combat|p2a: Regidrago
+|-damage|p2a: Regidrago|0 fnt
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|faint|p2a: Regidrago
+|-damage|p1a: Terrakion|57/270|[from] item: Life Orb
+|
+|win|Big ol Tim
+|n|☆Big ol Tim|bigoltim
+|n|☆jfjrr|jfjrr
+|n|*Lady Monita|ladymonita
+|n| DragonPhoenix333|dragonphoenix333
+|l|*Lady Monita
+|l|☆jfjrr
+|l|☆Big ol Tim
+|l| DragonPhoenix333
+|j| Juytre

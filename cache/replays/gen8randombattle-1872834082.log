@@ -1,0 +1,278 @@
+|j|☆Irpachuza!
+|j|☆TheBugsHaveArrived
+|t:|1685290576
+|gametype|singles
+|player|p1|Irpachuza!|#irpachuza|
+|player|p2|TheBugsHaveArrived|bugsy|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685290576
+|start
+|switch|p1a: Frosmoth|Frosmoth, L82, F|249/249
+|switch|p2a: Moltres|Moltres-Galar, L75|259/259
+|turn|1
+|c|☆Irpachuza!|glhf
+|
+|t:|1685290594
+|switch|p1a: Hippowdon|Hippowdon, L80, F|304/304
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Moltres|Nasty Plot|p2a: Moltres
+|-boost|p2a: Moltres|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|243/259|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1685290645
+|move|p2a: Moltres|Fiery Wrath|p1a: Hippowdon
+|-damage|p1a: Hippowdon|118/304
+|cant|p1a: Hippowdon|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|227/259|[from] Sandstorm
+|-heal|p1a: Hippowdon|137/304|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685290658
+|switch|p1a: Gigalith|Gigalith, L82, F|274/274
+|move|p2a: Moltres|Fiery Wrath|p1a: Gigalith
+|-crit|p1a: Gigalith
+|-damage|p1a: Gigalith|97/274
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|211/259|[from] Sandstorm
+|-heal|p1a: Gigalith|114/274|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685290666
+|move|p2a: Moltres|Fiery Wrath|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|faint|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|195/259|[from] Sandstorm
+|upkeep
+|
+|t:|1685290675
+|switch|p1a: Kyurem|Kyurem-White, L74|307/307
+|-ability|p1a: Kyurem|Turboblaze
+|turn|5
+|
+|t:|1685290692
+|move|p1a: Kyurem|Ice Beam|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|-weather|none
+|upkeep
+|
+|t:|1685290699
+|switch|p2a: Stonjourner|Stonjourner, L88, F|319/319
+|turn|6
+|
+|t:|1685290708
+|switch|p1a: Hippowdon|Hippowdon, L80, F|137/304
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Stonjourner|Rock Polish|p2a: Stonjourner
+|-boost|p2a: Stonjourner|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|156/304|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685290716
+|move|p2a: Stonjourner|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|47/304
+|-damage|p2a: Stonjourner|288/319|[from] item: Life Orb
+|move|p1a: Hippowdon|Earthquake|p2a: Stonjourner
+|-supereffective|p2a: Stonjourner
+|-damage|p2a: Stonjourner|132/319
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|66/304|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685290722
+|move|p2a: Stonjourner|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|-damage|p2a: Stonjourner|101/319|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1685290729
+|switch|p1a: Pangoro|Pangoro, L84, F|297/297
+|turn|9
+|
+|t:|1685290736
+|move|p2a: Stonjourner|Stone Edge|p1a: Pangoro
+|-resisted|p1a: Pangoro
+|-damage|p1a: Pangoro|200/297
+|-damage|p2a: Stonjourner|70/319|[from] item: Life Orb
+|move|p1a: Pangoro|Knock Off|p2a: Stonjourner
+|-damage|p2a: Stonjourner|0 fnt
+|-enditem|p2a: Stonjourner|Life Orb|[from] move: Knock Off|[of] p1a: Pangoro
+|faint|p2a: Stonjourner
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pangoro|182/297|[from] Sandstorm
+|upkeep
+|c|☆TheBugsHaveArrived|I forgot fighting resisted :(
+|
+|t:|1685290762
+|switch|p2a: Whimsicott|Whimsicott, L84, F|238/238
+|turn|10
+|c|☆Irpachuza!|u u
+|
+|t:|1685290777
+|move|p2a: Whimsicott|Leech Seed|p1a: Pangoro
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Pangoro
+|move|p1a: Pangoro|Knock Off|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|151/238
+|-enditem|p2a: Whimsicott|Leftovers|[from] move: Knock Off|[of] p1a: Pangoro
+|
+|-weather|none
+|upkeep
+|turn|11
+|c|☆TheBugsHaveArrived|huh you didn't switch
+|
+|t:|1685290790
+|switch|p1a: Frosmoth|Frosmoth, L82, F|249/249
+|move|p2a: Whimsicott|Moonblast|p1a: Frosmoth
+|-damage|p1a: Frosmoth|208/249
+|
+|upkeep
+|turn|12
+|
+|t:|1685290800
+|move|p2a: Whimsicott|U-turn|p1a: Frosmoth
+|-damage|p1a: Frosmoth|152/249
+|
+|t:|1685290806
+|switch|p2a: Magnezone|Magnezone, L84|255/255|[from] U-turn
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|
+|upkeep
+|turn|13
+|
+|t:|1685290816
+|switch|p1a: Pangoro|Pangoro, L84, F|182/297
+|move|p2a: Magnezone|Flash Cannon|p1a: Pangoro
+|-damage|p1a: Pangoro|62/297
+|
+|upkeep
+|turn|14
+|
+|t:|1685290823
+|move|p2a: Magnezone|Thunderbolt|p1a: Pangoro
+|-damage|p1a: Pangoro|0 fnt
+|faint|p1a: Pangoro
+|
+|upkeep
+|
+|t:|1685290828
+|switch|p1a: Kyurem|Kyurem-White, L74|307/307
+|-ability|p1a: Kyurem|Turboblaze
+|turn|15
+|
+|t:|1685290834
+|move|p1a: Kyurem|Fusion Flare|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|139/255
+|move|p2a: Magnezone|Flash Cannon|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|67/307
+|
+|upkeep
+|turn|16
+|
+|t:|1685290842
+|move|p1a: Kyurem|Fusion Flare|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|27/255
+|move|p2a: Magnezone|Mirror Coat|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|t:|1685290846
+|switch|p1a: Frosmoth|Frosmoth, L82, F|152/249
+|turn|17
+|
+|t:|1685290853
+|move|p1a: Frosmoth|Bug Buzz|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|upkeep
+|
+|t:|1685290860
+|switch|p2a: Sandslash|Sandslash-Alola, L86, F|269/269
+|turn|18
+|
+|t:|1685290868
+|move|p2a: Sandslash|Swords Dance|p2a: Sandslash
+|-boost|p2a: Sandslash|atk|2
+|move|p1a: Frosmoth|Bug Buzz|p2a: Sandslash
+|-resisted|p2a: Sandslash
+|-damage|p2a: Sandslash|208/269
+|
+|upkeep
+|turn|19
+|
+|t:|1685290881
+|-start|p2a: Sandslash|Dynamax|
+|-heal|p2a: Sandslash|416/538|[silent]
+|move|p2a: Sandslash|Max Steelspike|p1a: Frosmoth
+|-supereffective|p1a: Frosmoth
+|-damage|p1a: Frosmoth|0 fnt
+|-boost|p2a: Sandslash|def|1
+|faint|p1a: Frosmoth
+|-damage|p2a: Sandslash|390/538|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685290884
+|switch|p1a: Pheromosa|Pheromosa, L75|230/230
+|turn|20
+|
+|t:|1685290917
+|-start|p1a: Pheromosa|Dynamax|
+|-heal|p1a: Pheromosa|460/460|[silent]
+|move|p1a: Pheromosa|Max Knuckle|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|140/538
+|-boost|p1a: Pheromosa|atk|1
+|move|p2a: Sandslash|Max Hailstorm|p1a: Pheromosa
+|-damage|p1a: Pheromosa|0 fnt
+|-weather|Hail
+|faint|p1a: Pheromosa
+|-damage|p2a: Sandslash|114/538|[from] item: Life Orb
+|
+|win|TheBugsHaveArrived
+|c|☆TheBugsHaveArrived|ggwp
+|c|☆Irpachuza!|gg
+|l|☆Irpachuza!
+|l|☆TheBugsHaveArrived
+|j|☆TheBugsHaveArrived
+|player|p2|TheBugsHaveArrived|bugsy
