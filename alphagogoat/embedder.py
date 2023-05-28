@@ -18,14 +18,7 @@ from .pokedex import POKEDEX
 # from pokedex import POKEDEX
 # from catalogs import Item, VolatileStatus, SIDE_COND_MAP, Ability, MoveEnum
 
-
-MAX_MOVES = 8
-MAX_ABILITIES = 3
-MAX_ITEMS = 6
-BOOSTABLE_STATS = ['atk', 'def', 'spa', 'spd', 'spe']
-DEFAULT_EVS = 84
-EVS_PER_INC = 4
-DEFAULT_IVS = 31
+from .constants import MAX_MOVES,MAX_ABILITIES, MAX_ITEMS, BOOSTABLE_STATS, DEFAULT_EVS, DEFAULT_IVS, EVS_PER_INC
 
 
 def process_input_log(input_log):
@@ -92,7 +85,8 @@ class Embedder:
     def __init__(self):
         pass
 
-    def _embed_conditions(self, battle: Battle) -> torch.FloatTensor:
+    @staticmethod
+    def embed_conditions(battle: Battle) -> torch.FloatTensor:
         # takes in a battle object, and returns a tensor filled with the 
         # side conditions of both sides, field, and weather of both sides
         embed = []

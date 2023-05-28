@@ -11,9 +11,10 @@ from poke_env.environment.battle import Battle
 from tqdm.auto import tqdm
 
 from alphagogoat.catalogs import MoveEnum
-from alphagogoat.constants import LSTM_INPUT_SIZE, device
+from alphagogoat.constants import LSTM_INPUT_SIZE, DEVICE
 from alphagogoat.delphox import Delphox, train
 from alphagogoat.embedder import get_team_histories
+from alphagogoat.utils import move_to_pred_vec_index
 
 LOGGER = logging.getLogger('poke-env')
 
@@ -44,13 +45,12 @@ def process_input_log(log):
             next_line = next_line.split(' ')
 
             if curr_line[1] == 'move':
-                out_me[MoveEnum[re.sub(r"\s|-|'", "", curr_line[2].lower())].value - 1] = 1
+                out_me[move_to_pred_vec_index(curr_line[2])] = 1
             elif curr_line[1] == 'switch':
                 out_me[-1] = 1
 
             if next_line[1] == 'move':
-                #print(re.sub(r"\s|-|'", "", next_line[2].lower()))
-                out_them[MoveEnum[re.sub(r"\s|-|'", "", next_line[2].lower())].value - 1] = 1
+                out_them[move_to_pred_vec_index(next_line[2])] = 1
             elif next_line[1] == 'switch':
                 out_them[-1] = 1
             i += 1
@@ -80,10 +80,18 @@ def make_data(filepath):
     return battles, h1, h2, move1, move2
 
 def main():
+    delphox_path = "delphox.pth"
     json_files = [filepath for filepath in Path("cache/replays").iterdir() if filepath.name.endswith('.json')]
-    dataset = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(json_files[:3]))
-    delphox = Delphox(LSTM_INPUT_SIZE).to(device=device)
-    train(delphox, dataset)
+    train_files, test_files = json_files[:-10], json_files[-10:]
+    # dataset = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(train_files))
+    dataset = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(train_files[:30]))  # SMALL
+    # dataset =[make_data(f) for f in tqdm(json_files[:3])]  # DEBUGGING
+    delphox = Delphox(LSTM_INPUT_SIZE).to(device=DEVICE)
+    if Path(delphox_path).exists():
+        delphox.load_state_dict(torch.load(delphox_path))
+        delphox.eval()
+    train(delphox, dataset, discount=0)
+    torch.save(delphox.state_dict(), delphox_path)
 
 
 if __name__ == "__main__":
