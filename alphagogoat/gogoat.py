@@ -6,11 +6,12 @@ import torch
 from gym.spaces import Space, Box
 from poke_env.environment.abstract_battle import AbstractBattle
 from poke_env.player import Gen8EnvSinglePlayer
+from poke_env.environment.battle import Battle
 
 
 class Node:
-    def __init__(self, state, parent=None):
-        self.state = state
+    def __init__(self, battle: Battle, parent=None):
+        self.state = battle
         self.parent = parent
         self.children = []
         self._number_of_visits = 0
@@ -24,6 +25,11 @@ class Node:
 
     def is_fully_expanded(self):
         return len(self.untried_actions()) == 0
+
+    def untried_actions(self):
+        return self.state.available_moves
+
+    
 
     def best_child(self, c_param=1.4):
         choices_weights = [
