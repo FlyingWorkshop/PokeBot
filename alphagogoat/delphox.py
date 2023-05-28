@@ -34,7 +34,12 @@ def make_x(turn: Battle, team1: dict[str: Pokemon], team2: dict[str: Pokemon]):
 
         # change the probability of seen moves to 100
         possible_moves = sorted(POKEDEX[species]['moves'].keys())
+        possible_moves = [re.sub(r"\s|-|'", "", m.lower()) for m in possible_moves]
         for move in t1_pokemon.moves:
+            if move == 'powerwhip':
+                print(t1_pokemon)
+                print(turn.battle_tag)
+                print(possible_moves)
             i = possible_moves.index(move)
             moveset[i, 0] = 1
         moves.append(moveset)
@@ -48,10 +53,11 @@ def make_x(turn: Battle, team1: dict[str: Pokemon], team2: dict[str: Pokemon]):
                     moveset[i, 0] = 0
 
 
-    for species, t2_pokemon in team2.values():
+    for species, t2_pokemon in team2.items():
         pokemon.append(EMBEDDER.embed_pokemon(t2_pokemon).to(device=device))
         moveset = EMBEDDER.embed_moves_from_pokemon(t2_pokemon).to(device=device)
         possible_moves = sorted(POKEDEX[species]['moves'].keys())
+        possible_moves = [re.sub(r"\s|-|'", "", m.lower()) for m in possible_moves]
         for move in t2_pokemon.moves:
             i = possible_moves.index(move)
             moveset[i, 0] = 1
@@ -90,8 +96,8 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5):
             
             my_active, opponent_active = turn.active_pokemon, turn.opponent_active_pokemon
 
-            print(f"{team1=}")
-            print(f"{team2=}")
+            # print(f"{team1=}")
+            # print(f"{team2=}")
 
             my_moves = {} if my_active.species == 'typenull' else POKEDEX[my_active.species]['moves']
             opponent_moves = {} if opponent_active.species == 'typenull' else POKEDEX[opponent_active.species]['moves']

@@ -49,6 +49,9 @@ def _make_pokedex():
                 pokedex[species[:-4]] = pokedex[species]
                 del pokedex[species]
 
+    # TODO: union copperajah and copperajah-gmax possible moves
+    # TODO: check if any gmax pokemon have different movesets from the original
+
     pokedex['zygarde10'] = pokedex['zygarde10%']
     del pokedex['zygarde10%']
 
