@@ -74,7 +74,8 @@ def make_x(turn: Battle, team1: dict[str: Pokemon], team2: dict[str: Pokemon]):
     moves = F.pad(torch.stack(moves), (0, 0, 0, 0, 0, num_unknown_pokemon))
     # TODO: add prob modification and pp updates
 
-    x = torch.cat((pokemon, moves.flatten())).unsqueeze(0)
+    field_conditions = EMBEDDER._embed_conditions(turn).to(device=device)
+    x = torch.cat((pokemon, moves.flatten(), field_conditions)).unsqueeze(0)
     return x
 
 
