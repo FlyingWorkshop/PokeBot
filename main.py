@@ -80,7 +80,7 @@ def main():
     """
     TODO: ideas
     - include ELO in embedding (the model should have different predictions for skilled and unskilled players)
-    - less penalty for guessing the wrong move but correct type, category
+    - less penalty for guessing the wrong move but correct type, category (TODO: make this a damage multiplier difference instead)
     - heavier penalty for guessing switching incorrectly
     - make delphox deeper
     """
@@ -88,9 +88,9 @@ def main():
     json_files = [filepath for filepath in Path("cache/replays").iterdir() if filepath.name.endswith('.json')]
     train_files, test_files = json_files[:-10], json_files[-10:]
     random.shuffle(train_files)
-    # train_data = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(train_files))
+    train_data = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(train_files))
     # train_data = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(train_files[:100]))  # MEDIUM
-    train_data = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(train_files[:30]))  # SMALL
+    # train_data = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(train_files[:30]))  # SMALL
     # train_data = [make_data(f) for f in tqdm(json_files[:1])]  # SINGLE-PROCESS DEBUGGING
     delphox = Delphox(LSTM_INPUT_SIZE).to(device=DEVICE)
     if Path(delphox_path).exists():

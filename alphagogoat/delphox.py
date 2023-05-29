@@ -129,6 +129,7 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5):
             move2_name = pred_vec_to_string(move2)
             if move2_pred_name == 'switch' and move2_name != 'switch':  # punishes predicting switch
                 switch_loss = 1
+                type_loss = 1
             if move2_name != 'switch' and move2_pred_name != 'switch':
                 type_loss = int(Move(move2_pred_name, gen=8).type != Move(move2_name, gen=8).type)
 
@@ -146,8 +147,8 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5):
         total_wrong += num_wrong
         total_correct += num_correct
         print(f"###\n"
-              f"battle accuracy:\t{num_correct / (num_correct + num_wrong)}\n"
-              f"overall accuracy:\t{total_correct / (total_correct + total_wrong)}\n"
+              f"battle accuracy:\t{num_correct / (num_correct + num_wrong + 1e-10)}\n"
+              f"overall accuracy:\t{total_correct / (total_correct + total_wrong + 1e-10)}\n"
               f"###")
 
 
@@ -215,7 +216,7 @@ def evaluate(delphox, data):
         total_wrong += num_wrong
         total_correct += num_correct
         print(f"###\n"
-              f"battle accuracy:\t{num_correct / (num_correct + num_wrong)}\n"
-              f"overall accuracy:\t{total_correct / (total_correct + total_wrong)}\n"
+              f"battle accuracy:\t{num_correct / (num_correct + num_wrong + 1e-10)}\n"
+              f"overall accuracy:\t{total_correct / (total_correct + total_wrong + 1e-10)}\n"
               f"###")
 

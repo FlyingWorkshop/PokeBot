@@ -1,6 +1,69 @@
-mienshao uses uturn (woodhammer) against milotic
-volcanion uses steameruption (uturn) against milotic
-kommoo uses clangoroussoul (clangingscales) against reuniclus
-
-jirachi uses ironhead (switch) against zapdosgalar
-loss: 2.0
+### https://replay.pokemonshowdown.com/gen8randombattle-1862102090 ###
+clawitzer uses waterpulse (waterpulse) against mewtwo
+loss: 3.8548190593719482
+mewtwo uses psystrike (switch) against clawitzer
+loss: 3.85031795501709
+clawitzer uses waterpulse (switch) against tapukoko
+loss: 4.951975345611572
+tapukoko uses calmmind (thunderbolt) against clawitzer
+loss: 5.844917297363281
+turtonator uses willowisp (earthquake) against tapukoko
+loss: 6.339931011199951
+tapukoko uses calmmind (dazzlinggleam) against turtonator
+loss: 6.362693786621094
+turtonator uses willowisp (shellsmash) against mewtwo
+loss: 6.362414360046387
+mewtwo uses psystrike (nastyplot) against turtonator
+loss: 6.496946334838867
+turtonator uses willowisp (dracometeor) against mewtwo
+loss: 6.568877220153809
+mewtwo uses psystrike (psystrike) against turtonator
+loss: 5.441824913024902
+tornadus uses switch (hurricane) against mewtwo
+loss: 6.562487602233887
+mewtwo uses psystrike (psystrike) against tornadus
+loss: 5.460888862609863
+raikou uses calmmind (thunderbolt) against mewtwo
+loss: 6.564568042755127
+mewtwo uses switch (psystrike) against raikou
+loss: 7.698483467102051
+raikou uses thunderbolt (aurasphere) against druddigon
+loss: 6.612541198730469
+druddigon uses superpower (stealthrock) against raikou
+loss: 6.587649345397949
+raikou uses thunderbolt (aurasphere) against druddigon
+loss: 6.613536834716797
+druddigon uses superpower (earthquake) against raikou
+loss: 6.5301384925842285
+raikou uses thunderbolt (switch) against druddigon
+loss: 5.519461631774902
+druddigon uses superpower (earthquake) against raikou
+loss: 6.5282063484191895
+hitmontop uses switch (closecombat) against druddigon
+loss: 6.608379364013672
+druddigon uses superpower (outrage) against hitmontop
+loss: 6.618107795715332
+raikou uses thunderbolt (thunderbolt) against druddigon
+loss: 5.519590377807617
+druddigon uses superpower (outrage) against raikou
+loss: 6.61813497543335
+clawitzer uses waterpulse (switch) against luxray
+loss: 5.553013324737549
+luxray uses agility (switch) against clawitzer
+loss: 5.551581859588623
+clawitzer uses waterpulse (waterpulse) against luxray
+loss: 5.2887959480285645
+luxray uses superpower (wildcharge) against clawitzer
+loss: 6.613073348999023
+torkoal uses solarbeam (switch) against luxray
+loss: 5.507574081420898
+luxray uses superpower (facade) against torkoal
+loss: 6.6108078956604
+torkoal uses solarbeam (stealthrock) against scyther
+loss: 6.594513416290283
+scyther uses knockoff (voltswitch) against torkoal
+loss: 6.704089641571045
+clawitzer uses waterpulse (lavaplume) against scyther
+loss: 6.704362392425537
+scyther uses knockoff (dualwingbeat) against clawitzer
+loss: 6.559532642364502
