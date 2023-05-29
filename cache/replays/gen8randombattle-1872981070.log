@@ -1,0 +1,209 @@
+|j|☆kaos'll
+|j|☆gareeb adani
+|t:|1685308238
+|gametype|singles
+|player|p1|kaos'll|hilda|1366
+|player|p2|gareeb adani|2|1523
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685308238
+|start
+|switch|p1a: Arctovish|Arctovish, L86|295/295
+|switch|p2a: Dhelmise|Dhelmise, L86|261/261
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gareeb adani)
+|
+|t:|1685308267
+|switch|p1a: Marowak|Marowak-Alola, L84, M|238/238
+|move|p2a: Dhelmise|Power Whip|p1a: Marowak
+|-resisted|p1a: Marowak
+|-damage|p1a: Marowak|135/238
+|
+|upkeep
+|turn|2
+|
+|t:|1685308290
+|switch|p2a: Grapploct|Grapploct, L86, M|278/278
+|move|p1a: Marowak|Poltergeist|p2a: Grapploct
+|-activate|p2a: Grapploct|move: Poltergeist|Life Orb
+|-damage|p2a: Grapploct|100/278
+|
+|upkeep
+|turn|3
+|
+|t:|1685308299
+|move|p2a: Grapploct|Sucker Punch|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|8/238
+|-damage|p2a: Grapploct|73/278|[from] item: Life Orb
+|move|p1a: Marowak|Poltergeist|p2a: Grapploct|[miss]
+|-miss|p1a: Marowak|p2a: Grapploct
+|
+|upkeep
+|turn|4
+|
+|t:|1685308315
+|switch|p1a: Ditto|Ditto, L76|198/198
+|-transform|p1a: Ditto|p2a: Grapploct|[from] ability: Imposter
+|move|p2a: Grapploct|Drain Punch|p1a: Ditto
+|-damage|p1a: Ditto|85/198
+|-heal|p2a: Grapploct|130/278|[from] drain|[of] p1a: Ditto
+|-damage|p2a: Grapploct|103/278|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|t:|1685308325
+|move|p1a: Ditto|Drain Punch|p2a: Grapploct
+|-damage|p2a: Grapploct|24/278
+|-heal|p1a: Ditto|125/198|[from] drain|[of] p2a: Grapploct
+|move|p2a: Grapploct|Drain Punch|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|-heal|p2a: Grapploct|87/278|[from] drain|[of] p1a: Ditto
+|faint|p1a: Ditto
+|-damage|p2a: Grapploct|60/278|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685308338
+|switch|p1a: Marowak|Marowak-Alola, L84, M|8/238
+|turn|6
+|
+|t:|1685308342
+|move|p2a: Grapploct|Sucker Punch|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|-damage|p2a: Grapploct|33/278|[from] item: Life Orb
+|
+|upkeep
+|inactive|kaos'll has 120 seconds left.
+|
+|t:|1685308370
+|switch|p1a: Stonjourner|Stonjourner, L88, M|319/319
+|turn|7
+|
+|t:|1685308374
+|move|p1a: Stonjourner|Earthquake|p2a: Grapploct
+|-damage|p2a: Grapploct|0 fnt
+|faint|p2a: Grapploct
+|-damage|p1a: Stonjourner|288/319|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685308379
+|switch|p2a: Oranguru|Oranguru, L86, M|295/295
+|turn|8
+|
+|t:|1685308387
+|move|p1a: Stonjourner|Stone Edge|p2a: Oranguru
+|-damage|p2a: Oranguru|118/295
+|-damage|p1a: Stonjourner|257/319|[from] item: Life Orb
+|move|p2a: Oranguru|Focus Blast|p1a: Stonjourner
+|-supereffective|p1a: Stonjourner
+|-crit|p1a: Stonjourner
+|-damage|p1a: Stonjourner|0 fnt
+|faint|p1a: Stonjourner
+|
+|-heal|p2a: Oranguru|136/295|[from] item: Leftovers
+|upkeep
+|
+|t:|1685308401
+|switch|p1a: Arctovish|Arctovish, L86|295/295
+|turn|9
+|
+|t:|1685308407
+|move|p2a: Oranguru|Thunderbolt|p1a: Arctovish
+|-supereffective|p1a: Arctovish
+|-damage|p1a: Arctovish|209/295
+|-status|p1a: Arctovish|par
+|cant|p1a: Arctovish|par
+|
+|-heal|p2a: Oranguru|154/295|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685308413
+|move|p2a: Oranguru|Nasty Plot|p2a: Oranguru
+|-boost|p2a: Oranguru|spa|2
+|cant|p1a: Arctovish|par
+|
+|-heal|p2a: Oranguru|172/295|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1685308417
+|move|p2a: Oranguru|Psychic|p1a: Arctovish
+|-damage|p1a: Arctovish|92/295 par
+|-unboost|p1a: Arctovish|spd|1
+|move|p1a: Arctovish|Fishious Rend|p2a: Oranguru
+|-damage|p2a: Oranguru|84/295
+|
+|-heal|p2a: Oranguru|102/295|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685308423
+|move|p2a: Oranguru|Psychic|p1a: Arctovish
+|-damage|p1a: Arctovish|0 fnt
+|faint|p1a: Arctovish
+|
+|-heal|p2a: Oranguru|120/295|[from] item: Leftovers
+|upkeep
+|
+|t:|1685308427
+|switch|p1a: Dracovish|Dracovish, L80|275/275
+|turn|13
+|
+|t:|1685308437
+|move|p1a: Dracovish|Crunch|p2a: Oranguru
+|-supereffective|p2a: Oranguru
+|-damage|p2a: Oranguru|0 fnt
+|faint|p2a: Oranguru
+|
+|upkeep
+|
+|t:|1685308440
+|switch|p2a: Eiscue|Eiscue, L82, F|256/256
+|turn|14
+|
+|t:|1685308446
+|move|p1a: Dracovish|Crunch|p2a: Eiscue
+|-activate|p2a: Eiscue|ability: Ice Face
+|-damage|p2a: Eiscue|256/256
+|-unboost|p2a: Eiscue|def|1
+|detailschange|p2a: Eiscue|Eiscue-Noice, L82, F
+|move|p2a: Eiscue|Belly Drum|p2a: Eiscue
+|-damage|p2a: Eiscue|128/256
+|-setboost|p2a: Eiscue|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Eiscue|Sitrus Berry|[eat]
+|-heal|p2a: Eiscue|192/256|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|15
+|
+|t:|1685308459
+|-start|p2a: Eiscue|Dynamax|
+|-heal|p2a: Eiscue|384/512|[silent]
+|move|p2a: Eiscue|Max Hailstorm|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|-weather|Hail
+|-activate|p2a: Eiscue|ability: Ice Face
+|detailschange|p2a: Eiscue|Eiscue, L82, F
+|faint|p1a: Dracovish
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|-message|kaos'll forfeited.
+|
+|win|gareeb adani
+|raw|kaos&apos;ll's rating: 1366 &rarr; <strong>1355</strong><br />(-11 for losing)
+|raw|gareeb adani's rating: 1535 &rarr; <strong>1546</strong><br />(+11 for winning)
+|l|☆kaos'll

@@ -1,0 +1,122 @@
+|j|☆Sayaam Ali
+|j|☆gareeb adani
+|t:|1685308727
+|gametype|singles
+|player|p1|Sayaam Ali|ethan|1394
+|player|p2|gareeb adani|2|1546
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685308727
+|start
+|switch|p1a: Diggersby|Diggersby, L80, F|267/267
+|switch|p2a: Grimmsnarl|Grimmsnarl, L82, M|290/290
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sayaam Ali)
+|
+|t:|1685308752
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: gareeb adani|Reflect
+|move|p1a: Diggersby|Swords Dance|p1a: Diggersby
+|-boost|p1a: Diggersby|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1685308760
+|switch|p2a: Rotom|Rotom-Frost, L84|221/221
+|move|p1a: Diggersby|Body Slam|p2a: Rotom
+|-damage|p2a: Rotom|86/221
+|-damage|p1a: Diggersby|241/267|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|inactive|Sayaam Ali has 120 seconds left.
+|
+|t:|1685308800
+|switch|p1a: Thievul|Thievul, L86, F|261/261
+|move|p2a: Rotom|Blizzard|p1a: Thievul
+|-damage|p1a: Thievul|144/261
+|-status|p1a: Thievul|frz
+|
+|-heal|p1a: Thievul|160/261 frz|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685308816
+|cant|p1a: Thievul|frz
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|-heal|p1a: Thievul|176/261 frz|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685308823
+|cant|p1a: Thievul|frz
+|move|p2a: Rotom|Thunderbolt|p1a: Thievul
+|-damage|p1a: Thievul|0 fnt
+|faint|p1a: Thievul
+|
+|upkeep
+|
+|t:|1685308844
+|switch|p1a: Doublade|Doublade, L82, M|231/231
+|turn|6
+|
+|t:|1685308850
+|move|p2a: Rotom|Thunderbolt|p1a: Doublade
+|-damage|p1a: Doublade|42/231
+|move|p1a: Doublade|Swords Dance|p1a: Doublade
+|-boost|p1a: Doublade|atk|2
+|
+|upkeep
+|turn|7
+|
+|t:|1685308861
+|move|p2a: Rotom|Thunderbolt|p1a: Doublade
+|-damage|p1a: Doublade|0 fnt
+|faint|p1a: Doublade
+|
+|upkeep
+|
+|t:|1685308872
+|switch|p1a: Kingler|Kingler, L84, M|230/230
+|turn|8
+|
+|t:|1685308877
+|move|p2a: Rotom|Thunderbolt|p1a: Kingler
+|-supereffective|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|faint|p1a: Kingler
+|
+|-sideend|p2: gareeb adani|Reflect
+|upkeep
+|
+|t:|1685308881
+|switch|p1a: Haxorus|Haxorus, L77, F|244/244
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|9
+|
+|t:|1685308886
+|move|p1a: Haxorus|Dragon Dance|p1a: Haxorus
+|-boost|p1a: Haxorus|atk|1
+|-boost|p1a: Haxorus|spe|1
+|move|p2a: Rotom|Blizzard|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|upkeep
+|-message|Sayaam Ali forfeited.
+|
+|win|gareeb adani
+|raw|Sayaam Ali's rating: 1394 &rarr; <strong>1383</strong><br />(-11 for losing)
+|raw|gareeb adani's rating: 1567 &rarr; <strong>1578</strong><br />(+11 for winning)
+|l|☆Sayaam Ali

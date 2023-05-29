@@ -256,7 +256,7 @@ class Embedder:
 
         data = POKEDEX[pokemon.species]
         embedding = [
-            pokemon.current_hp,
+            pokemon.current_hp or 0,  # handles when current_hp is None
             pokemon.current_hp_fraction,
             pokemon.first_turn,
             pokemon.is_dynamaxed,
@@ -294,10 +294,10 @@ class Embedder:
         # effects
         effects = [0] * len(Effect)
         for effect in pokemon.effects:
-            effects[effect.value] = 1
+            effects[effect.value - 1] = 1
 
         # stats
-        stats = pokemon.base_stats
+        stats = pokemon.base_stats.copy()
         for stat, val in stats.items():
             if stat != 'hp':
                 stats[stat] = val + 1 * pokemon.boosts[stat]

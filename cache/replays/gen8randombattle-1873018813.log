@@ -1,0 +1,319 @@
+|j|☆MushroomButPokemon
+|j|☆KeanuVGC
+|t:|1685313058
+|gametype|singles
+|player|p1|MushroomButPokemon|2|
+|player|p2|KeanuVGC|serena-masters3|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685313058
+|start
+|switch|p1a: Arcanine|Arcanine, L82, F|282/282
+|switch|p2a: Pyukumuku|Pyukumuku, L84, F|230/230
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Pyukumuku|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KeanuVGC)
+|c|☆KeanuVGC|glhf
+|
+|t:|1685313082
+|move|p1a: Arcanine|Wild Charge|p2a: Pyukumuku
+|-supereffective|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|134/230
+|-damage|p1a: Arcanine|258/282|[from] Recoil
+|move|p2a: Pyukumuku|Toxic|p1a: Arcanine
+|-status|p1a: Arcanine|tox
+|
+|-heal|p2a: Pyukumuku|148/230|[from] item: Leftovers
+|-damage|p1a: Arcanine|241/282 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1685313088
+|switch|p1a: Regieleki|Regieleki, L78|253/253
+|move|p2a: Pyukumuku|Recover|p2a: Pyukumuku
+|-heal|p2a: Pyukumuku|230/230
+|
+|upkeep
+|turn|3
+|
+|t:|1685313107
+|switch|p2a: Golurk|Golurk, L82|280/280
+|move|p1a: Regieleki|Thunderbolt|p2a: Golurk
+|-immune|p2a: Golurk
+|
+|upkeep
+|turn|4
+|
+|t:|1685313121
+|switch|p1a: Hawlucha|Hawlucha, L80, M|256/256
+|move|p2a: Golurk|Rock Polish|p2a: Golurk
+|-boost|p2a: Golurk|spe|2
+|
+|upkeep
+|turn|5
+|
+|t:|1685313129
+|move|p2a: Golurk|Stone Edge|p1a: Hawlucha
+|-damage|p1a: Hawlucha|130/256
+|-damage|p2a: Golurk|252/280|[from] item: Life Orb
+|move|p1a: Hawlucha|Throat Chop|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|142/280
+|-start|p2a: Golurk|Throat Chop|[silent]
+|
+|upkeep
+|turn|6
+|
+|t:|1685313145
+|-start|p1a: Hawlucha|Dynamax|
+|-heal|p1a: Hawlucha|260/512|[silent]
+|move|p2a: Golurk|Poltergeist|p1a: Hawlucha
+|-activate|p1a: Hawlucha|move: Poltergeist|White Herb
+|-damage|p1a: Hawlucha|53/512
+|-damage|p2a: Golurk|114/280|[from] item: Life Orb
+|move|p1a: Hawlucha|Max Darkness|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|upkeep
+|inactive|KeanuVGC has 270 seconds left.
+|
+|t:|1685313169
+|switch|p2a: Pyukumuku|Pyukumuku, L84, F|230/230
+|turn|7
+|
+|t:|1685313174
+|move|p1a: Hawlucha|Max Airstream|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|133/230
+|-boost|p1a: Hawlucha|spe|1
+|move|p2a: Pyukumuku|Counter|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-heal|p2a: Pyukumuku|147/230|[from] item: Leftovers
+|upkeep
+|
+|t:|1685313176
+|switch|p1a: Regieleki|Regieleki, L78|253/253
+|turn|8
+|
+|t:|1685313189
+|switch|p2a: Coalossal|Coalossal, L87, M|333/333
+|move|p1a: Regieleki|Thunderbolt|p2a: Coalossal
+|-damage|p2a: Coalossal|183/333
+|
+|upkeep
+|turn|9
+|
+|t:|1685313194
+|move|p1a: Regieleki|Volt Switch|p2a: Coalossal
+|-damage|p2a: Coalossal|60/333
+|
+|t:|1685313203
+|switch|p1a: Arcanine|Arcanine, L82, F|241/282 tox|[from] Volt Switch
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Coalossal|atk|1
+|move|p2a: Coalossal|Stealth Rock|p1a: Arcanine
+|-sidestart|p1: MushroomButPokemon|move: Stealth Rock
+|
+|-damage|p1a: Arcanine|224/282 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1685313209
+|move|p1a: Arcanine|Wild Charge|p2a: Coalossal
+|-damage|p2a: Coalossal|12/333
+|-damage|p1a: Arcanine|212/282 tox|[from] Recoil
+|move|p2a: Coalossal|Stone Edge|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|72/282 tox
+|
+|-damage|p1a: Arcanine|38/282 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1685313214
+|move|p1a: Arcanine|Wild Charge|p2a: Coalossal
+|-crit|p2a: Coalossal
+|-damage|p2a: Coalossal|0 fnt
+|faint|p2a: Coalossal
+|-damage|p1a: Arcanine|35/282 tox|[from] Recoil
+|
+|-damage|p1a: Arcanine|0 fnt|[from] psn
+|faint|p1a: Arcanine
+|upkeep
+|
+|t:|1685313237
+|switch|p1a: Regieleki|Regieleki, L78|253/253
+|switch|p2a: Noivern|Noivern, L82, M|274/274
+|-damage|p1a: Regieleki|222/253|[from] Stealth Rock
+|turn|12
+|
+|t:|1685313245
+|move|p1a: Regieleki|Volt Switch|p2a: Noivern
+|-damage|p2a: Noivern|154/274
+|
+|t:|1685313248
+|switch|p1a: Froslass|Froslass, L84, F|255/255|[from] Volt Switch
+|-damage|p1a: Froslass|192/255|[from] Stealth Rock
+|move|p2a: Noivern|Draco Meteor|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|-unboost|p2a: Noivern|spa|2
+|faint|p1a: Froslass
+|
+|upkeep
+|
+|t:|1685313254
+|switch|p1a: Coalossal|Coalossal, L87, F|333/333
+|turn|13
+|
+|t:|1685313258
+|switch|p2a: Pyukumuku|Pyukumuku, L84, F|147/230
+|move|p1a: Coalossal|Stone Edge|p2a: Pyukumuku|[miss]
+|-miss|p1a: Coalossal|p2a: Pyukumuku
+|
+|-heal|p2a: Pyukumuku|161/230|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685313268
+|move|p1a: Coalossal|Rapid Spin|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|138/230
+|-boost|p1a: Coalossal|spe|1
+|-sideend|p1: MushroomButPokemon|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Coalossal
+|move|p2a: Pyukumuku|Toxic|p1a: Coalossal
+|-status|p1a: Coalossal|tox
+|
+|-heal|p2a: Pyukumuku|152/230|[from] item: Leftovers
+|-damage|p1a: Coalossal|313/333 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1685313276
+|switch|p1a: Regieleki|Regieleki, L78|222/253
+|move|p2a: Pyukumuku|Counter||[still]
+|-fail|p2a: Pyukumuku
+|
+|-heal|p2a: Pyukumuku|166/230|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685313288
+|move|p1a: Regieleki|Thunderbolt|p2a: Pyukumuku
+|-supereffective|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|0 fnt
+|faint|p2a: Pyukumuku
+|
+|upkeep
+|
+|t:|1685313293
+|switch|p2a: Virizion|Virizion, L82|283/283
+|turn|17
+|
+|t:|1685313322
+|move|p1a: Regieleki|Substitute|p1a: Regieleki
+|-start|p1a: Regieleki|Substitute
+|-damage|p1a: Regieleki|159/253
+|move|p2a: Virizion|Swords Dance|p2a: Virizion
+|-boost|p2a: Virizion|atk|2
+|
+|upkeep
+|turn|18
+|
+|t:|1685313335
+|move|p1a: Regieleki|Thunderbolt|p2a: Virizion
+|-resisted|p2a: Virizion
+|-damage|p2a: Virizion|220/283
+|move|p2a: Virizion|Leaf Blade|p1a: Regieleki
+|-end|p1a: Regieleki|Substitute
+|
+|upkeep
+|turn|19
+|
+|t:|1685313342
+|move|p1a: Regieleki|Explosion|p2a: Virizion
+|-damage|p2a: Virizion|28/283
+|faint|p1a: Regieleki
+|move|p2a: Virizion|Close Combat|p1: Regieleki|[notarget]
+|-fail|p2a: Virizion
+|
+|upkeep
+|
+|t:|1685313346
+|switch|p1a: Espeon|Espeon, L82, F|241/241
+|turn|20
+|
+|t:|1685313357
+|move|p1a: Espeon|Psychic|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|0 fnt
+|faint|p2a: Virizion
+|-damage|p1a: Espeon|217/241|[from] item: Life Orb
+|
+|upkeep
+|inactive|KeanuVGC has 270 seconds left.
+|
+|t:|1685313379
+|switch|p2a: Noivern|Noivern, L82, M|154/274
+|turn|21
+|inactive|KeanuVGC has 270 seconds left.
+|
+|t:|1685313401
+|switch|p1a: Coalossal|Coalossal, L87, F|313/333 tox
+|move|p2a: Noivern|Draco Meteor|p1a: Coalossal
+|-damage|p1a: Coalossal|132/333 tox
+|-unboost|p2a: Noivern|spa|2
+|
+|-damage|p1a: Coalossal|112/333 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1685313412
+|switch|p2a: Kabutops|Kabutops, L82, F|233/233
+|move|p1a: Coalossal|Stone Edge|p2a: Kabutops|[miss]
+|-miss|p1a: Coalossal|p2a: Kabutops
+|
+|-damage|p1a: Coalossal|72/333 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1685313430
+|switch|p1a: Espeon|Espeon, L82, F|217/241
+|move|p2a: Kabutops|Liquidation|p1a: Espeon
+|-damage|p1a: Espeon|94/241
+|
+|upkeep
+|turn|24
+|
+|t:|1685313436
+|move|p1a: Espeon|Psychic|p2a: Kabutops
+|-damage|p2a: Kabutops|46/233
+|-damage|p1a: Espeon|70/241|[from] item: Life Orb
+|move|p2a: Kabutops|Liquidation|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|upkeep
+|
+|t:|1685313438
+|switch|p1a: Coalossal|Coalossal, L87, F|72/333 tox
+|turn|25
+|c|☆KeanuVGC|gg
+|inactive|KeanuVGC has 270 seconds left.
+|
+|t:|1685313444
+|move|p2a: Kabutops|Liquidation|p1a: Coalossal
+|-supereffective|p1a: Coalossal
+|-damage|p1a: Coalossal|0 fnt
+|faint|p1a: Coalossal
+|
+|win|KeanuVGC
+|l|☆MushroomButPokemon

@@ -1,7 +1,6 @@
 import json
 import logging
-import pickle
-import re
+import random
 from copy import deepcopy
 from pathlib import Path
 
@@ -13,7 +12,6 @@ from tqdm.auto import tqdm
 from alphagogoat.catalogs import MoveEnum
 from alphagogoat.constants import LSTM_INPUT_SIZE, DEVICE
 from alphagogoat.delphox import Delphox, train, evaluate
-from alphagogoat.embedder import get_team_histories
 from alphagogoat.utils import move_to_pred_vec_index
 
 LOGGER = logging.getLogger('poke-env')
@@ -68,35 +66,37 @@ def make_data(filepath):
     battles = []
     b = Battle(replay['id'], replay['p1'], LOGGER, 8)
     b._opponent_username = replay['p2']
-    b.fainted = set()
-    b.opponent_fainted = set()
     for line in history:
         try:
             b._parse_message(line.split('|'))
-            if b.active_pokemon.fainted:
-                b.fainted.add(b.active_pokemon.species)
-            if b.opponent_active_pokemon.fainted:
-                b.opponent_fainted.add(b.opponent_active_pokemon.species)
             if line.split('|')[1] == 'turn':
                 battles.append(deepcopy(b))
         except:
             continue
     move1, move2 = process_input_log(replay)
-    h1, h2 = get_team_histories(battles)
-    return battles, h1, h2, move1, move2
+    return battles, move1, move2
 
 def main():
+    """
+    TODO: ideas
+    - include ELO in embedding (the model should have different predictions for skilled and unskilled players)
+    - less penalty for guessing the wrong move but correct type, category
+    - heavier penalty for guessing switching incorrectly
+    - make delphox deeper
+    """
     delphox_path = "delphox.pth"
     json_files = [filepath for filepath in Path("cache/replays").iterdir() if filepath.name.endswith('.json')]
     train_files, test_files = json_files[:-10], json_files[-10:]
+    random.shuffle(train_files)
     # train_data = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(train_files))
-    # train_data = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(train_files[:30]))  # SMALL
-    train_data = [make_data(f) for f in tqdm(json_files[:1])]  # SINGLE-PROCESS DEBUGGING
+    # train_data = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(train_files[:100]))  # MEDIUM
+    train_data = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(train_files[:30]))  # SMALL
+    # train_data = [make_data(f) for f in tqdm(json_files[:1])]  # SINGLE-PROCESS DEBUGGING
     delphox = Delphox(LSTM_INPUT_SIZE).to(device=DEVICE)
     if Path(delphox_path).exists():
         delphox.load_state_dict(torch.load(delphox_path))
         delphox.eval()
-    train(delphox, train_data, discount=0)
+    train(delphox, train_data, lr=0.01, discount=0.3)
     torch.save(delphox.state_dict(), delphox_path)
     test_data = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(test_files))
     evaluate(delphox, test_data)

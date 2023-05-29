@@ -1,0 +1,240 @@
+|j|☆Fbirdo
+|j|☆Estebanthe1
+|t:|1685311171
+|gametype|singles
+|player|p1|Fbirdo|101|1281
+|player|p2|Estebanthe1|102|1388
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685311171
+|start
+|switch|p1a: Genesect|Genesect, L74|227/227
+|switch|p2a: Doublade|Doublade, L82, M|231/231
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Estebanthe1)
+|
+|t:|1685311197
+|switch|p1a: Cramorant|Cramorant, L84, F|255/255
+|switch|p2a: Noivern|Noivern, L82, F|274/274
+|
+|upkeep
+|turn|2
+|
+|t:|1685311205
+|move|p2a: Noivern|Hurricane|p1a: Cramorant|[miss]
+|-miss|p2a: Noivern|p1a: Cramorant
+|move|p1a: Cramorant|Surf|p2a: Noivern
+|-formechange|p1a: Cramorant|Cramorant-Gulping|
+|-resisted|p2a: Noivern
+|-damage|p2a: Noivern|223/274
+|
+|upkeep
+|turn|3
+|
+|t:|1685311213
+|move|p2a: Noivern|Hurricane|p1a: Cramorant|[miss]
+|-miss|p2a: Noivern|p1a: Cramorant
+|move|p1a: Cramorant|Roost||[still]
+|-fail|p1a: Cramorant|heal
+|
+|upkeep
+|turn|4
+|
+|t:|1685311226
+|move|p2a: Noivern|Hurricane|p1a: Cramorant
+|-damage|p1a: Cramorant|155/255
+|-start|p1a: Cramorant|confusion
+|-damage|p2a: Noivern|155/274|[from] ability: Gulp Missile|[of] p1a: Cramorant
+|-unboost|p2a: Noivern|def|1
+|-formechange|p1a: Cramorant|Cramorant|
+|-activate|p1a: Cramorant|confusion
+|move|p1a: Cramorant|Surf|p2a: Noivern
+|-formechange|p1a: Cramorant|Cramorant-Gulping|
+|-resisted|p2a: Noivern
+|-damage|p2a: Noivern|109/274
+|
+|upkeep
+|turn|5
+|
+|t:|1685311238
+|switch|p2a: Metagross|Metagross, L79|256/256
+|-activate|p1a: Cramorant|confusion
+|-damage|p1a: Cramorant|121/255|[from] confusion
+|
+|upkeep
+|turn|6
+|
+|t:|1685311248
+|-end|p1a: Cramorant|confusion
+|move|p1a: Cramorant|Roost|p1a: Cramorant
+|-heal|p1a: Cramorant|249/255
+|-singleturn|p1a: Cramorant|move: Roost
+|move|p2a: Metagross|Agility|p2a: Metagross
+|-boost|p2a: Metagross|spe|2
+|
+|upkeep
+|turn|7
+|
+|t:|1685311257
+|move|p2a: Metagross|Thunder Punch|p1a: Cramorant
+|-supereffective|p1a: Cramorant
+|-damage|p1a: Cramorant|0 fnt
+|-damage|p2a: Metagross|192/256|[from] ability: Gulp Missile|[of] p1a: Cramorant
+|-fail|p2a: Metagross|unboost|[from] ability: Clear Body|[of] p2a: Metagross
+|-formechange|p1a: Cramorant|Cramorant|
+|faint|p1a: Cramorant
+|
+|upkeep
+|
+|t:|1685311284
+|switch|p1a: Registeel|Registeel, L83|268/268
+|turn|8
+|
+|t:|1685311295
+|-start|p2a: Metagross|Dynamax|
+|-heal|p2a: Metagross|384/512|[silent]
+|move|p2a: Metagross|Max Quake|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-crit|p1a: Registeel
+|-damage|p1a: Registeel|70/268
+|-boost|p2a: Metagross|spd|1
+|move|p1a: Registeel|Iron Head|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|359/512
+|
+|-heal|p1a: Registeel|86/268|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1685311309
+|switch|p1a: Emolga|Emolga, L88, F|240/240
+|move|p2a: Metagross|Max Steelspike|p1a: Emolga
+|-resisted|p1a: Emolga
+|-damage|p1a: Emolga|146/240
+|-boost|p2a: Metagross|def|1
+|
+|upkeep
+|turn|10
+|
+|t:|1685311319
+|switch|p1a: Genesect|Genesect, L74|227/227
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|move|p2a: Metagross|Max Steelspike|p1a: Genesect
+|-resisted|p1a: Genesect
+|-damage|p1a: Genesect|140/227
+|-boost|p2a: Metagross|def|1
+|
+|upkeep
+|-end|p2a: Metagross|Dynamax
+|-heal|p2a: Metagross|180/256|[silent]
+|turn|11
+|inactive|Fbirdo has 120 seconds left.
+|
+|t:|1685311336
+|move|p2a: Metagross|Earthquake|p1a: Genesect
+|-damage|p1a: Genesect|58/227
+|move|p1a: Genesect|Leech Life|p2a: Metagross
+|-damage|p2a: Metagross|140/256
+|-heal|p1a: Genesect|78/227|[from] drain|[of] p2a: Metagross
+|-damage|p1a: Genesect|56/227|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|inactive|Fbirdo has 120 seconds left.
+|
+|t:|1685311354
+|switch|p1a: Emolga|Emolga, L88, F|146/240
+|move|p2a: Metagross|Meteor Mash|p1a: Emolga
+|-resisted|p1a: Emolga
+|-damage|p1a: Emolga|75/240
+|-boost|p2a: Metagross|atk|1
+|
+|upkeep
+|turn|13
+|inactive|Fbirdo has 120 seconds left.
+|
+|t:|1685311365
+|move|p2a: Metagross|Meteor Mash|p1a: Emolga
+|-resisted|p1a: Emolga
+|-damage|p1a: Emolga|0 fnt
+|-boost|p2a: Metagross|atk|1
+|faint|p1a: Emolga
+|
+|upkeep
+|
+|t:|1685311373
+|switch|p1a: Registeel|Registeel, L83|86/268
+|turn|14
+|inactive|Fbirdo has 120 seconds left.
+|
+|t:|1685311387
+|move|p2a: Metagross|Earthquake|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|0 fnt
+|faint|p1a: Registeel
+|
+|upkeep
+|
+|t:|1685311392
+|switch|p1a: Genesect|Genesect, L74|56/227
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|turn|15
+|
+|t:|1685311397
+|move|p2a: Metagross|Earthquake|p1a: Genesect
+|-damage|p1a: Genesect|0 fnt
+|faint|p1a: Genesect
+|
+|upkeep
+|
+|t:|1685311401
+|switch|p1a: Gardevoir|Gardevoir, L82, F|246/246
+|-ability|p1a: Gardevoir|Clear Body|[from] ability: Trace|[of] p2a: Metagross
+|turn|16
+|
+|t:|1685311408
+|move|p2a: Metagross|Meteor Mash|p1a: Gardevoir
+|-supereffective|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|upkeep
+|
+|t:|1685311413
+|switch|p1a: Carbink|Carbink, L86|226/226
+|turn|17
+|c|☆Fbirdo|Welp
+|
+|t:|1685311432
+|move|p2a: Metagross|Earthquake|p1a: Carbink
+|-supereffective|p1a: Carbink
+|-damage|p1a: Carbink|28/226
+|move|p1a: Carbink|Body Press|p2a: Metagross
+|-damage|p2a: Metagross|109/256
+|
+|upkeep
+|turn|18
+|c|☆Estebanthe1|gg
+|
+|t:|1685311440
+|move|p2a: Metagross|Earthquake|p1a: Carbink
+|-supereffective|p1a: Carbink
+|-crit|p1a: Carbink
+|-damage|p1a: Carbink|0 fnt
+|faint|p1a: Carbink
+|
+|win|Estebanthe1
+|raw|Fbirdo's rating: 1281 &rarr; <strong>1263</strong><br />(-18 for losing)
+|raw|Estebanthe1's rating: 1388 &rarr; <strong>1402</strong><br />(+14 for winning)
+|l|☆Fbirdo

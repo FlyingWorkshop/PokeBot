@@ -1,0 +1,359 @@
+|j|☆deaniedean
+|j|☆gareeb adani
+|t:|1685306782
+|gametype|singles
+|player|p1|deaniedean|266|1497
+|player|p2|gareeb adani|2|1532
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685306782
+|start
+|switch|p1a: Morpeko|Morpeko, L86, M|240/240
+|switch|p2a: Machamp|Machamp, L82, M|282/282
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by deaniedean)
+|
+|t:|1685306795
+|move|p1a: Morpeko|Parting Shot|p2a: Machamp
+|-unboost|p2a: Machamp|atk|1
+|-unboost|p2a: Machamp|spa|1
+|
+|t:|1685306805
+|switch|p1a: Celebi|Celebi, L82|298/298|[from] Parting Shot
+|move|p2a: Machamp|Close Combat|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|249/298
+|-unboost|p2a: Machamp|def|1
+|-unboost|p2a: Machamp|spd|1
+|
+|-heal|p1a: Celebi|267/298|[from] item: Leftovers
+|-status|p2a: Machamp|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1685306827
+|switch|p2a: Spiritomb|Spiritomb, L88, F|231/231
+|move|p1a: Celebi|Psychic|p2a: Spiritomb
+|-immune|p2a: Spiritomb
+|
+|-heal|p1a: Celebi|285/298|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685306844
+|switch|p1a: Morpeko|Morpeko, L86, M|240/240
+|move|p2a: Spiritomb|Poltergeist|p1a: Morpeko
+|-activate|p1a: Morpeko|move: Poltergeist|Leftovers
+|-resisted|p1a: Morpeko
+|-damage|p1a: Morpeko|111/240
+|
+|-heal|p1a: Morpeko|126/240|[from] item: Leftovers
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|4
+|
+|t:|1685306851
+|switch|p2a: Eldegoss|Eldegoss, L90, F|254/254
+|move|p1a: Morpeko|Aura Wheel|p2a: Eldegoss
+|-damage|p2a: Eldegoss|148/254
+|-boost|p1a: Morpeko|spe|1
+|
+|-heal|p1a: Morpeko|141/240|[from] item: Leftovers
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|5
+|
+|t:|1685306858
+|move|p1a: Morpeko|Parting Shot|p2a: Eldegoss
+|-unboost|p2a: Eldegoss|atk|1
+|-unboost|p2a: Eldegoss|spa|1
+|
+|t:|1685306861
+|switch|p1a: Celebi|Celebi, L82|285/298|[from] Parting Shot
+|move|p2a: Eldegoss|Pollen Puff|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|125/298
+|
+|-heal|p1a: Celebi|143/298|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685306865
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|292/298
+|move|p2a: Eldegoss|Pollen Puff|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|136/298
+|
+|-heal|p1a: Celebi|154/298|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685306874
+|switch|p1a: Frosmoth|Frosmoth, L82, F|249/249
+|move|p2a: Eldegoss|Pollen Puff|p1a: Frosmoth
+|-damage|p1a: Frosmoth|229/249
+|
+|upkeep
+|turn|8
+|
+|t:|1685306880
+|move|p2a: Eldegoss|Sleep Powder|p1a: Frosmoth
+|-status|p1a: Frosmoth|slp|[from] move: Sleep Powder
+|cant|p1a: Frosmoth|slp
+|
+|upkeep
+|turn|9
+|
+|t:|1685306883
+|switch|p2a: Machamp|Machamp, L82, M|282/282 brn
+|cant|p1a: Frosmoth|slp
+|
+|-damage|p2a: Machamp|265/282 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1685306886
+|-curestatus|p1a: Frosmoth|slp|[msg]
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|move|p2a: Machamp|Facade|p1a: Frosmoth
+|-damage|p1a: Frosmoth|0 fnt
+|faint|p1a: Frosmoth
+|
+|-damage|p2a: Machamp|248/282 brn|[from] brn
+|upkeep
+|
+|t:|1685306891
+|switch|p1a: Braviary|Braviary, L82, M|298/298
+|turn|11
+|
+|t:|1685306898
+|switch|p2a: Tentacruel|Tentacruel, L84, M|272/272
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|
+|upkeep
+|turn|12
+|
+|t:|1685306903
+|-start|p1a: Braviary|Dynamax|
+|-heal|p1a: Braviary|596/596|[silent]
+|move|p2a: Tentacruel|Haze|p2a: Tentacruel
+|-clearallboost
+|move|p1a: Braviary|Max Airstream|p2a: Tentacruel
+|-damage|p2a: Tentacruel|79/272
+|-boost|p1a: Braviary|spe|1
+|
+|-heal|p2a: Tentacruel|96/272|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1685306915
+|move|p1a: Braviary|Max Airstream|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|-boost|p1a: Braviary|spe|1
+|faint|p2a: Tentacruel
+|
+|upkeep
+|inactive|gareeb adani has 120 seconds left.
+|
+|t:|1685306969
+|switch|p2a: Spiritomb|Spiritomb, L88, F|231/231
+|turn|14
+|
+|t:|1685306972
+|move|p1a: Braviary|Max Airstream|p2a: Spiritomb
+|-damage|p2a: Spiritomb|83/231
+|-boost|p1a: Braviary|spe|1
+|move|p2a: Spiritomb|Foul Play|p1a: Braviary
+|-damage|p1a: Braviary|365/596
+|
+|upkeep
+|-end|p1a: Braviary|Dynamax
+|-heal|p1a: Braviary|183/298|[silent]
+|turn|15
+|
+|t:|1685306983
+|move|p1a: Braviary|Brave Bird|p2a: Spiritomb
+|-damage|p2a: Spiritomb|0 fnt
+|faint|p2a: Spiritomb
+|-damage|p1a: Braviary|156/298|[from] Recoil
+|
+|upkeep
+|
+|t:|1685306990
+|switch|p2a: Xatu|Xatu, L89, F|260/260
+|turn|16
+|
+|t:|1685307002
+|-start|p2a: Xatu|Dynamax|
+|-heal|p2a: Xatu|520/520|[silent]
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|move|p2a: Xatu|Max Mindstorm|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|-fieldstart|move: Psychic Terrain
+|faint|p1a: Braviary
+|
+|upkeep
+|
+|t:|1685307006
+|switch|p1a: Morpeko|Morpeko, L86, M|141/240
+|turn|17
+|
+|t:|1685307020
+|move|p2a: Xatu|Max Flare|p1a: Morpeko
+|-damage|p1a: Morpeko|15/240
+|-weather|SunnyDay
+|move|p1a: Morpeko|Aura Wheel|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|256/520
+|-boost|p1a: Morpeko|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Morpeko|30/240|[from] item: Leftovers
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|18
+|
+|t:|1685307027
+|move|p1a: Morpeko|Aura Wheel|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|2/520
+|-boost|p1a: Morpeko|spe|1
+|move|p2a: Xatu|Max Flare|p1a: Morpeko
+|-damage|p1a: Morpeko|0 fnt
+|faint|p1a: Morpeko
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685307029
+|switch|p1a: Regieleki|Regieleki, L78|253/253
+|-end|p2a: Xatu|Dynamax
+|-heal|p2a: Xatu|1/260|[silent]
+|turn|19
+|
+|t:|1685307038
+|switch|p2a: Eldegoss|Eldegoss, L90, F|232/254
+|move|p1a: Regieleki|Thunderbolt|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|175/254
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1685307041
+|move|p1a: Regieleki|Substitute|p1a: Regieleki
+|-start|p1a: Regieleki|Substitute
+|-damage|p1a: Regieleki|190/253
+|move|p2a: Eldegoss|Pollen Puff|p1a: Regieleki
+|-end|p1a: Regieleki|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|21
+|
+|t:|1685307044
+|move|p1a: Regieleki|Volt Switch|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|133/254
+|
+|t:|1685307050
+|switch|p1a: Celebi|Celebi, L82|154/298|[from] Volt Switch
+|move|p2a: Eldegoss|Pollen Puff|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|-weather|none
+|upkeep
+|
+|t:|1685307052
+|switch|p1a: Regieleki|Regieleki, L82|233/233
+|turn|22
+|
+|t:|1685307067
+|switch|p2a: Xatu|Xatu, L89, F|1/260
+|move|p1a: Regieleki|Nasty Plot|p1a: Regieleki
+|-boost|p1a: Regieleki|spa|2
+|
+|upkeep
+|turn|23
+|
+|t:|1685307071
+|move|p2a: Xatu|Heat Wave|p1a: Regieleki
+|-damage|p1a: Regieleki|126/233
+|replace|p1a: Zoroark|Zoroark, L82, F
+|-end|p1a: Zoroark|Illusion
+|move|p1a: Zoroark|Dark Pulse|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|faint|p2a: Xatu
+|-damage|p1a: Zoroark|103/233|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685307078
+|switch|p2a: Eldegoss|Eldegoss, L90, F|217/254
+|turn|24
+|
+|t:|1685307084
+|switch|p2a: Vileplume|Vileplume, L84, F|263/263
+|move|p1a: Zoroark|Sludge Bomb|p2a: Vileplume
+|-damage|p2a: Vileplume|72/263
+|-damage|p1a: Zoroark|80/233|[from] item: Life Orb
+|
+|-heal|p2a: Vileplume|88/263|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|t:|1685307087
+|move|p1a: Zoroark|Flamethrower|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|-damage|p1a: Zoroark|57/233|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685307090
+|switch|p2a: Machamp|Machamp, L82, M|248/282 brn
+|turn|26
+|
+|t:|1685307095
+|move|p2a: Machamp|Bullet Punch|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|faint|p1a: Zoroark
+|
+|-damage|p2a: Machamp|231/282 brn|[from] brn
+|upkeep
+|
+|t:|1685307097
+|switch|p1a: Regieleki|Regieleki, L78|190/253
+|turn|27
+|
+|t:|1685307099
+|move|p1a: Regieleki|Thunderbolt|p2a: Machamp
+|-damage|p2a: Machamp|74/282 brn
+|move|p2a: Machamp|Facade|p1a: Regieleki
+|-damage|p1a: Regieleki|0 fnt
+|faint|p1a: Regieleki
+|
+|win|gareeb adani
+|raw|deaniedean's rating: 1497 &rarr; <strong>1478</strong><br />(-19 for losing)
+|raw|gareeb adani's rating: 1511 &rarr; <strong>1530</strong><br />(+19 for winning)
