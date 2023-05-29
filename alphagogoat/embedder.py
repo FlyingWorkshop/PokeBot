@@ -1,3 +1,8 @@
+"""
+NOTE: doctests are outdated!
+
+# TODO: ask Adam if we handle battle.maybe_trapped, battle.can_dynamx, etc. (battle attributes)
+"""
 import copy
 import json
 import logging
@@ -19,42 +24,6 @@ from .pokedex import POKEDEX
 # from catalogs import Item, VolatileStatus, SIDE_COND_MAP, Ability, MoveEnum
 
 from .constants import MAX_MOVES,MAX_ABILITIES, MAX_ITEMS, BOOSTABLE_STATS, DEFAULT_EVS, DEFAULT_IVS, EVS_PER_INC
-
-
-def process_input_log(input_log):
-    start = 0
-    for line in input_log:
-        if line.startswith('>p1'):
-            break
-        start += 1
-
-    input_log = input_log[start:]
-    out = []
-
-    for i in range(len(input_log) - 1):
-        curr_line = input_log[i]
-        next_line = input_log[i+1]
-        if curr_line.startswith('>p1') and next_line.startswith('>p2'): # that means this is a normal turn with no fainting or anything
-            out_me = torch.zeros(len(MoveEnum) + 1)
-            out_them = torch.zeros(len(MoveEnum) + 1)
-            curr_line = curr_line.split(' ')
-            next_line = next_line.split(' ')
-
-            if curr_line[1] == 'move':
-                out_me[MoveEnum[curr_line[2].lower()].value - 1] = 1
-            elif curr_line[1] == 'switch':
-                out_me[-1] = 1
-
-            if next_line[1] == 'move':
-                out_them[MoveEnum[next_line[2].lower()].value - 1] = 1
-            elif next_line[1] == 'switch':
-                out_them[-1] = 1
-            i += 1
-            out.append(torch.cat((out_me, out_them)))
-        else:
-            continue
-
-    return out
 
 
 def process_battle(battle_json: str) -> list[Battle]:
@@ -288,8 +257,14 @@ class Embedder:
         data = POKEDEX[pokemon.species]
         embedding = [
             pokemon.current_hp,
-            # TODO: handle is first turn
+            pokemon.current_hp_fraction,
+            pokemon.first_turn,
+            pokemon.is_dynamaxed,
             pokemon.level,
+            pokemon.must_recharge,
+            pokemon.preparing,
+            # TODO: handle preparing move,
+            pokemon.protect_counter,
             pokemon.type_1.value,
             -1 if pokemon.type_2 is None else pokemon.type_2.value,
             -1 if pokemon.status is None else pokemon.status.value,
@@ -299,14 +274,21 @@ class Embedder:
 
         # abilities
         abilities = []
-        for ability, prob in data['abilities'].items():
-            abilities += [prob, Ability[ability].value]
+        if pokemon.ability == 'unknown_ability' or pokemon.ability is None:
+            for ability, prob in data['abilities'].items():
+                abilities += [prob, Ability[ability].value]
+        else:
+            abilities += [1, Ability[pokemon.ability].value]
         abilities += [0] * (2 * MAX_ABILITIES - len(abilities))
 
         # items
+        # TODO: handle knocked off items
         items = []
-        for item, prob in data['items'].items():
-            items += [prob, Item[item].value]
+        if pokemon.item == 'unknown_item' or pokemon.item is None:
+            for item, prob in data['items'].items():
+                items += [prob, Item[item].value]
+        else:
+            items += [1, Item[pokemon.item].value]
         items += [0] * (2 * MAX_ITEMS - len(items))
 
         # effects
@@ -317,9 +299,8 @@ class Embedder:
         # stats
         stats = pokemon.base_stats
         for stat, val in stats.items():
-            if stat == 'hp':
-                continue
-            stats[stat] = val + 1 * pokemon.boosts[stat]
+            if stat != 'hp':
+                stats[stat] = val + 1 * pokemon.boosts[stat]
             if 'evs' in data:
                 evs = DEFAULT_EVS
                 if stat in data['evs']:

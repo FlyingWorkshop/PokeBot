@@ -29,6 +29,7 @@ def _make_pokedex():
                         continue
                     for k2, prob in dict_.items():
                         if k2 not in d:
+                            k2 = re.sub(r"\s|-|'|\(|\)", "", k2.lower())
                             d[k2] = []
                         d[k2].append(prob)
                 for k2, probs in d.items():

@@ -12,7 +12,7 @@ from tqdm.auto import tqdm
 
 from alphagogoat.catalogs import MoveEnum
 from alphagogoat.constants import LSTM_INPUT_SIZE, DEVICE
-from alphagogoat.delphox import Delphox, train
+from alphagogoat.delphox import Delphox, train, evaluate
 from alphagogoat.embedder import get_team_histories
 from alphagogoat.utils import move_to_pred_vec_index
 
@@ -68,9 +68,15 @@ def make_data(filepath):
     battles = []
     b = Battle(replay['id'], replay['p1'], LOGGER, 8)
     b._opponent_username = replay['p2']
+    b.fainted = set()
+    b.opponent_fainted = set()
     for line in history:
         try:
             b._parse_message(line.split('|'))
+            if b.active_pokemon.fainted:
+                b.fainted.add(b.active_pokemon.species)
+            if b.opponent_active_pokemon.fainted:
+                b.opponent_fainted.add(b.opponent_active_pokemon.species)
             if line.split('|')[1] == 'turn':
                 battles.append(deepcopy(b))
         except:
@@ -83,15 +89,18 @@ def main():
     delphox_path = "delphox.pth"
     json_files = [filepath for filepath in Path("cache/replays").iterdir() if filepath.name.endswith('.json')]
     train_files, test_files = json_files[:-10], json_files[-10:]
-    # dataset = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(train_files))
-    dataset = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(train_files[:30]))  # SMALL
-    # dataset =[make_data(f) for f in tqdm(json_files[:3])]  # DEBUGGING
+    # train_data = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(train_files))
+    # train_data = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(train_files[:30]))  # SMALL
+    train_data = [make_data(f) for f in tqdm(json_files[:1])]  # SINGLE-PROCESS DEBUGGING
     delphox = Delphox(LSTM_INPUT_SIZE).to(device=DEVICE)
     if Path(delphox_path).exists():
         delphox.load_state_dict(torch.load(delphox_path))
         delphox.eval()
-    train(delphox, dataset, discount=0)
+    train(delphox, train_data, discount=0)
     torch.save(delphox.state_dict(), delphox_path)
+    test_data = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(test_files))
+    evaluate(delphox, test_data)
+
 
 
 if __name__ == "__main__":

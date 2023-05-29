@@ -66,27 +66,32 @@ def get_moveset(species, moves):
     return moveset
 
 
-def train(delphox: Delphox, data, lr=0.001, discount=0.5):
+def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5):
     assert 0 <= discount <= 1
-    optimizer = torch.optim.Adam(delphox.parameters(), lr=lr)
+    optimizer = torch.optim.Adam(delphox.parameters(), lr=lr, weight_decay=weight_decay)
     torch.autograd.set_detect_anomaly(True)
     for turns, history1, history2, moves1, moves2 in data:
-
-        # TODO: have representations of the future
-        
         hidden1_0 = (torch.randn(2, Delphox.LSTM_OUTPUT_SIZE), torch.randn(2, Delphox.LSTM_OUTPUT_SIZE))
         hidden2_0 = (torch.randn(2, Delphox.LSTM_OUTPUT_SIZE), torch.randn(2, Delphox.LSTM_OUTPUT_SIZE))
-
         hidden1_t = hidden1_0
         hidden2_t = hidden2_0
-
+        print(f"### https://replay.pokemonshowdown.com/{turns[0].battle_tag}")
         for i, (turn, team1, team2, move1, move2) in enumerate(zip(turns, history1, history2, moves1, moves2)):
+            print(f"Turn {i+1}")
             gamma = 1 - discount / math.exp(i)
+            for pokemon in turn.all_active_pokemons:
+                print(f"{pokemon.species}: \n\t{pokemon.current_hp=}\n\t{pokemon.current_hp_fraction=}\n\t{pokemon.fainted=}")
+                print(f"{turn.available_switches=}")
+                print(f"{turn.fields=}")
+                print(f"{turn.weather=}")
+                print(f"{turn.fainted=}")
+                print(f"{turn.team=}")
+                print(f"{turn.opponent_team}")
 
             x1 = make_x(turn, team1, team2)
             move1_pred, hidden1_t_next = delphox(x1, hidden1_t)
             move1_pred = move1_pred.squeeze(0)
-            mask = get_mask(move1_pred, team1, turn.active_pokemon)
+            mask = get_mask(move1_pred, team1, turn.active_pokemon, turn.fainted)
             move1_pred = torch.mul(move1_pred, mask)
             move1_pred = torch.where(move1_pred == 0, torch.tensor(-1e10), move1_pred)
             move1_pred = F.softmax(move1_pred, dim=0)
@@ -100,7 +105,7 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5):
             x2 = make_x(turn, team2, team1)
             move2_pred, hidden2_t_next = delphox(x2, hidden2_t)
             move2_pred = move2_pred.squeeze(0)
-            mask = get_mask(move2_pred, team2, turn.opponent_active_pokemon)
+            mask = get_mask(move2_pred, team2, turn.opponent_active_pokemon, turn.opponent_fainted)
             move2_pred = torch.mul(move2_pred, mask)
             move2_pred = torch.where(move2_pred == 0, torch.tensor(-1e10), move2_pred)
             move2_pred = F.softmax(move2_pred, dim=0)
@@ -111,7 +116,8 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5):
             L.backward(retain_graph=True)
             optimizer.step()
 
-def get_mask(move_pred, team, active):
+
+def get_mask(move_pred, team: dict[str: Pokemon], active: Pokemon, fainted):
     moves = POKEDEX[active.species]['moves']
     predicted_move_indices = []
     seen_moves = team[active.species].moves
@@ -122,9 +128,54 @@ def get_mask(move_pred, team, active):
     else:
         for m in moves:
             predicted_move_indices.append(move_to_pred_vec_index(m))
-    # TODO: check if pokemon are still unfeinted
-    predicted_move_indices.append(len(MoveEnum))
+    if len(fainted) < 5:
+        predicted_move_indices.append(len(MoveEnum))
     predicted_move_indices = torch.tensor(predicted_move_indices, dtype=torch.int64).to(device=DEVICE)
     mask = torch.zeros_like(move_pred).to(device=DEVICE)
     mask.scatter_(0, predicted_move_indices, 1)
     return mask
+
+
+def evaluate(delphox, data):
+    total_correct = 0
+    total_wrong = 0
+    for turns, history1, history2, moves1, moves2 in data:
+        hidden1_0 = (torch.randn(2, Delphox.LSTM_OUTPUT_SIZE), torch.randn(2, Delphox.LSTM_OUTPUT_SIZE))
+        hidden2_0 = (torch.randn(2, Delphox.LSTM_OUTPUT_SIZE), torch.randn(2, Delphox.LSTM_OUTPUT_SIZE))
+
+        hidden1_t = hidden1_0
+        hidden2_t = hidden2_0
+
+        num_correct = 0
+        num_wrong = 0
+        for i, (turn, team1, team2, move1, move2) in enumerate(zip(turns, history1, history2, moves1, moves2)):
+            x1 = make_x(turn, team1, team2)
+            move1_pred, hidden1_t_next = delphox(x1, hidden1_t)
+            move1_pred = move1_pred.squeeze(0)
+            mask = get_mask(move1_pred, team1, turn.active_pokemon)
+            move1_pred = torch.mul(move1_pred, mask)
+            move1_pred = torch.where(move1_pred == 0, torch.tensor(-1e10), move1_pred)
+            move1_pred = F.softmax(move1_pred, dim=0)
+            print(f"{turn.active_pokemon.species} uses {pred_vec_to_string(move1_pred)} ({pred_vec_to_string(move1)}) against {turn.opponent_active_pokemon.species}")
+            if pred_vec_to_string(move1_pred) == {pred_vec_to_string(move1)}:
+                num_correct += 1
+            else:
+                num_wrong += 1
+
+            x2 = make_x(turn, team2, team1)
+            move2_pred, hidden2_t_next = delphox(x2, hidden2_t)
+            move2_pred = move2_pred.squeeze(0)
+            mask = get_mask(move2_pred, team2, turn.opponent_active_pokemon)
+            move2_pred = torch.mul(move2_pred, mask)
+            move2_pred = torch.where(move2_pred == 0, torch.tensor(-1e10), move2_pred)
+            move2_pred = F.softmax(move2_pred, dim=0)
+            print(
+                f"{turn.opponent_active_pokemon.species} uses {pred_vec_to_string(move2_pred)} ({pred_vec_to_string(move2)}) against {turn.active_pokemon.species}")
+            if pred_vec_to_string(move2_pred) == {pred_vec_to_string(move2)}:
+                num_correct += 1
+            else:
+                num_wrong += 1
+            total_wrong += num_wrong
+            total_correct += num_correct
+        print(f"###\nbattle accuracy:\t{num_correct / (num_correct + num_wrong)}\noverall accuracy:\t{total_correct / (total_correct + total_wrong)}\n###")
+
