@@ -1,0 +1,360 @@
+|j|☆Ruben219
+|j|☆La.hellhound
+|t:|1685394415
+|gametype|singles
+|player|p1|Ruben219|102|1343
+|player|p2|La.hellhound|bruno|1549
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685394415
+|start
+|switch|p1a: Carbink|Carbink, L86|226/226
+|switch|p2a: Lanturn|Lanturn, L86, F|243/243
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ruben219)
+|inactive|La.hellhound also wants the timer to be on.
+|
+|t:|1685394461
+|switch|p2a: Klefki|Klefki, L82, M|228/228
+|move|p1a: Carbink|Light Screen|p1a: Carbink
+|-sidestart|p1: Ruben219|move: Light Screen
+|
+|upkeep
+|turn|2
+|
+|t:|1685394470
+|move|p2a: Klefki|Spikes|p1a: Carbink
+|-sidestart|p1: Ruben219|Spikes
+|move|p1a: Carbink|Stealth Rock|p2a: Klefki
+|-sidestart|p2: La.hellhound|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1685394491
+|switch|p1a: Lanturn|Lanturn, L86, M|355/355
+|-damage|p1a: Lanturn|311/355|[from] Spikes
+|move|p2a: Klefki|Toxic|p1a: Lanturn
+|-status|p1a: Lanturn|tox
+|
+|-heal|p1a: Lanturn|333/355 tox|[from] item: Leftovers
+|-damage|p1a: Lanturn|311/355 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1685394502
+|move|p2a: Klefki|Spikes|p1a: Lanturn
+|-sidestart|p1: Ruben219|Spikes
+|move|p1a: Lanturn|Thunderbolt|p2a: Klefki
+|-crit|p2a: Klefki
+|-damage|p2a: Klefki|93/228
+|
+|-heal|p2a: Klefki|107/228|[from] item: Leftovers
+|-heal|p1a: Lanturn|333/355 tox|[from] item: Leftovers
+|-damage|p1a: Lanturn|289/355 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1685394512
+|switch|p2a: Lanturn|Lanturn, L86, F|355/355
+|-damage|p2a: Lanturn|311/355|[from] Stealth Rock
+|move|p1a: Lanturn|Thunderbolt|p2a: Lanturn
+|-heal|p2a: Lanturn|355/355|[from] ability: Volt Absorb|[of] p1a: Lanturn
+|
+|-heal|p1a: Lanturn|311/355 tox|[from] item: Leftovers
+|-damage|p1a: Lanturn|245/355 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1685394531
+|switch|p2a: Klefki|Klefki, L82, M|107/228
+|-damage|p2a: Klefki|93/228|[from] Stealth Rock
+|move|p1a: Lanturn|Toxic|p2a: Klefki
+|-immune|p2a: Klefki
+|
+|-heal|p2a: Klefki|107/228|[from] item: Leftovers
+|-heal|p1a: Lanturn|267/355 tox|[from] item: Leftovers
+|-damage|p1a: Lanturn|179/355 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1685394542
+|switch|p2a: Lanturn|Lanturn, L86, F|355/355
+|-damage|p2a: Lanturn|311/355|[from] Stealth Rock
+|switch|p1a: Carbink|Carbink, L86|226/226
+|-damage|p1a: Carbink|189/226|[from] Spikes
+|
+|-heal|p2a: Lanturn|333/355|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685394551
+|switch|p2a: Klefki|Klefki, L82, M|107/228
+|-damage|p2a: Klefki|93/228|[from] Stealth Rock
+|move|p1a: Carbink|Light Screen||[still]
+|-fail|p1a: Carbink
+|
+|-heal|p2a: Klefki|107/228|[from] item: Leftovers
+|-sideend|p1: Ruben219|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1685394560
+|move|p2a: Klefki|Toxic|p1a: Carbink
+|-status|p1a: Carbink|tox
+|move|p1a: Carbink|Reflect|p1a: Carbink
+|-sidestart|p1: Ruben219|Reflect
+|
+|-heal|p2a: Klefki|121/228|[from] item: Leftovers
+|-damage|p1a: Carbink|175/226 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1685394569
+|switch|p1a: Lanturn|Lanturn, L86, M|179/355 tox
+|-damage|p1a: Lanturn|120/355 tox|[from] Spikes
+|move|p2a: Klefki|Spikes|p1a: Lanturn
+|-sidestart|p1: Ruben219|Spikes
+|
+|-heal|p2a: Klefki|135/228|[from] item: Leftovers
+|-heal|p1a: Lanturn|142/355 tox|[from] item: Leftovers
+|-damage|p1a: Lanturn|120/355 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1685394582
+|move|p2a: Klefki|Play Rough|p1a: Lanturn
+|-damage|p1a: Lanturn|69/355 tox
+|move|p1a: Lanturn|Scald|p2a: Klefki
+|-crit|p2a: Klefki
+|-damage|p2a: Klefki|12/228
+|
+|-heal|p2a: Klefki|26/228|[from] item: Leftovers
+|-heal|p1a: Lanturn|91/355 tox|[from] item: Leftovers
+|-damage|p1a: Lanturn|47/355 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1685394593
+|move|p2a: Klefki|Play Rough|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|faint|p1a: Lanturn
+|
+|-heal|p2a: Klefki|40/228|[from] item: Leftovers
+|upkeep
+|
+|t:|1685394603
+|switch|p1a: Eternatus|Eternatus, L69|308/308
+|-damage|p1a: Eternatus|231/308|[from] Spikes
+|-ability|p1a: Eternatus|Pressure
+|turn|13
+|
+|t:|1685394626
+|switch|p2a: Centiskorch|Centiskorch, L84, M|305/305
+|move|p1a: Eternatus|Flamethrower|p2a: Centiskorch
+|-start|p2a: Centiskorch|ability: Flash Fire
+|
+|upkeep
+|turn|14
+|
+|t:|1685394638
+|switch|p1a: Carbink|Carbink, L86|175/226 tox
+|-damage|p1a: Carbink|119/226 tox|[from] Spikes
+|move|p2a: Centiskorch|Fire Lash|p1a: Carbink
+|-resisted|p1a: Carbink
+|-damage|p1a: Carbink|98/226 tox
+|-unboost|p1a: Carbink|def|1
+|
+|-damage|p1a: Carbink|84/226 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1685394649
+|-end|p2a: Centiskorch|ability: Flash Fire|[silent]
+|switch|p2a: Klefki|Klefki, L82, M|40/228
+|-damage|p2a: Klefki|26/228|[from] Stealth Rock
+|move|p1a: Carbink|Moonblast|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|-damage|p1a: Carbink|56/226 tox|[from] psn
+|upkeep
+|
+|t:|1685394663
+|switch|p2a: Lanturn|Lanturn, L86, F|333/355
+|-damage|p2a: Lanturn|289/355|[from] Stealth Rock
+|turn|16
+|
+|t:|1685394668
+|move|p2a: Lanturn|Scald|p1a: Carbink
+|-supereffective|p1a: Carbink
+|-damage|p1a: Carbink|0 fnt
+|faint|p1a: Carbink
+|
+|-heal|p2a: Lanturn|311/355|[from] item: Leftovers
+|-sideend|p1: Ruben219|Reflect
+|upkeep
+|
+|t:|1685394674
+|switch|p1a: Ludicolo|Ludicolo, L86, M|278/278
+|-damage|p1a: Ludicolo|209/278|[from] Spikes
+|turn|17
+|inactive|La.hellhound has 120 seconds left.
+|
+|t:|1685394705
+|move|p1a: Ludicolo|Giga Drain|p2a: Lanturn
+|-supereffective|p2a: Lanturn
+|-damage|p2a: Lanturn|90/355
+|-heal|p1a: Ludicolo|278/278|[from] drain|[of] p2a: Lanturn
+|-damage|p1a: Ludicolo|251/278|[from] item: Life Orb
+|move|p2a: Lanturn|Toxic|p1a: Ludicolo
+|-status|p1a: Ludicolo|tox
+|
+|-heal|p2a: Lanturn|112/355|[from] item: Leftovers
+|-damage|p1a: Ludicolo|234/278 tox|[from] psn
+|upkeep
+|turn|18
+|inactive|La.hellhound has 120 seconds left.
+|
+|t:|1685394718
+|move|p1a: Ludicolo|Scald|p2a: Lanturn
+|-resisted|p2a: Lanturn
+|-damage|p2a: Lanturn|56/355
+|-damage|p1a: Ludicolo|207/278 tox|[from] item: Life Orb
+|move|p2a: Lanturn|Volt Switch|p1a: Ludicolo
+|-damage|p1a: Ludicolo|147/278 tox
+|inactive|La.hellhound has 120 seconds left.
+|
+|t:|1685394730
+|switch|p2a: Porygon-Z|Porygon-Z, L80|267/267|[from] Volt Switch
+|-damage|p2a: Porygon-Z|234/267|[from] Stealth Rock
+|-ability|p2a: Porygon-Z|Download|boost
+|-boost|p2a: Porygon-Z|atk|1
+|
+|-damage|p1a: Ludicolo|113/278 tox|[from] psn
+|upkeep
+|turn|19
+|inactive|La.hellhound has 120 seconds left.
+|
+|t:|1685394741
+|move|p2a: Porygon-Z|Tri Attack|p1a: Ludicolo
+|-damage|p1a: Ludicolo|4/278 tox
+|-damage|p2a: Porygon-Z|208/267|[from] item: Life Orb
+|move|p1a: Ludicolo|Rain Dance|p1a: Ludicolo
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ludicolo|0 fnt|[from] psn
+|faint|p1a: Ludicolo
+|upkeep
+|
+|t:|1685394761
+|switch|p1a: Alakazam|Alakazam, L78, F|214/214
+|turn|20
+|
+|t:|1685394771
+|move|p1a: Alakazam|Focus Blast|p2a: Porygon-Z
+|-supereffective|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|faint|p2a: Porygon-Z
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685394777
+|switch|p2a: Marshadow|Marshadow, L70|242/242
+|-damage|p2a: Marshadow|227/242|[from] Stealth Rock
+|turn|21
+|
+|t:|1685394794
+|move|p2a: Marshadow|Shadow Sneak|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685394802
+|switch|p1a: Yveltal|Yveltal, L69|288/288
+|-ability|p1a: Yveltal|Dark Aura
+|turn|22
+|
+|t:|1685394807
+|switch|p2a: Lanturn|Lanturn, L86, F|56/355
+|-damage|p2a: Lanturn|12/355|[from] Stealth Rock
+|move|p1a: Yveltal|Knock Off|p2a: Lanturn
+|-damage|p2a: Lanturn|0 fnt
+|-enditem|p2a: Lanturn|Leftovers|[from] move: Knock Off|[of] p1a: Yveltal
+|faint|p2a: Lanturn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685394821
+|switch|p2a: Marshadow|Marshadow, L86|243/243
+|-damage|p2a: Marshadow|213/243|[from] Stealth Rock
+|turn|23
+|
+|t:|1685394834
+|move|p2a: Marshadow|Nasty Plot|p2a: Marshadow
+|-boost|p2a: Marshadow|spa|2
+|move|p1a: Yveltal|Oblivion Wing|p2a: Marshadow
+|-crit|p2a: Marshadow
+|-damage|p2a: Marshadow|66/243
+|replace|p2a: Zoroark|Zoroark, L86, M
+|-end|p2a: Zoroark|Illusion
+|
+|-weather|none
+|upkeep
+|turn|24
+|inactive|Ruben219 has 120 seconds left.
+|c|☆La.hellhound|that crit
+|c|☆La.hellhound|though
+|
+|t:|1685394870
+|-start|p2a: Zoroark|Dynamax|
+|-heal|p2a: Zoroark|132/486|[silent]
+|move|p2a: Zoroark|Max Ooze|p1a: Yveltal
+|-damage|p1a: Yveltal|112/288
+|-boost|p2a: Zoroark|spa|1
+|move|p1a: Yveltal|Oblivion Wing|p2a: Zoroark
+|-damage|p2a: Zoroark|39/486
+|-heal|p1a: Yveltal|182/288|[from] drain|[of] p2a: Zoroark
+|
+|upkeep
+|turn|25
+|inactive|Ruben219 has 120 seconds left.
+|inactive|La.hellhound has 120 seconds left.
+|
+|t:|1685394893
+|move|p2a: Zoroark|Max Ooze|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|-boost|p2a: Zoroark|spa|1
+|faint|p1a: Yveltal
+|
+|upkeep
+|
+|t:|1685394898
+|switch|p1a: Eternatus|Eternatus, L69|231/308
+|-damage|p1a: Eternatus|154/308|[from] Spikes
+|-ability|p1a: Eternatus|Pressure
+|turn|26
+|c|☆La.hellhound|pay up rn
+|
+|t:|1685394905
+|move|p2a: Zoroark|Max Darkness|p1a: Eternatus
+|-damage|p1a: Eternatus|0 fnt
+|faint|p1a: Eternatus
+|
+|win|La.hellhound
+|raw|Ruben219's rating: 1343 &rarr; <strong>1334</strong><br />(-9 for losing)
+|raw|La.hellhound's rating: 1549 &rarr; <strong>1558</strong><br />(+9 for winning)

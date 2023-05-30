@@ -1,0 +1,98 @@
+|j|☆Modachi
+|j|☆BrockWrecker
+|t:|1685402307
+|gametype|singles
+|player|p1|Modachi|pokemonrangerf|
+|player|p2|BrockWrecker|brock-masters|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Camomons Mod: Pokémon have their types set to match their first two moves.
+|rule|Inverse Mod: Weaknesses become resistances, while resistances and immunities become weaknesses.
+|rule|Scalemons Mod: Every Pokemon's stats, barring HP, are scaled to come as close to a BST of 600 as possible
+|clearpoke
+|poke|p1|Drapion, L82, M|
+|poke|p1|Hawlucha, L80, F|
+|poke|p1|Rapidash, L84, F|
+|poke|p1|Xatu, L89, F|
+|poke|p1|Crustle, L82, M|
+|poke|p1|Grimmsnarl, L82, M|
+|poke|p2|Toxapex, L82, F|
+|poke|p2|Xerneas-*, L67|
+|poke|p2|Quagsire, L84, M|
+|poke|p2|Victini, L78|
+|poke|p2|Grapploct, L86, F|
+|poke|p2|Celebi, L82|
+|teampreview
+|j|%Iolanthe
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Modachi)
+|
+|t:|1685402327
+|start
+|switch|p1a: Xatu|Xatu, L89, F|260/260
+|switch|p2a: Toxapex|Toxapex, L82, F|216/216
+|-start|p1a: Xatu|typechange|Electric/Fire|[silent]
+|-start|p2a: Toxapex|typechange|Water/Normal|[silent]
+|-start|p1a: Xatu|typechange|Electric/Fire|[silent]
+|-start|p2a: Toxapex|typechange|Water/Normal|[silent]
+|turn|1
+|l|%Iolanthe
+|
+|t:|1685402346
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Xatu|Heat Wave|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p2a: Toxapex|189/216|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1685402353
+|move|p1a: Xatu|Heat Wave|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|37/216
+|move|p2a: Toxapex|Toxic Spikes|p1a: Xatu
+|move|p1a: Xatu|Toxic Spikes|p2a: Toxapex|[from]ability: Magic Bounce
+|-sidestart|p2: BrockWrecker|move: Toxic Spikes
+|
+|-damage|p2a: Toxapex|10/216|[from] item: Black Sludge
+|upkeep
+|turn|3
+|c|☆BrockWrecker|lol
+|
+|t:|1685402372
+|switch|p2a: Victini|Victini, L78|283/283
+|-start|p2a: Victini|typechange|Psychic/Bug|[silent]
+|-status|p2a: Victini|psn
+|move|p1a: Xatu|Heat Wave|p2a: Victini
+|-resisted|p2a: Victini
+|-crit|p2a: Victini
+|-damage|p2a: Victini|190/283 psn
+|
+|-damage|p2a: Victini|155/283 psn|[from] psn
+|upkeep
+|-start|p2a: Victini|typechange|Psychic/Bug|[silent]
+|turn|4
+|
+|t:|1685402381
+|move|p1a: Xatu|Psychic|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|
+|upkeep
+|c|☆BrockWrecker|gg i gotta go
+|inactive|BrockWrecker has 120 seconds left.
+|c|☆BrockWrecker|close
+|c|☆Modachi|gg
+|-message|BrockWrecker forfeited.
+|
+|win|Modachi
+|n|☆Modachi|modachi
+|n|☆BrockWrecker|brockwrecker

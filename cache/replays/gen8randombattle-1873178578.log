@@ -1,0 +1,123 @@
+|j|☆flyingworkshop
+|j|☆Mat Destructor
+|t:|1685337423
+|gametype|singles
+|player|p1|flyingworkshop|dawn|1149
+|player|p2|Mat Destructor|102|1073
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685337423
+|start
+|switch|p1a: Pyukumuku|Pyukumuku, L84, F|230/230
+|switch|p2a: Sandslash|Sandslash, L86, F|269/269
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mat Destructor)
+|
+|t:|1685337443
+|move|p2a: Sandslash|Knock Off|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|160/230
+|-enditem|p1a: Pyukumuku|Leftovers|[from] move: Knock Off|[of] p2a: Sandslash
+|-damage|p2a: Sandslash|243/269|[from] item: Life Orb
+|move|p1a: Pyukumuku|Toxic|p2a: Sandslash
+|-status|p2a: Sandslash|tox
+|
+|-damage|p2a: Sandslash|227/269 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1685337459
+|move|p2a: Sandslash|Swords Dance|p2a: Sandslash
+|-boost|p2a: Sandslash|atk|2
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-damage|p2a: Sandslash|195/269 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1685337468
+|switch|p1a: Leafeon|Leafeon, L86, F|252/252
+|move|p2a: Sandslash|Stone Edge|p1a: Leafeon
+|-crit|p1a: Leafeon
+|-damage|p1a: Leafeon|32/252
+|-damage|p2a: Sandslash|169/269 tox|[from] item: Life Orb
+|
+|-damage|p2a: Sandslash|121/269 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1685337492
+|move|p1a: Leafeon|Leaf Blade|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|
+|upkeep
+|
+|t:|1685337502
+|switch|p2a: Froslass|Froslass, L84, F|255/255
+|turn|5
+|
+|t:|1685337508
+|switch|p1a: Blissey|Blissey, L83, F|559/559
+|move|p2a: Froslass|Triple Axel|p1a: Blissey
+|-damage|p1a: Blissey|496/559
+|-damage|p1a: Blissey|378/559
+|-damage|p1a: Blissey|216/559
+|-hitcount|p1a: Blissey|3
+|
+|-heal|p1a: Blissey|250/559|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|flyingworkshop has 120 seconds left.
+|
+|t:|1685337540
+|switch|p1a: Turtonator|Turtonator, L84, M|238/238
+|move|p2a: Froslass|Triple Axel|p1a: Turtonator
+|-damage|p1a: Turtonator|225/238
+|-damage|p1a: Turtonator|197/238
+|-damage|p1a: Turtonator|158/238
+|-hitcount|p1a: Turtonator|3
+|
+|upkeep
+|turn|7
+|
+|t:|1685337550
+|move|p2a: Froslass|Poltergeist|p1a: Turtonator
+|-activate|p1a: Turtonator|move: Poltergeist|White Herb
+|-damage|p1a: Turtonator|82/238
+|move|p1a: Turtonator|Shell Smash|p1a: Turtonator
+|-unboost|p1a: Turtonator|def|1
+|-unboost|p1a: Turtonator|spd|1
+|-boost|p1a: Turtonator|atk|2
+|-boost|p1a: Turtonator|spa|2
+|-boost|p1a: Turtonator|spe|2
+|-enditem|p1a: Turtonator|White Herb
+|-clearnegativeboost|p1a: Turtonator|[silent]
+|
+|upkeep
+|turn|8
+|
+|t:|1685337561
+|move|p2a: Froslass|Poltergeist||[still]
+|-fail|p2a: Froslass
+|move|p1a: Turtonator|Fire Blast|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|0 fnt
+|-start|p1a: Turtonator|Disable|Fire Blast|[from] ability: Cursed Body|[of] p2a: Froslass
+|faint|p2a: Froslass
+|
+|upkeep
+|-message|Mat Destructor forfeited.
+|
+|win|flyingworkshop
+|raw|flyingworkshop's rating: 1149 &rarr; <strong>1169</strong><br />(+20 for winning)
+|raw|Mat Destructor's rating: 1073 &rarr; <strong>1057</strong><br />(-16 for losing)
+|l|☆Mat Destructor

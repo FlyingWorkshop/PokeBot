@@ -1,0 +1,373 @@
+|j|☆woopre
+|j|☆relevartemit
+|t:|1685402788
+|gametype|singles
+|player|p1|woopre|cynthia-anime2|
+|player|p2|relevartemit|scientist-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685402788
+|start
+|switch|p1a: Eiscue|Eiscue, L82, F|256/256
+|switch|p2a: Palossand|Palossand, L86, M|286/286
+|turn|1
+|
+|t:|1685402833
+|move|p1a: Eiscue|Substitute|p1a: Eiscue
+|-start|p1a: Eiscue|Substitute
+|-damage|p1a: Eiscue|192/256
+|move|p2a: Palossand|Shadow Ball|p1a: Eiscue
+|-end|p1a: Eiscue|Substitute
+|
+|upkeep
+|turn|2
+|
+|t:|1685402848
+|move|p1a: Eiscue|Icicle Crash|p2a: Palossand
+|-supereffective|p2a: Palossand
+|-damage|p2a: Palossand|172/286
+|move|p2a: Palossand|Shadow Ball|p1a: Eiscue
+|-damage|p1a: Eiscue|108/256
+|
+|-heal|p2a: Palossand|189/286|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685402857
+|move|p1a: Eiscue|Icicle Crash|p2a: Palossand|[miss]
+|-miss|p1a: Eiscue|p2a: Palossand
+|move|p2a: Palossand|Shore Up|p2a: Palossand
+|-heal|p2a: Palossand|286/286
+|
+|upkeep
+|turn|4
+|
+|t:|1685402861
+|move|p1a: Eiscue|Icicle Crash|p2a: Palossand
+|-supereffective|p2a: Palossand
+|-damage|p2a: Palossand|166/286
+|move|p2a: Palossand|Stealth Rock|p1a: Eiscue
+|-sidestart|p1: woopre|move: Stealth Rock
+|
+|-heal|p2a: Palossand|183/286|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685402864
+|move|p1a: Eiscue|Icicle Crash|p2a: Palossand
+|-supereffective|p2a: Palossand
+|-damage|p2a: Palossand|51/286
+|move|p2a: Palossand|Shore Up|p2a: Palossand
+|-heal|p2a: Palossand|194/286
+|
+|-heal|p2a: Palossand|211/286|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685402872
+|move|p1a: Eiscue|Icicle Crash|p2a: Palossand|[miss]
+|-miss|p1a: Eiscue|p2a: Palossand
+|move|p2a: Palossand|Shore Up|p2a: Palossand
+|-heal|p2a: Palossand|286/286
+|
+|upkeep
+|turn|7
+|
+|t:|1685402874
+|move|p1a: Eiscue|Icicle Crash|p2a: Palossand
+|-supereffective|p2a: Palossand
+|-damage|p2a: Palossand|166/286
+|cant|p2a: Palossand|flinch
+|
+|-heal|p2a: Palossand|183/286|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685402877
+|move|p1a: Eiscue|Icicle Crash|p2a: Palossand
+|-supereffective|p2a: Palossand
+|-damage|p2a: Palossand|51/286
+|cant|p2a: Palossand|flinch
+|
+|-heal|p2a: Palossand|68/286|[from] item: Leftovers
+|upkeep
+|turn|9
+|c|☆woopre|lmao
+|
+|t:|1685402884
+|move|p1a: Eiscue|Liquidation|p2a: Palossand
+|-supereffective|p2a: Palossand
+|-damage|p2a: Palossand|0 fnt
+|faint|p2a: Palossand
+|
+|upkeep
+|j| Mandibuladel5555
+|
+|t:|1685402910
+|switch|p2a: Meowstic|Meowstic-F, L86, F|268/268
+|turn|10
+|
+|t:|1685402935
+|move|p2a: Meowstic|Psychic|p1a: Eiscue
+|-damage|p1a: Eiscue|0 fnt
+|faint|p1a: Eiscue
+|-damage|p2a: Meowstic|242/268|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685402939
+|switch|p1a: Giratina|Giratina-Origin, L74|344/344
+|-damage|p1a: Giratina|301/344|[from] Stealth Rock
+|turn|11
+|
+|t:|1685402977
+|switch|p2a: Aurorus|Aurorus, L84, M|343/343
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Aurorus
+|move|p1a: Giratina|Poltergeist|p2a: Aurorus
+|-activate|p2a: Aurorus|move: Poltergeist|Choice Specs
+|-damage|p2a: Aurorus|192/343
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Giratina|280/344|[from] Hail
+|upkeep
+|turn|12
+|
+|t:|1685402991
+|switch|p1a: Heatran|Heatran, L78, M|270/270
+|-damage|p1a: Heatran|237/270|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Aurorus|Blizzard|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|198/270
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Heatran|182/270|[from] Hail
+|upkeep
+|turn|13
+|
+|t:|1685403000
+|switch|p2a: Hitmontop|Hitmontop, L85, M|224/224
+|move|p1a: Heatran|Stealth Rock|p2a: Hitmontop
+|-sidestart|p2: relevartemit|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Hitmontop|210/224|[from] Hail
+|-damage|p1a: Heatran|166/270|[from] Hail
+|upkeep
+|turn|14
+|
+|t:|1685403009
+|switch|p1a: Ribombee|Ribombee, L82, M|233/233
+|move|p2a: Hitmontop|Earthquake|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|169/233
+|-damage|p2a: Hitmontop|188/224|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Ribombee|155/233|[from] Hail
+|-damage|p2a: Hitmontop|174/224|[from] Hail
+|upkeep
+|turn|15
+|
+|t:|1685403021
+|switch|p2a: Copperajah|Copperajah, L84, M|342/342
+|-damage|p2a: Copperajah|321/342|[from] Stealth Rock
+|move|p1a: Ribombee|Sticky Web|p2a: Copperajah
+|-sidestart|p2: relevartemit|move: Sticky Web
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1685403034
+|switch|p1a: Centiskorch|Centiskorch, L84, F|305/305
+|move|p2a: Copperajah|Stone Edge|p1a: Centiskorch
+|-supereffective|p1a: Centiskorch
+|-crit|p1a: Centiskorch
+|-damage|p1a: Centiskorch|0 fnt
+|faint|p1a: Centiskorch
+|
+|upkeep
+|
+|t:|1685403040
+|switch|p1a: Gallade|Gallade, L82, M|246/246
+|-damage|p1a: Gallade|231/246|[from] Stealth Rock
+|turn|17
+|
+|t:|1685403075
+|switch|p2a: Aurorus|Aurorus, L84, M|192/343
+|-damage|p2a: Aurorus|107/343|[from] Stealth Rock
+|-activate|p2a: Aurorus|move: Sticky Web
+|-unboost|p2a: Aurorus|spe|1
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Aurorus
+|-start|p1a: Gallade|Dynamax|
+|-heal|p1a: Gallade|462/492|[silent]
+|move|p1a: Gallade|Max Knuckle|p2a: Aurorus
+|-supereffective|p2a: Aurorus
+|-damage|p2a: Aurorus|0 fnt
+|-boost|p1a: Gallade|atk|1
+|faint|p2a: Aurorus
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gallade|447/492|[from] Hail
+|upkeep
+|
+|t:|1685403100
+|switch|p2a: Haxorus|Haxorus, L77, M|244/244
+|-damage|p2a: Haxorus|214/244|[from] Stealth Rock
+|-activate|p2a: Haxorus|move: Sticky Web
+|-unboost|p2a: Haxorus|spe|1
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|18
+|
+|t:|1685403121
+|-start|p2a: Haxorus|Dynamax|
+|-heal|p2a: Haxorus|428/488|[silent]
+|move|p1a: Gallade|Max Knuckle|p2a: Haxorus
+|-damage|p2a: Haxorus|230/488
+|-boost|p1a: Gallade|atk|1
+|move|p2a: Haxorus|Max Wyrmwind|p1a: Gallade
+|-damage|p1a: Gallade|157/492
+|-unboost|p1a: Gallade|atk|1
+|-damage|p2a: Haxorus|206/488|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gallade|142/492|[from] Hail
+|-damage|p2a: Haxorus|191/488|[from] Hail
+|upkeep
+|turn|19
+|
+|t:|1685403138
+|-end|p1a: Gallade|Dynamax
+|-heal|p1a: Gallade|71/246|[silent]
+|switch|p1a: Heatran|Heatran, L78, M|166/270
+|-damage|p1a: Heatran|133/270|[from] Stealth Rock
+|move|p2a: Haxorus|Max Wyrmwind|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|20/270
+|-unboost|p1a: Heatran|atk|1
+|-damage|p2a: Haxorus|167/488|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Heatran|4/270|[from] Hail
+|-damage|p2a: Haxorus|152/488|[from] Hail
+|upkeep
+|turn|20
+|
+|t:|1685403155
+|move|p1a: Heatran|Flash Cannon|p2a: Haxorus
+|-damage|p2a: Haxorus|32/488
+|move|p2a: Haxorus|Max Knuckle|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-boost|p2a: Haxorus|atk|1
+|faint|p1a: Heatran
+|-damage|p2a: Haxorus|8/488|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Haxorus|0 fnt|[from] Hail
+|faint|p2a: Haxorus
+|upkeep
+|
+|t:|1685403168
+|switch|p2a: Copperajah|Copperajah, L84, M|321/342
+|switch|p1a: Gallade|Gallade, L82, M|71/246
+|-damage|p1a: Gallade|56/246|[from] Stealth Rock
+|-damage|p2a: Copperajah|300/342|[from] Stealth Rock
+|-activate|p2a: Copperajah|move: Sticky Web
+|-unboost|p2a: Copperajah|spe|1
+|turn|21
+|
+|t:|1685403178
+|move|p1a: Gallade|Close Combat|p2a: Copperajah
+|-supereffective|p2a: Copperajah
+|-damage|p2a: Copperajah|0 fnt
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|faint|p2a: Copperajah
+|
+|-weather|none
+|upkeep
+|
+|t:|1685403181
+|switch|p2a: Meowstic|Meowstic-F, L86, F|242/268
+|-damage|p2a: Meowstic|209/268|[from] Stealth Rock
+|-activate|p2a: Meowstic|move: Sticky Web
+|-unboost|p2a: Meowstic|spe|1
+|turn|22
+|
+|t:|1685403215
+|switch|p1a: Ribombee|Ribombee, L82, M|155/233
+|move|p2a: Meowstic|Psychic|p1a: Ribombee
+|-damage|p1a: Ribombee|9/233
+|-damage|p2a: Meowstic|183/268|[from] item: Life Orb
+|
+|upkeep
+|turn|23
+|
+|t:|1685403222
+|switch|p2a: Hitmontop|Hitmontop, L85, M|174/224
+|-damage|p2a: Hitmontop|160/224|[from] Stealth Rock
+|-activate|p2a: Hitmontop|move: Sticky Web
+|-unboost|p2a: Hitmontop|spe|1
+|move|p1a: Ribombee|Moonblast|p2a: Hitmontop
+|-supereffective|p2a: Hitmontop
+|-damage|p2a: Hitmontop|2/224
+|
+|upkeep
+|turn|24
+|c|☆woopre|i may have to go after this but only for like 30 mins
+|c|☆woopre|and ill be back to play
+|
+|t:|1685403238
+|move|p1a: Ribombee|Moonblast|p2a: Hitmontop
+|-supereffective|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|
+|upkeep
+|c|☆relevartemit|I really can't wait around another 30 minutes
+|
+|t:|1685403255
+|switch|p2a: Meowstic|Meowstic-F, L86, F|183/268
+|-damage|p2a: Meowstic|150/268|[from] Stealth Rock
+|-activate|p2a: Meowstic|move: Sticky Web
+|-unboost|p2a: Meowstic|spe|1
+|turn|25
+|c|☆woopre|hmm
+|c|☆woopre|k sure ill try to play
+|
+|t:|1685403263
+|move|p1a: Ribombee|Moonblast|p2a: Meowstic
+|-damage|p2a: Meowstic|51/268
+|move|p2a: Meowstic|Psychic|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|-damage|p2a: Meowstic|25/268|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685403267
+|switch|p1a: Giratina|Giratina-Origin, L74|280/344
+|-damage|p1a: Giratina|237/344|[from] Stealth Rock
+|turn|26
+|
+|t:|1685403271
+|move|p1a: Giratina|Outrage|p2a: Meowstic
+|-damage|p2a: Meowstic|0 fnt
+|faint|p2a: Meowstic
+|
+|win|woopre
+|c|☆relevartemit|thanks, gg
+|c|☆woopre|gg
+|l|☆relevartemit
+|l|☆woopre
+|j|☆woopre
+|player|p1|woopre|cynthia-anime2

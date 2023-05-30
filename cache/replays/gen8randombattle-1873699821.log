@@ -1,0 +1,387 @@
+|j|☆What Do I Mean
+|j|☆Ataki
+|t:|1685407835
+|gametype|singles
+|player|p1|What Do I Mean|101|
+|player|p2|Ataki|byron|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Camomons Mod: Pokémon have their types set to match their first two moves.
+|rule|Inverse Mod: Weaknesses become resistances, while resistances and immunities become weaknesses.
+|rule|Scalemons Mod: Every Pokemon's stats, barring HP, are scaled to come as close to a BST of 600 as possible
+|clearpoke
+|poke|p1|Dialga, L74|
+|poke|p1|Corsola-Galar, L84, F|
+|poke|p1|Lickilicky, L86, F|
+|poke|p1|Scrafty, L82, M|
+|poke|p1|Necrozma, L80|
+|poke|p1|Silvally-*, L84|
+|poke|p2|Spiritomb, L88, F|
+|poke|p2|Pikachu-Sinnoh, L92, M|
+|poke|p2|Articuno-Galar, L80|
+|poke|p2|Bellossom, L82, M|
+|poke|p2|Celebi, L82|
+|poke|p2|Hitmonchan, L86, M|
+|teampreview
+|j|%Iolanthe
+|c|☆What Do I Mean|the broken one
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by What Do I Mean)
+|j| Kelli24
+|inactive|Ataki has 120 seconds left.
+|j| Dogpraxis
+|l| Dogpraxis
+|
+|t:|1685407905
+|start
+|switch|p1a: Dialga|Dialga, L74|270/270
+|switch|p2a: Pikachu|Pikachu-Sinnoh, L92, M|214/214
+|-start|p2a: Pikachu|typechange|Electric/Dark|[silent]
+|-start|p1a: Dialga|typechange|Steel/Rock|[silent]
+|-ability|p1a: Dialga|Pressure
+|-start|p1a: Dialga|typechange|Steel/Rock|[silent]
+|-start|p2a: Pikachu|typechange|Electric/Dark|[silent]
+|turn|1
+|l|%Iolanthe
+|inactive|Ataki has 120 seconds left.
+|
+|t:|1685407955
+|move|p2a: Pikachu|Volt Switch|p1a: Dialga
+|-damage|p1a: Dialga|63/270
+|
+|t:|1685407964
+|switch|p2a: Celebi|Celebi, L82|298/298|[from] Volt Switch
+|-start|p2a: Celebi|typechange|Grass/Bug|[silent]
+|move|p1a: Dialga|Flash Cannon|p2a: Celebi
+|-damage|p2a: Celebi|225/298
+|
+|-heal|p2a: Celebi|243/298|[from] item: Leftovers
+|-heal|p1a: Dialga|79/270|[from] item: Leftovers
+|upkeep
+|-start|p2a: Celebi|typechange|Grass/Bug|[silent]
+|turn|2
+|
+|t:|1685407969
+|move|p2a: Celebi|U-turn|p1a: Dialga
+|-supereffective|p1a: Dialga
+|-crit|p1a: Dialga
+|-damage|p1a: Dialga|0 fnt
+|faint|p1a: Dialga
+|
+|t:|1685407992
+|switch|p2a: Pikachu|Pikachu-Sinnoh, L92, M|214/214|[from] U-turn
+|-start|p2a: Pikachu|typechange|Electric/Dark|[silent]
+|
+|upkeep
+|
+|t:|1685408019
+|switch|p1a: Necrozma|Necrozma, L80|286/286
+|-ability|p1a: Necrozma|Pressure
+|-start|p1a: Necrozma|typechange|Psychic/Fairy|[silent]
+|-start|p1a: Necrozma|typechange|Psychic/Fairy|[silent]
+|-start|p2a: Pikachu|typechange|Electric/Dark|[silent]
+|turn|3
+|
+|t:|1685408041
+|move|p2a: Pikachu|Volt Switch|p1a: Necrozma
+|-damage|p1a: Necrozma|94/286
+|
+|t:|1685408049
+|switch|p2a: Celebi|Celebi, L82|243/298|[from] Volt Switch
+|-start|p2a: Celebi|typechange|Grass/Bug|[silent]
+|move|p1a: Necrozma|Moonlight|p1a: Necrozma
+|-heal|p1a: Necrozma|237/286
+|
+|-heal|p2a: Celebi|261/298|[from] item: Leftovers
+|-heal|p1a: Necrozma|254/286|[from] item: Leftovers
+|upkeep
+|-start|p2a: Celebi|typechange|Grass/Bug|[silent]
+|turn|4
+|
+|t:|1685408056
+|move|p2a: Celebi|Leaf Storm|p1a: Necrozma
+|-damage|p1a: Necrozma|116/286
+|-unboost|p2a: Celebi|spa|2
+|move|p1a: Necrozma|Calm Mind|p1a: Necrozma
+|-boost|p1a: Necrozma|spa|1
+|-boost|p1a: Necrozma|spd|1
+|
+|-heal|p2a: Celebi|279/298|[from] item: Leftovers
+|-heal|p1a: Necrozma|133/286|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Ataki has 90 seconds left.
+|inactive|Ataki has 60 seconds left.
+|
+|t:|1685408112
+|move|p2a: Celebi|U-turn|p1a: Necrozma
+|-damage|p1a: Necrozma|70/286
+|
+|t:|1685408115
+|switch|p2a: Hitmonchan|Hitmonchan, L86, M|226/226|[from] U-turn
+|-start|p2a: Hitmonchan|typechange|Fighting/Ice|[silent]
+|move|p1a: Necrozma|Moonlight|p1a: Necrozma
+|-heal|p1a: Necrozma|213/286
+|
+|-heal|p1a: Necrozma|230/286|[from] item: Leftovers
+|upkeep
+|-start|p2a: Hitmonchan|typechange|Fighting/Ice|[silent]
+|turn|6
+|
+|t:|1685408124
+|switch|p1a: Lickilicky|Lickilicky, L86, F|329/329
+|-ability|p1a: Lickilicky|Pressure
+|-start|p1a: Lickilicky|typechange|Normal|[silent]
+|move|p2a: Hitmonchan|Drain Punch|p1a: Lickilicky
+|-resisted|p1a: Lickilicky
+|-damage|p1a: Lickilicky|254/329
+|-damage|p2a: Hitmonchan|204/226|[from] item: Life Orb
+|
+|-heal|p1a: Lickilicky|274/329|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Ataki has 60 seconds left.
+|
+|t:|1685408157
+|switch|p2a: Bellossom|Bellossom, L82, M|257/257
+|-start|p2a: Bellossom|typechange|Bug/Grass|[silent]
+|move|p1a: Lickilicky|Body Slam|p2a: Bellossom
+|-crit|p2a: Bellossom
+|-damage|p2a: Bellossom|145/257
+|
+|-heal|p1a: Lickilicky|294/329|[from] item: Leftovers
+|-heal|p2a: Bellossom|161/257|[from] item: Leftovers
+|upkeep
+|-start|p2a: Bellossom|typechange|Bug/Grass|[silent]
+|turn|8
+|
+|t:|1685408180
+|move|p1a: Lickilicky|Body Slam|p2a: Bellossom
+|-damage|p2a: Bellossom|86/257
+|move|p2a: Bellossom|Quiver Dance|p2a: Bellossom
+|-boost|p2a: Bellossom|spa|1
+|-boost|p2a: Bellossom|spd|1
+|-boost|p2a: Bellossom|spe|1
+|
+|-heal|p2a: Bellossom|102/257|[from] item: Leftovers
+|-heal|p1a: Lickilicky|314/329|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1685408185
+|move|p2a: Bellossom|Giga Drain|p1a: Lickilicky
+|-damage|p1a: Lickilicky|208/329
+|-heal|p2a: Bellossom|155/257|[from] drain|[of] p1a: Lickilicky
+|move|p1a: Lickilicky|Body Slam|p2a: Bellossom
+|-damage|p2a: Bellossom|82/257
+|-status|p2a: Bellossom|par
+|
+|-heal|p1a: Lickilicky|228/329|[from] item: Leftovers
+|-heal|p2a: Bellossom|98/257 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685408196
+|move|p1a: Lickilicky|Body Slam|p2a: Bellossom
+|-damage|p2a: Bellossom|22/257 par
+|move|p2a: Bellossom|Giga Drain|p1a: Lickilicky
+|-damage|p1a: Lickilicky|119/329
+|-heal|p2a: Bellossom|77/257 par|[from] drain|[of] p1a: Lickilicky
+|
+|-heal|p1a: Lickilicky|139/329|[from] item: Leftovers
+|-heal|p2a: Bellossom|93/257 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1685408213
+|move|p1a: Lickilicky|Wish|p1a: Lickilicky
+|move|p2a: Bellossom|Giga Drain|p1a: Lickilicky
+|-damage|p1a: Lickilicky|46/329
+|-heal|p2a: Bellossom|140/257 par|[from] drain|[of] p1a: Lickilicky
+|
+|-heal|p1a: Lickilicky|66/329|[from] item: Leftovers
+|-heal|p2a: Bellossom|156/257 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685408217
+|move|p1a: Lickilicky|Protect|p1a: Lickilicky
+|-singleturn|p1a: Lickilicky|Protect
+|move|p2a: Bellossom|Quiver Dance|p2a: Bellossom
+|-boost|p2a: Bellossom|spa|1
+|-boost|p2a: Bellossom|spd|1
+|-boost|p2a: Bellossom|spe|1
+|
+|-heal|p1a: Lickilicky|230/329|[from] move: Wish|[wisher] Lickilicky
+|-heal|p1a: Lickilicky|250/329|[from] item: Leftovers
+|-heal|p2a: Bellossom|172/257 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Ataki has 60 seconds left.
+|inactive|Ataki has 30 seconds left.
+|
+|t:|1685408261
+|move|p1a: Lickilicky|Wish|p1a: Lickilicky
+|move|p2a: Bellossom|Quiver Dance|p2a: Bellossom
+|-boost|p2a: Bellossom|spa|1
+|-boost|p2a: Bellossom|spd|1
+|-boost|p2a: Bellossom|spe|1
+|
+|-heal|p2a: Bellossom|188/257 par|[from] item: Leftovers
+|-heal|p1a: Lickilicky|270/329|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685408287
+|switch|p1a: Corsola|Corsola-Galar, L84, F|238/238
+|-ability|p1a: Corsola|Pressure
+|-start|p1a: Corsola|typechange|Ghost/Ice|[silent]
+|move|p2a: Bellossom|Sleep Powder|p1a: Corsola
+|-status|p1a: Corsola|slp|[from] move: Sleep Powder
+|
+|-heal|p2a: Bellossom|204/257 par|[from] item: Leftovers
+|upkeep
+|-start|p1a: Corsola|typechange|Ghost/Ice|[silent]
+|turn|15
+|inactive|Ataki has 30 seconds left.
+|
+|t:|1685408310
+|move|p2a: Bellossom|Giga Drain|p1a: Corsola
+|-damage|p1a: Corsola|145/238 slp
+|-heal|p2a: Bellossom|251/257 par|[from] drain|[of] p1a: Corsola
+|cant|p1a: Corsola|slp
+|
+|-heal|p2a: Bellossom|257/257 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685408314
+|cant|p2a: Bellossom|par
+|cant|p1a: Corsola|slp
+|
+|upkeep
+|turn|17
+|
+|t:|1685408318
+|move|p2a: Bellossom|Giga Drain|p1a: Corsola
+|-damage|p1a: Corsola|48/238 slp
+|-curestatus|p1a: Corsola|slp|[msg]
+|move|p1a: Corsola|Haze|p1a: Corsola
+|-clearallboost
+|
+|upkeep
+|turn|18
+|
+|t:|1685408337
+|-curestatus|p2a: Bellossom|par|[from] ability: Natural Cure
+|switch|p2a: Pikachu|Pikachu-Sinnoh, L92, M|214/214
+|-start|p2a: Pikachu|typechange|Electric/Dark|[silent]
+|move|p1a: Corsola|Strength Sap|p2a: Pikachu
+|-unboost|p2a: Pikachu|atk|1
+|-heal|p1a: Corsola|238/238
+|
+|upkeep
+|-start|p2a: Pikachu|typechange|Electric/Dark|[silent]
+|turn|19
+|
+|t:|1685408344
+|move|p2a: Pikachu|Knock Off|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|202/238
+|-enditem|p1a: Corsola|Eviolite|[from] move: Knock Off|[of] p2a: Pikachu
+|move|p1a: Corsola|Will-O-Wisp|p2a: Pikachu
+|-status|p2a: Pikachu|brn
+|
+|-damage|p2a: Pikachu|201/214 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1685408357
+|move|p2a: Pikachu|Volt Switch|p1a: Corsola
+|-damage|p1a: Corsola|88/238
+|
+|t:|1685408367
+|-curestatus|p2a: Pikachu|brn|[from] ability: Natural Cure
+|switch|p2a: Hitmonchan|Hitmonchan, L86, M|204/226|[from] Volt Switch
+|-start|p2a: Hitmonchan|typechange|Fighting/Ice|[silent]
+|move|p1a: Corsola|Strength Sap|p2a: Hitmonchan
+|-unboost|p2a: Hitmonchan|atk|1
+|-heal|p1a: Corsola|238/238
+|
+|upkeep
+|-start|p2a: Hitmonchan|typechange|Fighting/Ice|[silent]
+|turn|21
+|
+|t:|1685408383
+|switch|p1a: Scrafty|Scrafty, L82, M|241/241
+|-ability|p1a: Scrafty|Pressure
+|-start|p1a: Scrafty|typechange|Dragon/Fighting|[silent]
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Hitmonchan|atk|1
+|move|p2a: Hitmonchan|Bulk Up|p2a: Hitmonchan
+|-boost|p2a: Hitmonchan|atk|1
+|-boost|p2a: Hitmonchan|def|1
+|
+|upkeep
+|-start|p1a: Scrafty|typechange|Dragon/Fighting|[silent]
+|turn|22
+|
+|t:|1685408390
+|move|p2a: Hitmonchan|Bulk Up|p2a: Hitmonchan
+|-boost|p2a: Hitmonchan|atk|1
+|-boost|p2a: Hitmonchan|def|1
+|move|p1a: Scrafty|Dragon Dance|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|spe|1
+|
+|upkeep
+|turn|23
+|
+|t:|1685408394
+|move|p1a: Scrafty|Dragon Dance|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|spe|1
+|move|p2a: Hitmonchan|Bulk Up|p2a: Hitmonchan
+|-boost|p2a: Hitmonchan|atk|1
+|-boost|p2a: Hitmonchan|def|1
+|
+|upkeep
+|turn|24
+|
+|t:|1685408397
+|move|p1a: Scrafty|Dragon Dance|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|spe|1
+|move|p2a: Hitmonchan|Drain Punch|p1a: Scrafty
+|-damage|p1a: Scrafty|54/241
+|-heal|p2a: Hitmonchan|226/226|[from] drain|[of] p1a: Scrafty
+|-damage|p2a: Hitmonchan|204/226|[from] item: Life Orb
+|
+|upkeep
+|turn|25
+|
+|t:|1685408407
+|-start|p1a: Scrafty|Dynamax|
+|-heal|p1a: Scrafty|108/482|[silent]
+|move|p1a: Scrafty|Max Darkness|p2a: Hitmonchan
+|-supereffective|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|60/226
+|-unboost|p2a: Hitmonchan|spd|1
+|move|p2a: Hitmonchan|Drain Punch|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|-heal|p2a: Hitmonchan|114/226|[from] drain|[of] p1a: Scrafty
+|faint|p1a: Scrafty
+|-damage|p2a: Hitmonchan|92/226|[from] item: Life Orb
+|
+|upkeep
+|-message|What Do I Mean forfeited.
+|
+|win|Ataki
+|n|☆What Do I Mean|whatdoimean
+|n|☆Ataki|ataki
+|n| Kelli24|kelli24

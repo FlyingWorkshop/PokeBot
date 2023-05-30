@@ -1,0 +1,248 @@
+|j|☆seizyre
+|j|☆roubroud
+|t:|1685403740
+|gametype|singles
+|player|p1|seizyre|whitney|
+|player|p2|roubroud|2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685403740
+|start
+|switch|p1a: Regieleki|Regieleki, L78|253/253
+|switch|p2a: Melmetal|Melmetal, L74|322/322
+|turn|1
+|
+|t:|1685403754
+|move|p1a: Regieleki|Volt Switch|p2a: Melmetal
+|-damage|p2a: Melmetal|139/322
+|
+|t:|1685403759
+|switch|p1a: Klinklang|Klinklang, L84|238/238|[from] Volt Switch
+|move|p2a: Melmetal|Earthquake|p1a: Klinklang
+|-supereffective|p1a: Klinklang
+|-damage|p1a: Klinklang|124/238
+|
+|-heal|p1a: Klinklang|138/238|[from] item: Leftovers
+|-heal|p2a: Melmetal|159/322|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685403776
+|move|p1a: Klinklang|Wild Charge|p2a: Melmetal
+|-damage|p2a: Melmetal|108/322
+|-damage|p1a: Klinklang|125/238|[from] Recoil
+|move|p2a: Melmetal|Superpower|p1a: Klinklang
+|-supereffective|p1a: Klinklang
+|-damage|p1a: Klinklang|0 fnt
+|-unboost|p2a: Melmetal|atk|1
+|-unboost|p2a: Melmetal|def|1
+|faint|p1a: Klinklang
+|
+|-heal|p2a: Melmetal|128/322|[from] item: Leftovers
+|upkeep
+|c|☆seizyre|oh
+|
+|t:|1685403794
+|switch|p1a: Volcarona|Volcarona, L76, M|254/254
+|turn|3
+|
+|t:|1685403805
+|move|p1a: Volcarona|Fire Blast|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|
+|upkeep
+|
+|t:|1685403818
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L78, M|284/284
+|turn|4
+|c|☆seizyre|//!dt water bubble
+|c|☆seizyre|shhh
+|c|☆roubroud|<
+|
+|t:|1685403864
+|switch|p1a: Basculin|Basculin-Blue-Striped, L86, F|261/261
+|move|p2a: Urshifu|Substitute|p2a: Urshifu
+|-start|p2a: Urshifu|Substitute
+|-damage|p2a: Urshifu|213/284
+|
+|-heal|p2a: Urshifu|230/284|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685403873
+|move|p1a: Basculin|Psychic Fangs|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-end|p2a: Urshifu|Substitute
+|move|p2a: Urshifu|Bulk Up|p2a: Urshifu
+|-boost|p2a: Urshifu|atk|1
+|-boost|p2a: Urshifu|def|1
+|
+|-heal|p2a: Urshifu|247/284|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685403877
+|move|p1a: Basculin|Psychic Fangs|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|129/284
+|move|p2a: Urshifu|Drain Punch|p1a: Basculin
+|-damage|p1a: Basculin|90/261
+|-heal|p2a: Urshifu|215/284|[from] drain|[of] p1a: Basculin
+|
+|-heal|p2a: Urshifu|232/284|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685403887
+|move|p1a: Basculin|Psychic Fangs|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|108/284
+|move|p2a: Urshifu|Drain Punch|p1a: Basculin
+|-damage|p1a: Basculin|0 fnt
+|-heal|p2a: Urshifu|153/284|[from] drain|[of] p1a: Basculin
+|faint|p1a: Basculin
+|
+|-heal|p2a: Urshifu|170/284|[from] item: Leftovers
+|upkeep
+|
+|t:|1685403900
+|switch|p1a: Regieleki|Regieleki, L78|253/253
+|turn|8
+|
+|t:|1685403913
+|switch|p2a: Entei|Entei, L78|307/307
+|move|p1a: Regieleki|Thunderbolt|p2a: Entei
+|-damage|p2a: Entei|117/307
+|
+|upkeep
+|turn|9
+|c|☆roubroud|i got
+|
+|t:|1685403927
+|move|p2a: Entei|Extreme Speed|p1a: Regieleki
+|-damage|p1a: Regieleki|113/253
+|move|p1a: Regieleki|Volt Switch|p2a: Entei
+|-damage|p2a: Entei|0 fnt
+|faint|p2a: Entei
+|c|☆roubroud|a lot of legendaroes
+|
+|t:|1685403935
+|switch|p1a: Araquanid|Araquanid, L80, F|240/240|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1685403946
+|switch|p2a: Togekiss|Togekiss, L80, M|267/267
+|turn|10
+|
+|t:|1685403951
+|move|p2a: Togekiss|Air Slash|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|118/240
+|cant|p1a: Araquanid|flinch
+|
+|upkeep
+|turn|11
+|c|☆seizyre|oh
+|
+|t:|1685403970
+|move|p2a: Togekiss|Air Slash|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|c|☆roubroud|its like a 60 percent chance dont trip
+|c|☆seizyre|oh serene grace
+|
+|t:|1685403995
+|switch|p1a: Regieleki|Regieleki, L78|113/253
+|turn|12
+|c|☆roubroud|yeah
+|
+|t:|1685404001
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L78, M|170/284
+|move|p1a: Regieleki|Thunderbolt|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|upkeep
+|
+|t:|1685404013
+|switch|p2a: Tauros|Tauros, L82, M|257/257
+|turn|13
+|
+|t:|1685404018
+|switch|p1a: Volcarona|Volcarona, L76, M|254/254
+|move|p2a: Tauros|Body Slam|p1a: Volcarona
+|-damage|p1a: Volcarona|63/254
+|
+|upkeep
+|turn|14
+|
+|t:|1685404030
+|move|p2a: Tauros|Body Slam|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|upkeep
+|
+|t:|1685404035
+|switch|p1a: Sylveon|Sylveon, L84, M|297/297
+|turn|15
+|c|☆seizyre|WHAT HAPEPEND OT GFLAME BODY
+|c|☆roubroud|its only 30 percent
+|c|☆seizyre|oh its a chance thing
+|c|☆seizyre|fuck
+|
+|t:|1685404057
+|move|p2a: Tauros|Body Slam|p1a: Sylveon
+|-damage|p1a: Sylveon|120/297
+|move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+|-boost|p1a: Sylveon|spa|1
+|-boost|p1a: Sylveon|spd|1
+|
+|-heal|p1a: Sylveon|138/297|[from] item: Leftovers
+|upkeep
+|turn|16
+|c|☆roubroud|!dt flame body
+|raw|<ul class="utilichart"><li class="result"><span class="col namecol"><a href="https://dex.pokemonshowdown.com/abilities/flamebody">Flame Body</a></span> <span class="col abilitydesccol">30% chance a Pokemon making contact with this Pokemon will be burned.</span> </li><li style="clear:both"></li></ul>
+|raw|<font size="1"><font color="#686868">Gen:</font> 3</font>
+
+|c|☆seizyre|yikes
+|
+|t:|1685404072
+|move|p2a: Tauros|Body Slam|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|faint|p1a: Sylveon
+|
+|upkeep
+|
+|t:|1685404075
+|switch|p1a: Regieleki|Regieleki, L78|113/253
+|turn|17
+|c|☆seizyre|gg
+|
+|t:|1685404081
+|-start|p2a: Tauros|Dynamax|
+|-heal|p2a: Tauros|514/514|[silent]
+|move|p1a: Regieleki|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|340/514
+|move|p2a: Tauros|Max Strike|p1a: Regieleki
+|-damage|p1a: Regieleki|0 fnt
+|faint|p1a: Regieleki
+|-damage|p2a: Tauros|315/514|[from] item: Life Orb
+|
+|win|roubroud
+|c|☆roubroud|gg
+|c|☆seizyre|i forgot to dynamax icl
+|c|☆roubroud|tears

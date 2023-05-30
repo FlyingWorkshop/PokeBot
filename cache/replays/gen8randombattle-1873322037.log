@@ -1,0 +1,233 @@
+|j|☆Ruben219
+|j|☆totallynotbgg
+|t:|1685363039
+|gametype|singles
+|player|p1|Ruben219|170|1400
+|player|p2|totallynotbgg|265|1256
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685363039
+|start
+|switch|p1a: Volcanion|Volcanion, L80|259/259
+|switch|p2a: Carracosta|Carracosta, L84, M|262/262
+|turn|1
+|
+|t:|1685363056
+|switch|p1a: Whimsicott|Whimsicott, L84, M|238/238
+|move|p2a: Carracosta|Shell Smash|p2a: Carracosta
+|-unboost|p2a: Carracosta|def|1
+|-unboost|p2a: Carracosta|spd|1
+|-boost|p2a: Carracosta|atk|2
+|-boost|p2a: Carracosta|spa|2
+|-boost|p2a: Carracosta|spe|2
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ruben219)
+|
+|t:|1685363074
+|switch|p2a: Ribombee|Ribombee, L82, M|233/233
+|move|p1a: Whimsicott|Leech Seed|p2a: Ribombee
+|-start|p2a: Ribombee|move: Leech Seed
+|
+|-damage|p2a: Ribombee|204/233|[from] Leech Seed|[of] p1a: Whimsicott
+|upkeep
+|turn|3
+|
+|t:|1685363084
+|switch|p1a: Flareon|Flareon, L86, F|251/251
+|move|p2a: Ribombee|Sticky Web|p1a: Flareon
+|-sidestart|p1: Ruben219|move: Sticky Web
+|
+|-damage|p2a: Ribombee|175/233|[from] Leech Seed|[of] p1a: Flareon
+|-status|p1a: Flareon|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|t:|1685363089
+|move|p2a: Ribombee|U-turn|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|220/251 tox
+|
+|t:|1685363103
+|switch|p2a: Carracosta|Carracosta, L84, M|262/262|[from] U-turn
+|move|p1a: Flareon|Facade|p2a: Carracosta
+|-resisted|p2a: Carracosta
+|-damage|p2a: Carracosta|187/262
+|
+|-damage|p1a: Flareon|205/251 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1685363114
+|switch|p1a: Whimsicott|Whimsicott, L84, M|238/238
+|-activate|p1a: Whimsicott|move: Sticky Web
+|-unboost|p1a: Whimsicott|spe|1
+|move|p2a: Carracosta|Shell Smash|p2a: Carracosta
+|-unboost|p2a: Carracosta|def|1
+|-unboost|p2a: Carracosta|spd|1
+|-boost|p2a: Carracosta|atk|2
+|-boost|p2a: Carracosta|spa|2
+|-boost|p2a: Carracosta|spe|2
+|
+|upkeep
+|turn|6
+|
+|t:|1685363128
+|move|p2a: Carracosta|Stone Edge|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|upkeep
+|
+|t:|1685363152
+|switch|p1a: Aurorus|Aurorus, L84, F|343/343
+|-activate|p1a: Aurorus|move: Sticky Web
+|-unboost|p1a: Aurorus|spe|1
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Aurorus
+|turn|7
+|
+|t:|1685363157
+|move|p2a: Carracosta|Hydro Pump|p1a: Aurorus|[miss]
+|-miss|p2a: Carracosta|p1a: Aurorus
+|move|p1a: Aurorus|Blizzard|p2a: Carracosta
+|-resisted|p2a: Carracosta
+|-damage|p2a: Carracosta|78/262
+|-status|p2a: Carracosta|frz
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Carracosta|62/262 frz|[from] Hail
+|upkeep
+|turn|8
+|
+|t:|1685363167
+|-curestatus|p2a: Carracosta|frz|[msg]
+|move|p2a: Carracosta|Hydro Pump|p1a: Aurorus
+|-supereffective|p1a: Aurorus
+|-damage|p1a: Aurorus|0 fnt
+|faint|p1a: Aurorus
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Carracosta|46/262|[from] Hail
+|upkeep
+|
+|t:|1685363185
+|switch|p1a: Flareon|Flareon, L86, F|205/251 tox
+|-activate|p1a: Flareon|move: Sticky Web
+|-unboost|p1a: Flareon|spe|1
+|turn|9
+|
+|t:|1685363192
+|switch|p1a: Volcanion|Volcanion, L80|259/259
+|move|p2a: Carracosta|Hydro Pump|p1a: Volcanion
+|-immune|p1a: Volcanion|[from] ability: Water Absorb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Carracosta|30/262|[from] Hail
+|-damage|p1a: Volcanion|243/259|[from] Hail
+|upkeep
+|turn|10
+|
+|t:|1685363205
+|move|p2a: Carracosta|Stone Edge|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Carracosta|14/262|[from] Hail
+|upkeep
+|
+|t:|1685363215
+|switch|p1a: Wailord|Wailord, L90, M|452/452
+|-activate|p1a: Wailord|move: Sticky Web
+|-unboost|p1a: Wailord|spe|1
+|turn|11
+|
+|t:|1685363219
+|move|p2a: Carracosta|Stone Edge|p1a: Wailord
+|-damage|p1a: Wailord|92/452
+|move|p1a: Wailord|Hyper Voice|p2a: Carracosta
+|-resisted|p2a: Carracosta
+|-damage|p2a: Carracosta|0 fnt
+|faint|p2a: Carracosta
+|
+|-weather|none
+|upkeep
+|
+|t:|1685363225
+|switch|p2a: Ribombee|Ribombee, L82, M|175/233
+|turn|12
+|
+|t:|1685363230
+|move|p2a: Ribombee|Moonblast|p1a: Wailord
+|-damage|p1a: Wailord|0 fnt
+|faint|p1a: Wailord
+|
+|upkeep
+|
+|t:|1685363234
+|switch|p1a: Flareon|Flareon, L86, F|205/251 tox
+|-activate|p1a: Flareon|move: Sticky Web
+|-unboost|p1a: Flareon|spe|1
+|turn|13
+|
+|t:|1685363241
+|move|p2a: Ribombee|U-turn|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|175/251 tox
+|
+|t:|1685363249
+|switch|p2a: Tyrantrum|Tyrantrum, L82, F|269/269|[from] U-turn
+|move|p1a: Flareon|Flame Charge|p2a: Tyrantrum
+|-resisted|p2a: Tyrantrum
+|-damage|p2a: Tyrantrum|247/269
+|-boost|p1a: Flareon|spe|1
+|
+|-damage|p1a: Flareon|160/251 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1685363260
+|switch|p1a: Sylveon|Sylveon, L84, M|297/297
+|-activate|p1a: Sylveon|move: Sticky Web
+|-unboost|p1a: Sylveon|spe|1
+|move|p2a: Tyrantrum|Earthquake|p1a: Sylveon
+|-damage|p1a: Sylveon|171/297
+|-damage|p2a: Tyrantrum|221/269|[from] item: Life Orb
+|
+|-heal|p1a: Sylveon|189/297|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685363275
+|move|p2a: Tyrantrum|Head Smash|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|faint|p1a: Sylveon
+|-damage|p2a: Tyrantrum|195/269|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685363279
+|switch|p1a: Flareon|Flareon, L86, F|160/251 tox
+|-activate|p1a: Flareon|move: Sticky Web
+|-unboost|p1a: Flareon|spe|1
+|turn|16
+|
+|t:|1685363282
+|move|p2a: Tyrantrum|Earthquake|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|-damage|p2a: Tyrantrum|169/269|[from] item: Life Orb
+|
+|win|totallynotbgg
+|raw|Ruben219's rating: 1400 &rarr; <strong>1372</strong><br />(-28 for losing)
+|raw|totallynotbgg's rating: 1256 &rarr; <strong>1291</strong><br />(+35 for winning)

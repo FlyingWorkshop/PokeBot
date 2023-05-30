@@ -1,0 +1,361 @@
+|j|☆flyingworkshop
+|j|☆jmuyygh
+|t:|1685337990
+|gametype|singles
+|player|p1|flyingworkshop|dawn|1192
+|player|p2|jmuyygh|2|1090
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685337990
+|start
+|switch|p1a: Slowking|Slowking, L86, F|304/304
+|switch|p2a: Zapdos|Zapdos, L78|268/268
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by flyingworkshop)
+|
+|t:|1685338005
+|switch|p1a: Dragalge|Dragalge, L86, F|252/252
+|move|p2a: Zapdos|Discharge|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|221/252
+|
+|-heal|p1a: Dragalge|236/252|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1685338020
+|move|p2a: Zapdos|Hurricane|p1a: Dragalge
+|-damage|p1a: Dragalge|134/252
+|-start|p1a: Dragalge|confusion
+|-activate|p1a: Dragalge|confusion
+|-damage|p1a: Dragalge|117/252|[from] confusion
+|
+|-heal|p1a: Dragalge|132/252|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1685338030
+|switch|p1a: Aerodactyl|Aerodactyl, L82, F|265/265
+|-ability|p1a: Aerodactyl|Unnerve
+|move|p2a: Zapdos|Hurricane|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|190/265
+|
+|upkeep
+|turn|4
+|
+|t:|1685338050
+|switch|p2a: Lopunny|Lopunny, L90, M|263/263
+|move|p1a: Aerodactyl|Stone Edge|p2a: Lopunny|[miss]
+|-miss|p1a: Aerodactyl|p2a: Lopunny
+|
+|-status|p2a: Lopunny|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|t:|1685338061
+|switch|p1a: Slowking|Slowking, L86, F|304/304
+|move|p2a: Lopunny|Facade|p1a: Slowking
+|-damage|p1a: Slowking|156/304
+|
+|-heal|p1a: Slowking|175/304|[from] item: Leftovers
+|-damage|p2a: Lopunny|247/263 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1685338076
+|move|p2a: Lopunny|Facade|p1a: Slowking
+|-damage|p1a: Slowking|37/304
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|189/304
+|
+|-heal|p1a: Slowking|208/304|[from] item: Leftovers
+|-damage|p2a: Lopunny|215/263 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1685338087
+|move|p2a: Lopunny|Switcheroo|p1a: Slowking
+|-activate|p2a: Lopunny|move: Trick|[of] p1a: Slowking
+|-item|p1a: Slowking|Toxic Orb|[from] move: Switcheroo
+|-item|p2a: Lopunny|Leftovers|[from] move: Switcheroo
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|304/304
+|
+|-heal|p2a: Lopunny|231/263 tox|[from] item: Leftovers
+|-damage|p2a: Lopunny|183/263 tox|[from] psn
+|-status|p1a: Slowking|tox|[from] item: Toxic Orb
+|upkeep
+|turn|8
+|
+|t:|1685338098
+|move|p2a: Lopunny|Facade|p1a: Slowking
+|-damage|p1a: Slowking|145/304 tox
+|move|p1a: Slowking|Scald|p2a: Lopunny
+|-damage|p2a: Lopunny|104/263 tox
+|
+|-heal|p2a: Lopunny|120/263 tox|[from] item: Leftovers
+|-damage|p2a: Lopunny|56/263 tox|[from] psn
+|-damage|p1a: Slowking|126/304 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1685338111
+|move|p2a: Lopunny|Facade|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-heal|p2a: Lopunny|72/263 tox|[from] item: Leftovers
+|-damage|p2a: Lopunny|0 fnt|[from] psn
+|faint|p2a: Lopunny
+|upkeep
+|
+|t:|1685338135
+|switch|p2a: Sharpedo|Sharpedo, L82, M|249/249
+|switch|p1a: Aerodactyl|Aerodactyl, L82, F|190/265
+|-ability|p1a: Aerodactyl|Unnerve
+|turn|10
+|
+|t:|1685338153
+|switch|p1a: Appletun|Appletun, L90, F|344/344
+|move|p2a: Sharpedo|Hydro Pump|p1a: Appletun
+|-resisted|p1a: Appletun
+|-damage|p1a: Appletun|306/344
+|-damage|p2a: Sharpedo|225/249|[from] item: Life Orb
+|
+|-heal|p1a: Appletun|327/344|[from] item: Leftovers
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|11
+|inactive|jmuyygh has 120 seconds left.
+|inactive|flyingworkshop has 120 seconds left.
+|
+|t:|1685338192
+|switch|p2a: Hatterene|Hatterene, L86, F|238/238
+|move|p1a: Appletun|Apple Acid|p2a: Hatterene
+|-damage|p2a: Hatterene|144/238
+|-unboost|p2a: Hatterene|spd|1
+|
+|-heal|p1a: Appletun|344/344|[from] item: Leftovers
+|-heal|p2a: Hatterene|158/238|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685338207
+|move|p1a: Appletun|Apple Acid|p2a: Hatterene
+|-damage|p2a: Hatterene|17/238
+|-unboost|p2a: Hatterene|spd|1
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Appletun
+|-supereffective|p1a: Appletun
+|-damage|p1a: Appletun|92/344
+|
+|-heal|p1a: Appletun|113/344|[from] item: Leftovers
+|-heal|p2a: Hatterene|31/238|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685338220
+|move|p1a: Appletun|Apple Acid|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-heal|p1a: Appletun|134/344|[from] item: Leftovers
+|upkeep
+|inactive|jmuyygh has 90 seconds left.
+|inactive|jmuyygh has 60 seconds left.
+|
+|t:|1685338275
+|switch|p2a: Zapdos|Zapdos, L78|268/268
+|turn|14
+|
+|t:|1685338298
+|move|p2a: Zapdos|Hurricane|p1a: Appletun
+|-supereffective|p1a: Appletun
+|-damage|p1a: Appletun|0 fnt
+|faint|p1a: Appletun
+|
+|upkeep
+|
+|t:|1685338301
+|switch|p1a: Aerodactyl|Aerodactyl, L82, F|190/265
+|-ability|p1a: Aerodactyl|Unnerve
+|turn|15
+|
+|t:|1685338313
+|switch|p2a: Bellossom|Bellossom, L82, M|257/257
+|move|p1a: Aerodactyl|Dual Wingbeat|p2a: Bellossom
+|-supereffective|p2a: Bellossom
+|-damage|p2a: Bellossom|135/257
+|-supereffective|p2a: Bellossom
+|-damage|p2a: Bellossom|7/257
+|-hitcount|p2a: Bellossom|2
+|
+|-heal|p2a: Bellossom|23/257|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685338326
+|move|p1a: Aerodactyl|Dual Wingbeat|p2a: Bellossom
+|-supereffective|p2a: Bellossom
+|-damage|p2a: Bellossom|0 fnt
+|faint|p2a: Bellossom
+|-hitcount|p2: Bellossom|1
+|
+|upkeep
+|
+|t:|1685338333
+|switch|p2a: Sharpedo|Sharpedo, L82, M|225/249
+|turn|17
+|inactive|flyingworkshop has 120 seconds left.
+|
+|t:|1685338348
+|switch|p1a: Dragalge|Dragalge, L86, F|132/252
+|move|p2a: Sharpedo|Hydro Pump|p1a: Dragalge|[miss]
+|-miss|p2a: Sharpedo|p1a: Dragalge
+|
+|-heal|p1a: Dragalge|147/252|[from] item: Black Sludge
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|18
+|inactive|flyingworkshop has 120 seconds left.
+|
+|t:|1685338360
+|move|p2a: Sharpedo|Hydro Pump|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|92/252
+|-damage|p2a: Sharpedo|201/249|[from] item: Life Orb
+|move|p1a: Dragalge|Dragon Pulse|p2a: Sharpedo
+|-crit|p2a: Sharpedo
+|-damage|p2a: Sharpedo|0 fnt
+|faint|p2a: Sharpedo
+|
+|-heal|p1a: Dragalge|107/252|[from] item: Black Sludge
+|upkeep
+|
+|t:|1685338373
+|switch|p2a: Zapdos|Zapdos, L78|268/268
+|turn|19
+|
+|t:|1685338377
+|move|p2a: Zapdos|Hurricane|p1a: Dragalge|[miss]
+|-miss|p2a: Zapdos|p1a: Dragalge
+|move|p1a: Dragalge|Dragon Pulse|p2a: Zapdos
+|-damage|p2a: Zapdos|140/268
+|
+|-heal|p1a: Dragalge|122/252|[from] item: Black Sludge
+|upkeep
+|turn|20
+|inactive|jmuyygh has 90 seconds left.
+|
+|t:|1685338385
+|move|p2a: Zapdos|Hurricane|p1a: Dragalge
+|-damage|p1a: Dragalge|31/252
+|move|p1a: Dragalge|Dragon Pulse|p2a: Zapdos
+|-damage|p2a: Zapdos|2/268
+|
+|-heal|p1a: Dragalge|46/252|[from] item: Black Sludge
+|upkeep
+|turn|21
+|inactive|jmuyygh has 90 seconds left.
+|
+|t:|1685338397
+|move|p2a: Zapdos|Hurricane|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|faint|p1a: Dragalge
+|
+|upkeep
+|
+|t:|1685338402
+|switch|p1a: Aerodactyl|Aerodactyl, L82, F|190/265
+|-ability|p1a: Aerodactyl|Unnerve
+|turn|22
+|
+|t:|1685338411
+|move|p1a: Aerodactyl|Dual Wingbeat|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-hitcount|p2: Zapdos|1
+|
+|upkeep
+|
+|t:|1685338417
+|switch|p2a: Mantine|Mantine, L86, F|286/286
+|turn|23
+|
+|t:|1685338426
+|-start|p2a: Mantine|Dynamax|
+|-heal|p2a: Mantine|572/572|[silent]
+|move|p1a: Aerodactyl|Dual Wingbeat|p2a: Mantine
+|-damage|p2a: Mantine|499/572
+|-damage|p2a: Mantine|430/572
+|-hitcount|p2a: Mantine|2
+|move|p2a: Mantine|Max Geyser|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|-weather|RainDance
+|faint|p1a: Aerodactyl
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mantine|447/572|[from] item: Leftovers
+|upkeep
+|
+|t:|1685338455
+|switch|p1a: Escavalier|Escavalier, L84, M|255/255
+|turn|24
+|inactive|jmuyygh has 120 seconds left.
+|
+|t:|1685338461
+|move|p2a: Mantine|Max Airstream|p1a: Escavalier
+|-damage|p1a: Escavalier|129/255
+|-boost|p2a: Mantine|spe|1
+|move|p1a: Escavalier|Swords Dance|p1a: Escavalier
+|-boost|p1a: Escavalier|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mantine|464/572|[from] item: Leftovers
+|-heal|p1a: Escavalier|144/255|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|jmuyygh has 120 seconds left.
+|
+|t:|1685338475
+|-start|p1a: Escavalier|Dynamax|
+|-heal|p1a: Escavalier|288/510|[silent]
+|move|p2a: Mantine|Max Geyser|p1a: Escavalier
+|-damage|p1a: Escavalier|119/510
+|move|p1a: Escavalier|Max Steelspike|p2a: Mantine
+|-resisted|p2a: Mantine
+|-damage|p2a: Mantine|251/572
+|-boost|p1a: Escavalier|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mantine|268/572|[from] item: Leftovers
+|-heal|p1a: Escavalier|134/510|[from] item: Leftovers
+|upkeep
+|-end|p2a: Mantine|Dynamax
+|-heal|p2a: Mantine|134/286|[silent]
+|turn|26
+|inactive|jmuyygh has 120 seconds left.
+|
+|t:|1685338500
+|move|p2a: Mantine|Roost|p2a: Mantine
+|-heal|p2a: Mantine|277/286
+|-singleturn|p2a: Mantine|move: Roost
+|move|p1a: Escavalier|Max Flutterby|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|faint|p2a: Mantine
+|
+|win|flyingworkshop
+|raw|flyingworkshop's rating: 1192 &rarr; <strong>1210</strong><br />(+18 for winning)
+|raw|jmuyygh's rating: 1090 &rarr; <strong>1073</strong><br />(-17 for losing)
+|l|☆jmuyygh

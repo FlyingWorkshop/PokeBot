@@ -1,0 +1,328 @@
+|j|‽NasaKhatarnak1
+|j|☆small jigglypuffs
+|t:|1685384692
+|gametype|singles
+|player|p1|NasaKhatarnak1|170|1079
+|player|p2|small jigglypuffs|1|1087
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685384692
+|start
+|switch|p1a: Tentacruel|Tentacruel, L84, F|272/272
+|switch|p2a: Azumarill|Azumarill, L84, M|305/305
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NasaKhatarnak1)
+|
+|t:|1685384711
+|switch|p2a: Whiscash|Whiscash, L86, F|329/329
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Whiscash
+|-sidestart|p2: small jigglypuffs|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1685384726
+|switch|p1a: Shiinotic|Shiinotic, L86, M|243/243
+|move|p2a: Whiscash|Zen Headbutt|p1a: Shiinotic
+|-damage|p1a: Shiinotic|168/243
+|
+|-heal|p1a: Shiinotic|183/243|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|small jigglypuffs has 120 seconds left.
+|
+|t:|1685384758
+|switch|p2a: Azumarill|Azumarill, L84, M|305/305
+|-status|p2a: Azumarill|psn
+|move|p1a: Shiinotic|Leech Seed|p2a: Azumarill
+|-start|p2a: Azumarill|move: Leech Seed
+|
+|-heal|p1a: Shiinotic|198/243|[from] item: Leftovers
+|-damage|p2a: Azumarill|267/305 psn|[from] Leech Seed|[of] p1a: Shiinotic
+|-heal|p1a: Shiinotic|236/243|[silent]
+|-damage|p2a: Azumarill|229/305 psn|[from] psn
+|upkeep
+|turn|4
+|inactive|small jigglypuffs has 120 seconds left.
+|
+|t:|1685384780
+|switch|p1a: Diancie|Diancie, L82|216/216
+|move|p2a: Azumarill|Knock Off|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|172/216
+|-enditem|p1a: Diancie|Leftovers|[from] move: Knock Off|[of] p2a: Azumarill
+|
+|-damage|p2a: Azumarill|191/305 psn|[from] Leech Seed|[of] p1a: Diancie
+|-heal|p1a: Diancie|210/216|[silent]
+|-damage|p2a: Azumarill|153/305 psn|[from] psn
+|upkeep
+|turn|5
+|inactive|small jigglypuffs has 90 seconds left.
+|
+|t:|1685384814
+|switch|p2a: Zarude|Zarude, L78|292/292
+|-status|p2a: Zarude|psn
+|move|p1a: Diancie|Stealth Rock|p2a: Zarude
+|-sidestart|p2: small jigglypuffs|move: Stealth Rock
+|
+|-damage|p2a: Zarude|256/292 psn|[from] psn
+|upkeep
+|turn|6
+|inactive|small jigglypuffs has 90 seconds left.
+|
+|t:|1685384825
+|switch|p1a: Centiskorch|Centiskorch, L84, M|305/305
+|move|p2a: Zarude|Bulk Up|p2a: Zarude
+|-boost|p2a: Zarude|atk|1
+|-boost|p2a: Zarude|def|1
+|
+|-heal|p2a: Zarude|274/292 psn|[from] item: Leftovers
+|-damage|p2a: Zarude|238/292 psn|[from] psn
+|upkeep
+|turn|7
+|inactive|small jigglypuffs has 90 seconds left.
+|
+|t:|1685384838
+|switch|p2a: Carbink|Carbink, L86|226/226
+|-status|p2a: Carbink|psn
+|-damage|p2a: Carbink|198/226 psn|[from] Stealth Rock
+|move|p1a: Centiskorch|Fire Lash|p2a: Carbink
+|-resisted|p2a: Carbink
+|-damage|p2a: Carbink|166/226 psn
+|-unboost|p2a: Carbink|def|1
+|
+|-damage|p2a: Carbink|138/226 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1685384843
+|move|p1a: Centiskorch|Power Whip|p2a: Carbink
+|-supereffective|p2a: Carbink
+|-damage|p2a: Carbink|0 fnt
+|faint|p2a: Carbink
+|
+|upkeep
+|inactive|small jigglypuffs has 90 seconds left.
+|
+|t:|1685384864
+|switch|p2a: Whiscash|Whiscash, L86, F|329/329
+|-status|p2a: Whiscash|psn
+|-damage|p2a: Whiscash|309/329 psn|[from] Stealth Rock
+|turn|9
+|inactive|small jigglypuffs has 90 seconds left.
+|
+|t:|1685384872
+|switch|p1a: Shiinotic|Shiinotic, L86, M|236/243
+|switch|p2a: Zarude|Zarude, L78|238/292 psn
+|-damage|p2a: Zarude|202/292 psn|[from] Stealth Rock
+|
+|-heal|p2a: Zarude|220/292 psn|[from] item: Leftovers
+|-heal|p1a: Shiinotic|243/243|[from] item: Leftovers
+|-damage|p2a: Zarude|184/292 psn|[from] psn
+|upkeep
+|turn|10
+|inactive|small jigglypuffs has 90 seconds left.
+|
+|t:|1685384898
+|switch|p2a: Cherrim|Cherrim, L93, M|281/281
+|-status|p2a: Cherrim|psn
+|-damage|p2a: Cherrim|246/281 psn|[from] Stealth Rock
+|move|p1a: Shiinotic|Moonblast|p2a: Cherrim
+|-damage|p2a: Cherrim|150/281 psn
+|
+|-damage|p2a: Cherrim|115/281 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1685384917
+|move|p2a: Cherrim|Energy Ball|p1a: Shiinotic
+|-resisted|p1a: Shiinotic
+|-damage|p1a: Shiinotic|195/243
+|-unboost|p1a: Shiinotic|spd|1
+|move|p1a: Shiinotic|Moonblast|p2a: Cherrim
+|-crit|p2a: Cherrim
+|-damage|p2a: Cherrim|0 fnt
+|faint|p2a: Cherrim
+|
+|-heal|p1a: Shiinotic|210/243|[from] item: Leftovers
+|upkeep
+|
+|t:|1685384921
+|switch|p2a: Azumarill|Azumarill, L84, M|153/305 psn
+|-damage|p2a: Azumarill|115/305 psn|[from] Stealth Rock
+|turn|12
+|
+|t:|1685384933
+|switch|p1a: Diancie|Diancie, L82|210/216
+|-start|p2a: Azumarill|Dynamax|
+|-heal|p2a: Azumarill|230/610 psn|[silent]
+|move|p2a: Azumarill|Max Starfall|p1a: Diancie
+|-damage|p1a: Diancie|93/216
+|-fieldstart|move: Misty Terrain
+|
+|-damage|p2a: Azumarill|192/610 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1685384944
+|move|p2a: Azumarill|Max Geyser|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|-weather|RainDance
+|faint|p1a: Diancie
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Azumarill|154/610 psn|[from] psn
+|upkeep
+|
+|t:|1685384952
+|switch|p1a: Tentacruel|Tentacruel, L84, F|272/272
+|turn|14
+|
+|t:|1685384961
+|move|p1a: Tentacruel|Sludge Bomb|p2a: Azumarill
+|-supereffective|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685384973
+|switch|p2a: Thundurus|Thundurus-Therian, L80, M|258/258
+|turn|15
+|
+|t:|1685384993
+|switch|p1a: Centiskorch|Centiskorch, L84, M|305/305
+|switch|p2a: Whiscash|Whiscash, L86, F|309/329 psn
+|-damage|p2a: Whiscash|289/329 psn|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Whiscash|248/329 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1685385007
+|switch|p1a: Shiinotic|Shiinotic, L86, M|210/243
+|move|p2a: Whiscash|Stone Edge|p1a: Shiinotic
+|-damage|p1a: Shiinotic|112/243
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Shiinotic|127/243|[from] item: Leftovers
+|-damage|p2a: Whiscash|207/329 psn|[from] psn
+|-fieldend|Misty Terrain
+|upkeep
+|turn|17
+|
+|t:|1685385028
+|move|p2a: Whiscash|Stone Edge|p1a: Shiinotic
+|-damage|p1a: Shiinotic|27/243
+|move|p1a: Shiinotic|Strength Sap|p2a: Whiscash
+|-unboost|p2a: Whiscash|atk|1
+|-heal|p1a: Shiinotic|210/243
+|
+|-weather|none
+|-heal|p1a: Shiinotic|225/243|[from] item: Leftovers
+|-damage|p2a: Whiscash|166/329 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1685385032
+|move|p2a: Whiscash|Stone Edge|p1a: Shiinotic|[miss]
+|-miss|p2a: Whiscash|p1a: Shiinotic
+|move|p1a: Shiinotic|Leech Seed|p2a: Whiscash
+|-start|p2a: Whiscash|move: Leech Seed
+|
+|-heal|p1a: Shiinotic|240/243|[from] item: Leftovers
+|-damage|p2a: Whiscash|125/329 psn|[from] Leech Seed|[of] p1a: Shiinotic
+|-heal|p1a: Shiinotic|243/243|[silent]
+|-damage|p2a: Whiscash|84/329 psn|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1685385050
+|move|p2a: Whiscash|Stone Edge|p1a: Shiinotic
+|-damage|p1a: Shiinotic|175/243
+|move|p1a: Shiinotic|Moonblast|p2a: Whiscash
+|-damage|p2a: Whiscash|0 fnt
+|faint|p2a: Whiscash
+|
+|-heal|p1a: Shiinotic|190/243|[from] item: Leftovers
+|upkeep
+|
+|t:|1685385058
+|switch|p2a: Zarude|Zarude, L78|184/292 psn
+|-damage|p2a: Zarude|148/292 psn|[from] Stealth Rock
+|turn|20
+|
+|t:|1685385063
+|move|p2a: Zarude|Power Whip|p1a: Shiinotic
+|-resisted|p1a: Shiinotic
+|-damage|p1a: Shiinotic|127/243
+|move|p1a: Shiinotic|Moonblast|p2a: Zarude
+|-supereffective|p2a: Zarude
+|-damage|p2a: Zarude|0 fnt
+|faint|p2a: Zarude
+|
+|-heal|p1a: Shiinotic|142/243|[from] item: Leftovers
+|upkeep
+|
+|t:|1685385066
+|switch|p2a: Thundurus|Thundurus-Therian, L80, M|258/258
+|turn|21
+|
+|t:|1685385069
+|move|p2a: Thundurus|Nasty Plot|p2a: Thundurus
+|-boost|p2a: Thundurus|spa|2
+|move|p1a: Shiinotic|Spore|p2a: Thundurus
+|-status|p2a: Thundurus|slp|[from] move: Spore
+|
+|-heal|p1a: Shiinotic|157/243|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|small jigglypuffs has 90 seconds left.
+|
+|t:|1685385085
+|cant|p2a: Thundurus|slp
+|move|p1a: Shiinotic|Leech Seed|p2a: Thundurus
+|-start|p2a: Thundurus|move: Leech Seed
+|
+|-heal|p1a: Shiinotic|172/243|[from] item: Leftovers
+|-damage|p2a: Thundurus|226/258 slp|[from] Leech Seed|[of] p1a: Shiinotic
+|-heal|p1a: Shiinotic|204/243|[silent]
+|upkeep
+|turn|23
+|
+|t:|1685385087
+|-curestatus|p2a: Thundurus|slp|[msg]
+|move|p2a: Thundurus|Thunderbolt|p1a: Shiinotic
+|-resisted|p1a: Shiinotic
+|-damage|p1a: Shiinotic|90/243
+|move|p1a: Shiinotic|Moonblast|p2a: Thundurus
+|-damage|p2a: Thundurus|106/258
+|
+|-heal|p1a: Shiinotic|105/243|[from] item: Leftovers
+|-damage|p2a: Thundurus|74/258|[from] Leech Seed|[of] p1a: Shiinotic
+|-heal|p1a: Shiinotic|137/243|[silent]
+|upkeep
+|turn|24
+|
+|t:|1685385099
+|move|p2a: Thundurus|Thunderbolt|p1a: Shiinotic
+|-resisted|p1a: Shiinotic
+|-damage|p1a: Shiinotic|32/243
+|move|p1a: Shiinotic|Moonblast|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|win|NasaKhatarnak1
+|raw|NasaKhatarnak1's rating: 1079 &rarr; <strong>1108</strong><br />(+29 for winning)
+|raw|small jigglypuffs's rating: 1087 &rarr; <strong>1063</strong><br />(-24 for losing)
+|l|☆small jigglypuffs

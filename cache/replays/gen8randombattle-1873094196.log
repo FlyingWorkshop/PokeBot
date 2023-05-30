@@ -1,0 +1,223 @@
+|j|☆yfjvjjvhhjmn
+|j|☆Rifnemfkd
+|t:|1685323557
+|gametype|singles
+|player|p1|yfjvjjvhhjmn|102|1000
+|player|p2|Rifnemfkd|1|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685323557
+|start
+|switch|p1a: Type: Null|Type: Null, L86|304/304
+|switch|p2a: Persian|Persian-Alola, L82, M|241/241
+|turn|1
+|
+|t:|1685323584
+|move|p2a: Persian|Hypnosis|p1a: Type: Null
+|-status|p1a: Type: Null|slp|[from] move: Hypnosis
+|cant|p1a: Type: Null|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1685323590
+|switch|p1a: Bewear|Bewear, L82, F|331/331
+|move|p2a: Persian|Nasty Plot|p2a: Persian
+|-boost|p2a: Persian|spa|2
+|
+|upkeep
+|turn|3
+|
+|t:|1685323600
+|move|p2a: Persian|Thunderbolt|p1a: Bewear
+|-damage|p1a: Bewear|198/331
+|move|p1a: Bewear|Close Combat|p2a: Persian
+|-supereffective|p2a: Persian
+|-enditem|p2a: Persian|Focus Sash
+|-damage|p2a: Persian|1/241
+|-unboost|p1a: Bewear|def|1
+|-unboost|p1a: Bewear|spd|1
+|-damage|p1a: Bewear|165/331|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1685323613
+|switch|p1a: Dragalge|Dragalge, L86, F|252/252
+|move|p2a: Persian|Dark Pulse|p1a: Dragalge
+|-damage|p1a: Dragalge|155/252
+|
+|upkeep
+|turn|5
+|
+|t:|1685323623
+|move|p2a: Persian|Thunderbolt|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|119/252
+|move|p1a: Dragalge|Flip Turn|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|t:|1685323629
+|switch|p1a: Basculin|Basculin, L86, F|261/261|[from] Flip Turn
+|
+|upkeep
+|
+|t:|1685323638
+|switch|p2a: Bisharp|Bisharp, L80, F|235/235
+|turn|6
+|
+|t:|1685323648
+|move|p1a: Basculin|Superpower|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|-unboost|p1a: Basculin|atk|1
+|-unboost|p1a: Basculin|def|1
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|t:|1685323655
+|switch|p2a: Machamp|Machamp, L82, F|282/282
+|turn|7
+|
+|t:|1685323666
+|switch|p1a: Cresselia|Cresselia, L80, F|323/323
+|move|p2a: Machamp|Bullet Punch|p1a: Cresselia
+|-damage|p1a: Cresselia|297/323
+|
+|-heal|p1a: Cresselia|317/323|[from] item: Leftovers
+|-status|p2a: Machamp|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|t:|1685323680
+|move|p1a: Cresselia|Psyshock|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|126/282 brn
+|move|p2a: Machamp|Knock Off|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|97/323
+|-enditem|p1a: Cresselia|Leftovers|[from] move: Knock Off|[of] p2a: Machamp
+|
+|-damage|p2a: Machamp|109/282 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1685323691
+|move|p2a: Machamp|Bullet Punch|p1a: Cresselia
+|-damage|p1a: Cresselia|55/323
+|move|p1a: Cresselia|Moonlight|p1a: Cresselia
+|-heal|p1a: Cresselia|216/323
+|
+|-damage|p2a: Machamp|92/282 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1685323700
+|move|p1a: Cresselia|Psyshock|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|upkeep
+|
+|t:|1685323707
+|switch|p2a: Flygon|Flygon, L80, M|259/259
+|turn|11
+|
+|t:|1685323714
+|move|p2a: Flygon|Outrage|p1a: Cresselia
+|-damage|p1a: Cresselia|76/323
+|-damage|p2a: Flygon|234/259|[from] item: Life Orb
+|move|p1a: Cresselia|Moonblast|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|108/259
+|
+|upkeep
+|turn|12
+|
+|t:|1685323723
+|move|p2a: Flygon|Outrage|p1a: Cresselia|[from]lockedmove
+|-damage|p1a: Cresselia|0 fnt
+|faint|p1a: Cresselia
+|-damage|p2a: Flygon|83/259|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685323729
+|switch|p1a: Basculin|Basculin, L86, F|261/261
+|turn|13
+|
+|t:|1685323733
+|move|p1a: Basculin|Liquidation|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|upkeep
+|
+|t:|1685323740
+|switch|p2a: Carracosta|Carracosta, L84, F|262/262
+|turn|14
+|
+|t:|1685323748
+|move|p1a: Basculin|Liquidation|p2a: Carracosta
+|-damage|p2a: Carracosta|126/262
+|move|p2a: Carracosta|Stone Edge|p1a: Basculin
+|-damage|p1a: Basculin|129/261
+|
+|upkeep
+|turn|15
+|
+|t:|1685323755
+|move|p1a: Basculin|Liquidation|p2a: Carracosta
+|-damage|p2a: Carracosta|0 fnt
+|faint|p2a: Carracosta
+|
+|upkeep
+|
+|t:|1685323763
+|switch|p2a: Rapidash|Rapidash-Galar, L84, M|246/246
+|turn|16
+|
+|t:|1685323767
+|move|p2a: Rapidash|High Horsepower|p1a: Basculin|[miss]
+|-miss|p2a: Rapidash|p1a: Basculin
+|move|p1a: Basculin|Liquidation|p2a: Rapidash
+|-damage|p2a: Rapidash|48/246
+|
+|upkeep
+|turn|17
+|
+|t:|1685323777
+|move|p2a: Rapidash|Zen Headbutt|p1a: Basculin
+|-damage|p1a: Basculin|0 fnt
+|faint|p1a: Basculin
+|-damage|p2a: Rapidash|24/246|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685323781
+|switch|p1a: Bewear|Bewear, L82, F|165/331
+|turn|18
+|
+|t:|1685323785
+|move|p2a: Rapidash|Morning Sun|p2a: Rapidash
+|-heal|p2a: Rapidash|147/246
+|move|p1a: Bewear|Double-Edge|p2a: Rapidash
+|-crit|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|-damage|p1a: Bewear|116/331|[from] Recoil
+|-damage|p1a: Bewear|83/331|[from] item: Life Orb
+|
+|win|yfjvjjvhhjmn
+|raw|yfjvjjvhhjmn's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)
+|raw|Rifnemfkd's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

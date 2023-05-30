@@ -1,0 +1,237 @@
+|j|☆flyingworkshop
+|j|☆savage2play
+|t:|1685338912
+|gametype|singles
+|player|p1|flyingworkshop|dawn|1246
+|player|p2|savage2play|cynthia|1355
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685338912
+|start
+|switch|p1a: Jolteon|Jolteon, L82, F|241/241
+|switch|p2a: Sandslash|Sandslash-Alola, L86, M|269/269
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by savage2play)
+|inactive|flyingworkshop has 120 seconds left.
+|
+|t:|1685338962
+|move|p1a: Jolteon|Thunderbolt|p2a: Sandslash
+|-damage|p2a: Sandslash|88/269
+|move|p2a: Sandslash|Triple Axel|p1a: Jolteon
+|-damage|p1a: Jolteon|210/241
+|-damage|p1a: Jolteon|150/241
+|-hitcount|p1a: Jolteon|2
+|
+|upkeep
+|turn|2
+|
+|t:|1685338982
+|switch|p2a: Toxtricity|Toxtricity, L82, F|257/257
+|move|p1a: Jolteon|Thunderbolt|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|162/257
+|
+|upkeep
+|turn|3
+|
+|t:|1685338988
+|switch|p1a: Sigilyph|Sigilyph, L83, F|255/255
+|move|p2a: Toxtricity|Boomburst|p1a: Sigilyph
+|-damage|p1a: Sigilyph|34/255
+|
+|upkeep
+|turn|4
+|
+|t:|1685339000
+|move|p1a: Sigilyph|Air Slash|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|96/257
+|move|p2a: Toxtricity|Boomburst|p1a: Sigilyph
+|-damage|p1a: Sigilyph|0 fnt
+|faint|p1a: Sigilyph
+|
+|upkeep
+|
+|t:|1685339008
+|switch|p1a: Whiscash|Whiscash, L86, M|329/329
+|turn|5
+|
+|t:|1685339013
+|move|p2a: Toxtricity|Boomburst|p1a: Whiscash
+|-damage|p1a: Whiscash|86/329
+|move|p1a: Whiscash|Dragon Dance|p1a: Whiscash
+|-boost|p1a: Whiscash|atk|1
+|-boost|p1a: Whiscash|spe|1
+|
+|upkeep
+|turn|6
+|
+|t:|1685339019
+|move|p1a: Whiscash|Earthquake|p2a: Toxtricity
+|-supereffective|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|-damage|p1a: Whiscash|54/329|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685339024
+|switch|p2a: Liepard|Liepard, L86, F|250/250
+|turn|7
+|
+|t:|1685339029
+|move|p2a: Liepard|Copycat|p2a: Liepard
+|move|p2a: Liepard|Earthquake|p1a: Whiscash|[from]move: Copycat
+|-damage|p1a: Whiscash|0 fnt
+|faint|p1a: Whiscash
+|
+|upkeep
+|
+|t:|1685339037
+|switch|p1a: Skarmory|Skarmory, L80, M|235/235
+|turn|8
+|
+|t:|1685339049
+|switch|p2a: Mr. Mime|Mr. Mime, L86, M|209/209
+|move|p1a: Skarmory|Spikes|p2a: Mr. Mime
+|-sidestart|p2: savage2play|Spikes
+|
+|upkeep
+|turn|9
+|inactive|flyingworkshop has 120 seconds left.
+|
+|t:|1685339082
+|move|p2a: Mr. Mime|Nasty Plot|p2a: Mr. Mime
+|-boost|p2a: Mr. Mime|spa|2
+|move|p1a: Skarmory|Spikes|p2a: Mr. Mime
+|-sidestart|p2: savage2play|Spikes
+|
+|upkeep
+|turn|10
+|
+|t:|1685339090
+|switch|p1a: Jolteon|Jolteon, L82, F|150/241
+|move|p2a: Mr. Mime|Focus Blast|p1a: Jolteon|[miss]
+|-miss|p2a: Mr. Mime|p1a: Jolteon
+|
+|upkeep
+|turn|11
+|
+|t:|1685339099
+|-start|p1a: Jolteon|Dynamax|
+|-heal|p1a: Jolteon|300/482|[silent]
+|move|p1a: Jolteon|Max Phantasm|p2a: Mr. Mime
+|-supereffective|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|107/209
+|-unboost|p2a: Mr. Mime|def|1
+|move|p2a: Mr. Mime|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|37/482
+|-damage|p2a: Mr. Mime|87/209|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|t:|1685339115
+|switch|p2a: Sandslash|Sandslash-Alola, L86, M|88/269
+|-damage|p2a: Sandslash|44/269|[from] Spikes
+|move|p1a: Jolteon|Max Lightning|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|-fieldstart|move: Electric Terrain
+|faint|p2a: Sandslash
+|
+|upkeep
+|
+|t:|1685339129
+|switch|p2a: Liepard|Liepard, L86, F|250/250
+|-damage|p2a: Liepard|209/250|[from] Spikes
+|turn|13
+|
+|t:|1685339142
+|move|p1a: Jolteon|Max Lightning|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|faint|p2a: Liepard
+|
+|upkeep
+|
+|t:|1685339148
+|switch|p2a: Mew|Mew, L80|291/291
+|-damage|p2a: Mew|243/291|[from] Spikes
+|-end|p1a: Jolteon|Dynamax
+|-heal|p1a: Jolteon|19/241|[silent]
+|turn|14
+|
+|t:|1685339154
+|move|p1a: Jolteon|Shadow Ball|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|65/291
+|-unboost|p2a: Mew|spd|1
+|move|p2a: Mew|Dragon Dance|p2a: Mew
+|-boost|p2a: Mew|atk|1
+|-boost|p2a: Mew|spe|1
+|
+|upkeep
+|turn|15
+|
+|t:|1685339167
+|-start|p2a: Mew|Dynamax|
+|-heal|p2a: Mew|130/582|[silent]
+|move|p2a: Mew|Max Flare|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|-weather|SunnyDay
+|faint|p1a: Jolteon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685339176
+|switch|p1a: Tauros|Tauros, L82, M|257/257
+|turn|16
+|
+|t:|1685339182
+|move|p2a: Mew|Max Knuckle|p1a: Tauros
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|63/257
+|-boost|p2a: Mew|atk|1
+|move|p1a: Tauros|Throat Chop|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1685339193
+|switch|p2a: Mr. Mime|Mr. Mime, L86, M|87/209
+|-damage|p2a: Mr. Mime|53/209|[from] Spikes
+|turn|17
+|
+|t:|1685339197
+|move|p1a: Tauros|Throat Chop|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685339204
+|switch|p2a: Frosmoth|Frosmoth, L82, F|249/249
+|turn|18
+|
+|t:|1685339214
+|move|p1a: Tauros|Rock Slide|p2a: Frosmoth
+|-supereffective|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|faint|p2a: Frosmoth
+|
+|win|flyingworkshop
+|raw|flyingworkshop's rating: 1265 &rarr; <strong>1296</strong><br />(+31 for winning)
+|raw|savage2play's rating: 1355 &rarr; <strong>1330</strong><br />(-25 for losing)
+|l|☆savage2play

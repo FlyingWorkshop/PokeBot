@@ -1,0 +1,225 @@
+|j|‽NasaKhatarnak1
+|j|☆CGSGowtham
+|t:|1685383315
+|gametype|singles
+|player|p1|NasaKhatarnak1|170|1047
+|player|p2|CGSGowtham|hugh|1034
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685383315
+|start
+|switch|p1a: Kartana|Kartana, L74|209/209
+|switch|p2a: Mr. Mime|Mr. Mime-Galar, L86, M|226/226
+|turn|1
+|
+|t:|1685383339
+|move|p2a: Mr. Mime|Freeze-Dry|p1a: Kartana
+|-damage|p1a: Kartana|34/209
+|move|p1a: Kartana|Smart Strike|p2a: Mr. Mime
+|-supereffective|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|8/226
+|-damage|p1a: Kartana|14/209|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|t:|1685383346
+|move|p2a: Mr. Mime|Freeze-Dry|p1a: Kartana
+|-crit|p1a: Kartana
+|-damage|p1a: Kartana|0 fnt
+|faint|p1a: Kartana
+|
+|upkeep
+|
+|t:|1685383349
+|switch|p1a: Snorlax|Snorlax, L82, M|397/397
+|turn|3
+|
+|t:|1685383353
+|move|p2a: Mr. Mime|Focus Blast|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|183/397
+|move|p1a: Snorlax|Double-Edge|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|-damage|p1a: Snorlax|180/397|[from] Recoil
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NasaKhatarnak1)
+|
+|t:|1685383372
+|switch|p2a: Liepard|Liepard, L86, M|250/250
+|turn|4
+|
+|t:|1685383380
+|switch|p1a: Shiinotic|Shiinotic, L86, F|243/243
+|move|p2a: Liepard|Copycat|p2a: Liepard
+|move|p2a: Liepard|Double-Edge|p1a: Shiinotic|[from]move: Copycat
+|-damage|p1a: Shiinotic|156/243
+|-damage|p2a: Liepard|221/250|[from] Recoil
+|
+|-heal|p2a: Liepard|236/250|[from] item: Leftovers
+|-heal|p1a: Shiinotic|171/243|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685383394
+|move|p2a: Liepard|Knock Off|p1a: Shiinotic
+|-resisted|p1a: Shiinotic
+|-damage|p1a: Shiinotic|117/243
+|-enditem|p1a: Shiinotic|Leftovers|[from] move: Knock Off|[of] p2a: Liepard
+|move|p1a: Shiinotic|Moonblast|p2a: Liepard
+|-supereffective|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|faint|p2a: Liepard
+|
+|upkeep
+|
+|t:|1685383398
+|switch|p2a: Naganadel|Naganadel, L74|230/230
+|turn|6
+|
+|t:|1685383401
+|move|p2a: Naganadel|Sludge Wave|p1a: Shiinotic
+|-supereffective|p1a: Shiinotic
+|-damage|p1a: Shiinotic|0 fnt
+|faint|p1a: Shiinotic
+|-ability|p2a: Naganadel|Beast Boost|boost
+|-boost|p2a: Naganadel|spa|1
+|-damage|p2a: Naganadel|207/230|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685383406
+|switch|p1a: Zygarde|Zygarde-10%, L82|223/223
+|-ability|p1a: Zygarde|Aura Break
+|turn|7
+|
+|t:|1685383422
+|move|p1a: Zygarde|Thousand Arrows|p2a: Naganadel
+|-supereffective|p2a: Naganadel
+|-damage|p2a: Naganadel|0 fnt
+|faint|p2a: Naganadel
+|-damage|p1a: Zygarde|201/223|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685383427
+|switch|p2a: Exeggutor|Exeggutor, L86, F|304/304
+|turn|8
+|
+|t:|1685383434
+|switch|p1a: Snorlax|Snorlax, L82, M|180/397
+|move|p2a: Exeggutor|Giga Drain|p1a: Snorlax
+|-damage|p1a: Snorlax|90/397
+|
+|upkeep
+|turn|9
+|
+|t:|1685383441
+|move|p2a: Exeggutor|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|upkeep
+|
+|t:|1685383445
+|switch|p1a: Farfetch’d|Farfetch’d, L90, M|239/239
+|turn|10
+|
+|t:|1685383451
+|switch|p2a: Crustle|Crustle, L82, F|249/249
+|move|p1a: Farfetch’d|Swords Dance|p1a: Farfetch’d
+|-boost|p1a: Farfetch’d|atk|2
+|
+|upkeep
+|turn|11
+|
+|t:|1685383458
+|-start|p1a: Farfetch’d|Dynamax|
+|-heal|p1a: Farfetch’d|478/478|[silent]
+|move|p1a: Farfetch’d|Max Airstream|p2a: Crustle
+|-crit|p2a: Crustle
+|-ability|p2a: Crustle|Sturdy
+|-damage|p2a: Crustle|1/249
+|-boost|p1a: Farfetch’d|spe|1
+|move|p2a: Crustle|Shell Smash|p2a: Crustle
+|-unboost|p2a: Crustle|def|1
+|-unboost|p2a: Crustle|spd|1
+|-boost|p2a: Crustle|atk|2
+|-boost|p2a: Crustle|spa|2
+|-boost|p2a: Crustle|spe|2
+|
+|upkeep
+|turn|12
+|
+|t:|1685383476
+|move|p2a: Crustle|X-Scissor|p1a: Farfetch’d
+|-resisted|p1a: Farfetch’d
+|-damage|p1a: Farfetch’d|370/478
+|move|p1a: Farfetch’d|Max Airstream|p2a: Crustle
+|-crit|p2a: Crustle
+|-damage|p2a: Crustle|0 fnt
+|-boost|p1a: Farfetch’d|spe|1
+|faint|p2a: Crustle
+|
+|upkeep
+|
+|t:|1685383484
+|switch|p2a: Vileplume|Vileplume, L84, M|263/263
+|turn|13
+|
+|t:|1685383489
+|move|p1a: Farfetch’d|Max Airstream|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-crit|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|-boost|p1a: Farfetch’d|spe|1
+|faint|p2a: Vileplume
+|
+|upkeep
+|
+|t:|1685383492
+|switch|p2a: Exeggutor|Exeggutor, L86, F|304/304
+|-end|p1a: Farfetch’d|Dynamax
+|-heal|p1a: Farfetch’d|185/239|[silent]
+|turn|14
+|
+|t:|1685383496
+|-start|p2a: Exeggutor|Dynamax|
+|-heal|p2a: Exeggutor|608/608|[silent]
+|move|p1a: Farfetch’d|Brave Bird|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|80/608
+|-enditem|p2a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p2a: Exeggutor|156/608|[from] item: Sitrus Berry
+|-damage|p1a: Farfetch’d|11/239|[from] Recoil
+|move|p2a: Exeggutor|Max Mindstorm|p1a: Farfetch’d
+|-damage|p1a: Farfetch’d|0 fnt
+|-fieldstart|move: Psychic Terrain
+|faint|p1a: Farfetch’d
+|
+|upkeep
+|
+|t:|1685383499
+|switch|p1a: Zygarde|Zygarde-10%, L82|201/223
+|-ability|p1a: Zygarde|Aura Break
+|turn|15
+|
+|t:|1685383503
+|move|p1a: Zygarde|Outrage|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|-damage|p1a: Zygarde|179/223|[from] item: Life Orb
+|
+|win|NasaKhatarnak1
+|raw|NasaKhatarnak1's rating: 1047 &rarr; <strong>1079</strong><br />(+32 for winning)
+|raw|CGSGowtham's rating: 1034 &rarr; <strong>1019</strong><br />(-15 for losing)
