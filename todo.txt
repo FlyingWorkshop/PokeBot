@@ -1,69 +1,89 @@
-### https://replay.pokemonshowdown.com/gen8randombattle-1862102090 ###
-clawitzer uses waterpulse (waterpulse) against mewtwo
-loss: 3.8548190593719482
-mewtwo uses psystrike (switch) against clawitzer
-loss: 3.85031795501709
-clawitzer uses waterpulse (switch) against tapukoko
-loss: 4.951975345611572
-tapukoko uses calmmind (thunderbolt) against clawitzer
-loss: 5.844917297363281
-turtonator uses willowisp (earthquake) against tapukoko
-loss: 6.339931011199951
-tapukoko uses calmmind (dazzlinggleam) against turtonator
-loss: 6.362693786621094
-turtonator uses willowisp (shellsmash) against mewtwo
-loss: 6.362414360046387
-mewtwo uses psystrike (nastyplot) against turtonator
-loss: 6.496946334838867
-turtonator uses willowisp (dracometeor) against mewtwo
-loss: 6.568877220153809
-mewtwo uses psystrike (psystrike) against turtonator
-loss: 5.441824913024902
-tornadus uses switch (hurricane) against mewtwo
-loss: 6.562487602233887
-mewtwo uses psystrike (psystrike) against tornadus
-loss: 5.460888862609863
-raikou uses calmmind (thunderbolt) against mewtwo
-loss: 6.564568042755127
-mewtwo uses switch (psystrike) against raikou
-loss: 7.698483467102051
-raikou uses thunderbolt (aurasphere) against druddigon
-loss: 6.612541198730469
-druddigon uses superpower (stealthrock) against raikou
-loss: 6.587649345397949
-raikou uses thunderbolt (aurasphere) against druddigon
-loss: 6.613536834716797
-druddigon uses superpower (earthquake) against raikou
-loss: 6.5301384925842285
-raikou uses thunderbolt (switch) against druddigon
-loss: 5.519461631774902
-druddigon uses superpower (earthquake) against raikou
-loss: 6.5282063484191895
-hitmontop uses switch (closecombat) against druddigon
-loss: 6.608379364013672
-druddigon uses superpower (outrage) against hitmontop
-loss: 6.618107795715332
-raikou uses thunderbolt (thunderbolt) against druddigon
-loss: 5.519590377807617
-druddigon uses superpower (outrage) against raikou
-loss: 6.61813497543335
-clawitzer uses waterpulse (switch) against luxray
-loss: 5.553013324737549
-luxray uses agility (switch) against clawitzer
-loss: 5.551581859588623
-clawitzer uses waterpulse (waterpulse) against luxray
-loss: 5.2887959480285645
-luxray uses superpower (wildcharge) against clawitzer
-loss: 6.613073348999023
-torkoal uses solarbeam (switch) against luxray
-loss: 5.507574081420898
-luxray uses superpower (facade) against torkoal
-loss: 6.6108078956604
-torkoal uses solarbeam (stealthrock) against scyther
-loss: 6.594513416290283
-scyther uses knockoff (voltswitch) against torkoal
-loss: 6.704089641571045
-clawitzer uses waterpulse (lavaplume) against scyther
-loss: 6.704362392425537
-scyther uses knockoff (dualwingbeat) against clawitzer
-loss: 6.559532642364502
+### https://replay.pokemonshowdown.com/gen8randombattle-1872565566 ###
+cryogonal uses freezedry (switch) against ninetales
+loss: 1.8294620513916016
+ninetales uses fireblast (nastyplot) against cryogonal
+loss: 1.7868046760559082
+cryogonal uses freezedry (switch) against ninetales
+loss: 1.8279216289520264
+ninetales uses fireblast (solarbeam) against cryogonal
+loss: 1.5313128232955933
+suicune uses icebeam (stoneedge) against ninetales
+loss: 2.0
+ninetales uses solarbeam (scorchingsands) against suicune
+loss: 1.6692392826080322
+buzzwole uses closecombat (stoneedge) against ninetales
+loss: 1.790152907371521
+ninetales uses solarbeam (fireblast) against buzzwole
+loss: 1.5273137092590332
+buzzwole uses closecombat (stoneedge) against ninetales
+loss: 1.7894401550292969
+ninetales uses solarbeam (fireblast) against buzzwole
+loss: 1.470322847366333
+buzzwole uses closecombat (stoneedge) against ninetales
+loss: 1.7882684469223022
+ninetales uses fireblast (scorchingsands) against buzzwole
+loss: 1.5767004489898682
+buzzwole uses closecombat (stoneedge) against ninetales
+loss: 1.7870068550109863
+ninetales uses fireblast (voltswitch) against buzzwole
+loss: 2.0
+buzzwole uses closecombat (stealthrock) against manectric
+loss: 2.0
+manectric uses thunderbolt (stickyweb) against buzzwole
+loss: 2.0
+torkoal uses lavaplume (lavaplume) against ribombee
+loss: 1.4806835651397705
+ribombee uses psychic (stunspore) against torkoal
+loss: 1.7540371417999268
+torkoal uses lavaplume (solarbeam) against ribombee
+loss: 1.4880163669586182
+ribombee uses psychic (calmmind) against torkoal
+loss: 2.0
+torkoal uses lavaplume (earthquake) against keldeoresolute
+loss: 1.7611554861068726
+keldeoresolute uses airslash (scald) against torkoal
+loss: 1.5949965715408325
+torkoal uses lavaplume (rapidspin) against keldeoresolute
+loss: 1.75904381275177
+keldeoresolute uses airslash (secretsword) against torkoal
+loss: 1.796811819076538
+cryogonal uses freezedry (earthquake) against keldeoresolute
+loss: 2.0
+keldeoresolute uses airslash (secretsword) against cryogonal
+loss: 1.7935718297958374
+krookodile uses knockoff (closecombat) against keldeoresolute
+loss: 1.485957145690918
+keldeoresolute uses airslash (hydropump) against krookodile
+loss: 1.8072582483291626
+krookodile uses knockoff (earthquake) against wailord
+loss: 1.7593607902526855
+wailord uses icebeam (hydropump) against krookodile
+loss: 1.6950896978378296
+krookodile uses knockoff (switch) against wailord
+loss: 1.7558468580245972
+wailord uses icebeam (flamethrower) against krookodile
+loss: 2.0
+krookodile uses knockoff (switch) against manectric
+loss: 1.7558380365371704
+manectric uses thunderbolt (thunderbolt) against krookodile
+loss: 1.249696969985962
+krookodile uses knockoff (earthquake) against manectric
+loss: 1.7593002319335938
+manectric uses thunderbolt (flamethrower) against krookodile
+loss: 1.7942359447479248
+krookodile uses knockoff (calmmind) against manectric
+loss: 2.0
+manectric uses thunderbolt (thunderbolt) against krookodile
+loss: 1.142198085784912
+suicune uses icebeam (rest) against manectric
+loss: 1.8094096183776855
+manectric uses thunderbolt (thunderbolt) against suicune
+loss: 1.1012382507324219
+suicune uses icebeam (sleeptalk) against manectric
+loss: 1.7956745624542236
+manectric uses thunderbolt (thunderbolt) against suicune
+loss: 1.0742900371551514
+suicune uses scald (sleeptalk) against manectric
+loss: 1.6413947343826294
+manectric uses thunderbolt (swordsdance) against suicune
+loss: 2.0
