@@ -1,0 +1,330 @@
+|j|☆KENJ11031
+|j|☆MISTERBODYCATCHER
+|t:|1685413420
+|gametype|singles
+|player|p1|KENJ11031|101|
+|player|p2|MISTERBODYCATCHER|pilot|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685413420
+|start
+|switch|p1a: Mudsdale|Mudsdale, L82, F|298/298
+|switch|p2a: Dragonite|Dragonite, L75, M|259/259
+|turn|1
+|
+|t:|1685413447
+|switch|p2a: Hippowdon|Hippowdon, L80, F|304/304
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Mudsdale|Body Press|p2a: Hippowdon
+|-damage|p2a: Hippowdon|260/304
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|279/304|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685413472
+|switch|p1a: Klinklang|Klinklang, L84|238/238
+|move|p2a: Hippowdon|Whirlwind|p1a: Klinklang
+|drag|p1a: Mudsdale|Mudsdale, L82, F|298/298
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|298/304|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685413486
+|switch|p1a: Klinklang|Klinklang, L84|238/238
+|move|p2a: Hippowdon|Earthquake|p1a: Klinklang
+|-supereffective|p1a: Klinklang
+|-damage|p1a: Klinklang|64/238
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Klinklang|78/238|[from] item: Leftovers
+|-heal|p2a: Hippowdon|304/304|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685413494
+|move|p1a: Klinklang|Wild Charge|p2a: Hippowdon
+|-immune|p2a: Hippowdon
+|move|p2a: Hippowdon|Earthquake|p1a: Klinklang
+|-supereffective|p1a: Klinklang
+|-damage|p1a: Klinklang|0 fnt
+|faint|p1a: Klinklang
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1685413501
+|switch|p1a: Latias|Latias, L80, F|259/259
+|turn|5
+|
+|t:|1685413531
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Hippowdon|Whirlwind|p1a: Latias
+|drag|p1a: Oranguru|Oranguru, L86, F|295/295
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1685413545
+|move|p1a: Oranguru|Focus Blast|p2a: Hippowdon
+|-damage|p2a: Hippowdon|209/304
+|move|p2a: Hippowdon|Earthquake|p1a: Oranguru
+|-damage|p1a: Oranguru|178/295
+|
+|-heal|p1a: Oranguru|196/295|[from] item: Leftovers
+|-heal|p2a: Hippowdon|228/304|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685413558
+|move|p1a: Oranguru|Psychic|p2a: Hippowdon
+|-damage|p2a: Hippowdon|120/304
+|move|p2a: Hippowdon|Earthquake|p1a: Oranguru
+|-damage|p1a: Oranguru|91/295
+|
+|-heal|p1a: Oranguru|109/295|[from] item: Leftovers
+|-heal|p2a: Hippowdon|139/304|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685413563
+|move|p1a: Oranguru|Psychic|p2a: Hippowdon
+|-damage|p2a: Hippowdon|19/304
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|171/304
+|
+|-heal|p1a: Oranguru|127/295|[from] item: Leftovers
+|-heal|p2a: Hippowdon|190/304|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1685413586
+|switch|p2a: Heatran|Heatran, L78, M|270/270
+|move|p1a: Oranguru|Psychic|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|228/270
+|
+|-heal|p2a: Heatran|244/270|[from] item: Leftovers
+|-heal|p1a: Oranguru|145/295|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685413596
+|move|p2a: Heatran|Flash Cannon|p1a: Oranguru
+|-damage|p1a: Oranguru|70/295
+|move|p1a: Oranguru|Nasty Plot|p1a: Oranguru
+|-boost|p1a: Oranguru|spa|2
+|
+|-heal|p2a: Heatran|260/270|[from] item: Leftovers
+|-heal|p1a: Oranguru|88/295|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1685413659
+|move|p2a: Heatran|Lava Plume|p1a: Oranguru
+|-damage|p1a: Oranguru|9/295
+|move|p1a: Oranguru|Nasty Plot|p1a: Oranguru
+|-boost|p1a: Oranguru|spa|2
+|
+|-heal|p2a: Heatran|270/270|[from] item: Leftovers
+|-heal|p1a: Oranguru|27/295|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685413669
+|move|p2a: Heatran|Lava Plume|p1a: Oranguru
+|-damage|p1a: Oranguru|0 fnt
+|faint|p1a: Oranguru
+|
+|upkeep
+|
+|t:|1685413676
+|switch|p1a: Latias|Latias, L80, F|259/259
+|turn|13
+|
+|t:|1685413709
+|move|p1a: Latias|Draco Meteor|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|207/270
+|-unboost|p1a: Latias|spa|2
+|move|p2a: Heatran|Toxic|p1a: Latias
+|-status|p1a: Latias|tox
+|
+|-heal|p2a: Heatran|223/270|[from] item: Leftovers
+|-damage|p1a: Latias|243/259 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1685413721
+|move|p1a: Latias|Roost|p1a: Latias
+|-heal|p1a: Latias|259/259 tox
+|-singleturn|p1a: Latias|move: Roost
+|move|p2a: Heatran|Flash Cannon|p1a: Latias
+|-damage|p1a: Latias|189/259 tox
+|
+|-heal|p1a: Latias|205/259 tox|[from] item: Leftovers
+|-heal|p2a: Heatran|239/270|[from] item: Leftovers
+|-damage|p1a: Latias|173/259 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1685413728
+|move|p1a: Latias|Psychic|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|217/270
+|move|p2a: Heatran|Flash Cannon|p1a: Latias
+|-damage|p1a: Latias|94/259 tox
+|
+|-heal|p1a: Latias|110/259 tox|[from] item: Leftovers
+|-heal|p2a: Heatran|233/270|[from] item: Leftovers
+|-damage|p1a: Latias|62/259 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1685413770
+|-start|p1a: Latias|Dynamax|
+|-heal|p1a: Latias|124/518 tox|[silent]
+|move|p1a: Latias|Max Wyrmwind|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|194/270
+|-unboost|p2a: Heatran|atk|1
+|move|p2a: Heatran|Flash Cannon|p1a: Latias
+|-damage|p1a: Latias|49/518 tox
+|
+|-heal|p1a: Latias|65/518 tox|[from] item: Leftovers
+|-heal|p2a: Heatran|210/270|[from] item: Leftovers
+|-damage|p1a: Latias|1/518 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1685413776
+|move|p1a: Latias|Max Mindstorm|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|179/270
+|-fieldstart|move: Psychic Terrain
+|move|p2a: Heatran|Flash Cannon|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|-heal|p2a: Heatran|195/270|[from] item: Leftovers
+|upkeep
+|
+|t:|1685413785
+|switch|p1a: Rhyperior|Rhyperior, L82, M|323/323
+|turn|18
+|
+|t:|1685413800
+|switch|p2a: Exploud|Exploud, L84, F|312/312
+|move|p1a: Rhyperior|Fire Punch|p2a: Exploud
+|-damage|p2a: Exploud|189/312
+|
+|upkeep
+|turn|19
+|
+|t:|1685413807
+|move|p2a: Exploud|Surf|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|upkeep
+|
+|t:|1685413812
+|switch|p1a: Mudsdale|Mudsdale, L82, F|298/298
+|turn|20
+|
+|t:|1685413819
+|move|p2a: Exploud|Surf|p1a: Mudsdale
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|98/298
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|move|p1a: Mudsdale|Earthquake|p2a: Exploud
+|-damage|p2a: Exploud|29/312
+|
+|-heal|p1a: Mudsdale|116/298|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1685413824
+|move|p2a: Exploud|Surf|p1a: Mudsdale
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|0 fnt
+|faint|p1a: Mudsdale
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1685413828
+|switch|p1a: Seaking|Seaking, L88, M|284/284
+|turn|22
+|
+|t:|1685413834
+|switch|p2a: Reuniclus|Reuniclus, L84, M|322/322
+|move|p1a: Seaking|Waterfall|p2a: Reuniclus
+|-damage|p2a: Reuniclus|162/322
+|
+|upkeep
+|turn|23
+|
+|t:|1685413838
+|move|p1a: Seaking|Waterfall|p2a: Reuniclus
+|-damage|p2a: Reuniclus|5/322
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|166/322
+|
+|upkeep
+|turn|24
+|
+|t:|1685413847
+|switch|p2a: Dragonite|Dragonite, L75, M|259/259
+|move|p1a: Seaking|Waterfall|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|225/259
+|
+|upkeep
+|turn|25
+|
+|t:|1685413851
+|move|p1a: Seaking|Waterfall|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|153/259
+|move|p2a: Dragonite|Outrage|p1a: Seaking
+|-damage|p1a: Seaking|32/284
+|
+|upkeep
+|turn|26
+|
+|t:|1685413855
+|move|p1a: Seaking|Waterfall|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|80/259
+|cant|p2a: Dragonite|flinch
+|
+|-start|p2a: Dragonite|confusion|[fatigue]
+|upkeep
+|turn|27
+|
+|t:|1685413859
+|move|p1a: Seaking|Waterfall|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|14/259
+|-activate|p2a: Dragonite|confusion
+|move|p2a: Dragonite|Outrage|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|faint|p1a: Seaking
+|
+|win|MISTERBODYCATCHER
+|l|☆KENJ11031

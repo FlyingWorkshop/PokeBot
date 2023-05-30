@@ -1,0 +1,240 @@
+|j|☆ttwwxxnn
+|j|☆cftx
+|t:|1685469039
+|gametype|singles
+|player|p1|ttwwxxnn|2|
+|player|p2|cftx|yellow|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685469039
+|start
+|switch|p1a: Jellicent|Jellicent, L84, F|305/305
+|switch|p2a: Meowstic|Meowstic-F, L86, F|268/268
+|turn|1
+|
+|t:|1685469052
+|switch|p2a: Bouffalant|Bouffalant, L84, M|297/297
+|move|p1a: Jellicent|Shadow Ball|p2a: Bouffalant
+|-immune|p2a: Bouffalant
+|
+|upkeep
+|turn|2
+|
+|t:|1685469064
+|switch|p1a: Rotom|Rotom-Frost, L84|221/221
+|move|p2a: Bouffalant|Swords Dance|p2a: Bouffalant
+|-boost|p2a: Bouffalant|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1685469075
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|move|p2a: Bouffalant|Head Charge|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|-damage|p2a: Bouffalant|242/297|[from] Recoil
+|
+|-heal|p2a: Bouffalant|260/297|[from] item: Leftovers
+|upkeep
+|
+|t:|1685469087
+|switch|p1a: Throh|Throh, L86, M|347/347
+|turn|4
+|
+|t:|1685469092
+|-start|p1a: Throh|Dynamax|
+|-heal|p1a: Throh|694/694|[silent]
+|move|p2a: Bouffalant|Head Charge|p1a: Throh
+|-damage|p1a: Throh|387/694
+|-damage|p2a: Bouffalant|183/297|[from] Recoil
+|move|p1a: Throh|Max Knuckle|p2a: Bouffalant
+|-supereffective|p2a: Bouffalant
+|-damage|p2a: Bouffalant|0 fnt
+|-boost|p1a: Throh|atk|1
+|faint|p2a: Bouffalant
+|
+|-heal|p1a: Throh|408/694|[from] item: Leftovers
+|upkeep
+|
+|t:|1685469098
+|switch|p2a: Raichu|Raichu-Alola, L84, M|238/238
+|turn|5
+|
+|t:|1685469111
+|move|p2a: Raichu|Psyshock|p1a: Throh
+|-supereffective|p1a: Throh
+|-crit|p1a: Throh
+|-damage|p1a: Throh|64/694
+|move|p1a: Throh|Max Darkness|p2a: Raichu
+|-supereffective|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|-heal|p1a: Throh|85/694|[from] item: Leftovers
+|upkeep
+|
+|t:|1685469116
+|switch|p2a: Meowstic|Meowstic-F, L86, F|268/268
+|turn|6
+|
+|t:|1685469125
+|move|p2a: Meowstic|Psychic|p1a: Throh
+|-supereffective|p1a: Throh
+|-damage|p1a: Throh|0 fnt
+|faint|p1a: Throh
+|-damage|p2a: Meowstic|242/268|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685469134
+|switch|p1a: Aerodactyl|Aerodactyl, L82, F|265/265
+|-ability|p1a: Aerodactyl|Unnerve
+|turn|7
+|
+|t:|1685469144
+|move|p1a: Aerodactyl|Earthquake|p2a: Meowstic
+|-damage|p2a: Meowstic|165/268
+|move|p2a: Meowstic|Thunderbolt|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|70/265
+|-damage|p2a: Meowstic|139/268|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|t:|1685469154
+|move|p1a: Aerodactyl|Dual Wingbeat|p2a: Meowstic
+|-damage|p2a: Meowstic|90/268
+|-damage|p2a: Meowstic|41/268
+|-hitcount|p2a: Meowstic|2
+|move|p2a: Meowstic|Psychic|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|-damage|p2a: Meowstic|15/268|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685469164
+|switch|p1a: Quagsire|Quagsire, L84, M|297/297
+|turn|9
+|
+|t:|1685469168
+|move|p2a: Meowstic|Energy Ball|p1a: Quagsire
+|-supereffective|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|faint|p1a: Quagsire
+|-damage|p2a: Meowstic|0 fnt|[from] item: Life Orb
+|faint|p2a: Meowstic
+|
+|upkeep
+|
+|t:|1685469177
+|switch|p2a: Genesect|Genesect, L74|227/227
+|switch|p1a: Jellicent|Jellicent, L84, F|305/305
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|atk|1
+|turn|10
+|
+|t:|1685469186
+|switch|p2a: Eternatus|Eternatus, L69|308/308
+|-ability|p2a: Eternatus|Pressure
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Eternatus|[miss]
+|-miss|p1a: Jellicent|p2a: Eternatus
+|
+|upkeep
+|turn|11
+|
+|t:|1685469197
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Jellicent
+|-damage|p1a: Jellicent|220/305
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Eternatus
+|-status|p2a: Eternatus|brn
+|
+|-heal|p1a: Jellicent|239/305|[from] item: Leftovers
+|-damage|p2a: Eternatus|289/308 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1685469211
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Jellicent
+|-damage|p1a: Jellicent|142/305
+|move|p1a: Jellicent|Shadow Ball|p2a: Eternatus
+|-damage|p2a: Eternatus|199/308 brn
+|
+|-heal|p1a: Jellicent|161/305|[from] item: Leftovers
+|-damage|p2a: Eternatus|180/308 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1685469225
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Jellicent
+|-damage|p1a: Jellicent|48/305
+|move|p1a: Jellicent|Scald|p2a: Eternatus
+|-resisted|p2a: Eternatus
+|-damage|p2a: Eternatus|135/308 brn
+|
+|-heal|p1a: Jellicent|67/305|[from] item: Leftovers
+|-damage|p2a: Eternatus|116/308 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1685469234
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-damage|p2a: Eternatus|97/308 brn|[from] brn
+|upkeep
+|
+|t:|1685469241
+|switch|p1a: Zapdos|Zapdos, L78|268/268
+|turn|15
+|
+|t:|1685469245
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|251/308 brn
+|move|p1a: Zapdos|Discharge|p2a: Eternatus
+|-resisted|p2a: Eternatus
+|-damage|p2a: Eternatus|203/308 brn
+|
+|-damage|p2a: Eternatus|184/308 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1685469255
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Zapdos
+|-damage|p1a: Zapdos|163/268
+|move|p1a: Zapdos|Hurricane|p2a: Eternatus|[miss]
+|-miss|p1a: Zapdos|p2a: Eternatus
+|
+|-damage|p2a: Eternatus|165/308 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1685469265
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Zapdos
+|-damage|p1a: Zapdos|29/268
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|163/268
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-damage|p2a: Eternatus|146/308 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1685469274
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|win|cftx
+|l|☆ttwwxxnn

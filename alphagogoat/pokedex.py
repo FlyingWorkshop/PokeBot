@@ -81,6 +81,7 @@ def _make_pokedex():
     pokedex['zygardecomplete'] = pokedex['zygarde']
     pokedex['wishiwashi'] = pokedex['wishiwashischool']
     pokedex['eiscuenoice'] = pokedex['eiscue']
+    pokedex['mimikyubusted'] = pokedex['mimikyu']
 
     # TODO aegislash
 

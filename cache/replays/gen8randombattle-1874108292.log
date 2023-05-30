@@ -1,0 +1,192 @@
+|j|☆Kizmabals
+|j|☆nameisBrown
+|t:|1685465584
+|gametype|singles
+|player|p1|Kizmabals|ethan|1158
+|player|p2|nameisBrown|geeta|1062
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685465584
+|start
+|switch|p1a: Espeon|Espeon, L82, F|241/241
+|switch|p2a: Sylveon|Sylveon, L84, F|297/297
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kizmabals)
+|
+|t:|1685465658
+|switch|p2a: Type: Null|Type: Null, L86|304/304
+|move|p1a: Espeon|Psychic|p2a: Type: Null
+|-damage|p2a: Type: Null|218/304
+|-damage|p1a: Espeon|217/241|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|inactive|nameisBrown has 120 seconds left.
+|
+|t:|1685465699
+|switch|p1a: Mudsdale|Mudsdale, L82, M|298/298
+|move|p2a: Type: Null|Crush Claw|p1a: Mudsdale
+|-damage|p1a: Mudsdale|225/298
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|
+|upkeep
+|turn|3
+|
+|t:|1685465726
+|switch|p2a: Cradily|Cradily, L86, F|288/288
+|move|p1a: Mudsdale|Body Press|p2a: Cradily
+|-supereffective|p2a: Cradily
+|-damage|p2a: Cradily|62/288
+|
+|-heal|p2a: Cradily|80/288|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685465741
+|switch|p1a: Glastrier|Glastrier, L82|298/298
+|move|p2a: Cradily|Power Whip|p1a: Glastrier|[miss]
+|-miss|p2a: Cradily|p1a: Glastrier
+|
+|-heal|p2a: Cradily|98/288|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685465759
+|move|p2a: Cradily|Stone Edge|p1a: Glastrier
+|-supereffective|p1a: Glastrier
+|-damage|p1a: Glastrier|160/298
+|move|p1a: Glastrier|Close Combat|p2a: Cradily
+|-supereffective|p2a: Cradily
+|-damage|p2a: Cradily|0 fnt
+|-unboost|p1a: Glastrier|def|1
+|-unboost|p1a: Glastrier|spd|1
+|faint|p2a: Cradily
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|upkeep
+|
+|t:|1685465769
+|switch|p2a: Cinderace|Cinderace, L74, M|240/240
+|turn|6
+|
+|t:|1685465794
+|move|p2a: Cinderace|Bulk Up|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-boost|p2a: Cinderace|atk|1
+|-boost|p2a: Cinderace|def|1
+|move|p1a: Glastrier|High Horsepower|p2a: Cinderace
+|-damage|p2a: Cinderace|138/240
+|
+|upkeep
+|turn|7
+|
+|t:|1685465804
+|-start|p2a: Cinderace|Dynamax|Gmax
+|-heal|p2a: Cinderace|276/480|[silent]
+|move|p2a: Cinderace|Max Knuckle|p1a: Glastrier
+|-supereffective|p1a: Glastrier
+|-damage|p1a: Glastrier|0 fnt
+|-boost|p2a: Cinderace|atk|1
+|faint|p1a: Glastrier
+|
+|upkeep
+|
+|t:|1685465810
+|switch|p1a: Mudsdale|Mudsdale, L82, M|225/298
+|turn|8
+|inactive|nameisBrown has 120 seconds left.
+|
+|t:|1685465826
+|move|p2a: Cinderace|G-Max Fireball|p1a: Mudsdale
+|-start|p2a: Cinderace|typechange|Fire|[from] ability: Libero
+|-damage|p1a: Mudsdale|0 fnt
+|faint|p1a: Mudsdale
+|
+|upkeep
+|
+|t:|1685465838
+|switch|p1a: Espeon|Espeon, L82, F|217/241
+|turn|9
+|
+|t:|1685465843
+|move|p1a: Espeon|Psychic|p2a: Cinderace
+|-damage|p2a: Cinderace|103/480
+|-damage|p1a: Espeon|193/241|[from] item: Life Orb
+|move|p2a: Cinderace|Max Darkness|p1a: Espeon
+|-start|p2a: Cinderace|typechange|Dark|[from] ability: Libero
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|upkeep
+|
+|t:|1685465851
+|switch|p1a: Ninetales|Ninetales, L82, M|254/254
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|-end|p2a: Cinderace|Dynamax
+|-heal|p2a: Cinderace|52/240|[silent]
+|turn|10
+|inactive|nameisBrown has 120 seconds left.
+|
+|t:|1685465878
+|move|p2a: Cinderace|Sucker Punch||[still]
+|-fail|p2a: Cinderace
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|inactive|nameisBrown has 120 seconds left.
+|
+|t:|1685465887
+|move|p2a: Cinderace|High Jump Kick|p1a: Ninetales
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685465901
+|switch|p1a: Steelix|Steelix, L84, F|263/263
+|turn|12
+|
+|t:|1685465911
+|move|p2a: Cinderace|Pyro Ball|p1a: Steelix
+|-start|p2a: Cinderace|typechange|Fire|[from] ability: Libero
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|faint|p1a: Steelix
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685465925
+|switch|p1a: Magearna|Magearna-Original, L76|247/247
+|turn|13
+|c|☆nameisBrown|gg lil bro
+|
+|t:|1685465943
+|-start|p1a: Magearna|Dynamax|
+|-heal|p1a: Magearna|494/494|[silent]
+|move|p2a: Cinderace|Pyro Ball|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|win|nameisBrown
+|raw|Kizmabals's rating: 1158 &rarr; <strong>1126</strong><br />(-32 for losing)
+|raw|nameisBrown's rating: 1062 &rarr; <strong>1101</strong><br />(+39 for winning)
+|l|☆Kizmabals
+|c|☆nameisBrown|lol
+|c|☆nameisBrown|high elo and bad is sad

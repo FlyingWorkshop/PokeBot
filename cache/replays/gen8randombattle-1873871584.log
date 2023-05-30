@@ -1,0 +1,148 @@
+|j|☆Sweet Baguette
+|j|‽RomeoArturia
+|t:|1685435693
+|gametype|singles
+|player|p1|Sweet Baguette|swimmer|1489
+|player|p2|RomeoArturia|arezu|1718
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685435693
+|start
+|switch|p1a: Porygon-Z|Porygon-Z, L80|267/267
+|switch|p2a: Lapras|Lapras, L86, M|363/363
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RomeoArturia)
+|
+|t:|1685435703
+|move|p1a: Porygon-Z|Trick|p2a: Lapras
+|-activate|p1a: Porygon-Z|move: Trick|[of] p2a: Lapras
+|-item|p2a: Lapras|Choice Scarf|[from] move: Trick
+|-item|p1a: Porygon-Z|Leftovers|[from] move: Trick
+|move|p2a: Lapras|Ice Beam|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|159/267
+|
+|-heal|p1a: Porygon-Z|175/267|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685435720
+|switch|p1a: Togedemaru|Togedemaru, L86, F|252/252
+|move|p2a: Lapras|Ice Beam|p1a: Togedemaru
+|-resisted|p1a: Togedemaru
+|-damage|p1a: Togedemaru|201/252
+|
+|-heal|p1a: Togedemaru|216/252|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685435725
+|switch|p2a: Mudsdale|Mudsdale, L82, M|298/298
+|move|p1a: Togedemaru|U-turn|p2a: Mudsdale
+|-damage|p2a: Mudsdale|250/298
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|
+|t:|1685435744
+|switch|p1a: Noctowl|Noctowl, L88, F|319/319|[from] U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1685435764
+|move|p1a: Noctowl|Hurricane|p2a: Mudsdale|[miss]
+|-miss|p1a: Noctowl|p2a: Mudsdale
+|move|p2a: Mudsdale|Body Press|p1a: Noctowl
+|-damage|p1a: Noctowl|135/319
+|
+|upkeep
+|turn|5
+|
+|t:|1685435773
+|move|p1a: Noctowl|Hurricane|p2a: Mudsdale
+|-damage|p2a: Mudsdale|127/298
+|-start|p2a: Mudsdale|confusion
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-activate|p2a: Mudsdale|confusion
+|move|p2a: Mudsdale|Body Press|p1a: Noctowl
+|-damage|p1a: Noctowl|0 fnt
+|faint|p1a: Noctowl
+|
+|upkeep
+|
+|t:|1685435788
+|switch|p1a: Porygon-Z|Porygon-Z, L80|175/267
+|turn|6
+|
+|t:|1685435794
+|switch|p2a: Conkeldurr|Conkeldurr, L80, M|299/299
+|move|p1a: Porygon-Z|Ice Beam|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|194/299
+|
+|-heal|p1a: Porygon-Z|191/267|[from] item: Leftovers
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|t:|1685435813
+|switch|p1a: Aggron|Aggron, L85, F|258/258
+|-item|p1a: Aggron|Air Balloon
+|move|p2a: Conkeldurr|Close Combat|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|-unboost|p2a: Conkeldurr|def|1
+|-unboost|p2a: Conkeldurr|spd|1
+|-enditem|p1a: Aggron|Air Balloon
+|faint|p1a: Aggron
+|
+|-damage|p2a: Conkeldurr|176/299 brn|[from] brn
+|upkeep
+|
+|t:|1685435819
+|switch|p1a: Porygon-Z|Porygon-Z, L80|191/267
+|turn|8
+|
+|t:|1685435829
+|move|p2a: Conkeldurr|Mach Punch|p1a: Porygon-Z
+|-supereffective|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|0 fnt
+|faint|p1a: Porygon-Z
+|
+|-damage|p2a: Conkeldurr|158/299 brn|[from] brn
+|upkeep
+|
+|t:|1685435833
+|switch|p1a: Hawlucha|Hawlucha, L80, F|256/256
+|turn|9
+|
+|t:|1685435839
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Conkeldurr|Facade|p1a: Hawlucha
+|-damage|p1a: Hawlucha|34/256
+|
+|-damage|p2a: Conkeldurr|140/299 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1685435852
+|move|p2a: Conkeldurr|Mach Punch|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-damage|p2a: Conkeldurr|122/299 brn|[from] brn
+|upkeep
+|-message|Sweet Baguette forfeited.
+|
+|win|RomeoArturia
+|raw|Sweet Baguette's rating: 1489 &rarr; <strong>1481</strong><br />(-8 for losing)
+|raw|RomeoArturia's rating: 1718 &rarr; <strong>1726</strong><br />(+8 for winning)
+|l|☆Sweet Baguette

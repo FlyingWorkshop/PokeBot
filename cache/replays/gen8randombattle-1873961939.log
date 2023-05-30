@@ -1,0 +1,320 @@
+|j|☆LiJing0520
+|j|☆JB575
+|t:|1685449596
+|gametype|singles
+|player|p1|LiJing0520|169|1040
+|player|p2|JB575|169|1033
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685449596
+|start
+|switch|p1a: Naganadel|Naganadel, L74|230/230
+|switch|p2a: Urshifu|Urshifu, L76, F|277/277
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JB575)
+|c|☆JB575|!weakness naganadel
+|c| JB575|/raw <div class="infobox">Naganadel (ignoring abilities):<br /><span class="message-effect-weak">Weaknesses</span>: Dragon, Ground, Ice, Psychic<br /><span class="message-effect-resist">Resistances</span>: Bug, Electric, Fighting, Fire, <b>Grass</b>, Poison, Water<br /><span class="message-effect-immune">Immunities</span>: Toxic</div>
+|
+|t:|1685449633
+|move|p2a: Urshifu|Wicked Blow|p1a: Naganadel
+|-crit|p1a: Naganadel
+|-damage|p1a: Naganadel|52/230
+|move|p1a: Naganadel|Draco Meteor|p2a: Urshifu
+|-damage|p2a: Urshifu|38/277
+|-unboost|p1a: Naganadel|spa|2
+|-damage|p1a: Naganadel|29/230|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|t:|1685449652
+|switch|p1a: Keldeo|Keldeo-Resolute, L79|273/273
+|move|p2a: Urshifu|Wicked Blow|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-crit|p1a: Keldeo
+|-damage|p1a: Keldeo|204/273
+|-ability|p1a: Keldeo|Justified|boost
+|-boost|p1a: Keldeo|atk|1
+|
+|upkeep
+|turn|3
+|
+|t:|1685449667
+|switch|p2a: Zacian|Zacian, L68|238/238
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|move|p1a: Keldeo|Secret Sword|p2a: Zacian
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|173/238
+|-damage|p1a: Keldeo|177/273|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1685449683
+|-start|p1a: Keldeo|Dynamax|
+|-heal|p1a: Keldeo|354/546|[silent]
+|move|p2a: Zacian|Swords Dance|p2a: Zacian
+|-boost|p2a: Zacian|atk|2
+|move|p1a: Keldeo|Max Geyser|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|-weather|RainDance
+|faint|p2a: Zacian
+|-damage|p1a: Keldeo|327/546|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685449700
+|switch|p2a: Urshifu|Urshifu, L76, F|38/277
+|turn|5
+|
+|t:|1685449717
+|move|p2a: Urshifu|Close Combat|p1a: Keldeo
+|-crit|p1a: Keldeo
+|-damage|p1a: Keldeo|116/546
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|move|p1a: Keldeo|Max Geyser|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|-damage|p1a: Keldeo|89/546|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685449728
+|switch|p2a: Yveltal|Yveltal, L69|288/288
+|-ability|p2a: Yveltal|Dark Aura
+|turn|6
+|
+|t:|1685449736
+|-start|p2a: Yveltal|Dynamax|
+|-heal|p2a: Yveltal|576/576|[silent]
+|move|p2a: Yveltal|Max Guard|p2a: Yveltal
+|-singleturn|p2a: Yveltal|Max Guard
+|move|p1a: Keldeo|Max Geyser|p2a: Yveltal
+|-activate|p2a: Yveltal|move: Max Guard
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-end|p1a: Keldeo|Dynamax
+|-heal|p1a: Keldeo|45/273|[silent]
+|turn|7
+|
+|t:|1685449751
+|move|p1a: Keldeo|Secret Sword|p2a: Yveltal
+|-damage|p2a: Yveltal|420/576
+|-damage|p1a: Keldeo|18/273|[from] item: Life Orb
+|move|p2a: Yveltal|Max Darkness|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685449764
+|switch|p1a: Regieleki|Regieleki, L78|253/253
+|turn|8
+|
+|t:|1685449772
+|move|p1a: Regieleki|Thunderbolt|p2a: Yveltal
+|-supereffective|p2a: Yveltal
+|-damage|p2a: Yveltal|90/576
+|move|p2a: Yveltal|Max Darkness|p1a: Regieleki
+|-crit|p1a: Regieleki
+|-damage|p1a: Regieleki|0 fnt
+|faint|p1a: Regieleki
+|
+|-weather|none
+|upkeep
+|
+|t:|1685449782
+|switch|p1a: Roserade|Roserade, L84, M|238/238
+|-end|p2a: Yveltal|Dynamax
+|-heal|p2a: Yveltal|45/288|[silent]
+|turn|9
+|
+|t:|1685449792
+|move|p1a: Roserade|Sludge Bomb|p2a: Yveltal
+|-crit|p2a: Yveltal
+|-damage|p2a: Yveltal|0 fnt
+|faint|p2a: Yveltal
+|
+|upkeep
+|
+|t:|1685449798
+|switch|p2a: Falinks|Falinks, L84|246/246
+|turn|10
+|l|☆LiJing0520
+|inactive|LiJing0520 disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆LiJing0520
+|inactive|LiJing0520 reconnected and has 140 seconds left.
+|player|p1|LiJing0520|169
+|
+|t:|1685449819
+|move|p1a: Roserade|Leaf Storm|p2a: Falinks
+|-damage|p2a: Falinks|30/246
+|-unboost|p1a: Roserade|spa|2
+|move|p2a: Falinks|No Retreat|p2a: Falinks
+|-boost|p2a: Falinks|atk|1
+|-boost|p2a: Falinks|def|1
+|-boost|p2a: Falinks|spa|1
+|-boost|p2a: Falinks|spd|1
+|-boost|p2a: Falinks|spe|1
+|-start|p2a: Falinks|move: No Retreat
+|
+|upkeep
+|turn|11
+|
+|t:|1685449829
+|move|p2a: Falinks|Close Combat|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|81/238
+|-unboost|p2a: Falinks|def|1
+|-unboost|p2a: Falinks|spd|1
+|-damage|p2a: Falinks|6/246|[from] item: Life Orb
+|move|p1a: Roserade|Sludge Bomb|p2a: Falinks
+|-damage|p2a: Falinks|0 fnt
+|faint|p2a: Falinks
+|
+|-heal|p1a: Roserade|95/238|[from] item: Black Sludge
+|upkeep
+|
+|t:|1685449845
+|switch|p2a: Stakataka|Stakataka, L80|229/229
+|-item|p2a: Stakataka|Air Balloon
+|turn|12
+|
+|t:|1685449870
+|switch|p1a: Moltres|Moltres-Galar, L75|259/259
+|move|p2a: Stakataka|Earthquake|p1a: Moltres
+|-immune|p1a: Moltres
+|
+|upkeep
+|turn|13
+|inactive|LiJing0520 has 120 seconds left.
+|
+|t:|1685449885
+|move|p1a: Moltres|Fiery Wrath|p2a: Stakataka
+|-damage|p2a: Stakataka|147/229
+|-enditem|p2a: Stakataka|Air Balloon
+|move|p2a: Stakataka|Stone Edge|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|5/259
+|-ability|p1a: Moltres|Berserk|boost
+|-boost|p1a: Moltres|spa|1
+|
+|upkeep
+|turn|14
+|
+|t:|1685449895
+|move|p1a: Moltres|Fiery Wrath|p2a: Stakataka
+|-damage|p2a: Stakataka|32/229
+|move|p2a: Stakataka|Gyro Ball|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|-ability|p2a: Stakataka|Beast Boost|boost
+|-boost|p2a: Stakataka|def|1
+|
+|upkeep
+|
+|t:|1685449903
+|switch|p1a: Roserade|Roserade, L84, M|95/238
+|turn|15
+|
+|t:|1685449909
+|move|p1a: Roserade|Leaf Storm|p2a: Stakataka
+|-damage|p2a: Stakataka|0 fnt
+|-unboost|p1a: Roserade|spa|2
+|faint|p2a: Stakataka
+|
+|-heal|p1a: Roserade|109/238|[from] item: Black Sludge
+|upkeep
+|
+|t:|1685449915
+|switch|p2a: Coalossal|Coalossal, L87, F|333/333
+|turn|16
+|
+|t:|1685449930
+|switch|p1a: Naganadel|Naganadel, L74|29/230
+|move|p2a: Coalossal|Overheat|p1a: Naganadel
+|-resisted|p1a: Naganadel
+|-damage|p1a: Naganadel|0 fnt
+|-unboost|p2a: Coalossal|spa|2
+|faint|p1a: Naganadel
+|
+|upkeep
+|
+|t:|1685449938
+|switch|p1a: Sandslash|Sandslash-Alola, L86, M|269/269
+|turn|17
+|
+|t:|1685449946
+|move|p1a: Sandslash|Knock Off|p2a: Coalossal
+|-damage|p2a: Coalossal|276/333
+|-enditem|p2a: Coalossal|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Sandslash
+|move|p2a: Coalossal|Overheat|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|65/269
+|-unboost|p2a: Coalossal|spa|2
+|
+|upkeep
+|turn|18
+|
+|t:|1685449960
+|move|p1a: Sandslash|Iron Head|p2a: Coalossal
+|-damage|p2a: Coalossal|204/333
+|-status|p1a: Sandslash|brn|[from] ability: Flame Body|[of] p2a: Coalossal
+|cant|p2a: Coalossal|flinch
+|
+|-damage|p1a: Sandslash|49/269 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1685449968
+|move|p1a: Sandslash|Iron Head|p2a: Coalossal
+|-damage|p2a: Coalossal|168/333
+|move|p2a: Coalossal|Stone Edge|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|
+|upkeep
+|
+|t:|1685449974
+|switch|p1a: Roserade|Roserade, L84, M|109/238
+|turn|20
+|
+|t:|1685449979
+|move|p1a: Roserade|Sludge Bomb|p2a: Coalossal
+|-resisted|p2a: Coalossal
+|-damage|p2a: Coalossal|114/333
+|-status|p2a: Coalossal|psn
+|move|p2a: Coalossal|Will-O-Wisp|p1a: Roserade
+|-status|p1a: Roserade|brn
+|
+|-heal|p1a: Roserade|123/238 brn|[from] item: Black Sludge
+|-damage|p2a: Coalossal|73/333 psn|[from] psn
+|-damage|p1a: Roserade|109/238 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1685449991
+|move|p1a: Roserade|Leaf Storm|p2a: Coalossal
+|-damage|p2a: Coalossal|0 fnt
+|-unboost|p1a: Roserade|spa|2
+|faint|p2a: Coalossal
+|
+|win|LiJing0520
+|raw|LiJing0520's rating: 1040 &rarr; <strong>1073</strong><br />(+33 for winning)
+|raw|JB575's rating: 1033 &rarr; <strong>1018</strong><br />(-15 for losing)
+|l|☆JB575

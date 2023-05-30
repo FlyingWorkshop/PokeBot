@@ -1,0 +1,96 @@
+|j|☆WhoDatMan
+|j|☆GTNDA
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1685435916
+|gametype|singles
+|player|p1|WhoDatMan|265|
+|player|p2|GTNDA|clair|
+|teamsize|p1|3
+|teamsize|p2|3
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Haxorus, L77, F|
+|poke|p1|Rotom-Fan, L84|
+|poke|p1|Lurantis, L86, F|
+|poke|p2|Hawlucha, L80, F|
+|poke|p2|Beheeyem, L86, M|
+|poke|p2|Liepard, L86, F|
+|teampreview|1
+|j|*Lady Monita
+|inactive|WhoDatMan also wants the timer to be on.
+|inactive|GTNDA also wants the timer to be on.
+|inactive|WhoDatMan has 120 seconds left.
+|inactive|GTNDA has 120 seconds left.
+|c|☆GTNDA|Glhf
+|inactive|WhoDatMan has 90 seconds left.
+|
+|t:|1685435984
+|start
+|switch|p1a: Haxorus|Haxorus, L77, F|244/244
+|switch|p2a: Liepard|Liepard, L86, F|250/250
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|1
+|
+|t:|1685435993
+|-start|p2a: Liepard|Dynamax|
+|-heal|p2a: Liepard|500/500|[silent]
+|-start|p1a: Haxorus|Dynamax|
+|-heal|p1a: Haxorus|488/488|[silent]
+|move|p2a: Liepard|Max Starfall|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|294/488
+|-fieldstart|move: Misty Terrain
+|move|p1a: Haxorus|Max Wyrmwind|p2a: Liepard
+|-damage|p2a: Liepard|327/500
+|-unboost|p2a: Liepard|atk|1
+|-damage|p1a: Haxorus|270/488|[from] item: Life Orb
+|
+|-heal|p2a: Liepard|342/500|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685436013
+|move|p1a: Haxorus|Max Guard|p1a: Haxorus
+|-singleturn|p1a: Haxorus|Max Guard
+|move|p2a: Liepard|Max Starfall|p1a: Haxorus
+|-activate|p1a: Haxorus|move: Max Guard
+|
+|-heal|p2a: Liepard|357/500|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685436036
+|move|p2a: Liepard|Max Starfall|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|140/488
+|move|p1a: Haxorus|Max Knuckle|p2a: Liepard
+|-supereffective|p2a: Liepard
+|-damage|p2a: Liepard|58/500
+|-boost|p1a: Haxorus|atk|1
+|-damage|p1a: Haxorus|116/488|[from] item: Life Orb
+|
+|-heal|p2a: Liepard|73/500|[from] item: Leftovers
+|upkeep
+|-end|p2a: Liepard|Dynamax
+|-heal|p2a: Liepard|37/250|[silent]
+|-end|p1a: Haxorus|Dynamax
+|-heal|p1a: Haxorus|58/244|[silent]
+|turn|4
+|
+|t:|1685436063
+|move|p2a: Liepard|Copycat|p2a: Liepard
+|move|p2a: Liepard|Close Combat|p1a: Haxorus|[from]move: Copycat
+|-damage|p1a: Haxorus|0 fnt
+|-unboost|p2a: Liepard|def|1
+|-unboost|p2a: Liepard|spd|1
+|faint|p1a: Haxorus
+|
+|win|GTNDA
+|n|☆WhoDatMan|whodatman
+|n|☆GTNDA|gtnda
+|n|*Lady Monita|ladymonita
