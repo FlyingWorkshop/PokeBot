@@ -1,0 +1,454 @@
+|j|☆Habib_SSJ2
+|j|☆Aadi256
+|t:|1685545168
+|gametype|singles
+|player|p1|Habib_SSJ2|gambler|
+|player|p2|Aadi256|shadowtriad|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685545168
+|start
+|switch|p1a: Pincurchin|Pincurchin, L88, F|228/228
+|switch|p2a: Silvally|Silvally-Water, L84|297/297
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|1
+|c|☆Habib_SSJ2|whats with you and silvally
+|j| Akshajm1234
+|c| Akshajm1234|Lmao a pincurchin
+|c|☆Aadi256|ikr
+|c|☆Habib_SSJ2|is that thing shiny?
+|c| Akshajm1234|no
+|c|☆Habib_SSJ2|nvm
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Habib_SSJ2)
+|
+|t:|1685545224
+|switch|p2a: Nidoking|Nidoking, L82, M|267/267
+|move|p1a: Pincurchin|Rising Voltage|p2a: Nidoking
+|-immune|p2a: Nidoking
+|
+|upkeep
+|turn|2
+|c| Akshajm1234|OOOOOOOOHHHHHHH
+|c| Akshajm1234|THE PREDICT
+|c|☆Aadi256|EYY
+|c| Akshajm1234|Aight imma head out
+|c| Akshajm1234|gl
+|inactive|Habib_SSJ2 has 270 seconds left.
+|inactive|Aadi256 has 270 seconds left.
+|l| Akshajm1234
+|c|☆Aadi256|ty
+|c|☆Aadi256|bye
+|
+|t:|1685545280
+|switch|p1a: Accelgor|Accelgor, L86, M|278/278
+|move|p2a: Nidoking|Earth Power|p1a: Accelgor
+|-resisted|p1a: Accelgor
+|-damage|p1a: Accelgor|183/278
+|
+|upkeep
+|turn|3
+|inactive|Habib_SSJ2 has 240 seconds left.
+|inactive|Aadi256 has 240 seconds left.
+|c|☆Habib_SSJ2|man my team is kinda ass
+|
+|t:|1685545323
+|switch|p2a: Flygon|Flygon, L80, F|259/259
+|move|p1a: Accelgor|Energy Ball|p2a: Flygon
+|-damage|p2a: Flygon|181/259
+|
+|upkeep
+|turn|4
+|inactive|Habib_SSJ2 has 240 seconds left.
+|c|☆Aadi256|sadge
+|inactive|Habib_SSJ2 has 210 seconds left.
+|
+|t:|1685545363
+|move|p1a: Accelgor|Toxic|p2a: Flygon|[miss]
+|-miss|p1a: Accelgor|p2a: Flygon
+|move|p2a: Flygon|Fire Punch|p1a: Accelgor
+|-supereffective|p1a: Accelgor
+|-damage|p1a: Accelgor|0 fnt
+|faint|p1a: Accelgor
+|-damage|p2a: Flygon|156/259|[from] item: Life Orb
+|
+|upkeep
+|inactive|Habib_SSJ2 has 210 seconds left.
+|c|☆Habib_SSJ2|ok
+|c|☆Aadi256|ok
+|
+|t:|1685545390
+|switch|p1a: Indeedee|Indeedee, L83, M|235/235
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|5
+|inactive|Aadi256 has 210 seconds left.
+|inactive|Aadi256 has 180 seconds left.
+|
+|t:|1685545465
+|switch|p2a: Nidoking|Nidoking, L82, M|267/267
+|move|p1a: Indeedee|Trick|p2a: Nidoking
+|-activate|p1a: Indeedee|move: Trick|[of] p2a: Nidoking
+|-item|p2a: Nidoking|Choice Scarf|[from] move: Trick
+|-item|p1a: Indeedee|Life Orb|[from] move: Trick
+|
+|upkeep
+|turn|6
+|inactive|Aadi256 has 150 seconds left.
+|inactive|Habib_SSJ2 has 180 seconds left.
+|
+|t:|1685545503
+|switch|p2a: Mr. Mime|Mr. Mime, L86, F|209/209
+|move|p1a: Indeedee|Expanding Force|p2a: Mr. Mime
+|-resisted|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|121/209
+|-damage|p1a: Indeedee|212/235|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|inactive|Aadi256 has 120 seconds left.
+|
+|t:|1685545539
+|-start|p1a: Indeedee|Dynamax|
+|-heal|p1a: Indeedee|424/470|[silent]
+|move|p1a: Indeedee|Max Mindstorm|p2a: Mr. Mime
+|-resisted|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|25/209
+|-damage|p1a: Indeedee|401/470|[from] item: Life Orb
+|move|p2a: Mr. Mime|Psychic|p1a: Indeedee
+|-resisted|p1a: Indeedee
+|-damage|p1a: Indeedee|315/470
+|-damage|p2a: Mr. Mime|5/209|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|inactive|Aadi256 has 120 seconds left.
+|c|☆Aadi256|BRUH
+|inactive|Habib_SSJ2 has 150 seconds left.
+|
+|t:|1685545565
+|-start|p2a: Mr. Mime|Dynamax|
+|-heal|p2a: Mr. Mime|10/418|[silent]
+|move|p2a: Mr. Mime|Max Guard|p2a: Mr. Mime
+|-singleturn|p2a: Mr. Mime|Max Guard
+|move|p1a: Indeedee|Max Mindstorm|p2a: Mr. Mime
+|-activate|p2a: Mr. Mime|move: Max Guard
+|
+|upkeep
+|turn|9
+|c|☆Habib_SSJ2|o..k??
+|
+|t:|1685545585
+|move|p1a: Indeedee|Max Mindstorm|p2a: Mr. Mime
+|-resisted|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|-damage|p1a: Indeedee|292/470|[from] item: Life Orb
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|c|☆Aadi256|relax
+|inactive|Aadi256 has 90 seconds left.
+|c|☆Habib_SSJ2|that wasnt it chief
+|
+|t:|1685545620
+|switch|p2a: Nidoking|Nidoking, L82, M|267/267
+|-end|p1a: Indeedee|Dynamax
+|-heal|p1a: Indeedee|146/235|[silent]
+|turn|10
+|
+|t:|1685545630
+|move|p2a: Nidoking|Earth Power|p1a: Indeedee
+|-damage|p1a: Indeedee|46/235
+|move|p1a: Indeedee|Expanding Force|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|10/267
+|-damage|p1a: Indeedee|23/235|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|c|☆Aadi256|im so stupid
+|inactive|Habib_SSJ2 has 150 seconds left.
+|
+|t:|1685545672
+|move|p2a: Nidoking|Earth Power|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|t:|1685545681
+|switch|p1a: Cinccino|Cinccino, L84, M|263/263
+|turn|12
+|
+|t:|1685545708
+|move|p2a: Nidoking|Earth Power|p1a: Cinccino
+|-damage|p1a: Cinccino|124/263
+|move|p1a: Cinccino|U-turn|p2a: Nidoking
+|-resisted|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|t:|1685545721
+|switch|p1a: Pincurchin|Pincurchin, L88, F|228/228|[from] U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|
+|upkeep
+|inactive|Aadi256 has 60 seconds left.
+|c|☆Habib_SSJ2|ill win this on time if i have to
+|c|☆Aadi256|no
+|
+|t:|1685545757
+|switch|p2a: Regirock|Regirock, L85|275/275
+|turn|13
+|c|☆Habib_SSJ2|your team is just cracked wtf
+|inactive|Aadi256 has 30 seconds left.
+|
+|t:|1685545780
+|switch|p2a: Gourgeist|Gourgeist, L84, M|246/246
+|-item|p1a: Pincurchin|Shuca Berry|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Pincurchin|Scald|p2a: Gourgeist
+|-resisted|p2a: Gourgeist
+|-damage|p2a: Gourgeist|215/246
+|
+|upkeep
+|turn|14
+|inactive|Aadi256 has 30 seconds left.
+|inactive|Aadi256 has 20 seconds left.
+|inactive|Aadi256 has 15 seconds left.
+|inactive|Aadi256 has 10 seconds left.
+|inactive|Habib_SSJ2 has 120 seconds left.
+|inactive|Aadi256 has 5 seconds left.
+|
+|t:|1685545820
+|move|p1a: Pincurchin|Sucker Punch|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|121/246
+|move|p2a: Gourgeist|Power Whip|p1a: Pincurchin
+|-damage|p1a: Pincurchin|82/228
+|-damage|p2a: Gourgeist|97/246|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+|inactive|Aadi256 has 15 seconds left this turn.
+|inactive|Aadi256 has 10 seconds left.
+|inactive|Habib_SSJ2 has 120 seconds left.
+|inactive|Aadi256 has 5 seconds left.
+|
+|t:|1685545833
+|switch|p1a: Cinderace|Cinderace, L74, M|240/240
+|move|p2a: Gourgeist|Synthesis|p2a: Gourgeist
+|-heal|p2a: Gourgeist|220/246
+|
+|upkeep
+|turn|16
+|inactive|Aadi256 has 15 seconds left this turn.
+|inactive|Aadi256 has 10 seconds left.
+|inactive|Habib_SSJ2 has 120 seconds left.
+|
+|t:|1685545845
+|switch|p2a: Silvally|Silvally-Water, L84|297/297
+|move|p1a: Cinderace|Pyro Ball|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|243/297
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|17
+|inactive|Aadi256 has 20 seconds left this turn.
+|inactive|Aadi256 has 15 seconds left.
+|inactive|Habib_SSJ2 has 120 seconds left.
+|inactive|Aadi256 has 10 seconds left.
+|inactive|Aadi256 has 5 seconds left.
+|
+|t:|1685545864
+|switch|p1a: Cinccino|Cinccino, L84, M|124/263
+|move|p2a: Silvally|Ice Beam|p1a: Cinccino
+|-damage|p1a: Cinccino|38/263
+|
+|upkeep
+|turn|18
+|inactive|Aadi256 has 15 seconds left this turn.
+|inactive|Aadi256 has 10 seconds left.
+|
+|t:|1685545873
+|move|p1a: Cinccino|Bullet Seed|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|193/297
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|137/297
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|87/297
+|-supereffective|p2a: Silvally
+|-crit|p2a: Silvally
+|-damage|p2a: Silvally|5/297
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|-hitcount|p2: Silvally|5
+|
+|upkeep
+|inactive|Aadi256 has 15 seconds left this turn.
+|inactive|Aadi256 has 10 seconds left.
+|inactive|Aadi256 has 5 seconds left.
+|
+|t:|1685545886
+|switch|p2a: Gourgeist|Gourgeist, L84, M|220/246
+|-item|p1a: Cinccino|Choice Band|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|19
+|inactive|Aadi256 has 15 seconds left this turn.
+|c|☆Aadi256|TURN THE TIMER OFF
+|
+|t:|1685545900
+|switch|p1a: Cinderace|Cinderace, L74, M|240/240
+|move|p2a: Gourgeist|Shadow Sneak|p1a: Cinderace
+|-damage|p1a: Cinderace|172/240
+|-damage|p2a: Gourgeist|196/246|[from] item: Life Orb
+|
+|upkeep
+|turn|20
+|inactive|Aadi256 has 25 seconds left this turn.
+|c|☆Habib_SSJ2|lmao no
+|inactive|Aadi256 has 20 seconds left.
+|inactive|Aadi256 has 15 seconds left.
+|c|☆Habib_SSJ2|u gotta play fast
+|
+|t:|1685545914
+|switch|p2a: Regirock|Regirock, L85|275/275
+|move|p1a: Cinderace|Bulk Up|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-boost|p1a: Cinderace|atk|1
+|-boost|p1a: Cinderace|def|1
+|
+|upkeep
+|turn|21
+|inactive|Aadi256 has 25 seconds left this turn.
+|inactive|Aadi256 has 20 seconds left.
+|inactive|Aadi256 has 15 seconds left.
+|inactive|Aadi256 has 10 seconds left.
+|inactive|Aadi256 has 5 seconds left.
+|
+|t:|1685545939
+|switch|p2a: Flygon|Flygon, L80, F|156/259
+|move|p1a: Cinderace|High Jump Kick|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|upkeep
+|inactive|Aadi256 has 10 seconds left this turn.
+|inactive|Aadi256 has 5 seconds left.
+|
+|t:|1685545945
+|switch|p2a: Gourgeist|Gourgeist, L84, M|196/246
+|-item|p1a: Cinderace|Heavy-Duty Boots|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|22
+|inactive|Aadi256 has 15 seconds left this turn.
+|inactiveoff|Battle timer is now OFF.
+|
+|t:|1685545975
+|switch|p2a: Regirock|Regirock, L85|275/275
+|move|p1a: Cinderace|Sucker Punch||[still]
+|-fail|p1a: Cinderace
+|
+|upkeep
+|turn|23
+|
+|t:|1685545982
+|move|p1a: Cinderace|High Jump Kick|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|105/275
+|move|p2a: Regirock|Rock Slide|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|136/240
+|
+|upkeep
+|turn|24
+|c|☆Aadi256|bruh
+|c|☆Habib_SSJ2|libero
+|c|☆Aadi256|ik
+|c|☆Habib_SSJ2|play
+|
+|t:|1685546021
+|move|p1a: Cinderace|High Jump Kick|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|0 fnt
+|faint|p2a: Regirock
+|
+|upkeep
+|
+|t:|1685546026
+|switch|p2a: Gourgeist|Gourgeist, L84, M|196/246
+|-item|p1a: Cinderace|Heavy-Duty Boots|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|25
+|
+|t:|1685546035
+|move|p1a: Cinderace|Sucker Punch|p2a: Gourgeist
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|38/246
+|move|p2a: Gourgeist|Poltergeist|p1a: Cinderace
+|-activate|p1a: Cinderace|move: Poltergeist|Heavy-Duty Boots
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|81/240
+|-damage|p2a: Gourgeist|14/246|[from] item: Life Orb
+|
+|upkeep
+|turn|26
+|
+|t:|1685546045
+|move|p1a: Cinderace|Sucker Punch||[still]
+|-fail|p1a: Cinderace
+|move|p2a: Gourgeist|Synthesis|p2a: Gourgeist
+|-heal|p2a: Gourgeist|137/246
+|
+|upkeep
+|turn|27
+|
+|t:|1685546053
+|move|p1a: Cinderace|Sucker Punch||[still]
+|-fail|p1a: Cinderace
+|move|p2a: Gourgeist|Synthesis|p2a: Gourgeist
+|-heal|p2a: Gourgeist|246/246
+|
+|upkeep
+|turn|28
+|c|☆Aadi256|lmao
+|
+|t:|1685546059
+|move|p1a: Cinderace|Sucker Punch|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|94/246
+|move|p2a: Gourgeist|Poltergeist|p1a: Cinderace
+|-activate|p1a: Cinderace|move: Poltergeist|Heavy-Duty Boots
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|23/240
+|-damage|p2a: Gourgeist|70/246|[from] item: Life Orb
+|
+|upkeep
+|turn|29
+|c|☆Aadi256|beuh
+|
+|t:|1685546076
+|move|p1a: Cinderace|Bulk Up|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-boost|p1a: Cinderace|atk|1
+|-boost|p1a: Cinderace|def|1
+|move|p2a: Gourgeist|Synthesis|p2a: Gourgeist
+|-heal|p2a: Gourgeist|193/246
+|
+|upkeep
+|turn|30
+|
+|t:|1685546087
+|move|p1a: Cinderace|Sucker Punch|p2a: Gourgeist
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|0 fnt
+|faint|p2a: Gourgeist
+|
+|win|Habib_SSJ2
+|c|☆Habib_SSJ2|gg

@@ -1,0 +1,430 @@
+|j|☆Chandler Bloop
+|j|☆sinkyer
+|t:|1685519825
+|gametype|singles
+|player|p1|Chandler Bloop|lusamine-nihilego|1336
+|player|p2|sinkyer|janitor|1196
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685519825
+|start
+|switch|p1a: Alcremie|Alcremie, L86, F|252/252
+|switch|p2a: Articuno|Articuno, L84|288/288
+|-ability|p2a: Articuno|Pressure
+|turn|1
+|
+|t:|1685519847
+|move|p2a: Articuno|Toxic|p1a: Alcremie
+|-status|p1a: Alcremie|tox
+|move|p1a: Alcremie|Mystical Fire|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|186/288
+|-unboost|p2a: Articuno|spa|1
+|
+|-damage|p1a: Alcremie|237/252 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1685519861
+|move|p2a: Articuno|Roost|p2a: Articuno
+|-heal|p2a: Articuno|288/288
+|-singleturn|p2a: Articuno|move: Roost
+|move|p1a: Alcremie|Mystical Fire|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-crit|p2a: Articuno
+|-damage|p2a: Articuno|156/288
+|-unboost|p2a: Articuno|spa|1
+|
+|-heal|p1a: Alcremie|252/252 tox|[from] item: Leftovers
+|-damage|p1a: Alcremie|222/252 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1685519880
+|switch|p2a: Qwilfish|Qwilfish, L84, F|246/246
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Alcremie|atk|1
+|switch|p1a: Reuniclus|Reuniclus, L84, F|322/322
+|
+|upkeep
+|turn|4
+|
+|t:|1685519896
+|switch|p2a: Meowstic|Meowstic-F, L86, F|268/268
+|move|p1a: Reuniclus|Trick Room|p1a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p1a: Reuniclus
+|
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sinkyer)
+|inactive|Chandler Bloop has 120 seconds left.
+|inactive|Chandler Bloop has 90 seconds left.
+|
+|t:|1685520009
+|switch|p1a: Malamar|Malamar, L80, F|269/269
+|move|p2a: Meowstic|Shadow Ball|p1a: Malamar
+|-damage|p1a: Malamar|187/269
+|-damage|p2a: Meowstic|242/268|[from] item: Life Orb
+|
+|-heal|p1a: Malamar|203/269|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|sinkyer has 120 seconds left.
+|
+|t:|1685520061
+|switch|p2a: Armaldo|Armaldo, L86, F|269/269
+|move|p1a: Malamar|Knock Off|p2a: Armaldo
+|-crit|p2a: Armaldo
+|-damage|p2a: Armaldo|149/269
+|-enditem|p2a: Armaldo|Life Orb|[from] move: Knock Off|[of] p1a: Malamar
+|
+|-heal|p1a: Malamar|219/269|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Chandler Bloop has 120 seconds left.
+|
+|t:|1685520098
+|switch|p1a: Alcremie|Alcremie, L86, F|222/252 tox
+|move|p2a: Armaldo|Knock Off|p1a: Alcremie
+|-resisted|p1a: Alcremie
+|-damage|p1a: Alcremie|172/252 tox
+|-enditem|p1a: Alcremie|Leftovers|[from] move: Knock Off|[of] p2a: Armaldo
+|
+|-damage|p1a: Alcremie|157/252 tox|[from] psn
+|upkeep
+|turn|8
+|inactive|sinkyer has 90 seconds left.
+|
+|t:|1685520130
+|switch|p2a: Qwilfish|Qwilfish, L84, F|246/246
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Alcremie|atk|1
+|move|p1a: Alcremie|Mystical Fire|p2a: Qwilfish
+|-resisted|p2a: Qwilfish
+|-damage|p2a: Qwilfish|207/246
+|-unboost|p2a: Qwilfish|spa|1
+|
+|-heal|p2a: Qwilfish|222/246|[from] item: Black Sludge
+|-damage|p1a: Alcremie|127/252 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|inactive|sinkyer has 90 seconds left.
+|inactive|Chandler Bloop has 90 seconds left.
+|
+|t:|1685520174
+|move|p2a: Qwilfish|Waterfall|p1a: Alcremie
+|-damage|p1a: Alcremie|36/252 tox
+|move|p1a: Alcremie|Dazzling Gleam|p2a: Qwilfish
+|-resisted|p2a: Qwilfish
+|-damage|p2a: Qwilfish|155/246
+|
+|-heal|p2a: Qwilfish|170/246|[from] item: Black Sludge
+|-damage|p1a: Alcremie|0 fnt|[from] psn
+|faint|p1a: Alcremie
+|upkeep
+|inactive|Chandler Bloop has 60 seconds left.
+|
+|t:|1685520191
+|switch|p1a: Malamar|Malamar, L80, F|219/269
+|turn|10
+|
+|t:|1685520217
+|move|p2a: Qwilfish|Destiny Bond|p2a: Qwilfish
+|-singlemove|p2a: Qwilfish|Destiny Bond
+|move|p1a: Malamar|Psycho Cut|p2a: Qwilfish
+|-supereffective|p2a: Qwilfish
+|-damage|p2a: Qwilfish|42/246
+|
+|-heal|p2a: Qwilfish|57/246|[from] item: Black Sludge
+|-heal|p1a: Malamar|235/269|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1685520228
+|move|p2a: Qwilfish|Destiny Bond||[still]
+|-fail|p2a: Qwilfish
+|move|p1a: Malamar|Psycho Cut|p2a: Qwilfish
+|-supereffective|p2a: Qwilfish
+|-damage|p2a: Qwilfish|0 fnt
+|faint|p2a: Qwilfish
+|
+|-heal|p1a: Malamar|251/269|[from] item: Leftovers
+|upkeep
+|inactive|sinkyer has 60 seconds left.
+|
+|t:|1685520244
+|switch|p2a: Diggersby|Diggersby, L80, F|267/267
+|turn|12
+|inactive|sinkyer has 60 seconds left.
+|
+|t:|1685520258
+|move|p2a: Diggersby|Knock Off|p1a: Malamar
+|-damage|p1a: Malamar|143/269
+|-enditem|p1a: Malamar|Leftovers|[from] move: Knock Off|[of] p2a: Diggersby
+|-damage|p2a: Diggersby|241/267|[from] item: Life Orb
+|move|p1a: Malamar|Superpower|p2a: Diggersby
+|-supereffective|p2a: Diggersby
+|-damage|p2a: Diggersby|57/267
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|
+|upkeep
+|turn|13
+|inactive|sinkyer has 60 seconds left.
+|
+|t:|1685520279
+|move|p2a: Diggersby|Body Slam|p1a: Malamar
+|-damage|p1a: Malamar|40/269
+|-damage|p2a: Diggersby|31/267|[from] item: Life Orb
+|move|p1a: Malamar|Superpower|p2a: Diggersby
+|-supereffective|p2a: Diggersby
+|-damage|p2a: Diggersby|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Diggersby
+|
+|upkeep
+|
+|t:|1685520299
+|switch|p2a: Meowstic|Meowstic-F, L86, F|242/268
+|turn|14
+|
+|t:|1685520308
+|move|p2a: Meowstic|Shadow Ball|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+|-damage|p2a: Meowstic|216/268|[from] item: Life Orb
+|
+|upkeep
+|inactive|Chandler Bloop has 90 seconds left.
+|
+|t:|1685520329
+|switch|p1a: Regigigas|Regigigas, L82|315/315
+|-start|p1a: Regigigas|ability: Slow Start
+|turn|15
+|inactive|sinkyer has 30 seconds left.
+|inactive|sinkyer has 20 seconds left.
+|inactive|sinkyer has 15 seconds left.
+|
+|t:|1685520372
+|-start|p2a: Meowstic|Dynamax|
+|-heal|p2a: Meowstic|432/536|[silent]
+|move|p2a: Meowstic|Max Mindstorm|p1a: Regigigas
+|-damage|p1a: Regigigas|182/315
+|-fieldstart|move: Psychic Terrain
+|-damage|p2a: Meowstic|406/536|[from] item: Life Orb
+|move|p1a: Regigigas|Substitute|p1a: Regigigas
+|-start|p1a: Regigigas|Substitute
+|-damage|p1a: Regigigas|104/315
+|
+|-heal|p1a: Regigigas|123/315|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|sinkyer has 25 seconds left this turn.
+|inactive|sinkyer has 20 seconds left.
+|inactive|sinkyer has 15 seconds left.
+|
+|t:|1685520387
+|move|p1a: Regigigas|Protect|p1a: Regigigas
+|-singleturn|p1a: Regigigas|Protect
+|move|p2a: Meowstic|Max Mindstorm|p1a: Regigigas
+|-zbroken|p1a: Regigigas
+|-damage|p1a: Regigigas|75/315
+|-damage|p2a: Meowstic|380/536|[from] item: Life Orb
+|
+|-heal|p1a: Regigigas|94/315|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|sinkyer has 25 seconds left this turn.
+|inactive|sinkyer has 20 seconds left.
+|inactive|sinkyer has 15 seconds left.
+|inactive|Chandler Bloop has 90 seconds left.
+|inactive|Chandler Bloop has 60 seconds left.
+|
+|t:|1685520438
+|move|p2a: Meowstic|Max Mindstorm|p1a: Regigigas
+|-damage|p1a: Regigigas|0 fnt
+|faint|p1a: Regigigas
+|-end|p1a: Regigigas|Slow Start|[silent]
+|-damage|p2a: Meowstic|354/536|[from] item: Life Orb
+|
+|upkeep
+|inactive|sinkyer has 20 seconds left this turn.
+|
+|t:|1685520456
+|switch|p1a: Flygon|Flygon, L80, M|259/259
+|-end|p2a: Meowstic|Dynamax
+|-heal|p2a: Meowstic|177/268|[silent]
+|turn|18
+|inactive|sinkyer has 30 seconds left this turn.
+|inactive|sinkyer has 20 seconds left.
+|inactive|sinkyer has 15 seconds left.
+|
+|t:|1685520474
+|move|p1a: Flygon|U-turn|p2a: Meowstic
+|-supereffective|p2a: Meowstic
+|-damage|p2a: Meowstic|77/268
+|inactive|sinkyer has 20 seconds left this turn.
+|inactive|Chandler Bloop has 30 seconds left.
+|inactive|Chandler Bloop has 20 seconds left.
+|inactive|Chandler Bloop has 15 seconds left.
+|inactive|Chandler Bloop has 10 seconds left.
+|inactive|Chandler Bloop has 5 seconds left.
+|
+|t:|1685520531
+|switch|p1a: Reuniclus|Reuniclus, L84, F|322/322|[from] U-turn
+|move|p2a: Meowstic|Psychic|p1a: Reuniclus
+|-resisted|p1a: Reuniclus
+|-damage|p1a: Reuniclus|251/322
+|-damage|p2a: Meowstic|51/268|[from] item: Life Orb
+|
+|upkeep
+|turn|19
+|inactive|Chandler Bloop has 15 seconds left this turn.
+|inactive|sinkyer has 30 seconds left this turn.
+|inactive|Chandler Bloop has 10 seconds left.
+|inactive|Chandler Bloop has 5 seconds left.
+|inactive|sinkyer has 20 seconds left.
+|
+|t:|1685520544
+|move|p2a: Meowstic|Shadow Ball|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|121/322
+|-damage|p2a: Meowstic|25/268|[from] item: Life Orb
+|move|p1a: Reuniclus|Psychic|p2a: Meowstic
+|-resisted|p2a: Meowstic
+|-damage|p2a: Meowstic|0 fnt
+|faint|p2a: Meowstic
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|inactive|Chandler Bloop has 10 seconds left this turn.
+|inactive|sinkyer has 25 seconds left this turn.
+|inactive|sinkyer has 20 seconds left.
+|inactive|sinkyer has 15 seconds left.
+|inactive|sinkyer has 10 seconds left.
+|
+|t:|1685520562
+|switch|p2a: Armaldo|Armaldo, L86, F|149/269
+|turn|20
+|inactive|Chandler Bloop has 20 seconds left this turn.
+|inactive|sinkyer has 20 seconds left this turn.
+|inactive|Chandler Bloop has 15 seconds left.
+|inactive|sinkyer has 15 seconds left.
+|
+|t:|1685520570
+|move|p2a: Armaldo|Knock Off|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|-enditem|p1a: Reuniclus|Life Orb|[from] move: Knock Off|[of] p2a: Armaldo
+|faint|p1a: Reuniclus
+|
+|upkeep
+|inactive|Chandler Bloop has 20 seconds left this turn.
+|inactive|sinkyer has 20 seconds left this turn.
+|inactive|Chandler Bloop has 15 seconds left.
+|
+|t:|1685520578
+|switch|p1a: Flygon|Flygon, L80, M|259/259
+|turn|21
+|inactive|Chandler Bloop has 25 seconds left this turn.
+|inactive|sinkyer has 30 seconds left this turn.
+|inactive|Chandler Bloop has 20 seconds left.
+|
+|t:|1685520587
+|-start|p1a: Flygon|Dynamax|
+|-heal|p1a: Flygon|518/518|[silent]
+|move|p1a: Flygon|Max Quake|p2a: Armaldo
+|-damage|p2a: Armaldo|35/269
+|-boost|p1a: Flygon|spd|1
+|move|p2a: Armaldo|Knock Off|p1a: Flygon
+|-damage|p1a: Flygon|425/518
+|-enditem|p1a: Flygon|Choice Scarf|[from] move: Knock Off|[of] p2a: Armaldo
+|
+|upkeep
+|turn|22
+|inactive|Chandler Bloop has 30 seconds left this turn.
+|inactive|sinkyer has 30 seconds left.
+|inactive|sinkyer has 20 seconds left.
+|
+|t:|1685520605
+|move|p1a: Flygon|Max Flare|p2a: Armaldo
+|-damage|p2a: Armaldo|0 fnt
+|-weather|SunnyDay
+|faint|p2a: Armaldo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|sinkyer has 25 seconds left this turn.
+|inactive|sinkyer has 20 seconds left.
+|
+|t:|1685520614
+|switch|p2a: Articuno|Articuno, L84|156/288
+|-ability|p2a: Articuno|Pressure
+|turn|23
+|inactive|sinkyer has 30 seconds left this turn.
+|
+|t:|1685520622
+|move|p1a: Flygon|Max Flare|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|sinkyer has 30 seconds left this turn.
+|
+|t:|1685520631
+|switch|p2a: Zekrom|Zekrom, L69|252/252
+|-ability|p2a: Zekrom|Teravolt
+|-end|p1a: Flygon|Dynamax
+|-heal|p1a: Flygon|213/259|[silent]
+|turn|24
+|inactive|sinkyer has 30 seconds left.
+|
+|t:|1685520644
+|move|p1a: Flygon|Outrage|p2a: Zekrom
+|-supereffective|p2a: Zekrom
+|-damage|p2a: Zekrom|22/252
+|move|p2a: Zekrom|Dragon Dance|p2a: Zekrom
+|-boost|p2a: Zekrom|atk|1
+|-boost|p2a: Zekrom|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|25
+|inactive|sinkyer has 30 seconds left.
+|
+|t:|1685520656
+|move|p2a: Zekrom|Outrage|p1a: Flygon
+|-supereffective|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|sinkyer has 30 seconds left this turn.
+|
+|t:|1685520663
+|switch|p1a: Kyurem|Kyurem-White, L74|307/307
+|-ability|p1a: Kyurem|Turboblaze
+|turn|26
+|
+|t:|1685520675
+|move|p2a: Zekrom|Outrage|p1a: Kyurem|[from]lockedmove
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|win|sinkyer
+|raw|Chandler Bloop's rating: 1336 &rarr; <strong>1308</strong><br />(-28 for losing)
+|raw|sinkyer's rating: 1196 &rarr; <strong>1231</strong><br />(+35 for winning)
+|l|☆Chandler Bloop

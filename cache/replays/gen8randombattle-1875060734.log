@@ -1,0 +1,339 @@
+|j|☆La.hellhound
+|j|☆jmaccrimmon
+|t:|1685564676
+|gametype|singles
+|player|p1|La.hellhound|bruno|1404
+|player|p2|jmaccrimmon|lance|1457
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685564676
+|start
+|switch|p1a: Mesprit|Mesprit, L84|272/272
+|switch|p2a: Sirfetch’d|Sirfetch’d, L82, M|236/236
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jmaccrimmon)
+|
+|t:|1685564693
+|move|p1a: Mesprit|Psychic|p2a: Sirfetch’d
+|-supereffective|p2a: Sirfetch’d
+|-damage|p2a: Sirfetch’d|12/236
+|move|p2a: Sirfetch’d|Knock Off|p1a: Mesprit
+|-supereffective|p1a: Mesprit
+|-damage|p1a: Mesprit|64/272
+|-enditem|p1a: Mesprit|Leftovers|[from] move: Knock Off|[of] p2a: Sirfetch’d
+|-damage|p2a: Sirfetch’d|0 fnt|[from] item: Life Orb
+|faint|p2a: Sirfetch’d
+|
+|upkeep
+|
+|t:|1685564710
+|switch|p2a: Celebi|Celebi, L82|298/298
+|turn|2
+|inactive|La.hellhound has 120 seconds left.
+|inactive|La.hellhound has 90 seconds left.
+|
+|t:|1685564791
+|switch|p1a: Zarude|Zarude-Dada, L78|292/292
+|move|p2a: Celebi|Giga Drain|p1a: Zarude
+|-resisted|p1a: Zarude
+|-crit|p1a: Zarude
+|-damage|p1a: Zarude|232/292
+|
+|-heal|p1a: Zarude|250/292|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685564802
+|switch|p2a: Vileplume|Vileplume, L84, F|263/263
+|move|p1a: Zarude|Bulk Up|p1a: Zarude
+|-boost|p1a: Zarude|atk|1
+|-boost|p1a: Zarude|def|1
+|
+|-heal|p1a: Zarude|268/292|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685564812
+|switch|p1a: Cofagrigus|Cofagrigus, L86, M|240/240
+|move|p2a: Vileplume|Sludge Bomb|p1a: Cofagrigus
+|-resisted|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|196/240
+|
+|-heal|p1a: Cofagrigus|211/240|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685564824
+|move|p2a: Vileplume|Strength Sap|p1a: Cofagrigus
+|-unboost|p1a: Cofagrigus|atk|1
+|move|p1a: Cofagrigus|Toxic Spikes|p2a: Vileplume
+|-sidestart|p2: jmaccrimmon|move: Toxic Spikes
+|
+|-heal|p1a: Cofagrigus|226/240|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685564840
+|switch|p2a: Clawitzer|Clawitzer, L84, F|256/256
+|-status|p2a: Clawitzer|psn
+|move|p1a: Cofagrigus|Shadow Ball|p2a: Clawitzer
+|-damage|p2a: Clawitzer|172/256 psn
+|-unboost|p2a: Clawitzer|spd|1
+|
+|-heal|p1a: Cofagrigus|240/240|[from] item: Leftovers
+|-damage|p2a: Clawitzer|140/256 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1685564855
+|move|p2a: Clawitzer|Dark Pulse|p1a: Cofagrigus
+|-supereffective|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|4/240
+|move|p1a: Cofagrigus|Shadow Ball|p2a: Clawitzer
+|-damage|p2a: Clawitzer|13/256 psn
+|
+|-heal|p1a: Cofagrigus|19/240|[from] item: Leftovers
+|-damage|p2a: Clawitzer|0 fnt|[from] psn
+|faint|p2a: Clawitzer
+|upkeep
+|
+|t:|1685564865
+|switch|p2a: Vileplume|Vileplume, L84, F|263/263
+|-sideend|p2: jmaccrimmon|move: Toxic Spikes|[of] p2a: Vileplume
+|turn|8
+|
+|t:|1685564872
+|switch|p1a: Nidoking|Nidoking, L82, M|267/267
+|move|p2a: Vileplume|Sludge Bomb|p1a: Nidoking
+|-resisted|p1a: Nidoking
+|-damage|p1a: Nidoking|237/267
+|
+|upkeep
+|turn|9
+|inactive|La.hellhound has 90 seconds left.
+|
+|t:|1685564896
+|move|p1a: Nidoking|Substitute|p1a: Nidoking
+|-start|p1a: Nidoking|Substitute
+|-damage|p1a: Nidoking|171/267
+|move|p2a: Vileplume|Strength Sap||[still]
+|-fail|p2a: Vileplume
+|
+|upkeep
+|turn|10
+|inactive|La.hellhound has 90 seconds left.
+|
+|t:|1685564906
+|switch|p2a: Pincurchin|Pincurchin, L88, F|228/228
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Nidoking|Ice Beam|p2a: Pincurchin
+|-damage|p2a: Pincurchin|132/228
+|
+|upkeep
+|turn|11
+|
+|t:|1685564917
+|move|p1a: Nidoking|Earth Power|p2a: Pincurchin
+|-supereffective|p2a: Pincurchin
+|-enditem|p2a: Pincurchin|Shuca Berry|[eat]
+|-enditem|p2a: Pincurchin|Shuca Berry|[weaken]
+|-damage|p2a: Pincurchin|0 fnt
+|faint|p2a: Pincurchin
+|
+|upkeep
+|
+|t:|1685564921
+|switch|p2a: Polteageist|Polteageist, L78|222/222
+|turn|12
+|
+|t:|1685564929
+|move|p1a: Nidoking|Ice Beam|p2a: Polteageist
+|-damage|p2a: Polteageist|135/222
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|-enditem|p2a: Polteageist|White Herb
+|-clearnegativeboost|p2a: Polteageist|[silent]
+|
+|upkeep
+|turn|13
+|
+|t:|1685564941
+|move|p2a: Polteageist|Stored Power|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-end|p1a: Nidoking|Substitute
+|move|p1a: Nidoking|Sludge Wave|p2a: Polteageist
+|-resisted|p2a: Polteageist
+|-damage|p2a: Polteageist|75/222
+|-start|p1a: Nidoking|Disable|Sludge Wave|[from] ability: Cursed Body|[of] p2a: Polteageist
+|
+|upkeep
+|turn|14
+|
+|t:|1685564953
+|switch|p1a: Zarude|Zarude-Dada, L78|268/292
+|move|p2a: Polteageist|Strength Sap|p1a: Zarude
+|-unboost|p1a: Zarude|atk|1
+|-heal|p2a: Polteageist|222/222
+|
+|-heal|p1a: Zarude|286/292|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|15
+|
+|t:|1685564975
+|-start|p2a: Polteageist|Dynamax|
+|-heal|p2a: Polteageist|444/444|[silent]
+|move|p2a: Polteageist|Max Phantasm|p1a: Zarude
+|-resisted|p1a: Zarude
+|-damage|p1a: Zarude|139/292
+|-unboost|p1a: Zarude|def|1
+|move|p1a: Zarude|Bulk Up|p1a: Zarude
+|-boost|p1a: Zarude|atk|1
+|-boost|p1a: Zarude|def|1
+|
+|-heal|p1a: Zarude|157/292|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685564990
+|-start|p1a: Zarude|Dynamax|
+|-heal|p1a: Zarude|314/584|[silent]
+|move|p1a: Zarude|Max Guard|p1a: Zarude
+|-singleturn|p1a: Zarude|Max Guard
+|move|p2a: Polteageist|Max Phantasm|p1a: Zarude
+|-activate|p1a: Zarude|move: Max Guard
+|
+|-heal|p1a: Zarude|332/584|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685565000
+|move|p2a: Polteageist|Max Phantasm|p1a: Zarude
+|-resisted|p1a: Zarude
+|-damage|p1a: Zarude|188/584
+|-unboost|p1a: Zarude|def|1
+|move|p1a: Zarude|Max Darkness|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-damage|p2a: Polteageist|70/444
+|-unboost|p2a: Polteageist|spd|1
+|
+|-heal|p1a: Zarude|206/584|[from] item: Leftovers
+|upkeep
+|-end|p2a: Polteageist|Dynamax
+|-heal|p2a: Polteageist|35/222|[silent]
+|turn|18
+|
+|t:|1685565022
+|move|p2a: Polteageist|Strength Sap|p1a: Zarude
+|-unboost|p1a: Zarude|atk|1
+|-heal|p2a: Polteageist|222/222
+|move|p1a: Zarude|Max Overgrowth|p2a: Polteageist
+|-damage|p2a: Polteageist|93/222
+|-fieldstart|move: Grassy Terrain
+|
+|-heal|p2a: Polteageist|106/222|[from] Grassy Terrain
+|-heal|p1a: Zarude|224/584|[from] Grassy Terrain
+|-heal|p1a: Zarude|242/584|[from] item: Leftovers
+|upkeep
+|-end|p1a: Zarude|Dynamax
+|-heal|p1a: Zarude|121/292|[silent]
+|turn|19
+|inactive|La.hellhound has 90 seconds left.
+|
+|t:|1685565038
+|move|p2a: Polteageist|Strength Sap|p1a: Zarude
+|-unboost|p1a: Zarude|atk|1
+|-heal|p2a: Polteageist|222/222
+|move|p1a: Zarude|Jungle Healing|p1a: Zarude
+|-heal|p1a: Zarude|194/292
+|
+|-heal|p1a: Zarude|212/292|[from] Grassy Terrain
+|-heal|p1a: Zarude|230/292|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|La.hellhound has 90 seconds left.
+|
+|t:|1685565049
+|switch|p1a: Porygon-Z|Porygon-Z, L80|267/267
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|atk|1
+|move|p2a: Polteageist|Shadow Ball|p1a: Porygon-Z
+|-immune|p1a: Porygon-Z
+|
+|upkeep
+|turn|21
+|
+|t:|1685565057
+|switch|p1a: Zarude|Zarude-Dada, L78|230/292
+|move|p2a: Polteageist|Stored Power|p1a: Zarude
+|-immune|p1a: Zarude
+|
+|-heal|p1a: Zarude|248/292|[from] Grassy Terrain
+|-heal|p1a: Zarude|266/292|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1685565069
+|move|p2a: Polteageist|Shadow Ball|p1a: Zarude
+|-resisted|p1a: Zarude
+|-crit|p1a: Zarude
+|-damage|p1a: Zarude|130/292
+|move|p1a: Zarude|Darkest Lariat|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|-heal|p1a: Zarude|148/292|[from] Grassy Terrain
+|-heal|p1a: Zarude|166/292|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1685565075
+|switch|p2a: Vileplume|Vileplume, L84, F|263/263
+|turn|23
+|
+|t:|1685565084
+|switch|p1a: Nidoking|Nidoking, L82, M|171/267
+|move|p2a: Vileplume|Sludge Bomb|p1a: Nidoking
+|-resisted|p1a: Nidoking
+|-damage|p1a: Nidoking|143/267
+|
+|upkeep
+|turn|24
+|
+|t:|1685565091
+|switch|p2a: Celebi|Celebi, L82|298/298
+|move|p1a: Nidoking|Ice Beam|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|139/298
+|
+|-heal|p2a: Celebi|157/298|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1685565102
+|switch|p1a: Zarude|Zarude-Dada, L78|166/292
+|move|p2a: Celebi|Psychic|p1a: Zarude
+|-immune|p1a: Zarude
+|
+|-heal|p2a: Celebi|175/298|[from] item: Leftovers
+|-heal|p1a: Zarude|184/292|[from] item: Leftovers
+|upkeep
+|turn|26
+|-message|jmaccrimmon forfeited.
+|
+|win|La.hellhound
+|raw|La.hellhound's rating: 1404 &rarr; <strong>1427</strong><br />(+23 for winning)
+|raw|jmaccrimmon's rating: 1457 &rarr; <strong>1434</strong><br />(-23 for losing)
+|l|☆jmaccrimmon

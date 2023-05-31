@@ -1,0 +1,351 @@
+|j|☆Doomful
+|j|☆Quoise
+|t:|1685495575
+|gametype|singles
+|player|p1|Doomful|n-masters|
+|player|p2|Quoise|bugcatcher-gen4dp|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685495575
+|start
+|switch|p1a: Appletun|Appletun, L90, F|344/344
+|switch|p2a: Aerodactyl|Aerodactyl, L82, F|265/265
+|-ability|p2a: Aerodactyl|Unnerve
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Quoise)
+|inactive|Doomful also wants the timer to be on.
+|c|☆Quoise|gl
+|c|☆Doomful|u2
+|inactive|Doomful has 270 seconds left.
+|
+|t:|1685495606
+|switch|p1a: Slowbro|Slowbro, L84, M|297/297
+|move|p2a: Aerodactyl|Dual Wingbeat|p1a: Slowbro
+|-damage|p1a: Slowbro|258/297
+|-damage|p1a: Slowbro|224/297
+|-hitcount|p1a: Slowbro|2
+|
+|-heal|p1a: Slowbro|242/297|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685495621
+|switch|p2a: Quagsire|Quagsire, L84, M|297/297
+|move|p1a: Slowbro|Scald|p2a: Quagsire
+|-damage|p2a: Quagsire|191/297
+|
+|-heal|p2a: Quagsire|209/297|[from] item: Leftovers
+|-heal|p1a: Slowbro|260/297|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685495627
+|switch|p1a: Amoonguss|Amoonguss, L84, F|329/329
+|move|p2a: Quagsire|Toxic|p1a: Amoonguss
+|-immune|p1a: Amoonguss
+|
+|-heal|p2a: Quagsire|227/297|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685495640
+|switch|p2a: Lopunny|Lopunny, L90, F|263/263
+|switch|p1a: Uxie|Uxie, L82|257/257
+|
+|-status|p2a: Lopunny|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|t:|1685495669
+|move|p2a: Lopunny|Switcheroo|p1a: Uxie
+|-activate|p2a: Lopunny|move: Trick|[of] p1a: Uxie
+|-item|p1a: Uxie|Toxic Orb|[from] move: Switcheroo
+|-item|p2a: Lopunny|Leftovers|[from] move: Switcheroo
+|move|p1a: Uxie|Stealth Rock|p2a: Lopunny
+|-sidestart|p2: Quoise|move: Stealth Rock
+|
+|-damage|p2a: Lopunny|247/263 tox|[from] psn
+|-status|p1a: Uxie|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|
+|t:|1685495679
+|switch|p2a: Stunfisk|Stunfisk, L84, M|320/320
+|-damage|p2a: Stunfisk|300/320|[from] Stealth Rock
+|move|p1a: Uxie|Knock Off|p2a: Stunfisk
+|-damage|p2a: Stunfisk|246/320
+|-enditem|p2a: Stunfisk|Leftovers|[from] move: Knock Off|[of] p1a: Uxie
+|
+|-damage|p1a: Uxie|241/257 tox|[from] psn
+|upkeep
+|turn|7
+|inactive|Doomful has 270 seconds left.
+|
+|t:|1685495718
+|switch|p1a: Amoonguss|Amoonguss, L84, F|329/329
+|move|p2a: Stunfisk|Stealth Rock|p1a: Amoonguss
+|-sidestart|p1: Doomful|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1685495746
+|move|p2a: Stunfisk|Discharge|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|287/329
+|move|p1a: Amoonguss|Giga Drain|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|118/320
+|-heal|p1a: Amoonguss|329/329|[from] drain|[of] p2a: Stunfisk
+|
+|upkeep
+|turn|9
+|
+|t:|1685495760
+|move|p2a: Stunfisk|Discharge|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|288/329
+|move|p1a: Amoonguss|Giga Drain|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|0 fnt
+|-heal|p1a: Amoonguss|329/329|[from] drain|[of] p2a: Stunfisk
+|faint|p2a: Stunfisk
+|
+|upkeep
+|
+|t:|1685495774
+|switch|p2a: Hydreigon|Hydreigon, L80, F|278/278
+|-damage|p2a: Hydreigon|244/278|[from] Stealth Rock
+|turn|10
+|
+|t:|1685495784
+|move|p2a: Hydreigon|Dark Pulse|p1a: Amoonguss
+|-damage|p1a: Amoonguss|230/329
+|move|p1a: Amoonguss|Spore|p2a: Hydreigon
+|-status|p2a: Hydreigon|slp|[from] move: Spore
+|
+|-heal|p1a: Amoonguss|250/329|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1685495794
+|switch|p1a: Copperajah|Copperajah, L84, M|342/342
+|-damage|p1a: Copperajah|321/342|[from] Stealth Rock
+|cant|p2a: Hydreigon|slp
+|
+|upkeep
+|turn|12
+|
+|t:|1685495804
+|switch|p2a: Machamp|Machamp, L82, F|282/282
+|-damage|p2a: Machamp|265/282|[from] Stealth Rock
+|move|p1a: Copperajah|Heavy Slam|p2a: Machamp
+|-damage|p2a: Machamp|18/282
+|
+|-status|p2a: Machamp|brn|[from] item: Flame Orb
+|upkeep
+|turn|13
+|inactive|Doomful has 270 seconds left.
+|
+|t:|1685495837
+|switch|p1a: Uxie|Uxie, L82|241/257 tox
+|-damage|p1a: Uxie|209/257 tox|[from] Stealth Rock
+|move|p2a: Machamp|Knock Off|p1a: Uxie
+|-supereffective|p1a: Uxie
+|-damage|p1a: Uxie|9/257 tox
+|-enditem|p1a: Uxie|Toxic Orb|[from] move: Knock Off|[of] p2a: Machamp
+|
+|-damage|p1a: Uxie|0 fnt|[from] psn
+|faint|p1a: Uxie
+|-damage|p2a: Machamp|1/282 brn|[from] brn
+|upkeep
+|
+|t:|1685495842
+|switch|p1a: Stonjourner|Stonjourner, L88, M|319/319
+|-damage|p1a: Stonjourner|280/319|[from] Stealth Rock
+|turn|14
+|
+|t:|1685495850
+|move|p2a: Machamp|Bullet Punch|p1a: Stonjourner
+|-supereffective|p1a: Stonjourner
+|-damage|p1a: Stonjourner|210/319
+|move|p1a: Stonjourner|Heat Crash|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|-damage|p1a: Stonjourner|179/319|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685495867
+|switch|p2a: Quagsire|Quagsire, L84, M|227/297
+|-damage|p2a: Quagsire|209/297|[from] Stealth Rock
+|turn|15
+|
+|t:|1685495875
+|switch|p1a: Amoonguss|Amoonguss, L84, F|329/329
+|-damage|p1a: Amoonguss|288/329|[from] Stealth Rock
+|move|p2a: Quagsire|Earthquake|p1a: Amoonguss
+|-damage|p1a: Amoonguss|180/329
+|
+|-heal|p2a: Quagsire|227/297|[from] item: Leftovers
+|-heal|p1a: Amoonguss|200/329|[from] item: Black Sludge
+|upkeep
+|turn|16
+|inactive|Doomful has 270 seconds left.
+|
+|t:|1685495888
+|switch|p2a: Hydreigon|Hydreigon, L80, F|244/278 slp
+|-damage|p2a: Hydreigon|210/278 slp|[from] Stealth Rock
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Hydreigon
+|-crit|p2a: Hydreigon
+|-damage|p2a: Hydreigon|69/278 slp
+|
+|-heal|p1a: Amoonguss|220/329|[from] item: Black Sludge
+|upkeep
+|turn|17
+|inactive|Doomful has 270 seconds left.
+|
+|t:|1685495894
+|-curestatus|p2a: Hydreigon|slp|[msg]
+|move|p2a: Hydreigon|Draco Meteor|p1a: Amoonguss
+|-damage|p1a: Amoonguss|57/329
+|-unboost|p2a: Hydreigon|spa|2
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-heal|p1a: Amoonguss|77/329|[from] item: Black Sludge
+|upkeep
+|
+|t:|1685495901
+|switch|p2a: Quagsire|Quagsire, L84, M|227/297
+|-damage|p2a: Quagsire|209/297|[from] Stealth Rock
+|turn|18
+|inactive|Doomful has 270 seconds left.
+|
+|t:|1685495921
+|switch|p1a: Appletun|Appletun, L90, F|344/344
+|-damage|p1a: Appletun|301/344|[from] Stealth Rock
+|move|p2a: Quagsire|Toxic|p1a: Appletun
+|-status|p1a: Appletun|tox
+|
+|-heal|p2a: Quagsire|227/297|[from] item: Leftovers
+|-heal|p1a: Appletun|322/344 tox|[from] item: Leftovers
+|-damage|p1a: Appletun|301/344 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1685495932
+|switch|p2a: Lopunny|Lopunny, L90, F|247/263 tox
+|-damage|p2a: Lopunny|215/263 tox|[from] Stealth Rock
+|move|p1a: Appletun|Apple Acid|p2a: Lopunny
+|-damage|p2a: Lopunny|122/263 tox
+|-unboost|p2a: Lopunny|spd|1
+|
+|-heal|p2a: Lopunny|138/263 tox|[from] item: Leftovers
+|-heal|p1a: Appletun|322/344 tox|[from] item: Leftovers
+|-damage|p2a: Lopunny|122/263 tox|[from] psn
+|-damage|p1a: Appletun|280/344 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1685495938
+|move|p2a: Lopunny|Facade|p1a: Appletun
+|-damage|p1a: Appletun|144/344 tox
+|move|p1a: Appletun|Apple Acid|p2a: Lopunny
+|-damage|p2a: Lopunny|0 fnt
+|faint|p2a: Lopunny
+|
+|-heal|p1a: Appletun|165/344 tox|[from] item: Leftovers
+|-damage|p1a: Appletun|102/344 tox|[from] psn
+|upkeep
+|
+|t:|1685495945
+|switch|p2a: Aerodactyl|Aerodactyl, L82, F|265/265
+|-ability|p2a: Aerodactyl|Unnerve
+|turn|21
+|
+|t:|1685495950
+|move|p2a: Aerodactyl|Hone Claws|p2a: Aerodactyl
+|-boost|p2a: Aerodactyl|atk|1
+|-boost|p2a: Aerodactyl|accuracy|1
+|move|p1a: Appletun|Apple Acid|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|141/265
+|-unboost|p2a: Aerodactyl|spd|1
+|
+|-heal|p1a: Appletun|123/344 tox|[from] item: Leftovers
+|-damage|p1a: Appletun|39/344 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1685495961
+|move|p2a: Aerodactyl|Stone Edge|p1a: Appletun
+|-damage|p1a: Appletun|0 fnt
+|faint|p1a: Appletun
+|
+|upkeep
+|
+|t:|1685495977
+|switch|p1a: Slowbro|Slowbro, L84, M|297/297
+|-damage|p1a: Slowbro|260/297|[from] Stealth Rock
+|turn|23
+|
+|t:|1685495990
+|-start|p2a: Aerodactyl|Dynamax|
+|-heal|p2a: Aerodactyl|282/530|[silent]
+|-start|p1a: Slowbro|Dynamax|
+|-heal|p1a: Slowbro|520/594|[silent]
+|move|p2a: Aerodactyl|Max Rockfall|p1a: Slowbro
+|-damage|p1a: Slowbro|348/594
+|-weather|Sandstorm
+|move|p1a: Slowbro|Max Geyser|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|-weather|RainDance
+|faint|p2a: Aerodactyl
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowbro|366/594|[from] item: Leftovers
+|upkeep
+|
+|t:|1685495991
+|switch|p2a: Quagsire|Quagsire, L84, M|227/297
+|-damage|p2a: Quagsire|209/297|[from] Stealth Rock
+|turn|24
+|c|☆Doomful|gg
+|
+|t:|1685495997
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|297/297
+|move|p1a: Slowbro|Max Geyser|p2a: Quagsire
+|-damage|p2a: Quagsire|50/297
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Quagsire|68/297|[from] item: Leftovers
+|-heal|p1a: Slowbro|384/594|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1685495999
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|217/297
+|move|p1a: Slowbro|Max Geyser|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|win|Doomful
+|c|☆Quoise|gg
+|l|☆Doomful
+|j|☆Doomful
+|player|p1|Doomful|n-masters
+|l|☆Quoise
+|l|☆Doomful
+|player|p1|
+|j|☆Doomful
+|player|p1|Doomful|n-masters

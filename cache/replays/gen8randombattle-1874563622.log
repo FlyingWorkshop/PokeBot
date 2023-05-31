@@ -1,0 +1,234 @@
+|j|☆cupcake26
+|j|‽Tigerking2002
+|t:|1685511042
+|gametype|singles
+|player|p1|cupcake26|maylene|1508
+|player|p2|Tigerking2002|2|1464
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685511042
+|start
+|switch|p1a: Porygon-Z|Porygon-Z, L80|267/267
+|switch|p2a: Chandelure|Chandelure, L82, M|233/233
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|spa|1
+|turn|1
+|
+|t:|1685511051
+|move|p1a: Porygon-Z|Dark Pulse|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|-damage|p1a: Porygon-Z|241/267|[from] item: Life Orb
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tigerking2002)
+|
+|t:|1685511060
+|switch|p2a: Lopunny|Lopunny, L90, M|263/263
+|turn|2
+|
+|t:|1685511079
+|switch|p1a: Tapu Lele|Tapu Lele, L79|240/240
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|move|p2a: Lopunny|Close Combat|p1a: Tapu Lele
+|-resisted|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|216/240
+|-unboost|p2a: Lopunny|def|1
+|-unboost|p2a: Lopunny|spd|1
+|
+|-status|p2a: Lopunny|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1685511095
+|move|p2a: Lopunny|Facade|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|36/240
+|move|p1a: Tapu Lele|Psyshock|p2a: Lopunny
+|-damage|p2a: Lopunny|33/263 tox
+|-damage|p1a: Tapu Lele|12/240|[from] item: Life Orb
+|
+|-damage|p2a: Lopunny|17/263 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1685511104
+|switch|p1a: Luxray|Luxray, L84, M|272/272
+|move|p2a: Lopunny|Facade|p1a: Luxray
+|-damage|p1a: Luxray|127/272
+|
+|-damage|p2a: Lopunny|0 fnt|[from] psn
+|faint|p2a: Lopunny
+|-status|p1a: Luxray|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1685511116
+|switch|p2a: Rillaboom|Rillaboom, L78, M|284/284
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|5
+|
+|t:|1685511125
+|move|p2a: Rillaboom|High Horsepower|p1a: Luxray
+|-supereffective|p1a: Luxray
+|-damage|p1a: Luxray|0 fnt
+|faint|p1a: Luxray
+|-damage|p2a: Rillaboom|256/284|[from] item: Life Orb
+|
+|-heal|p2a: Rillaboom|273/284|[from] Grassy Terrain
+|upkeep
+|
+|t:|1685511128
+|switch|p1a: Delibird|Delibird, F|252/252
+|turn|6
+|
+|t:|1685511136
+|switch|p2a: Stonjourner|Stonjourner, L88, M|319/319
+|move|p1a: Delibird|Freeze-Dry|p2a: Stonjourner
+|-damage|p2a: Stonjourner|135/319
+|
+|-heal|p2a: Stonjourner|154/319|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1685511144
+|move|p1a: Delibird|Freeze-Dry|p2a: Stonjourner
+|-damage|p2a: Stonjourner|0 fnt
+|faint|p2a: Stonjourner
+|
+|upkeep
+|
+|t:|1685511148
+|switch|p2a: Ho-Oh|Ho-Oh, L72|272/272
+|turn|8
+|
+|t:|1685511160
+|switch|p1a: Whiscash|Whiscash, L86, F|329/329
+|move|p2a: Ho-Oh|Toxic|p1a: Whiscash
+|-status|p1a: Whiscash|tox
+|
+|-damage|p1a: Whiscash|309/329 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1685511169
+|switch|p2a: Rillaboom|Rillaboom, L78, M|273/284
+|switch|p1a: Porygon-Z|Porygon-Z, L80|241/267
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|spa|1
+|
+|-heal|p1a: Porygon-Z|257/267|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|284/284|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1685511184
+|move|p1a: Porygon-Z|Tri Attack|p2a: Rillaboom
+|-damage|p2a: Rillaboom|11/284
+|-damage|p1a: Porygon-Z|231/267|[from] item: Life Orb
+|move|p2a: Rillaboom|Knock Off|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|102/267
+|-enditem|p1a: Porygon-Z|Life Orb|[from] move: Knock Off|[of] p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt|[from] item: Life Orb
+|faint|p2a: Rillaboom
+|
+|upkeep
+|
+|t:|1685511194
+|switch|p2a: Ho-Oh|Ho-Oh, L72|272/272
+|turn|11
+|inactive|cupcake26 has 120 seconds left.
+|
+|t:|1685511226
+|switch|p1a: Whiscash|Whiscash, L86, F|309/329 tox
+|move|p2a: Ho-Oh|Brave Bird|p1a: Whiscash
+|-damage|p1a: Whiscash|173/329 tox
+|-damage|p2a: Ho-Oh|227/272|[from] Recoil
+|
+|-damage|p1a: Whiscash|153/329 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1685511234
+|move|p2a: Ho-Oh|Brave Bird|p1a: Whiscash
+|-damage|p1a: Whiscash|24/329 tox
+|-damage|p2a: Ho-Oh|184/272|[from] Recoil
+|move|p1a: Whiscash|Liquidation|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|0 fnt
+|faint|p2a: Ho-Oh
+|
+|-damage|p1a: Whiscash|0 fnt|[from] psn
+|faint|p1a: Whiscash
+|upkeep
+|
+|t:|1685511243
+|switch|p2a: Wailord|Wailord, L90, F|452/452
+|switch|p1a: Delibird|Delibird, F|252/252
+|turn|13
+|
+|t:|1685511251
+|-start|p2a: Wailord|Dynamax|
+|-heal|p2a: Wailord|904/904|[silent]
+|move|p1a: Delibird|Freeze-Dry|p2a: Wailord
+|-supereffective|p2a: Wailord
+|-damage|p2a: Wailord|652/904
+|move|p2a: Wailord|Max Geyser|p1a: Delibird
+|-damage|p1a: Delibird|35/252
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1685511262
+|move|p1a: Delibird|Memento|p2a: Wailord
+|-unboost|p2a: Wailord|atk|2
+|-unboost|p2a: Wailord|spa|2
+|faint|p1a: Delibird
+|move|p2a: Wailord|Max Strike|p1: Delibird|[notarget]
+|-fail|p2a: Wailord
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685511267
+|switch|p1a: Porygon-Z|Porygon-Z, L80|102/267
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|spa|1
+|turn|15
+|
+|t:|1685511273
+|move|p1a: Porygon-Z|Tri Attack|p2a: Wailord
+|-damage|p2a: Wailord|414/904
+|move|p2a: Wailord|Max Geyser|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|0 fnt
+|faint|p1a: Porygon-Z
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685511277
+|switch|p1a: Tapu Lele|Tapu Lele, L79|12/240
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|-end|p2a: Wailord|Dynamax
+|-heal|p2a: Wailord|207/452|[silent]
+|turn|16
+|
+|t:|1685511288
+|move|p1a: Tapu Lele|Psyshock|p2a: Wailord
+|-damage|p2a: Wailord|0 fnt
+|faint|p2a: Wailord
+|-damage|p1a: Tapu Lele|0 fnt|[from] item: Life Orb
+|faint|p1a: Tapu Lele
+|
+|win|cupcake26
+|raw|cupcake26's rating: 1508 &rarr; <strong>1525</strong><br />(+17 for winning)
+|raw|Tigerking2002's rating: 1464 &rarr; <strong>1447</strong><br />(-17 for losing)

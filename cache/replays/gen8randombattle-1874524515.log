@@ -1,0 +1,293 @@
+|j|☆Teres bahji
+|j|☆cupcake26
+|t:|1685505374
+|gametype|singles
+|player|p1|Teres bahji|#rbtt6teamzarudef|1533
+|player|p2|cupcake26|maylene|1473
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685505374
+|start
+|switch|p1a: Polteageist|Polteageist, L78|222/222
+|switch|p2a: Mienshao|Mienshao, L82, M|241/241
+|turn|1
+|
+|t:|1685505385
+|switch|p2a: Guzzlord|Guzzlord, L84|512/512
+|switch|p1a: Sableye|Sableye, L88, M|231/231
+|
+|upkeep
+|turn|2
+|
+|t:|1685505410
+|move|p1a: Sableye|Knock Off|p2a: Guzzlord
+|-resisted|p2a: Guzzlord
+|-damage|p2a: Guzzlord|449/512
+|-enditem|p2a: Guzzlord|Assault Vest|[from] move: Knock Off|[of] p1a: Sableye
+|move|p2a: Guzzlord|Knock Off|p1a: Sableye
+|-damage|p1a: Sableye|122/231
+|-enditem|p1a: Sableye|Leftovers|[from] move: Knock Off|[of] p2a: Guzzlord
+|
+|upkeep
+|turn|3
+|
+|t:|1685505416
+|switch|p2a: Tapu Koko|Tapu Koko, L78|237/237
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|231/231
+|
+|upkeep
+|turn|4
+|
+|t:|1685505421
+|move|p1a: Sableye|Toxic|p2a: Tapu Koko
+|-status|p2a: Tapu Koko|tox
+|move|p2a: Tapu Koko|Dazzling Gleam|p1a: Sableye
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|57/231
+|
+|-damage|p2a: Tapu Koko|223/237 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1685505443
+|switch|p1a: Cradily|Cradily, L86, F|288/288
+|move|p2a: Tapu Koko|Dazzling Gleam|p1a: Cradily
+|-damage|p1a: Cradily|222/288
+|
+|-heal|p2a: Tapu Koko|237/237 tox|[from] item: Leftovers
+|-heal|p1a: Cradily|240/288|[from] item: Leftovers
+|-damage|p2a: Tapu Koko|209/237 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1685505455
+|switch|p2a: Aegislash|Aegislash, L80, M|227/227
+|move|p1a: Cradily|Power Whip|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-crit|p2a: Aegislash
+|-damage|p2a: Aegislash|163/227
+|
+|-heal|p1a: Cradily|258/288|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685505465
+|switch|p1a: Sableye|Sableye, L88, M|57/231
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Flash Cannon|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|-damage|p2a: Aegislash|141/227|[from] item: Life Orb
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1685505474
+|switch|p1a: Volcarona|Volcarona, L76, M|254/254
+|turn|8
+|
+|t:|1685505481
+|switch|p2a: Hippowdon|Hippowdon, L80, M|304/304
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|239/254|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1685505494
+|switch|p1a: Cradily|Cradily, L86, F|258/288
+|move|p2a: Hippowdon|Toxic|p1a: Cradily
+|-status|p1a: Cradily|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Cradily|276/288 tox|[from] item: Leftovers
+|-damage|p1a: Cradily|258/288 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1685505509
+|move|p1a: Cradily|Power Whip|p2a: Hippowdon|[miss]
+|-miss|p1a: Cradily|p2a: Hippowdon
+|move|p2a: Hippowdon|Stealth Rock|p1a: Cradily
+|-sidestart|p1: Teres bahji|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Cradily|276/288 tox|[from] item: Leftovers
+|-damage|p1a: Cradily|240/288 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1685505572
+|switch|p2a: Aegislash|Aegislash, L80, M|141/227
+|move|p1a: Cradily|Power Whip|p2a: Aegislash|[miss]
+|-miss|p1a: Cradily|p2a: Aegislash
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Cradily|258/288 tox|[from] item: Leftovers
+|-damage|p1a: Cradily|204/288 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1685505576
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Flash Cannon|p1a: Cradily
+|-supereffective|p1a: Cradily
+|-damage|p1a: Cradily|45/288 tox
+|-damage|p2a: Aegislash|119/227|[from] item: Life Orb
+|move|p1a: Cradily|Power Whip|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|32/227
+|
+|-weather|none
+|-heal|p1a: Cradily|63/288 tox|[from] item: Leftovers
+|-damage|p1a: Cradily|0 fnt|[from] psn
+|faint|p1a: Cradily
+|upkeep
+|
+|t:|1685505581
+|switch|p1a: Volcarona|Volcarona, L76, M|239/254
+|turn|13
+|
+|t:|1685505585
+|switch|p2a: Hippowdon|Hippowdon, L80, M|304/304
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|224/254|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1685505590
+|move|p1a: Volcarona|Bug Buzz|p2a: Hippowdon
+|-damage|p2a: Hippowdon|129/304
+|-unboost|p2a: Hippowdon|spd|1
+|move|p2a: Hippowdon|Toxic|p1a: Volcarona
+|-status|p1a: Volcarona|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|209/254 tox|[from] Sandstorm
+|-heal|p2a: Hippowdon|148/304|[from] item: Leftovers
+|-damage|p1a: Volcarona|194/254 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1685505598
+|move|p1a: Volcarona|Bug Buzz|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|179/254 tox|[from] Sandstorm
+|-damage|p1a: Volcarona|149/254 tox|[from] psn
+|upkeep
+|
+|t:|1685505600
+|switch|p2a: Aegislash|Aegislash, L80, M|32/227
+|turn|16
+|
+|t:|1685505602
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Volcarona|Bug Buzz|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|134/254 tox|[from] Sandstorm
+|-damage|p1a: Volcarona|89/254 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1685505631
+|switch|p2a: Tapu Koko|Tapu Koko, L78|209/237 tox
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|move|p1a: Volcarona|Fire Blast|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|0 fnt
+|faint|p2a: Tapu Koko
+|
+|-weather|none
+|-damage|p1a: Volcarona|29/254 tox|[from] psn
+|upkeep
+|
+|t:|1685505633
+|switch|p2a: Aegislash|Aegislash, L80, M|32/227
+|turn|18
+|
+|t:|1685505639
+|switch|p1a: Hydreigon|Hydreigon, L80, M|278/278
+|-damage|p1a: Hydreigon|244/278|[from] Stealth Rock
+|move|p2a: Aegislash|King's Shield||[still]
+|-fail|p2a: Aegislash
+|
+|upkeep
+|turn|19
+|
+|t:|1685505646
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Hydreigon|Dark Pulse|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|upkeep
+|turn|20
+|
+|t:|1685505649
+|switch|p2a: Mienshao|Mienshao, L82, M|241/241
+|move|p1a: Hydreigon|Dark Pulse|p2a: Mienshao
+|-resisted|p2a: Mienshao
+|-damage|p2a: Mienshao|157/241
+|-damage|p1a: Hydreigon|217/278|[from] item: Life Orb
+|
+|upkeep
+|turn|21
+|
+|t:|1685505655
+|switch|p1a: Volcarona|Volcarona, L76, M|29/254 tox
+|move|p2a: Mienshao|Swords Dance|p2a: Mienshao
+|-boost|p2a: Mienshao|atk|2
+|
+|-damage|p1a: Volcarona|14/254 tox|[from] psn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|22
+|
+|t:|1685505659
+|move|p2a: Mienshao|Poison Jab|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|upkeep
+|
+|t:|1685505662
+|switch|p1a: Polteageist|Polteageist, L78|222/222
+|-damage|p1a: Polteageist|195/222|[from] Stealth Rock
+|turn|23
+|
+|t:|1685505665
+|move|p2a: Mienshao|Stone Edge|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|upkeep
+|-message|Teres bahji forfeited.
+|
+|win|cupcake26
+|raw|Teres bahji's rating: 1533 &rarr; <strong>1510</strong><br />(-23 for losing)
+|raw|cupcake26's rating: 1487 &rarr; <strong>1510</strong><br />(+23 for winning)

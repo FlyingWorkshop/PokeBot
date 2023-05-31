@@ -1,0 +1,46 @@
+|j|☆dhcs
+|j|☆ddgdsd
+|t:|1685542656
+|gametype|singles
+|player|p1|dhcs|102|1119
+|player|p2|ddgdsd|veteran|1116
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685542656
+|start
+|switch|p1a: Orbeetle|Orbeetle, L86, F|243/243
+|switch|p2a: Guzzlord|Guzzlord, L84|512/512
+|-item|p2a: Guzzlord|Assault Vest|[from] ability: Frisk|[of] p1a: Orbeetle|[identify]
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ddgdsd)
+|inactive|dhcs has 120 seconds left.
+|c|☆ddgdsd|Ulala tikiwala
+|c|☆ddgdsd|Satyanas
+|inactive|dhcs has 90 seconds left.
+|c|☆ddgdsd|Nithanna
+|c|☆ddgdsd|Tuturala
+|c|☆ddgdsd|Jigi jigi cheek cheec
+|c|☆ddgdsd|Ta ta ta ta
+|c|☆ddgdsd|Jigi jigi meek meek
+|inactive|dhcs has 60 seconds left.
+|c|☆ddgdsd|Tatata
+|inactive|dhcs has 30 seconds left.
+|c|☆ddgdsd|Teri ja ka khosda gaale
+|c|☆ddgdsd|30
+|inactive|dhcs has 20 seconds left.
+|c|☆ddgdsd|20
+|inactive|dhcs has 15 seconds left.
+|c|☆ddgdsd|15
+|-message|dhcs forfeited.
+|
+|win|ddgdsd
+|raw|dhcs's rating: 1119 &rarr; <strong>1094</strong><br />(-25 for losing)
+|raw|ddgdsd's rating: 1116 &rarr; <strong>1141</strong><br />(+25 for winning)
+|l|☆dhcs

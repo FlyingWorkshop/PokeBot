@@ -1,0 +1,246 @@
+|j|☆DerpyFlareon
+|j|☆Jacknightdragon
+|t:|1685507948
+|gametype|singles
+|player|p1|DerpyFlareon|cynthia|
+|player|p2|Jacknightdragon|hilbert-wonderlauncher|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685507948
+|start
+|switch|p1a: Drampa|Drampa, L86, F|274/274
+|switch|p2a: Klefki|Klefki, L82, M|228/228
+|turn|1
+|j| deeplyunderground
+|
+|t:|1685507964
+|move|p2a: Klefki|Thunder Wave|p1a: Drampa
+|-status|p1a: Drampa|par
+|move|p1a: Drampa|Glare|p2a: Klefki
+|-status|p2a: Klefki|par
+|
+|upkeep
+|turn|2
+|
+|t:|1685507971
+|move|p2a: Klefki|Spikes|p1a: Drampa
+|-sidestart|p1: DerpyFlareon|Spikes
+|move|p1a: Drampa|Fire Blast|p2a: Klefki|[miss]
+|-miss|p1a: Drampa|p2a: Klefki
+|
+|upkeep
+|turn|3
+|
+|t:|1685507980
+|move|p2a: Klefki|Play Rough|p1a: Drampa
+|-supereffective|p1a: Drampa
+|-damage|p1a: Drampa|128/274 par
+|-unboost|p1a: Drampa|atk|1
+|-ability|p1a: Drampa|Berserk|boost
+|-boost|p1a: Drampa|spa|1
+|move|p1a: Drampa|Fire Blast|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-enditem|p2a: Klefki|Focus Sash
+|-damage|p2a: Klefki|1/228 par
+|
+|-heal|p1a: Drampa|145/274 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685507996
+|switch|p1a: Mawile|Mawile, L86, F|226/226
+|-damage|p1a: Mawile|198/226|[from] Spikes
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Klefki|atk|1
+|move|p2a: Klefki|Play Rough|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|171/226
+|
+|upkeep
+|turn|5
+|
+|t:|1685508007
+|cant|p2a: Klefki|par
+|move|p1a: Mawile|Iron Head|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|-damage|p1a: Mawile|149/226|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685508033
+|switch|p2a: Pincurchin|Pincurchin, L88, M|228/228
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|6
+|
+|t:|1685508042
+|move|p1a: Mawile|Swords Dance|p1a: Mawile
+|-boost|p1a: Mawile|atk|2
+|move|p2a: Pincurchin|Rising Voltage|p1a: Mawile
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-damage|p1a: Mawile|0 fnt
+|faint|p1a: Mawile
+|
+|upkeep
+|
+|t:|1685508052
+|switch|p1a: Drampa|Drampa, L86, F|145/274 par
+|-damage|p1a: Drampa|111/274 par|[from] Spikes
+|turn|7
+|
+|t:|1685508057
+|move|p2a: Pincurchin|Spikes|p1a: Drampa
+|-sidestart|p1: DerpyFlareon|Spikes
+|move|p1a: Drampa|Roost|p1a: Drampa
+|-heal|p1a: Drampa|248/274 par
+|-singleturn|p1a: Drampa|move: Roost
+|
+|-heal|p1a: Drampa|265/274 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685508064
+|move|p2a: Pincurchin|Rising Voltage|p1a: Drampa
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-resisted|p1a: Drampa
+|-crit|p1a: Drampa
+|-damage|p1a: Drampa|133/274 par
+|-ability|p1a: Drampa|Berserk|boost
+|-boost|p1a: Drampa|spa|1
+|cant|p1a: Drampa|par
+|
+|-heal|p1a: Drampa|150/274 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1685508072
+|move|p2a: Pincurchin|Rising Voltage|p1a: Drampa
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-resisted|p1a: Drampa
+|-damage|p1a: Drampa|55/274 par
+|-ability|p1a: Drampa|Berserk|boost
+|-boost|p1a: Drampa|spa|1
+|move|p1a: Drampa|Draco Meteor|p2a: Pincurchin
+|-damage|p2a: Pincurchin|0 fnt
+|-unboost|p1a: Drampa|spa|2
+|faint|p2a: Pincurchin
+|
+|-heal|p1a: Drampa|72/274 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1685508087
+|switch|p2a: Lapras|Lapras, L86, F|363/363
+|turn|10
+|
+|t:|1685508092
+|switch|p1a: Arctovish|Arctovish, L86|295/295
+|-damage|p1a: Arctovish|246/295|[from] Spikes
+|move|p2a: Lapras|Freeze-Dry|p1a: Arctovish
+|-crit|p1a: Arctovish
+|-damage|p1a: Arctovish|140/295
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|11
+|
+|t:|1685508105
+|switch|p1a: Lucario|Lucario, L82, F|249/249
+|-damage|p1a: Lucario|208/249|[from] Spikes
+|move|p2a: Lapras|Toxic|p1a: Lucario
+|-immune|p1a: Lucario
+|
+|upkeep
+|turn|12
+|
+|t:|1685508123
+|move|p2a: Lapras|Protect|p2a: Lapras
+|-singleturn|p2a: Lapras|Protect
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|
+|upkeep
+|turn|13
+|
+|t:|1685508131
+|-start|p1a: Lucario|Dynamax|
+|-heal|p1a: Lucario|416/498|[silent]
+|move|p1a: Lucario|Max Steelspike|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|-boost|p1a: Lucario|def|1
+|faint|p2a: Lapras
+|-damage|p1a: Lucario|392/498|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685508138
+|switch|p2a: Grapploct|Grapploct, L86, F|278/278
+|turn|14
+|
+|t:|1685508149
+|-start|p2a: Grapploct|Dynamax|
+|-heal|p2a: Grapploct|556/556|[silent]
+|move|p1a: Lucario|Max Steelspike|p2a: Grapploct
+|-damage|p2a: Grapploct|176/556
+|-boost|p1a: Lucario|def|1
+|-damage|p1a: Lucario|368/498|[from] item: Life Orb
+|move|p2a: Grapploct|Max Knuckle|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|165/498
+|-boost|p2a: Grapploct|atk|1
+|-damage|p2a: Grapploct|149/556|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+|
+|t:|1685508163
+|move|p2a: Grapploct|Max Guard|p2a: Grapploct
+|-singleturn|p2a: Grapploct|Max Guard
+|move|p1a: Lucario|Max Steelspike|p2a: Grapploct
+|-activate|p2a: Grapploct|move: Max Guard
+|
+|upkeep
+|-end|p1a: Lucario|Dynamax
+|-heal|p1a: Lucario|83/249|[silent]
+|turn|16
+|
+|t:|1685508169
+|move|p1a: Lucario|Meteor Mash|p2a: Grapploct
+|-damage|p2a: Grapploct|0 fnt
+|faint|p2a: Grapploct
+|-damage|p1a: Lucario|59/249|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685508175
+|switch|p2a: Lunatone|Lunatone, L86|295/295
+|turn|17
+|
+|t:|1685508181
+|move|p1a: Lucario|Close Combat|p2a: Lunatone
+|-damage|p2a: Lunatone|0 fnt
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|faint|p2a: Lunatone
+|-damage|p1a: Lucario|35/249|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685508187
+|switch|p2a: Armaldo|Armaldo, L86, F|269/269
+|turn|18
+|
+|t:|1685508192
+|move|p1a: Lucario|Close Combat|p2a: Armaldo
+|-damage|p2a: Armaldo|0 fnt
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|faint|p2a: Armaldo
+|-damage|p1a: Lucario|11/249|[from] item: Life Orb
+|
+|win|DerpyFlareon

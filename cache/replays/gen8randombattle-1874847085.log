@@ -1,0 +1,87 @@
+|j|☆PillowyFour02
+|j|☆kvothe the red
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1685546209
+|gametype|singles
+|player|p1|PillowyFour02|rocketgrunt|
+|j|*Lady Monita
+|player|p2|kvothe the red|#deftinwolf|
+|teamsize|p1|3
+|teamsize|p2|3
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Sigilyph, L83, F|
+|poke|p1|Pikachu-Alola, L92, M|
+|poke|p1|Yveltal, L69|
+|poke|p2|Salamence, L76, M|
+|poke|p2|Grapploct, L86, M|
+|poke|p2|Kartana, L74|
+|teampreview|1
+|inactive|PillowyFour02 also wants the timer to be on.
+|c|☆kvothe the red|glhf
+|c|☆PillowyFour02|glhf!
+|inactive|PillowyFour02 has 120 seconds left.
+|
+|t:|1685546245
+|start
+|switch|p1a: Sigilyph|Sigilyph, L83, F|255/255
+|switch|p2a: Salamence|Salamence, L76, M|269/269
+|turn|1
+|
+|t:|1685546268
+|-start|p1a: Sigilyph|Dynamax|
+|-heal|p1a: Sigilyph|510/510|[silent]
+|move|p1a: Sigilyph|Max Mindstorm|p2a: Salamence
+|-damage|p2a: Salamence|106/269
+|-fieldstart|move: Psychic Terrain
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1685546274
+|-start|p2a: Salamence|Dynamax|
+|-heal|p2a: Salamence|212/538|[silent]
+|move|p2a: Salamence|Max Guard|p2a: Salamence
+|-singleturn|p2a: Salamence|Max Guard
+|move|p1a: Sigilyph|Max Mindstorm|p2a: Salamence
+|-activate|p2a: Salamence|move: Max Guard
+|
+|upkeep
+|turn|3
+|
+|t:|1685546281
+|move|p2a: Salamence|Max Wyrmwind|p1a: Sigilyph
+|-damage|p1a: Sigilyph|248/510
+|-unboost|p1a: Sigilyph|atk|1
+|move|p1a: Sigilyph|Max Mindstorm|p2a: Salamence
+|-damage|p2a: Salamence|52/538
+|
+|upkeep
+|-end|p1a: Sigilyph|Dynamax
+|-heal|p1a: Sigilyph|124/255|[silent]
+|turn|4
+|
+|t:|1685546287
+|move|p2a: Salamence|Max Wyrmwind|p1a: Sigilyph
+|-crit|p1a: Sigilyph
+|-damage|p1a: Sigilyph|0 fnt
+|faint|p1a: Sigilyph
+|
+|win|kvothe the red
+|n|☆PillowyFour02|pillowyfour02
+|n|☆kvothe the red|kvothethered
+|n|*Lady Monita|ladymonita
+|l|*Lady Monita
+|c|☆kvothe the red|gg
+|l|☆PillowyFour02
+|l|☆kvothe the red
+|j|☆kvothe the red
+|player|p2|kvothe the red|#deftinwolf

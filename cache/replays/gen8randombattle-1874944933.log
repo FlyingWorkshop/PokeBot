@@ -1,0 +1,344 @@
+|j|‽dfasdfadfhdsgsd
+|j|☆BCHGABFG
+|t:|1685554445
+|gametype|singles
+|player|p1|dfasdfadfhdsgsd|169|1000
+|player|p2|BCHGABFG|1|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685554445
+|start
+|switch|p1a: Cursola|Cursola, L86, M|243/243
+|switch|p2a: Archeops|Archeops, L82, F|257/257
+|turn|1
+|
+|t:|1685554459
+|move|p2a: Archeops|Stone Edge|p1a: Cursola
+|-damage|p1a: Cursola|36/243
+|-ability|p1a: Cursola|Weak Armor|boost
+|-unboost|p1a: Cursola|def|1
+|-boost|p1a: Cursola|spe|2
+|move|p1a: Cursola|Stealth Rock|p2a: Archeops
+|-sidestart|p2: BCHGABFG|move: Stealth Rock
+|
+|-heal|p1a: Cursola|51/243|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685554472
+|switch|p1a: Torkoal|Torkoal, L86, F|261/261
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Archeops|Stone Edge|p1a: Torkoal|[miss]
+|-miss|p2a: Archeops|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dfasdfadfhdsgsd)
+|
+|t:|1685554481
+|move|p2a: Archeops|U-turn|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|239/261
+|
+|t:|1685554495
+|switch|p2a: Drednaw|Drednaw, L84, M|288/288|[from] U-turn
+|-damage|p2a: Drednaw|252/288|[from] Stealth Rock
+|move|p1a: Torkoal|Lava Plume|p2a: Drednaw
+|-resisted|p2a: Drednaw
+|-damage|p2a: Drednaw|214/288
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1685554505
+|move|p2a: Drednaw|Superpower|p1a: Torkoal
+|-damage|p1a: Torkoal|153/261
+|-unboost|p2a: Drednaw|atk|1
+|-unboost|p2a: Drednaw|def|1
+|-damage|p2a: Drednaw|186/288|[from] item: Life Orb
+|move|p1a: Torkoal|Solar Beam||[still]
+|-prepare|p1a: Torkoal|Solar Beam
+|-anim|p1a: Torkoal|Solar Beam|p2a: Drednaw
+|-supereffective|p2a: Drednaw
+|-damage|p2a: Drednaw|0 fnt
+|faint|p2a: Drednaw
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685554518
+|switch|p2a: Archeops|Archeops, L82, F|257/257
+|turn|5
+|
+|t:|1685554522
+|move|p2a: Archeops|Stone Edge|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685554527
+|switch|p1a: Clawitzer|Clawitzer, L84, M|256/256
+|turn|6
+|
+|t:|1685554531
+|move|p2a: Archeops|U-turn|p1a: Clawitzer
+|-damage|p1a: Clawitzer|190/256
+|
+|t:|1685554536
+|switch|p2a: Durant|Durant, L78, M|219/219|[from] U-turn
+|-damage|p2a: Durant|192/219|[from] Stealth Rock
+|move|p1a: Clawitzer|Water Pulse|p2a: Durant
+|-damage|p2a: Durant|47/219
+|-start|p2a: Durant|confusion
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1685554546
+|switch|p1a: Cursola|Cursola, L86, M|51/243
+|-activate|p2a: Durant|confusion
+|move|p2a: Durant|Superpower|p1a: Cursola
+|-immune|p1a: Cursola
+|
+|-heal|p1a: Cursola|66/243|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685554555
+|-activate|p2a: Durant|confusion
+|move|p2a: Durant|Superpower|p1a: Cursola
+|-immune|p1a: Cursola
+|move|p1a: Cursola|Strength Sap|p2a: Durant
+|-unboost|p2a: Durant|atk|1
+|-heal|p1a: Cursola|243/243
+|
+|upkeep
+|turn|9
+|
+|t:|1685554563
+|-activate|p2a: Durant|confusion
+|-damage|p2a: Durant|31/219|[from] confusion
+|move|p1a: Cursola|Hydro Pump|p2a: Durant
+|-damage|p2a: Durant|0 fnt
+|faint|p2a: Durant
+|
+|upkeep
+|
+|t:|1685554573
+|switch|p2a: Exploud|Exploud, L84, F|312/312
+|-damage|p2a: Exploud|273/312|[from] Stealth Rock
+|turn|10
+|
+|t:|1685554583
+|move|p2a: Exploud|Surf|p1a: Cursola
+|-damage|p1a: Cursola|180/243
+|move|p1a: Cursola|Strength Sap|p2a: Exploud
+|-unboost|p2a: Exploud|atk|1
+|-heal|p1a: Cursola|243/243
+|
+|upkeep
+|turn|11
+|
+|t:|1685554592
+|move|p2a: Exploud|Surf|p1a: Cursola
+|-damage|p1a: Cursola|177/243
+|move|p1a: Cursola|Hydro Pump|p2a: Exploud
+|-damage|p2a: Exploud|145/312
+|
+|-heal|p1a: Cursola|192/243|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685554599
+|move|p2a: Exploud|Surf|p1a: Cursola
+|-damage|p1a: Cursola|129/243
+|move|p1a: Cursola|Hydro Pump|p2a: Exploud
+|-damage|p2a: Exploud|19/312
+|
+|-heal|p1a: Cursola|144/243|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685554605
+|move|p2a: Exploud|Surf|p1a: Cursola
+|-damage|p1a: Cursola|78/243
+|move|p1a: Cursola|Strength Sap|p2a: Exploud
+|-unboost|p2a: Exploud|atk|1
+|-heal|p1a: Cursola|182/243
+|
+|-heal|p1a: Cursola|197/243|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685554613
+|move|p2a: Exploud|Surf|p1a: Cursola
+|-damage|p1a: Cursola|137/243
+|move|p1a: Cursola|Strength Sap|p2a: Exploud
+|-unboost|p2a: Exploud|atk|1
+|-heal|p1a: Cursola|215/243
+|
+|-heal|p1a: Cursola|230/243|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685554621
+|move|p2a: Exploud|Surf|p1a: Cursola
+|-damage|p1a: Cursola|163/243
+|move|p1a: Cursola|Strength Sap|p2a: Exploud
+|-unboost|p2a: Exploud|atk|1
+|-heal|p1a: Cursola|225/243
+|
+|-heal|p1a: Cursola|240/243|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685554631
+|move|p2a: Exploud|Surf|p1a: Cursola
+|-damage|p1a: Cursola|178/243
+|move|p1a: Cursola|Strength Sap|p2a: Exploud
+|-unboost|p2a: Exploud|atk|1
+|-heal|p1a: Cursola|230/243
+|
+|-heal|p1a: Cursola|243/243|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685554639
+|move|p2a: Exploud|Surf|p1a: Cursola
+|-damage|p1a: Cursola|175/243
+|move|p1a: Cursola|Hydro Pump|p2a: Exploud
+|-damage|p2a: Exploud|0 fnt
+|faint|p2a: Exploud
+|
+|-heal|p1a: Cursola|190/243|[from] item: Leftovers
+|upkeep
+|
+|t:|1685554649
+|switch|p2a: Goodra|Goodra, L82, M|282/282
+|-damage|p2a: Goodra|247/282|[from] Stealth Rock
+|turn|18
+|
+|t:|1685554655
+|move|p2a: Goodra|Earthquake|p1a: Cursola
+|-damage|p1a: Cursola|93/243
+|-ability|p1a: Cursola|Weak Armor|boost
+|-unboost|p1a: Cursola|def|1
+|-boost|p1a: Cursola|spe|2
+|move|p1a: Cursola|Shadow Ball|p2a: Goodra
+|-crit|p2a: Goodra
+|-damage|p2a: Goodra|169/282
+|
+|-heal|p1a: Cursola|108/243|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1685554669
+|move|p1a: Cursola|Shadow Ball|p2a: Goodra
+|-damage|p2a: Goodra|118/282
+|-unboost|p2a: Goodra|spd|1
+|move|p2a: Goodra|Earthquake|p1a: Cursola
+|-damage|p1a: Cursola|0 fnt
+|faint|p1a: Cursola
+|
+|upkeep
+|
+|t:|1685554670
+|switch|p1a: Urshifu|Urshifu, L76, M|277/277
+|turn|20
+|
+|t:|1685554678
+|move|p1a: Urshifu|Substitute|p1a: Urshifu
+|-start|p1a: Urshifu|Substitute
+|-damage|p1a: Urshifu|208/277
+|move|p2a: Goodra|Draco Meteor|p1a: Urshifu
+|-end|p1a: Urshifu|Substitute
+|-unboost|p2a: Goodra|spa|2
+|
+|-heal|p1a: Urshifu|225/277|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1685554686
+|move|p1a: Urshifu|Substitute|p1a: Urshifu
+|-start|p1a: Urshifu|Substitute
+|-damage|p1a: Urshifu|156/277
+|move|p2a: Goodra|Draco Meteor|p1a: Urshifu
+|-crit|p1a: Urshifu
+|-end|p1a: Urshifu|Substitute
+|-unboost|p2a: Goodra|spa|2
+|
+|-heal|p1a: Urshifu|173/277|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1685554695
+|move|p1a: Urshifu|Substitute|p1a: Urshifu
+|-start|p1a: Urshifu|Substitute
+|-damage|p1a: Urshifu|104/277
+|move|p2a: Goodra|Draco Meteor|p1a: Urshifu
+|-end|p1a: Urshifu|Substitute
+|-unboost|p2a: Goodra|spa|2
+|
+|-heal|p1a: Urshifu|121/277|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1685554703
+|move|p1a: Urshifu|Substitute|p1a: Urshifu
+|-start|p1a: Urshifu|Substitute
+|-damage|p1a: Urshifu|52/277
+|move|p2a: Goodra|Draco Meteor|p1a: Urshifu
+|-activate|p1a: Urshifu|move: Substitute|[damage]
+|
+|-heal|p1a: Urshifu|69/277|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1685554715
+|-start|p2a: Goodra|Dynamax|
+|-heal|p2a: Goodra|236/564|[silent]
+|move|p1a: Urshifu|Bulk Up|p1a: Urshifu
+|-boost|p1a: Urshifu|atk|1
+|-boost|p1a: Urshifu|def|1
+|move|p2a: Goodra|Max Ooze|p1a: Urshifu
+|-end|p1a: Urshifu|Substitute
+|-boost|p2a: Goodra|spa|1
+|
+|-heal|p1a: Urshifu|86/277|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1685554727
+|move|p1a: Urshifu|Wicked Blow|p2a: Goodra
+|-crit|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|-heal|p1a: Urshifu|103/277|[from] item: Leftovers
+|upkeep
+|l|☆BCHGABFG
+|inactive|BCHGABFG disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|BCHGABFG has 30 seconds to reconnect!
+|inactive|BCHGABFG has 20 seconds to reconnect!
+|inactive|BCHGABFG has 15 seconds to reconnect!
+|inactive|BCHGABFG has 10 seconds to reconnect!
+|inactive|BCHGABFG has 5 seconds to reconnect!
+|-message|BCHGABFG lost due to inactivity.
+|
+|win|dfasdfadfhdsgsd
+|raw|dfasdfadfhdsgsd's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)
+|raw|BCHGABFG's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

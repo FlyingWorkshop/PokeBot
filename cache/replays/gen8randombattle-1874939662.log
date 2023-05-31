@@ -1,0 +1,128 @@
+|j|☆Yuishiina
+|j|☆SexyJesu69
+|t:|1685553996
+|gametype|singles
+|player|p1|Yuishiina|dawn-gen4pt|1000
+|player|p2|SexyJesu69|101|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685553996
+|start
+|switch|p1a: Silvally|Silvally-Dark, L84|297/297
+|switch|p2a: Noctowl|Noctowl, L88, F|319/319
+|turn|1
+|
+|t:|1685554015
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|move|p2a: Noctowl|Nasty Plot|p2a: Noctowl
+|-boost|p2a: Noctowl|spa|2
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SexyJesu69)
+|
+|t:|1685554023
+|move|p1a: Silvally|Iron Head|p2a: Noctowl
+|-damage|p2a: Noctowl|158/319
+|cant|p2a: Noctowl|flinch
+|
+|upkeep
+|turn|3
+|
+|t:|1685554032
+|move|p1a: Silvally|Iron Head|p2a: Noctowl
+|-damage|p2a: Noctowl|0 fnt
+|faint|p2a: Noctowl
+|
+|upkeep
+|
+|t:|1685554048
+|switch|p2a: Golisopod|Golisopod, L84, F|263/263
+|turn|4
+|
+|t:|1685554075
+|move|p2a: Golisopod|First Impression|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|75/297
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1685554087
+|move|p1a: Silvally|Multi-Attack|p2a: Golisopod
+|-damage|p2a: Golisopod|20/263
+|-activate|p2a: Golisopod|ability: Emergency Exit
+|
+|t:|1685554094
+|switch|p2a: Ludicolo|Ludicolo, L86, F|278/278
+|
+|upkeep
+|turn|6
+|
+|t:|1685554101
+|move|p1a: Silvally|Multi-Attack|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|faint|p2a: Ludicolo
+|
+|upkeep
+|
+|t:|1685554105
+|switch|p2a: Lycanroc|Lycanroc, L80, F|251/251
+|turn|7
+|
+|t:|1685554109
+|move|p2a: Lycanroc|Accelerock|p1a: Silvally
+|-damage|p1a: Silvally|5/297
+|move|p1a: Silvally|Iron Head|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|faint|p2a: Lycanroc
+|
+|upkeep
+|
+|t:|1685554118
+|switch|p2a: Vikavolt|Vikavolt, L82, M|260/260
+|turn|8
+|
+|t:|1685554126
+|move|p1a: Silvally|Multi-Attack|p2a: Vikavolt
+|-damage|p2a: Vikavolt|0 fnt
+|faint|p2a: Vikavolt
+|
+|upkeep
+|
+|t:|1685554131
+|switch|p2a: Magnezone|Magnezone, L84|255/255
+|turn|9
+|
+|t:|1685554138
+|move|p1a: Silvally|Multi-Attack|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|upkeep
+|
+|t:|1685554141
+|switch|p2a: Golisopod|Golisopod, L84, F|20/263
+|turn|10
+|n|!SexyJesu69|sexyjesu69
+|
+|t:|1685554155
+|move|p1a: Silvally|Iron Head|p2a: Golisopod
+|-resisted|p2a: Golisopod
+|-damage|p2a: Golisopod|0 fnt
+|faint|p2a: Golisopod
+|
+|win|Yuishiina
+|raw|Yuishiina's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)
+|raw|SexyJesu69's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

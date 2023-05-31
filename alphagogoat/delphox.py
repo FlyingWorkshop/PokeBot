@@ -112,7 +112,7 @@ def make_x(turn: Battle, opponent: bool, last_guest_correct: bool):
 
     mark = torch.Tensor([last_guest_correct])
 
-    damage = embed_damage(team1, team2)
+    # damage = embed_damage(team1, team2)
 
     x = torch.cat((mark, pokemon, moves.flatten(), field_conditions, damage.flatten())).unsqueeze(0)
     return x
@@ -189,10 +189,10 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5, swi
             optimizer.step()
             if move1_pred_name == move1_name:
                 num_correct += 1
-                last_guess_correct1 = True
+                last_guess_correct2 = True
             else:
                 num_wrong += 1
-                last_guess_correct1 = False
+                last_guess_correct2 = False
 
             x2 = make_x(turn, opponent=True, last_guest_correct=last_guess_correct2)
             move2_pred, hidden2_t_next = delphox(x2, hidden2_t)

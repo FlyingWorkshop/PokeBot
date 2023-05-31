@@ -1,0 +1,159 @@
+|j|☆neorye
+|j|☆kwc0596
+|t:|1685503634
+|gametype|singles
+|player|p1|neorye|102|1029
+|player|p2|kwc0596|170|1057
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685503634
+|start
+|switch|p1a: Regice|Regice, L84|271/271
+|switch|p2a: Dhelmise|Dhelmise, L86|261/261
+|turn|1
+|
+|t:|1685503660
+|move|p1a: Regice|Ice Beam|p2a: Dhelmise
+|-supereffective|p2a: Dhelmise
+|-damage|p2a: Dhelmise|69/261
+|move|p2a: Dhelmise|Swords Dance|p2a: Dhelmise
+|-boost|p2a: Dhelmise|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1685503668
+|switch|p2a: Tapu Fini|Tapu Fini, L78|237/237
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|move|p1a: Regice|Ice Beam|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|200/237
+|
+|-heal|p2a: Tapu Fini|214/237|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685503679
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|move|p1a: Regice|Thunderbolt|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|150/237
+|
+|-heal|p2a: Tapu Fini|164/237|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685503698
+|switch|p1a: Wobbuffet|Wobbuffet, L92, F|499/499
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|
+|-heal|p2a: Tapu Fini|178/237|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685503715
+|move|p2a: Tapu Fini|Taunt|p1a: Wobbuffet
+|-start|p1a: Wobbuffet|move: Taunt
+|move|p1a: Wobbuffet|Mirror Coat||[still]
+|-fail|p1a: Wobbuffet
+|
+|-heal|p2a: Tapu Fini|192/237|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685503731
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|move|p1a: Wobbuffet|Mirror Coat||[still]
+|-fail|p1a: Wobbuffet
+|
+|-heal|p2a: Tapu Fini|206/237|[from] item: Leftovers
+|-fieldend|Misty Terrain
+|upkeep
+|turn|7
+|
+|t:|1685503738
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|move|p1a: Wobbuffet|Mirror Coat||[still]
+|-fail|p1a: Wobbuffet
+|
+|-heal|p2a: Tapu Fini|220/237|[from] item: Leftovers
+|-end|p1a: Wobbuffet|move: Taunt
+|upkeep
+|turn|8
+|
+|t:|1685503746
+|move|p2a: Tapu Fini|Taunt|p1a: Wobbuffet
+|-start|p1a: Wobbuffet|move: Taunt
+|move|p1a: Wobbuffet|Mirror Coat||[still]
+|-fail|p1a: Wobbuffet
+|
+|-heal|p2a: Tapu Fini|234/237|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1685503752
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|move|p1a: Wobbuffet|Mirror Coat||[still]
+|-fail|p1a: Wobbuffet
+|
+|-heal|p2a: Tapu Fini|237/237|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685503762
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|move|p1a: Wobbuffet|Mirror Coat||[still]
+|-fail|p1a: Wobbuffet
+|
+|-end|p1a: Wobbuffet|move: Taunt
+|upkeep
+|turn|11
+|
+|t:|1685503770
+|move|p2a: Tapu Fini|Moonblast|p1a: Wobbuffet
+|-damage|p1a: Wobbuffet|105/499
+|-enditem|p1a: Wobbuffet|Sitrus Berry|[eat]
+|-heal|p1a: Wobbuffet|229/499|[from] item: Sitrus Berry
+|move|p1a: Wobbuffet|Mirror Coat|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|0 fnt
+|faint|p2a: Tapu Fini
+|
+|upkeep
+|
+|t:|1685503781
+|switch|p2a: Dhelmise|Dhelmise, L86|69/261
+|turn|12
+|
+|t:|1685503785
+|move|p2a: Dhelmise|Poltergeist||[still]
+|-fail|p2a: Dhelmise
+|move|p1a: Wobbuffet|Charm|p2a: Dhelmise
+|-unboost|p2a: Dhelmise|atk|2
+|
+|upkeep
+|turn|13
+|-message|kwc0596 forfeited.
+|
+|win|neorye
+|raw|neorye's rating: 1029 &rarr; <strong>1068</strong><br />(+39 for winning)
+|raw|kwc0596's rating: 1057 &rarr; <strong>1037</strong><br />(-20 for losing)
+|l|☆kwc0596

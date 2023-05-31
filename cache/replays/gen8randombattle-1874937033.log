@@ -1,0 +1,328 @@
+|j|☆Therodrigator11
+|j|☆afasdfdaf
+|t:|1685553776
+|gametype|singles
+|player|p1|Therodrigator11|norman|1184
+|player|p2|afasdfdaf|265|1075
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685553776
+|start
+|switch|p1a: Kyogre|Kyogre, L72|263/263
+|switch|p2a: Lapras|Lapras, L86, F|364/364
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by afasdfdaf)
+|
+|t:|1685553796
+|move|p1a: Kyogre|Thunder|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|218/364
+|-status|p2a: Lapras|par
+|move|p2a: Lapras|Freeze-Dry|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|153/263
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyogre|169/263|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685553817
+|move|p1a: Kyogre|Thunder|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|74/364 par
+|move|p2a: Lapras|Freeze-Dry|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|47/263
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyogre|63/263|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685553847
+|move|p1a: Kyogre|Thunder|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyogre|79/263|[from] item: Leftovers
+|upkeep
+|
+|t:|1685553850
+|switch|p2a: Calyrex|Calyrex-Shadow, L65|238/238
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1685553876
+|move|p2a: Calyrex|Substitute|p2a: Calyrex
+|-start|p2a: Calyrex|Substitute
+|-damage|p2a: Calyrex|179/238
+|move|p1a: Kyogre|Origin Pulse|p2a: Calyrex
+|-end|p2a: Calyrex|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Calyrex|193/238|[from] item: Leftovers
+|-heal|p1a: Kyogre|95/263|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685553885
+|move|p2a: Calyrex|Astral Barrage|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|
+|-weather|none
+|-heal|p2a: Calyrex|207/238|[from] item: Leftovers
+|upkeep
+|
+|t:|1685553893
+|switch|p1a: Spectrier|Spectrier, L74|270/270
+|turn|6
+|
+|t:|1685553912
+|switch|p2a: Barraskewda|Barraskewda, L80, M|229/229
+|move|p1a: Spectrier|Substitute|p1a: Spectrier
+|-start|p1a: Spectrier|Substitute
+|-damage|p1a: Spectrier|203/270
+|
+|-heal|p1a: Spectrier|219/270|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685553926
+|move|p2a: Barraskewda|Crunch|p1a: Spectrier
+|-supereffective|p1a: Spectrier
+|-end|p1a: Spectrier|Substitute
+|move|p1a: Spectrier|Shadow Ball|p2a: Barraskewda
+|-damage|p2a: Barraskewda|93/229
+|
+|-heal|p1a: Spectrier|235/270|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685553942
+|switch|p1a: Virizion|Virizion, L82|283/283
+|move|p2a: Barraskewda|Crunch|p1a: Virizion
+|-resisted|p1a: Virizion
+|-damage|p1a: Virizion|224/283
+|-ability|p1a: Virizion|Justified|boost
+|-boost|p1a: Virizion|atk|1
+|
+|upkeep
+|turn|9
+|
+|t:|1685553952
+|switch|p2a: Weezing|Weezing-Galar, L86, M|252/252
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Virizion|Leaf Blade|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|201/252
+|
+|-heal|p2a: Weezing|216/252|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1685553966
+|move|p1a: Virizion|Stone Edge|p2a: Weezing
+|-crit|p2a: Weezing
+|-damage|p2a: Weezing|108/252
+|move|p2a: Weezing|Strange Steam|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-damage|p1a: Virizion|78/283
+|
+|-heal|p2a: Weezing|123/252|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1685553976
+|move|p1a: Virizion|Stone Edge|p2a: Weezing
+|-damage|p2a: Weezing|44/252
+|move|p2a: Weezing|Strange Steam|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-damage|p1a: Virizion|0 fnt
+|faint|p1a: Virizion
+|
+|-heal|p2a: Weezing|59/252|[from] item: Black Sludge
+|upkeep
+|inactive|Therodrigator11 has 120 seconds left.
+|inactive|Therodrigator11 has 90 seconds left.
+|
+|t:|1685554040
+|switch|p1a: Spectrier|Spectrier, L74|235/270
+|turn|12
+|
+|t:|1685554058
+|move|p1a: Spectrier|Shadow Ball|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|-ability|p1a: Spectrier|Grim Neigh|boost
+|-boost|p1a: Spectrier|spa|1
+|
+|-heal|p1a: Spectrier|251/270|[from] item: Leftovers
+|upkeep
+|
+|t:|1685554062
+|switch|p2a: Barraskewda|Barraskewda, L80, M|93/229
+|turn|13
+|inactive|Therodrigator11 has 90 seconds left.
+|
+|t:|1685554076
+|move|p2a: Barraskewda|Crunch|p1a: Spectrier
+|-supereffective|p1a: Spectrier
+|-damage|p1a: Spectrier|0 fnt
+|faint|p1a: Spectrier
+|
+|upkeep
+|
+|t:|1685554080
+|switch|p1a: Hawlucha|Hawlucha, L80, M|256/256
+|-ability|p1a: Hawlucha|Mold Breaker
+|turn|14
+|
+|t:|1685554086
+|move|p2a: Barraskewda|Crunch|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|204/256
+|-unboost|p1a: Hawlucha|def|1
+|move|p1a: Hawlucha|Brave Bird|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|-damage|p1a: Hawlucha|173/256|[from] Recoil
+|
+|upkeep
+|
+|t:|1685554096
+|switch|p2a: Swoobat|Swoobat, L86, M|255/255
+|turn|15
+|
+|t:|1685554104
+|switch|p1a: Primarina|Primarina, L82, F|265/265
+|move|p2a: Swoobat|Calm Mind|p2a: Swoobat
+|-boost|p2a: Swoobat|spa|2
+|-boost|p2a: Swoobat|spd|2
+|
+|upkeep
+|turn|16
+|
+|t:|1685554113
+|move|p2a: Swoobat|Calm Mind|p2a: Swoobat
+|-boost|p2a: Swoobat|spa|2
+|-boost|p2a: Swoobat|spd|2
+|move|p1a: Primarina|Hydro Pump|p2a: Swoobat
+|-damage|p2a: Swoobat|194/255
+|
+|upkeep
+|turn|17
+|inactive|Therodrigator11 has 120 seconds left.
+|
+|t:|1685554120
+|move|p2a: Swoobat|Calm Mind|p2a: Swoobat
+|-boost|p2a: Swoobat|spa|2
+|-boost|p2a: Swoobat|spd|2
+|move|p1a: Primarina|Hydro Pump|p2a: Swoobat
+|-crit|p2a: Swoobat
+|-damage|p2a: Swoobat|0 fnt
+|faint|p2a: Swoobat
+|
+|upkeep
+|c|☆afasdfdaf|bs
+|
+|t:|1685554126
+|switch|p2a: Calyrex|Calyrex-Shadow, L65|207/238
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|18
+|
+|t:|1685554137
+|move|p2a: Calyrex|Nasty Plot|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|2
+|move|p1a: Primarina|Hydro Pump|p2a: Calyrex
+|-damage|p2a: Calyrex|44/238
+|
+|-heal|p2a: Calyrex|58/238|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1685554145
+|move|p2a: Calyrex|Astral Barrage|p1a: Primarina
+|-damage|p1a: Primarina|66/265
+|move|p1a: Primarina|Hydro Pump|p2a: Calyrex|[miss]
+|-miss|p1a: Primarina|p2a: Calyrex
+|
+|-heal|p2a: Calyrex|72/238|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1685554154
+|move|p2a: Calyrex|Astral Barrage|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|
+|-heal|p2a: Calyrex|86/238|[from] item: Leftovers
+|upkeep
+|
+|t:|1685554161
+|switch|p1a: Hawlucha|Hawlucha, L80, M|173/256
+|-ability|p1a: Hawlucha|Mold Breaker
+|turn|21
+|
+|t:|1685554182
+|-start|p2a: Calyrex|Dynamax|
+|-heal|p2a: Calyrex|172/476|[silent]
+|move|p2a: Calyrex|Max Guard|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Max Guard
+|move|p1a: Hawlucha|Brave Bird|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Max Guard
+|
+|-heal|p2a: Calyrex|186/476|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1685554191
+|-start|p1a: Hawlucha|Dynamax|
+|-heal|p1a: Hawlucha|346/512|[silent]
+|move|p1a: Hawlucha|Max Airstream|p2a: Calyrex
+|-damage|p2a: Calyrex|2/476
+|-boost|p1a: Hawlucha|spe|1
+|move|p2a: Calyrex|Max Mindstorm|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|-fieldstart|move: Psychic Terrain
+|faint|p1a: Hawlucha
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|
+|-heal|p2a: Calyrex|16/476|[from] item: Leftovers
+|upkeep
+|
+|t:|1685554206
+|switch|p1a: Ninetales|Ninetales, L82, F|254/254
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|23
+|
+|t:|1685554211
+|move|p2a: Calyrex|Max Phantasm|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|win|afasdfdaf
+|raw|Therodrigator11's rating: 1184 &rarr; <strong>1151</strong><br />(-33 for losing)
+|raw|afasdfdaf's rating: 1075 &rarr; <strong>1112</strong><br />(+37 for winning)
+|c|☆afasdfdaf|gg
+|l|☆Therodrigator11

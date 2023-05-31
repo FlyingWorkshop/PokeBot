@@ -1,0 +1,332 @@
+|j|☆santboi
+|j|☆waxicompleia
+|t:|1685531916
+|gametype|singles
+|player|p1|santboi|guitarist-gen4|
+|player|p2|waxicompleia|backpackerf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685531916
+|start
+|switch|p1a: Appletun|Appletun, L90, M|344/344
+|switch|p2a: Durant|Durant, L78, F|219/219
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by santboi)
+|
+|t:|1685531936
+|switch|p2a: Cursola|Cursola, L86, M|243/243
+|move|p1a: Appletun|Leech Seed|p2a: Cursola
+|-start|p2a: Cursola|move: Leech Seed
+|
+|-damage|p2a: Cursola|213/243|[from] Leech Seed|[of] p1a: Appletun
+|upkeep
+|turn|2
+|
+|t:|1685531957
+|switch|p1a: Diancie|Diancie, L82|216/216
+|move|p2a: Cursola|Ice Beam|p1a: Diancie
+|-damage|p1a: Diancie|157/216
+|
+|-heal|p1a: Diancie|170/216|[from] item: Leftovers
+|-heal|p2a: Cursola|228/243|[from] item: Leftovers
+|-damage|p2a: Cursola|198/243|[from] Leech Seed|[of] p1a: Diancie
+|-heal|p1a: Diancie|200/216|[silent]
+|upkeep
+|turn|3
+|
+|t:|1685531970
+|move|p1a: Diancie|Toxic|p2a: Cursola
+|-status|p2a: Cursola|tox
+|move|p2a: Cursola|Earth Power|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|64/216
+|
+|-heal|p1a: Diancie|77/216|[from] item: Leftovers
+|-heal|p2a: Cursola|213/243 tox|[from] item: Leftovers
+|-damage|p2a: Cursola|183/243 tox|[from] Leech Seed|[of] p1a: Diancie
+|-heal|p1a: Diancie|107/216|[silent]
+|-damage|p2a: Cursola|168/243 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1685531984
+|move|p1a: Diancie|Moonblast|p2a: Cursola
+|-damage|p2a: Cursola|104/243 tox
+|move|p2a: Cursola|Earth Power|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|
+|-heal|p2a: Cursola|119/243 tox|[from] item: Leftovers
+|-damage|p2a: Cursola|89/243 tox|[from] psn
+|upkeep
+|inactive|santboi has 270 seconds left.
+|
+|t:|1685532010
+|switch|p1a: Clawitzer|Clawitzer, L84, M|256/256
+|turn|5
+|
+|t:|1685532014
+|move|p1a: Clawitzer|Dark Pulse|p2a: Cursola
+|-supereffective|p2a: Cursola
+|-damage|p2a: Cursola|0 fnt
+|faint|p2a: Cursola
+|
+|upkeep
+|
+|t:|1685532036
+|switch|p2a: Relicanth|Relicanth, L86, F|312/312
+|turn|6
+|
+|t:|1685532043
+|move|p1a: Clawitzer|Dark Pulse|p2a: Relicanth
+|-damage|p2a: Relicanth|133/312
+|move|p2a: Relicanth|Yawn|p1a: Clawitzer
+|-start|p1a: Clawitzer|move: Yawn|[of] p2a: Relicanth
+|
+|-heal|p2a: Relicanth|152/312|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685532055
+|switch|p2a: Durant|Durant, L78, F|219/219
+|move|p1a: Clawitzer|Dark Pulse|p2a: Durant
+|-damage|p2a: Durant|0 fnt
+|faint|p2a: Durant
+|
+|-end|p1a: Clawitzer|move: Yawn|[silent]
+|-status|p1a: Clawitzer|slp
+|upkeep
+|
+|t:|1685532063
+|switch|p2a: Kyurem|Kyurem-Black, L73|303/303
+|-ability|p2a: Kyurem|Teravolt
+|turn|8
+|
+|t:|1685532067
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|cant|p1a: Clawitzer|slp
+|
+|upkeep
+|turn|9
+|
+|t:|1685532076
+|move|p2a: Kyurem|Fusion Bolt|p1a: Clawitzer
+|-supereffective|p1a: Clawitzer
+|-damage|p1a: Clawitzer|0 fnt
+|faint|p1a: Clawitzer
+|
+|upkeep
+|
+|t:|1685532089
+|switch|p1a: Appletun|Appletun, L90, M|344/344
+|turn|10
+|
+|t:|1685532095
+|-start|p1a: Appletun|Dynamax|
+|-heal|p1a: Appletun|688/688|[silent]
+|move|p2a: Kyurem|Icicle Spear|p1a: Appletun
+|-supereffective|p1a: Appletun
+|-damage|p1a: Appletun|484/688
+|-supereffective|p1a: Appletun
+|-damage|p1a: Appletun|268/688
+|-hitcount|p1a: Appletun|2
+|move|p1a: Appletun|Max Wyrmwind|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-heal|p1a: Appletun|289/688|[from] item: Leftovers
+|upkeep
+|
+|t:|1685532117
+|switch|p2a: Landorus|Landorus, L76, M|260/260
+|turn|11
+|
+|t:|1685532124
+|move|p2a: Landorus|Sludge Wave|p1a: Appletun
+|-supereffective|p1a: Appletun
+|-damage|p1a: Appletun|86/688
+|move|p1a: Appletun|Max Overgrowth|p2a: Landorus
+|-damage|p2a: Landorus|52/260
+|-fieldstart|move: Grassy Terrain
+|
+|-heal|p1a: Appletun|107/688|[from] Grassy Terrain
+|-heal|p1a: Appletun|128/688|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685532140
+|move|p1a: Appletun|Max Guard|p1a: Appletun
+|-singleturn|p1a: Appletun|Max Guard
+|move|p2a: Landorus|Sludge Wave|p1a: Appletun
+|-activate|p1a: Appletun|move: Max Guard
+|
+|-heal|p1a: Appletun|149/688|[from] Grassy Terrain
+|-heal|p1a: Appletun|170/688|[from] item: Leftovers
+|upkeep
+|-end|p1a: Appletun|Dynamax
+|-heal|p1a: Appletun|85/344|[silent]
+|turn|13
+|
+|t:|1685532154
+|switch|p1a: Tentacruel|Tentacruel, L84, M|272/272
+|move|p2a: Landorus|Sludge Wave|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|243/272
+|
+|-heal|p1a: Tentacruel|260/272|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1685532163
+|move|p1a: Tentacruel|Knock Off|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-enditem|p2a: Landorus|Life Orb|[from] move: Knock Off|[of] p1a: Tentacruel
+|faint|p2a: Landorus
+|
+|-heal|p1a: Tentacruel|272/272|[from] Grassy Terrain
+|upkeep
+|
+|t:|1685532171
+|switch|p2a: Relicanth|Relicanth, L86, F|152/312
+|turn|15
+|
+|t:|1685532181
+|move|p1a: Tentacruel|Knock Off|p2a: Relicanth
+|-damage|p2a: Relicanth|116/312
+|-enditem|p2a: Relicanth|Leftovers|[from] move: Knock Off|[of] p1a: Tentacruel
+|move|p2a: Relicanth|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|182/272
+|
+|-heal|p1a: Tentacruel|199/272|[from] Grassy Terrain
+|-heal|p2a: Relicanth|135/312|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1685532194
+|move|p1a: Tentacruel|Sludge Bomb|p2a: Relicanth
+|-resisted|p2a: Relicanth
+|-damage|p2a: Relicanth|89/312
+|move|p2a: Relicanth|Head Smash|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|upkeep
+|
+|t:|1685532215
+|switch|p1a: Spiritomb|Spiritomb, L88, M|231/231
+|turn|17
+|
+|t:|1685532220
+|move|p1a: Spiritomb|Sucker Punch|p2a: Relicanth
+|-damage|p2a: Relicanth|10/312
+|move|p2a: Relicanth|Head Smash|p1a: Spiritomb
+|-damage|p1a: Spiritomb|104/231
+|
+|upkeep
+|turn|18
+|
+|t:|1685532234
+|move|p1a: Spiritomb|Sucker Punch|p2a: Relicanth
+|-damage|p2a: Relicanth|0 fnt
+|faint|p2a: Relicanth
+|
+|upkeep
+|
+|t:|1685532238
+|switch|p2a: Doublade|Doublade, L82, F|231/231
+|turn|19
+|
+|t:|1685532247
+|-start|p2a: Doublade|Dynamax|
+|-heal|p2a: Doublade|462/462|[silent]
+|move|p1a: Spiritomb|Sucker Punch|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-crit|p2a: Doublade
+|-damage|p2a: Doublade|316/462
+|move|p2a: Doublade|Max Phantasm|p1a: Spiritomb
+|-damage|p1a: Spiritomb|4/231
+|-unboost|p1a: Spiritomb|def|1
+|
+|upkeep
+|turn|20
+|
+|t:|1685532264
+|move|p1a: Spiritomb|Sucker Punch|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-damage|p2a: Doublade|218/462
+|move|p2a: Doublade|Max Steelspike|p1a: Spiritomb
+|-damage|p1a: Spiritomb|0 fnt
+|-boost|p2a: Doublade|def|1
+|faint|p1a: Spiritomb
+|
+|upkeep
+|
+|t:|1685532274
+|switch|p1a: Appletun|Appletun, L90, M|85/344
+|turn|21
+|
+|t:|1685532283
+|move|p2a: Doublade|Max Phantasm|p1a: Appletun
+|-damage|p1a: Appletun|0 fnt
+|faint|p1a: Appletun
+|
+|upkeep
+|
+|t:|1685532303
+|switch|p1a: Vespiquen|Vespiquen, L96, F|290/290
+|-ability|p1a: Vespiquen|Pressure
+|-end|p2a: Doublade|Dynamax
+|-heal|p2a: Doublade|109/231|[silent]
+|turn|22
+|
+|t:|1685532318
+|move|p1a: Vespiquen|Toxic|p2a: Doublade
+|-immune|p2a: Doublade
+|move|p2a: Doublade|Iron Head|p1a: Vespiquen
+|-damage|p1a: Vespiquen|221/290
+|
+|upkeep
+|turn|23
+|
+|t:|1685532326
+|move|p1a: Vespiquen|Air Slash|p2a: Doublade
+|-resisted|p2a: Doublade
+|-damage|p2a: Doublade|61/231
+|move|p2a: Doublade|Swords Dance|p2a: Doublade
+|-boost|p2a: Doublade|atk|2
+|
+|upkeep
+|turn|24
+|
+|t:|1685532337
+|move|p1a: Vespiquen|Air Slash|p2a: Doublade
+|-resisted|p2a: Doublade
+|-damage|p2a: Doublade|13/231
+|move|p2a: Doublade|Iron Head|p1a: Vespiquen
+|-damage|p1a: Vespiquen|76/290
+|
+|upkeep
+|turn|25
+|
+|t:|1685532347
+|move|p1a: Vespiquen|U-turn|p2a: Doublade
+|-resisted|p2a: Doublade
+|-damage|p2a: Doublade|7/231
+|move|p2a: Doublade|Shadow Claw|p1a: Vespiquen
+|-damage|p1a: Vespiquen|0 fnt
+|faint|p1a: Vespiquen
+|
+|win|waxicompleia

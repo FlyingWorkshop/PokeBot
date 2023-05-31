@@ -1,0 +1,326 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|j|☆za
+|j|☆Smiefelham
+|t:|1685502204
+|gametype|singles
+|player|p1|za|#rbtt6teamzarudef|
+|player|p2|Smiefelham|ethan|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Blitz: Super-fast timer
+|
+|t:|1685502204
+|start
+|switch|p1a: Leafeon|Leafeon, L86, M|252/252
+|switch|p2a: Articuno|Articuno-Galar, L80|275/275
+|turn|1
+|c|☆za|gl
+|j| idapupfairies
+|c|☆za|hf
+|j| defsnotmyaltacc
+|c|☆Smiefelham|u2
+|inactive|za has 30 seconds left.
+|j|%Losconosciuto
+|
+|t:|1685502224
+|move|p1a: Leafeon|Swords Dance|p1a: Leafeon
+|-boost|p1a: Leafeon|atk|2
+|move|p2a: Articuno|Air Slash|p1a: Leafeon
+|-supereffective|p1a: Leafeon
+|-damage|p1a: Leafeon|22/252
+|
+|upkeep
+|turn|2
+|j| JJ09LIE
+|inactive|Smiefelham has 10 seconds left.
+|
+|t:|1685502229
+|move|p1a: Leafeon|Knock Off|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|-enditem|p2a: Articuno|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Leafeon
+|faint|p2a: Articuno
+|
+|upkeep
+|
+|t:|1685502233
+|switch|p2a: Ditto|Ditto, L76|198/198
+|-transform|p2a: Ditto|p1a: Leafeon|[from] ability: Imposter
+|turn|3
+|inactive|za has 10 seconds left.
+|
+|t:|1685502241
+|move|p2a: Ditto|Leaf Blade|p1a: Leafeon
+|-resisted|p1a: Leafeon
+|-damage|p1a: Leafeon|0 fnt
+|faint|p1a: Leafeon
+|
+|upkeep
+|inactive|za has 10 seconds left.
+|j| Maybebetterthanu
+|
+|t:|1685502247
+|switch|p1a: Accelgor|Accelgor, L86, M|278/278
+|turn|4
+|
+|t:|1685502251
+|switch|p2a: Doublade|Doublade, L82, M|231/231
+|move|p1a: Accelgor|Bug Buzz|p2a: Doublade
+|-resisted|p2a: Doublade
+|-damage|p2a: Doublade|207/231
+|
+|upkeep
+|turn|5
+|inactive|za has 10 seconds left.
+|
+|t:|1685502260
+|switch|p1a: Garchomp|Garchomp, L74, M|282/282
+|move|p2a: Doublade|Iron Head|p1a: Garchomp
+|-damage|p1a: Garchomp|179/282
+|-damage|p2a: Doublade|179/231|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|upkeep
+|turn|6
+|
+|t:|1685502264
+|switch|p2a: Ditto|Ditto, L76|198/198
+|-transform|p2a: Ditto|p1a: Garchomp|[from] ability: Imposter
+|move|p1a: Garchomp|Earthquake|p2a: Ditto
+|-damage|p2a: Ditto|93/198
+|
+|upkeep
+|turn|7
+|l| defsnotmyaltacc
+|inactive|za has 10 seconds left.
+|inactive|Smiefelham has 10 seconds left.
+|
+|t:|1685502270
+|switch|p1a: Solgaleo|Solgaleo, L72|316/316
+|move|p2a: Ditto|Outrage|p1a: Solgaleo
+|-resisted|p1a: Solgaleo
+|-damage|p1a: Solgaleo|255/316
+|
+|upkeep
+|turn|8
+|inactive|za has 10 seconds left.
+|
+|t:|1685502275
+|move|p2a: Ditto|Outrage|p1a: Solgaleo|[from]lockedmove
+|-resisted|p1a: Solgaleo
+|-damage|p1a: Solgaleo|192/316
+|move|p1a: Solgaleo|Sunsteel Strike|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|-damage|p1a: Solgaleo|153/316|[from] ability: Rough Skin|[of] p2a: Ditto
+|faint|p2a: Ditto
+|
+|upkeep
+|inactive|Smiefelham has 10 seconds left.
+|
+|t:|1685502283
+|switch|p2a: Azumarill|Azumarill, L84, F|305/305
+|turn|9
+|inactive|za has 10 seconds left.
+|
+|t:|1685502288
+|move|p1a: Solgaleo|Sunsteel Strike|p2a: Azumarill
+|-damage|p2a: Azumarill|191/305
+|move|p2a: Azumarill|Liquidation|p1a: Solgaleo
+|-damage|p1a: Solgaleo|0 fnt
+|faint|p1a: Solgaleo
+|
+|upkeep
+|inactive|za has 10 seconds left.
+|
+|t:|1685502296
+|switch|p1a: Accelgor|Accelgor, L86, M|278/278
+|turn|10
+|
+|t:|1685502298
+|move|p1a: Accelgor|Energy Ball|p2a: Azumarill
+|-supereffective|p2a: Azumarill
+|-damage|p2a: Azumarill|55/305
+|move|p2a: Azumarill|Liquidation|p1a: Accelgor
+|-damage|p1a: Accelgor|0 fnt
+|faint|p1a: Accelgor
+|
+|upkeep
+|
+|t:|1685502302
+|switch|p1a: Garchomp|Garchomp, L74, M|179/282
+|turn|11
+|
+|t:|1685502304
+|move|p1a: Garchomp|Earthquake|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|upkeep
+|
+|t:|1685502308
+|switch|p2a: Cherrim|Cherrim, L93, F|281/281
+|turn|12
+|inactive|za has 10 seconds left.
+|
+|t:|1685502316
+|switch|p1a: Espeon|Espeon, L82, F|241/241
+|move|p2a: Cherrim|Energy Ball|p1a: Espeon
+|-damage|p1a: Espeon|141/241
+|
+|upkeep
+|turn|13
+|inactive|za has 10 seconds left.
+|
+|t:|1685502322
+|switch|p2a: Doublade|Doublade, L82, M|179/231
+|move|p1a: Espeon|Morning Sun|p1a: Espeon
+|-heal|p1a: Espeon|241/241
+|
+|upkeep
+|turn|14
+|inactive|za has 10 seconds left.
+|inactive|Smiefelham has 10 seconds left.
+|
+|t:|1685502331
+|move|p1a: Espeon|Shadow Ball|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-crit|p2a: Doublade
+|-damage|p2a: Doublade|0 fnt
+|faint|p2a: Doublade
+|-damage|p1a: Espeon|217/241|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685502334
+|switch|p2a: Kyurem|Kyurem-Black, L73|303/303
+|-ability|p2a: Kyurem|Teravolt
+|turn|15
+|inactive|za has 10 seconds left.
+|
+|t:|1685502341
+|-start|p1a: Espeon|Dynamax|
+|-heal|p1a: Espeon|434/482|[silent]
+|move|p1a: Espeon|Max Starfall|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-fieldstart|move: Misty Terrain
+|faint|p2a: Kyurem
+|-damage|p1a: Espeon|410/482|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685502345
+|switch|p2a: Cherrim|Cherrim, L93, F|281/281
+|turn|16
+|inactive|za has 10 seconds left.
+|
+|t:|1685502351
+|-start|p2a: Cherrim|Dynamax|
+|-heal|p2a: Cherrim|562/562|[silent]
+|move|p2a: Cherrim|Max Guard|p2a: Cherrim
+|-singleturn|p2a: Cherrim|Max Guard
+|move|p1a: Espeon|Max Mindstorm|p2a: Cherrim
+|-activate|p2a: Cherrim|move: Max Guard
+|
+|upkeep
+|turn|17
+|inactive|za has 10 seconds left.
+|
+|t:|1685502357
+|move|p1a: Espeon|Max Mindstorm|p2a: Cherrim
+|-damage|p2a: Cherrim|366/562
+|-fieldstart|move: Psychic Terrain
+|-damage|p1a: Espeon|386/482|[from] item: Life Orb
+|move|p2a: Cherrim|Max Flutterby|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|198/482
+|-unboost|p1a: Espeon|spa|1
+|
+|upkeep
+|-end|p1a: Espeon|Dynamax
+|-heal|p1a: Espeon|99/241|[silent]
+|turn|18
+|inactive|za has 10 seconds left.
+|inactive|Smiefelham has 10 seconds left.
+|
+|t:|1685502362
+|move|p1a: Espeon|Psychic|p2a: Cherrim
+|-damage|p2a: Cherrim|237/562
+|-damage|p1a: Espeon|75/241|[from] item: Life Orb
+|move|p2a: Cherrim|Max Overgrowth|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|-fieldstart|move: Grassy Terrain
+|faint|p1a: Espeon
+|
+|-heal|p2a: Cherrim|254/562|[from] Grassy Terrain
+|upkeep
+|
+|t:|1685502366
+|switch|p1a: Garchomp|Garchomp, L74, M|179/282
+|-end|p2a: Cherrim|Dynamax
+|-heal|p2a: Cherrim|127/281|[silent]
+|turn|19
+|
+|t:|1685502369
+|move|p2a: Cherrim|Petal Dance|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Cherrim|92/281|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-heal|p2a: Cherrim|109/281|[from] Grassy Terrain
+|upkeep
+|inactive|za has 10 seconds left.
+|
+|t:|1685502375
+|switch|p1a: Octillery|Octillery, L86, F|269/269
+|turn|20
+|c|☆Smiefelham|gg
+|
+|t:|1685502379
+|move|p1a: Octillery|Protect|p1a: Octillery
+|-singleturn|p1a: Octillery|Protect
+|move|p2a: Cherrim|Petal Dance|p1a: Octillery|[from]lockedmove
+|-activate|p1a: Octillery|move: Protect
+|
+|-heal|p2a: Cherrim|126/281|[from] Grassy Terrain
+|-ability|p1a: Octillery|Moody|boost
+|-boost|p1a: Octillery|spa|2
+|-unboost|p1a: Octillery|spe|1
+|upkeep
+|turn|21
+|inactive|za has 10 seconds left.
+|
+|t:|1685502387
+|move|p1a: Octillery|Protect|p1a: Octillery
+|-singleturn|p1a: Octillery|Protect
+|move|p2a: Cherrim|Petal Dance|p1a: Octillery
+|-activate|p1a: Octillery|move: Protect
+|
+|-heal|p2a: Cherrim|143/281|[from] Grassy Terrain
+|-ability|p1a: Octillery|Moody|boost
+|-boost|p1a: Octillery|spd|2
+|-unboost|p1a: Octillery|spe|1
+|upkeep
+|turn|22
+|
+|t:|1685502392
+|move|p2a: Cherrim|Petal Dance|p1a: Octillery
+|-supereffective|p1a: Octillery
+|-damage|p1a: Octillery|57/269
+|move|p1a: Octillery|Ice Beam|p2a: Cherrim
+|-supereffective|p2a: Cherrim
+|-damage|p2a: Cherrim|0 fnt
+|faint|p2a: Cherrim
+|
+|win|za
+|n|☆za|za
+|n|☆Smiefelham|smiefelham
+|n| idapupfairies|idapupfairies
+|n| Losconosciuto|losconosciuto
+|n| JJ09LIE|jj09lie
+|n| Maybebetterthanu|maybebetterthanu

@@ -1,0 +1,66 @@
+|j|☆rylkendo
+|j|☆trying_toget_tough
+|t:|1685569007
+|gametype|singles
+|player|p1|rylkendo|backpacker|1384
+|player|p2|trying_toget_tough|101|1468
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685569007
+|start
+|switch|p1a: Chansey|Chansey, L84, F|557/557
+|switch|p2a: Hawlucha|Hawlucha, L80, F|256/256
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by trying_toget_tough)
+|inactive|rylkendo has 120 seconds left.
+|inactive|rylkendo has 90 seconds left.
+|inactive|rylkendo has 60 seconds left.
+|inactive|rylkendo has 30 seconds left.
+|inactive|rylkendo has 20 seconds left.
+|inactive|rylkendo has 15 seconds left.
+|inactive|rylkendo has 10 seconds left.
+|
+|t:|1685569158
+|switch|p1a: Vespiquen|Vespiquen, L96, F|290/290
+|-ability|p1a: Vespiquen|Pressure
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1685569171
+|-start|p2a: Hawlucha|Dynamax|
+|-heal|p2a: Hawlucha|512/512|[silent]
+|move|p2a: Hawlucha|Max Airstream|p1a: Vespiquen
+|-supereffective|p1a: Vespiquen
+|-damage|p1a: Vespiquen|0 fnt
+|-boost|p2a: Hawlucha|spe|1
+|faint|p1a: Vespiquen
+|
+|upkeep
+|
+|t:|1685569196
+|switch|p1a: Latios|Latios, L78, M|253/253
+|turn|3
+|
+|t:|1685569202
+|move|p2a: Hawlucha|Max Darkness|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|upkeep
+|inactive|rylkendo has 60 seconds left.
+|-message|rylkendo forfeited.
+|
+|win|trying_toget_tough
+|raw|rylkendo's rating: 1384 &rarr; <strong>1369</strong><br />(-15 for losing)
+|raw|trying_toget_tough's rating: 1468 &rarr; <strong>1483</strong><br />(+15 for winning)

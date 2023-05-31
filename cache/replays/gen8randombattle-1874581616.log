@@ -1,0 +1,403 @@
+|j|☆whysomean
+|j|☆Drggr
+|t:|1685513971
+|gametype|singles
+|player|p1|whysomean|2|
+|player|p2|Drggr|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685513971
+|start
+|switch|p1a: Volcarona|Volcarona, L76, F|254/254
+|switch|p2a: Persian|Persian-Alola, L82, M|241/241
+|turn|1
+|
+|t:|1685513993
+|move|p2a: Persian|Hypnosis|p1a: Volcarona
+|-status|p1a: Volcarona|slp|[from] move: Hypnosis
+|cant|p1a: Volcarona|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1685514005
+|switch|p1a: Raikou|Raikou, L80|275/275
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Persian|Nasty Plot|p2a: Persian
+|-boost|p2a: Persian|spa|2
+|
+|upkeep
+|turn|3
+|
+|t:|1685514017
+|move|p2a: Persian|Dark Pulse|p1a: Raikou
+|-damage|p1a: Raikou|148/275
+|move|p1a: Raikou|Aura Sphere|p2a: Persian
+|-supereffective|p2a: Persian
+|-damage|p2a: Persian|49/241
+|-damage|p1a: Raikou|121/275|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1685514025
+|move|p2a: Persian|Dark Pulse|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|
+|upkeep
+|
+|t:|1685514051
+|switch|p1a: Corsola|Corsola-Galar, L84, F|238/238
+|turn|5
+|
+|t:|1685514068
+|move|p2a: Persian|Hypnosis|p1a: Corsola|[miss]
+|-miss|p2a: Persian|p1a: Corsola
+|move|p1a: Corsola|Night Shade|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|upkeep
+|
+|t:|1685514074
+|switch|p2a: Exeggutor|Exeggutor, L86, F|304/304
+|turn|6
+|
+|t:|1685514080
+|move|p2a: Exeggutor|Sleep Powder|p1a: Corsola
+|-message|Sleep Clause Mod activated.
+|-hint|Sleep Clause Mod prevents players from putting more than one of their opponent's Pokémon to sleep at a time
+|move|p1a: Corsola|Will-O-Wisp|p2a: Exeggutor
+|-status|p2a: Exeggutor|brn
+|
+|-damage|p2a: Exeggutor|285/304 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1685514088
+|move|p2a: Exeggutor|Substitute|p2a: Exeggutor
+|-start|p2a: Exeggutor|Substitute
+|-damage|p2a: Exeggutor|209/304 brn
+|move|p1a: Corsola|Night Shade|p2a: Exeggutor
+|-end|p2a: Exeggutor|Substitute
+|
+|-damage|p2a: Exeggutor|190/304 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1685514095
+|move|p2a: Exeggutor|Giga Drain|p1a: Corsola
+|-damage|p1a: Corsola|172/238
+|-heal|p2a: Exeggutor|223/304 brn|[from] drain|[of] p1a: Corsola
+|move|p1a: Corsola|Night Shade|p2a: Exeggutor
+|-damage|p2a: Exeggutor|139/304 brn
+|-enditem|p2a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p2a: Exeggutor|215/304 brn|[from] item: Sitrus Berry
+|
+|-damage|p2a: Exeggutor|196/304 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1685514103
+|move|p2a: Exeggutor|Giga Drain|p1a: Corsola
+|-damage|p1a: Corsola|114/238
+|-heal|p2a: Exeggutor|225/304 brn|[from] drain|[of] p1a: Corsola
+|-start|p2a: Exeggutor|Disable|Giga Drain|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Strength Sap|p2a: Exeggutor
+|-unboost|p2a: Exeggutor|atk|1
+|-heal|p1a: Corsola|238/238
+|
+|-damage|p2a: Exeggutor|206/304 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1685514114
+|switch|p2a: Ribombee|Ribombee, L82, M|233/233
+|move|p1a: Corsola|Strength Sap|p2a: Ribombee
+|-unboost|p2a: Ribombee|atk|1
+|
+|upkeep
+|turn|11
+|
+|t:|1685514130
+|move|p2a: Ribombee|Stun Spore|p1a: Corsola
+|-status|p1a: Corsola|par
+|move|p1a: Corsola|Night Shade|p2a: Ribombee
+|-damage|p2a: Ribombee|149/233
+|
+|upkeep
+|turn|12
+|
+|t:|1685514141
+|switch|p1a: Exploud|Exploud, L84, F|312/312
+|move|p2a: Ribombee|Moonblast|p1a: Exploud
+|-damage|p1a: Exploud|212/312
+|
+|upkeep
+|turn|13
+|
+|t:|1685514163
+|move|p2a: Ribombee|Sticky Web|p1a: Exploud
+|-sidestart|p1: whysomean|move: Sticky Web
+|move|p1a: Exploud|Fire Blast|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|t:|1685514176
+|switch|p2a: Rhyperior|Rhyperior, L82, F|323/323
+|turn|14
+|
+|t:|1685514193
+|move|p1a: Exploud|Fire Blast|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|240/323
+|move|p2a: Rhyperior|Rock Polish|p2a: Rhyperior
+|-boost|p2a: Rhyperior|spe|2
+|
+|upkeep
+|turn|15
+|
+|t:|1685514207
+|move|p2a: Rhyperior|Stone Edge|p1a: Exploud
+|-damage|p1a: Exploud|29/312
+|move|p1a: Exploud|Fire Blast|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|167/323
+|
+|upkeep
+|turn|16
+|
+|t:|1685514214
+|move|p2a: Rhyperior|Earthquake|p1a: Exploud
+|-damage|p1a: Exploud|0 fnt
+|faint|p1a: Exploud
+|
+|upkeep
+|
+|t:|1685514234
+|switch|p1a: Corsola|Corsola-Galar, L84, F|238/238 par
+|-activate|p1a: Corsola|move: Sticky Web
+|-unboost|p1a: Corsola|spe|1
+|turn|17
+|
+|t:|1685514241
+|move|p2a: Rhyperior|Megahorn|p1a: Corsola|[miss]
+|-miss|p2a: Rhyperior|p1a: Corsola
+|move|p1a: Corsola|Strength Sap|p2a: Rhyperior
+|-unboost|p2a: Rhyperior|atk|1
+|
+|upkeep
+|turn|18
+|
+|t:|1685514248
+|move|p2a: Rhyperior|Megahorn|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|216/238 par
+|cant|p1a: Corsola|par
+|
+|upkeep
+|turn|19
+|
+|t:|1685514254
+|move|p2a: Rhyperior|Stone Edge|p1a: Corsola|[miss]
+|-miss|p2a: Rhyperior|p1a: Corsola
+|cant|p1a: Corsola|par
+|
+|upkeep
+|turn|20
+|
+|t:|1685514262
+|move|p2a: Rhyperior|Earthquake|p1a: Corsola
+|-damage|p1a: Corsola|161/238 par
+|move|p1a: Corsola|Strength Sap|p2a: Rhyperior
+|-unboost|p2a: Rhyperior|atk|1
+|-heal|p1a: Corsola|238/238 par
+|
+|upkeep
+|turn|21
+|
+|t:|1685514277
+|move|p2a: Rhyperior|Stone Edge|p1a: Corsola
+|-damage|p1a: Corsola|196/238 par
+|move|p1a: Corsola|Stealth Rock|p2a: Rhyperior
+|-sidestart|p2: Drggr|move: Stealth Rock
+|
+|upkeep
+|turn|22
+|
+|t:|1685514282
+|switch|p2a: Marowak|Marowak-Alola, L84, M|238/238
+|-damage|p2a: Marowak|179/238|[from] Stealth Rock
+|move|p1a: Corsola|Night Shade|p2a: Marowak
+|-damage|p2a: Marowak|95/238
+|
+|upkeep
+|turn|23
+|
+|t:|1685514300
+|move|p2a: Marowak|Poltergeist|p1a: Corsola
+|-activate|p1a: Corsola|move: Poltergeist|Eviolite
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|upkeep
+|
+|t:|1685514325
+|switch|p1a: Zarude|Zarude-Dada, L78|292/292
+|-activate|p1a: Zarude|move: Sticky Web
+|-unboost|p1a: Zarude|spe|1
+|turn|24
+|
+|t:|1685514339
+|switch|p2a: Rhyperior|Rhyperior, L82, F|167/323
+|-damage|p2a: Rhyperior|147/323|[from] Stealth Rock
+|move|p1a: Zarude|Darkest Lariat|p2a: Rhyperior
+|-damage|p2a: Rhyperior|50/323
+|
+|upkeep
+|turn|25
+|
+|t:|1685514346
+|move|p1a: Zarude|Darkest Lariat|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|upkeep
+|
+|t:|1685514350
+|switch|p2a: Exeggutor|Exeggutor, L86, F|206/304 brn
+|-damage|p2a: Exeggutor|168/304 brn|[from] Stealth Rock
+|turn|26
+|
+|t:|1685514354
+|move|p2a: Exeggutor|Sleep Powder|p1a: Zarude
+|-immune|p1a: Zarude
+|move|p1a: Zarude|Darkest Lariat|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|upkeep
+|
+|t:|1685514358
+|switch|p2a: Barbaracle|Barbaracle, L80, M|246/246
+|-damage|p2a: Barbaracle|216/246|[from] Stealth Rock
+|turn|27
+|
+|t:|1685514370
+|-start|p2a: Barbaracle|Dynamax|
+|-heal|p2a: Barbaracle|432/492|[silent]
+|move|p2a: Barbaracle|Max Rockfall|p1a: Zarude
+|-damage|p1a: Zarude|168/292
+|-weather|Sandstorm
+|move|p1a: Zarude|Darkest Lariat|p2a: Barbaracle
+|-damage|p2a: Barbaracle|317/492
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zarude|150/292|[from] Sandstorm
+|upkeep
+|turn|28
+|
+|t:|1685514381
+|move|p2a: Barbaracle|Max Quake|p1a: Zarude
+|-resisted|p1a: Zarude
+|-damage|p1a: Zarude|111/292
+|-boost|p2a: Barbaracle|spd|1
+|move|p1a: Zarude|Darkest Lariat|p2a: Barbaracle
+|-damage|p2a: Barbaracle|205/492
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zarude|93/292|[from] Sandstorm
+|upkeep
+|turn|29
+|
+|t:|1685514390
+|move|p2a: Barbaracle|Max Rockfall|p1a: Zarude
+|-damage|p1a: Zarude|0 fnt
+|faint|p1a: Zarude
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1685514407
+|switch|p1a: Espeon|Espeon, L82, M|241/241
+|-activate|p1a: Espeon|move: Sticky Web
+|-unboost|p1a: Espeon|spe|1
+|-end|p2a: Barbaracle|Dynamax
+|-heal|p2a: Barbaracle|103/246|[silent]
+|turn|30
+|
+|t:|1685514416
+|move|p2a: Barbaracle|Liquidation|p1a: Espeon
+|-damage|p1a: Espeon|79/241
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Espeon|64/241|[from] Sandstorm
+|upkeep
+|turn|31
+|
+|t:|1685514449
+|move|p2a: Barbaracle|Liquidation|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|-weather|none
+|upkeep
+|
+|t:|1685514454
+|switch|p1a: Volcarona|Volcarona, L76, F|254/254 slp
+|turn|32
+|
+|t:|1685514465
+|-start|p1a: Volcarona|Dynamax|
+|-heal|p1a: Volcarona|508/508 slp|[silent]
+|-curestatus|p1a: Volcarona|slp|[msg]
+|move|p1a: Volcarona|Max Flutterby|p2a: Barbaracle
+|-damage|p2a: Barbaracle|4/246
+|-unboost|p2a: Barbaracle|spa|1
+|-enditem|p2a: Barbaracle|White Herb
+|-clearnegativeboost|p2a: Barbaracle|[silent]
+|move|p2a: Barbaracle|Liquidation|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|214/508
+|-unboost|p1a: Volcarona|def|1
+|
+|upkeep
+|turn|33
+|
+|t:|1685514478
+|move|p1a: Volcarona|Max Flutterby|p2a: Barbaracle
+|-damage|p2a: Barbaracle|0 fnt
+|faint|p2a: Barbaracle
+|
+|upkeep
+|
+|t:|1685514480
+|switch|p2a: Marowak|Marowak-Alola, L84, M|95/238
+|-damage|p2a: Marowak|36/238|[from] Stealth Rock
+|turn|34
+|
+|t:|1685514489
+|move|p1a: Volcarona|Max Flutterby|p2a: Marowak
+|-resisted|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|win|whysomean
+|l|☆Drggr
+|j|☆Drggr
+|player|p2|Drggr|101

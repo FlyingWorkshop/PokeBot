@@ -1,0 +1,54 @@
+|j|☆kvothe the red
+|j|☆PogRamsey
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1685547023
+|gametype|singles
+|player|p1|kvothe the red|#deftinwolf|
+|player|p2|PogRamsey|chuck|
+|teamsize|p1|3
+|teamsize|p2|3
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Beheeyem, L86, M|
+|poke|p1|Frosmoth, L82, M|
+|poke|p1|Nihilego, L79|
+|poke|p2|Mr. Mime-Galar, L86, F|
+|poke|p2|Slurpuff, L80, F|
+|poke|p2|Cresselia, L80, F|
+|teampreview|1
+|j|*Lady Monita
+|inactive|PogRamsey also wants the timer to be on.
+|c|☆kvothe the red|glhf
+|c|☆PogRamsey|gl
+|j| ElliottTJX
+|inactive|PogRamsey has 120 seconds left.
+|
+|t:|1685547055
+|start
+|switch|p1a: Beheeyem|Beheeyem, L86, M|269/269
+|switch|p2a: Slurpuff|Slurpuff, L80, F|262/262
+|turn|1
+|
+|t:|1685547065
+|-start|p1a: Beheeyem|Dynamax|
+|-heal|p1a: Beheeyem|538/538|[silent]
+|move|p2a: Slurpuff|Belly Drum|p2a: Slurpuff
+|-damage|p2a: Slurpuff|131/262
+|-setboost|p2a: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p2a: Slurpuff|196/262|[from] item: Sitrus Berry
+|move|p1a: Beheeyem|Max Mindstorm|p2a: Slurpuff
+|-damage|p2a: Slurpuff|0 fnt
+|-fieldstart|move: Psychic Terrain
+|faint|p2a: Slurpuff
+|
+|win|kvothe the red
+|n|☆kvothe the red|kvothethered
+|n|☆PogRamsey|pogramsey
+|n|*Lady Monita|ladymonita
+|n| ElliottTJX|elliotttjx

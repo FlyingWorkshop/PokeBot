@@ -100,7 +100,7 @@ def main():
     json_files = [filepath for filepath in Path("cache/replays").iterdir() if filepath.name.endswith('.json')]
     train_files, test_files = json_files[:-10], json_files[-10:]
     reps = 1000
-    delphox = Delphox(3927).to(device=DEVICE)
+    delphox = Delphox(LSTM_INPUT_SIZE + 1).to(device=DEVICE)
     for _ in range(reps):
         random.shuffle(train_files)
         # train_data = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(train_files))

@@ -1,0 +1,278 @@
+|j|☆ThoughtJarl1682
+|j|☆KOMP32323
+|t:|1685554321
+|gametype|singles
+|player|p1|ThoughtJarl1682|101|1165
+|player|p2|KOMP32323|juan|1159
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685554321
+|start
+|switch|p1a: Victini|Victini, L78|283/283
+|switch|p2a: Dedenne|Dedenne, L87, F|258/258
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ThoughtJarl1682)
+|
+|t:|1685554336
+|move|p2a: Dedenne|Toxic|p1a: Victini|[miss]
+|-miss|p2a: Dedenne|p1a: Victini
+|move|p1a: Victini|Blue Flare|p2a: Dedenne
+|-damage|p2a: Dedenne|42/258
+|-enditem|p2a: Dedenne|Sitrus Berry|[eat]
+|-heal|p2a: Dedenne|106/258|[from] item: Sitrus Berry
+|-heal|p2a: Dedenne|192/258|[from] ability: Cheek Pouch
+|
+|upkeep
+|turn|2
+|
+|t:|1685554346
+|move|p2a: Dedenne|Toxic|p1a: Victini
+|-status|p1a: Victini|tox
+|move|p1a: Victini|Blue Flare|p2a: Dedenne
+|-damage|p2a: Dedenne|0 fnt
+|faint|p2a: Dedenne
+|
+|-damage|p1a: Victini|266/283 tox|[from] psn
+|upkeep
+|
+|t:|1685554356
+|switch|p2a: Flygon|Flygon, L80, F|259/259
+|turn|3
+|
+|t:|1685554361
+|move|p2a: Flygon|Dragon Dance|p2a: Flygon
+|-boost|p2a: Flygon|atk|1
+|-boost|p2a: Flygon|spe|1
+|move|p1a: Victini|Blue Flare|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|160/259
+|-status|p2a: Flygon|brn
+|
+|-damage|p1a: Victini|232/283 tox|[from] psn
+|-damage|p2a: Flygon|144/259 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1685554367
+|move|p2a: Flygon|Dragon Dance|p2a: Flygon
+|-boost|p2a: Flygon|atk|1
+|-boost|p2a: Flygon|spe|1
+|move|p1a: Victini|Blue Flare|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|39/259 brn
+|
+|-damage|p1a: Victini|181/283 tox|[from] psn
+|-damage|p2a: Flygon|23/259 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1685554370
+|move|p2a: Flygon|Earthquake|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|-damage|p2a: Flygon|0 fnt|[from] item: Life Orb
+|faint|p2a: Flygon
+|
+|upkeep
+|
+|t:|1685554378
+|switch|p2a: Swoobat|Swoobat, L86, F|255/255
+|switch|p1a: Rotom|Rotom, L84|221/221
+|turn|6
+|
+|t:|1685554405
+|move|p2a: Swoobat|Calm Mind|p2a: Swoobat
+|-boost|p2a: Swoobat|spa|2
+|-boost|p2a: Swoobat|spd|2
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|7
+|inactive|KOMP32323 has 120 seconds left.
+|
+|t:|1685554443
+|-start|p2a: Swoobat|Dynamax|
+|-heal|p2a: Swoobat|510/510|[silent]
+|move|p2a: Swoobat|Max Mindstorm|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-fieldstart|move: Psychic Terrain
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1685554450
+|switch|p1a: Obstagoon|Obstagoon, L80, F|280/280
+|turn|8
+|
+|t:|1685554454
+|move|p2a: Swoobat|Max Flare|p1a: Obstagoon
+|-damage|p1a: Obstagoon|89/280
+|-weather|SunnyDay
+|move|p1a: Obstagoon|Knock Off|p2a: Swoobat
+|-supereffective|p2a: Swoobat
+|-damage|p2a: Swoobat|270/510
+|-enditem|p2a: Swoobat|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Obstagoon
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|t:|1685554460
+|move|p2a: Swoobat|Max Flare|p1a: Obstagoon
+|-damage|p1a: Obstagoon|0 fnt
+|faint|p1a: Obstagoon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685554463
+|switch|p1a: Marowak|Marowak, L86, M|243/243
+|-end|p2a: Swoobat|Dynamax
+|-heal|p2a: Swoobat|135/255|[silent]
+|turn|10
+|
+|t:|1685554473
+|move|p2a: Swoobat|Stored Power|p1a: Marowak
+|-damage|p1a: Marowak|50/243
+|move|p1a: Marowak|Double-Edge|p2a: Swoobat
+|-damage|p2a: Swoobat|0 fnt
+|faint|p2a: Swoobat
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685554478
+|switch|p2a: Swampert|Swampert, L80, F|291/291
+|turn|11
+|
+|t:|1685554493
+|move|p2a: Swampert|Scald|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1685554503
+|switch|p1a: Whiscash|Whiscash, L86, F|329/329
+|turn|12
+|
+|t:|1685554518
+|move|p1a: Whiscash|Dragon Dance|p1a: Whiscash
+|-boost|p1a: Whiscash|atk|1
+|-boost|p1a: Whiscash|spe|1
+|move|p2a: Swampert|Ice Beam|p1a: Whiscash
+|-damage|p1a: Whiscash|269/329
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1685554531
+|move|p1a: Whiscash|Dragon Dance|p1a: Whiscash
+|-boost|p1a: Whiscash|atk|1
+|-boost|p1a: Whiscash|spe|1
+|move|p2a: Swampert|Scald|p1a: Whiscash
+|-damage|p1a: Whiscash|182/329
+|
+|upkeep
+|turn|14
+|
+|t:|1685554536
+|move|p1a: Whiscash|Liquidation|p2a: Swampert
+|-damage|p2a: Swampert|79/291
+|-damage|p1a: Whiscash|150/329|[from] item: Life Orb
+|move|p2a: Swampert|Scald|p1a: Whiscash
+|-crit|p1a: Whiscash
+|-damage|p1a: Whiscash|0 fnt
+|faint|p1a: Whiscash
+|
+|-heal|p2a: Swampert|97/291|[from] item: Leftovers
+|upkeep
+|
+|t:|1685554540
+|switch|p1a: Dracozolt|Dracozolt, L78|268/268
+|turn|15
+|
+|t:|1685554553
+|-start|p1a: Dracozolt|Dynamax|
+|-heal|p1a: Dracozolt|536/536|[silent]
+|move|p1a: Dracozolt|Max Airstream|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|-boost|p1a: Dracozolt|spe|1
+|faint|p2a: Swampert
+|
+|upkeep
+|
+|t:|1685554571
+|switch|p2a: Slowking|Slowking-Galar, L84, F|297/297
+|turn|16
+|
+|t:|1685554578
+|move|p1a: Dracozolt|Max Lightning|p2a: Slowking
+|-damage|p2a: Slowking|86/297
+|-fieldstart|move: Electric Terrain
+|move|p2a: Slowking|Sludge Bomb|p1a: Dracozolt
+|-damage|p1a: Dracozolt|403/536
+|
+|-heal|p2a: Slowking|104/297|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|t:|1685554584
+|move|p1a: Dracozolt|Max Quake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-boost|p1a: Dracozolt|spd|1
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1685554587
+|switch|p2a: Turtonator|Turtonator, L84, M|238/238
+|-end|p1a: Dracozolt|Dynamax
+|-heal|p1a: Dracozolt|202/268|[silent]
+|turn|18
+|
+|t:|1685554596
+|move|p1a: Dracozolt|Outrage|p2a: Turtonator
+|-supereffective|p2a: Turtonator
+|-damage|p2a: Turtonator|10/238
+|move|p2a: Turtonator|Shell Smash|p2a: Turtonator
+|-unboost|p2a: Turtonator|def|1
+|-unboost|p2a: Turtonator|spd|1
+|-boost|p2a: Turtonator|atk|2
+|-boost|p2a: Turtonator|spa|2
+|-boost|p2a: Turtonator|spe|2
+|-enditem|p2a: Turtonator|White Herb
+|-clearnegativeboost|p2a: Turtonator|[silent]
+|
+|upkeep
+|turn|19
+|
+|t:|1685554603
+|move|p1a: Dracozolt|Outrage|p2a: Turtonator|[from]lockedmove|[miss]
+|-miss|p1a: Dracozolt|p2a: Turtonator
+|move|p2a: Turtonator|Draco Meteor|p1a: Dracozolt
+|-supereffective|p1a: Dracozolt
+|-damage|p1a: Dracozolt|0 fnt
+|-unboost|p2a: Turtonator|spa|2
+|faint|p1a: Dracozolt
+|
+|win|KOMP32323
+|raw|ThoughtJarl1682's rating: 1165 &rarr; <strong>1140</strong><br />(-25 for losing)
+|raw|KOMP32323's rating: 1159 &rarr; <strong>1184</strong><br />(+25 for winning)
+|l|☆ThoughtJarl1682
+|c|☆KOMP32323|GG

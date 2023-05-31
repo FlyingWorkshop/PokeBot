@@ -1,0 +1,408 @@
+|j|☆Satanitar
+|j|☆judyp
+|t:|1685562140
+|gametype|singles
+|player|p1|Satanitar|170|1223
+|player|p2|judyp|steven|1266
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685562140
+|start
+|switch|p1a: Porygon-Z|Porygon-Z, L80|267/267
+|switch|p2a: Darmanitan|Darmanitan-Galar, L78, F|291/291
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|spa|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Satanitar)
+|
+|t:|1685562168
+|move|p2a: Darmanitan|U-turn|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|150/267
+|
+|t:|1685562170
+|switch|p2a: Dunsparce|Dunsparce, L90, F|326/326|[from] U-turn
+|move|p1a: Porygon-Z|Tri Attack|p2a: Dunsparce
+|-damage|p2a: Dunsparce|108/326
+|-damage|p1a: Porygon-Z|124/267|[from] item: Life Orb
+|
+|-heal|p2a: Dunsparce|128/326|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685562182
+|move|p1a: Porygon-Z|Tri Attack|p2a: Dunsparce
+|-damage|p2a: Dunsparce|0 fnt
+|faint|p2a: Dunsparce
+|-damage|p1a: Porygon-Z|98/267|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685562193
+|switch|p2a: Darmanitan|Darmanitan-Galar, L78, F|291/291
+|turn|3
+|inactive|Satanitar has 120 seconds left.
+|
+|t:|1685562249
+|move|p2a: Darmanitan|U-turn|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|0 fnt
+|faint|p1a: Porygon-Z
+|
+|t:|1685562265
+|switch|p2a: Regidrago|Regidrago, L78|440/440|[from] U-turn
+|
+|upkeep
+|
+|t:|1685562280
+|switch|p1a: Exeggutor|Exeggutor, L86, F|304/304
+|turn|4
+|inactive|judyp has 120 seconds left.
+|
+|t:|1685562312
+|move|p2a: Regidrago|Draco Meteor|p1a: Exeggutor
+|-damage|p1a: Exeggutor|97/304
+|-unboost|p2a: Regidrago|spa|2
+|-enditem|p1a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p1a: Exeggutor|173/304|[from] item: Sitrus Berry
+|move|p1a: Exeggutor|Sleep Powder|p2a: Regidrago
+|-status|p2a: Regidrago|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|5
+|inactive|judyp has 120 seconds left.
+|
+|t:|1685562324
+|switch|p2a: Vaporeon|Vaporeon, L84, M|356/356
+|move|p1a: Exeggutor|Leech Seed|p2a: Vaporeon
+|-start|p2a: Vaporeon|move: Leech Seed
+|
+|-damage|p2a: Vaporeon|312/356|[from] Leech Seed|[of] p1a: Exeggutor
+|-heal|p1a: Exeggutor|217/304|[silent]
+|upkeep
+|turn|6
+|inactive|judyp has 120 seconds left.
+|
+|t:|1685562335
+|switch|p2a: Mr. Rime|Mr. Rime, L86, M|278/278
+|switch|p1a: Lucario|Lucario, L82, F|249/249
+|
+|upkeep
+|turn|7
+|
+|t:|1685562344
+|move|p1a: Lucario|Meteor Mash|p2a: Mr. Rime
+|-supereffective|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|0 fnt
+|faint|p2a: Mr. Rime
+|-damage|p1a: Lucario|225/249|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685562350
+|switch|p2a: Darmanitan|Darmanitan-Galar, L78, F|291/291
+|turn|8
+|
+|t:|1685562369
+|switch|p1a: Thundurus|Thundurus, L80, M|258/258
+|move|p2a: Darmanitan|Superpower|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|163/258
+|-unboost|p2a: Darmanitan|atk|1
+|-unboost|p2a: Darmanitan|def|1
+|
+|upkeep
+|turn|9
+|
+|t:|1685562377
+|switch|p2a: Regidrago|Regidrago, L78|440/440 slp
+|move|p1a: Thundurus|Thunderbolt|p2a: Regidrago
+|-resisted|p2a: Regidrago
+|-damage|p2a: Regidrago|386/440 slp
+|
+|upkeep
+|turn|10
+|inactive|Satanitar has 120 seconds left.
+|
+|t:|1685562417
+|switch|p1a: Lilligant|Lilligant, L84, F|255/255
+|cant|p2a: Regidrago|slp
+|
+|upkeep
+|turn|11
+|inactive|judyp has 120 seconds left.
+|
+|t:|1685562461
+|move|p1a: Lilligant|Quiver Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|spa|1
+|-boost|p1a: Lilligant|spd|1
+|-boost|p1a: Lilligant|spe|1
+|cant|p2a: Regidrago|slp
+|
+|upkeep
+|turn|12
+|inactive|Satanitar has 120 seconds left.
+|
+|t:|1685562500
+|move|p1a: Lilligant|Quiver Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|spa|1
+|-boost|p1a: Lilligant|spd|1
+|-boost|p1a: Lilligant|spe|1
+|cant|p2a: Regidrago|slp
+|
+|upkeep
+|turn|13
+|inactive|judyp has 120 seconds left.
+|
+|t:|1685562538
+|move|p1a: Lilligant|Quiver Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|spa|1
+|-boost|p1a: Lilligant|spd|1
+|-boost|p1a: Lilligant|spe|1
+|-curestatus|p2a: Regidrago|slp|[msg]
+|move|p2a: Regidrago|Outrage|p1a: Lilligant
+|-damage|p1a: Lilligant|75/255
+|
+|upkeep
+|turn|14
+|
+|t:|1685562542
+|-start|p1a: Lilligant|Dynamax|
+|-heal|p1a: Lilligant|150/510|[silent]
+|move|p1a: Lilligant|Max Flutterby|p2a: Regidrago
+|-damage|p2a: Regidrago|14/440
+|-unboost|p2a: Regidrago|spa|1
+|-damage|p1a: Lilligant|125/510|[from] item: Life Orb
+|move|p2a: Regidrago|Outrage|p1a: Lilligant|[from]lockedmove
+|-crit|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|-start|p2a: Regidrago|confusion|[fatigue]
+|
+|upkeep
+|inactive|Satanitar has 120 seconds left.
+|
+|t:|1685562563
+|switch|p1a: Lucario|Lucario, L82, F|225/249
+|turn|15
+|
+|t:|1685562569
+|move|p1a: Lucario|Meteor Mash|p2a: Regidrago|[miss]
+|-miss|p1a: Lucario|p2a: Regidrago
+|-activate|p2a: Regidrago|confusion
+|-damage|p2a: Regidrago|0 fnt|[from] confusion
+|faint|p2a: Regidrago
+|
+|upkeep
+|
+|t:|1685562581
+|switch|p2a: Darmanitan|Darmanitan-Galar, L78, F|291/291
+|turn|16
+|inactive|Satanitar has 120 seconds left.
+|
+|t:|1685562604
+|move|p2a: Darmanitan|U-turn|p1a: Lucario
+|-resisted|p1a: Lucario
+|-crit|p1a: Lucario
+|-damage|p1a: Lucario|184/249
+|inactive|judyp has 120 seconds left.
+|
+|t:|1685562609
+|switch|p2a: Noivern|Noivern, L82, M|274/274|[from] U-turn
+|move|p1a: Lucario|Meteor Mash|p2a: Noivern
+|-damage|p2a: Noivern|138/274
+|-damage|p1a: Lucario|160/249|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+|inactive|Satanitar has 120 seconds left.
+|
+|t:|1685562617
+|move|p1a: Lucario|Extreme Speed|p2a: Noivern
+|-damage|p2a: Noivern|51/274
+|-damage|p1a: Lucario|136/249|[from] item: Life Orb
+|move|p2a: Noivern|Flamethrower|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|upkeep
+|
+|t:|1685562621
+|switch|p1a: Terrakion|Terrakion, L78|270/270
+|turn|18
+|
+|t:|1685562638
+|switch|p1a: Exeggutor|Exeggutor, L86, F|217/304
+|move|p2a: Noivern|Draco Meteor|p1a: Exeggutor
+|-damage|p1a: Exeggutor|75/304
+|-unboost|p2a: Noivern|spa|2
+|
+|-item|p1a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p1a: Exeggutor|151/304|[from] item: Sitrus Berry
+|turn|19
+|
+|t:|1685562647
+|move|p2a: Noivern|Roost|p2a: Noivern
+|-heal|p2a: Noivern|188/274
+|-singleturn|p2a: Noivern|move: Roost
+|move|p1a: Exeggutor|Sleep Powder|p2a: Noivern|[miss]
+|-miss|p1a: Exeggutor|p2a: Noivern
+|
+|upkeep
+|turn|20
+|
+|t:|1685562655
+|switch|p2a: Vaporeon|Vaporeon, L84, M|312/356
+|move|p1a: Exeggutor|Sleep Powder|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp|[from] move: Sleep Powder
+|
+|-heal|p2a: Vaporeon|334/356 slp|[from] item: Leftovers
+|-item|p1a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p1a: Exeggutor|227/304|[from] item: Sitrus Berry
+|turn|21
+|
+|t:|1685562671
+|switch|p2a: Noivern|Noivern, L82, M|188/274
+|move|p1a: Exeggutor|Leech Seed|p2a: Noivern
+|-start|p2a: Noivern|move: Leech Seed
+|
+|-damage|p2a: Noivern|154/274|[from] Leech Seed|[of] p1a: Exeggutor
+|-heal|p1a: Exeggutor|261/304|[silent]
+|-item|p1a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|22
+|
+|t:|1685562677
+|move|p2a: Noivern|Flamethrower|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|139/304
+|-enditem|p1a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p1a: Exeggutor|215/304|[from] item: Sitrus Berry
+|move|p1a: Exeggutor|Giga Drain|p2a: Noivern
+|-resisted|p2a: Noivern
+|-damage|p2a: Noivern|124/274
+|-heal|p1a: Exeggutor|230/304|[from] drain|[of] p2a: Noivern
+|
+|-damage|p2a: Noivern|90/274|[from] Leech Seed|[of] p1a: Exeggutor
+|-heal|p1a: Exeggutor|264/304|[silent]
+|-item|p1a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|23
+|
+|t:|1685562690
+|switch|p2a: Darmanitan|Darmanitan-Galar, L78, F|291/291
+|move|p1a: Exeggutor|Giga Drain|p2a: Darmanitan
+|-damage|p2a: Darmanitan|143/291
+|-heal|p1a: Exeggutor|304/304|[from] drain|[of] p2a: Darmanitan
+|
+|upkeep
+|turn|24
+|
+|t:|1685562701
+|move|p2a: Darmanitan|U-turn|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|t:|1685562703
+|switch|p2a: Vaporeon|Vaporeon, L84, M|334/356 slp|[from] U-turn
+|
+|-heal|p2a: Vaporeon|356/356 slp|[from] item: Leftovers
+|upkeep
+|
+|t:|1685562707
+|switch|p1a: Thundurus|Thundurus, L80, M|163/258
+|turn|25
+|
+|t:|1685562709
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|cant|p2a: Vaporeon|slp
+|
+|upkeep
+|turn|26
+|
+|t:|1685562715
+|move|p1a: Thundurus|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|upkeep
+|
+|t:|1685562725
+|switch|p2a: Darmanitan|Darmanitan-Galar, L78, F|143/291
+|turn|27
+|
+|t:|1685562733
+|-start|p2a: Darmanitan|Dynamax|
+|-heal|p2a: Darmanitan|286/582|[silent]
+|move|p1a: Thundurus|Sludge Wave|p2a: Darmanitan
+|-damage|p2a: Darmanitan|72/582
+|move|p2a: Darmanitan|Max Hailstorm|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|-weather|Hail
+|faint|p1a: Thundurus
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1685562735
+|switch|p1a: Terrakion|Terrakion, L78|270/270
+|turn|28
+|
+|t:|1685562748
+|-end|p2a: Darmanitan|Dynamax
+|-heal|p2a: Darmanitan|36/291|[silent]
+|switch|p2a: Noivern|Noivern, L82, M|90/274
+|move|p1a: Terrakion|Earthquake|p2a: Noivern
+|-immune|p2a: Noivern
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Noivern|73/274|[from] Hail
+|-damage|p1a: Terrakion|254/270|[from] Hail
+|upkeep
+|turn|29
+|
+|t:|1685562753
+|move|p2a: Noivern|Draco Meteor|p1a: Terrakion
+|-damage|p1a: Terrakion|109/270
+|-unboost|p2a: Noivern|spa|2
+|move|p1a: Terrakion|Stone Edge|p2a: Noivern
+|-supereffective|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|-damage|p1a: Terrakion|82/270|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Terrakion|66/270|[from] Hail
+|upkeep
+|
+|t:|1685562756
+|switch|p2a: Darmanitan|Darmanitan-Galar, L78, F|36/291
+|turn|30
+|
+|t:|1685562762
+|move|p2a: Darmanitan|Superpower|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|-unboost|p2a: Darmanitan|atk|1
+|-unboost|p2a: Darmanitan|def|1
+|faint|p1a: Terrakion
+|
+|win|judyp
+|raw|Satanitar's rating: 1236 &rarr; <strong>1213</strong><br />(-23 for losing)
+|raw|judyp's rating: 1266 &rarr; <strong>1289</strong><br />(+23 for winning)
+|l|☆Satanitar
+|c|☆judyp|gg
