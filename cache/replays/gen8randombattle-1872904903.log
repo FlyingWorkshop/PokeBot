@@ -1,0 +1,313 @@
+|j|☆flyingworkshop
+|j|☆matthzm
+|t:|1685299123
+|gametype|singles
+|player|p1|flyingworkshop|dawn|1100
+|player|p2|matthzm|hugh|1148
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685299123
+|start
+|switch|p1a: Diggersby|Diggersby, L80, M|267/267
+|switch|p2a: Shuckle|Shuckle, L87, F|177/177
+|turn|1
+|
+|t:|1685299133
+|move|p1a: Diggersby|Earthquake|p2a: Shuckle
+|-damage|p2a: Shuckle|98/177
+|-damage|p1a: Diggersby|241/267|[from] item: Life Orb
+|move|p2a: Shuckle|Toxic|p1a: Diggersby
+|-status|p1a: Diggersby|tox
+|
+|-damage|p1a: Diggersby|225/267 tox|[from] psn
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by flyingworkshop)
+|
+|t:|1685299143
+|move|p1a: Diggersby|Swords Dance|p1a: Diggersby
+|-boost|p1a: Diggersby|atk|2
+|move|p2a: Shuckle|Stealth Rock|p1a: Diggersby
+|-sidestart|p1: flyingworkshop|move: Stealth Rock
+|
+|-damage|p1a: Diggersby|193/267 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1685299154
+|move|p1a: Diggersby|Earthquake|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|-damage|p1a: Diggersby|167/267 tox|[from] item: Life Orb
+|
+|-damage|p1a: Diggersby|119/267 tox|[from] psn
+|upkeep
+|
+|t:|1685299169
+|switch|p2a: Suicune|Suicune, L80|291/291
+|-ability|p2a: Suicune|Pressure
+|turn|4
+|
+|t:|1685299175
+|move|p1a: Diggersby|Quick Attack|p2a: Suicune
+|-damage|p2a: Suicune|165/291
+|-damage|p1a: Diggersby|93/267 tox|[from] item: Life Orb
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|183/291|[from] item: Leftovers
+|-damage|p1a: Diggersby|29/267 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1685299186
+|move|p1a: Diggersby|Quick Attack|p2a: Suicune
+|-damage|p2a: Suicune|70/291
+|-damage|p1a: Diggersby|3/267 tox|[from] item: Life Orb
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|88/291|[from] item: Leftovers
+|-damage|p1a: Diggersby|0 fnt|[from] psn
+|faint|p1a: Diggersby
+|upkeep
+|inactive|flyingworkshop has 120 seconds left.
+|
+|t:|1685299217
+|switch|p1a: Bellossom|Bellossom, L82, F|257/257
+|-damage|p1a: Bellossom|225/257|[from] Stealth Rock
+|turn|6
+|
+|t:|1685299225
+|move|p2a: Suicune|Air Slash|p1a: Bellossom
+|-supereffective|p1a: Bellossom
+|-damage|p1a: Bellossom|63/257
+|move|p1a: Bellossom|Giga Drain|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|28/291
+|-heal|p1a: Bellossom|93/257|[from] drain|[of] p2a: Suicune
+|
+|-heal|p2a: Suicune|46/291|[from] item: Leftovers
+|-heal|p1a: Bellossom|109/257|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685299238
+|move|p2a: Suicune|Air Slash|p1a: Bellossom|[miss]
+|-miss|p2a: Suicune|p1a: Bellossom
+|move|p1a: Bellossom|Giga Drain|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|-heal|p1a: Bellossom|132/257|[from] drain|[of] p2a: Suicune
+|faint|p2a: Suicune
+|
+|-heal|p1a: Bellossom|148/257|[from] item: Leftovers
+|upkeep
+|
+|t:|1685299247
+|switch|p2a: Vespiquen|Vespiquen, L96, F|290/290
+|-ability|p2a: Vespiquen|Pressure
+|turn|8
+|
+|t:|1685299253
+|move|p2a: Vespiquen|Air Slash|p1a: Bellossom
+|-supereffective|p1a: Bellossom
+|-damage|p1a: Bellossom|0 fnt
+|faint|p1a: Bellossom
+|
+|upkeep
+|
+|t:|1685299258
+|switch|p1a: Flareon|Flareon, L86, M|251/251
+|-damage|p1a: Flareon|189/251|[from] Stealth Rock
+|turn|9
+|
+|t:|1685299264
+|move|p1a: Flareon|Flare Blitz|p2a: Vespiquen
+|-supereffective|p2a: Vespiquen
+|-damage|p2a: Vespiquen|8/290
+|-status|p2a: Vespiquen|brn
+|-damage|p1a: Flareon|96/251|[from] Recoil
+|move|p2a: Vespiquen|Toxic|p1a: Flareon
+|-status|p1a: Flareon|tox
+|
+|-damage|p1a: Flareon|81/251 tox|[from] psn
+|-damage|p2a: Vespiquen|0 fnt|[from] brn
+|faint|p2a: Vespiquen
+|upkeep
+|
+|t:|1685299278
+|switch|p2a: Indeedee|Indeedee, L83, M|235/235
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|10
+|
+|t:|1685299287
+|move|p1a: Flareon|Quick Attack|p2a: Indeedee
+|-activate|p2a: Indeedee|move: Psychic Terrain
+|move|p2a: Indeedee|Expanding Force|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|
+|upkeep
+|
+|t:|1685299295
+|switch|p1a: Chansey|Chansey, L84, F|557/557
+|-damage|p1a: Chansey|488/557|[from] Stealth Rock
+|turn|11
+|
+|t:|1685299310
+|move|p2a: Indeedee|Expanding Force|p1a: Chansey
+|-damage|p1a: Chansey|382/557
+|move|p1a: Chansey|Toxic|p2a: Indeedee
+|-status|p2a: Indeedee|tox
+|
+|-damage|p2a: Indeedee|221/235 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1685299318
+|switch|p2a: Doublade|Doublade, L82, F|231/231
+|move|p1a: Chansey|Seismic Toss|p2a: Doublade
+|-immune|p2a: Doublade
+|
+|upkeep
+|turn|13
+|
+|t:|1685299325
+|switch|p1a: Regidrago|Regidrago, L78|440/440
+|-damage|p1a: Regidrago|385/440|[from] Stealth Rock
+|move|p2a: Doublade|Swords Dance|p2a: Doublade
+|-boost|p2a: Doublade|atk|2
+|
+|upkeep
+|turn|14
+|
+|t:|1685299337
+|-start|p1a: Regidrago|Dynamax|
+|-heal|p1a: Regidrago|770/880|[silent]
+|move|p1a: Regidrago|Max Flare|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-damage|p2a: Doublade|167/231
+|-weather|SunnyDay
+|move|p2a: Doublade|Close Combat|p1a: Regidrago
+|-damage|p1a: Regidrago|491/880
+|-unboost|p2a: Doublade|def|1
+|-unboost|p2a: Doublade|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|15
+|
+|t:|1685299351
+|move|p1a: Regidrago|Max Flare|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-damage|p2a: Doublade|11/231
+|move|p2a: Doublade|Iron Head|p1a: Regidrago
+|-damage|p1a: Regidrago|203/880
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1685299363
+|move|p1a: Regidrago|Max Flare|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-damage|p2a: Doublade|0 fnt
+|faint|p2a: Doublade
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685299369
+|switch|p2a: Indeedee|Indeedee, L83, M|221/235 tox
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-end|p1a: Regidrago|Dynamax
+|-heal|p1a: Regidrago|102/440|[silent]
+|turn|17
+|
+|t:|1685299376
+|move|p2a: Indeedee|Hyper Voice|p1a: Regidrago
+|-damage|p1a: Regidrago|0 fnt
+|faint|p1a: Regidrago
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Indeedee|207/235 tox|[from] psn
+|upkeep
+|
+|t:|1685299379
+|switch|p1a: Chansey|Chansey, L84, F|382/557
+|-damage|p1a: Chansey|313/557|[from] Stealth Rock
+|turn|18
+|
+|t:|1685299384
+|move|p2a: Indeedee|Hyper Voice|p1a: Chansey
+|-damage|p1a: Chansey|252/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|531/557
+|
+|-weather|none
+|-damage|p2a: Indeedee|179/235 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1685299411
+|switch|p2a: Mewtwo|Mewtwo, L72|272/272
+|-ability|p2a: Mewtwo|Unnerve
+|move|p1a: Chansey|Seismic Toss|p2a: Mewtwo
+|-damage|p2a: Mewtwo|188/272
+|
+|upkeep
+|turn|20
+|
+|t:|1685299422
+|move|p2a: Mewtwo|Nasty Plot|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spa|2
+|move|p1a: Chansey|Toxic|p2a: Mewtwo
+|-status|p2a: Mewtwo|tox
+|
+|-damage|p2a: Mewtwo|171/272 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1685299433
+|-start|p2a: Mewtwo|Dynamax|
+|-heal|p2a: Mewtwo|342/544 tox|[silent]
+|move|p2a: Mewtwo|Max Flare|p1a: Chansey
+|-damage|p1a: Chansey|378/557
+|-weather|SunnyDay
+|-damage|p2a: Mewtwo|315/544 tox|[from] item: Life Orb
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557/557
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Mewtwo|281/544 tox|[from] psn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|22
+|
+|t:|1685299447
+|move|p2a: Mewtwo|Max Phantasm|p1a: Chansey
+|-immune|p1a: Chansey
+|move|p1a: Chansey|Soft-Boiled||[still]
+|-fail|p1a: Chansey|heal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Mewtwo|230/544 tox|[from] psn
+|upkeep
+|turn|23
+|-message|matthzm forfeited.
+|
+|win|flyingworkshop
+|raw|flyingworkshop's rating: 1100 &rarr; <strong>1128</strong><br />(+28 for winning)
+|raw|matthzm's rating: 1148 &rarr; <strong>1120</strong><br />(-28 for losing)
+|l|☆matthzm

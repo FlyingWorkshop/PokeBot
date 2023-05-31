@@ -1,0 +1,63 @@
+|j|☆flyingworkshop
+|j|☆kwc0596
+|t:|1685337344
+|gametype|singles
+|player|p1|flyingworkshop|dawn|1126
+|player|p2|kwc0596|1|1099
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685337344
+|start
+|switch|p1a: Giratina|Giratina-Origin, L74|344/344
+|switch|p2a: Regidrago|Regidrago, L78|440/440
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by flyingworkshop)
+|
+|t:|1685337358
+|move|p1a: Giratina|Outrage|p2a: Regidrago
+|-supereffective|p2a: Regidrago
+|-damage|p2a: Regidrago|0 fnt
+|faint|p2a: Regidrago
+|
+|upkeep
+|
+|t:|1685337374
+|switch|p2a: Avalugg|Avalugg, L86, M|303/303
+|turn|2
+|
+|t:|1685337380
+|move|p1a: Giratina|Outrage|p2a: Avalugg|[from]lockedmove
+|-damage|p2a: Avalugg|228/303
+|-start|p1a: Giratina|confusion|[fatigue]
+|move|p2a: Avalugg|Curse|p2a: Avalugg
+|-unboost|p2a: Avalugg|spe|1
+|-boost|p2a: Avalugg|atk|1
+|-boost|p2a: Avalugg|def|1
+|
+|-heal|p2a: Avalugg|246/303|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685337391
+|switch|p1a: Pyukumuku|Pyukumuku, L84, M|230/230
+|move|p2a: Avalugg|Avalanche|p1a: Pyukumuku
+|-resisted|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|200/230
+|
+|-heal|p2a: Avalugg|264/303|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|214/230|[from] item: Leftovers
+|upkeep
+|turn|4
+|-message|kwc0596 forfeited.
+|
+|win|flyingworkshop
+|raw|flyingworkshop's rating: 1126 &rarr; <strong>1149</strong><br />(+23 for winning)
+|raw|kwc0596's rating: 1099 &rarr; <strong>1076</strong><br />(-23 for losing)
+|l|☆kwc0596

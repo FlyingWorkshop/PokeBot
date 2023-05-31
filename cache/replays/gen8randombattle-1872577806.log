@@ -1,0 +1,259 @@
+|j|☆pokeblade☆101
+|j|☆giogeth
+|t:|1685246638
+|gametype|singles
+|player|p1|pokeblade☆101|#rbtt6teamyveltal|
+|player|p2|giogeth|juggler|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685246638
+|start
+|switch|p1a: Dugtrio|Dugtrio, L82, F|192/192
+|switch|p2a: Kyogre|Kyogre, L72|263/263
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|j| zhoguo
+|c|☆giogeth|hello
+|c|☆giogeth|glhf
+|
+|t:|1685246661
+|move|p1a: Dugtrio|Earthquake|p2a: Kyogre
+|-damage|p2a: Kyogre|94/263
+|move|p2a: Kyogre|Ice Beam|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|24/192
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyogre|110/263|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|☆giogeth|have no idea how i got here
+|
+|t:|1685246674
+|move|p1a: Dugtrio|Earthquake|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685246682
+|switch|p2a: Noctowl|Noctowl, L88, M|319/319
+|turn|3
+|
+|t:|1685246695
+|switch|p1a: Ninetales|Ninetales, L82, F|254/254
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|switch|p2a: Sandaconda|Sandaconda, L84, F|258/258
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|j| Randbatsacc344
+|l| Randbatsacc344
+|
+|t:|1685246710
+|switch|p1a: Druddigon|Druddigon, L84, F|267/267
+|move|p2a: Sandaconda|Stone Edge|p1a: Druddigon
+|-damage|p1a: Druddigon|196/267
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1685246724
+|move|p2a: Sandaconda|Coil|p2a: Sandaconda
+|-boost|p2a: Sandaconda|atk|1
+|-boost|p2a: Sandaconda|def|1
+|-boost|p2a: Sandaconda|accuracy|1
+|move|p1a: Druddigon|Outrage|p2a: Sandaconda
+|-damage|p2a: Sandaconda|155/258
+|-damage|p1a: Druddigon|170/267|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Sandaconda|171/258|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685246738
+|move|p2a: Sandaconda|Coil|p2a: Sandaconda
+|-boost|p2a: Sandaconda|atk|1
+|-boost|p2a: Sandaconda|def|1
+|-boost|p2a: Sandaconda|accuracy|1
+|move|p1a: Druddigon|Outrage|p2a: Sandaconda|[from]lockedmove
+|-damage|p2a: Sandaconda|100/258
+|-damage|p1a: Druddigon|144/267|[from] item: Life Orb
+|-start|p1a: Druddigon|confusion|[fatigue]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Sandaconda|116/258|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685246750
+|move|p2a: Sandaconda|Rest|p2a: Sandaconda
+|-status|p2a: Sandaconda|slp|[from] move: Rest
+|-heal|p2a: Sandaconda|258/258 slp|[silent]
+|-activate|p1a: Druddigon|confusion
+|move|p1a: Druddigon|Glare||[still]
+|-fail|p1a: Druddigon
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1685246760
+|switch|p1a: Sharpedo|Sharpedo, L82, M|249/249
+|cant|p2a: Sandaconda|slp
+|
+|upkeep
+|turn|9
+|
+|t:|1685246777
+|move|p1a: Sharpedo|Hydro Pump|p2a: Sandaconda
+|-supereffective|p2a: Sandaconda
+|-damage|p2a: Sandaconda|0 fnt
+|faint|p2a: Sandaconda
+|-damage|p1a: Sharpedo|225/249|[from] item: Life Orb
+|
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|
+|t:|1685246791
+|switch|p2a: Naganadel|Naganadel, L74|230/230
+|turn|10
+|
+|t:|1685246829
+|move|p1a: Sharpedo|Crunch|p2a: Naganadel
+|-damage|p2a: Naganadel|66/230
+|-damage|p1a: Sharpedo|201/249|[from] item: Life Orb
+|move|p2a: Naganadel|Nasty Plot|p2a: Naganadel
+|-boost|p2a: Naganadel|spa|2
+|
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|turn|11
+|
+|t:|1685246841
+|move|p1a: Sharpedo|Crunch|p2a: Naganadel
+|-damage|p2a: Naganadel|0 fnt
+|faint|p2a: Naganadel
+|-damage|p1a: Sharpedo|177/249|[from] item: Life Orb
+|
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|
+|t:|1685246857
+|switch|p2a: Indeedee|Indeedee-F, L85, F|258/258
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|12
+|
+|t:|1685246869
+|move|p1a: Sharpedo|Protect|p1a: Sharpedo
+|-singleturn|p1a: Sharpedo|Protect
+|move|p2a: Indeedee|Hyper Voice|p1a: Sharpedo
+|-activate|p1a: Sharpedo|move: Protect
+|
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|turn|13
+|
+|t:|1685246873
+|move|p1a: Sharpedo|Crunch|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-damage|p1a: Sharpedo|153/249|[from] item: Life Orb
+|
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|
+|t:|1685246882
+|switch|p2a: Shuckle|Shuckle, L87, M|177/177
+|turn|14
+|
+|t:|1685246891
+|move|p1a: Sharpedo|Hydro Pump|p2a: Shuckle
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|57/177
+|-damage|p1a: Sharpedo|129/249|[from] item: Life Orb
+|move|p2a: Shuckle|Sticky Web|p1a: Sharpedo
+|-sidestart|p1: pokeblade☆101|move: Sticky Web
+|
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|turn|15
+|
+|t:|1685246901
+|move|p1a: Sharpedo|Hydro Pump|p2a: Shuckle
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|-damage|p1a: Sharpedo|105/249|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685246908
+|switch|p2a: Noctowl|Noctowl, L88, M|319/319
+|turn|16
+|
+|t:|1685246912
+|move|p1a: Sharpedo|Crunch|p2a: Noctowl
+|-damage|p2a: Noctowl|144/319
+|-damage|p1a: Sharpedo|81/249|[from] item: Life Orb
+|move|p2a: Noctowl|Hurricane|p1a: Sharpedo|[miss]
+|-miss|p2a: Noctowl|p1a: Sharpedo
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|17
+|
+|t:|1685246922
+|-start|p2a: Noctowl|Dynamax|
+|-heal|p2a: Noctowl|288/638|[silent]
+|move|p1a: Sharpedo|Crunch|p2a: Noctowl
+|-crit|p2a: Noctowl
+|-damage|p2a: Noctowl|29/638
+|-damage|p1a: Sharpedo|57/249|[from] item: Life Orb
+|move|p2a: Noctowl|Max Airstream|p1a: Sharpedo
+|-damage|p1a: Sharpedo|0 fnt
+|-boost|p2a: Noctowl|spe|1
+|faint|p1a: Sharpedo
+|
+|upkeep
+|
+|t:|1685246932
+|switch|p1a: Dedenne|Dedenne, L87, F|258/258
+|-activate|p1a: Dedenne|move: Sticky Web
+|-unboost|p1a: Dedenne|spe|1
+|turn|18
+|
+|t:|1685246942
+|-start|p1a: Dedenne|Dynamax|
+|-heal|p1a: Dedenne|516/516|[silent]
+|move|p2a: Noctowl|Max Flare|p1a: Dedenne
+|-damage|p1a: Dedenne|406/516
+|-weather|SunnyDay
+|move|p1a: Dedenne|Max Lightning|p2a: Noctowl
+|-supereffective|p2a: Noctowl
+|-damage|p2a: Noctowl|0 fnt
+|-fieldstart|move: Electric Terrain
+|faint|p2a: Noctowl
+|
+|win|pokeblade☆101
+|n|☆pokeblade☆101|pokeblade101
+|n|☆giogeth|giogeth
+|n| zhoguo|zhoguo

@@ -1,0 +1,378 @@
+|j|☆Assholessss
+|j|☆neksneks
+|t:|1685319793
+|gametype|singles
+|player|p1|Assholessss|102|1000
+|player|p2|neksneks|101|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685319793
+|start
+|switch|p1a: Kyurem|Kyurem, L80|331/331
+|switch|p2a: Dragalge|Dragalge, L86, F|252/252
+|-ability|p1a: Kyurem|Pressure
+|turn|1
+|
+|t:|1685319825
+|switch|p1a: Togedemaru|Togedemaru, L86, M|252/252
+|move|p2a: Dragalge|Dragon Pulse|p1a: Togedemaru
+|-resisted|p1a: Togedemaru
+|-damage|p1a: Togedemaru|142/252
+|
+|-heal|p1a: Togedemaru|157/252|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685319838
+|switch|p2a: Heatran|Heatran, L78, M|270/270
+|move|p1a: Togedemaru|Zing Zap|p2a: Heatran
+|-damage|p2a: Heatran|189/270
+|
+|-heal|p1a: Togedemaru|172/252|[from] item: Leftovers
+|-heal|p2a: Heatran|205/270|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685319855
+|switch|p1a: Ditto|Ditto, L76|198/198
+|-transform|p1a: Ditto|p2a: Heatran|[from] ability: Imposter
+|move|p2a: Heatran|Lava Plume|p1a: Ditto
+|-start|p1a: Ditto|ability: Flash Fire
+|
+|-heal|p2a: Heatran|221/270|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685319870
+|move|p1a: Ditto|Taunt|p2a: Heatran
+|-start|p2a: Heatran|move: Taunt
+|cant|p2a: Heatran|move: Taunt|Taunt
+|
+|-heal|p2a: Heatran|237/270|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685319887
+|-end|p1a: Ditto|ability: Flash Fire|[silent]
+|switch|p1a: Landorus|Landorus-Therian, L72, M|247/247
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|switch|p2a: Toxapex|Toxapex, L82, M|216/216
+|
+|upkeep
+|turn|6
+|
+|t:|1685319899
+|move|p1a: Landorus|Fly||[still]
+|-prepare|p1a: Landorus|Fly
+|move|p2a: Toxapex|Scald|p1a: Landorus|[miss]
+|-miss|p2a: Toxapex|p1a: Landorus
+|
+|upkeep
+|turn|7
+|
+|t:|1685319903
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Landorus|Fly|p2a: Toxapex|[from]lockedmove
+|-activate|p2a: Toxapex|move: Protect
+|-status|p1a: Landorus|psn
+|
+|-damage|p1a: Landorus|217/247 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1685319913
+|move|p1a: Landorus|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|44/216
+|-damage|p1a: Landorus|193/247 psn|[from] item: Life Orb
+|move|p2a: Toxapex|Scald|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|61/247 psn
+|
+|-heal|p2a: Toxapex|57/216|[from] item: Black Sludge
+|-damage|p1a: Landorus|31/247 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1685319930
+|switch|p1a: Togedemaru|Togedemaru, L86, M|172/252
+|switch|p2a: Latias|Latias, L80, F|259/259
+|
+|-heal|p1a: Togedemaru|187/252|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685319944
+|switch|p2a: Heatran|Heatran, L78, M|237/270
+|move|p1a: Togedemaru|Zing Zap|p2a: Heatran
+|-damage|p2a: Heatran|146/270
+|
+|-heal|p1a: Togedemaru|202/252|[from] item: Leftovers
+|-heal|p2a: Heatran|162/270|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1685319954
+|move|p1a: Togedemaru|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|151/270
+|
+|t:|1685319959
+|switch|p1a: Ditto|Ditto, L76|198/198|[from] U-turn
+|-transform|p1a: Ditto|p2a: Heatran|[from] ability: Imposter
+|move|p2a: Heatran|Taunt|p1a: Ditto
+|-start|p1a: Ditto|move: Taunt
+|
+|-heal|p2a: Heatran|167/270|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685319978
+|switch|p1a: Landorus|Landorus-Therian, L72, M|31/247 psn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|switch|p2a: Toxapex|Toxapex, L82, M|129/216
+|
+|-heal|p2a: Toxapex|142/216|[from] item: Black Sludge
+|-damage|p1a: Landorus|1/247 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1685319992
+|switch|p2a: Latias|Latias, L80, F|259/259
+|move|p1a: Landorus|Earthquake|p2a: Latias
+|-immune|p2a: Latias|[from] ability: Levitate
+|
+|-damage|p1a: Landorus|0 fnt|[from] psn
+|faint|p1a: Landorus
+|upkeep
+|
+|t:|1685320004
+|switch|p1a: Togedemaru|Togedemaru, L86, M|202/252
+|turn|14
+|
+|t:|1685320017
+|switch|p2a: Decidueye|Decidueye, L86, M|274/274
+|move|p1a: Togedemaru|Zing Zap|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|224/274
+|
+|-heal|p1a: Togedemaru|217/252|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685320031
+|move|p1a: Togedemaru|Iron Head|p2a: Decidueye
+|-damage|p2a: Decidueye|128/274
+|move|p2a: Decidueye|Poltergeist|p1a: Togedemaru
+|-activate|p1a: Togedemaru|move: Poltergeist|Leftovers
+|-damage|p1a: Togedemaru|0 fnt
+|faint|p1a: Togedemaru
+|-damage|p2a: Decidueye|101/274|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685320044
+|switch|p1a: Manectric|Manectric, L86, M|261/261
+|turn|16
+|
+|t:|1685320052
+|switch|p2a: Heatran|Heatran, L78, M|167/270
+|move|p1a: Manectric|Switcheroo|p2a: Heatran
+|-activate|p1a: Manectric|move: Trick|[of] p2a: Heatran
+|-item|p2a: Heatran|Choice Scarf|[from] move: Switcheroo
+|-item|p1a: Manectric|Leftovers|[from] move: Switcheroo
+|
+|upkeep
+|turn|17
+|
+|t:|1685320066
+|move|p2a: Heatran|Taunt|p1a: Manectric
+|-start|p1a: Manectric|move: Taunt
+|move|p1a: Manectric|Volt Switch|p2a: Heatran
+|-damage|p2a: Heatran|88/270
+|
+|t:|1685320073
+|switch|p1a: Sandslash|Sandslash, L86, M|269/269|[from] Volt Switch
+|
+|upkeep
+|turn|18
+|
+|t:|1685320078
+|move|p2a: Heatran|Taunt|p1a: Sandslash
+|-start|p1a: Sandslash|move: Taunt
+|move|p1a: Sandslash|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-enditem|p2a: Heatran|Choice Scarf|[from] move: Knock Off|[of] p1a: Sandslash
+|faint|p2a: Heatran
+|-damage|p1a: Sandslash|243/269|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685320092
+|switch|p2a: Decidueye|Decidueye, L86, M|101/274
+|turn|19
+|
+|t:|1685320101
+|switch|p1a: Manectric|Manectric, L86, M|261/261
+|move|p2a: Decidueye|Leaf Blade|p1a: Manectric
+|-damage|p1a: Manectric|82/261
+|-damage|p2a: Decidueye|74/274|[from] item: Life Orb
+|
+|-heal|p1a: Manectric|98/261|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1685320118
+|move|p1a: Manectric|Volt Switch|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|35/274
+|
+|t:|1685320124
+|switch|p1a: Ditto|Ditto, L76|198/198|[from] Volt Switch
+|-transform|p1a: Ditto|p2a: Decidueye|[from] ability: Imposter
+|move|p2a: Decidueye|Leaf Blade|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|89/198
+|-damage|p2a: Decidueye|8/274|[from] item: Life Orb
+|
+|upkeep
+|turn|21
+|
+|t:|1685320137
+|move|p1a: Ditto|Poltergeist|p2a: Decidueye|[miss]
+|-miss|p1a: Ditto|p2a: Decidueye
+|move|p2a: Decidueye|Brave Bird|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|-damage|p2a: Decidueye|0 fnt|[from] Recoil
+|faint|p2a: Decidueye
+|
+|upkeep
+|
+|t:|1685320161
+|switch|p2a: Latias|Latias, L80, F|259/259
+|switch|p1a: Manectric|Manectric, L86, M|98/261
+|turn|22
+|
+|t:|1685320175
+|move|p1a: Manectric|Switcheroo|p2a: Latias
+|-activate|p1a: Manectric|move: Trick|[of] p2a: Latias
+|-item|p2a: Latias|Leftovers|[from] move: Switcheroo
+|-item|p1a: Manectric|Leftovers|[from] move: Switcheroo
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-heal|p1a: Manectric|114/261|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1685320188
+|move|p1a: Manectric|Thunderbolt|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|231/259
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-heal|p1a: Manectric|130/261|[from] item: Leftovers
+|-heal|p2a: Latias|247/259|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1685320200
+|move|p1a: Manectric|Thunderbolt|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|228/259
+|move|p2a: Latias|Psychic|p1a: Manectric
+|-crit|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|faint|p1a: Manectric
+|
+|-heal|p2a: Latias|244/259|[from] item: Leftovers
+|upkeep
+|
+|t:|1685320211
+|switch|p1a: Sandslash|Sandslash, L86, M|243/269
+|turn|25
+|
+|t:|1685320220
+|-start|p1a: Sandslash|Dynamax|
+|-heal|p1a: Sandslash|486/538|[silent]
+|move|p2a: Latias|Psychic|p1a: Sandslash
+|-damage|p1a: Sandslash|245/538
+|move|p1a: Sandslash|Max Darkness|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|2/259
+|-unboost|p2a: Latias|spd|1
+|-damage|p1a: Sandslash|219/538|[from] item: Life Orb
+|
+|-heal|p2a: Latias|18/259|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1685320239
+|move|p1a: Sandslash|Max Guard|p1a: Sandslash
+|-singleturn|p1a: Sandslash|Max Guard
+|move|p2a: Latias|Draco Meteor|p1a: Sandslash
+|-activate|p1a: Sandslash|move: Max Guard
+|
+|-heal|p2a: Latias|34/259|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1685320246
+|move|p2a: Latias|Draco Meteor|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|-unboost|p2a: Latias|spa|2
+|faint|p1a: Sandslash
+|
+|-heal|p2a: Latias|50/259|[from] item: Leftovers
+|upkeep
+|
+|t:|1685320254
+|switch|p1a: Kyurem|Kyurem, L80|331/331
+|-ability|p1a: Kyurem|Pressure
+|turn|28
+|
+|t:|1685320261
+|move|p2a: Latias|Draco Meteor|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|23/331
+|-unboost|p2a: Latias|spa|2
+|move|p1a: Kyurem|Ice Beam|p2a: Latias
+|-supereffective|p2a: Latias
+|-crit|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|upkeep
+|
+|t:|1685320271
+|switch|p2a: Calyrex|Calyrex-Shadow, L65|238/238
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|29
+|
+|t:|1685320280
+|-start|p2a: Calyrex|Dynamax|
+|-heal|p2a: Calyrex|476/476|[silent]
+|move|p2a: Calyrex|Max Phantasm|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|win|neksneks
+|raw|Assholessss's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|neksneks's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)
+|l|☆Assholessss

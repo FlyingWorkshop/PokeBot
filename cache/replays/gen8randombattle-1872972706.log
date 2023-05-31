@@ -1,0 +1,501 @@
+|j|☆jovenrey
+|j|☆savage2play
+|t:|1685307215
+|gametype|singles
+|player|p1|jovenrey|unknown|1363
+|player|p2|savage2play|cynthia|1387
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685307215
+|start
+|switch|p1a: Meowstic|Meowstic-F, L86, F|268/268
+|switch|p2a: Scyther|Scyther, L81, F|246/246
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by savage2play)
+|inactive|jovenrey also wants the timer to be on.
+|
+|t:|1685307235
+|move|p1a: Meowstic|Thunderbolt|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|74/246
+|-damage|p1a: Meowstic|242/268|[from] item: Life Orb
+|move|p2a: Scyther|Dual Wingbeat|p1a: Meowstic
+|-damage|p1a: Meowstic|164/268
+|-damage|p1a: Meowstic|89/268
+|-hitcount|p1a: Meowstic|2
+|
+|upkeep
+|turn|2
+|
+|t:|1685307247
+|switch|p2a: Thundurus|Thundurus-Therian, L80, M|258/258
+|move|p1a: Meowstic|Thunderbolt|p2a: Thundurus
+|-immune|p2a: Thundurus|[from] ability: Volt Absorb
+|
+|upkeep
+|turn|3
+|
+|t:|1685307266
+|move|p1a: Meowstic|Psychic|p2a: Thundurus
+|-damage|p2a: Thundurus|128/258
+|-damage|p1a: Meowstic|63/268|[from] item: Life Orb
+|move|p2a: Thundurus|Psychic|p1a: Meowstic
+|-resisted|p1a: Meowstic
+|-damage|p1a: Meowstic|23/268
+|
+|upkeep
+|turn|4
+|
+|t:|1685307281
+|move|p1a: Meowstic|Psychic|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|-damage|p1a: Meowstic|0 fnt|[from] item: Life Orb
+|faint|p1a: Meowstic
+|
+|upkeep
+|
+|t:|1685307289
+|switch|p1a: Pincurchin|Pincurchin, L88, F|228/228
+|switch|p2a: Amoonguss|Amoonguss, L84, M|329/329
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|5
+|
+|t:|1685307303
+|move|p2a: Amoonguss|Spore|p1a: Pincurchin
+|-activate|p1a: Pincurchin|move: Electric Terrain
+|move|p1a: Pincurchin|Rising Voltage|p2a: Amoonguss
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|218/329
+|
+|-heal|p2a: Amoonguss|238/329|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1685307311
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Pincurchin
+|-damage|p1a: Pincurchin|141/228
+|move|p1a: Pincurchin|Toxic Spikes|p2a: Amoonguss
+|-sidestart|p2: savage2play|move: Toxic Spikes
+|
+|-heal|p2a: Amoonguss|258/329|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1685307332
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Pincurchin
+|-damage|p1a: Pincurchin|63/228
+|move|p1a: Pincurchin|Toxic Spikes|p2a: Amoonguss
+|-sidestart|p2: savage2play|move: Toxic Spikes
+|
+|-heal|p2a: Amoonguss|278/329|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1685307341
+|switch|p1a: Raichu|Raichu-Alola, L84, M|238/238
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Raichu
+|-damage|p1a: Raichu|150/238
+|
+|-heal|p2a: Amoonguss|298/329|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1685307348
+|switch|p2a: Torkoal|Torkoal, L86, M|261/261
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Raichu|Psyshock|p2a: Torkoal
+|-damage|p2a: Torkoal|183/261
+|-damage|p1a: Raichu|127/238|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|10
+|
+|t:|1685307369
+|switch|p1a: Pincurchin|Pincurchin, L88, F|63/228
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|switch|p2a: Amoonguss|Amoonguss, L84, M|329/329
+|-sideend|p2: savage2play|move: Toxic Spikes|[of] p2a: Amoonguss
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1685307396
+|move|p1a: Pincurchin|Sucker Punch|p2a: Amoonguss
+|-damage|p2a: Amoonguss|262/329
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Amoonguss|282/329|[from] item: Black Sludge
+|upkeep
+|
+|t:|1685307404
+|switch|p1a: Raichu|Raichu-Alola, L84, M|127/238
+|turn|12
+|
+|t:|1685307410
+|move|p1a: Raichu|Nasty Plot|p1a: Raichu
+|-boost|p1a: Raichu|spa|2
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Raichu
+|-damage|p1a: Raichu|37/238
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Amoonguss|302/329|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1685307420
+|move|p1a: Raichu|Psyshock|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|-damage|p1a: Raichu|14/238|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1685307430
+|switch|p2a: Luxray|Luxray, L84, F|272/272
+|turn|14
+|
+|t:|1685307435
+|move|p1a: Raichu|Psyshock|p2a: Luxray
+|-crit|p2a: Luxray
+|-damage|p2a: Luxray|0 fnt
+|faint|p2a: Luxray
+|-damage|p1a: Raichu|0 fnt|[from] item: Life Orb
+|faint|p1a: Raichu
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1685307448
+|switch|p1a: Kyurem|Kyurem-White, L74|307/307
+|switch|p2a: Torkoal|Torkoal, L86, M|183/261
+|-ability|p1a: Kyurem|Turboblaze
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|15
+|
+|t:|1685307464
+|move|p1a: Kyurem|Ice Beam|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|117/261
+|move|p2a: Torkoal|Lava Plume|p1a: Kyurem
+|-damage|p1a: Kyurem|186/307
+|-status|p1a: Kyurem|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Kyurem|205/307 brn|[from] item: Leftovers
+|-damage|p1a: Kyurem|186/307 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1685307477
+|move|p1a: Kyurem|Ice Beam|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|54/261
+|move|p2a: Torkoal|Stealth Rock|p1a: Kyurem
+|-sidestart|p1: jovenrey|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Kyurem|205/307 brn|[from] item: Leftovers
+|-damage|p1a: Kyurem|186/307 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1685307483
+|move|p1a: Kyurem|Ice Beam|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Kyurem|205/307 brn|[from] item: Leftovers
+|-damage|p1a: Kyurem|186/307 brn|[from] brn
+|upkeep
+|
+|t:|1685307492
+|switch|p2a: Vaporeon|Vaporeon, L84, F|356/356
+|turn|18
+|
+|t:|1685307503
+|move|p1a: Kyurem|Ice Beam|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|299/356
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Kyurem|205/307 brn|[from] item: Leftovers
+|-heal|p2a: Vaporeon|321/356|[from] item: Leftovers
+|-damage|p1a: Kyurem|186/307 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1685307512
+|move|p1a: Kyurem|Ice Beam|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|262/356
+|move|p2a: Vaporeon|Ice Beam|p1a: Kyurem
+|-crit|p1a: Kyurem
+|-damage|p1a: Kyurem|71/307 brn
+|
+|-weather|none
+|-heal|p2a: Vaporeon|356/356|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Kyurem|90/307 brn|[from] item: Leftovers
+|-damage|p1a: Kyurem|71/307 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1685307519
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|225/307 brn
+|-singleturn|p1a: Kyurem|move: Roost
+|move|p2a: Vaporeon|Ice Beam|p1a: Kyurem
+|-damage|p1a: Kyurem|155/307 brn
+|
+|-heal|p1a: Kyurem|174/307 brn|[from] item: Leftovers
+|-damage|p1a: Kyurem|155/307 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1685307523
+|move|p1a: Kyurem|Ice Beam|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|302/356
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p1a: Kyurem|174/307 brn|[from] item: Leftovers
+|-heal|p2a: Vaporeon|324/356|[from] item: Leftovers
+|-damage|p1a: Kyurem|155/307 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1685307527
+|move|p1a: Kyurem|Ice Beam|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|270/356
+|move|p2a: Vaporeon|Ice Beam|p1a: Kyurem
+|-crit|p1a: Kyurem
+|-damage|p1a: Kyurem|54/307 brn
+|
+|-heal|p2a: Vaporeon|356/356|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Kyurem|73/307 brn|[from] item: Leftovers
+|-damage|p1a: Kyurem|54/307 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1685307531
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|208/307 brn
+|-singleturn|p1a: Kyurem|move: Roost
+|move|p2a: Vaporeon|Ice Beam|p1a: Kyurem
+|-damage|p1a: Kyurem|132/307 brn
+|
+|-heal|p1a: Kyurem|151/307 brn|[from] item: Leftovers
+|-damage|p1a: Kyurem|132/307 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1685307536
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|286/307 brn
+|-singleturn|p1a: Kyurem|move: Roost
+|move|p2a: Vaporeon|Ice Beam|p1a: Kyurem
+|-damage|p1a: Kyurem|212/307 brn
+|
+|-heal|p1a: Kyurem|231/307 brn|[from] item: Leftovers
+|-damage|p1a: Kyurem|212/307 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1685307543
+|move|p1a: Kyurem|Fusion Flare|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|313/356
+|move|p2a: Vaporeon|Scald|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|162/307 brn
+|
+|-heal|p1a: Kyurem|181/307 brn|[from] item: Leftovers
+|-heal|p2a: Vaporeon|335/356|[from] item: Leftovers
+|-damage|p1a: Kyurem|162/307 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1685307550
+|move|p1a: Kyurem|Ice Beam|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|278/356
+|move|p2a: Vaporeon|Scald|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|114/307 brn
+|
+|-heal|p1a: Kyurem|133/307 brn|[from] item: Leftovers
+|-heal|p2a: Vaporeon|300/356|[from] item: Leftovers
+|-damage|p1a: Kyurem|114/307 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1685307553
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|268/307 brn
+|-singleturn|p1a: Kyurem|move: Roost
+|move|p2a: Vaporeon|Scald|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|219/307 brn
+|
+|-heal|p1a: Kyurem|238/307 brn|[from] item: Leftovers
+|-heal|p2a: Vaporeon|322/356|[from] item: Leftovers
+|-damage|p1a: Kyurem|219/307 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1685307555
+|move|p1a: Kyurem|Ice Beam|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|265/356
+|move|p2a: Vaporeon|Scald|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|169/307 brn
+|
+|-heal|p1a: Kyurem|188/307 brn|[from] item: Leftovers
+|-heal|p2a: Vaporeon|287/356|[from] item: Leftovers
+|-damage|p1a: Kyurem|169/307 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1685307559
+|move|p1a: Kyurem|Ice Beam|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|234/356
+|move|p2a: Vaporeon|Scald|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|124/307 brn
+|
+|-heal|p1a: Kyurem|143/307 brn|[from] item: Leftovers
+|-heal|p2a: Vaporeon|256/356|[from] item: Leftovers
+|-damage|p1a: Kyurem|124/307 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1685307563
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|278/307 brn
+|-singleturn|p1a: Kyurem|move: Roost
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p1a: Kyurem|297/307 brn|[from] item: Leftovers
+|-heal|p2a: Vaporeon|278/356|[from] item: Leftovers
+|-damage|p1a: Kyurem|278/307 brn|[from] brn
+|upkeep
+|turn|31
+|c|☆jovenrey|:(
+|
+|t:|1685307571
+|move|p1a: Kyurem|Ice Beam|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|220/356
+|move|p2a: Vaporeon|Scald|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|234/307 brn
+|
+|-heal|p2a: Vaporeon|356/356|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Kyurem|253/307 brn|[from] item: Leftovers
+|-damage|p1a: Kyurem|234/307 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1685307577
+|move|p1a: Kyurem|Ice Beam|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|305/356
+|move|p2a: Vaporeon|Scald|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-crit|p1a: Kyurem
+|-damage|p1a: Kyurem|159/307 brn
+|
+|-heal|p1a: Kyurem|178/307 brn|[from] item: Leftovers
+|-heal|p2a: Vaporeon|327/356|[from] item: Leftovers
+|-damage|p1a: Kyurem|159/307 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1685307582
+|move|p1a: Kyurem|Ice Beam|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|275/356
+|-status|p2a: Vaporeon|frz
+|-curestatus|p2a: Vaporeon|frz|[from] move: Scald
+|move|p2a: Vaporeon|Scald|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|111/307 brn
+|
+|-heal|p1a: Kyurem|130/307 brn|[from] item: Leftovers
+|-heal|p2a: Vaporeon|297/356|[from] item: Leftovers
+|-damage|p1a: Kyurem|111/307 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1685307586
+|switch|p2a: Scyther|Scyther, L81, F|74/246
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|265/307 brn
+|-singleturn|p1a: Kyurem|move: Roost
+|
+|-heal|p1a: Kyurem|284/307 brn|[from] item: Leftovers
+|-damage|p1a: Kyurem|265/307 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1685307594
+|-start|p2a: Scyther|Dynamax|
+|-heal|p2a: Scyther|148/492|[silent]
+|move|p2a: Scyther|Max Knuckle|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|105/307 brn
+|-boost|p2a: Scyther|atk|1
+|move|p1a: Kyurem|Ice Beam|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|
+|-heal|p1a: Kyurem|124/307 brn|[from] item: Leftovers
+|-damage|p1a: Kyurem|105/307 brn|[from] brn
+|upkeep
+|c|☆jovenrey|Hahahahahaha
+|
+|t:|1685307603
+|switch|p2a: Vaporeon|Vaporeon, L84, F|297/356
+|turn|36
+|
+|t:|1685307606
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|259/307 brn
+|-singleturn|p1a: Kyurem|move: Roost
+|move|p2a: Vaporeon|Ice Beam|p1a: Kyurem
+|-damage|p1a: Kyurem|189/307 brn
+|
+|-heal|p1a: Kyurem|208/307 brn|[from] item: Leftovers
+|-heal|p2a: Vaporeon|319/356|[from] item: Leftovers
+|-damage|p1a: Kyurem|189/307 brn|[from] brn
+|upkeep
+|turn|37
+|-message|savage2play forfeited.
+|
+|win|jovenrey
+|raw|jovenrey's rating: 1363 &rarr; <strong>1384</strong><br />(+21 for winning)
+|raw|savage2play's rating: 1387 &rarr; <strong>1366</strong><br />(-21 for losing)
+|l|☆savage2play

@@ -1,0 +1,410 @@
+|j|☆gareeb adani
+|j|☆Patano
+|t:|1685288012
+|gametype|singles
+|player|p1|gareeb adani|169|1461
+|player|p2|Patano|veteranf|1411
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685288012
+|start
+|switch|p1a: Chandelure|Chandelure, L82, F|233/233
+|switch|p2a: Hitmonchan|Hitmonchan, L86, M|226/226
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Patano)
+|
+|t:|1685288033
+|switch|p1a: Crobat|Crobat, L82, M|274/274
+|switch|p2a: Spiritomb|Spiritomb, L88, M|231/231
+|
+|upkeep
+|turn|2
+|
+|t:|1685288049
+|move|p1a: Crobat|Taunt|p2a: Spiritomb
+|-start|p2a: Spiritomb|move: Taunt
+|move|p2a: Spiritomb|Poltergeist|p1a: Crobat
+|-activate|p1a: Crobat|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Crobat|75/274
+|
+|upkeep
+|turn|3
+|
+|t:|1685288060
+|move|p1a: Crobat|Brave Bird|p2a: Spiritomb
+|-crit|p2a: Spiritomb
+|-damage|p2a: Spiritomb|90/231
+|-damage|p1a: Crobat|28/274|[from] Recoil
+|move|p2a: Spiritomb|Poltergeist|p1a: Crobat
+|-activate|p1a: Crobat|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Crobat|0 fnt
+|faint|p1a: Crobat
+|
+|upkeep
+|
+|t:|1685288072
+|switch|p1a: Chandelure|Chandelure, L82, F|233/233
+|turn|4
+|
+|t:|1685288089
+|switch|p2a: Palkia|Palkia, L74|255/255
+|-ability|p2a: Palkia|Pressure
+|move|p1a: Chandelure|Shadow Ball|p2a: Palkia
+|-damage|p2a: Palkia|147/255
+|-unboost|p2a: Palkia|spd|1
+|
+|upkeep
+|turn|5
+|
+|t:|1685288096
+|move|p1a: Chandelure|Shadow Ball|p2a: Palkia
+|-damage|p2a: Palkia|0 fnt
+|faint|p2a: Palkia
+|
+|upkeep
+|
+|t:|1685288107
+|switch|p2a: Tapu Fini|Tapu Fini, L78|237/237
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|turn|6
+|
+|t:|1685288112
+|switch|p1a: Maractus|Maractus, L95, M|296/296
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|
+|upkeep
+|turn|7
+|
+|t:|1685288120
+|move|p2a: Tapu Fini|Moonblast|p1a: Maractus
+|-damage|p1a: Maractus|157/296
+|move|p1a: Maractus|Leech Seed|p2a: Tapu Fini
+|-start|p2a: Tapu Fini|move: Leech Seed
+|
+|-heal|p1a: Maractus|175/296|[from] item: Leftovers
+|-damage|p2a: Tapu Fini|208/237|[from] Leech Seed|[of] p1a: Maractus
+|-heal|p1a: Maractus|204/296|[silent]
+|upkeep
+|turn|8
+|
+|t:|1685288128
+|switch|p2a: Hitmonchan|Hitmonchan, L86, M|226/226
+|move|p1a: Maractus|Spiky Shield||[still]
+|-fail|p1a: Maractus
+|
+|-heal|p1a: Maractus|222/296|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1685288134
+|move|p2a: Hitmonchan|Ice Punch|p1a: Maractus
+|-supereffective|p1a: Maractus
+|-damage|p1a: Maractus|80/296
+|move|p1a: Maractus|Energy Ball|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|154/226
+|
+|-heal|p1a: Maractus|98/296|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685288153
+|switch|p2a: Comfey|Comfey, L86, M|228/228
+|switch|p1a: Chandelure|Chandelure, L82, F|233/233
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|11
+|
+|t:|1685288166
+|switch|p2a: Tapu Fini|Tapu Fini, L78|208/237
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|move|p1a: Chandelure|Shadow Ball|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|118/237
+|-unboost|p2a: Tapu Fini|spd|1
+|
+|-heal|p2a: Tapu Fini|132/237|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685288188
+|move|p1a: Chandelure|Shadow Ball|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|0 fnt
+|faint|p2a: Tapu Fini
+|
+|upkeep
+|
+|t:|1685288196
+|switch|p2a: Spiritomb|Spiritomb, L88, M|90/231
+|turn|13
+|
+|t:|1685288205
+|switch|p1a: Maractus|Maractus, L95, M|98/296
+|move|p2a: Spiritomb|Shadow Sneak|p1a: Maractus
+|-damage|p1a: Maractus|29/296
+|
+|-heal|p1a: Maractus|47/296|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685288213
+|switch|p2a: Hitmonchan|Hitmonchan, L86, M|154/226
+|move|p1a: Maractus|Spiky Shield||[still]
+|-fail|p1a: Maractus
+|
+|-heal|p1a: Maractus|65/296|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685288221
+|move|p1a: Maractus|Spiky Shield|p1a: Maractus
+|-singleturn|p1a: Maractus|move: Protect
+|move|p2a: Hitmonchan|Ice Punch|p1a: Maractus
+|-activate|p1a: Maractus|move: Protect
+|-damage|p2a: Hitmonchan|126/226|[from] Spiky Shield|[of] p1a: Maractus
+|
+|-heal|p1a: Maractus|83/296|[from] item: Leftovers
+|-fieldend|Misty Terrain
+|upkeep
+|turn|16
+|
+|t:|1685288225
+|switch|p1a: Chandelure|Chandelure, L82, F|233/233
+|move|p2a: Hitmonchan|Ice Punch|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|198/233
+|-status|p1a: Chandelure|frz
+|
+|upkeep
+|turn|17
+|
+|t:|1685288233
+|switch|p2a: Spiritomb|Spiritomb, L88, M|90/231
+|cant|p1a: Chandelure|frz
+|
+|upkeep
+|turn|18
+|
+|t:|1685288243
+|switch|p1a: Maractus|Maractus, L95, M|83/296
+|move|p2a: Spiritomb|Shadow Sneak|p1a: Maractus
+|-damage|p1a: Maractus|2/296
+|
+|-heal|p1a: Maractus|20/296|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1685288248
+|move|p2a: Spiritomb|Shadow Sneak|p1a: Maractus
+|-damage|p1a: Maractus|0 fnt
+|faint|p1a: Maractus
+|
+|upkeep
+|
+|t:|1685288258
+|switch|p1a: Hitmonlee|Hitmonlee, L84, M|221/221
+|turn|20
+|
+|t:|1685288263
+|switch|p2a: Comfey|Comfey, L86, M|228/228
+|move|p1a: Hitmonlee|Knock Off|p2a: Comfey
+|-resisted|p2a: Comfey
+|-damage|p2a: Comfey|172/228
+|-enditem|p2a: Comfey|Choice Specs|[from] move: Knock Off|[of] p1a: Hitmonlee
+|
+|upkeep
+|turn|21
+|
+|t:|1685288270
+|switch|p1a: Chandelure|Chandelure, L82, F|198/233 frz
+|move|p2a: Comfey|Draining Kiss|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|173/233 frz
+|-heal|p2a: Comfey|191/228|[from] drain|[of] p1a: Chandelure
+|
+|upkeep
+|turn|22
+|
+|t:|1685288276
+|cant|p1a: Chandelure|frz
+|move|p2a: Comfey|U-turn|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|165/233 frz
+|
+|t:|1685288283
+|switch|p2a: Spiritomb|Spiritomb, L88, M|90/231|[from] U-turn
+|
+|upkeep
+|turn|23
+|
+|t:|1685288304
+|switch|p1a: Corsola|Corsola-Galar, L84, M|238/238
+|move|p2a: Spiritomb|Shadow Sneak|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|152/238
+|
+|upkeep
+|turn|24
+|
+|t:|1685288321
+|-start|p2a: Spiritomb|Dynamax|
+|-heal|p2a: Spiritomb|180/462|[silent]
+|move|p2a: Spiritomb|Max Phantasm|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|upkeep
+|
+|t:|1685288337
+|switch|p1a: Hitmonlee|Hitmonlee, L84, M|221/221
+|turn|25
+|
+|t:|1685288342
+|move|p1a: Hitmonlee|Knock Off|p2a: Spiritomb
+|-damage|p2a: Spiritomb|82/462
+|-enditem|p2a: Spiritomb|Choice Band|[from] move: Knock Off|[of] p1a: Hitmonlee
+|move|p2a: Spiritomb|Max Phantasm|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|upkeep
+|
+|t:|1685288347
+|switch|p1a: Victini|Victini, L78|283/283
+|turn|26
+|
+|t:|1685288356
+|-end|p2a: Spiritomb|Dynamax
+|-heal|p2a: Spiritomb|41/231|[silent]
+|switch|p2a: Hitmonchan|Hitmonchan, L86, M|126/226
+|-start|p1a: Victini|Dynamax|
+|-heal|p1a: Victini|566/566|[silent]
+|move|p1a: Victini|Max Flare|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|54/226
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1685288362
+|move|p2a: Hitmonchan|Mach Punch|p1a: Victini
+|-resisted|p1a: Victini
+|-damage|p1a: Victini|539/566
+|move|p1a: Victini|Max Lightning|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|-fieldstart|move: Electric Terrain
+|faint|p2a: Hitmonchan
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685288383
+|switch|p2a: Comfey|Comfey, L86, M|191/228
+|turn|28
+|
+|t:|1685288396
+|move|p2a: Comfey|Giga Drain|p1a: Victini
+|-resisted|p1a: Victini
+|-damage|p1a: Victini|523/566
+|-heal|p2a: Comfey|199/228|[from] drain|[of] p1a: Victini
+|move|p1a: Victini|Max Flare|p2a: Comfey
+|-damage|p2a: Comfey|31/228
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-end|p1a: Victini|Dynamax
+|-heal|p1a: Victini|262/283|[silent]
+|turn|29
+|
+|t:|1685288401
+|move|p2a: Comfey|Draining Kiss|p1a: Victini
+|-resisted|p1a: Victini
+|-damage|p1a: Victini|247/283
+|-heal|p2a: Comfey|42/228|[from] drain|[of] p1a: Victini
+|move|p1a: Victini|Bolt Strike|p2a: Comfey|[miss]
+|-miss|p1a: Victini|p2a: Comfey
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|30
+|
+|t:|1685288406
+|move|p2a: Comfey|U-turn|p1a: Victini
+|-damage|p1a: Victini|214/283
+|
+|t:|1685288409
+|switch|p2a: Zeraora|Zeraora, L76|259/259|[from] U-turn
+|move|p1a: Victini|Blue Flare|p2a: Zeraora
+|-damage|p2a: Zeraora|51/259
+|
+|-weather|none
+|upkeep
+|turn|31
+|
+|t:|1685288414
+|move|p2a: Zeraora|Plasma Fists|p1a: Victini
+|-damage|p1a: Victini|58/283
+|-fieldactivate|move: Ion Deluge
+|-hint|Normal-type moves become Electric-type after using Plasma Fists.
+|-damage|p2a: Zeraora|26/259|[from] item: Life Orb
+|move|p1a: Victini|Blue Flare|p2a: Zeraora
+|-damage|p2a: Zeraora|0 fnt
+|faint|p2a: Zeraora
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1685288418
+|switch|p2a: Spiritomb|Spiritomb, L88, M|41/231
+|turn|32
+|
+|t:|1685288423
+|move|p2a: Spiritomb|Shadow Sneak|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|
+|upkeep
+|
+|t:|1685288425
+|switch|p1a: Chandelure|Chandelure, L82, F|165/233 frz
+|turn|33
+|
+|t:|1685288429
+|move|p2a: Spiritomb|Shadow Sneak|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|79/233 frz
+|-curestatus|p1a: Chandelure|frz|[msg]
+|move|p1a: Chandelure|Shadow Ball|p2a: Spiritomb
+|-damage|p2a: Spiritomb|0 fnt
+|faint|p2a: Spiritomb
+|
+|upkeep
+|
+|t:|1685288438
+|switch|p2a: Comfey|Comfey, L86, M|42/228
+|turn|34
+|c|☆Patano|gg
+|
+|t:|1685288447
+|move|p2a: Comfey|Draining Kiss|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|52/233
+|-heal|p2a: Comfey|62/228|[from] drain|[of] p1a: Chandelure
+|move|p1a: Chandelure|Shadow Ball|p2a: Comfey
+|-damage|p2a: Comfey|0 fnt
+|faint|p2a: Comfey
+|
+|win|gareeb adani
+|raw|gareeb adani's rating: 1439 &rarr; <strong>1457</strong><br />(+18 for winning)
+|raw|Patano's rating: 1411 &rarr; <strong>1393</strong><br />(-18 for losing)

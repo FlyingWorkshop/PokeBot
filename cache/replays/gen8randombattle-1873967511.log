@@ -1,0 +1,288 @@
+|j|‽im bussin
+|j|‽Cinderbolt
+|t:|1685450297
+|gametype|singles
+|player|p1|im bussin|lady-gen4|
+|player|p2|Cinderbolt|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685450297
+|start
+|switch|p1a: Gardevoir|Gardevoir, L82, M|246/246
+|switch|p2a: Spiritomb|Spiritomb, L88, F|231/231
+|-ability|p1a: Gardevoir|Infiltrator|[from] ability: Trace|[of] p2a: Spiritomb
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by im bussin)
+|inactive|Cinderbolt also wants the timer to be on.
+|
+|t:|1685450322
+|switch|p1a: Heatmor|Heatmor, L90, F|299/299
+|move|p2a: Spiritomb|Poltergeist|p1a: Heatmor
+|-activate|p1a: Heatmor|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Heatmor|101/299
+|
+|upkeep
+|turn|2
+|
+|t:|1685450331
+|move|p1a: Heatmor|Knock Off|p2a: Spiritomb
+|-damage|p2a: Spiritomb|161/231
+|-enditem|p2a: Spiritomb|Choice Band|[from] move: Knock Off|[of] p1a: Heatmor
+|move|p2a: Spiritomb|Poltergeist|p1a: Heatmor
+|-activate|p1a: Heatmor|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Heatmor|0 fnt
+|faint|p1a: Heatmor
+|
+|upkeep
+|
+|t:|1685450339
+|switch|p1a: Araquanid|Araquanid, L80, M|240/240
+|turn|3
+|
+|t:|1685450349
+|switch|p2a: Cryogonal|Cryogonal, L86|278/278
+|move|p1a: Araquanid|Sticky Web|p2a: Cryogonal
+|-sidestart|p2: Cinderbolt|move: Sticky Web
+|
+|upkeep
+|turn|4
+|
+|t:|1685450354
+|move|p2a: Cryogonal|Toxic|p1a: Araquanid
+|-status|p1a: Araquanid|tox
+|move|p1a: Araquanid|Toxic|p2a: Cryogonal
+|-status|p2a: Cryogonal|tox
+|
+|-damage|p2a: Cryogonal|261/278 tox|[from] psn
+|-damage|p1a: Araquanid|225/240 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1685450359
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|115/240 tox
+|move|p1a: Araquanid|Liquidation|p2a: Cryogonal
+|-damage|p2a: Cryogonal|80/278 tox
+|
+|-damage|p2a: Cryogonal|46/278 tox|[from] psn
+|-damage|p1a: Araquanid|85/240 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1685450367
+|move|p2a: Cryogonal|Rapid Spin|p1a: Araquanid
+|-damage|p1a: Araquanid|62/240 tox
+|-boost|p2a: Cryogonal|spe|1
+|-sideend|p2: Cinderbolt|Sticky Web|[from] move: Rapid Spin|[of] p2a: Cryogonal
+|move|p1a: Araquanid|Liquidation|p2a: Cryogonal
+|-damage|p2a: Cryogonal|0 fnt
+|faint|p2a: Cryogonal
+|
+|-damage|p1a: Araquanid|17/240 tox|[from] psn
+|upkeep
+|
+|t:|1685450378
+|switch|p2a: Hitmonchan|Hitmonchan, L86, M|226/226
+|turn|7
+|
+|t:|1685450384
+|move|p2a: Hitmonchan|Rapid Spin|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|-boost|p2a: Hitmonchan|spe|1
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1685450388
+|switch|p1a: Gardevoir|Gardevoir, L82, M|246/246
+|-ability|p1a: Gardevoir|Iron Fist|[from] ability: Trace|[of] p2a: Hitmonchan
+|turn|8
+|
+|t:|1685450398
+|switch|p2a: Spiritomb|Spiritomb, L88, F|161/231
+|move|p1a: Gardevoir|Moonblast|p2a: Spiritomb
+|-supereffective|p2a: Spiritomb
+|-damage|p2a: Spiritomb|0 fnt
+|faint|p2a: Spiritomb
+|
+|upkeep
+|
+|t:|1685450404
+|switch|p2a: Aerodactyl|Aerodactyl, L82, F|265/265
+|-ability|p2a: Aerodactyl|Unnerve
+|turn|9
+|
+|t:|1685450423
+|switch|p1a: Klefki|Klefki, L82, M|228/228
+|move|p2a: Aerodactyl|Hone Claws|p2a: Aerodactyl
+|-boost|p2a: Aerodactyl|atk|1
+|-boost|p2a: Aerodactyl|accuracy|1
+|
+|upkeep
+|turn|10
+|
+|t:|1685450433
+|-start|p2a: Aerodactyl|Dynamax|
+|-heal|p2a: Aerodactyl|530/530|[silent]
+|move|p1a: Klefki|Magnet Rise|p1a: Klefki
+|-start|p1a: Klefki|Magnet Rise
+|move|p2a: Aerodactyl|Max Quake|p1a: Klefki
+|-immune|p1a: Klefki
+|
+|upkeep
+|turn|11
+|
+|t:|1685450447
+|move|p1a: Klefki|Spikes|p2a: Aerodactyl
+|-sidestart|p2: Cinderbolt|Spikes
+|move|p2a: Aerodactyl|Max Airstream|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|129/228
+|-boost|p2a: Aerodactyl|spe|1
+|
+|-heal|p1a: Klefki|143/228|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685450456
+|move|p2a: Aerodactyl|Max Airstream|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|44/228
+|-boost|p2a: Aerodactyl|spe|1
+|move|p1a: Klefki|Play Rough|p2a: Aerodactyl|[miss]
+|-miss|p1a: Klefki|p2a: Aerodactyl
+|
+|-heal|p1a: Klefki|58/228|[from] item: Leftovers
+|upkeep
+|-end|p2a: Aerodactyl|Dynamax
+|-heal|p2a: Aerodactyl|265/265|[silent]
+|turn|13
+|
+|t:|1685450465
+|move|p2a: Aerodactyl|Dual Wingbeat|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|26/228
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|-hitcount|p1: Klefki|2
+|
+|upkeep
+|
+|t:|1685450477
+|switch|p1a: Regidrago|Regidrago, L78|440/440
+|turn|14
+|
+|t:|1685450482
+|move|p2a: Aerodactyl|Stone Edge|p1a: Regidrago
+|-damage|p1a: Regidrago|181/440
+|move|p1a: Regidrago|Outrage|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|51/265
+|
+|upkeep
+|turn|15
+|
+|t:|1685450490
+|move|p2a: Aerodactyl|Dual Wingbeat|p1a: Regidrago
+|-damage|p1a: Regidrago|85/440
+|-damage|p1a: Regidrago|0 fnt
+|faint|p1a: Regidrago
+|-hitcount|p1: Regidrago|2
+|
+|upkeep
+|
+|t:|1685450499
+|switch|p1a: Thundurus|Thundurus-Therian, L80, M|258/258
+|turn|16
+|
+|t:|1685450504
+|move|p2a: Aerodactyl|Stone Edge|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|t:|1685450508
+|switch|p1a: Gardevoir|Gardevoir, L82, M|246/246
+|-ability|p1a: Gardevoir|Unnerve
+|-ability|p1a: Gardevoir|Unnerve|[from] ability: Trace|[of] p2a: Aerodactyl
+|turn|17
+|
+|t:|1685450514
+|-start|p1a: Gardevoir|Dynamax|
+|-heal|p1a: Gardevoir|492/492|[silent]
+|move|p2a: Aerodactyl|Stone Edge|p1a: Gardevoir
+|-damage|p1a: Gardevoir|306/492
+|move|p1a: Gardevoir|Max Mindstorm|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|-fieldstart|move: Psychic Terrain
+|faint|p2a: Aerodactyl
+|
+|upkeep
+|
+|t:|1685450525
+|switch|p2a: Lilligant|Lilligant, L84, F|255/255
+|-damage|p2a: Lilligant|224/255|[from] Spikes
+|turn|18
+|
+|t:|1685450536
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|move|p1a: Gardevoir|Max Flare|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|64/255
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1685450544
+|move|p2a: Lilligant|Petal Dance|p1a: Gardevoir
+|-damage|p1a: Gardevoir|75/492
+|-damage|p2a: Lilligant|39/255|[from] item: Life Orb
+|move|p1a: Gardevoir|Max Flare|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685450564
+|switch|p2a: Hitmonchan|Hitmonchan, L86, M|226/226
+|-damage|p2a: Hitmonchan|198/226|[from] Spikes
+|-end|p1a: Gardevoir|Dynamax
+|-heal|p1a: Gardevoir|38/246|[silent]
+|turn|20
+|
+|t:|1685450572
+|move|p1a: Gardevoir|Psyshock|p2a: Hitmonchan
+|-supereffective|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685450579
+|switch|p2a: Zapdos|Zapdos-Galar, L76|262/262
+|turn|21
+|
+|t:|1685450586
+|move|p1a: Gardevoir|Psyshock|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|win|im bussin

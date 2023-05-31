@@ -1,0 +1,401 @@
+|j|☆Jb0t
+|j|☆TwoFiftey
+|t:|1685463586
+|gametype|singles
+|player|p1|Jb0t|schoolkid-gen4|1358
+|player|p2|TwoFiftey|red|1427
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685463586
+|start
+|switch|p1a: Togedemaru|Togedemaru, L86, F|252/252
+|switch|p2a: Tyrantrum|Tyrantrum, L82, F|269/269
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TwoFiftey)
+|c|☆TwoFiftey|glhf
+|c|☆Jb0t|glhf
+|c|☆TwoFiftey|thx
+|inactive|TwoFiftey has 120 seconds left.
+|
+|t:|1685463616
+|switch|p2a: Ninetales|Ninetales, L82, M|254/254
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Togedemaru|Iron Head|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|205/254
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|220/254|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|☆Jb0t|i have a w fire resist
+|inactive|Jb0t has 120 seconds left.
+|c|☆TwoFiftey|nice
+|
+|t:|1685463647
+|switch|p1a: Tornadus|Tornadus-Therian, L78, M|251/251
+|move|p2a: Ninetales|Will-O-Wisp|p1a: Tornadus
+|-status|p1a: Tornadus|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|235/254|[from] item: Leftovers
+|-damage|p1a: Tornadus|236/251 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1685463657
+|move|p1a: Tornadus|Knock Off|p2a: Ninetales
+|-damage|p2a: Ninetales|199/254
+|-enditem|p2a: Ninetales|Leftovers|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Ninetales|Nasty Plot|p2a: Ninetales
+|-boost|p2a: Ninetales|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Tornadus|221/251 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|Jb0t has 120 seconds left.
+|
+|t:|1685463683
+|-start|p1a: Tornadus|Dynamax|
+|-heal|p1a: Tornadus|442/502 brn|[silent]
+|move|p1a: Tornadus|Max Airstream|p2a: Ninetales
+|-damage|p2a: Ninetales|60/254
+|-boost|p1a: Tornadus|spe|1
+|move|p2a: Ninetales|Fire Blast|p1a: Tornadus
+|-damage|p1a: Tornadus|112/502 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Tornadus|97/502 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1685463699
+|switch|p2a: Tyrantrum|Tyrantrum, L82, F|269/269
+|move|p1a: Tornadus|Max Airstream|p2a: Tyrantrum
+|-resisted|p2a: Tyrantrum
+|-crit|p2a: Tyrantrum
+|-damage|p2a: Tyrantrum|115/269
+|-boost|p1a: Tornadus|spe|1
+|
+|-weather|none
+|-damage|p1a: Tornadus|82/502 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1685463711
+|move|p1a: Tornadus|Max Airstream|p2a: Tyrantrum
+|-resisted|p2a: Tyrantrum
+|-damage|p2a: Tyrantrum|24/269
+|-boost|p1a: Tornadus|spe|1
+|move|p2a: Tyrantrum|Head Smash|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|-damage|p2a: Tyrantrum|0 fnt|[from] item: Life Orb
+|faint|p2a: Tyrantrum
+|
+|upkeep
+|c|☆Jb0t|that was my  w fire resist
+|
+|t:|1685463725
+|switch|p1a: Falinks|Falinks, L84|246/246
+|switch|p2a: Ninetales|Ninetales, L82, M|60/254
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|7
+|c|☆TwoFiftey|welp
+|
+|t:|1685463738
+|move|p2a: Ninetales|Fire Blast|p1a: Falinks
+|-damage|p1a: Falinks|50/246
+|move|p1a: Falinks|Rock Slide|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|-damage|p1a: Falinks|26/246|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685463751
+|switch|p2a: Keldeo|Keldeo-Resolute, L79|224/224
+|turn|8
+|c|☆Jb0t|this my second fire resisit
+|
+|t:|1685463762
+|switch|p1a: Amoonguss|Amoonguss, L84, F|329/329
+|move|p2a: Keldeo|Flamethrower|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|66/329
+|-damage|p2a: Keldeo|202/224|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Amoonguss|86/329|[from] item: Black Sludge
+|upkeep
+|turn|9
+|c|☆Jb0t|AINT NO WAY
+|c|☆TwoFiftey|yes
+|
+|t:|1685463776
+|switch|p1a: Perrserker|Perrserker, L86, M|261/261
+|move|p2a: Keldeo|Flamethrower|p1a: Perrserker
+|-supereffective|p1a: Perrserker
+|-damage|p1a: Perrserker|0 fnt
+|faint|p1a: Perrserker
+|-damage|p2a: Keldeo|180/224|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685463779
+|switch|p1a: Togedemaru|Togedemaru, L86, F|252/252
+|turn|10
+|c|☆TwoFiftey|go keldeo
+|c|☆Jb0t|mhm keldeo
+|c|☆TwoFiftey|*definetly not illusion
+|inactive|Jb0t has 120 seconds left.
+|
+|t:|1685463810
+|move|p1a: Togedemaru|Iron Head|p2a: Keldeo
+|-damage|p2a: Keldeo|44/224
+|replace|p2a: Zoroark|Zoroark, L79, M
+|-end|p2a: Zoroark|Illusion
+|move|p2a: Zoroark|Flamethrower|p1a: Togedemaru
+|-supereffective|p1a: Togedemaru
+|-enditem|p1a: Togedemaru|Focus Sash
+|-damage|p1a: Togedemaru|1/252
+|-damage|p2a: Zoroark|22/224|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|c|☆TwoFiftey|dang, sash ruins the fun :(
+|
+|t:|1685463833
+|move|p1a: Togedemaru|Iron Head|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|
+|-weather|none
+|upkeep
+|
+|t:|1685463837
+|switch|p2a: Keldeo|Keldeo-Resolute, L79|273/273
+|turn|12
+|c|☆Jb0t|nah my third fire resist was ready
+|
+|t:|1685463847
+|move|p2a: Keldeo|Secret Sword|p1a: Togedemaru
+|-supereffective|p1a: Togedemaru
+|-damage|p1a: Togedemaru|0 fnt
+|faint|p1a: Togedemaru
+|
+|upkeep
+|
+|t:|1685463850
+|switch|p1a: Amoonguss|Amoonguss, L84, F|195/329
+|turn|13
+|c|☆TwoFiftey|yes
+|
+|t:|1685463857
+|switch|p2a: Silvally|Silvally-Grass, L84|297/297
+|move|p1a: Amoonguss|Spore|p2a: Silvally
+|-immune|p2a: Silvally
+|
+|-heal|p1a: Amoonguss|215/329|[from] item: Black Sludge
+|upkeep
+|turn|14
+|c|☆Jb0t|nah this is crazy
+|
+|t:|1685463867
+|move|p2a: Silvally|Ice Beam|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|75/329
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|127/297
+|
+|-heal|p1a: Amoonguss|95/329|[from] item: Black Sludge
+|upkeep
+|turn|15
+|c|☆TwoFiftey|ik
+|
+|t:|1685463875
+|switch|p1a: Darmanitan|Darmanitan-Galar, L78, F|292/292
+|move|p2a: Silvally|Ice Beam|p1a: Darmanitan
+|-resisted|p1a: Darmanitan
+|-damage|p1a: Darmanitan|247/292
+|
+|upkeep
+|turn|16
+|c|☆TwoFiftey|nah, I'm good witout dealing wit dat
+|
+|t:|1685463902
+|move|p2a: Silvally|Parting Shot|p1a: Darmanitan
+|-unboost|p1a: Darmanitan|atk|1
+|-unboost|p1a: Darmanitan|spa|1
+|
+|t:|1685463907
+|switch|p2a: Keldeo|Keldeo-Resolute, L79|273/273|[from] Parting Shot
+|move|p1a: Darmanitan|Belly Drum|p1a: Darmanitan
+|-damage|p1a: Darmanitan|101/292
+|-setboost|p1a: Darmanitan|atk|6|[from] move: Belly Drum
+|
+|-formechange|p1a: Darmanitan|Darmanitan-Galar-Zen|
+|upkeep
+|turn|17
+|c|☆TwoFiftey|oh
+|c|☆TwoFiftey|hm
+|
+|t:|1685463926
+|-start|p2a: Keldeo|Dynamax|
+|-heal|p2a: Keldeo|546/546|[silent]
+|move|p1a: Darmanitan|Substitute|p1a: Darmanitan
+|-start|p1a: Darmanitan|Substitute
+|-damage|p1a: Darmanitan|28/292
+|-enditem|p1a: Darmanitan|Salac Berry|[eat]
+|-boost|p1a: Darmanitan|spe|1|[from] item: Salac Berry
+|move|p2a: Keldeo|Max Knuckle|p1a: Darmanitan
+|-supereffective|p1a: Darmanitan
+|-end|p1a: Darmanitan|Substitute
+|-boost|p2a: Keldeo|atk|1
+|
+|upkeep
+|turn|18
+|c|☆Jb0t|welop
+|
+|t:|1685463938
+|move|p1a: Darmanitan|Icicle Crash|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|303/546
+|move|p2a: Keldeo|Max Knuckle|p1a: Darmanitan
+|-supereffective|p1a: Darmanitan
+|-damage|p1a: Darmanitan|0 fnt
+|-boost|p2a: Keldeo|atk|1
+|faint|p1a: Darmanitan
+|
+|-heal|p2a: Keldeo|320/546|[from] item: Leftovers
+|upkeep
+|c|☆Jb0t|fire
+|
+|t:|1685463946
+|switch|p1a: Falinks|Falinks, L84|26/246
+|turn|19
+|c|☆TwoFiftey|fhew, that was scary for a second
+|
+|t:|1685463959
+|move|p2a: Keldeo|Max Geyser|p1a: Falinks
+|-damage|p1a: Falinks|0 fnt
+|-weather|RainDance
+|faint|p1a: Falinks
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Keldeo|337/546|[from] item: Leftovers
+|upkeep
+|c|☆Jb0t|my fire resists went crazy they my number 1
+|
+|t:|1685463968
+|switch|p1a: Amoonguss|Amoonguss, L84, F|204/329
+|-end|p2a: Keldeo|Dynamax
+|-heal|p2a: Keldeo|169/273|[silent]
+|turn|20
+|c|☆TwoFiftey|ik
+|c|☆TwoFiftey|lol
+|
+|t:|1685463982
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|101/273
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Keldeo
+|-end|p2a: Keldeo|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Keldeo|118/273|[from] item: Leftovers
+|-heal|p1a: Amoonguss|224/329|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|t:|1685463991
+|move|p2a: Keldeo|Scald|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|144/329
+|move|p1a: Amoonguss|Giga Drain|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|-heal|p1a: Amoonguss|203/329|[from] drain|[of] p2a: Keldeo
+|faint|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Amoonguss|223/329|[from] item: Black Sludge
+|upkeep
+|
+|t:|1685463998
+|switch|p2a: Linoone|Linoone, L84, F|268/268
+|turn|22
+|
+|t:|1685464002
+|move|p2a: Linoone|Belly Drum|p2a: Linoone
+|-damage|p2a: Linoone|134/268
+|-setboost|p2a: Linoone|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Linoone|Aguav Berry|[eat]
+|-heal|p2a: Linoone|223/268|[from] item: Aguav Berry
+|move|p1a: Amoonguss|Spore|p2a: Linoone
+|-status|p2a: Linoone|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Amoonguss|243/329|[from] item: Black Sludge
+|upkeep
+|turn|23
+|c|☆TwoFiftey|nah
+|
+|t:|1685464013
+|cant|p2a: Linoone|slp
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Linoone
+|-damage|p2a: Linoone|105/268 slp
+|
+|-weather|none
+|-heal|p1a: Amoonguss|263/329|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|t:|1685464017
+|cant|p2a: Linoone|slp
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Linoone
+|-damage|p2a: Linoone|0 fnt
+|faint|p2a: Linoone
+|
+|-heal|p1a: Amoonguss|283/329|[from] item: Black Sludge
+|upkeep
+|c|☆TwoFiftey|nah
+|c|☆TwoFiftey|I threw
+|
+|t:|1685464025
+|switch|p2a: Silvally|Silvally-Grass, L84|127/297
+|turn|25
+|
+|t:|1685464028
+|move|p2a: Silvally|Ice Beam|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|159/329
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|win|Jb0t
+|raw|Jb0t's rating: 1358 &rarr; <strong>1382</strong><br />(+24 for winning)
+|raw|TwoFiftey's rating: 1427 &rarr; <strong>1403</strong><br />(-24 for losing)
+|c|☆TwoFiftey|ggs
+|c|☆Jb0t|YOOOOOOO
+|c|☆Jb0t|MY FIRE REIST
+|c|☆Jb0t|gg
+|c|☆TwoFiftey|you're fire resist
+|c|☆TwoFiftey|nice job dude
+|c|☆Jb0t|grazie

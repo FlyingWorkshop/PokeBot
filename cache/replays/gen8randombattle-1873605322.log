@@ -1,0 +1,420 @@
+|j|☆Leon420CoolShit
+|j|☆bug toucher 69
+|t:|1685395518
+|gametype|singles
+|player|p1|Leon420CoolShit|blaine|1390
+|player|p2|bug toucher 69|hiker-gen4|1432
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685395518
+|start
+|switch|p1a: Dugtrio|Dugtrio-Alola, L82, F|192/192
+|switch|p2a: Bronzong|Bronzong, L83|247/247
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Leon420CoolShit)
+|
+|t:|1685395535
+|switch|p1a: Slowbro|Slowbro-Galar, L86, M|304/304
+|move|p2a: Bronzong|Stealth Rock|p1a: Slowbro
+|-sidestart|p1: Leon420CoolShit|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1685395541
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Slowbro|Trick|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1685395553
+|switch|p2a: Calyrex|Calyrex, L88|319/319
+|-ability|p2a: Calyrex|Unnerve
+|move|p1a: Slowbro|Trick|p2a: Calyrex
+|-activate|p1a: Slowbro|move: Trick|[of] p2a: Calyrex
+|-item|p2a: Calyrex|Choice Specs|[from] move: Trick
+|-item|p1a: Slowbro|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|4
+|
+|t:|1685395562
+|switch|p1a: Zarude|Zarude-Dada, L78|292/292
+|-damage|p1a: Zarude|256/292|[from] Stealth Rock
+|move|p2a: Calyrex|Psyshock|p1a: Zarude
+|-immune|p1a: Zarude
+|
+|-heal|p1a: Zarude|274/292|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685395569
+|switch|p2a: Machamp|Machamp, L82, M|282/282
+|move|p1a: Zarude|Darkest Lariat|p2a: Machamp
+|-resisted|p2a: Machamp
+|-damage|p2a: Machamp|229/282
+|
+|-heal|p1a: Zarude|292/292|[from] item: Leftovers
+|-status|p2a: Machamp|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1685395574
+|switch|p1a: Gourgeist|Gourgeist-Small, L84, M|230/230
+|-damage|p1a: Gourgeist|202/230|[from] Stealth Rock
+|-item|p2a: Machamp|Flame Orb|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Machamp|Knock Off|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|6/230
+|-enditem|p1a: Gourgeist|Leftovers|[from] move: Knock Off|[of] p2a: Machamp
+|
+|-damage|p2a: Machamp|212/282 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1685395582
+|move|p2a: Machamp|Bullet Punch|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|faint|p1a: Gourgeist
+|
+|-damage|p2a: Machamp|195/282 brn|[from] brn
+|upkeep
+|
+|t:|1685395594
+|switch|p1a: Slowbro|Slowbro-Galar, L86, M|304/304
+|-damage|p1a: Slowbro|266/304|[from] Stealth Rock
+|turn|8
+|
+|t:|1685395600
+|move|p2a: Machamp|Knock Off|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|52/304
+|-enditem|p1a: Slowbro|Leftovers|[from] move: Knock Off|[of] p2a: Machamp
+|move|p1a: Slowbro|Psychic|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|upkeep
+|
+|t:|1685395626
+|switch|p2a: Bronzong|Bronzong, L83|247/247
+|turn|9
+|
+|t:|1685395637
+|move|p2a: Bronzong|Iron Head|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|upkeep
+|
+|t:|1685395640
+|switch|p1a: Darmanitan|Darmanitan, L80, F|299/299
+|-damage|p1a: Darmanitan|225/299|[from] Stealth Rock
+|turn|10
+|
+|t:|1685395644
+|-start|p1a: Darmanitan|Dynamax|
+|-heal|p1a: Darmanitan|450/598|[silent]
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Darmanitan|Max Flare|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-zbroken|p2a: Bronzong
+|-damage|p2a: Bronzong|141/247
+|-weather|SunnyDay
+|-damage|p1a: Darmanitan|421/598|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Bronzong|156/247|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1685395652
+|switch|p2a: Calyrex|Calyrex, L88|319/319
+|-ability|p2a: Calyrex|Unnerve
+|move|p1a: Darmanitan|Max Flare|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|-damage|p1a: Darmanitan|392/598|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685395654
+|switch|p2a: Bronzong|Bronzong, L83|156/247
+|turn|12
+|
+|t:|1685395657
+|switch|p2a: Corsola|Corsola, L93, M|272/272
+|move|p1a: Darmanitan|Max Flare|p2a: Corsola
+|-resisted|p2a: Corsola
+|-damage|p2a: Corsola|194/272
+|-damage|p1a: Darmanitan|363/598|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-end|p1a: Darmanitan|Dynamax
+|-heal|p1a: Darmanitan|182/299|[silent]
+|turn|13
+|
+|t:|1685395663
+|switch|p2a: Bronzong|Bronzong, L83|156/247
+|move|p1a: Darmanitan|Earthquake|p2a: Bronzong
+|-immune|p2a: Bronzong|[from] ability: Levitate
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Bronzong|171/247|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685395665
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Darmanitan|U-turn|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-weather|none
+|-heal|p2a: Bronzong|186/247|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685395668
+|switch|p2a: Corsola|Corsola, L93, M|272/272
+|move|p1a: Darmanitan|U-turn|p2a: Corsola
+|-damage|p2a: Corsola|208/272
+|-damage|p1a: Darmanitan|133/299|[from] item: Rocky Helmet|[of] p2a: Corsola
+|-damage|p1a: Darmanitan|104/299|[from] item: Life Orb
+|
+|t:|1685395675
+|switch|p1a: Zarude|Zarude-Dada, L78|292/292|[from] U-turn
+|-damage|p1a: Zarude|256/292|[from] Stealth Rock
+|
+|-heal|p1a: Zarude|274/292|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685395684
+|move|p1a: Zarude|Bulk Up|p1a: Zarude
+|-boost|p1a: Zarude|atk|1
+|-boost|p1a: Zarude|def|1
+|move|p2a: Corsola|Toxic|p1a: Zarude|[miss]
+|-miss|p2a: Corsola|p1a: Zarude
+|
+|-heal|p1a: Zarude|292/292|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685395694
+|move|p1a: Zarude|Power Whip|p2a: Corsola|[miss]
+|-miss|p1a: Zarude|p2a: Corsola
+|move|p2a: Corsola|Toxic|p1a: Zarude
+|-status|p1a: Zarude|tox
+|
+|-damage|p1a: Zarude|274/292 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1685395697
+|switch|p2a: Bronzong|Bronzong, L83|186/247
+|move|p1a: Zarude|Power Whip|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|99/247
+|
+|-heal|p1a: Zarude|292/292 tox|[from] item: Leftovers
+|-heal|p2a: Bronzong|114/247|[from] item: Leftovers
+|-damage|p1a: Zarude|256/292 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1685395702
+|move|p1a: Zarude|Bulk Up|p1a: Zarude
+|-boost|p1a: Zarude|atk|1
+|-boost|p1a: Zarude|def|1
+|move|p2a: Bronzong|Iron Head|p1a: Zarude
+|-damage|p1a: Zarude|220/292 tox
+|
+|-heal|p1a: Zarude|238/292 tox|[from] item: Leftovers
+|-heal|p2a: Bronzong|129/247|[from] item: Leftovers
+|-damage|p1a: Zarude|184/292 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1685395706
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Zarude|Darkest Lariat|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-heal|p1a: Zarude|202/292 tox|[from] item: Leftovers
+|-heal|p2a: Bronzong|144/247|[from] item: Leftovers
+|-damage|p1a: Zarude|130/292 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1685395720
+|move|p1a: Zarude|Close Combat|p2a: Bronzong
+|-damage|p2a: Bronzong|8/247
+|-unboost|p1a: Zarude|def|1
+|-unboost|p1a: Zarude|spd|1
+|move|p2a: Bronzong|Iron Head|p1a: Zarude
+|-damage|p1a: Zarude|78/292 tox
+|
+|-heal|p1a: Zarude|96/292 tox|[from] item: Leftovers
+|-heal|p2a: Bronzong|23/247|[from] item: Leftovers
+|-damage|p1a: Zarude|6/292 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1685395726
+|switch|p1a: Type: Null|Type: Null, L86|304/304
+|-damage|p1a: Type: Null|266/304|[from] Stealth Rock
+|move|p2a: Bronzong|Protect||[still]
+|-fail|p2a: Bronzong
+|
+|-heal|p2a: Bronzong|38/247|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1685395737
+|switch|p2a: Cradily|Cradily, L86, F|288/288
+|move|p1a: Type: Null|Swords Dance|p1a: Type: Null
+|-boost|p1a: Type: Null|atk|2
+|
+|upkeep
+|turn|24
+|
+|t:|1685395741
+|move|p1a: Type: Null|Swords Dance|p1a: Type: Null
+|-boost|p1a: Type: Null|atk|2
+|move|p2a: Cradily|Swords Dance|p2a: Cradily
+|-boost|p2a: Cradily|atk|2
+|
+|upkeep
+|turn|25
+|
+|t:|1685395745
+|move|p1a: Type: Null|Crush Claw|p2a: Cradily
+|-resisted|p2a: Cradily
+|-damage|p2a: Cradily|171/288
+|-unboost|p2a: Cradily|def|1
+|move|p2a: Cradily|Swords Dance|p2a: Cradily
+|-boost|p2a: Cradily|atk|2
+|
+|-heal|p2a: Cradily|189/288|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1685395750
+|-start|p2a: Cradily|Dynamax|
+|-heal|p2a: Cradily|378/576|[silent]
+|move|p1a: Type: Null|Crush Claw|p2a: Cradily
+|-resisted|p2a: Cradily
+|-crit|p2a: Cradily
+|-damage|p2a: Cradily|119/576
+|move|p2a: Cradily|Max Overgrowth|p1a: Type: Null
+|-damage|p1a: Type: Null|4/304
+|-fieldstart|move: Grassy Terrain
+|
+|-heal|p1a: Type: Null|23/304|[from] Grassy Terrain
+|-heal|p2a: Cradily|137/576|[from] Grassy Terrain
+|-heal|p2a: Cradily|155/576|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1685395756
+|move|p2a: Cradily|Max Guard|p2a: Cradily
+|-singleturn|p2a: Cradily|Max Guard
+|move|p1a: Type: Null|Crush Claw|p2a: Cradily
+|-activate|p2a: Cradily|move: Max Guard
+|
+|-heal|p1a: Type: Null|42/304|[from] Grassy Terrain
+|-heal|p2a: Cradily|173/576|[from] Grassy Terrain
+|-heal|p2a: Cradily|191/576|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1685395758
+|move|p1a: Type: Null|Crush Claw|p2a: Cradily
+|-resisted|p2a: Cradily
+|-damage|p2a: Cradily|22/576
+|move|p2a: Cradily|Max Overgrowth|p1a: Type: Null
+|-damage|p1a: Type: Null|0 fnt
+|faint|p1a: Type: Null
+|
+|-heal|p2a: Cradily|40/576|[from] Grassy Terrain
+|-heal|p2a: Cradily|58/576|[from] item: Leftovers
+|upkeep
+|
+|t:|1685395765
+|switch|p1a: Zarude|Zarude-Dada, L78|6/292 tox
+|-damage|p1a: Zarude|0 fnt|[from] Stealth Rock
+|faint|p1a: Zarude
+|
+|t:|1685395768
+|switch|p1a: Darmanitan|Darmanitan, L80, F|104/299
+|-damage|p1a: Darmanitan|30/299|[from] Stealth Rock
+|-end|p2a: Cradily|Dynamax
+|-heal|p2a: Cradily|29/288|[silent]
+|turn|29
+|
+|t:|1685395774
+|switch|p2a: Bronzong|Bronzong, L83|38/247
+|move|p1a: Darmanitan|U-turn|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|-damage|p1a: Darmanitan|1/299|[from] item: Life Orb
+|
+|t:|1685395780
+|switch|p1a: Dugtrio|Dugtrio-Alola, L82, F|192/192|[from] U-turn
+|-damage|p1a: Dugtrio|186/192|[from] Stealth Rock
+|
+|-heal|p1a: Dugtrio|192/192|[from] Grassy Terrain
+|upkeep
+|
+|t:|1685395783
+|switch|p2a: Cradily|Cradily, L86, F|29/288
+|turn|30
+|
+|t:|1685395787
+|move|p1a: Dugtrio|Iron Head|p2a: Cradily
+|-supereffective|p2a: Cradily
+|-damage|p2a: Cradily|0 fnt
+|faint|p2a: Cradily
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1685395790
+|switch|p2a: Corsola|Corsola, L93, M|272/272
+|turn|31
+|
+|t:|1685395793
+|move|p1a: Dugtrio|Iron Head|p2a: Corsola
+|-damage|p2a: Corsola|206/272
+|-damage|p1a: Dugtrio|160/192|[from] item: Rocky Helmet|[of] p2a: Corsola
+|move|p2a: Corsola|Scald|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|upkeep
+|c|☆bug toucher 69|Ggs
+|-message|Leon420CoolShit forfeited.
+|
+|win|bug toucher 69
+|raw|Leon420CoolShit's rating: 1390 &rarr; <strong>1372</strong><br />(-18 for losing)
+|raw|bug toucher 69's rating: 1432 &rarr; <strong>1450</strong><br />(+18 for winning)
+|l|☆Leon420CoolShit

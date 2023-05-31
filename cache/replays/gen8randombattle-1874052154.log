@@ -1,0 +1,365 @@
+|j|☆Murkrow067
+|j|☆Brainy858
+|t:|1685459460
+|gametype|singles
+|player|p1|Murkrow067|lady-gen4|1531
+|player|p2|Brainy858|lance|1488
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685459460
+|start
+|switch|p1a: Pangoro|Pangoro, L84, F|297/297
+|switch|p2a: Togekiss|Togekiss, L80, F|267/267
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Brainy858)
+|
+|t:|1685459475
+|switch|p1a: Pyukumuku|Pyukumuku, L84, M|230/230
+|move|p2a: Togekiss|Air Slash|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|172/230
+|
+|-heal|p1a: Pyukumuku|186/230|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685459501
+|switch|p2a: Relicanth|Relicanth, L86, F|312/312
+|move|p1a: Pyukumuku|Toxic|p2a: Relicanth
+|-status|p2a: Relicanth|tox
+|
+|-heal|p1a: Pyukumuku|200/230|[from] item: Leftovers
+|-damage|p2a: Relicanth|293/312 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1685459508
+|switch|p2a: Togekiss|Togekiss, L80, F|267/267
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p1a: Pyukumuku|214/230|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685459513
+|move|p2a: Togekiss|Trick|p1a: Pyukumuku
+|-activate|p2a: Togekiss|move: Trick|[of] p1a: Pyukumuku
+|-item|p1a: Pyukumuku|Choice Scarf|[from] move: Trick
+|-item|p2a: Togekiss|Leftovers|[from] move: Trick
+|move|p1a: Pyukumuku|Toxic|p2a: Togekiss
+|-status|p2a: Togekiss|tox
+|
+|-damage|p2a: Togekiss|251/267 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1685459523
+|switch|p2a: Relicanth|Relicanth, L86, F|293/312 tox
+|move|p1a: Pyukumuku|Toxic|p2a: Relicanth
+|-fail|p2a: Relicanth|tox
+|
+|-damage|p2a: Relicanth|274/312 tox|[from] psn
+|upkeep
+|turn|6
+|inactive|Murkrow067 has 120 seconds left.
+|
+|t:|1685459556
+|switch|p1a: Pangoro|Pangoro, L84, F|297/297
+|move|p2a: Relicanth|Head Smash|p1a: Pangoro
+|-resisted|p1a: Pangoro
+|-damage|p1a: Pangoro|164/297
+|
+|-damage|p2a: Relicanth|236/312 tox|[from] psn
+|upkeep
+|turn|7
+|inactive|Murkrow067 has 120 seconds left.
+|
+|t:|1685459578
+|switch|p2a: Togekiss|Togekiss, L80, F|251/267 tox
+|move|p1a: Pangoro|Knock Off|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|158/267 tox
+|-enditem|p2a: Togekiss|Leftovers|[from] move: Knock Off|[of] p1a: Pangoro
+|
+|-damage|p2a: Togekiss|142/267 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1685459588
+|switch|p1a: Pyukumuku|Pyukumuku, L84, M|214/230
+|move|p2a: Togekiss|Air Slash|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|156/230
+|
+|-damage|p2a: Togekiss|110/267 tox|[from] psn
+|upkeep
+|turn|9
+|inactive|Murkrow067 has 120 seconds left.
+|
+|t:|1685459599
+|switch|p2a: Relicanth|Relicanth, L86, F|236/312 tox
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|230/230
+|
+|-damage|p2a: Relicanth|217/312 tox|[from] psn
+|upkeep
+|turn|10
+|inactive|Murkrow067 has 120 seconds left.
+|
+|t:|1685459619
+|move|p2a: Relicanth|Body Press|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|152/230
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|230/230
+|
+|-damage|p2a: Relicanth|179/312 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1685459641
+|switch|p2a: Seaking|Seaking, L88, F|284/284
+|move|p1a: Pyukumuku|Recover||[still]
+|-fail|p1a: Pyukumuku|heal
+|
+|upkeep
+|turn|12
+|inactive|Murkrow067 has 120 seconds left.
+|
+|t:|1685459651
+|switch|p1a: Golisopod|Golisopod, L84, F|263/263
+|move|p2a: Seaking|Swords Dance|p2a: Seaking
+|-boost|p2a: Seaking|atk|2
+|
+|upkeep
+|turn|13
+|inactive|Murkrow067 has 120 seconds left.
+|
+|t:|1685459661
+|move|p1a: Golisopod|First Impression|p2a: Seaking
+|-damage|p2a: Seaking|155/284
+|move|p2a: Seaking|Megahorn|p1a: Golisopod
+|-damage|p1a: Golisopod|94/263
+|-activate|p1a: Golisopod|ability: Emergency Exit
+|-damage|p2a: Seaking|127/284|[from] item: Life Orb
+|inactive|Murkrow067 has 120 seconds left.
+|
+|t:|1685459695
+|switch|p1a: Lycanroc|Lycanroc-Midnight, L82, M|274/274
+|
+|upkeep
+|turn|14
+|
+|t:|1685459704
+|move|p1a: Lycanroc|Stone Edge|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|faint|p2a: Seaking
+|-damage|p1a: Lycanroc|247/274|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685459716
+|switch|p2a: Zarude|Zarude, L78|292/292
+|turn|15
+|
+|t:|1685459729
+|move|p2a: Zarude|Power Whip|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|faint|p1a: Lycanroc
+|
+|upkeep
+|
+|t:|1685459740
+|switch|p1a: Golisopod|Golisopod, L84, F|94/263
+|turn|16
+|
+|t:|1685459752
+|switch|p2a: Togekiss|Togekiss, L80, F|110/267 tox
+|move|p1a: Golisopod|First Impression|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|83/267 tox
+|
+|-damage|p2a: Togekiss|67/267 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1685459760
+|switch|p1a: Pyukumuku|Pyukumuku, L84, M|230/230
+|move|p2a: Togekiss|Air Slash|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|169/230
+|
+|-damage|p2a: Togekiss|35/267 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1685459770
+|move|p2a: Togekiss|Air Slash|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|109/230
+|cant|p1a: Pyukumuku|flinch
+|
+|-damage|p2a: Togekiss|0 fnt|[from] psn
+|faint|p2a: Togekiss
+|upkeep
+|
+|t:|1685459780
+|switch|p2a: Mr. Rime|Mr. Rime, L86, F|278/278
+|turn|19
+|
+|t:|1685459791
+|move|p2a: Mr. Rime|Freeze-Dry|p1a: Pyukumuku
+|-supereffective|p1a: Pyukumuku
+|-crit|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|0 fnt
+|faint|p1a: Pyukumuku
+|
+|upkeep
+|
+|t:|1685459799
+|switch|p1a: Golisopod|Golisopod, L84, F|94/263
+|turn|20
+|
+|t:|1685459807
+|switch|p2a: Relicanth|Relicanth, L86, F|179/312 tox
+|move|p1a: Golisopod|First Impression|p2a: Relicanth
+|-damage|p2a: Relicanth|91/312 tox
+|
+|-damage|p2a: Relicanth|72/312 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1685459816
+|switch|p1a: Pangoro|Pangoro, L84, F|164/297
+|move|p2a: Relicanth|Head Smash|p1a: Pangoro
+|-resisted|p1a: Pangoro
+|-damage|p1a: Pangoro|41/297
+|
+|-damage|p2a: Relicanth|34/312 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1685459824
+|move|p1a: Pangoro|Knock Off|p2a: Relicanth
+|-damage|p2a: Relicanth|0 fnt
+|-enditem|p2a: Relicanth|Choice Band|[from] move: Knock Off|[of] p1a: Pangoro
+|faint|p2a: Relicanth
+|
+|upkeep
+|
+|t:|1685459829
+|switch|p2a: Mr. Rime|Mr. Rime, L86, F|278/278
+|turn|23
+|
+|t:|1685459834
+|move|p2a: Mr. Rime|Freeze-Dry|p1a: Pangoro
+|-damage|p1a: Pangoro|0 fnt
+|faint|p1a: Pangoro
+|
+|upkeep
+|raw|<div class="broadcast-red"><b>The server is restarting soon.</b><br />Please finish your battles quickly. No new battles can be started until the server resets in a few minutes.</div>
+|inactive|staff also wants the timer to be on.
+|raw|<div class="broadcast-red"><b>Moderated chat was set to +!</b><br />Only users of rank + and higher can talk.</div>
+|
+|t:|1685459859
+|switch|p1a: Butterfree|Butterfree, L87, M|246/246
+|turn|24
+|inactive|Murkrow067 has 120 seconds left.
+|
+|t:|1685459882
+|-start|p2a: Mr. Rime|Dynamax|
+|-heal|p2a: Mr. Rime|556/556|[silent]
+|move|p1a: Butterfree|Sleep Powder|p2a: Mr. Rime
+|-status|p2a: Mr. Rime|slp|[from] move: Sleep Powder
+|cant|p2a: Mr. Rime|slp
+|
+|upkeep
+|turn|25
+|
+|t:|1685459891
+|move|p1a: Butterfree|Quiver Dance|p1a: Butterfree
+|-boost|p1a: Butterfree|spa|1
+|-boost|p1a: Butterfree|spd|1
+|-boost|p1a: Butterfree|spe|1
+|cant|p2a: Mr. Rime|slp
+|
+|upkeep
+|turn|26
+|inactive|Murkrow067 has 120 seconds left.
+|
+|t:|1685459915
+|-start|p1a: Butterfree|Dynamax|Gmax
+|-heal|p1a: Butterfree|492/492|[silent]
+|move|p1a: Butterfree|G-Max Befuddle|p2a: Mr. Rime
+|-supereffective|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|206/556 slp
+|cant|p2a: Mr. Rime|slp
+|
+|upkeep
+|-end|p2a: Mr. Rime|Dynamax
+|-heal|p2a: Mr. Rime|103/278 slp|[silent]
+|turn|27
+|inactive|Murkrow067 has 120 seconds left.
+|
+|t:|1685459929
+|move|p1a: Butterfree|Max Airstream|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|0 fnt
+|-boost|p1a: Butterfree|spe|1
+|faint|p2a: Mr. Rime
+|
+|upkeep
+|
+|t:|1685459933
+|switch|p2a: Mimikyu|Mimikyu, L76, M|209/209
+|turn|28
+|inactive|Murkrow067 has 120 seconds left.
+|
+|t:|1685459945
+|move|p1a: Butterfree|G-Max Befuddle|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|209/209
+|-status|p2a: Mimikyu|slp
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, L76, M
+|-damage|p2a: Mimikyu|183/209 slp|[from] pokemon: Mimikyu-Busted
+|cant|p2a: Mimikyu|slp
+|
+|upkeep
+|-end|p1a: Butterfree|Dynamax
+|-heal|p1a: Butterfree|246/246|[silent]
+|turn|29
+|inactive|Murkrow067 has 120 seconds left.
+|
+|t:|1685459982
+|cant|p2a: Mimikyu|slp
+|move|p1a: Butterfree|Air Slash|p2a: Mimikyu
+|-damage|p2a: Mimikyu|59/209 slp
+|
+|upkeep
+|turn|30
+|
+|t:|1685459992
+|cant|p2a: Mimikyu|slp
+|move|p1a: Butterfree|Air Slash|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|upkeep
+|
+|t:|1685459997
+|switch|p2a: Zarude|Zarude, L78|292/292
+|turn|31
+|
+|t:|1685460002
+|move|p1a: Butterfree|Bug Buzz|p2a: Zarude
+|-supereffective|p2a: Zarude
+|-damage|p2a: Zarude|0 fnt
+|faint|p2a: Zarude
+|
+|win|Murkrow067
+|raw|Murkrow067's rating: 1531 &rarr; <strong>1549</strong><br />(+18 for winning)
+|raw|Brainy858's rating: 1488 &rarr; <strong>1470</strong><br />(-18 for losing)
+|l|☆Brainy858

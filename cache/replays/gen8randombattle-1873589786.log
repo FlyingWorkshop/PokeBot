@@ -1,0 +1,354 @@
+|j|☆atrjhryjfszdh
+|j|☆bug toucher 69
+|t:|1685393658
+|gametype|singles
+|player|p1|atrjhryjfszdh|101|1403
+|player|p2|bug toucher 69|hiker-gen4|1464
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685393658
+|start
+|switch|p1a: Ho-Oh|Ho-Oh, L72|272/272
+|switch|p2a: Haxorus|Haxorus, L77, F|244/244
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|1
+|
+|t:|1685393672
+|move|p2a: Haxorus|Dragon Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|1
+|-boost|p2a: Haxorus|spe|1
+|move|p1a: Ho-Oh|Toxic|p2a: Haxorus|[miss]
+|-miss|p1a: Ho-Oh|p2a: Haxorus
+|
+|upkeep
+|turn|2
+|
+|t:|1685393676
+|move|p2a: Haxorus|Outrage|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|0 fnt
+|faint|p1a: Ho-Oh
+|-damage|p2a: Haxorus|220/244|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685393683
+|switch|p1a: Celesteela|Celesteela, L77|276/276
+|turn|3
+|
+|t:|1685393688
+|move|p2a: Haxorus|Outrage|p1a: Celesteela|[from]lockedmove
+|-resisted|p1a: Celesteela
+|-damage|p1a: Celesteela|143/276
+|-damage|p2a: Haxorus|196/244|[from] item: Life Orb
+|-start|p2a: Haxorus|confusion|[fatigue]
+|move|p1a: Celesteela|Leech Seed|p2a: Haxorus
+|-start|p2a: Haxorus|move: Leech Seed
+|
+|-heal|p1a: Celesteela|160/276|[from] item: Leftovers
+|-damage|p2a: Haxorus|166/244|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|190/276|[silent]
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by atrjhryjfszdh)
+|
+|t:|1685393696
+|switch|p2a: Tentacruel|Tentacruel, L84, M|272/272
+|-start|p1a: Celesteela|Dynamax|
+|-heal|p1a: Celesteela|380/552|[silent]
+|move|p1a: Celesteela|Max Airstream|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|118/272
+|-boost|p1a: Celesteela|spe|1
+|
+|-heal|p2a: Tentacruel|135/272|[from] item: Black Sludge
+|-heal|p1a: Celesteela|397/552|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|atrjhryjfszdh has 120 seconds left.
+|inactive|atrjhryjfszdh has 90 seconds left.
+|
+|t:|1685393777
+|move|p2a: Tentacruel|Knock Off|p1a: Celesteela
+|-damage|p1a: Celesteela|342/552
+|-enditem|p1a: Celesteela|Leftovers|[from] move: Knock Off|[of] p2a: Tentacruel
+|move|p1a: Celesteela|Max Airstream|p2a: Tentacruel
+|-damage|p2a: Tentacruel|44/272
+|-boost|p1a: Celesteela|spe|1
+|
+|-heal|p2a: Tentacruel|61/272|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1685393788
+|switch|p2a: Oranguru|Oranguru, L86, F|295/295
+|move|p1a: Celesteela|Max Airstream|p2a: Oranguru
+|-damage|p2a: Oranguru|187/295
+|-boost|p1a: Celesteela|spe|1
+|
+|-heal|p2a: Oranguru|205/295|[from] item: Leftovers
+|upkeep
+|-end|p1a: Celesteela|Dynamax
+|-heal|p1a: Celesteela|171/276|[silent]
+|turn|7
+|inactive|bug toucher 69 has 120 seconds left.
+|
+|t:|1685393831
+|move|p1a: Celesteela|Leech Seed|p2a: Oranguru
+|-start|p2a: Oranguru|move: Leech Seed
+|move|p2a: Oranguru|Trick Room|p2a: Oranguru
+|-fieldstart|move: Trick Room|[of] p2a: Oranguru
+|
+|-heal|p2a: Oranguru|223/295|[from] item: Leftovers
+|-damage|p2a: Oranguru|187/295|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|207/276|[silent]
+|upkeep
+|turn|8
+|
+|t:|1685393838
+|switch|p2a: Whiscash|Whiscash, L86, M|329/329
+|move|p1a: Celesteela|Air Slash|p2a: Whiscash
+|-damage|p2a: Whiscash|253/329
+|
+|upkeep
+|turn|9
+|inactive|bug toucher 69 has 120 seconds left.
+|
+|t:|1685393856
+|move|p2a: Whiscash|Dragon Dance|p2a: Whiscash
+|-boost|p2a: Whiscash|atk|1
+|-boost|p2a: Whiscash|spe|1
+|move|p1a: Celesteela|Leech Seed|p2a: Whiscash
+|-start|p2a: Whiscash|move: Leech Seed
+|
+|-damage|p2a: Whiscash|212/329|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|248/276|[silent]
+|upkeep
+|turn|10
+|
+|t:|1685393865
+|move|p2a: Whiscash|Liquidation|p1a: Celesteela
+|-damage|p1a: Celesteela|106/276
+|-damage|p2a: Whiscash|180/329|[from] item: Life Orb
+|move|p1a: Celesteela|Air Slash|p2a: Whiscash
+|-damage|p2a: Whiscash|99/329
+|
+|-damage|p2a: Whiscash|58/329|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|147/276|[silent]
+|upkeep
+|turn|11
+|inactive|atrjhryjfszdh has 90 seconds left.
+|
+|t:|1685393876
+|move|p2a: Whiscash|Dragon Dance|p2a: Whiscash
+|-boost|p2a: Whiscash|atk|1
+|-boost|p2a: Whiscash|spe|1
+|move|p1a: Celesteela|Air Slash|p2a: Whiscash
+|-damage|p2a: Whiscash|0 fnt
+|faint|p2a: Whiscash
+|-ability|p1a: Celesteela|Beast Boost|boost
+|-boost|p1a: Celesteela|spa|1
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1685393885
+|switch|p2a: Rhydon|Rhydon, L87, F|324/324
+|turn|12
+|
+|t:|1685393897
+|-start|p2a: Rhydon|Dynamax|
+|-heal|p2a: Rhydon|648/648|[silent]
+|move|p1a: Celesteela|Flash Cannon|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|418/648
+|move|p2a: Rhydon|Max Rockfall|p1a: Celesteela
+|-damage|p1a: Celesteela|0 fnt
+|-weather|Sandstorm
+|faint|p1a: Celesteela
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|atrjhryjfszdh has 90 seconds left.
+|
+|t:|1685393908
+|switch|p1a: Appletun|Appletun, L90, M|344/344
+|turn|13
+|
+|t:|1685393913
+|move|p2a: Rhydon|Max Rockfall|p1a: Appletun
+|-damage|p1a: Appletun|169/344
+|move|p1a: Appletun|Apple Acid|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|154/648
+|-unboost|p2a: Rhydon|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Appletun|148/344|[from] Sandstorm
+|-heal|p1a: Appletun|169/344|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685393927
+|move|p2a: Rhydon|Max Rockfall|p1a: Appletun
+|-damage|p1a: Appletun|0 fnt
+|faint|p1a: Appletun
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1685393933
+|switch|p1a: Persian|Persian-Alola, L82, M|241/241
+|-end|p2a: Rhydon|Dynamax
+|-heal|p2a: Rhydon|77/324|[silent]
+|turn|15
+|
+|t:|1685393943
+|move|p1a: Persian|Dark Pulse|p2a: Rhydon
+|-damage|p2a: Rhydon|5/324
+|move|p2a: Rhydon|Toxic|p1a: Persian|[miss]
+|-miss|p2a: Rhydon|p1a: Persian
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Persian|226/241|[from] Sandstorm
+|-heal|p1a: Persian|241/241|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685393950
+|move|p1a: Persian|Dark Pulse|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|-weather|none
+|upkeep
+|
+|t:|1685393957
+|switch|p2a: Haxorus|Haxorus, L77, F|166/244
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|17
+|inactive|atrjhryjfszdh has 120 seconds left.
+|
+|t:|1685393968
+|move|p1a: Persian|Dark Pulse|p2a: Haxorus
+|-damage|p2a: Haxorus|78/244
+|cant|p2a: Haxorus|flinch
+|
+|upkeep
+|turn|18
+|
+|t:|1685393976
+|switch|p2a: Tentacruel|Tentacruel, L84, M|61/272
+|move|p1a: Persian|Dark Pulse|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|upkeep
+|
+|t:|1685393978
+|switch|p2a: Lycanroc|Lycanroc, L80, M|251/251
+|turn|19
+|
+|t:|1685393992
+|move|p1a: Persian|Dark Pulse|p2a: Lycanroc
+|-crit|p2a: Lycanroc
+|-damage|p2a: Lycanroc|125/251
+|move|p2a: Lycanroc|Close Combat|p1a: Persian
+|-supereffective|p1a: Persian
+|-damage|p1a: Persian|95/241
+|-unboost|p2a: Lycanroc|def|1
+|-unboost|p2a: Lycanroc|spd|1
+|-damage|p2a: Lycanroc|100/251|[from] item: Life Orb
+|
+|-heal|p1a: Persian|110/241|[from] item: Leftovers
+|upkeep
+|turn|20
+|c|☆bug toucher 69|...
+|
+|t:|1685394005
+|switch|p2a: Haxorus|Haxorus, L77, F|78/244
+|-ability|p2a: Haxorus|Mold Breaker
+|move|p1a: Persian|Dark Pulse|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|-heal|p1a: Persian|125/241|[from] item: Leftovers
+|upkeep
+|
+|t:|1685394006
+|switch|p2a: Lycanroc|Lycanroc, L80, M|100/251
+|turn|21
+|
+|t:|1685394010
+|move|p1a: Persian|Dark Pulse|p2a: Lycanroc
+|-damage|p2a: Lycanroc|15/251
+|move|p2a: Lycanroc|Close Combat|p1a: Persian
+|-supereffective|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|-unboost|p2a: Lycanroc|def|1
+|-unboost|p2a: Lycanroc|spd|1
+|faint|p1a: Persian
+|-damage|p2a: Lycanroc|0 fnt|[from] item: Life Orb
+|faint|p2a: Lycanroc
+|
+|upkeep
+|
+|t:|1685394014
+|switch|p1a: Linoone|Linoone, L84, M|268/268
+|switch|p2a: Oranguru|Oranguru, L86, F|187/295
+|turn|22
+|
+|t:|1685394019
+|move|p1a: Linoone|Belly Drum|p1a: Linoone
+|-damage|p1a: Linoone|134/268
+|-setboost|p1a: Linoone|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Linoone|Figy Berry|[eat]
+|-heal|p1a: Linoone|223/268|[from] item: Figy Berry
+|move|p2a: Oranguru|Focus Blast|p1a: Linoone
+|-supereffective|p1a: Linoone
+|-damage|p1a: Linoone|0 fnt
+|faint|p1a: Linoone
+|
+|-heal|p2a: Oranguru|205/295|[from] item: Leftovers
+|upkeep
+|
+|t:|1685394025
+|switch|p1a: Chandelure|Chandelure, L82, M|233/233
+|turn|23
+|
+|t:|1685394035
+|move|p1a: Chandelure|Fire Blast|p2a: Oranguru
+|-damage|p2a: Oranguru|90/295
+|move|p2a: Oranguru|Trick Room|p2a: Oranguru
+|-fieldstart|move: Trick Room|[of] p2a: Oranguru
+|
+|-heal|p2a: Oranguru|108/295|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1685394041
+|move|p2a: Oranguru|Psychic|p1a: Chandelure
+|-damage|p1a: Chandelure|136/233
+|move|p1a: Chandelure|Fire Blast|p2a: Oranguru
+|-damage|p2a: Oranguru|0 fnt
+|faint|p2a: Oranguru
+|
+|win|atrjhryjfszdh
+|raw|atrjhryjfszdh's rating: 1403 &rarr; <strong>1426</strong><br />(+23 for winning)
+|raw|bug toucher 69's rating: 1464 &rarr; <strong>1441</strong><br />(-23 for losing)
+|c|☆bug toucher 69|Rng win
+|l|☆bug toucher 69
+|l|☆atrjhryjfszdh
+|j|☆bug toucher 69
+|player|p2|bug toucher 69|hiker-gen4
+|l|☆bug toucher 69
+|player|p2|
+|j|☆bug toucher 69
+|player|p2|bug toucher 69|hiker-gen4

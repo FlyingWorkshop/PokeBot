@@ -1,0 +1,202 @@
+|j|☆Logratt
+|j|☆gareeb adani
+|t:|1685288716
+|gametype|singles
+|player|p1|Logratt|101|1184
+|player|p2|gareeb adani|169|1474
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685288716
+|start
+|switch|p1a: Obstagoon|Obstagoon, L80, M|280/280
+|switch|p2a: Solgaleo|Solgaleo, L72|316/316
+|turn|1
+|
+|t:|1685288725
+|move|p2a: Solgaleo|Knock Off|p1a: Obstagoon
+|-resisted|p1a: Obstagoon
+|-damage|p1a: Obstagoon|248/280
+|-enditem|p1a: Obstagoon|Flame Orb|[from] move: Knock Off|[of] p2a: Solgaleo
+|move|p1a: Obstagoon|Bulk Up|p1a: Obstagoon
+|-boost|p1a: Obstagoon|atk|1
+|-boost|p1a: Obstagoon|def|1
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gareeb adani)
+|
+|t:|1685288737
+|switch|p2a: Mr. Mime|Mr. Mime, L86, F|209/209
+|move|p1a: Obstagoon|Knock Off|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|44/209
+|-enditem|p2a: Mr. Mime|Life Orb|[from] move: Knock Off|[of] p1a: Obstagoon
+|
+|upkeep
+|turn|3
+|
+|t:|1685288750
+|move|p2a: Mr. Mime|Dazzling Gleam|p1a: Obstagoon
+|-supereffective|p1a: Obstagoon
+|-damage|p1a: Obstagoon|56/280
+|move|p1a: Obstagoon|Knock Off|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|
+|upkeep
+|
+|t:|1685288753
+|switch|p2a: Galvantula|Galvantula, L82, F|249/249
+|turn|4
+|
+|t:|1685288761
+|move|p2a: Galvantula|Bug Buzz|p1a: Obstagoon
+|-supereffective|p1a: Obstagoon
+|-damage|p1a: Obstagoon|0 fnt
+|faint|p1a: Obstagoon
+|
+|upkeep
+|
+|t:|1685288772
+|switch|p1a: Ninjask|Ninjask, L86, F|245/245
+|turn|5
+|
+|t:|1685288777
+|move|p1a: Ninjask|Swords Dance|p1a: Ninjask
+|-boost|p1a: Ninjask|atk|2
+|move|p2a: Galvantula|Thunder|p1a: Ninjask
+|-supereffective|p1a: Ninjask
+|-damage|p1a: Ninjask|0 fnt
+|faint|p1a: Ninjask
+|
+|upkeep
+|
+|t:|1685288796
+|switch|p1a: Zygarde|Zygarde-10%, L82|223/223
+|-ability|p1a: Zygarde|Aura Break
+|turn|6
+|
+|t:|1685288806
+|move|p1a: Zygarde|Coil|p1a: Zygarde
+|-boost|p1a: Zygarde|atk|1
+|-boost|p1a: Zygarde|def|1
+|-boost|p1a: Zygarde|accuracy|1
+|move|p2a: Galvantula|Bug Buzz|p1a: Zygarde
+|-damage|p1a: Zygarde|133/223
+|
+|upkeep
+|turn|7
+|
+|t:|1685288814
+|move|p1a: Zygarde|Iron Tail|p2a: Galvantula
+|-resisted|p2a: Galvantula
+|-damage|p2a: Galvantula|154/249
+|-damage|p1a: Zygarde|111/223|[from] item: Life Orb
+|move|p2a: Galvantula|Bug Buzz|p1a: Zygarde
+|-damage|p1a: Zygarde|21/223
+|
+|upkeep
+|turn|8
+|
+|t:|1685288829
+|move|p1a: Zygarde|Outrage|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|-damage|p1a: Zygarde|0 fnt|[from] item: Life Orb
+|faint|p1a: Zygarde
+|
+|upkeep
+|
+|t:|1685288837
+|switch|p1a: Miltank|Miltank, L84, F|297/297
+|switch|p2a: Slurpuff|Slurpuff, L80, F|262/262
+|turn|9
+|
+|t:|1685288846
+|move|p1a: Miltank|Toxic|p2a: Slurpuff
+|-status|p2a: Slurpuff|tox
+|move|p2a: Slurpuff|Belly Drum|p2a: Slurpuff
+|-damage|p2a: Slurpuff|131/262 tox
+|-setboost|p2a: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p2a: Slurpuff|196/262 tox|[from] item: Sitrus Berry
+|
+|-damage|p2a: Slurpuff|180/262 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1685288858
+|move|p2a: Slurpuff|Drain Punch|p1a: Miltank
+|-supereffective|p1a: Miltank
+|-damage|p1a: Miltank|19/297
+|-heal|p2a: Slurpuff|262/262 tox|[from] drain|[of] p1a: Miltank
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|168/297
+|
+|-heal|p1a: Miltank|186/297|[from] item: Leftovers
+|-damage|p2a: Slurpuff|230/262 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1685288878
+|move|p2a: Slurpuff|Facade|p1a: Miltank
+|-damage|p1a: Miltank|0 fnt
+|faint|p1a: Miltank
+|
+|-damage|p2a: Slurpuff|182/262 tox|[from] psn
+|upkeep
+|
+|t:|1685288884
+|switch|p1a: Nidoking|Nidoking, L82, M|267/267
+|turn|12
+|
+|t:|1685288891
+|move|p2a: Slurpuff|Facade|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|
+|-damage|p2a: Slurpuff|118/262 tox|[from] psn
+|upkeep
+|
+|t:|1685288899
+|switch|p1a: Togedemaru|Togedemaru, L86, F|252/252
+|turn|13
+|
+|t:|1685288904
+|-start|p1a: Togedemaru|Dynamax|
+|-heal|p1a: Togedemaru|504/504|[silent]
+|move|p2a: Slurpuff|Drain Punch|p1a: Togedemaru
+|-supereffective|p1a: Togedemaru
+|-damage|p1a: Togedemaru|108/504
+|-heal|p2a: Slurpuff|262/262 tox|[from] drain|[of] p1a: Togedemaru
+|move|p1a: Togedemaru|Max Steelspike|p2a: Slurpuff
+|-supereffective|p2a: Slurpuff
+|-damage|p2a: Slurpuff|0 fnt
+|-boost|p1a: Togedemaru|def|1
+|faint|p2a: Slurpuff
+|
+|-heal|p1a: Togedemaru|123/504|[from] item: Leftovers
+|upkeep
+|
+|t:|1685288909
+|switch|p2a: Solgaleo|Solgaleo, L72|316/316
+|turn|14
+|
+|t:|1685288927
+|move|p2a: Solgaleo|Flare Blitz|p1a: Togedemaru
+|-supereffective|p1a: Togedemaru
+|-damage|p1a: Togedemaru|0 fnt
+|faint|p1a: Togedemaru
+|-damage|p2a: Solgaleo|275/316|[from] Recoil
+|
+|win|gareeb adani
+|raw|Logratt's rating: 1184 &rarr; <strong>1177</strong><br />(-7 for losing)
+|raw|gareeb adani's rating: 1490 &rarr; <strong>1496</strong><br />(+6 for winning)
+|c|☆Logratt|gg
+|l|☆Logratt

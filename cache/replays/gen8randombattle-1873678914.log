@@ -1,0 +1,329 @@
+|j|☆remiri
+|j|☆gopqy
+|t:|1685405014
+|gametype|singles
+|player|p1|remiri|102|1066
+|player|p2|gopqy|selene|1097
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685405014
+|start
+|switch|p1a: Kommo-o|Kommo-o, L80, F|251/251
+|switch|p2a: Drifblim|Drifblim, L84, F|389/389
+|turn|1
+|
+|t:|1685405038
+|move|p2a: Drifblim|Calm Mind|p2a: Drifblim
+|-boost|p2a: Drifblim|spa|1
+|-boost|p2a: Drifblim|spd|1
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|169/251
+|-enditem|p1a: Kommo-o|Throat Spray
+|-boost|p1a: Kommo-o|spa|1|[from] item: Throat Spray
+|
+|upkeep
+|turn|2
+|
+|t:|1685405073
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|87/251
+|move|p2a: Drifblim|Calm Mind|p2a: Drifblim
+|-boost|p2a: Drifblim|spa|1
+|-boost|p2a: Drifblim|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1685405105
+|-start|p2a: Drifblim|Dynamax|
+|-heal|p2a: Drifblim|778/778|[silent]
+|move|p1a: Kommo-o|Clanging Scales|p2a: Drifblim
+|-crit|p2a: Drifblim
+|-damage|p2a: Drifblim|228/778
+|-enditem|p2a: Drifblim|Sitrus Berry|[eat]
+|-heal|p2a: Drifblim|325/778|[from] item: Sitrus Berry
+|-unboost|p1a: Kommo-o|def|1
+|move|p2a: Drifblim|Max Phantasm|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|t:|1685405130
+|switch|p1a: Tapu Koko|Tapu Koko, L78|237/237
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|4
+|
+|t:|1685405141
+|move|p2a: Drifblim|Max Phantasm|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|0 fnt
+|faint|p1a: Tapu Koko
+|
+|upkeep
+|
+|t:|1685405171
+|switch|p1a: Scyther|Scyther, L81, M|246/246
+|turn|5
+|
+|t:|1685405183
+|-start|p1a: Scyther|Dynamax|
+|-heal|p1a: Scyther|492/492|[silent]
+|move|p2a: Drifblim|Max Lightning|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|116/492
+|move|p1a: Scyther|Max Airstream|p2a: Drifblim
+|-damage|p2a: Drifblim|81/778
+|-boost|p1a: Scyther|spe|1
+|
+|upkeep
+|-end|p2a: Drifblim|Dynamax
+|-heal|p2a: Drifblim|41/389|[silent]
+|turn|6
+|
+|t:|1685405214
+|move|p2a: Drifblim|Thunderbolt|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|faint|p1a: Scyther
+|
+|upkeep
+|
+|t:|1685405221
+|switch|p1a: Linoone|Linoone, L84, M|268/268
+|turn|7
+|
+|t:|1685405227
+|move|p2a: Drifblim|Thunderbolt|p1a: Linoone
+|-damage|p1a: Linoone|126/268
+|-enditem|p1a: Linoone|Figy Berry|[eat]
+|-heal|p1a: Linoone|215/268|[from] item: Figy Berry
+|move|p1a: Linoone|Throat Chop|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|
+|upkeep
+|
+|t:|1685405260
+|switch|p2a: Pangoro|Pangoro, L84, F|297/297
+|turn|8
+|
+|t:|1685405279
+|move|p1a: Linoone|Belly Drum|p1a: Linoone
+|-damage|p1a: Linoone|81/268
+|-setboost|p1a: Linoone|atk|6|[from] move: Belly Drum
+|move|p2a: Pangoro|Close Combat|p1a: Linoone
+|-supereffective|p1a: Linoone
+|-damage|p1a: Linoone|0 fnt
+|-unboost|p2a: Pangoro|def|1
+|-unboost|p2a: Pangoro|spd|1
+|faint|p1a: Linoone
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1685405300
+|switch|p1a: Roserade|Roserade, L84, F|238/238
+|turn|9
+|
+|t:|1685405318
+|switch|p2a: Slurpuff|Slurpuff, L80, M|262/262
+|move|p1a: Roserade|Sludge Bomb|p2a: Slurpuff
+|-supereffective|p2a: Slurpuff
+|-damage|p2a: Slurpuff|4/262
+|-enditem|p2a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p2a: Slurpuff|69/262|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|10
+|
+|t:|1685405363
+|move|p2a: Slurpuff|Drain Punch|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|212/238
+|-heal|p2a: Slurpuff|82/262|[from] drain|[of] p1a: Roserade
+|move|p1a: Roserade|Sludge Bomb|p2a: Slurpuff
+|-supereffective|p2a: Slurpuff
+|-damage|p2a: Slurpuff|0 fnt
+|faint|p2a: Slurpuff
+|
+|-heal|p1a: Roserade|226/238|[from] item: Black Sludge
+|upkeep
+|
+|t:|1685405389
+|switch|p2a: Pangoro|Pangoro, L84, F|297/297
+|turn|11
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gopqy)
+|inactive|remiri has 120 seconds left.
+|
+|t:|1685405510
+|move|p1a: Roserade|Sludge Bomb|p2a: Pangoro
+|-damage|p2a: Pangoro|164/297
+|-status|p2a: Pangoro|psn
+|move|p2a: Pangoro|Knock Off|p1a: Roserade
+|-damage|p1a: Roserade|7/238
+|-enditem|p1a: Roserade|Black Sludge|[from] move: Knock Off|[of] p2a: Pangoro
+|
+|-damage|p2a: Pangoro|127/297 psn|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1685405525
+|switch|p2a: Toxicroak|Toxicroak, L84, M|277/277
+|move|p1a: Roserade|Sludge Bomb|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|206/277
+|
+|upkeep
+|turn|13
+|
+|t:|1685405536
+|move|p1a: Roserade|Leaf Storm|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|97/277
+|-unboost|p1a: Roserade|spa|2
+|move|p2a: Toxicroak|Drain Punch|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|-heal|p2a: Toxicroak|101/277|[from] drain|[of] p1a: Roserade
+|faint|p1a: Roserade
+|-damage|p2a: Toxicroak|74/277|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685405547
+|switch|p1a: Celesteela|Celesteela, L77|276/276
+|turn|14
+|
+|t:|1685405557
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|move|p1a: Celesteela|Air Slash|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|-ability|p1a: Celesteela|Beast Boost|boost
+|-boost|p1a: Celesteela|spa|1
+|
+|upkeep
+|
+|t:|1685405585
+|switch|p2a: Pangoro|Pangoro, L84, F|127/297 psn
+|turn|15
+|
+|t:|1685405592
+|move|p2a: Pangoro|Parting Shot|p1a: Celesteela
+|-unboost|p1a: Celesteela|atk|1
+|-unboost|p1a: Celesteela|spa|1
+|
+|t:|1685405601
+|switch|p2a: Farfetch’d|Farfetch’d, L90, F|239/239|[from] Parting Shot
+|move|p1a: Celesteela|Flash Cannon|p2a: Farfetch’d
+|-damage|p2a: Farfetch’d|151/239
+|
+|upkeep
+|turn|16
+|
+|t:|1685405616
+|move|p2a: Farfetch’d|Swords Dance|p2a: Farfetch’d
+|-boost|p2a: Farfetch’d|atk|2
+|move|p1a: Celesteela|Leech Seed|p2a: Farfetch’d
+|-start|p2a: Farfetch’d|move: Leech Seed
+|
+|-damage|p2a: Farfetch’d|122/239|[from] Leech Seed|[of] p1a: Celesteela
+|upkeep
+|turn|17
+|
+|t:|1685405638
+|move|p2a: Farfetch’d|Knock Off|p1a: Celesteela
+|-crit|p1a: Celesteela
+|-damage|p1a: Celesteela|59/276
+|-enditem|p1a: Celesteela|Leftovers|[from] move: Knock Off|[of] p2a: Farfetch’d
+|move|p1a: Celesteela|Air Slash|p2a: Farfetch’d
+|-damage|p2a: Farfetch’d|38/239
+|
+|-damage|p2a: Farfetch’d|9/239|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|88/276|[silent]
+|upkeep
+|turn|18
+|
+|t:|1685405647
+|move|p1a: Celesteela|Protect|p1a: Celesteela
+|-singleturn|p1a: Celesteela|Protect
+|move|p2a: Farfetch’d|Knock Off|p1a: Celesteela
+|-activate|p1a: Celesteela|move: Protect
+|
+|-damage|p2a: Farfetch’d|0 fnt|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|97/276|[silent]
+|faint|p2a: Farfetch’d
+|upkeep
+|
+|t:|1685405656
+|switch|p2a: Pangoro|Pangoro, L84, F|127/297 psn
+|turn|19
+|
+|t:|1685405671
+|move|p2a: Pangoro|Parting Shot|p1a: Celesteela
+|-unboost|p1a: Celesteela|atk|1
+|-unboost|p1a: Celesteela|spa|1
+|
+|t:|1685405675
+|switch|p2a: Tyrantrum|Tyrantrum, L82, M|269/269|[from] Parting Shot
+|move|p1a: Celesteela|Air Slash|p2a: Tyrantrum
+|-resisted|p2a: Tyrantrum
+|-damage|p2a: Tyrantrum|234/269
+|
+|upkeep
+|turn|20
+|
+|t:|1685405690
+|move|p2a: Tyrantrum|Outrage|p1a: Celesteela
+|-resisted|p1a: Celesteela
+|-damage|p1a: Celesteela|1/276
+|-damage|p2a: Tyrantrum|208/269|[from] item: Life Orb
+|move|p1a: Celesteela|Flash Cannon|p2a: Tyrantrum
+|-supereffective|p2a: Tyrantrum
+|-damage|p2a: Tyrantrum|64/269
+|
+|upkeep
+|turn|21
+|
+|t:|1685405702
+|move|p1a: Celesteela|Protect|p1a: Celesteela
+|-singleturn|p1a: Celesteela|Protect
+|move|p2a: Tyrantrum|Outrage|p1a: Celesteela|[from]lockedmove
+|-activate|p1a: Celesteela|move: Protect
+|-start|p2a: Tyrantrum|confusion|[fatigue]
+|
+|upkeep
+|turn|22
+|
+|t:|1685405711
+|-activate|p2a: Tyrantrum|confusion
+|move|p2a: Tyrantrum|Outrage|p1a: Celesteela
+|-resisted|p1a: Celesteela
+|-damage|p1a: Celesteela|0 fnt
+|faint|p1a: Celesteela
+|-damage|p2a: Tyrantrum|38/269|[from] item: Life Orb
+|
+|win|gopqy
+|raw|remiri's rating: 1066 &rarr; <strong>1048</strong><br />(-18 for losing)
+|raw|gopqy's rating: 1097 &rarr; <strong>1120</strong><br />(+23 for winning)
+|l|☆remiri

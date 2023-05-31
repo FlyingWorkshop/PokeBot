@@ -1,0 +1,306 @@
+|j|☆OneArmedBandit
+|j|☆Cilantro38
+|t:|1685277940
+|gametype|singles
+|player|p1|OneArmedBandit|170|
+|player|p2|Cilantro38|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685277940
+|start
+|switch|p1a: Jirachi|Jirachi, L79|288/288
+|switch|p2a: Mew|Mew, L80|291/291
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by OneArmedBandit)
+|c|☆Cilantro38|gm
+|c|☆Cilantro38|mind if i publicize the match?
+|inactive|OneArmedBandit has 270 seconds left.
+|inactive|Cilantro38 has 270 seconds left.
+|
+|t:|1685277984
+|move|p2a: Mew|Dragon Dance|p2a: Mew
+|-boost|p2a: Mew|atk|1
+|-boost|p2a: Mew|spe|1
+|move|p1a: Jirachi|U-turn|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|211/291
+|
+|t:|1685278009
+|switch|p1a: Vespiquen|Vespiquen, L96, F|290/290|[from] U-turn
+|-ability|p1a: Vespiquen|Pressure
+|
+|upkeep
+|turn|2
+|c|☆OneArmedBandit|go for it
+|inactive|Cilantro38 has 270 seconds left.
+|inactiveoff|Battle timer is now OFF.
+|j| Mega_Beedrill User
+|j| nemoauditur
+|
+|t:|1685278072
+|switch|p2a: Scyther|Scyther, L81, F|246/246
+|move|p1a: Vespiquen|Toxic|p2a: Scyther
+|-status|p2a: Scyther|tox
+|
+|-damage|p2a: Scyther|231/246 tox|[from] psn
+|upkeep
+|turn|3
+|j| Trefleuh
+|
+|t:|1685278092
+|move|p2a: Scyther|Dual Wingbeat|p1a: Vespiquen
+|-supereffective|p1a: Vespiquen
+|-damage|p1a: Vespiquen|180/290
+|-supereffective|p1a: Vespiquen
+|-damage|p1a: Vespiquen|76/290
+|-hitcount|p1a: Vespiquen|2
+|move|p1a: Vespiquen|U-turn|p2a: Scyther
+|-resisted|p2a: Scyther
+|-damage|p2a: Scyther|183/246 tox
+|
+|t:|1685278099
+|switch|p1a: Regieleki|Regieleki, L78|253/253|[from] U-turn
+|
+|-damage|p2a: Scyther|153/246 tox|[from] psn
+|upkeep
+|turn|4
+|j| Frozoid
+|l| Frozoid
+|
+|t:|1685278116
+|switch|p2a: Wigglytuff|Wigglytuff, L90, F|398/398
+|-item|p1a: Regieleki|Magnet|[from] ability: Frisk|[of] p2a: Wigglytuff|[identify]
+|move|p1a: Regieleki|Volt Switch|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|236/398
+|j| 35Q71N
+|
+|t:|1685278131
+|switch|p1a: Jirachi|Jirachi, L79|288/288|[from] Volt Switch
+|
+|upkeep
+|turn|5
+|
+|t:|1685278138
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L71|248/248
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Jirachi|Stealth Rock|p2a: Zamazenta
+|-sidestart|p2: Cilantro38|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1685278158
+|move|p2a: Zamazenta|Howl|p2a: Zamazenta
+|-boost|p2a: Zamazenta|atk|1
+|move|p1a: Jirachi|U-turn|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|242/248
+|
+|t:|1685278164
+|switch|p1a: Vespiquen|Vespiquen, L96, F|76/290|[from] U-turn
+|-ability|p1a: Vespiquen|Pressure
+|
+|upkeep
+|turn|7
+|
+|t:|1685278170
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Vespiquen
+|-damage|p1a: Vespiquen|0 fnt
+|faint|p1a: Vespiquen
+|
+|upkeep
+|
+|t:|1685278184
+|switch|p1a: Solrock|Solrock, L88|302/302
+|turn|8
+|
+|t:|1685278189
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Solrock
+|-supereffective|p1a: Solrock
+|-crit|p1a: Solrock
+|-damage|p1a: Solrock|0 fnt
+|faint|p1a: Solrock
+|
+|upkeep
+|
+|t:|1685278200
+|switch|p1a: Porygon-Z|Porygon-Z, L80|267/267
+|turn|9
+|
+|t:|1685278205
+|move|p1a: Porygon-Z|Tri Attack|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|190/248
+|move|p2a: Zamazenta|Close Combat|p1a: Porygon-Z
+|-supereffective|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Porygon-Z
+|
+|upkeep
+|
+|t:|1685278214
+|switch|p1a: Regieleki|Regieleki, L78|253/253
+|turn|10
+|
+|t:|1685278249
+|switch|p2a: Wigglytuff|Wigglytuff, L90, F|236/398
+|-damage|p2a: Wigglytuff|187/398|[from] Stealth Rock
+|-item|p1a: Regieleki|Magnet|[from] ability: Frisk|[of] p2a: Wigglytuff|[identify]
+|move|p1a: Regieleki|Thunderbolt|p2a: Wigglytuff
+|-crit|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|
+|upkeep
+|
+|t:|1685278280
+|switch|p2a: Mew|Mew, L80|211/291
+|-damage|p2a: Mew|175/291|[from] Stealth Rock
+|turn|11
+|
+|t:|1685278341
+|-start|p2a: Mew|Dynamax|
+|-heal|p2a: Mew|350/582|[silent]
+|move|p1a: Regieleki|Volt Switch|p2a: Mew
+|-damage|p2a: Mew|233/582
+|
+|t:|1685278348
+|switch|p1a: Jirachi|Jirachi, L79|288/288|[from] Volt Switch
+|move|p2a: Mew|Max Knuckle|p1a: Jirachi
+|-damage|p1a: Jirachi|224/288
+|-boost|p2a: Mew|atk|1
+|
+|-heal|p1a: Jirachi|242/288|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685278399
+|move|p2a: Mew|Max Flare|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|-weather|SunnyDay
+|faint|p1a: Jirachi
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685278404
+|switch|p1a: Regieleki|Regieleki, L78|253/253
+|turn|13
+|
+|t:|1685278407
+|move|p1a: Regieleki|Thunderbolt|p2a: Mew
+|-damage|p2a: Mew|94/582
+|-status|p2a: Mew|par
+|-activate|p2a: Mew|ability: Synchronize
+|-immune|p1a: Regieleki
+|-enditem|p2a: Mew|Lum Berry|[eat]
+|-curestatus|p2a: Mew|par|[msg]
+|move|p2a: Mew|Max Mindstorm|p1a: Regieleki
+|-damage|p1a: Regieleki|0 fnt
+|-fieldstart|move: Psychic Terrain
+|faint|p1a: Regieleki
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685278409
+|switch|p1a: Cherrim|Cherrim, L93, F|281/281
+|-formechange|p1a: Cherrim|Cherrim-Sunshine|[msg]|[from] ability: Flower Gift
+|-end|p2a: Mew|Dynamax
+|-heal|p2a: Mew|47/291|[silent]
+|turn|14
+|c|☆Cilantro38|well that's poetic
+|c|☆Cilantro38|the sun gift as the final warrior
+|
+|t:|1685278439
+|-start|p1a: Cherrim|Dynamax|
+|-heal|p1a: Cherrim|562/562|[silent]
+|move|p1a: Cherrim|Max Overgrowth|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|-fieldstart|move: Grassy Terrain
+|faint|p2a: Mew
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685278448
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L71|190/248
+|-damage|p2a: Zamazenta|183/248|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|15
+|
+|t:|1685278469
+|move|p2a: Zamazenta|Howl|p2a: Zamazenta
+|-boost|p2a: Zamazenta|atk|1
+|move|p1a: Cherrim|Max Overgrowth|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|99/248
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zamazenta|114/248|[from] Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1685278475
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Cherrim
+|-damage|p1a: Cherrim|260/562
+|move|p1a: Cherrim|Max Overgrowth|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|34/248
+|
+|-weather|none
+|-formechange|p1a: Cherrim|Cherrim|[msg]|[from] ability: Flower Gift
+|-heal|p2a: Zamazenta|49/248|[from] Grassy Terrain
+|-heal|p1a: Cherrim|277/562|[from] Grassy Terrain
+|upkeep
+|-end|p1a: Cherrim|Dynamax
+|-heal|p1a: Cherrim|139/281|[silent]
+|turn|17
+|
+|t:|1685278486
+|move|p1a: Cherrim|Petal Dance|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-heal|p1a: Cherrim|156/281|[from] Grassy Terrain
+|upkeep
+|c|☆OneArmedBandit|ggwp
+|c|☆Cilantro38|gg
+|
+|t:|1685278493
+|switch|p2a: Scyther|Scyther, L81, F|153/246 tox
+|turn|18
+|
+|t:|1685278498
+|move|p1a: Cherrim|Petal Dance|p2a: Scyther|[from]lockedmove
+|-resisted|p2a: Scyther
+|-damage|p2a: Scyther|102/246 tox
+|move|p2a: Scyther|Dual Wingbeat|p1a: Cherrim
+|-supereffective|p1a: Cherrim
+|-damage|p1a: Cherrim|10/281
+|-supereffective|p1a: Cherrim
+|-damage|p1a: Cherrim|0 fnt
+|faint|p1a: Cherrim
+|-hitcount|p1: Cherrim|2
+|
+|win|Cilantro38
+|l|☆OneArmedBandit
+|l|☆Cilantro38
+|l| Mega_Beedrill User
+|l| 35Q71N
+|l| Trefleuh
+|l| nemoauditur
+|j|☆Cilantro38
+|player|p2|Cilantro38|170

@@ -1,0 +1,465 @@
+|j|☆bodi 69
+|j|☆Skyrack
+|t:|1685364752
+|gametype|singles
+|player|p1|bodi 69|leon|
+|player|p2|Skyrack|ethan|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685364752
+|start
+|switch|p1a: Tyrantrum|Tyrantrum, L82, M|269/269
+|switch|p2a: Reuniclus|Reuniclus, L84, F|322/322
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bodi 69)
+|inactive|Skyrack also wants the timer to be on.
+|c|☆bodi 69|gl hf
+|j| Trefleuh
+|c| Trefleuh|glhf
+|j|%Clementine
+|c|☆bodi 69|ty ty
+|inactive|bodi 69 has 270 seconds left.
+|j| 35Q71N
+|
+|t:|1685364794
+|switch|p1a: Pyukumuku|Pyukumuku, L84, M|230/230
+|move|p2a: Reuniclus|Focus Blast|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|130/230
+|
+|-heal|p1a: Pyukumuku|144/230|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685364808
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|230/230
+|
+|upkeep
+|turn|3
+|j|+Chains of Markov
+|
+|t:|1685364818
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|move|p1a: Pyukumuku|Mirror Coat||[still]
+|-fail|p1a: Pyukumuku
+|
+|upkeep
+|turn|4
+|j| Lrogue ❀
+|
+|t:|1685364827
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|move|p1a: Pyukumuku|Mirror Coat||[still]
+|-fail|p1a: Pyukumuku
+|
+|upkeep
+|turn|5
+|c| Lrogue ❀|Well
+|
+|t:|1685364842
+|switch|p2a: Salazzle|Salazzle, L82, F|246/246
+|move|p1a: Pyukumuku|Mirror Coat||[still]
+|-fail|p1a: Pyukumuku
+|
+|upkeep
+|turn|6
+|c|☆Skyrack|it's been too long since I last saw a Pyukumuku
+|c|☆Skyrack|lol
+|c|☆Skyrack|took me too long to remember Unaware
+|inactive|bodi 69 has 270 seconds left.
+|
+|t:|1685364873
+|move|p2a: Salazzle|Toxic|p1a: Pyukumuku
+|-status|p1a: Pyukumuku|tox
+|move|p1a: Pyukumuku|Mirror Coat||[still]
+|-fail|p1a: Pyukumuku
+|
+|-damage|p1a: Pyukumuku|216/230 tox|[from] psn
+|upkeep
+|turn|7
+|j| JJ09LIE
+|
+|t:|1685364879
+|switch|p1a: Poliwrath|Poliwrath, L84, M|288/288
+|move|p2a: Salazzle|Substitute|p2a: Salazzle
+|-start|p2a: Salazzle|Substitute
+|-damage|p2a: Salazzle|185/246
+|
+|-heal|p2a: Salazzle|200/246|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1685364885
+|move|p2a: Salazzle|Toxic|p1a: Poliwrath
+|-status|p1a: Poliwrath|tox
+|move|p1a: Poliwrath|Rain Dance|p1a: Poliwrath
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Salazzle|215/246|[from] item: Black Sludge
+|-damage|p1a: Poliwrath|270/288 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1685364892
+|move|p2a: Salazzle|Protect|p2a: Salazzle
+|-singleturn|p2a: Salazzle|Protect
+|move|p1a: Poliwrath|Liquidation|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Salazzle|230/246|[from] item: Black Sludge
+|-damage|p1a: Poliwrath|234/288 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1685364897
+|move|p1a: Poliwrath|Liquidation|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-end|p2a: Salazzle|Substitute
+|-damage|p1a: Poliwrath|206/288 tox|[from] item: Life Orb
+|move|p2a: Salazzle|Flamethrower|p1a: Poliwrath
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|182/288 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Salazzle|245/246|[from] item: Black Sludge
+|-damage|p1a: Poliwrath|128/288 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1685364905
+|move|p2a: Salazzle|Protect|p2a: Salazzle
+|-singleturn|p2a: Salazzle|Protect
+|move|p1a: Poliwrath|Liquidation|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Salazzle|246/246|[from] item: Black Sludge
+|-damage|p1a: Poliwrath|56/288 tox|[from] psn
+|upkeep
+|turn|12
+|l|%Clementine
+|
+|t:|1685364926
+|switch|p2a: Virizion|Virizion, L82|283/283
+|move|p1a: Poliwrath|Liquidation|p2a: Virizion
+|-resisted|p2a: Virizion
+|-damage|p2a: Virizion|176/283
+|-damage|p1a: Poliwrath|28/288 tox|[from] item: Life Orb
+|
+|-weather|none
+|-damage|p1a: Poliwrath|0 fnt|[from] psn
+|faint|p1a: Poliwrath
+|upkeep
+|
+|t:|1685364938
+|switch|p1a: Celesteela|Celesteela, L77|276/276
+|turn|13
+|j| Wubben
+|
+|t:|1685364962
+|switch|p2a: Ninetales|Ninetales, L82, M|254/254
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Celesteela|Air Slash|p2a: Ninetales
+|-damage|p2a: Ninetales|191/254
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1685364982
+|move|p2a: Ninetales|Fire Blast|p1a: Celesteela|[miss]
+|-miss|p2a: Ninetales|p1a: Celesteela
+|move|p1a: Celesteela|Leech Seed|p2a: Ninetales
+|-start|p2a: Ninetales|move: Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ninetales|160/254|[from] Leech Seed|[of] p1a: Celesteela
+|upkeep
+|turn|15
+|
+|t:|1685364989
+|move|p1a: Celesteela|Protect|p1a: Celesteela
+|-singleturn|p1a: Celesteela|Protect
+|move|p2a: Ninetales|Fire Blast|p1a: Celesteela
+|-activate|p1a: Celesteela|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ninetales|129/254|[from] Leech Seed|[of] p1a: Celesteela
+|upkeep
+|turn|16
+|
+|t:|1685365003
+|switch|p2a: Virizion|Virizion, L82|176/283
+|move|p1a: Celesteela|Air Slash|p2a: Virizion|[miss]
+|-miss|p1a: Celesteela|p2a: Virizion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|c|☆Skyrack|OOF
+|c|☆bodi 69|no way
+|j| IsaidIsayRightFoot
+|c| 35Q71N|Welp
+|l| IsaidIsayRightFoot
+|
+|t:|1685365017
+|switch|p2a: Reuniclus|Reuniclus, L84, F|322/322
+|move|p1a: Celesteela|Air Slash|p2a: Reuniclus
+|-damage|p2a: Reuniclus|244/322
+|
+|-weather|none
+|upkeep
+|turn|18
+|
+|t:|1685365030
+|switch|p1a: Diggersby|Diggersby, L80, F|267/267
+|move|p2a: Reuniclus|Psychic|p1a: Diggersby
+|-damage|p1a: Diggersby|106/267
+|
+|upkeep
+|turn|19
+|c|☆bodi 69|rigged
+|
+|t:|1685365040
+|switch|p2a: Virizion|Virizion, L82|176/283
+|move|p1a: Diggersby|Knock Off|p2a: Virizion
+|-resisted|p2a: Virizion
+|-damage|p2a: Virizion|107/283
+|-ability|p2a: Virizion|Justified|boost
+|-boost|p2a: Virizion|atk|1
+|-enditem|p2a: Virizion|Lum Berry|[from] move: Knock Off|[of] p1a: Diggersby
+|-damage|p1a: Diggersby|80/267|[from] item: Life Orb
+|
+|upkeep
+|turn|20
+|
+|t:|1685365046
+|switch|p1a: Celesteela|Celesteela, L77|276/276
+|move|p2a: Virizion|Leaf Blade|p1a: Celesteela
+|-resisted|p1a: Celesteela
+|-damage|p1a: Celesteela|247/276
+|
+|-heal|p1a: Celesteela|264/276|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1685365049
+|move|p2a: Virizion|Close Combat|p1a: Celesteela
+|-damage|p1a: Celesteela|111/276
+|-unboost|p2a: Virizion|def|1
+|-unboost|p2a: Virizion|spd|1
+|move|p1a: Celesteela|Air Slash|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|0 fnt
+|faint|p2a: Virizion
+|-ability|p1a: Celesteela|Beast Boost|boost
+|-boost|p1a: Celesteela|spa|1
+|
+|-heal|p1a: Celesteela|128/276|[from] item: Leftovers
+|upkeep
+|
+|t:|1685365056
+|switch|p2a: Salazzle|Salazzle, L82, F|246/246
+|turn|22
+|
+|t:|1685365062
+|move|p2a: Salazzle|Flamethrower|p1a: Celesteela
+|-supereffective|p1a: Celesteela
+|-damage|p1a: Celesteela|0 fnt
+|faint|p1a: Celesteela
+|
+|upkeep
+|
+|t:|1685365065
+|switch|p1a: Diggersby|Diggersby, L80, F|80/267
+|turn|23
+|j| Volsur
+|
+|t:|1685365070
+|move|p2a: Salazzle|Flamethrower|p1a: Diggersby
+|-damage|p1a: Diggersby|0 fnt
+|faint|p1a: Diggersby
+|
+|upkeep
+|
+|t:|1685365072
+|switch|p1a: Dunsparce|Dunsparce, L90, F|326/326
+|turn|24
+|c| Volsur|loser pays
+|
+|t:|1685365081
+|switch|p2a: Vespiquen|Vespiquen, L96, F|290/290
+|-ability|p2a: Vespiquen|Pressure
+|move|p1a: Dunsparce|Earthquake|p2a: Vespiquen
+|-immune|p2a: Vespiquen
+|
+|upkeep
+|turn|25
+|
+|t:|1685365084
+|move|p1a: Dunsparce|Roost||[still]
+|-fail|p1a: Dunsparce|heal
+|move|p2a: Vespiquen|Toxic|p1a: Dunsparce
+|-status|p1a: Dunsparce|tox
+|
+|-damage|p1a: Dunsparce|306/326 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1685365091
+|move|p1a: Dunsparce|Coil|p1a: Dunsparce
+|-boost|p1a: Dunsparce|atk|1
+|-boost|p1a: Dunsparce|def|1
+|-boost|p1a: Dunsparce|accuracy|1
+|move|p2a: Vespiquen|Air Slash|p1a: Dunsparce
+|-damage|p1a: Dunsparce|206/326 tox
+|
+|-heal|p1a: Dunsparce|226/326 tox|[from] item: Leftovers
+|-damage|p1a: Dunsparce|186/326 tox|[from] psn
+|upkeep
+|turn|27
+|c|☆bodi 69|miss click
+|c| Volsur|???
+|c| Volsur|yeah sure
+|
+|t:|1685365097
+|move|p1a: Dunsparce|Body Slam|p2a: Vespiquen
+|-damage|p2a: Vespiquen|185/290
+|move|p2a: Vespiquen|Air Slash|p1a: Dunsparce
+|-damage|p1a: Dunsparce|86/326 tox
+|
+|-heal|p1a: Dunsparce|106/326 tox|[from] item: Leftovers
+|-damage|p1a: Dunsparce|46/326 tox|[from] psn
+|upkeep
+|turn|28
+|c|☆bodi 69|the roost
+|
+|t:|1685365105
+|move|p1a: Dunsparce|Body Slam|p2a: Vespiquen
+|-damage|p2a: Vespiquen|94/290
+|-status|p2a: Vespiquen|par
+|move|p2a: Vespiquen|Roost|p2a: Vespiquen
+|-heal|p2a: Vespiquen|239/290 par
+|-singleturn|p2a: Vespiquen|move: Roost
+|
+|-heal|p1a: Dunsparce|66/326 tox|[from] item: Leftovers
+|-damage|p1a: Dunsparce|0 fnt|[from] psn
+|faint|p1a: Dunsparce
+|upkeep
+|
+|t:|1685365110
+|switch|p1a: Tyrantrum|Tyrantrum, L82, M|269/269
+|turn|29
+|
+|t:|1685365116
+|move|p1a: Tyrantrum|Dragon Dance|p1a: Tyrantrum
+|-boost|p1a: Tyrantrum|atk|1
+|-boost|p1a: Tyrantrum|spe|1
+|move|p2a: Vespiquen|Toxic|p1a: Tyrantrum
+|-status|p1a: Tyrantrum|tox
+|
+|-damage|p1a: Tyrantrum|253/269 tox|[from] psn
+|upkeep
+|turn|30
+|c| Volsur|he ded
+|c| Volsur|oh?
+|
+|t:|1685365129
+|-start|p1a: Tyrantrum|Dynamax|
+|-heal|p1a: Tyrantrum|506/538 tox|[silent]
+|move|p1a: Tyrantrum|Max Rockfall|p2a: Vespiquen
+|-supereffective|p2a: Vespiquen
+|-damage|p2a: Vespiquen|0 fnt
+|-weather|Sandstorm
+|faint|p2a: Vespiquen
+|-damage|p1a: Tyrantrum|480/538 tox|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyrantrum|448/538 tox|[from] psn
+|upkeep
+|
+|t:|1685365134
+|switch|p2a: Urshifu|Urshifu, L76, M|277/277
+|turn|31
+|
+|t:|1685365141
+|-start|p2a: Urshifu|Dynamax|Gmax
+|-heal|p2a: Urshifu|554/554|[silent]
+|move|p2a: Urshifu|Max Guard|p2a: Urshifu
+|-singleturn|p2a: Urshifu|Max Guard
+|move|p1a: Tyrantrum|Max Wyrmwind|p2a: Urshifu
+|-activate|p2a: Urshifu|move: Max Guard
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Urshifu|537/554|[from] Sandstorm
+|-heal|p2a: Urshifu|554/554|[from] item: Leftovers
+|-damage|p1a: Tyrantrum|400/538 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1685365157
+|move|p1a: Tyrantrum|Max Wyrmwind|p2a: Urshifu
+|-damage|p2a: Urshifu|256/554
+|-unboost|p2a: Urshifu|atk|1
+|-damage|p1a: Tyrantrum|374/538 tox|[from] item: Life Orb
+|move|p2a: Urshifu|Max Knuckle|p1a: Tyrantrum
+|-supereffective|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|258/538 tox
+|-boost|p2a: Urshifu|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Urshifu|239/554|[from] Sandstorm
+|-heal|p2a: Urshifu|256/554|[from] item: Leftovers
+|-damage|p1a: Tyrantrum|194/538 tox|[from] psn
+|upkeep
+|-end|p1a: Tyrantrum|Dynamax
+|-heal|p1a: Tyrantrum|97/269 tox|[silent]
+|turn|33
+|
+|t:|1685365165
+|move|p1a: Tyrantrum|Dragon Dance|p1a: Tyrantrum
+|-boost|p1a: Tyrantrum|atk|1
+|-boost|p1a: Tyrantrum|spe|1
+|move|p2a: Urshifu|Max Knuckle|p1a: Tyrantrum
+|-supereffective|p1a: Tyrantrum
+|-damage|p1a: Tyrantrum|0 fnt
+|-boost|p2a: Urshifu|atk|1
+|faint|p1a: Tyrantrum
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Urshifu|239/554|[from] Sandstorm
+|-heal|p2a: Urshifu|256/554|[from] item: Leftovers
+|upkeep
+|c|☆bodi 69|gg
+|c|☆Skyrack|gg
+|-message|bodi 69 forfeited.
+|
+|win|Skyrack
+|l| JJ09LIE
+|l| Volsur
+|l|☆Skyrack
+|j| Volsur
+|l|☆bodi 69
+|l| Volsur
+|l| Lrogue ❀
+|l|+Chains of Markov
+|j| JJ09LIE
+|l| JJ09LIE
+|j| Teres bahji
+|j|☆bodi 69
+|player|p1|bodi 69|leon

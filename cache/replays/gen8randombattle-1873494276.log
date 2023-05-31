@@ -1,0 +1,130 @@
+|j|‽NasaKhatarnak1
+|j|☆sash63
+|t:|1685383046
+|gametype|singles
+|player|p1|NasaKhatarnak1|170|1000
+|player|p2|sash63|red|1065
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685383046
+|start
+|switch|p1a: Hitmonchan|Hitmonchan, L86, M|226/226
+|switch|p2a: Tapu Koko|Tapu Koko, L78|237/237
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|1
+|
+|t:|1685383054
+|switch|p1a: Solrock|Solrock, L88|302/302
+|move|p2a: Tapu Koko|Dazzling Gleam|p1a: Solrock
+|-damage|p1a: Solrock|179/302
+|
+|-heal|p1a: Solrock|197/302|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685383063
+|switch|p2a: Cofagrigus|Cofagrigus, L86, M|240/240
+|move|p1a: Solrock|Stealth Rock|p2a: Cofagrigus
+|-sidestart|p2: sash63|move: Stealth Rock
+|
+|-heal|p1a: Solrock|215/302|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685383070
+|move|p1a: Solrock|Will-O-Wisp|p2a: Cofagrigus
+|-status|p2a: Cofagrigus|brn
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Solrock
+|-supereffective|p1a: Solrock
+|-damage|p1a: Solrock|21/302
+|
+|-heal|p1a: Solrock|39/302|[from] item: Leftovers
+|-damage|p2a: Cofagrigus|225/240 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1685383087
+|switch|p1a: Togekiss|Togekiss, L80, F|267/267
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Togekiss
+|-damage|p1a: Togekiss|186/267
+|
+|-heal|p2a: Cofagrigus|240/240 brn|[from] item: Leftovers
+|-damage|p2a: Cofagrigus|225/240 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1685383101
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Togekiss
+|-damage|p1a: Togekiss|113/267
+|
+|-heal|p2a: Cofagrigus|240/240 brn|[from] item: Leftovers
+|-damage|p2a: Cofagrigus|225/240 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1685383104
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|247/267
+|-singleturn|p1a: Togekiss|move: Roost
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Togekiss
+|-damage|p1a: Togekiss|178/267
+|
+|-heal|p2a: Cofagrigus|240/240 brn|[from] item: Leftovers
+|-damage|p2a: Cofagrigus|225/240 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1685383107
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|move|p2a: Cofagrigus|Memento|p1a: Togekiss
+|-unboost|p1a: Togekiss|atk|2
+|-unboost|p1a: Togekiss|spa|2
+|faint|p2a: Cofagrigus
+|
+|upkeep
+|
+|t:|1685383109
+|switch|p2a: Tapu Koko|Tapu Koko, L78|237/237
+|-damage|p2a: Tapu Koko|208/237|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|8
+|
+|t:|1685383113
+|-start|p1a: Togekiss|Dynamax|
+|-heal|p1a: Togekiss|356/534|[silent]
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|78/534
+|move|p1a: Togekiss|Max Airstream|p2a: Tapu Koko
+|-resisted|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|27/237
+|-boost|p1a: Togekiss|spe|1
+|
+|upkeep
+|turn|9
+|
+|t:|1685383119
+|move|p1a: Togekiss|Max Airstream|p2a: Tapu Koko
+|-resisted|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|0 fnt
+|-boost|p1a: Togekiss|spe|1
+|faint|p2a: Tapu Koko
+|
+|upkeep
+|-message|sash63 forfeited.
+|
+|win|NasaKhatarnak1
+|raw|NasaKhatarnak1's rating: 1000 &rarr; <strong>1047</strong><br />(+47 for winning)
+|raw|sash63's rating: 1065 &rarr; <strong>1042</strong><br />(-23 for losing)
+|l|☆sash63

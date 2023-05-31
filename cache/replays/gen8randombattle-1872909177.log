@@ -1,0 +1,120 @@
+|j|☆flyingworkshop
+|j|☆uchiha jeson
+|t:|1685299638
+|gametype|singles
+|player|p1|flyingworkshop|dawn|1128
+|player|p2|uchiha jeson|102|1135
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685299638
+|start
+|switch|p1a: Pheromosa|Pheromosa, L75|230/230
+|switch|p2a: Tsareena|Tsareena, L84, F|258/258
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by flyingworkshop)
+|
+|t:|1685299677
+|switch|p2a: Victini|Victini, L78|283/283
+|move|p1a: Pheromosa|Poison Jab|p2a: Victini
+|-damage|p2a: Victini|227/283
+|
+|upkeep
+|turn|2
+|
+|t:|1685299690
+|move|p1a: Pheromosa|Throat Chop|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|107/283
+|-start|p2a: Victini|Throat Chop|[silent]
+|move|p2a: Victini|V-create|p1a: Pheromosa
+|-supereffective|p1a: Pheromosa
+|-enditem|p1a: Pheromosa|Focus Sash
+|-damage|p1a: Pheromosa|1/230
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1685299701
+|move|p1a: Pheromosa|Throat Chop|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|-ability|p1a: Pheromosa|Beast Boost|boost
+|-boost|p1a: Pheromosa|spe|1
+|
+|upkeep
+|
+|t:|1685299715
+|switch|p2a: Crawdaunt|Crawdaunt, L84, F|243/243
+|turn|4
+|
+|t:|1685299719
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Pheromosa
+|-damage|p1a: Pheromosa|0 fnt
+|faint|p1a: Pheromosa
+|
+|upkeep
+|
+|t:|1685299730
+|switch|p1a: Keldeo|Keldeo-Resolute, L79|273/273
+|turn|5
+|
+|t:|1685299748
+|switch|p2a: Tsareena|Tsareena, L84, F|258/258
+|move|p1a: Keldeo|Secret Sword|p2a: Tsareena
+|-damage|p2a: Tsareena|174/258
+|
+|-heal|p2a: Tsareena|190/258|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685299758
+|switch|p1a: Gengar|Gengar, L80, F|227/227
+|move|p2a: Tsareena|Power Whip|p1a: Gengar|[miss]
+|-miss|p2a: Tsareena|p1a: Gengar
+|
+|-heal|p2a: Tsareena|206/258|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685299768
+|move|p1a: Gengar|Nasty Plot|p1a: Gengar
+|-boost|p1a: Gengar|spa|2
+|move|p2a: Tsareena|U-turn|p1a: Gengar
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|208/227
+|
+|t:|1685299772
+|switch|p2a: Obstagoon|Obstagoon, L80, F|280/280|[from] U-turn
+|
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|t:|1685299784
+|-start|p1a: Gengar|Dynamax|Gmax
+|-heal|p1a: Gengar|416/454|[silent]
+|move|p1a: Gengar|Max Knuckle|p2a: Obstagoon
+|-supereffective|p2a: Obstagoon
+|-damage|p2a: Obstagoon|0 fnt
+|-boost|p1a: Gengar|atk|1
+|faint|p2a: Obstagoon
+|-damage|p1a: Gengar|394/454|[from] item: Life Orb
+|
+|upkeep
+|-message|uchiha jeson forfeited.
+|
+|win|flyingworkshop
+|raw|flyingworkshop's rating: 1128 &rarr; <strong>1154</strong><br />(+26 for winning)
+|raw|uchiha jeson's rating: 1135 &rarr; <strong>1109</strong><br />(-26 for losing)
+|l|☆uchiha jeson

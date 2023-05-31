@@ -1,0 +1,362 @@
+|j|☆ddgdsd
+|j|☆La.hellhound
+|t:|1685391848
+|gametype|singles
+|player|p1|ddgdsd|265|1367
+|player|p2|La.hellhound|bruno|1557
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685391848
+|start
+|switch|p1a: Venusaur|Venusaur, L82, M|265/265
+|switch|p2a: Kingdra|Kingdra, L82, M|257/257
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ddgdsd)
+|inactive|La.hellhound has 120 seconds left.
+|
+|t:|1685391887
+|switch|p2a: Chansey|Chansey, L84, F|557/557
+|move|p1a: Venusaur|Giga Drain|p2a: Chansey
+|-damage|p2a: Chansey|514/557
+|
+|upkeep
+|turn|2
+|
+|t:|1685391909
+|move|p1a: Venusaur|Leech Seed|p2a: Chansey
+|-start|p2a: Chansey|move: Leech Seed
+|move|p2a: Chansey|Stealth Rock|p1a: Venusaur
+|-sidestart|p1: ddgdsd|move: Stealth Rock
+|
+|-damage|p2a: Chansey|445/557|[from] Leech Seed|[of] p1a: Venusaur
+|upkeep
+|turn|3
+|
+|t:|1685391922
+|switch|p2a: Glalie|Glalie, L80, F|259/259
+|move|p1a: Venusaur|Substitute|p1a: Venusaur
+|-start|p1a: Venusaur|Substitute
+|-damage|p1a: Venusaur|199/265
+|
+|-heal|p1a: Venusaur|215/265|[from] item: Black Sludge
+|-ability|p2a: Glalie|Moody|boost
+|-boost|p2a: Glalie|spa|2
+|-unboost|p2a: Glalie|atk|1
+|upkeep
+|turn|4
+|
+|t:|1685391933
+|move|p1a: Venusaur|Sludge Bomb|p2a: Glalie
+|-damage|p2a: Glalie|153/259
+|-status|p2a: Glalie|psn
+|move|p2a: Glalie|Substitute|p2a: Glalie
+|-start|p2a: Glalie|Substitute
+|-damage|p2a: Glalie|89/259 psn
+|
+|-heal|p1a: Venusaur|231/265|[from] item: Black Sludge
+|-heal|p2a: Glalie|105/259 psn|[from] item: Leftovers
+|-damage|p2a: Glalie|73/259 psn|[from] psn
+|-ability|p2a: Glalie|Moody|boost
+|-boost|p2a: Glalie|spd|2
+|-unboost|p2a: Glalie|def|1
+|upkeep
+|turn|5
+|
+|t:|1685391952
+|move|p1a: Venusaur|Sludge Bomb|p2a: Glalie
+|-activate|p2a: Glalie|move: Substitute|[damage]
+|move|p2a: Glalie|Freeze-Dry|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-end|p1a: Venusaur|Substitute
+|
+|-heal|p1a: Venusaur|247/265|[from] item: Black Sludge
+|-heal|p2a: Glalie|89/259 psn|[from] item: Leftovers
+|-damage|p2a: Glalie|57/259 psn|[from] psn
+|-ability|p2a: Glalie|Moody|boost
+|-boost|p2a: Glalie|def|2
+|-unboost|p2a: Glalie|atk|1
+|upkeep
+|turn|6
+|inactive|ddgdsd has 120 seconds left.
+|
+|t:|1685391971
+|move|p1a: Venusaur|Substitute|p1a: Venusaur
+|-start|p1a: Venusaur|Substitute
+|-damage|p1a: Venusaur|181/265
+|move|p2a: Glalie|Freeze-Dry|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-end|p1a: Venusaur|Substitute
+|
+|-heal|p1a: Venusaur|197/265|[from] item: Black Sludge
+|-heal|p2a: Glalie|73/259 psn|[from] item: Leftovers
+|-damage|p2a: Glalie|41/259 psn|[from] psn
+|-ability|p2a: Glalie|Moody|boost
+|-boost|p2a: Glalie|spe|2
+|-unboost|p2a: Glalie|def|1
+|upkeep
+|turn|7
+|inactive|ddgdsd has 120 seconds left.
+|
+|t:|1685391993
+|move|p2a: Glalie|Freeze-Dry|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|-heal|p2a: Glalie|57/259 psn|[from] item: Leftovers
+|-damage|p2a: Glalie|25/259 psn|[from] psn
+|-ability|p2a: Glalie|Moody|boost
+|-boost|p2a: Glalie|spd|2
+|-unboost|p2a: Glalie|spe|1
+|upkeep
+|
+|t:|1685392008
+|switch|p1a: Klinklang|Klinklang, L84|238/238
+|-damage|p1a: Klinklang|224/238|[from] Stealth Rock
+|turn|8
+|
+|t:|1685392015
+|move|p2a: Glalie|Freeze-Dry|p1a: Klinklang
+|-resisted|p1a: Klinklang
+|-crit|p1a: Klinklang
+|-damage|p1a: Klinklang|139/238
+|move|p1a: Klinklang|Wild Charge|p2a: Glalie
+|-crit|p2a: Glalie
+|-end|p2a: Glalie|Substitute
+|-damage|p1a: Klinklang|136/238|[from] Recoil|[of] p2a: Glalie
+|
+|-heal|p2a: Glalie|41/259 psn|[from] item: Leftovers
+|-heal|p1a: Klinklang|150/238|[from] item: Leftovers
+|-damage|p2a: Glalie|9/259 psn|[from] psn
+|-ability|p2a: Glalie|Moody|boost
+|-boost|p2a: Glalie|atk|2
+|-unboost|p2a: Glalie|spe|1
+|upkeep
+|turn|9
+|
+|t:|1685392035
+|switch|p2a: Pikachu|Pikachu-World, L92, M|214/214
+|move|p1a: Klinklang|Wild Charge|p2a: Pikachu
+|-ability|p2a: Pikachu|Lightning Rod|boost
+|-boost|p2a: Pikachu|spa|1
+|
+|-heal|p1a: Klinklang|164/238|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685392049
+|switch|p1a: Eternatus|Eternatus, L69|308/308
+|-damage|p1a: Eternatus|270/308|[from] Stealth Rock
+|-ability|p1a: Eternatus|Pressure
+|-start|p2a: Pikachu|Dynamax|
+|-heal|p2a: Pikachu|428/428|[silent]
+|move|p2a: Pikachu|Max Lightning|p1a: Eternatus
+|-resisted|p1a: Eternatus
+|-damage|p1a: Eternatus|105/308
+|-fieldstart|move: Electric Terrain
+|
+|upkeep
+|turn|11
+|
+|t:|1685392065
+|move|p1a: Eternatus|Recover|p1a: Eternatus
+|-heal|p1a: Eternatus|259/308
+|move|p2a: Pikachu|Max Lightning|p1a: Eternatus
+|-resisted|p1a: Eternatus
+|-damage|p1a: Eternatus|41/308
+|
+|upkeep
+|turn|12
+|
+|t:|1685392079
+|-end|p2a: Pikachu|Dynamax
+|-heal|p2a: Pikachu|214/214|[silent]
+|switch|p2a: Glalie|Glalie, L80, F|9/259 psn
+|move|p1a: Eternatus|Recover|p1a: Eternatus
+|-heal|p1a: Eternatus|195/308
+|
+|-heal|p2a: Glalie|25/259 psn|[from] item: Leftovers
+|-damage|p2a: Glalie|0 fnt|[from] psn
+|faint|p2a: Glalie
+|upkeep
+|
+|t:|1685392089
+|switch|p2a: Omastar|Omastar, L82, M|249/249
+|turn|13
+|
+|t:|1685392097
+|move|p1a: Eternatus|Recover|p1a: Eternatus
+|-heal|p1a: Eternatus|308/308
+|move|p2a: Omastar|Shell Smash|p2a: Omastar
+|-unboost|p2a: Omastar|def|1
+|-unboost|p2a: Omastar|spd|1
+|-boost|p2a: Omastar|atk|2
+|-boost|p2a: Omastar|spa|2
+|-boost|p2a: Omastar|spe|2
+|-enditem|p2a: Omastar|White Herb
+|-clearnegativeboost|p2a: Omastar|[silent]
+|
+|upkeep
+|turn|14
+|
+|t:|1685392108
+|move|p2a: Omastar|Ice Beam|p1a: Eternatus
+|-supereffective|p1a: Eternatus
+|-damage|p1a: Eternatus|16/308
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Omastar
+|-damage|p2a: Omastar|123/249
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|15
+|
+|t:|1685392116
+|move|p2a: Omastar|Earth Power|p1a: Eternatus
+|-supereffective|p1a: Eternatus
+|-damage|p1a: Eternatus|0 fnt
+|faint|p1a: Eternatus
+|
+|upkeep
+|
+|t:|1685392137
+|switch|p1a: Ninjask|Ninjask, L86, M|245/245
+|-damage|p1a: Ninjask|123/245|[from] Stealth Rock
+|turn|16
+|
+|t:|1685392148
+|move|p1a: Ninjask|Acrobatics|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|78/249
+|move|p2a: Omastar|Ice Beam|p1a: Ninjask
+|-supereffective|p1a: Ninjask
+|-damage|p1a: Ninjask|0 fnt
+|faint|p1a: Ninjask
+|
+|upkeep
+|
+|t:|1685392157
+|switch|p1a: Liepard|Liepard, L86, M|250/250
+|-damage|p1a: Liepard|219/250|[from] Stealth Rock
+|turn|17
+|
+|t:|1685392165
+|-start|p1a: Liepard|Dynamax|
+|-heal|p1a: Liepard|438/500|[silent]
+|move|p2a: Omastar|Hydro Pump|p1a: Liepard
+|-damage|p1a: Liepard|87/500
+|move|p1a: Liepard|Max Darkness|p2a: Omastar
+|-crit|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+|
+|-heal|p1a: Liepard|102/500|[from] item: Leftovers
+|upkeep
+|
+|t:|1685392178
+|switch|p2a: Chansey|Chansey, L84, F|445/557
+|turn|18
+|
+|t:|1685392185
+|move|p1a: Liepard|Max Darkness|p2a: Chansey
+|-damage|p2a: Chansey|168/557
+|-unboost|p2a: Chansey|spd|1
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|447/557
+|
+|-heal|p1a: Liepard|117/500|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|ddgdsd has 120 seconds left.
+|
+|t:|1685392200
+|move|p1a: Liepard|Max Darkness|p2a: Chansey
+|-damage|p2a: Chansey|146/557
+|-unboost|p2a: Chansey|spd|1
+|move|p2a: Chansey|Toxic|p1a: Liepard
+|-status|p1a: Liepard|tox
+|
+|-heal|p1a: Liepard|132/500 tox|[from] item: Leftovers
+|-damage|p1a: Liepard|117/500 tox|[from] psn
+|upkeep
+|-end|p1a: Liepard|Dynamax
+|-heal|p1a: Liepard|59/250 tox|[silent]
+|turn|20
+|inactive|ddgdsd has 120 seconds left.
+|
+|t:|1685392219
+|switch|p2a: Mr. Rime|Mr. Rime, L86, F|278/278
+|move|p1a: Liepard|Knock Off|p2a: Mr. Rime
+|-supereffective|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|56/278
+|-enditem|p2a: Mr. Rime|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Liepard
+|
+|-heal|p1a: Liepard|74/250 tox|[from] item: Leftovers
+|-damage|p1a: Liepard|44/250 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1685392230
+|move|p1a: Liepard|Knock Off|p2a: Mr. Rime
+|-supereffective|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|0 fnt
+|faint|p2a: Mr. Rime
+|
+|-heal|p1a: Liepard|59/250 tox|[from] item: Leftovers
+|-damage|p1a: Liepard|14/250 tox|[from] psn
+|upkeep
+|
+|t:|1685392237
+|switch|p2a: Kingdra|Kingdra, L82, M|257/257
+|turn|22
+|inactive|ddgdsd has 120 seconds left.
+|
+|t:|1685392244
+|move|p1a: Liepard|Knock Off|p2a: Kingdra
+|-damage|p2a: Kingdra|161/257
+|-enditem|p2a: Kingdra|Life Orb|[from] move: Knock Off|[of] p1a: Liepard
+|move|p2a: Kingdra|Rain Dance|p2a: Kingdra
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Liepard|29/250 tox|[from] item: Leftovers
+|-damage|p1a: Liepard|0 fnt|[from] psn
+|faint|p1a: Liepard
+|upkeep
+|inactive|ddgdsd has 120 seconds left.
+|
+|t:|1685392256
+|switch|p1a: Klinklang|Klinklang, L84|164/238
+|-damage|p1a: Klinklang|150/238|[from] Stealth Rock
+|turn|23
+|inactive|ddgdsd has 120 seconds left.
+|
+|t:|1685392261
+|move|p2a: Kingdra|Hydro Pump|p1a: Klinklang
+|-damage|p1a: Klinklang|0 fnt
+|faint|p1a: Klinklang
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|ddgdsd has 120 seconds left.
+|
+|t:|1685392268
+|switch|p1a: Carbink|Carbink, L86|226/226
+|-damage|p1a: Carbink|198/226|[from] Stealth Rock
+|turn|24
+|
+|t:|1685392274
+|move|p2a: Kingdra|Hydro Pump|p1a: Carbink
+|-supereffective|p1a: Carbink
+|-damage|p1a: Carbink|0 fnt
+|faint|p1a: Carbink
+|
+|win|La.hellhound
+|raw|ddgdsd's rating: 1367 &rarr; <strong>1357</strong><br />(-10 for losing)
+|raw|La.hellhound's rating: 1557 &rarr; <strong>1567</strong><br />(+10 for winning)

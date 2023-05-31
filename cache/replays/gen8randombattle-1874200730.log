@@ -1,0 +1,105 @@
+|j|☆ALPHAMALETERROIST
+|j|☆Hydogen
+|t:|1685472741
+|gametype|singles
+|player|p1|ALPHAMALETERROIST|swimmerf-gen4|1248
+|player|p2|Hydogen|lucas|1340
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685472741
+|start
+|switch|p1a: Decidueye|Decidueye, L86, F|274/274
+|switch|p2a: Dragonite|Dragonite, L75, F|259/259
+|turn|1
+|c|☆ALPHAMALETERROIST|niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernigger
+|c|☆ALPHAMALETERROIST|oopsies
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hydogen)
+|c|☆ALPHAMALETERROIST|i meant to send that  to my chicking eating freind
+|
+|t:|1685472760
+|switch|p1a: Seismitoad|Seismitoad, L84, F|314/314
+|move|p2a: Dragonite|Dual Wingbeat|p1a: Seismitoad|[miss]
+|-miss|p2a: Dragonite|p1a: Seismitoad
+|
+|upkeep
+|turn|2
+|
+|t:|1685472774
+|switch|p2a: Metagross|Metagross, L79|256/256
+|move|p1a: Seismitoad|Stealth Rock|p2a: Metagross
+|-sidestart|p2: Hydogen|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1685472782
+|move|p1a: Seismitoad|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|30/256
+|-enditem|p2a: Metagross|Weakness Policy
+|-boost|p2a: Metagross|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Metagross|spa|2|[from] item: Weakness Policy
+|-damage|p1a: Seismitoad|283/314|[from] item: Life Orb
+|move|p2a: Metagross|Meteor Mash|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|157/314
+|
+|upkeep
+|turn|4
+|c|☆ALPHAMALETERROIST|niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernigger
+|n|‽ALPHAMALETERROIST|alphamaleterroist
+|c|&|/log ALPHAMALETERROIST was locked from talking by Artemis. (☆ALPHAMALETERROIST: niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernigger)
+|c|&|/raw <small>This action was done automatically. Want to learn more about the AI? <a href="https://www.smogon.com/forums/threads/3570628/#post-9056769">Visit the information thread</a>.</small>
+|
+|t:|1685472800
+|switch|p2a: Dragonite|Dragonite, L75, F|259/259
+|-damage|p2a: Dragonite|195/259|[from] Stealth Rock
+|move|p1a: Seismitoad|Earthquake|p2a: Dragonite
+|-immune|p2a: Dragonite
+|
+|upkeep
+|turn|5
+|
+|t:|1685472827
+|switch|p1a: Porygon2|Porygon2, L82|274/274
+|-ability|p1a: Porygon2|Multiscale|[from] ability: Trace|[of] p2a: Dragonite
+|move|p2a: Dragonite|Outrage|p1a: Porygon2
+|-damage|p1a: Porygon2|204/274
+|
+|upkeep
+|turn|6
+|
+|t:|1685472837
+|move|p2a: Dragonite|Outrage|p1a: Porygon2|[from]lockedmove
+|-damage|p1a: Porygon2|62/274
+|move|p1a: Porygon2|Toxic|p2a: Dragonite
+|-status|p2a: Dragonite|tox
+|
+|-damage|p2a: Dragonite|179/259 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1685472845
+|move|p2a: Dragonite|Outrage|p1a: Porygon2|[from]lockedmove
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|-start|p2a: Dragonite|confusion|[fatigue]
+|
+|-damage|p2a: Dragonite|147/259 tox|[from] psn
+|upkeep
+|
+|t:|1685472853
+|switch|p1a: Seismitoad|Seismitoad, L84, F|157/314
+|turn|8
+|-message|ALPHAMALETERROIST lost by having an inappropriate name.
+|
+|win|Hydogen
+|raw|ALPHAMALETERROIST's rating: 1230 &rarr; <strong>1213</strong><br />(-17 for losing)
+|raw|Hydogen's rating: 1340 &rarr; <strong>1354</strong><br />(+14 for winning)

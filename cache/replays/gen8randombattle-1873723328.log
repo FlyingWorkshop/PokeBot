@@ -1,0 +1,361 @@
+|j|☆Shadowpain19
+|j|☆totallynotbgg
+|t:|1685410972
+|gametype|singles
+|player|p1|Shadowpain19|102|1203
+|player|p2|totallynotbgg|169|1308
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685410972
+|start
+|switch|p1a: Oranguru|Oranguru, L86, F|295/295
+|switch|p2a: Toxtricity|Toxtricity, L82, M|257/257
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Shadowpain19)
+|
+|t:|1685410988
+|switch|p2a: Weavile|Weavile, L79, M|240/240
+|switch|p1a: Thundurus|Thundurus-Therian, L80, M|258/258
+|
+|upkeep
+|turn|2
+|
+|t:|1685410998
+|move|p2a: Weavile|Triple Axel|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|204/258
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|90/258
+|-hitcount|p1a: Thundurus|2
+|move|p1a: Thundurus|Volt Switch|p2a: Weavile
+|-damage|p2a: Weavile|80/240
+|
+|t:|1685411004
+|switch|p1a: Whiscash|Whiscash, L86, M|329/329|[from] Volt Switch
+|
+|upkeep
+|turn|3
+|
+|t:|1685411023
+|move|p2a: Weavile|Knock Off|p1a: Whiscash
+|-damage|p1a: Whiscash|209/329
+|-enditem|p1a: Whiscash|Choice Band|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Whiscash|Liquidation|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|upkeep
+|
+|t:|1685411036
+|switch|p2a: Celesteela|Celesteela, L77|276/276
+|turn|4
+|
+|t:|1685411041
+|move|p1a: Whiscash|Stone Edge|p2a: Celesteela
+|-damage|p2a: Celesteela|220/276
+|move|p2a: Celesteela|Leech Seed|p1a: Whiscash
+|-start|p1a: Whiscash|move: Leech Seed
+|
+|-heal|p2a: Celesteela|237/276|[from] item: Leftovers
+|-damage|p1a: Whiscash|168/329|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|276/276|[silent]
+|upkeep
+|turn|5
+|
+|t:|1685411048
+|move|p1a: Whiscash|Stone Edge|p2a: Celesteela
+|-damage|p2a: Celesteela|210/276
+|move|p2a: Celesteela|Leech Seed|p1a: Whiscash|[miss]
+|-miss|p2a: Celesteela|p1a: Whiscash
+|
+|-heal|p2a: Celesteela|227/276|[from] item: Leftovers
+|-damage|p1a: Whiscash|127/329|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|268/276|[silent]
+|upkeep
+|turn|6
+|
+|t:|1685411055
+|move|p1a: Whiscash|Stone Edge|p2a: Celesteela
+|-damage|p2a: Celesteela|206/276
+|move|p2a: Celesteela|Leech Seed||[still]
+|-fail|p2a: Celesteela
+|
+|-heal|p2a: Celesteela|223/276|[from] item: Leftovers
+|-damage|p1a: Whiscash|86/329|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|264/276|[silent]
+|upkeep
+|turn|7
+|
+|t:|1685411060
+|move|p2a: Celesteela|Protect|p2a: Celesteela
+|-singleturn|p2a: Celesteela|Protect
+|move|p1a: Whiscash|Liquidation|p2a: Celesteela
+|-activate|p2a: Celesteela|move: Protect
+|
+|-heal|p2a: Celesteela|276/276|[from] item: Leftovers
+|-damage|p1a: Whiscash|45/329|[from] Leech Seed|[of] p2a: Celesteela
+|upkeep
+|turn|8
+|
+|t:|1685411065
+|move|p1a: Whiscash|Liquidation|p2a: Celesteela
+|-crit|p2a: Celesteela
+|-damage|p2a: Celesteela|168/276
+|move|p2a: Celesteela|Air Slash|p1a: Whiscash
+|-damage|p1a: Whiscash|0 fnt
+|faint|p1a: Whiscash
+|-ability|p2a: Celesteela|Beast Boost|boost
+|-boost|p2a: Celesteela|spa|1
+|
+|-heal|p2a: Celesteela|185/276|[from] item: Leftovers
+|upkeep
+|
+|t:|1685411077
+|switch|p1a: Thundurus|Thundurus-Therian, L80, M|90/258
+|turn|9
+|
+|t:|1685411101
+|switch|p2a: Toxtricity|Toxtricity, L82, M|257/257
+|move|p1a: Thundurus|Volt Switch|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|171/257
+|
+|t:|1685411113
+|switch|p1a: Oranguru|Oranguru, L86, F|295/295|[from] Volt Switch
+|
+|upkeep
+|turn|10
+|
+|t:|1685411134
+|switch|p2a: Reuniclus|Reuniclus, L84, M|322/322
+|move|p1a: Oranguru|Psychic|p2a: Reuniclus
+|-resisted|p2a: Reuniclus
+|-damage|p2a: Reuniclus|275/322
+|
+|upkeep
+|turn|11
+|
+|t:|1685411143
+|switch|p1a: Thundurus|Thundurus-Therian, L80, M|90/258
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|upkeep
+|turn|12
+|
+|t:|1685411154
+|move|p1a: Thundurus|Volt Switch|p2a: Reuniclus
+|-damage|p2a: Reuniclus|179/322
+|
+|t:|1685411160
+|switch|p1a: Mimikyu|Mimikyu, L76, M|209/209|[from] Volt Switch
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|322/322
+|
+|upkeep
+|turn|13
+|
+|t:|1685411168
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|221/322
+|-damage|p1a: Mimikyu|189/209|[from] item: Life Orb
+|move|p2a: Reuniclus|Psychic|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|189/209
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, L76, M
+|-damage|p1a: Mimikyu|163/209|[from] pokemon: Mimikyu-Busted
+|
+|upkeep
+|turn|14
+|
+|t:|1685411177
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|133/322
+|-damage|p1a: Mimikyu|143/209|[from] item: Life Orb
+|move|p2a: Reuniclus|Psychic|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|upkeep
+|
+|t:|1685411183
+|switch|p1a: Lycanroc|Lycanroc-Midnight, L82, F|274/274
+|turn|15
+|
+|t:|1685411190
+|move|p1a: Lycanroc|Iron Tail|p2a: Reuniclus
+|-damage|p2a: Reuniclus|24/322
+|-damage|p1a: Lycanroc|247/274|[from] item: Life Orb
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|185/322
+|
+|upkeep
+|turn|16
+|
+|t:|1685411207
+|switch|p1a: Thundurus|Thundurus-Therian, L80, M|90/258
+|switch|p2a: Toxtricity|Toxtricity, L82, M|171/257
+|
+|upkeep
+|turn|17
+|
+|t:|1685411211
+|move|p1a: Thundurus|Psychic|p2a: Toxtricity
+|-supereffective|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|t:|1685411226
+|switch|p2a: Reuniclus|Reuniclus, L84, M|185/322
+|turn|18
+|
+|t:|1685411239
+|move|p1a: Thundurus|Psychic|p2a: Reuniclus
+|-resisted|p2a: Reuniclus
+|-crit|p2a: Reuniclus
+|-damage|p2a: Reuniclus|98/322
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|259/322
+|
+|upkeep
+|turn|19
+|
+|t:|1685411244
+|switch|p1a: Lycanroc|Lycanroc-Midnight, L82, F|247/274
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|322/322
+|
+|upkeep
+|turn|20
+|
+|t:|1685411251
+|-start|p1a: Lycanroc|Dynamax|
+|-heal|p1a: Lycanroc|494/548|[silent]
+|move|p1a: Lycanroc|Max Knuckle|p2a: Reuniclus
+|-resisted|p2a: Reuniclus
+|-damage|p2a: Reuniclus|270/322
+|-boost|p1a: Lycanroc|atk|1
+|-damage|p1a: Lycanroc|467/548|[from] item: Life Orb
+|move|p2a: Reuniclus|Psychic|p1a: Lycanroc
+|-damage|p1a: Lycanroc|294/548
+|
+|upkeep
+|turn|21
+|
+|t:|1685411278
+|move|p1a: Lycanroc|Max Knuckle|p2a: Reuniclus
+|-resisted|p2a: Reuniclus
+|-damage|p2a: Reuniclus|189/322
+|-boost|p1a: Lycanroc|atk|1
+|-damage|p1a: Lycanroc|267/548|[from] item: Life Orb
+|move|p2a: Reuniclus|Psychic|p1a: Lycanroc
+|-damage|p1a: Lycanroc|94/548
+|
+|upkeep
+|turn|22
+|
+|t:|1685411287
+|move|p1a: Lycanroc|Max Rockfall|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|-weather|Sandstorm
+|faint|p2a: Reuniclus
+|-damage|p1a: Lycanroc|67/548|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1685411295
+|switch|p2a: Blaziken|Blaziken, L76, M|247/247
+|-end|p1a: Lycanroc|Dynamax
+|-heal|p1a: Lycanroc|34/274|[silent]
+|turn|23
+|
+|t:|1685411304
+|-start|p2a: Blaziken|Dynamax|
+|-heal|p2a: Blaziken|494/494|[silent]
+|move|p2a: Blaziken|Max Guard|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Max Guard
+|move|p1a: Lycanroc|Stone Edge|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Max Guard
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blaziken|479/494|[from] Sandstorm
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|24
+|
+|t:|1685411312
+|move|p2a: Blaziken|Max Knuckle|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|-boost|p2a: Blaziken|atk|1
+|faint|p1a: Lycanroc
+|-damage|p2a: Blaziken|455/494|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blaziken|440/494|[from] Sandstorm
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1685411328
+|switch|p1a: Thundurus|Thundurus-Therian, L80, M|90/258
+|turn|25
+|
+|t:|1685411334
+|move|p2a: Blaziken|Max Flare|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|-weather|SunnyDay
+|faint|p1a: Thundurus
+|-damage|p2a: Blaziken|416/494|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1685411336
+|switch|p1a: Oranguru|Oranguru, L86, F|295/295
+|-end|p2a: Blaziken|Dynamax
+|-heal|p2a: Blaziken|208/247|[silent]
+|turn|26
+|
+|t:|1685411344
+|move|p2a: Blaziken|Flare Blitz|p1a: Oranguru
+|-damage|p1a: Oranguru|0 fnt
+|faint|p1a: Oranguru
+|-damage|p2a: Blaziken|111/247|[from] Recoil
+|-damage|p2a: Blaziken|87/247|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1685411354
+|switch|p1a: Crobat|Crobat, L82, F|274/274
+|turn|27
+|
+|t:|1685411359
+|move|p2a: Blaziken|Flare Blitz|p1a: Crobat
+|-damage|p1a: Crobat|0 fnt
+|faint|p1a: Crobat
+|-damage|p2a: Blaziken|0 fnt|[from] Recoil
+|faint|p2a: Blaziken
+|
+|win|totallynotbgg
+|raw|Shadowpain19's rating: 1203 &rarr; <strong>1185</strong><br />(-18 for losing)
+|raw|totallynotbgg's rating: 1308 &rarr; <strong>1322</strong><br />(+14 for winning)

@@ -1,0 +1,87 @@
+|j|☆Big ol Tim
+|j|☆Hjker
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1685289843
+|gametype|singles
+|player|p1|Big ol Tim|swimmer|
+|player|p2|Hjker|169|
+|teamsize|p1|3
+|teamsize|p2|3
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Sirfetch’d, L82, F|
+|poke|p1|Bewear, L82, M|
+|poke|p1|Sharpedo, L82, F|
+|poke|p2|Groudon, L73|
+|poke|p2|Regidrago, L78|
+|poke|p2|Tapu Fini, L78|
+|teampreview|1
+|j|*Lady Monita
+|j| Hiusi guy
+|j| MitchTEM
+|
+|t:|1685289873
+|start
+|switch|p1a: Bewear|Bewear, L82, M|331/331
+|switch|p2a: Groudon|Groudon, L73|266/266
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|turn|1
+|
+|t:|1685289877
+|-start|p1a: Bewear|Dynamax|
+|-heal|p1a: Bewear|662/662|[silent]
+|move|p2a: Groudon|Thunder Wave|p1a: Bewear
+|-status|p1a: Bewear|par
+|move|p1a: Bewear|Max Strike|p2a: Groudon
+|-damage|p2a: Groudon|94/266
+|-unboost|p2a: Groudon|spe|1
+|-damage|p1a: Bewear|629/662 par|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|110/266|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685289892
+|-start|p2a: Groudon|Dynamax|
+|-heal|p2a: Groudon|220/532|[silent]
+|move|p2a: Groudon|Max Guard|p2a: Groudon
+|-singleturn|p2a: Groudon|Max Guard
+|move|p1a: Bewear|Max Strike|p2a: Groudon
+|-activate|p2a: Groudon|move: Max Guard
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|236/532|[from] item: Leftovers
+|upkeep
+|turn|3
+|j| AceKing14
+|l| MitchTEM
+|inactive|Big ol Tim has 120 seconds left.
+|
+|t:|1685289927
+|move|p2a: Groudon|Max Quake|p1a: Bewear
+|-damage|p1a: Bewear|440/662 par
+|-boost|p2a: Groudon|spd|1
+|move|p1a: Bewear|Max Hailstorm|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|12/532
+|-weather|Hail
+|-damage|p1a: Bewear|407/662 par|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Groudon|0 fnt|[from] Hail
+|-damage|p1a: Bewear|387/662 par|[from] Hail
+|faint|p2a: Groudon
+|
+|win|Big ol Tim
+|upkeep
+|n|☆Big ol Tim|bigoltim
+|n|☆Hjker|hjker
+|n|*Lady Monita|ladymonita
+|n| Hiusi guy|hiusiguy
+|n| AceKing14|aceking14

@@ -1,0 +1,229 @@
+|j|☆Hikari634
+|j|☆Snorlax's Crackers
+|t:|1685451069
+|gametype|singles
+|player|p1|Hikari634|dawn|1084
+|player|p2|Snorlax's Crackers|lady|1094
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685451069
+|start
+|switch|p1a: Conkeldurr|Conkeldurr, L80, M|299/299
+|switch|p2a: Ferrothorn|Ferrothorn, L78, F|244/244
+|turn|1
+|
+|t:|1685451082
+|move|p1a: Conkeldurr|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|182/244
+|-damage|p1a: Conkeldurr|262/299|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Conkeldurr
+|move|p2a: Ferrothorn|Leech Seed|p1a: Conkeldurr
+|-start|p1a: Conkeldurr|move: Leech Seed
+|
+|-damage|p1a: Conkeldurr|225/299|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|219/244|[silent]
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1685451098
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Conkeldurr|Close Combat|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-damage|p1a: Conkeldurr|188/299 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|244/244|[silent]
+|-damage|p1a: Conkeldurr|170/299 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1685451112
+|switch|p1a: Turtonator|Turtonator, L84, F|238/238
+|switch|p2a: Garbodor|Garbodor, L87, M|281/281
+|
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Snorlax's Crackers)
+|
+|t:|1685451123
+|move|p2a: Garbodor|Stomping Tantrum|p1a: Turtonator
+|-supereffective|p1a: Turtonator
+|-damage|p1a: Turtonator|164/238
+|move|p1a: Turtonator|Earthquake|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|161/281
+|
+|-heal|p2a: Garbodor|178/281|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1685451138
+|move|p2a: Garbodor|Toxic Spikes|p1a: Turtonator
+|-sidestart|p1: Hikari634|move: Toxic Spikes
+|move|p1a: Turtonator|Fire Blast|p2a: Garbodor|[miss]
+|-miss|p1a: Turtonator|p2a: Garbodor
+|
+|-heal|p2a: Garbodor|195/281|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1685451153
+|move|p2a: Garbodor|Toxic Spikes|p1a: Turtonator
+|-sidestart|p1: Hikari634|move: Toxic Spikes
+|move|p1a: Turtonator|Draco Meteor|p2a: Garbodor|[miss]
+|-miss|p1a: Turtonator|p2a: Garbodor
+|
+|-heal|p2a: Garbodor|212/281|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1685451163
+|move|p2a: Garbodor|Spikes|p1a: Turtonator
+|-sidestart|p1: Hikari634|Spikes
+|move|p1a: Turtonator|Draco Meteor|p2a: Garbodor
+|-damage|p2a: Garbodor|89/281
+|-unboost|p1a: Turtonator|spa|2
+|
+|-heal|p2a: Garbodor|106/281|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1685451180
+|switch|p1a: Mawile|Mawile, L86, M|226/226
+|-damage|p1a: Mawile|198/226|[from] Spikes
+|move|p2a: Garbodor|Spikes|p1a: Mawile
+|-sidestart|p1: Hikari634|Spikes
+|
+|-heal|p2a: Garbodor|123/281|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1685451194
+|move|p2a: Garbodor|Spikes|p1a: Mawile
+|-sidestart|p1: Hikari634|Spikes
+|move|p1a: Mawile|Swords Dance|p1a: Mawile
+|-boost|p1a: Mawile|atk|2
+|
+|-heal|p2a: Garbodor|140/281|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1685451204
+|move|p2a: Garbodor|Stomping Tantrum|p1a: Mawile
+|-supereffective|p1a: Mawile
+|-damage|p1a: Mawile|94/226
+|move|p1a: Mawile|Swords Dance|p1a: Mawile
+|-boost|p1a: Mawile|atk|2
+|
+|-heal|p2a: Garbodor|157/281|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1685451220
+|-start|p1a: Mawile|Dynamax|
+|-heal|p1a: Mawile|188/452|[silent]
+|move|p2a: Garbodor|Spikes||[still]
+|-fail|p2a: Garbodor
+|move|p1a: Mawile|Max Steelspike|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|-boost|p1a: Mawile|def|1
+|faint|p2a: Garbodor
+|-damage|p1a: Mawile|166/452|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685451240
+|switch|p2a: Rotom|Rotom-Mow, L86|226/226
+|turn|12
+|
+|t:|1685451255
+|move|p2a: Rotom|Volt Switch|p1a: Mawile
+|-damage|p1a: Mawile|48/452
+|
+|t:|1685451263
+|switch|p2a: Tyrantrum|Tyrantrum, L82, M|269/269|[from] Volt Switch
+|move|p1a: Mawile|Max Starfall|p2a: Tyrantrum
+|-supereffective|p2a: Tyrantrum
+|-damage|p2a: Tyrantrum|0 fnt
+|-fieldstart|move: Misty Terrain
+|faint|p2a: Tyrantrum
+|-damage|p1a: Mawile|26/452|[from] item: Life Orb
+|
+|upkeep
+|inactive|Snorlax's Crackers has 120 seconds left.
+|
+|t:|1685451273
+|switch|p2a: Rotom|Rotom-Mow, L86|226/226
+|turn|13
+|
+|t:|1685451279
+|move|p2a: Rotom|Thunderbolt|p1a: Mawile
+|-crit|p1a: Mawile
+|-damage|p1a: Mawile|0 fnt
+|faint|p1a: Mawile
+|
+|upkeep
+|
+|t:|1685451287
+|switch|p1a: Claydol|Claydol, L86|243/243
+|turn|14
+|
+|t:|1685451294
+|move|p2a: Rotom|Leaf Storm|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|25/243
+|-unboost|p2a: Rotom|spa|2
+|move|p1a: Claydol|Stealth Rock|p2a: Rotom
+|-sidestart|p2: Snorlax's Crackers|move: Stealth Rock
+|
+|-heal|p1a: Claydol|40/243|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685451308
+|move|p2a: Rotom|Leaf Storm|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Claydol
+|
+|upkeep
+|
+|t:|1685451319
+|switch|p1a: Emolga|Emolga, L88, F|240/240
+|turn|16
+|
+|t:|1685451334
+|switch|p2a: Ferrothorn|Ferrothorn, L78, F|244/244
+|-damage|p2a: Ferrothorn|229/244|[from] Stealth Rock
+|move|p1a: Emolga|Toxic|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|17
+|
+|t:|1685451345
+|move|p1a: Emolga|Air Slash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|169/244
+|move|p2a: Ferrothorn|Leech Seed|p1a: Emolga
+|-start|p1a: Emolga|move: Leech Seed
+|
+|-damage|p1a: Emolga|210/240|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|199/244|[silent]
+|upkeep
+|turn|18
+|c|☆Hikari634|Gay shit
+|-message|Hikari634 forfeited.
+|
+|win|Snorlax's Crackers
+|raw|Hikari634's rating: 1084 &rarr; <strong>1062</strong><br />(-22 for losing)
+|raw|Snorlax&apos;s Crackers's rating: 1094 &rarr; <strong>1119</strong><br />(+25 for winning)

@@ -1,0 +1,266 @@
+|j|☆TheBugsHaveArrived
+|j|☆Irpachuza!
+|t:|1685290250
+|gametype|singles
+|player|p1|TheBugsHaveArrived|bugsy|
+|player|p2|Irpachuza!|#irpachuza|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685290250
+|start
+|switch|p1a: Jolteon|Jolteon, L82, F|241/241
+|switch|p2a: Salamence|Salamence, L76, F|269/269
+|turn|1
+|c|☆Irpachuza!|gl hf
+|c|☆TheBugsHaveArrived|u2
+|
+|t:|1685290270
+|switch|p2a: Hippowdon|Hippowdon, L80, F|304/304
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Jolteon|Volt Switch|p2a: Hippowdon
+|-immune|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|226/241|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1685290280
+|switch|p1a: Runerigus|Runerigus, L84, F|235/235
+|move|p2a: Hippowdon|Stealth Rock|p1a: Runerigus
+|-sidestart|p1: TheBugsHaveArrived|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1685290292
+|switch|p2a: Glaceon|Glaceon, L88, M|258/258
+|move|p1a: Runerigus|Stealth Rock|p2a: Glaceon
+|-sidestart|p2: Irpachuza!|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Glaceon|242/258|[from] Sandstorm
+|-heal|p2a: Glaceon|258/258|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685290307
+|move|p2a: Glaceon|Toxic|p1a: Runerigus
+|-status|p1a: Runerigus|tox
+|move|p1a: Runerigus|Toxic Spikes|p2a: Glaceon
+|-sidestart|p2: Irpachuza!|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Glaceon|242/258|[from] Sandstorm
+|-heal|p2a: Glaceon|258/258|[from] item: Leftovers
+|-damage|p1a: Runerigus|221/235 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1685290320
+|move|p2a: Glaceon|Freeze-Dry|p1a: Runerigus
+|-supereffective|p1a: Runerigus
+|-damage|p1a: Runerigus|35/235 tox
+|move|p1a: Runerigus|Toxic Spikes|p2a: Glaceon
+|-sidestart|p2: Irpachuza!|move: Toxic Spikes
+|
+|-weather|none
+|-heal|p1a: Runerigus|49/235 tox|[from] item: Leftovers
+|-damage|p1a: Runerigus|21/235 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1685290334
+|move|p2a: Glaceon|Wish|p2a: Glaceon
+|move|p1a: Runerigus|Poltergeist|p2a: Glaceon
+|-activate|p2a: Glaceon|move: Poltergeist|Leftovers
+|-damage|p2a: Glaceon|171/258
+|
+|-heal|p2a: Glaceon|187/258|[from] item: Leftovers
+|-heal|p1a: Runerigus|35/235 tox|[from] item: Leftovers
+|-damage|p1a: Runerigus|0 fnt|[from] psn
+|faint|p1a: Runerigus
+|upkeep
+|
+|t:|1685290343
+|switch|p1a: Shuckle|Shuckle, L87, F|177/177
+|-damage|p1a: Shuckle|133/177|[from] Stealth Rock
+|turn|7
+|
+|t:|1685290351
+|move|p2a: Glaceon|Toxic|p1a: Shuckle
+|-status|p1a: Shuckle|tox
+|move|p1a: Shuckle|Sticky Web|p2a: Glaceon
+|-sidestart|p2: Irpachuza!|move: Sticky Web
+|
+|-heal|p2a: Glaceon|258/258|[from] move: Wish|[wisher] Glaceon
+|-damage|p1a: Shuckle|122/177 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1685290365
+|move|p2a: Glaceon|Freeze-Dry|p1a: Shuckle
+|-damage|p1a: Shuckle|79/177 tox
+|move|p1a: Shuckle|Toxic|p2a: Glaceon
+|-status|p2a: Glaceon|tox
+|
+|-damage|p2a: Glaceon|242/258 tox|[from] psn
+|-damage|p1a: Shuckle|57/177 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1685290384
+|move|p2a: Glaceon|Wish|p2a: Glaceon
+|move|p1a: Shuckle|Knock Off|p2a: Glaceon
+|-damage|p2a: Glaceon|222/258 tox
+|-enditem|p2a: Glaceon|Leftovers|[from] move: Knock Off|[of] p1a: Shuckle
+|
+|-damage|p2a: Glaceon|190/258 tox|[from] psn
+|-damage|p1a: Shuckle|24/177 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1685290393
+|switch|p2a: Salamence|Salamence, L76, F|269/269
+|move|p1a: Shuckle|Knock Off|p2a: Salamence
+|-damage|p2a: Salamence|241/269
+|-enditem|p2a: Salamence|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Shuckle
+|
+|-heal|p2a: Salamence|269/269|[from] move: Wish|[wisher] Glaceon
+|-damage|p1a: Shuckle|0 fnt|[from] psn
+|faint|p1a: Shuckle
+|upkeep
+|
+|t:|1685290411
+|switch|p1a: Beheeyem|Beheeyem, L86, M|269/269
+|-damage|p1a: Beheeyem|236/269|[from] Stealth Rock
+|turn|11
+|
+|t:|1685290419
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|move|p1a: Beheeyem|Psychic|p2a: Salamence
+|-damage|p2a: Salamence|7/269
+|
+|upkeep
+|turn|12
+|c|☆TheBugsHaveArrived|holy heck
+|
+|t:|1685290428
+|move|p2a: Salamence|Outrage|p1a: Beheeyem
+|-damage|p1a: Beheeyem|0 fnt
+|faint|p1a: Beheeyem
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|upkeep
+|c|☆TheBugsHaveArrived|I knew I should've dmaxed
+|
+|t:|1685290455
+|switch|p1a: Suicune|Suicune, L80|291/291
+|-damage|p1a: Suicune|255/291|[from] Stealth Rock
+|-ability|p1a: Suicune|Pressure
+|turn|13
+|
+|t:|1685290463
+|move|p2a: Salamence|Outrage|p1a: Suicune|[from]lockedmove
+|-damage|p1a: Suicune|6/291
+|-start|p2a: Salamence|confusion|[fatigue]
+|move|p1a: Suicune|Scald|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|-heal|p1a: Suicune|24/291|[from] item: Leftovers
+|upkeep
+|
+|t:|1685290479
+|switch|p2a: Silvally|Silvally-Flying, L84|297/297
+|-damage|p2a: Silvally|223/297|[from] Stealth Rock
+|turn|14
+|
+|t:|1685290490
+|move|p2a: Silvally|Multi-Attack|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|faint|p1a: Suicune
+|
+|upkeep
+|
+|t:|1685290495
+|switch|p1a: Jolteon|Jolteon, L82, F|226/241
+|-damage|p1a: Jolteon|196/241|[from] Stealth Rock
+|turn|15
+|
+|t:|1685290504
+|switch|p2a: Glaceon|Glaceon, L88, M|190/258 tox
+|-damage|p2a: Glaceon|126/258 tox|[from] Stealth Rock
+|-activate|p2a: Glaceon|move: Sticky Web
+|-unboost|p2a: Glaceon|spe|1
+|move|p1a: Jolteon|Hyper Voice|p2a: Glaceon
+|-damage|p2a: Glaceon|37/258 tox
+|
+|-damage|p2a: Glaceon|21/258 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1685290513
+|move|p1a: Jolteon|Hyper Voice|p2a: Glaceon
+|-damage|p2a: Glaceon|0 fnt
+|faint|p2a: Glaceon
+|
+|upkeep
+|
+|t:|1685290517
+|switch|p2a: Solgaleo|Solgaleo, L72|316/316
+|-damage|p2a: Solgaleo|297/316|[from] Stealth Rock
+|-activate|p2a: Solgaleo|move: Sticky Web
+|-fail|p2a: Solgaleo|unboost|[from] ability: Full Metal Body|[of] p2a: Solgaleo
+|turn|17
+|
+|t:|1685290531
+|-start|p1a: Jolteon|Dynamax|
+|-heal|p1a: Jolteon|392/482|[silent]
+|move|p1a: Jolteon|Max Phantasm|p2a: Solgaleo
+|-supereffective|p2a: Solgaleo
+|-damage|p2a: Solgaleo|73/316
+|-fail|p2a: Solgaleo|unboost|[from] ability: Full Metal Body|[of] p2a: Solgaleo
+|-enditem|p2a: Solgaleo|Weakness Policy
+|-boost|p2a: Solgaleo|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Solgaleo|spa|2|[from] item: Weakness Policy
+|move|p2a: Solgaleo|Flame Charge|p1a: Jolteon
+|-damage|p1a: Jolteon|300/482
+|-boost|p2a: Solgaleo|spe|1
+|
+|upkeep
+|turn|18
+|
+|t:|1685290549
+|-start|p2a: Solgaleo|Dynamax|
+|-heal|p2a: Solgaleo|146/632|[silent]
+|move|p2a: Solgaleo|Max Mindstorm|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|-fieldstart|move: Psychic Terrain
+|faint|p1a: Jolteon
+|
+|upkeep
+|
+|t:|1685290552
+|switch|p1a: Cramorant|Cramorant, L84, M|255/255
+|turn|19
+|c|☆TheBugsHaveArrived|ggwp
+|
+|t:|1685290556
+|move|p2a: Solgaleo|Max Mindstorm|p1a: Cramorant
+|-damage|p1a: Cramorant|0 fnt
+|faint|p1a: Cramorant
+|
+|win|Irpachuza!
+|c|☆Irpachuza!|gg

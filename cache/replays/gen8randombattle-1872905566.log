@@ -1,0 +1,278 @@
+|j|☆Darkrai1717
+|j|☆Drak4y
+|t:|1685299203
+|gametype|singles
+|player|p1|Darkrai1717|265|
+|player|p2|Drak4y|scientistf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685299203
+|start
+|switch|p1a: Talonflame|Talonflame, L81, F|259/259
+|switch|p2a: Copperajah|Copperajah, L84, M|342/342
+|turn|1
+|j| 5attab
+|j| Iamsleep
+|c| Iamsleep|good luck
+|c|☆Darkrai1717|gl hf
+|
+|t:|1685299235
+|move|p1a: Talonflame|Swords Dance|p1a: Talonflame
+|-boost|p1a: Talonflame|atk|2
+|move|p2a: Copperajah|Rock Slide|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|upkeep
+|c|☆Darkrai1717|ah
+|
+|t:|1685299250
+|switch|p1a: Stunfisk|Stunfisk-Galar, L84, F|320/320
+|turn|2
+|
+|t:|1685299307
+|switch|p2a: Cramorant|Cramorant, L84, M|255/255
+|move|p1a: Stunfisk|Earthquake|p2a: Cramorant
+|-immune|p2a: Cramorant
+|
+|upkeep
+|turn|3
+|
+|t:|1685299348
+|switch|p1a: Hydreigon|Hydreigon, L80, M|278/278
+|move|p2a: Cramorant|Superpower|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|116/278
+|-unboost|p2a: Cramorant|atk|1
+|-unboost|p2a: Cramorant|def|1
+|
+|-heal|p1a: Hydreigon|133/278|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685299363
+|move|p1a: Hydreigon|Roost|p1a: Hydreigon
+|-heal|p1a: Hydreigon|272/278
+|-singleturn|p1a: Hydreigon|move: Roost
+|move|p2a: Cramorant|Superpower|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|160/278
+|-unboost|p2a: Cramorant|atk|1
+|-unboost|p2a: Cramorant|def|1
+|
+|-heal|p1a: Hydreigon|177/278|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|☆Drak4y|If Jeremy is here lol grojian
+|
+|t:|1685299384
+|switch|p2a: Sylveon|Sylveon, L84, F|297/297
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|
+|-heal|p1a: Hydreigon|194/278|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685299401
+|switch|p1a: Nidoking|Nidoking, L82, M|267/267
+|move|p2a: Sylveon|Hyper Voice|p1a: Nidoking
+|-resisted|p1a: Nidoking
+|-damage|p1a: Nidoking|189/267
+|
+|upkeep
+|turn|7
+|
+|t:|1685299434
+|switch|p2a: Cramorant|Cramorant, L84, M|255/255
+|move|p1a: Nidoking|Substitute|p1a: Nidoking
+|-start|p1a: Nidoking|Substitute
+|-damage|p1a: Nidoking|123/267
+|
+|upkeep
+|turn|8
+|
+|t:|1685299452
+|move|p2a: Cramorant|Surf|p1a: Nidoking
+|-formechange|p2a: Cramorant|Cramorant-Gulping|
+|-supereffective|p1a: Nidoking
+|-end|p1a: Nidoking|Substitute
+|move|p1a: Nidoking|Ice Beam|p2a: Cramorant
+|-damage|p2a: Cramorant|171/255
+|-damage|p1a: Nidoking|57/267|[from] ability: Gulp Missile|[of] p2a: Cramorant
+|-unboost|p1a: Nidoking|def|1
+|-formechange|p2a: Cramorant|Cramorant|
+|
+|upkeep
+|turn|9
+|
+|t:|1685299479
+|switch|p1a: Chansey|Chansey, L84, F|557/557
+|move|p2a: Cramorant|Surf|p1a: Chansey
+|-formechange|p2a: Cramorant|Cramorant-Gulping|
+|-damage|p1a: Chansey|505/557
+|
+|upkeep
+|turn|10
+|
+|t:|1685299496
+|move|p2a: Cramorant|Superpower|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|149/557
+|-unboost|p2a: Cramorant|atk|1
+|-unboost|p2a: Cramorant|def|1
+|move|p1a: Chansey|Toxic|p2a: Cramorant
+|-status|p2a: Cramorant|tox
+|
+|-damage|p2a: Cramorant|156/255 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1685299525
+|move|p2a: Cramorant|Superpower|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|-unboost|p2a: Cramorant|atk|1
+|-unboost|p2a: Cramorant|def|1
+|faint|p1a: Chansey
+|
+|-damage|p2a: Cramorant|126/255 tox|[from] psn
+|upkeep
+|
+|t:|1685299536
+|switch|p1a: Hydreigon|Hydreigon, L80, M|194/278
+|turn|12
+|
+|t:|1685299542
+|switch|p2a: Sylveon|Sylveon, L84, F|297/297
+|move|p1a: Hydreigon|Dark Pulse|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|264/297
+|
+|-heal|p1a: Hydreigon|211/278|[from] item: Leftovers
+|-heal|p2a: Sylveon|282/297|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685299554
+|switch|p1a: Stunfisk|Stunfisk-Galar, L84, F|320/320
+|move|p2a: Sylveon|Hyper Voice|p1a: Stunfisk
+|-resisted|p1a: Stunfisk
+|-crit|p1a: Stunfisk
+|-damage|p1a: Stunfisk|223/320
+|
+|-heal|p2a: Sylveon|297/297|[from] item: Leftovers
+|-heal|p1a: Stunfisk|243/320|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685299579
+|switch|p2a: Cramorant|Cramorant, L84, M|126/255 tox
+|move|p1a: Stunfisk|Thunder Wave||[still]
+|-fail|p1a: Stunfisk
+|
+|-heal|p1a: Stunfisk|263/320|[from] item: Leftovers
+|-damage|p2a: Cramorant|111/255 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1685299591
+|switch|p1a: Hydreigon|Hydreigon, L80, M|211/278
+|move|p2a: Cramorant|Superpower|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-crit|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-unboost|p2a: Cramorant|atk|1
+|-unboost|p2a: Cramorant|def|1
+|faint|p1a: Hydreigon
+|
+|-damage|p2a: Cramorant|81/255 tox|[from] psn
+|upkeep
+|
+|t:|1685299601
+|switch|p1a: Malamar|Malamar, L80, F|269/269
+|turn|16
+|
+|t:|1685299608
+|move|p2a: Cramorant|Roost|p2a: Cramorant
+|-heal|p2a: Cramorant|209/255 tox
+|-singleturn|p2a: Cramorant|move: Roost
+|move|p1a: Malamar|Knock Off|p2a: Cramorant
+|-damage|p2a: Cramorant|4/255 tox
+|-enditem|p2a: Cramorant|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Malamar
+|
+|-damage|p2a: Cramorant|0 fnt|[from] psn
+|faint|p2a: Cramorant
+|upkeep
+|c|☆Darkrai1717|what the hell
+|
+|t:|1685299633
+|switch|p2a: Sylveon|Sylveon, L84, F|297/297
+|turn|17
+|
+|t:|1685299653
+|move|p1a: Malamar|Knock Off|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|242/297
+|-enditem|p2a: Sylveon|Leftovers|[from] move: Knock Off|[of] p1a: Malamar
+|move|p2a: Sylveon|Hyper Voice|p1a: Malamar
+|-supereffective|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+|
+|upkeep
+|
+|t:|1685299660
+|switch|p1a: Nidoking|Nidoking, L82, M|57/267
+|turn|18
+|
+|t:|1685299723
+|switch|p2a: Copperajah|Copperajah, L84, M|342/342
+|move|p1a: Nidoking|Earth Power|p2a: Copperajah
+|-supereffective|p2a: Copperajah
+|-damage|p2a: Copperajah|0 fnt
+|faint|p2a: Copperajah
+|
+|upkeep
+|c|☆Darkrai1717|THE READ W
+|
+|t:|1685299733
+|switch|p2a: Bewear|Bewear, L82, M|331/331
+|turn|19
+|
+|t:|1685299752
+|move|p1a: Nidoking|Sludge Wave|p2a: Bewear
+|-damage|p2a: Bewear|139/331
+|move|p2a: Bewear|Ice Punch|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|-damage|p2a: Bewear|106/331|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685299759
+|switch|p1a: Stunfisk|Stunfisk-Galar, L84, F|263/320
+|turn|20
+|c|☆Darkrai1717|erm
+|
+|t:|1685299789
+|move|p2a: Bewear|Close Combat|p1a: Stunfisk
+|-supereffective|p1a: Stunfisk
+|-damage|p1a: Stunfisk|0 fnt
+|-unboost|p2a: Bewear|def|1
+|-unboost|p2a: Bewear|spd|1
+|faint|p1a: Stunfisk
+|-damage|p2a: Bewear|73/331|[from] item: Life Orb
+|
+|win|Drak4y
+|c|☆Darkrai1717|yeah
+|c| Iamsleep|gg
+|c|☆Darkrai1717|gg

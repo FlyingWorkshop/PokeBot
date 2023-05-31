@@ -1,0 +1,409 @@
+|j|☆igz11
+|j|☆Baconator2.0
+|t:|1685249314
+|gametype|singles
+|player|p1|igz11|170|1244
+|player|p2|Baconator2.0|pokemonranger-gen4|1053
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685249314
+|start
+|switch|p1a: Magearna|Magearna, L76|247/247
+|switch|p2a: Slowbro|Slowbro, L84, M|297/297
+|turn|1
+|c|☆Baconator2.0|:P
+|
+|t:|1685249329
+|switch|p1a: Drifblim|Drifblim, L84, M|389/389
+|move|p2a: Slowbro|Scald|p1a: Drifblim
+|-damage|p1a: Drifblim|269/389
+|-status|p1a: Drifblim|brn
+|
+|-damage|p1a: Drifblim|245/389 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1685249337
+|move|p1a: Drifblim|Shadow Ball|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|121/297
+|move|p2a: Slowbro|Ice Beam|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|51/389 brn
+|-enditem|p1a: Drifblim|Sitrus Berry|[eat]
+|-heal|p1a: Drifblim|148/389 brn|[from] item: Sitrus Berry
+|
+|-heal|p2a: Slowbro|139/297|[from] item: Leftovers
+|-damage|p1a: Drifblim|124/389 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1685249344
+|move|p1a: Drifblim|Shadow Ball|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|-damage|p1a: Drifblim|100/389 brn|[from] brn
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by igz11)
+|
+|t:|1685249348
+|switch|p2a: Lanturn|Lanturn, L86, F|355/355
+|turn|4
+|
+|t:|1685249352
+|move|p1a: Drifblim|Shadow Ball|p2a: Lanturn
+|-damage|p2a: Lanturn|267/355
+|move|p2a: Lanturn|Thunderbolt|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|0 fnt
+|faint|p1a: Drifblim
+|
+|-heal|p2a: Lanturn|289/355|[from] item: Leftovers
+|upkeep
+|
+|t:|1685249356
+|switch|p1a: Excadrill|Excadrill, L78, M|300/300
+|turn|5
+|
+|t:|1685249361
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Lanturn|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|96/300
+|
+|-heal|p2a: Lanturn|311/355|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685249366
+|move|p1a: Excadrill|Earthquake|p2a: Lanturn
+|-supereffective|p2a: Lanturn
+|-damage|p2a: Lanturn|0 fnt
+|faint|p2a: Lanturn
+|-damage|p1a: Excadrill|66/300|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685249372
+|switch|p2a: Stoutland|Stoutland, L86, M|286/286
+|-ability|p2a: Stoutland|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|turn|7
+|
+|t:|1685249380
+|switch|p1a: Spectrier|Spectrier, L74|270/270
+|move|p2a: Stoutland|Superpower|p1a: Spectrier
+|-immune|p1a: Spectrier
+|
+|upkeep
+|turn|8
+|
+|t:|1685249387
+|switch|p2a: Heatran|Heatran, L78, F|270/270
+|move|p1a: Spectrier|Substitute|p1a: Spectrier
+|-start|p1a: Spectrier|Substitute
+|-damage|p1a: Spectrier|203/270
+|
+|-heal|p1a: Spectrier|219/270|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1685249392
+|move|p1a: Spectrier|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|192/270
+|move|p2a: Heatran|Lava Plume|p1a: Spectrier
+|-end|p1a: Spectrier|Substitute
+|
+|-heal|p1a: Spectrier|235/270|[from] item: Leftovers
+|-heal|p2a: Heatran|208/270|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685249395
+|switch|p1a: Carracosta|Carracosta, L84, F|262/262
+|move|p2a: Heatran|Toxic|p1a: Carracosta
+|-status|p1a: Carracosta|tox
+|
+|-heal|p2a: Heatran|224/270|[from] item: Leftovers
+|-damage|p1a: Carracosta|246/262 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1685249404
+|switch|p2a: Stoutland|Stoutland, L86, M|286/286
+|-ability|p2a: Stoutland|Intimidate|boost
+|-unboost|p1a: Carracosta|atk|1
+|move|p1a: Carracosta|Shell Smash|p1a: Carracosta
+|-unboost|p1a: Carracosta|def|1
+|-unboost|p1a: Carracosta|spd|1
+|-boost|p1a: Carracosta|atk|2
+|-boost|p1a: Carracosta|spa|2
+|-boost|p1a: Carracosta|spe|2
+|
+|-damage|p1a: Carracosta|214/262 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1685249407
+|move|p2a: Stoutland|Superpower|p1a: Carracosta
+|-supereffective|p1a: Carracosta
+|-damage|p1a: Carracosta|57/262 tox
+|-unboost|p2a: Stoutland|atk|1
+|-unboost|p2a: Stoutland|def|1
+|-enditem|p1a: Carracosta|Weakness Policy
+|-boost|p1a: Carracosta|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Carracosta|spa|2|[from] item: Weakness Policy
+|move|p1a: Carracosta|Hydro Pump|p2a: Stoutland|[miss]
+|-miss|p1a: Carracosta|p2a: Stoutland
+|
+|-damage|p1a: Carracosta|9/262 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1685249411
+|move|p1a: Carracosta|Aqua Jet|p2a: Stoutland
+|-damage|p2a: Stoutland|115/286
+|move|p2a: Stoutland|Superpower|p1a: Carracosta
+|-supereffective|p1a: Carracosta
+|-damage|p1a: Carracosta|0 fnt
+|-unboost|p2a: Stoutland|atk|1
+|-unboost|p2a: Stoutland|def|1
+|faint|p1a: Carracosta
+|
+|upkeep
+|
+|t:|1685249413
+|switch|p1a: Spectrier|Spectrier, L74|235/270
+|turn|14
+|
+|t:|1685249415
+|switch|p2a: Heatran|Heatran, L78, F|224/270
+|move|p1a: Spectrier|Substitute|p1a: Spectrier
+|-start|p1a: Spectrier|Substitute
+|-damage|p1a: Spectrier|168/270
+|
+|-heal|p1a: Spectrier|184/270|[from] item: Leftovers
+|-heal|p2a: Heatran|240/270|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685249420
+|move|p1a: Spectrier|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|159/270
+|move|p2a: Heatran|Lava Plume|p1a: Spectrier
+|-end|p1a: Spectrier|Substitute
+|
+|-heal|p1a: Spectrier|200/270|[from] item: Leftovers
+|-heal|p2a: Heatran|175/270|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685249423
+|move|p1a: Spectrier|Substitute|p1a: Spectrier
+|-start|p1a: Spectrier|Substitute
+|-damage|p1a: Spectrier|133/270
+|move|p2a: Heatran|Toxic||[still]
+|-fail|p2a: Heatran
+|
+|-heal|p1a: Spectrier|149/270|[from] item: Leftovers
+|-heal|p2a: Heatran|191/270|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685249437
+|move|p1a: Spectrier|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|112/270
+|move|p2a: Heatran|Lava Plume|p1a: Spectrier
+|-end|p1a: Spectrier|Substitute
+|
+|-heal|p1a: Spectrier|165/270|[from] item: Leftovers
+|-heal|p2a: Heatran|128/270|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1685249442
+|switch|p1a: Cresselia|Cresselia, L80, F|323/323
+|move|p2a: Heatran|Lava Plume|p1a: Cresselia
+|-damage|p1a: Cresselia|251/323
+|
+|-heal|p1a: Cresselia|271/323|[from] item: Leftovers
+|-heal|p2a: Heatran|144/270|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|igz11 has 120 seconds left.
+|
+|t:|1685249479
+|switch|p1a: Excadrill|Excadrill, L78, M|66/300
+|move|p2a: Heatran|Toxic|p1a: Excadrill|[miss]
+|-miss|p2a: Heatran|p1a: Excadrill
+|
+|-heal|p2a: Heatran|160/270|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1685249485
+|move|p1a: Excadrill|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|-damage|p1a: Excadrill|36/300|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685249487
+|switch|p2a: Salazzle|Salazzle, L82, F|246/246
+|turn|21
+|inactive|igz11 has 120 seconds left.
+|
+|t:|1685249526
+|move|p2a: Salazzle|Flamethrower|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|t:|1685249528
+|switch|p1a: Cresselia|Cresselia, L80, F|271/323
+|turn|22
+|
+|t:|1685249531
+|move|p2a: Salazzle|Substitute|p2a: Salazzle
+|-start|p2a: Salazzle|Substitute
+|-damage|p2a: Salazzle|185/246
+|move|p1a: Cresselia|Psyshock|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-end|p2a: Salazzle|Substitute
+|
+|-heal|p2a: Salazzle|200/246|[from] item: Black Sludge
+|-heal|p1a: Cresselia|291/323|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1685249536
+|switch|p2a: Stoutland|Stoutland, L86, M|115/286
+|-ability|p2a: Stoutland|Intimidate|boost
+|-unboost|p1a: Cresselia|atk|1
+|move|p1a: Cresselia|Psyshock|p2a: Stoutland
+|-damage|p2a: Stoutland|52/286
+|
+|-heal|p1a: Cresselia|311/323|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1685249546
+|switch|p1a: Magearna|Magearna, L76|247/247
+|move|p2a: Stoutland|Play Rough|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|214/247
+|
+|-heal|p1a: Magearna|229/247|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1685249551
+|switch|p2a: Salazzle|Salazzle, L82, F|200/246
+|switch|p1a: Cresselia|Cresselia, L80, F|311/323
+|
+|-heal|p2a: Salazzle|215/246|[from] item: Black Sludge
+|-heal|p1a: Cresselia|323/323|[from] item: Leftovers
+|upkeep
+|turn|26
+|c|☆Baconator2.0|=-=
+|
+|t:|1685249567
+|switch|p2a: Stoutland|Stoutland, L86, M|52/286
+|-ability|p2a: Stoutland|Intimidate|boost
+|-unboost|p1a: Cresselia|atk|1
+|move|p1a: Cresselia|Psyshock|p2a: Stoutland
+|-damage|p2a: Stoutland|0 fnt
+|faint|p2a: Stoutland
+|
+|upkeep
+|
+|t:|1685249570
+|switch|p2a: Groudon|Groudon, L73|266/266
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|turn|27
+|
+|t:|1685249577
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|move|p2a: Groudon|Swords Dance|p2a: Groudon
+|-boost|p2a: Groudon|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|28
+|
+|t:|1685249587
+|-start|p1a: Cresselia|Dynamax|
+|-heal|p1a: Cresselia|646/646|[silent]
+|move|p1a: Cresselia|Max Mindstorm|p2a: Groudon
+|-damage|p2a: Groudon|97/266
+|-fieldstart|move: Psychic Terrain
+|move|p2a: Groudon|Heavy Slam||[still]
+|-fail|p2a: Groudon|Dynamax
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|113/266|[from] item: Leftovers
+|upkeep
+|turn|29
+|c|☆Baconator2.0|WTF
+|
+|t:|1685249608
+|move|p1a: Cresselia|Max Mindstorm|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆Baconator2.0|;-;
+|
+|t:|1685249614
+|switch|p2a: Salazzle|Salazzle, L82, F|215/246
+|turn|30
+|c|☆Baconator2.0|gg
+|
+|t:|1685249623
+|-start|p2a: Salazzle|Dynamax|
+|-heal|p2a: Salazzle|430/492|[silent]
+|move|p2a: Salazzle|Max Flare|p1a: Cresselia
+|-damage|p1a: Cresselia|526/646
+|move|p1a: Cresselia|Max Mindstorm|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|14/492
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Salazzle|29/492|[from] item: Black Sludge
+|-heal|p1a: Cresselia|546/646|[from] item: Leftovers
+|upkeep
+|-end|p1a: Cresselia|Dynamax
+|-heal|p1a: Cresselia|273/323|[silent]
+|turn|31
+|
+|t:|1685249629
+|move|p2a: Salazzle|Max Flare|p1a: Cresselia
+|-damage|p1a: Cresselia|170/323
+|move|p1a: Cresselia|Psyshock|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|win|igz11
+|raw|igz11's rating: 1244 &rarr; <strong>1256</strong><br />(+12 for winning)
+|raw|Baconator2.0's rating: 1053 &rarr; <strong>1044</strong><br />(-9 for losing)
+|c|☆Baconator2.0|wow
+|c|☆Baconator2.0|:P
+|l|☆igz11

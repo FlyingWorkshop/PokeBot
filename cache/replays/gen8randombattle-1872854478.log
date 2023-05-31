@@ -1,0 +1,131 @@
+|j|☆trying_toget_tough
+|j|☆Raftwing
+|t:|1685293042
+|gametype|singles
+|player|p1|trying_toget_tough|265|1398
+|player|p2|Raftwing|veteran|1314
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685293042
+|start
+|switch|p1a: Dragapult|Dragapult, L78, M|265/265
+|switch|p2a: Nidoking|Nidoking, L82, M|267/267
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Raftwing)
+|
+|t:|1685293069
+|move|p1a: Dragapult|Draco Meteor|p2a: Nidoking
+|-damage|p2a: Nidoking|59/267
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Nidoking|Ice Beam|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|31/265
+|
+|upkeep
+|turn|2
+|
+|t:|1685293080
+|move|p1a: Dragapult|Draco Meteor|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Nidoking
+|
+|upkeep
+|
+|t:|1685293096
+|switch|p2a: Orbeetle|Orbeetle, L86, F|243/243
+|-item|p1a: Dragapult|Choice Specs|[from] ability: Frisk|[of] p2a: Orbeetle|[identify]
+|turn|3
+|
+|t:|1685293106
+|switch|p1a: Genesect|Genesect, L74|227/227
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|atk|1
+|move|p2a: Orbeetle|Sticky Web|p1a: Genesect
+|-sidestart|p1: trying_toget_tough|move: Sticky Web
+|
+|upkeep
+|turn|4
+|
+|t:|1685293123
+|switch|p2a: Golduck|Golduck, L86, F|278/278
+|move|p1a: Genesect|Shift Gear|p1a: Genesect
+|-boost|p1a: Genesect|spe|2
+|-boost|p1a: Genesect|atk|1
+|
+|upkeep
+|turn|5
+|
+|t:|1685293138
+|-start|p1a: Genesect|Dynamax|
+|-heal|p1a: Genesect|454/454|[silent]
+|move|p1a: Genesect|Max Steelspike|p2a: Golduck
+|-resisted|p2a: Golduck
+|-damage|p2a: Golduck|105/278
+|-boost|p1a: Genesect|def|1
+|-damage|p1a: Genesect|432/454|[from] item: Life Orb
+|move|p2a: Golduck|Scald|p1a: Genesect
+|-damage|p1a: Genesect|314/454
+|-damage|p2a: Golduck|78/278|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|t:|1685293152
+|move|p1a: Genesect|Max Steelspike|p2a: Golduck
+|-resisted|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|-boost|p1a: Genesect|def|1
+|faint|p2a: Golduck
+|-damage|p1a: Genesect|292/454|[from] item: Life Orb
+|
+|upkeep
+|inactive|Raftwing has 120 seconds left.
+|
+|t:|1685293173
+|switch|p2a: Lurantis|Lurantis, L86, F|261/261
+|turn|7
+|
+|t:|1685293181
+|move|p1a: Genesect|Max Flare|p2a: Lurantis
+|-supereffective|p2a: Lurantis
+|-damage|p2a: Lurantis|0 fnt
+|-weather|SunnyDay
+|faint|p2a: Lurantis
+|-damage|p1a: Genesect|270/454|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685293190
+|switch|p2a: Regirock|Regirock, L85|275/275
+|-end|p1a: Genesect|Dynamax
+|-heal|p1a: Genesect|135/227|[silent]
+|turn|8
+|
+|t:|1685293196
+|move|p1a: Genesect|Iron Head|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|54/275
+|-damage|p1a: Genesect|113/227|[from] item: Life Orb
+|move|p2a: Regirock|Curse|p2a: Regirock
+|-unboost|p2a: Regirock|spe|1
+|-boost|p2a: Regirock|atk|1
+|-boost|p2a: Regirock|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|-message|Raftwing forfeited.
+|
+|win|trying_toget_tough
+|raw|trying_toget_tough's rating: 1398 &rarr; <strong>1412</strong><br />(+14 for winning)
+|raw|Raftwing's rating: 1296 &rarr; <strong>1278</strong><br />(-18 for losing)
+|l|☆Raftwing

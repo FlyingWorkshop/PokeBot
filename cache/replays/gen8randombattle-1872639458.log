@@ -1,0 +1,128 @@
+|j|☆chivalrouskricket
+|j|☆spookypuppies
+|t:|1685258343
+|gametype|singles
+|player|p1|chivalrouskricket|102|1262
+|player|p2|spookypuppies|266|1459
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685258343
+|start
+|switch|p1a: Klinklang|Klinklang, L84|238/238
+|switch|p2a: Keldeo|Keldeo-Resolute, L79|273/273
+|turn|1
+|
+|t:|1685258379
+|switch|p1a: Carbink|Carbink, L86|226/226
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|205/273
+|
+|-heal|p2a: Keldeo|222/273|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685258412
+|move|p2a: Keldeo|Calm Mind|p2a: Keldeo
+|-boost|p2a: Keldeo|spa|1
+|-boost|p2a: Keldeo|spd|1
+|move|p1a: Carbink|Light Screen|p1a: Carbink
+|-sidestart|p1: chivalrouskricket|move: Light Screen
+|
+|-heal|p2a: Keldeo|239/273|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685258418
+|switch|p1a: Latias|Latias, L80, F|259/259
+|move|p2a: Keldeo|Calm Mind|p2a: Keldeo
+|-boost|p2a: Keldeo|spa|1
+|-boost|p2a: Keldeo|spd|1
+|
+|-heal|p2a: Keldeo|256/273|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685258431
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Keldeo|Calm Mind|p2a: Keldeo
+|-boost|p2a: Keldeo|spa|1
+|-boost|p2a: Keldeo|spd|1
+|
+|-heal|p2a: Keldeo|273/273|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685258437
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Keldeo|Scald|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|237/259
+|
+|-heal|p1a: Latias|253/259|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685258444
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Keldeo|Secret Sword|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|186/259
+|
+|-heal|p1a: Latias|202/259|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685258456
+|switch|p2a: Jolteon|Jolteon, L82, M|241/241
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|
+|-heal|p1a: Latias|218/259|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685258466
+|move|p2a: Jolteon|Shadow Ball|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|194/259
+|move|p1a: Latias|Psychic|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|-heal|p1a: Latias|210/259|[from] item: Leftovers
+|upkeep
+|
+|t:|1685258474
+|switch|p2a: Durant|Durant, L78, F|219/219
+|turn|9
+|
+|t:|1685258482
+|move|p1a: Latias|Mystical Fire|p2a: Durant
+|-supereffective|p2a: Durant
+|-damage|p2a: Durant|0 fnt
+|faint|p2a: Durant
+|
+|-heal|p1a: Latias|226/259|[from] item: Leftovers
+|-sideend|p1: chivalrouskricket|move: Light Screen
+|upkeep
+|-message|spookypuppies forfeited.
+|
+|win|chivalrouskricket
+|raw|chivalrouskricket's rating: 1262 &rarr; <strong>1301</strong><br />(+39 for winning)
+|raw|spookypuppies's rating: 1479 &rarr; <strong>1448</strong><br />(-31 for losing)

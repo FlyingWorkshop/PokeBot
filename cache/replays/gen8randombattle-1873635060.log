@@ -1,0 +1,145 @@
+|j|☆Devon09
+|j|☆Goobed
+|t:|1685399213
+|gametype|singles
+|player|p1|Devon09|bellelba|
+|player|p2|Goobed|anthea|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685399213
+|start
+|switch|p1a: Palkia|Palkia, L74|255/255
+|switch|p2a: Thundurus|Thundurus-Therian, L80, M|258/258
+|-ability|p1a: Palkia|Pressure
+|turn|1
+|
+|t:|1685399232
+|move|p2a: Thundurus|Nasty Plot|p2a: Thundurus
+|-boost|p2a: Thundurus|spa|2
+|move|p1a: Palkia|Fire Blast|p2a: Thundurus
+|-damage|p2a: Thundurus|153/258
+|-status|p2a: Thundurus|brn
+|
+|-damage|p2a: Thundurus|137/258 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1685399247
+|move|p2a: Thundurus|Thunderbolt|p1a: Palkia
+|-damage|p1a: Palkia|35/255
+|move|p1a: Palkia|Hydro Pump|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|upkeep
+|
+|t:|1685399260
+|switch|p2a: Gastrodon|Gastrodon-East, L84, F|324/324
+|turn|3
+|
+|t:|1685399265
+|move|p1a: Palkia|Draco Meteor|p2a: Gastrodon
+|-damage|p2a: Gastrodon|137/324
+|-unboost|p1a: Palkia|spa|2
+|move|p2a: Gastrodon|Toxic|p1a: Palkia|[miss]
+|-miss|p2a: Gastrodon|p1a: Palkia
+|
+|-heal|p2a: Gastrodon|157/324|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685399278
+|move|p1a: Palkia|Fire Blast|p2a: Gastrodon
+|-resisted|p2a: Gastrodon
+|-damage|p2a: Gastrodon|134/324
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|296/324
+|
+|-heal|p2a: Gastrodon|316/324|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685399283
+|move|p1a: Palkia|Draco Meteor|p2a: Gastrodon
+|-damage|p2a: Gastrodon|213/324
+|-unboost|p1a: Palkia|spa|2
+|move|p2a: Gastrodon|Toxic|p1a: Palkia
+|-status|p1a: Palkia|tox
+|
+|-heal|p2a: Gastrodon|233/324|[from] item: Leftovers
+|-damage|p1a: Palkia|20/255 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1685399292
+|move|p1a: Palkia|Fire Blast|p2a: Gastrodon
+|-resisted|p2a: Gastrodon
+|-damage|p2a: Gastrodon|219/324
+|-status|p2a: Gastrodon|brn
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|324/324 brn
+|
+|-damage|p1a: Palkia|0 fnt|[from] psn
+|faint|p1a: Palkia
+|-damage|p2a: Gastrodon|304/324 brn|[from] brn
+|upkeep
+|
+|t:|1685399304
+|switch|p1a: Diggersby|Diggersby, L80, M|267/267
+|turn|7
+|
+|t:|1685399310
+|switch|p2a: Trevenant|Trevenant, L86, M|286/286
+|move|p1a: Diggersby|Swords Dance|p1a: Diggersby
+|-boost|p1a: Diggersby|atk|2
+|
+|upkeep
+|turn|8
+|
+|t:|1685399323
+|move|p1a: Diggersby|Knock Off|p2a: Trevenant
+|-supereffective|p2a: Trevenant
+|-damage|p2a: Trevenant|0 fnt
+|-enditem|p2a: Trevenant|Choice Band|[from] move: Knock Off|[of] p1a: Diggersby
+|faint|p2a: Trevenant
+|-damage|p1a: Diggersby|241/267|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685399332
+|switch|p2a: Regidrago|Regidrago, L78|440/440
+|turn|9
+|
+|t:|1685399347
+|move|p1a: Diggersby|Earthquake|p2a: Regidrago
+|-damage|p2a: Regidrago|0 fnt
+|faint|p2a: Regidrago
+|-damage|p1a: Diggersby|215/267|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685399361
+|switch|p2a: Cofagrigus|Cofagrigus, L86, M|240/240
+|turn|10
+|
+|t:|1685399369
+|move|p1a: Diggersby|Knock Off|p2a: Cofagrigus
+|-supereffective|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|0 fnt
+|-activate|p2a: Cofagrigus|ability: Mummy|Huge Power|[of] p1a: Diggersby
+|-enditem|p2a: Cofagrigus|Leftovers|[from] move: Knock Off|[of] p1a: Diggersby
+|faint|p2a: Cofagrigus
+|-damage|p1a: Diggersby|189/267|[from] item: Life Orb
+|
+|upkeep
+|c|☆Devon09|Smart move
+|-message|Goobed forfeited.
+|
+|win|Devon09
+|l|☆Goobed

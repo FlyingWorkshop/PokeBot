@@ -1,0 +1,346 @@
+|j|☆N0VAgenesis
+|j|☆bug hunter 227
+|t:|1685387930
+|gametype|singles
+|player|p1|N0VAgenesis|ingo|1436
+|player|p2|bug hunter 227|ballguy|1627
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685387930
+|start
+|switch|p1a: Marshadow|Marshadow, L70|242/242
+|switch|p2a: Articuno|Articuno, L84|288/288
+|-ability|p2a: Articuno|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by N0VAgenesis)
+|c|☆bug hunter 227|glhf
+|c|☆N0VAgenesis|Tx
+|c|☆N0VAgenesis|u2
+|
+|t:|1685387954
+|-start|p1a: Marshadow|Dynamax|
+|-heal|p1a: Marshadow|484/484|[silent]
+|move|p1a: Marshadow|Max Rockfall|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|36/288
+|-weather|Sandstorm
+|move|p2a: Articuno|Freeze-Dry|p1a: Marshadow
+|-damage|p1a: Marshadow|400/484
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Marshadow|385/484|[from] Sandstorm
+|-damage|p2a: Articuno|18/288|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1685387984
+|switch|p2a: Sigilyph|Sigilyph, L83, F|255/255
+|move|p1a: Marshadow|Max Knuckle|p2a: Sigilyph
+|-resisted|p2a: Sigilyph
+|-damage|p2a: Sigilyph|232/255
+|-boost|p1a: Marshadow|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Marshadow|370/484|[from] Sandstorm
+|-damage|p2a: Sigilyph|217/255|[from] Sandstorm
+|upkeep
+|turn|3
+|l|☆N0VAgenesis
+|inactive|N0VAgenesis disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆N0VAgenesis
+|inactive|N0VAgenesis reconnected and has 130 seconds left.
+|player|p1|N0VAgenesis|ingo
+|
+|t:|1685388010
+|switch|p2a: Snorlax|Snorlax, L82, F|397/397
+|move|p1a: Marshadow|Max Phantasm|p2a: Snorlax
+|-immune|p2a: Snorlax
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Marshadow|355/484|[from] Sandstorm
+|-damage|p2a: Snorlax|373/397|[from] Sandstorm
+|upkeep
+|-end|p1a: Marshadow|Dynamax
+|-heal|p1a: Marshadow|178/242|[silent]
+|turn|4
+|
+|t:|1685388021
+|switch|p2a: Articuno|Articuno, L84|18/288
+|-ability|p2a: Articuno|Pressure
+|move|p1a: Marshadow|Close Combat|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|faint|p2a: Articuno
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Marshadow|163/242|[from] Sandstorm
+|upkeep
+|
+|t:|1685388027
+|switch|p2a: Sigilyph|Sigilyph, L83, F|217/255
+|turn|5
+|
+|t:|1685388044
+|switch|p1a: Latios|Latios, L78, M|253/253
+|move|p2a: Sigilyph|Heat Wave|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|159/253
+|
+|-weather|none
+|upkeep
+|turn|6
+|inactive|bug hunter 227 has 120 seconds left.
+|
+|t:|1685388062
+|switch|p2a: Snorlax|Snorlax, L82, F|373/397
+|move|p1a: Latios|Calm Mind|p1a: Latios
+|-boost|p1a: Latios|spa|1
+|-boost|p1a: Latios|spd|1
+|
+|upkeep
+|turn|7
+|inactive|bug hunter 227 has 120 seconds left.
+|
+|t:|1685388078
+|switch|p2a: Liepard|Liepard, L86, F|250/250
+|move|p1a: Latios|Psyshock|p2a: Liepard
+|-immune|p2a: Liepard
+|
+|upkeep
+|turn|8
+|
+|t:|1685388095
+|switch|p1a: Barraskewda|Barraskewda, L80, F|229/229
+|move|p2a: Liepard|Knock Off|p1a: Barraskewda
+|-damage|p1a: Barraskewda|97/229
+|-enditem|p1a: Barraskewda|Choice Band|[from] move: Knock Off|[of] p2a: Liepard
+|
+|upkeep
+|turn|9
+|inactive|bug hunter 227 has 120 seconds left.
+|
+|t:|1685388112
+|switch|p2a: Sigilyph|Sigilyph, L83, F|217/255
+|move|p1a: Barraskewda|Liquidation|p2a: Sigilyph
+|-damage|p2a: Sigilyph|100/255
+|
+|upkeep
+|turn|10
+|inactive|bug hunter 227 has 120 seconds left.
+|
+|t:|1685388128
+|move|p1a: Barraskewda|Liquidation|p2a: Sigilyph
+|-damage|p2a: Sigilyph|0 fnt
+|faint|p2a: Sigilyph
+|
+|upkeep
+|
+|t:|1685388149
+|switch|p2a: Seaking|Seaking, L88, M|284/284
+|turn|11
+|
+|t:|1685388155
+|switch|p1a: Arctozolt|Arctozolt, L86|295/295
+|move|p2a: Seaking|Swords Dance|p2a: Seaking
+|-boost|p2a: Seaking|atk|2
+|
+|upkeep
+|turn|12
+|
+|t:|1685388163
+|switch|p1a: Latios|Latios, L78, M|159/253
+|-start|p2a: Seaking|Dynamax|
+|-heal|p2a: Seaking|568/568|[silent]
+|move|p2a: Seaking|Max Geyser|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|-weather|RainDance
+|faint|p1a: Latios
+|-damage|p2a: Seaking|540/568|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685388176
+|switch|p1a: Marshadow|Marshadow, L70|163/242
+|turn|13
+|
+|t:|1685388186
+|switch|p1a: Noivern|Noivern, L82, F|274/274
+|move|p2a: Seaking|Max Darkness|p1a: Noivern
+|-damage|p1a: Noivern|21/274
+|-unboost|p1a: Noivern|spd|1
+|-damage|p2a: Seaking|512/568|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1685388202
+|move|p2a: Seaking|Max Geyser|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|-damage|p2a: Seaking|484/568|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685388207
+|switch|p1a: Barraskewda|Barraskewda, L80, F|97/229
+|-end|p2a: Seaking|Dynamax
+|-heal|p2a: Seaking|242/284|[silent]
+|turn|15
+|
+|t:|1685388214
+|move|p1a: Barraskewda|Liquidation|p2a: Seaking
+|-resisted|p2a: Seaking
+|-damage|p2a: Seaking|157/284
+|move|p2a: Seaking|Waterfall|p1a: Barraskewda
+|-resisted|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|-damage|p2a: Seaking|129/284|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685388222
+|switch|p1a: Arctozolt|Arctozolt, L86|295/295
+|turn|16
+|
+|t:|1685388226
+|move|p2a: Seaking|Waterfall|p1a: Arctozolt
+|-damage|p1a: Arctozolt|0 fnt
+|faint|p1a: Arctozolt
+|-damage|p2a: Seaking|101/284|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1685388232
+|switch|p1a: Marshadow|Marshadow, L70|163/242
+|turn|17
+|inactive|bug hunter 227 has 120 seconds left.
+|
+|t:|1685388264
+|move|p1a: Marshadow|Close Combat|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|faint|p2a: Seaking
+|
+|upkeep
+|inactive|bug hunter 227 has 120 seconds left.
+|
+|t:|1685388273
+|switch|p2a: Liepard|Liepard, L86, F|250/250
+|turn|18
+|
+|t:|1685388275
+|switch|p1a: Durant|Durant, L78, M|219/219
+|move|p2a: Liepard|Knock Off|p1a: Durant
+|-damage|p1a: Durant|123/219
+|-enditem|p1a: Durant|Life Orb|[from] move: Knock Off|[of] p2a: Liepard
+|
+|upkeep
+|turn|19
+|
+|t:|1685388290
+|switch|p2a: Snorlax|Snorlax, L82, F|373/397
+|move|p1a: Durant|Superpower|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|91/397
+|-unboost|p1a: Durant|atk|1
+|-unboost|p1a: Durant|def|1
+|
+|upkeep
+|turn|20
+|
+|t:|1685388297
+|switch|p1a: Marshadow|Marshadow, L70|163/242
+|move|p2a: Snorlax|Darkest Lariat|p1a: Marshadow
+|-damage|p1a: Marshadow|79/242
+|
+|upkeep
+|turn|21
+|
+|t:|1685388309
+|move|p1a: Marshadow|Close Combat|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|faint|p2a: Snorlax
+|
+|upkeep
+|
+|t:|1685388313
+|switch|p2a: Liepard|Liepard, L86, F|250/250
+|turn|22
+|
+|t:|1685388328
+|move|p2a: Liepard|Knock Off|p1a: Marshadow
+|-damage|p1a: Marshadow|0 fnt
+|-enditem|p1a: Marshadow|Choice Band|[from] move: Knock Off|[of] p2a: Liepard
+|faint|p1a: Marshadow
+|
+|upkeep
+|
+|t:|1685388330
+|switch|p1a: Durant|Durant, L78, M|123/219
+|turn|23
+|inactive|bug hunter 227 has 120 seconds left.
+|inactive|bug hunter 227 has 90 seconds left.
+|
+|t:|1685388391
+|move|p2a: Liepard|Copycat|p2a: Liepard
+|move|p2a: Liepard|Knock Off|p1a: Durant|[from]move: Copycat
+|-damage|p1a: Durant|68/219
+|move|p1a: Durant|Superpower|p2a: Liepard
+|-supereffective|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|-unboost|p1a: Durant|atk|1
+|-unboost|p1a: Durant|def|1
+|faint|p2a: Liepard
+|
+|upkeep
+|inactive|bug hunter 227 has 90 seconds left.
+|
+|t:|1685388397
+|switch|p2a: Glastrier|Glastrier, L82|298/298
+|turn|24
+|
+|t:|1685388403
+|move|p1a: Durant|Iron Head|p2a: Glastrier
+|-supereffective|p2a: Glastrier
+|-damage|p2a: Glastrier|172/298
+|cant|p2a: Glastrier|flinch
+|
+|upkeep
+|turn|25
+|c|☆bug hunter 227|gg
+|
+|t:|1685388410
+|move|p1a: Durant|Iron Head|p2a: Glastrier
+|-supereffective|p2a: Glastrier
+|-damage|p2a: Glastrier|56/298
+|move|p2a: Glastrier|Close Combat|p1a: Durant
+|-damage|p1a: Durant|0 fnt
+|-unboost|p2a: Glastrier|def|1
+|-unboost|p2a: Glastrier|spd|1
+|faint|p1a: Durant
+|
+|win|bug hunter 227
+|raw|N0VAgenesis's rating: 1436 &rarr; <strong>1426</strong><br />(-10 for losing)
+|raw|bug hunter 227's rating: 1627 &rarr; <strong>1637</strong><br />(+10 for winning)
+|l|☆N0VAgenesis

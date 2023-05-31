@@ -1,0 +1,509 @@
+|j|☆SpongeOde
+|j|☆cheng5556666
+|t:|1685377406
+|gametype|singles
+|player|p1|SpongeOde|rood|1258
+|player|p2|cheng5556666|nate|1203
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685377406
+|start
+|switch|p1a: Aromatisse|Aromatisse, L88, F|321/321
+|switch|p2a: Kingdra|Kingdra, L82, M|257/257
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cheng5556666)
+|
+|t:|1685377432
+|switch|p2a: Skarmory|Skarmory, L80, M|235/235
+|move|p1a: Aromatisse|Toxic|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|upkeep
+|turn|2
+|inactive|SpongeOde has 120 seconds left.
+|
+|t:|1685377469
+|switch|p1a: Dugtrio|Dugtrio, L82, M|192/192
+|move|p2a: Skarmory|Spikes|p1a: Dugtrio
+|-sidestart|p1: SpongeOde|Spikes
+|
+|upkeep
+|turn|3
+|inactive|SpongeOde has 120 seconds left.
+|
+|t:|1685377486
+|move|p1a: Dugtrio|Memento|p2a: Skarmory
+|-unboost|p2a: Skarmory|atk|2
+|-unboost|p2a: Skarmory|spa|2
+|faint|p1a: Dugtrio
+|move|p2a: Skarmory|Spikes|p1: Dugtrio
+|-sidestart|p1: SpongeOde|Spikes
+|
+|upkeep
+|
+|t:|1685377498
+|switch|p1a: Mamoswine|Mamoswine, L80, M|307/307
+|-damage|p1a: Mamoswine|256/307|[from] Spikes
+|turn|4
+|
+|t:|1685377509
+|move|p1a: Mamoswine|Icicle Crash|p2a: Skarmory
+|-damage|p2a: Skarmory|123/235
+|move|p2a: Skarmory|Spikes|p1a: Mamoswine
+|-sidestart|p1: SpongeOde|Spikes
+|
+|-heal|p2a: Skarmory|137/235|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|SpongeOde has 120 seconds left.
+|
+|t:|1685377522
+|switch|p2a: Kingdra|Kingdra, L82, M|257/257
+|move|p1a: Mamoswine|Icicle Crash|p2a: Kingdra
+|-damage|p2a: Kingdra|116/257
+|
+|upkeep
+|turn|6
+|
+|t:|1685377532
+|move|p2a: Kingdra|Flip Turn|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|128/307
+|
+|t:|1685377553
+|switch|p2a: Mesprit|Mesprit, L84|272/272|[from] Flip Turn
+|move|p1a: Mamoswine|Icicle Crash|p2a: Mesprit
+|-damage|p2a: Mesprit|143/272
+|
+|-heal|p2a: Mesprit|160/272|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685377563
+|move|p2a: Mesprit|Energy Ball|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|-heal|p2a: Mesprit|177/272|[from] item: Leftovers
+|upkeep
+|
+|t:|1685377576
+|switch|p1a: Skuntank|Skuntank, L85, M|314/314
+|-damage|p1a: Skuntank|236/314|[from] Spikes
+|turn|8
+|
+|t:|1685377596
+|switch|p2a: Kingdra|Kingdra, L82, M|116/257
+|move|p1a: Skuntank|Crunch|p2a: Kingdra
+|-damage|p2a: Kingdra|38/257
+|
+|-heal|p1a: Skuntank|255/314|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1685377606
+|move|p1a: Skuntank|Crunch|p2a: Kingdra
+|-damage|p2a: Kingdra|0 fnt
+|faint|p2a: Kingdra
+|
+|-heal|p1a: Skuntank|274/314|[from] item: Black Sludge
+|upkeep
+|
+|t:|1685377616
+|switch|p2a: Electivire|Electivire, L82, M|257/257
+|turn|10
+|
+|t:|1685377624
+|move|p2a: Electivire|Cross Chop|p1a: Skuntank|[miss]
+|-miss|p2a: Electivire|p1a: Skuntank
+|move|p1a: Skuntank|Toxic|p2a: Electivire
+|-status|p2a: Electivire|tox
+|
+|-heal|p1a: Skuntank|293/314|[from] item: Black Sludge
+|-damage|p2a: Electivire|241/257 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1685377652
+|switch|p1a: Aromatisse|Aromatisse, L88, F|321/321
+|-damage|p1a: Aromatisse|241/321|[from] Spikes
+|move|p2a: Electivire|Cross Chop|p1a: Aromatisse
+|-resisted|p1a: Aromatisse
+|-crit|p1a: Aromatisse
+|-damage|p1a: Aromatisse|157/321
+|-damage|p2a: Electivire|216/257 tox|[from] item: Life Orb
+|
+|-heal|p1a: Aromatisse|177/321|[from] item: Leftovers
+|-damage|p2a: Electivire|184/257 tox|[from] psn
+|upkeep
+|turn|12
+|inactive|SpongeOde has 120 seconds left.
+|
+|t:|1685377672
+|move|p2a: Electivire|Volt Switch|p1a: Aromatisse
+|-damage|p1a: Aromatisse|99/321
+|-damage|p2a: Electivire|159/257 tox|[from] item: Life Orb
+|
+|t:|1685377684
+|switch|p2a: Skarmory|Skarmory, L80, M|137/235|[from] Volt Switch
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|-heal|p2a: Skarmory|151/235|[from] item: Leftovers
+|-heal|p1a: Aromatisse|119/321|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|SpongeOde has 120 seconds left.
+|
+|t:|1685377694
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Skarmory|Whirlwind|p1a: Aromatisse
+|drag|p1a: Skuntank|Skuntank, L85, M|293/314
+|-damage|p1a: Skuntank|215/314|[from] Spikes
+|
+|-heal|p1a: Skuntank|314/314|[from] move: Wish|[wisher] Aromatisse
+|-heal|p2a: Skarmory|165/235|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|SpongeOde has 120 seconds left.
+|
+|t:|1685377710
+|switch|p1a: Dubwool|Dubwool, L86, F|264/264
+|-damage|p1a: Dubwool|198/264|[from] Spikes
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|235/235
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-heal|p1a: Dubwool|214/264|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|SpongeOde has 120 seconds left.
+|
+|t:|1685377724
+|move|p1a: Dubwool|Cotton Guard|p1a: Dubwool
+|-boost|p1a: Dubwool|def|3
+|move|p2a: Skarmory|Whirlwind|p1a: Dubwool
+|drag|p1a: Aromatisse|Aromatisse, L88, F|119/321
+|-damage|p1a: Aromatisse|39/321|[from] Spikes
+|
+|-heal|p1a: Aromatisse|59/321|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|SpongeOde has 120 seconds left.
+|
+|t:|1685377742
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Skarmory|Whirlwind|p1a: Aromatisse
+|drag|p1a: Alakazam|Alakazam, L78, F|214/214
+|
+|upkeep
+|turn|17
+|
+|t:|1685377759
+|switch|p2a: Trevenant|Trevenant, L86, M|286/286
+|move|p1a: Alakazam|Focus Blast|p2a: Trevenant
+|-immune|p2a: Trevenant
+|
+|upkeep
+|turn|18
+|
+|t:|1685377773
+|move|p1a: Alakazam|Shadow Ball|p2a: Trevenant
+|-supereffective|p2a: Trevenant
+|-damage|p2a: Trevenant|107/286
+|move|p2a: Trevenant|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|5/214
+|
+|upkeep
+|turn|19
+|
+|t:|1685377783
+|switch|p2a: Skarmory|Skarmory, L80, M|235/235
+|move|p1a: Alakazam|Shadow Ball|p2a: Skarmory
+|-damage|p2a: Skarmory|140/235
+|
+|-heal|p2a: Skarmory|154/235|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1685377796
+|move|p1a: Alakazam|Focus Blast|p2a: Skarmory|[miss]
+|-miss|p1a: Alakazam|p2a: Skarmory
+|move|p2a: Skarmory|Whirlwind|p1a: Alakazam
+|drag|p1a: Aromatisse|Aromatisse, L88, F|59/321
+|-damage|p1a: Aromatisse|0 fnt|[from] Spikes
+|faint|p1a: Aromatisse
+|
+|-heal|p2a: Skarmory|168/235|[from] item: Leftovers
+|upkeep
+|
+|t:|1685377811
+|switch|p1a: Dubwool|Dubwool, L86, F|214/264
+|-damage|p1a: Dubwool|148/264|[from] Spikes
+|turn|21
+|
+|t:|1685377817
+|-start|p1a: Dubwool|Dynamax|
+|-heal|p1a: Dubwool|296/528|[silent]
+|move|p1a: Dubwool|Max Knuckle|p2a: Skarmory
+|-damage|p2a: Skarmory|133/235
+|-boost|p1a: Dubwool|atk|1
+|move|p2a: Skarmory|Whirlwind|p1a: Dubwool
+|-block|p1a: Dubwool|Dynamax
+|
+|-heal|p1a: Dubwool|312/528|[from] item: Leftovers
+|-heal|p2a: Skarmory|147/235|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1685377834
+|switch|p2a: Mesprit|Mesprit, L84|177/272
+|move|p1a: Dubwool|Max Knuckle|p2a: Mesprit
+|-resisted|p2a: Mesprit
+|-damage|p2a: Mesprit|148/272
+|-boost|p1a: Dubwool|atk|1
+|
+|-heal|p1a: Dubwool|328/528|[from] item: Leftovers
+|-heal|p2a: Mesprit|165/272|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1685377848
+|move|p1a: Dubwool|Max Knuckle|p2a: Mesprit
+|-resisted|p2a: Mesprit
+|-damage|p2a: Mesprit|126/272
+|-boost|p1a: Dubwool|atk|1
+|move|p2a: Mesprit|Stealth Rock|p1a: Dubwool
+|-sidestart|p1: SpongeOde|move: Stealth Rock
+|
+|-heal|p1a: Dubwool|344/528|[from] item: Leftovers
+|-heal|p2a: Mesprit|143/272|[from] item: Leftovers
+|upkeep
+|-end|p1a: Dubwool|Dynamax
+|-heal|p1a: Dubwool|172/264|[silent]
+|turn|24
+|
+|t:|1685377866
+|move|p1a: Dubwool|Body Press|p2a: Mesprit
+|-resisted|p2a: Mesprit
+|-damage|p2a: Mesprit|117/272
+|move|p2a: Mesprit|U-turn|p1a: Dubwool
+|-damage|p1a: Dubwool|123/264
+|
+|t:|1685377873
+|switch|p2a: Skarmory|Skarmory, L80, M|147/235|[from] U-turn
+|
+|-heal|p1a: Dubwool|139/264|[from] item: Leftovers
+|-heal|p2a: Skarmory|161/235|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1685377881
+|move|p1a: Dubwool|Body Press|p2a: Skarmory
+|-damage|p2a: Skarmory|118/235
+|move|p2a: Skarmory|Whirlwind|p1a: Dubwool
+|drag|p1a: Skuntank|Skuntank, L85, M|314/314
+|-damage|p1a: Skuntank|236/314|[from] Spikes
+|-damage|p1a: Skuntank|197/314|[from] Stealth Rock
+|
+|-heal|p1a: Skuntank|216/314|[from] item: Black Sludge
+|-heal|p2a: Skarmory|132/235|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|SpongeOde has 120 seconds left.
+|
+|t:|1685377902
+|move|p1a: Skuntank|Crunch|p2a: Skarmory
+|-damage|p2a: Skarmory|68/235
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|186/235
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-heal|p1a: Skuntank|235/314|[from] item: Black Sludge
+|-heal|p2a: Skarmory|200/235|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1685377913
+|move|p1a: Skuntank|Crunch|p2a: Skarmory
+|-damage|p2a: Skarmory|134/235
+|move|p2a: Skarmory|Whirlwind|p1a: Skuntank
+|drag|p1a: Dubwool|Dubwool, L86, F|139/264
+|-damage|p1a: Dubwool|73/264|[from] Spikes
+|-damage|p1a: Dubwool|40/264|[from] Stealth Rock
+|
+|-heal|p1a: Dubwool|56/264|[from] item: Leftovers
+|-heal|p2a: Skarmory|148/235|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1685377926
+|move|p1a: Dubwool|Rest|p1a: Dubwool
+|-status|p1a: Dubwool|slp|[from] move: Rest
+|-heal|p1a: Dubwool|264/264 slp|[silent]
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|235/235
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|upkeep
+|turn|29
+|
+|t:|1685377936
+|cant|p1a: Dubwool|slp
+|move|p1a: Dubwool|Sleep Talk|p1a: Dubwool
+|move|p1a: Dubwool|Body Press|p2a: Skarmory|[from]move: Sleep Talk
+|-damage|p2a: Skarmory|189/235
+|move|p2a: Skarmory|Whirlwind|p1a: Dubwool
+|drag|p1a: Skuntank|Skuntank, L85, M|235/314
+|-damage|p1a: Skuntank|157/314|[from] Spikes
+|-damage|p1a: Skuntank|118/314|[from] Stealth Rock
+|
+|-heal|p1a: Skuntank|137/314|[from] item: Black Sludge
+|-heal|p2a: Skarmory|203/235|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1685377952
+|move|p1a: Skuntank|Taunt|p2a: Skarmory
+|-start|p2a: Skarmory|move: Taunt
+|cant|p2a: Skarmory|move: Taunt|Whirlwind
+|
+|-heal|p1a: Skuntank|156/314|[from] item: Black Sludge
+|-heal|p2a: Skarmory|217/235|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1685377974
+|switch|p2a: Trevenant|Trevenant, L86, M|107/286
+|move|p1a: Skuntank|Crunch|p2a: Trevenant
+|-supereffective|p2a: Trevenant
+|-damage|p2a: Trevenant|0 fnt
+|faint|p2a: Trevenant
+|
+|-heal|p1a: Skuntank|175/314|[from] item: Black Sludge
+|upkeep
+|inactive|cheng5556666 has 120 seconds left.
+|
+|t:|1685377987
+|switch|p2a: Electivire|Electivire, L82, M|159/257 tox
+|turn|32
+|inactive|SpongeOde has 120 seconds left.
+|
+|t:|1685378002
+|move|p2a: Electivire|Volt Switch|p1a: Skuntank
+|-damage|p1a: Skuntank|62/314
+|-damage|p2a: Electivire|134/257 tox|[from] item: Life Orb
+|
+|t:|1685378007
+|switch|p2a: Guzzlord|Guzzlord, L84|512/512|[from] Volt Switch
+|move|p1a: Skuntank|Crunch|p2a: Guzzlord
+|-resisted|p2a: Guzzlord
+|-damage|p2a: Guzzlord|454/512
+|
+|-heal|p1a: Skuntank|81/314|[from] item: Black Sludge
+|upkeep
+|turn|33
+|inactive|SpongeOde has 120 seconds left.
+|
+|t:|1685378019
+|move|p1a: Skuntank|Toxic|p2a: Guzzlord
+|-status|p2a: Guzzlord|tox
+|move|p2a: Guzzlord|Knock Off|p1a: Skuntank
+|-resisted|p1a: Skuntank
+|-damage|p1a: Skuntank|15/314
+|-enditem|p1a: Skuntank|Black Sludge|[from] move: Knock Off|[of] p2a: Guzzlord
+|
+|-damage|p2a: Guzzlord|422/512 tox|[from] psn
+|upkeep
+|turn|34
+|inactive|SpongeOde has 120 seconds left.
+|
+|t:|1685378035
+|move|p1a: Skuntank|Defog|p2a: Guzzlord
+|-unboost|p2a: Guzzlord|evasion|1
+|-sideend|p1: SpongeOde|Spikes|[from] move: Defog|[of] p1a: Skuntank
+|-sideend|p1: SpongeOde|Stealth Rock|[from] move: Defog|[of] p1a: Skuntank
+|move|p2a: Guzzlord|Knock Off|p1a: Skuntank
+|-resisted|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|-damage|p2a: Guzzlord|294/512 tox|[from] ability: Aftermath|[of] p1a: Skuntank
+|faint|p1a: Skuntank
+|-ability|p2a: Guzzlord|Beast Boost|boost
+|-boost|p2a: Guzzlord|atk|1
+|
+|-damage|p2a: Guzzlord|230/512 tox|[from] psn
+|upkeep
+|
+|t:|1685378047
+|switch|p1a: Dubwool|Dubwool, L86, F|264/264 slp
+|turn|35
+|
+|t:|1685378052
+|cant|p1a: Dubwool|slp
+|move|p1a: Dubwool|Sleep Talk|p1a: Dubwool
+|move|p1a: Dubwool|Body Press|p2a: Guzzlord|[from]move: Sleep Talk
+|-supereffective|p2a: Guzzlord
+|-crit|p2a: Guzzlord
+|-damage|p2a: Guzzlord|0 fnt
+|faint|p2a: Guzzlord
+|
+|upkeep
+|
+|t:|1685378062
+|switch|p2a: Electivire|Electivire, L82, M|134/257 tox
+|turn|36
+|
+|t:|1685378066
+|-start|p2a: Electivire|Dynamax|
+|-heal|p2a: Electivire|268/514 tox|[silent]
+|move|p2a: Electivire|Max Knuckle|p1a: Dubwool
+|-supereffective|p1a: Dubwool
+|-damage|p1a: Dubwool|108/264 slp
+|-boost|p2a: Electivire|atk|1
+|-damage|p2a: Electivire|243/514 tox|[from] item: Life Orb
+|-curestatus|p1a: Dubwool|slp|[msg]
+|move|p1a: Dubwool|Sleep Talk||[still]
+|-fail|p1a: Dubwool
+|
+|-heal|p1a: Dubwool|124/264|[from] item: Leftovers
+|-damage|p2a: Electivire|227/514 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1685378084
+|move|p2a: Electivire|Max Knuckle|p1a: Dubwool
+|-supereffective|p1a: Dubwool
+|-damage|p1a: Dubwool|0 fnt
+|-boost|p2a: Electivire|atk|1
+|faint|p1a: Dubwool
+|-damage|p2a: Electivire|202/514 tox|[from] item: Life Orb
+|
+|-damage|p2a: Electivire|170/514 tox|[from] psn
+|upkeep
+|
+|t:|1685378094
+|switch|p1a: Alakazam|Alakazam, L78, F|5/214
+|turn|38
+|
+|t:|1685378103
+|move|p1a: Alakazam|Psychic|p2a: Electivire
+|-damage|p2a: Electivire|26/514 tox
+|move|p2a: Electivire|Max Lightning|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|-fieldstart|move: Electric Terrain
+|faint|p1a: Alakazam
+|-damage|p2a: Electivire|1/514 tox|[from] item: Life Orb
+|
+|win|cheng5556666
+|raw|SpongeOde's rating: 1258 &rarr; <strong>1229</strong><br />(-29 for losing)
+|raw|cheng5556666's rating: 1203 &rarr; <strong>1232</strong><br />(+29 for winning)
+|l|☆SpongeOde

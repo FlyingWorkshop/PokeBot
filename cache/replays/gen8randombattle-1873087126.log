@@ -1,0 +1,169 @@
+|j|☆das yb
+|j|☆billpikax
+|t:|1685322533
+|gametype|singles
+|player|p1|das yb|drayden|
+|player|p2|billpikax|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685322533
+|start
+|switch|p1a: Absol|Absol, L84, M|246/246
+|switch|p2a: Wishiwashi|Wishiwashi, L84, M|213/213
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|turn|1
+|c|☆das yb|glhf
+|c|☆billpikax|glhf
+|
+|t:|1685322567
+|move|p1a: Absol|Swords Dance|p1a: Absol
+|-boost|p1a: Absol|atk|2
+|move|p2a: Wishiwashi|U-turn|p1a: Absol
+|-supereffective|p1a: Absol
+|-damage|p1a: Absol|56/246
+|n| Bowas|bowas
+|
+|t:|1685322584
+|switch|p2a: Togekiss|Togekiss, L80, M|267/267|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1685322590
+|move|p2a: Togekiss|Aura Sphere|p1a: Absol
+|-supereffective|p1a: Absol
+|-damage|p1a: Absol|0 fnt
+|faint|p1a: Absol
+|
+|upkeep
+|c|☆das yb|argh
+|
+|t:|1685322597
+|switch|p1a: Swoobat|Swoobat, L86, F|255/255
+|turn|3
+|
+|t:|1685322603
+|switch|p2a: Mantine|Mantine, L86, F|286/286
+|move|p1a: Swoobat|Calm Mind|p1a: Swoobat
+|-boost|p1a: Swoobat|spa|2
+|-boost|p1a: Swoobat|spd|2
+|
+|upkeep
+|turn|4
+|
+|t:|1685322616
+|move|p1a: Swoobat|Calm Mind|p1a: Swoobat
+|-boost|p1a: Swoobat|spa|2
+|-boost|p1a: Swoobat|spd|2
+|move|p2a: Mantine|Toxic|p1a: Swoobat
+|-status|p1a: Swoobat|tox
+|
+|-damage|p1a: Swoobat|240/255 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1685322629
+|move|p1a: Swoobat|Stored Power|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|faint|p2a: Mantine
+|
+|-damage|p1a: Swoobat|210/255 tox|[from] psn
+|upkeep
+|
+|t:|1685322641
+|switch|p2a: Wishiwashi|Wishiwashi, L84, M|213/213
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|turn|6
+|
+|t:|1685322646
+|move|p1a: Swoobat|Stored Power|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|0 fnt
+|faint|p2a: Wishiwashi
+|
+|-damage|p1a: Swoobat|165/255 tox|[from] psn
+|upkeep
+|
+|t:|1685322653
+|switch|p2a: Dusknoir|Dusknoir, L86, M|218/218
+|-item|p1a: Swoobat|Heavy-Duty Boots|[from] ability: Frisk|[of] p2a: Dusknoir|[identify]
+|turn|7
+|c|☆das yb|swoobat is him??
+|
+|t:|1685322665
+|move|p1a: Swoobat|Stored Power|p2a: Dusknoir
+|-damage|p2a: Dusknoir|0 fnt
+|faint|p2a: Dusknoir
+|
+|-damage|p1a: Swoobat|105/255 tox|[from] psn
+|upkeep
+|
+|t:|1685322674
+|switch|p2a: Togekiss|Togekiss, L80, M|267/267
+|turn|8
+|
+|t:|1685322677
+|move|p1a: Swoobat|Stored Power|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|-damage|p1a: Swoobat|30/255 tox|[from] psn
+|upkeep
+|
+|t:|1685322682
+|switch|p2a: Hitmonlee|Hitmonlee, L84, M|221/221
+|turn|9
+|
+|t:|1685322687
+|move|p1a: Swoobat|Stored Power|p2a: Hitmonlee
+|-supereffective|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|
+|-damage|p1a: Swoobat|0 fnt|[from] psn
+|faint|p1a: Swoobat
+|upkeep
+|
+|t:|1685322693
+|switch|p1a: Dracovish|Dracovish, L80|275/275
+|switch|p2a: Lilligant|Lilligant, L84, F|255/255
+|turn|10
+|c|☆das yb|oh shit
+|
+|t:|1685322706
+|switch|p1a: Conkeldurr|Conkeldurr, L80, F|299/299
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|11
+|
+|t:|1685322716
+|move|p2a: Lilligant|Giga Drain|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|83/299 brn
+|-damage|p2a: Lilligant|230/255|[from] item: Life Orb
+|move|p1a: Conkeldurr|Facade|p2a: Lilligant
+|-damage|p2a: Lilligant|12/255
+|
+|-damage|p1a: Conkeldurr|65/299 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1685322722
+|move|p1a: Conkeldurr|Mach Punch|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|win|das yb
+|c|☆billpikax|gg
+|c|☆das yb|gg
+|l|☆billpikax
+|player|p1|das yb|drayden

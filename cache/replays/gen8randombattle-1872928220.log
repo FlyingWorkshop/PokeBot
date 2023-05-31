@@ -1,0 +1,122 @@
+|j|☆CAELAN IS BOZOOO
+|j|☆trying_toget_tough
+|t:|1685301928
+|gametype|singles
+|player|p1|CAELAN IS BOZOOO|cynthia|1303
+|player|p2|trying_toget_tough|101|1413
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685301928
+|start
+|switch|p1a: Copperajah|Copperajah, L84, M|342/342
+|switch|p2a: Heliolisk|Heliolisk, L82, M|236/236
+|turn|1
+|
+|t:|1685301934
+|move|p2a: Heliolisk|Thunderbolt|p1a: Copperajah
+|-damage|p1a: Copperajah|230/342
+|move|p1a: Copperajah|Earthquake|p2a: Heliolisk
+|-supereffective|p2a: Heliolisk
+|-enditem|p2a: Heliolisk|Focus Sash
+|-damage|p2a: Heliolisk|1/236
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by trying_toget_tough)
+|
+|t:|1685301942
+|move|p2a: Heliolisk|Volt Switch|p1a: Copperajah
+|-damage|p1a: Copperajah|133/342
+|
+|t:|1685301945
+|switch|p2a: Corviknight|Corviknight, L78, F|281/281|[from] Volt Switch
+|move|p1a: Copperajah|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|upkeep
+|turn|3
+|
+|t:|1685301965
+|switch|p1a: Malamar|Malamar, L80, F|269/269
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|upkeep
+|turn|4
+|
+|t:|1685301974
+|-start|p2a: Corviknight|Dynamax|
+|-heal|p2a: Corviknight|562/562|[silent]
+|move|p1a: Malamar|Superpower|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|449/562
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|move|p2a: Corviknight|Max Airstream|p1a: Malamar
+|-damage|p1a: Malamar|151/269
+|-boost|p2a: Corviknight|spe|1
+|
+|-heal|p2a: Corviknight|466/562|[from] item: Leftovers
+|-heal|p1a: Malamar|167/269|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685301990
+|move|p2a: Corviknight|Max Knuckle|p1a: Malamar
+|-damage|p1a: Malamar|110/269
+|-boost|p2a: Corviknight|atk|1
+|move|p1a: Malamar|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|375/562
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Malamar
+|
+|-heal|p1a: Malamar|126/269|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685302001
+|move|p2a: Corviknight|Max Airstream|p1a: Malamar
+|-crit|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|-boost|p2a: Corviknight|spe|1
+|faint|p1a: Malamar
+|
+|upkeep
+|
+|t:|1685302015
+|switch|p1a: Alakazam|Alakazam, L78, M|214/214
+|-end|p2a: Corviknight|Dynamax
+|-heal|p2a: Corviknight|188/281|[silent]
+|turn|7
+|
+|t:|1685302023
+|move|p2a: Corviknight|Brave Bird|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|-damage|p2a: Corviknight|117/281|[from] Recoil
+|
+|upkeep
+|
+|t:|1685302034
+|switch|p1a: Tornadus|Tornadus-Therian, L78, M|251/251
+|turn|8
+|l|☆CAELAN IS BOZOOO
+|inactive|CAELAN IS BOZOOO disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|CAELAN IS BOZOOO has 30 seconds to reconnect!
+|inactive|CAELAN IS BOZOOO has 20 seconds to reconnect!
+|inactive|CAELAN IS BOZOOO has 15 seconds to reconnect!
+|inactive|CAELAN IS BOZOOO has 10 seconds to reconnect!
+|inactive|CAELAN IS BOZOOO has 5 seconds to reconnect!
+|-message|CAELAN IS BOZOOO lost due to inactivity.
+|
+|win|trying_toget_tough
+|raw|CAELAN IS BOZOOO's rating: 1303 &rarr; <strong>1289</strong><br />(-14 for losing)
+|raw|trying_toget_tough's rating: 1413 &rarr; <strong>1427</strong><br />(+14 for winning)

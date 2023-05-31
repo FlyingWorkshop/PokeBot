@@ -1,0 +1,75 @@
+|j|☆Quoise
+|j|☆forsh
+|t:|1685408857
+|gametype|singles
+|player|p1|Quoise|bugcatcher-gen4dp|
+|player|p2|forsh|ballguy|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685408857
+|start
+|switch|p1a: Zapdos|Zapdos, L78|268/268
+|switch|p2a: Wishiwashi|Wishiwashi, L84, F|213/213
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Quoise)
+|inactive|forsh also wants the timer to be on.
+|c|☆Quoise|I'll destroy you for calling me man
+|c|☆forsh|?
+|c|☆forsh|i didnt call u
+|c|☆Quoise|i'm quoise!
+|
+|t:|1685408886
+|move|p1a: Zapdos|Discharge|p2a: Wishiwashi
+|-supereffective|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|121/213
+|-status|p2a: Wishiwashi|par
+|move|p2a: Wishiwashi|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|84/268
+|
+|upkeep
+|turn|2
+|
+|t:|1685408893
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|218/268
+|-singleturn|p1a: Zapdos|move: Roost
+|cant|p2a: Wishiwashi|par
+|
+|upkeep
+|turn|3
+|c|☆forsh|i used EQ
+|
+|t:|1685408899
+|move|p1a: Zapdos|Discharge|p2a: Wishiwashi
+|-supereffective|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|25/213 par
+|move|p2a: Wishiwashi|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|-formechange|p2a: Wishiwashi|Wishiwashi||[from] ability: Schooling
+|upkeep
+|turn|4
+|c|☆forsh|o
+|
+|t:|1685408903
+|move|p1a: Zapdos|U-turn|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|0 fnt
+|faint|p2a: Wishiwashi
+|c|☆forsh|redo
+|-message|Quoise forfeited.
+|
+|win|forsh
+|l|☆Quoise
+|l|☆forsh
+|j|☆Quoise
+|player|p1|Quoise|bugcatcher-gen4dp
+|j| Lrogue ❀
+|l| Lrogue ❀

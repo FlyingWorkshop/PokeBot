@@ -1,0 +1,364 @@
+|j|☆MG_LacosteTN
+|j|☆gareeb adani
+|t:|1685305643
+|gametype|singles
+|player|p1|MG_LacosteTN|169|1376
+|player|p2|gareeb adani|2|1471
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685305643
+|start
+|switch|p1a: Registeel|Registeel, L83|268/268
+|switch|p2a: Tauros|Tauros, L82, M|257/257
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gareeb adani)
+|
+|t:|1685305653
+|switch|p2a: Heatmor|Heatmor, L90, M|299/299
+|move|p1a: Registeel|Body Press|p2a: Heatmor
+|-damage|p2a: Heatmor|208/299
+|
+|upkeep
+|turn|2
+|
+|t:|1685305664
+|switch|p1a: Octillery|Octillery, L86, F|269/269
+|move|p2a: Heatmor|Fire Lash|p1a: Octillery
+|-resisted|p1a: Octillery
+|-crit|p1a: Octillery
+|-damage|p1a: Octillery|188/269
+|-unboost|p1a: Octillery|def|1
+|
+|-heal|p1a: Octillery|204/269|[from] item: Leftovers
+|-ability|p1a: Octillery|Moody|boost
+|-boost|p1a: Octillery|spe|2
+|-unboost|p1a: Octillery|spa|1
+|upkeep
+|turn|3
+|
+|t:|1685305680
+|move|p1a: Octillery|Protect|p1a: Octillery
+|-singleturn|p1a: Octillery|Protect
+|move|p2a: Heatmor|Knock Off|p1a: Octillery
+|-activate|p1a: Octillery|move: Protect
+|
+|-heal|p1a: Octillery|220/269|[from] item: Leftovers
+|-ability|p1a: Octillery|Moody|boost
+|-boost|p1a: Octillery|def|2
+|-unboost|p1a: Octillery|spe|1
+|upkeep
+|turn|4
+|
+|t:|1685305691
+|move|p1a: Octillery|Hydro Pump|p2a: Heatmor|[miss]
+|-miss|p1a: Octillery|p2a: Heatmor
+|move|p2a: Heatmor|Giga Drain|p1a: Octillery
+|-supereffective|p1a: Octillery
+|-damage|p1a: Octillery|72/269
+|-heal|p2a: Heatmor|282/299|[from] drain|[of] p1a: Octillery
+|
+|-heal|p1a: Octillery|88/269|[from] item: Leftovers
+|-ability|p1a: Octillery|Moody|boost
+|-boost|p1a: Octillery|spa|2
+|-unboost|p1a: Octillery|def|1
+|upkeep
+|turn|5
+|
+|t:|1685305702
+|switch|p2a: Shedinja|Shedinja, L88|1/1
+|move|p1a: Octillery|Protect||[still]
+|-fail|p1a: Octillery
+|
+|-heal|p1a: Octillery|104/269|[from] item: Leftovers
+|-ability|p1a: Octillery|Moody|boost
+|-boost|p1a: Octillery|spa|2
+|-unboost|p1a: Octillery|spe|1
+|upkeep
+|turn|6
+|
+|t:|1685305718
+|switch|p1a: Sableye|Sableye, L88, F|231/231
+|switch|p2a: Heatmor|Heatmor, L90, M|282/299
+|
+|upkeep
+|turn|7
+|
+|t:|1685305726
+|move|p2a: Heatmor|Fire Lash|p1a: Sableye
+|-damage|p1a: Sableye|126/231
+|-unboost|p1a: Sableye|def|1
+|move|p1a: Sableye|Knock Off|p2a: Heatmor
+|-damage|p2a: Heatmor|179/299
+|-enditem|p2a: Heatmor|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Sableye
+|
+|-heal|p1a: Sableye|140/231|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685305740
+|switch|p1a: Arcanine|Arcanine, L82, F|282/282
+|move|p2a: Heatmor|Fire Lash|p1a: Arcanine
+|-start|p1a: Arcanine|ability: Flash Fire
+|
+|upkeep
+|turn|9
+|
+|t:|1685305753
+|move|p1a: Arcanine|Wild Charge|p2a: Heatmor
+|-damage|p2a: Heatmor|72/299
+|-damage|p1a: Arcanine|255/282|[from] Recoil
+|move|p2a: Heatmor|Knock Off|p1a: Arcanine
+|-damage|p1a: Arcanine|169/282
+|-enditem|p1a: Arcanine|Choice Band|[from] move: Knock Off|[of] p2a: Heatmor
+|
+|upkeep
+|turn|10
+|
+|t:|1685305762
+|move|p1a: Arcanine|Wild Charge|p2a: Heatmor
+|-damage|p2a: Heatmor|0 fnt
+|faint|p2a: Heatmor
+|-damage|p1a: Arcanine|151/282|[from] Recoil
+|
+|upkeep
+|
+|t:|1685305773
+|switch|p2a: Wishiwashi|Wishiwashi, L84, M|213/213
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|turn|11
+|
+|t:|1685305777
+|move|p1a: Arcanine|Wild Charge|p2a: Wishiwashi
+|-supereffective|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|113/213
+|-damage|p1a: Arcanine|126/282|[from] Recoil
+|move|p2a: Wishiwashi|Scald|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|upkeep
+|
+|t:|1685305787
+|switch|p1a: Gourgeist|Gourgeist-Small, L84, M|230/230
+|-item|p2a: Wishiwashi|Assault Vest|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|turn|12
+|
+|t:|1685305795
+|switch|p2a: Tauros|Tauros, L82, M|257/257
+|move|p1a: Gourgeist|Leech Seed|p2a: Tauros
+|-start|p2a: Tauros|move: Leech Seed
+|
+|-damage|p2a: Tauros|225/257|[from] Leech Seed|[of] p1a: Gourgeist
+|upkeep
+|turn|13
+|
+|t:|1685305812
+|switch|p2a: Armaldo|Armaldo, L86, F|269/269
+|switch|p1a: Sableye|Sableye, L88, F|140/231
+|
+|-heal|p1a: Sableye|154/231|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685305826
+|switch|p2a: Sylveon|Sylveon, L84, F|297/297
+|move|p1a: Sableye|Toxic|p2a: Sylveon
+|-status|p2a: Sylveon|tox
+|
+|-heal|p1a: Sableye|168/231|[from] item: Leftovers
+|-damage|p2a: Sylveon|279/297 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1685305834
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|move|p1a: Sableye|Knock Off|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|219/297 tox
+|-enditem|p2a: Sylveon|Leftovers|[from] move: Knock Off|[of] p1a: Sableye
+|
+|-heal|p1a: Sableye|182/231|[from] item: Leftovers
+|-damage|p2a: Sylveon|183/297 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1685305846
+|move|p1a: Sableye|Taunt|p2a: Sylveon
+|-start|p2a: Sylveon|move: Taunt
+|move|p2a: Sylveon|Hyper Voice|p1a: Sableye
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|-heal|p2a: Sylveon|297/297 tox|[from] move: Wish|[wisher] Sylveon
+|-damage|p2a: Sylveon|243/297 tox|[from] psn
+|upkeep
+|
+|t:|1685305857
+|switch|p1a: Registeel|Registeel, L83|268/268
+|turn|17
+|
+|t:|1685305861
+|switch|p2a: Shedinja|Shedinja, L88|1/1
+|move|p1a: Registeel|Iron Head|p2a: Shedinja
+|-immune|p2a: Shedinja|[from] ability: Wonder Guard
+|
+|upkeep
+|turn|18
+|
+|t:|1685305869
+|move|p1a: Registeel|Toxic|p2a: Shedinja
+|-status|p2a: Shedinja|tox
+|move|p2a: Shedinja|Poltergeist|p1a: Registeel
+|-activate|p1a: Registeel|move: Poltergeist|Chesto Berry
+|-damage|p1a: Registeel|181/268
+|
+|-damage|p2a: Shedinja|0 fnt|[from] psn
+|faint|p2a: Shedinja
+|upkeep
+|
+|t:|1685305885
+|switch|p2a: Tauros|Tauros, L82, M|225/257
+|turn|19
+|
+|t:|1685305892
+|-start|p2a: Tauros|Dynamax|
+|-heal|p2a: Tauros|450/514|[silent]
+|move|p2a: Tauros|Max Knuckle|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|74/268
+|-boost|p2a: Tauros|atk|1
+|-damage|p2a: Tauros|425/514|[from] item: Life Orb
+|move|p1a: Registeel|Body Press|p2a: Tauros
+|-supereffective|p2a: Tauros
+|-damage|p2a: Tauros|259/514
+|
+|upkeep
+|turn|20
+|
+|t:|1685305905
+|switch|p1a: Gourgeist|Gourgeist-Small, L84, M|230/230
+|-item|p2a: Tauros|Life Orb|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Tauros|Max Darkness|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|faint|p1a: Gourgeist
+|-damage|p2a: Tauros|234/514|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685305916
+|switch|p1a: Registeel|Registeel, L83|74/268
+|turn|21
+|
+|t:|1685305919
+|move|p2a: Tauros|Max Knuckle|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|0 fnt
+|-boost|p2a: Tauros|atk|1
+|faint|p1a: Registeel
+|-damage|p2a: Tauros|209/514|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685305928
+|switch|p1a: Barbaracle|Barbaracle, L80, F|246/246
+|-end|p2a: Tauros|Dynamax
+|-heal|p2a: Tauros|105/257|[silent]
+|turn|22
+|
+|t:|1685305943
+|-start|p1a: Barbaracle|Dynamax|
+|-heal|p1a: Barbaracle|492/492|[silent]
+|move|p2a: Tauros|Close Combat|p1a: Barbaracle
+|-supereffective|p1a: Barbaracle
+|-damage|p1a: Barbaracle|144/492
+|-unboost|p2a: Tauros|def|1
+|-unboost|p2a: Tauros|spd|1
+|-damage|p2a: Tauros|80/257|[from] item: Life Orb
+|move|p1a: Barbaracle|Max Geyser|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|-weather|RainDance
+|faint|p2a: Tauros
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685305965
+|switch|p2a: Armaldo|Armaldo, L86, F|269/269
+|turn|23
+|
+|t:|1685305972
+|move|p2a: Armaldo|Liquidation|p1a: Barbaracle
+|-damage|p1a: Barbaracle|47/492
+|move|p1a: Barbaracle|Max Knuckle|p2a: Armaldo
+|-damage|p2a: Armaldo|208/269
+|-boost|p1a: Barbaracle|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1685305982
+|move|p2a: Armaldo|Liquidation|p1a: Barbaracle
+|-damage|p1a: Barbaracle|0 fnt
+|faint|p1a: Barbaracle
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685305988
+|switch|p1a: Octillery|Octillery, L86, F|104/269
+|turn|25
+|
+|t:|1685305991
+|move|p1a: Octillery|Protect|p1a: Octillery
+|-singleturn|p1a: Octillery|Protect
+|move|p2a: Armaldo|Swords Dance|p2a: Armaldo
+|-boost|p2a: Armaldo|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Octillery|120/269|[from] item: Leftovers
+|-ability|p1a: Octillery|Moody|boost
+|-boost|p1a: Octillery|spe|2
+|-unboost|p1a: Octillery|atk|1
+|upkeep
+|turn|26
+|
+|t:|1685306002
+|move|p1a: Octillery|Hydro Pump|p2a: Armaldo
+|-supereffective|p2a: Armaldo
+|-damage|p2a: Armaldo|0 fnt
+|faint|p2a: Armaldo
+|
+|-weather|none
+|-heal|p1a: Octillery|136/269|[from] item: Leftovers
+|-ability|p1a: Octillery|Moody|boost
+|-boost|p1a: Octillery|atk|2
+|-unboost|p1a: Octillery|def|1
+|upkeep
+|
+|t:|1685306007
+|switch|p2a: Wishiwashi|Wishiwashi, L84, M|113/213
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|turn|27
+|
+|t:|1685306016
+|move|p1a: Octillery|Energy Ball|p2a: Wishiwashi
+|-supereffective|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|45/213
+|move|p2a: Wishiwashi|Earthquake|p1a: Octillery
+|-damage|p1a: Octillery|0 fnt
+|faint|p1a: Octillery
+|
+|win|gareeb adani
+|raw|MG_LacosteTN's rating: 1376 &rarr; <strong>1360</strong><br />(-16 for losing)
+|raw|gareeb adani's rating: 1445 &rarr; <strong>1461</strong><br />(+16 for winning)

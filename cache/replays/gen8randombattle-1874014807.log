@@ -1,0 +1,347 @@
+|j|☆Tmbxjiraiya
+|j|☆juantheroleplay
+|t:|1685455678
+|gametype|singles
+|player|p1|Tmbxjiraiya|101|1080
+|player|p2|juantheroleplay|ninjaboy|1102
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685455678
+|start
+|switch|p1a: Palkia|Palkia, L74|255/255
+|switch|p2a: Mandibuzz|Mandibuzz, L82, F|315/315
+|-ability|p1a: Palkia|Pressure
+|turn|1
+|
+|t:|1685455710
+|switch|p1a: Steelix|Steelix, L84, F|263/263
+|move|p2a: Mandibuzz|Toxic|p1a: Steelix
+|-immune|p1a: Steelix
+|
+|upkeep
+|turn|2
+|
+|t:|1685455719
+|switch|p2a: Swampert|Swampert, L80, F|291/291
+|move|p1a: Steelix|Toxic|p2a: Swampert
+|-status|p2a: Swampert|tox
+|
+|-damage|p2a: Swampert|273/291 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1685455730
+|move|p2a: Swampert|Scald|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|99/263
+|move|p1a: Steelix|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|182/291 tox
+|
+|-heal|p1a: Steelix|115/263|[from] item: Leftovers
+|-damage|p2a: Swampert|146/291 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1685455751
+|switch|p1a: Palkia|Palkia, L74|255/255
+|-ability|p1a: Palkia|Pressure
+|move|p2a: Swampert|Flip Turn|p1a: Palkia
+|-resisted|p1a: Palkia
+|-damage|p1a: Palkia|240/255
+|
+|t:|1685455760
+|switch|p2a: Crobat|Crobat, L82, F|274/274|[from] Flip Turn
+|
+|upkeep
+|turn|5
+|
+|t:|1685455778
+|switch|p1a: Pincurchin|Pincurchin, L88, M|228/228
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Crobat|Super Fang|p1a: Pincurchin
+|-damage|p1a: Pincurchin|114/228
+|
+|upkeep
+|turn|6
+|
+|t:|1685455787
+|move|p2a: Crobat|Super Fang|p1a: Pincurchin
+|-damage|p1a: Pincurchin|57/228
+|move|p1a: Pincurchin|Rising Voltage|p2a: Crobat
+|-supereffective|p2a: Crobat
+|-damage|p2a: Crobat|32/274
+|
+|upkeep
+|turn|7
+|
+|t:|1685455795
+|move|p2a: Crobat|Roost|p2a: Crobat
+|-heal|p2a: Crobat|169/274
+|-singleturn|p2a: Crobat|move: Roost
+|move|p1a: Pincurchin|Rising Voltage|p2a: Crobat
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-damage|p2a: Crobat|0 fnt
+|faint|p2a: Crobat
+|
+|upkeep
+|
+|t:|1685455808
+|switch|p2a: Reshiram|Reshiram, L74|270/270
+|-ability|p2a: Reshiram|Turboblaze
+|turn|8
+|
+|t:|1685455817
+|move|p2a: Reshiram|Blue Flare|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|
+|upkeep
+|
+|t:|1685455830
+|switch|p1a: Palkia|Palkia, L74|240/255
+|-ability|p1a: Palkia|Pressure
+|turn|9
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by juantheroleplay)
+|
+|t:|1685455845
+|-start|p1a: Palkia|Dynamax|
+|-heal|p1a: Palkia|480/510|[silent]
+|move|p1a: Palkia|Max Wyrmwind|p2a: Reshiram
+|-supereffective|p2a: Reshiram
+|-damage|p2a: Reshiram|16/270
+|-unboost|p2a: Reshiram|atk|1
+|move|p2a: Reshiram|Draco Meteor|p1a: Palkia
+|-supereffective|p1a: Palkia
+|-damage|p1a: Palkia|216/510
+|-unboost|p2a: Reshiram|spa|2
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|10
+|
+|t:|1685455863
+|move|p1a: Palkia|Max Geyser|p2a: Reshiram
+|-damage|p2a: Reshiram|0 fnt
+|-weather|RainDance
+|faint|p2a: Reshiram
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685455871
+|switch|p2a: Virizion|Virizion, L82|283/283
+|turn|11
+|
+|t:|1685455876
+|-start|p2a: Virizion|Dynamax|
+|-heal|p2a: Virizion|566/566|[silent]
+|move|p2a: Virizion|Max Overgrowth|p1a: Palkia
+|-damage|p1a: Palkia|80/510
+|-fieldstart|move: Grassy Terrain
+|move|p1a: Palkia|Max Flare|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|486/566
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Virizion|503/566|[from] Grassy Terrain
+|-heal|p1a: Palkia|95/510|[from] Grassy Terrain
+|upkeep
+|-end|p1a: Palkia|Dynamax
+|-heal|p1a: Palkia|48/255|[silent]
+|turn|12
+|
+|t:|1685455893
+|move|p1a: Palkia|Fire Blast|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|303/566
+|-status|p2a: Virizion|brn
+|-enditem|p2a: Virizion|Lum Berry|[eat]
+|-curestatus|p2a: Virizion|brn|[msg]
+|move|p2a: Virizion|Max Knuckle|p1a: Palkia
+|-damage|p1a: Palkia|0 fnt
+|-boost|p2a: Virizion|atk|1
+|faint|p1a: Palkia
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Virizion|320/566|[from] Grassy Terrain
+|upkeep
+|inactive|Tmbxjiraiya has 120 seconds left.
+|
+|t:|1685455916
+|switch|p1a: Shedinja|Shedinja, L88|1/1
+|turn|13
+|
+|t:|1685455929
+|move|p1a: Shedinja|Shadow Sneak|p2a: Virizion
+|-damage|p2a: Virizion|266/566
+|move|p2a: Virizion|Max Rockfall|p1a: Shedinja
+|-supereffective|p1a: Shedinja
+|-damage|p1a: Shedinja|0 fnt
+|-weather|Sandstorm
+|faint|p1a: Shedinja
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Virizion|249/566|[from] Sandstorm
+|-heal|p2a: Virizion|266/566|[from] Grassy Terrain
+|upkeep
+|inactive|Tmbxjiraiya has 120 seconds left.
+|
+|t:|1685455945
+|switch|p1a: Steelix|Steelix, L84, F|115/263
+|-end|p2a: Virizion|Dynamax
+|-heal|p2a: Virizion|133/283|[silent]
+|turn|14
+|inactive|Tmbxjiraiya has 120 seconds left.
+|
+|t:|1685455953
+|move|p2a: Virizion|Leaf Blade|p1a: Steelix
+|-damage|p1a: Steelix|34/263
+|move|p1a: Steelix|Toxic|p2a: Virizion
+|-status|p2a: Virizion|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Virizion|116/283 tox|[from] Sandstorm
+|-heal|p2a: Virizion|133/283 tox|[from] Grassy Terrain
+|-heal|p1a: Steelix|50/263|[from] Grassy Terrain
+|-heal|p1a: Steelix|66/263|[from] item: Leftovers
+|-damage|p2a: Virizion|116/283 tox|[from] psn
+|upkeep
+|turn|15
+|inactive|Tmbxjiraiya has 120 seconds left.
+|
+|t:|1685455967
+|move|p2a: Virizion|Leaf Blade|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|faint|p1a: Steelix
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Virizion|99/283 tox|[from] Sandstorm
+|-heal|p2a: Virizion|116/283 tox|[from] Grassy Terrain
+|-damage|p2a: Virizion|82/283 tox|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|inactive|Tmbxjiraiya has 120 seconds left.
+|
+|t:|1685455981
+|switch|p1a: Oranguru|Oranguru, L86, F|295/295
+|turn|16
+|inactive|Tmbxjiraiya has 120 seconds left.
+|
+|t:|1685455990
+|move|p2a: Virizion|Close Combat|p1a: Oranguru
+|-damage|p1a: Oranguru|106/295
+|-unboost|p2a: Virizion|def|1
+|-unboost|p2a: Virizion|spd|1
+|move|p1a: Oranguru|Psychic|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|0 fnt
+|faint|p2a: Virizion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Oranguru|88/295|[from] Sandstorm
+|-heal|p1a: Oranguru|106/295|[from] item: Leftovers
+|upkeep
+|
+|t:|1685456001
+|switch|p2a: Swampert|Swampert, L80, F|146/291 tox
+|turn|17
+|inactive|Tmbxjiraiya has 120 seconds left.
+|
+|t:|1685456017
+|move|p2a: Swampert|Flip Turn|p1a: Oranguru
+|-damage|p1a: Oranguru|42/295
+|
+|t:|1685456027
+|switch|p2a: Dedenne|Dedenne, L87, F|258/258|[from] Flip Turn
+|move|p1a: Oranguru|Focus Blast|p2a: Dedenne
+|-resisted|p2a: Dedenne
+|-damage|p2a: Dedenne|212/258
+|
+|-weather|none
+|-heal|p1a: Oranguru|60/295|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1685456041
+|move|p2a: Dedenne|Toxic|p1a: Oranguru|[miss]
+|-miss|p2a: Dedenne|p1a: Oranguru
+|move|p1a: Oranguru|Psychic|p2a: Dedenne
+|-damage|p2a: Dedenne|106/258
+|-enditem|p2a: Dedenne|Sitrus Berry|[eat]
+|-heal|p2a: Dedenne|170/258|[from] item: Sitrus Berry
+|-heal|p2a: Dedenne|256/258|[from] ability: Cheek Pouch
+|
+|-heal|p1a: Oranguru|78/295|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1685456052
+|move|p2a: Dedenne|Toxic|p1a: Oranguru
+|-status|p1a: Oranguru|tox
+|move|p1a: Oranguru|Psychic|p2a: Dedenne
+|-damage|p2a: Dedenne|139/258
+|-unboost|p2a: Dedenne|spd|1
+|
+|-heal|p1a: Oranguru|96/295 tox|[from] item: Leftovers
+|-damage|p1a: Oranguru|78/295 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1685456068
+|move|p2a: Dedenne|Protect|p2a: Dedenne
+|-singleturn|p2a: Dedenne|Protect
+|move|p1a: Oranguru|Psychic|p2a: Dedenne
+|-activate|p2a: Dedenne|move: Protect
+|
+|-heal|p1a: Oranguru|96/295 tox|[from] item: Leftovers
+|-damage|p1a: Oranguru|60/295 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1685456077
+|move|p2a: Dedenne|Protect|p2a: Dedenne
+|-singleturn|p2a: Dedenne|Protect
+|move|p1a: Oranguru|Psychic|p2a: Dedenne
+|-activate|p2a: Dedenne|move: Protect
+|
+|-heal|p1a: Oranguru|78/295 tox|[from] item: Leftovers
+|-damage|p1a: Oranguru|24/295 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1685456086
+|move|p2a: Dedenne|Protect||[still]
+|-fail|p2a: Dedenne
+|move|p1a: Oranguru|Psychic|p2a: Dedenne
+|-damage|p2a: Dedenne|0 fnt
+|faint|p2a: Dedenne
+|
+|-heal|p1a: Oranguru|42/295 tox|[from] item: Leftovers
+|-damage|p1a: Oranguru|0 fnt|[from] psn
+|faint|p1a: Oranguru
+|upkeep
+|
+|t:|1685456097
+|switch|p2a: Swampert|Swampert, L80, F|146/291 tox
+|switch|p1a: Morpeko|Morpeko, L86, F|240/240
+|turn|23
+|
+|t:|1685456119
+|move|p1a: Morpeko|Foul Play|p2a: Swampert
+|-damage|p2a: Swampert|38/291 tox
+|move|p2a: Swampert|Earthquake|p1a: Morpeko
+|-supereffective|p1a: Morpeko
+|-damage|p1a: Morpeko|0 fnt
+|faint|p1a: Morpeko
+|
+|win|juantheroleplay
+|raw|Tmbxjiraiya's rating: 1058 &rarr; <strong>1042</strong><br />(-16 for losing)
+|raw|juantheroleplay's rating: 1102 &rarr; <strong>1124</strong><br />(+22 for winning)

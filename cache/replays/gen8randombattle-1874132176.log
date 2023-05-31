@@ -1,0 +1,164 @@
+|j|☆NinjaGay
+|j|☆atrjhryjfszdh
+|t:|1685467413
+|gametype|singles
+|player|p1|NinjaGay|169|1426
+|player|p2|atrjhryjfszdh|2|1448
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685467413
+|start
+|switch|p1a: Carracosta|Carracosta, L84, F|262/262
+|switch|p2a: Marowak|Marowak-Alola, L84, M|238/238
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NinjaGay)
+|
+|t:|1685467453
+|switch|p2a: Sceptile|Sceptile, L86, F|261/261
+|move|p1a: Carracosta|Shell Smash|p1a: Carracosta
+|-unboost|p1a: Carracosta|def|1
+|-unboost|p1a: Carracosta|spd|1
+|-boost|p1a: Carracosta|atk|2
+|-boost|p1a: Carracosta|spa|2
+|-boost|p1a: Carracosta|spe|2
+|
+|upkeep
+|turn|2
+|inactive|NinjaGay has 120 seconds left.
+|
+|t:|1685467502
+|switch|p1a: Exeggutor|Exeggutor-Alola, L87, F|307/307
+|-item|p2a: Sceptile|Leftovers|[from] ability: Frisk|[of] p1a: Exeggutor|[identify]
+|move|p2a: Sceptile|Giga Drain|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|281/307
+|
+|upkeep
+|turn|3
+|
+|t:|1685467523
+|switch|p2a: Skuntank|Skuntank, L85, M|314/314
+|move|p1a: Exeggutor|Trick Room|p1a: Exeggutor
+|-fieldstart|move: Trick Room|[of] p1a: Exeggutor
+|
+|upkeep
+|turn|4
+|
+|t:|1685467545
+|move|p1a: Exeggutor|Draco Meteor|p2a: Skuntank
+|-damage|p2a: Skuntank|10/314
+|-unboost|p1a: Exeggutor|spa|2
+|-damage|p1a: Exeggutor|251/307|[from] item: Life Orb
+|move|p2a: Skuntank|Toxic|p1a: Exeggutor
+|-status|p1a: Exeggutor|tox
+|
+|-heal|p2a: Skuntank|29/314|[from] item: Black Sludge
+|-damage|p1a: Exeggutor|232/307 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1685467563
+|move|p2a: Skuntank|Sucker Punch|p1a: Exeggutor
+|-damage|p1a: Exeggutor|157/307 tox
+|move|p1a: Exeggutor|Flamethrower|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|faint|p2a: Skuntank
+|-damage|p1a: Exeggutor|127/307 tox|[from] item: Life Orb
+|
+|-damage|p1a: Exeggutor|89/307 tox|[from] psn
+|upkeep
+|
+|t:|1685467570
+|switch|p2a: Registeel|Registeel, L83|268/268
+|turn|6
+|
+|t:|1685467577
+|move|p1a: Exeggutor|Flamethrower|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|195/268
+|-damage|p1a: Exeggutor|59/307 tox|[from] item: Life Orb
+|move|p2a: Registeel|Curse|p2a: Registeel
+|-unboost|p2a: Registeel|spe|1
+|-boost|p2a: Registeel|atk|1
+|-boost|p2a: Registeel|def|1
+|
+|-damage|p1a: Exeggutor|2/307 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1685467597
+|move|p1a: Exeggutor|Flamethrower|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|120/268
+|-status|p2a: Registeel|brn
+|-damage|p1a: Exeggutor|0 fnt|[from] item: Life Orb
+|faint|p1a: Exeggutor
+|move|p2a: Registeel|Body Press|p1: Exeggutor|[notarget]
+|-fail|p2a: Registeel
+|
+|-damage|p2a: Registeel|104/268 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1685467609
+|switch|p1a: Carracosta|Carracosta, L84, F|262/262
+|turn|8
+|
+|t:|1685467617
+|move|p1a: Carracosta|Shell Smash|p1a: Carracosta
+|-unboost|p1a: Carracosta|def|1
+|-unboost|p1a: Carracosta|spd|1
+|-boost|p1a: Carracosta|atk|2
+|-boost|p1a: Carracosta|spa|2
+|-boost|p1a: Carracosta|spe|2
+|move|p2a: Registeel|Body Press|p1a: Carracosta
+|-supereffective|p1a: Carracosta
+|-damage|p1a: Carracosta|165/262
+|-enditem|p1a: Carracosta|Weakness Policy
+|-boost|p1a: Carracosta|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Carracosta|spa|2|[from] item: Weakness Policy
+|
+|-damage|p2a: Registeel|88/268 brn|[from] brn
+|upkeep
+|turn|9
+|inactive|NinjaGay has 90 seconds left.
+|
+|t:|1685467644
+|switch|p2a: Sceptile|Sceptile, L86, F|261/261
+|move|p1a: Carracosta|Shell Smash|p1a: Carracosta
+|-unboost|p1a: Carracosta|def|1
+|-unboost|p1a: Carracosta|spd|1
+|-boost|p1a: Carracosta|atk|2
+|-boost|p1a: Carracosta|spa|2
+|-boost|p1a: Carracosta|spe|2
+|
+|upkeep
+|turn|10
+|inactive|NinjaGay has 90 seconds left.
+|c|☆NinjaGay|gg
+|
+|t:|1685467658
+|-start|p1a: Carracosta|Dynamax|
+|-heal|p1a: Carracosta|330/524|[silent]
+|-start|p2a: Sceptile|Dynamax|
+|-heal|p2a: Sceptile|522/522|[silent]
+|move|p1a: Carracosta|Max Rockfall|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|-weather|Sandstorm
+|faint|p2a: Sceptile
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|-message|atrjhryjfszdh forfeited.
+|
+|win|NinjaGay
+|raw|NinjaGay's rating: 1426 &rarr; <strong>1447</strong><br />(+21 for winning)
+|raw|atrjhryjfszdh's rating: 1448 &rarr; <strong>1427</strong><br />(-21 for losing)
+|l|☆atrjhryjfszdh

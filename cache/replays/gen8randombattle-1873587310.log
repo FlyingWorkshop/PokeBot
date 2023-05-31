@@ -1,0 +1,183 @@
+|j|☆ddgdsd
+|j|☆XxZeKevstarxX
+|t:|1685393368
+|gametype|singles
+|player|p1|ddgdsd|265|1329
+|player|p2|XxZeKevstarxX|2|1361
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685393368
+|start
+|switch|p1a: Darmanitan|Darmanitan-Galar, L78, F|291/291
+|switch|p2a: Vikavolt|Vikavolt, L82, M|260/260
+|turn|1
+|
+|t:|1685393382
+|switch|p2a: Mantine|Mantine, L86, F|286/286
+|move|p1a: Darmanitan|Flare Blitz|p2a: Mantine
+|-resisted|p2a: Mantine
+|-damage|p2a: Mantine|200/286
+|-status|p2a: Mantine|brn
+|-damage|p1a: Darmanitan|263/291|[from] Recoil
+|
+|-damage|p2a: Mantine|183/286 brn|[from] brn
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by XxZeKevstarxX)
+|
+|t:|1685393401
+|switch|p1a: Calyrex|Calyrex-Ice, L72|263/263
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Mantine|Toxic|p1a: Calyrex
+|-status|p1a: Calyrex|tox
+|
+|-damage|p1a: Calyrex|247/263 tox|[from] psn
+|-damage|p2a: Mantine|166/286 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1685393414
+|move|p2a: Mantine|Roost|p2a: Mantine
+|-heal|p2a: Mantine|286/286 brn
+|-singleturn|p2a: Mantine|move: Roost
+|move|p1a: Calyrex|Glacial Lance|p2a: Mantine
+|-resisted|p2a: Mantine
+|-damage|p2a: Mantine|198/286 brn
+|
+|-damage|p1a: Calyrex|215/263 tox|[from] psn
+|-damage|p2a: Mantine|181/286 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1685393429
+|switch|p1a: Toxapex|Toxapex, L82, F|216/216
+|move|p2a: Mantine|Roost|p2a: Mantine
+|-heal|p2a: Mantine|286/286 brn
+|-singleturn|p2a: Mantine|move: Roost
+|
+|-damage|p2a: Mantine|269/286 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1685393442
+|move|p2a: Mantine|Hurricane|p1a: Toxapex
+|-damage|p1a: Toxapex|144/216
+|-start|p1a: Toxapex|confusion
+|-activate|p1a: Toxapex|confusion
+|-damage|p1a: Toxapex|134/216|[from] confusion
+|
+|-heal|p1a: Toxapex|147/216|[from] item: Black Sludge
+|-damage|p2a: Mantine|252/286 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1685393458
+|switch|p2a: Vikavolt|Vikavolt, L82, M|260/260
+|-activate|p1a: Toxapex|confusion
+|move|p1a: Toxapex|Toxic|p2a: Vikavolt
+|-status|p2a: Vikavolt|tox
+|
+|-heal|p1a: Toxapex|160/216|[from] item: Black Sludge
+|-damage|p2a: Vikavolt|244/260 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1685393475
+|switch|p1a: Turtonator|Turtonator, L84, M|238/238
+|move|p2a: Vikavolt|Sticky Web|p1a: Turtonator
+|-sidestart|p1: ddgdsd|move: Sticky Web
+|
+|-damage|p2a: Vikavolt|212/260 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1685393493
+|move|p2a: Vikavolt|Thunderbolt|p1a: Turtonator
+|-resisted|p1a: Turtonator
+|-damage|p1a: Turtonator|174/238
+|-status|p1a: Turtonator|par
+|move|p1a: Turtonator|Draco Meteor|p2a: Vikavolt
+|-damage|p2a: Vikavolt|56/260 tox
+|-unboost|p1a: Turtonator|spa|2
+|
+|-damage|p2a: Vikavolt|8/260 tox|[from] psn
+|upkeep
+|turn|9
+|inactive|XxZeKevstarxX has 120 seconds left.
+|
+|t:|1685393510
+|move|p2a: Vikavolt|Roost|p2a: Vikavolt
+|-heal|p2a: Vikavolt|138/260 tox
+|-singleturn|p2a: Vikavolt|move: Roost
+|move|p1a: Turtonator|Rapid Spin|p2a: Vikavolt
+|-damage|p2a: Vikavolt|106/260 tox
+|-boost|p1a: Turtonator|spe|1
+|-sideend|p1: ddgdsd|Sticky Web|[from] move: Rapid Spin|[of] p1a: Turtonator
+|
+|-damage|p2a: Vikavolt|42/260 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1685393527
+|move|p2a: Vikavolt|Sticky Web|p1a: Turtonator
+|-sidestart|p1: ddgdsd|move: Sticky Web
+|move|p1a: Turtonator|Fire Blast|p2a: Vikavolt
+|-supereffective|p2a: Vikavolt
+|-damage|p2a: Vikavolt|0 fnt
+|faint|p2a: Vikavolt
+|
+|upkeep
+|inactive|XxZeKevstarxX has 120 seconds left.
+|
+|t:|1685393538
+|switch|p2a: Zygarde|Zygarde-10%, L82|223/223
+|-ability|p2a: Zygarde|Aura Break
+|turn|11
+|
+|t:|1685393545
+|switch|p1a: Darmanitan|Darmanitan-Galar, L78, F|263/291
+|-activate|p1a: Darmanitan|move: Sticky Web
+|-unboost|p1a: Darmanitan|spe|1
+|move|p2a: Zygarde|Thousand Arrows|p1a: Darmanitan
+|-damage|p1a: Darmanitan|98/291
+|-damage|p2a: Zygarde|201/223|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|t:|1685393558
+|switch|p1a: Calyrex|Calyrex-Ice, L72|215/263 tox
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-activate|p1a: Calyrex|move: Sticky Web
+|-unboost|p1a: Calyrex|spe|1
+|move|p2a: Zygarde|Thousand Arrows|p1a: Calyrex
+|-damage|p1a: Calyrex|124/263 tox
+|-damage|p2a: Zygarde|179/223|[from] item: Life Orb
+|
+|-damage|p1a: Calyrex|108/263 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1685393575
+|move|p2a: Zygarde|Outrage|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-damage|p2a: Zygarde|157/223|[from] item: Life Orb
+|
+|upkeep
+|-message|ddgdsd forfeited.
+|
+|win|XxZeKevstarxX
+|raw|ddgdsd's rating: 1329 &rarr; <strong>1311</strong><br />(-18 for losing)
+|raw|XxZeKevstarxX's rating: 1361 &rarr; <strong>1379</strong><br />(+18 for winning)
+|l|☆ddgdsd
+|c|☆XxZeKevstarxX|ez

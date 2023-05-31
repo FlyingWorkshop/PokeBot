@@ -1,0 +1,334 @@
+|j|☆mikeyuwu
+|j|☆ArthurNoob
+|t:|1685386946
+|gametype|singles
+|player|p1|mikeyuwu|psychic-gen4|1299
+|player|p2|ArthurNoob|benga|1213
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685386946
+|start
+|switch|p1a: Togedemaru|Togedemaru, L86, M|252/252
+|switch|p2a: Palkia|Palkia, L74|255/255
+|-ability|p2a: Palkia|Pressure
+|turn|1
+|
+|t:|1685386962
+|move|p1a: Togedemaru|Nuzzle|p2a: Palkia
+|-damage|p2a: Palkia|218/255
+|-status|p2a: Palkia|par
+|move|p2a: Palkia|Fire Blast|p1a: Togedemaru
+|-supereffective|p1a: Togedemaru
+|-damage|p1a: Togedemaru|0 fnt
+|faint|p1a: Togedemaru
+|
+|upkeep
+|
+|t:|1685386973
+|switch|p1a: Kyurem|Kyurem-Black, L73|303/303
+|-ability|p1a: Kyurem|Teravolt
+|turn|2
+|
+|t:|1685387000
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Palkia|Fire Blast|p1a: Kyurem|[miss]
+|-miss|p2a: Palkia|p1a: Kyurem
+|
+|upkeep
+|turn|3
+|
+|t:|1685387009
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Palkia|Fire Blast|p1a: Kyurem
+|-damage|p1a: Kyurem|161/303
+|
+|upkeep
+|turn|4
+|
+|t:|1685387016
+|-start|p1a: Kyurem|Dynamax|
+|-heal|p1a: Kyurem|322/606|[silent]
+|move|p1a: Kyurem|Max Wyrmwind|p2a: Palkia
+|-supereffective|p2a: Palkia
+|-damage|p2a: Palkia|0 fnt
+|faint|p2a: Palkia
+|
+|upkeep
+|
+|t:|1685387034
+|switch|p2a: Bronzong|Bronzong, L83|247/247
+|turn|5
+|
+|t:|1685387045
+|move|p1a: Kyurem|Max Lightning|p2a: Bronzong
+|-damage|p2a: Bronzong|78/247
+|-fieldstart|move: Electric Terrain
+|move|p2a: Bronzong|Stealth Rock|p1a: Kyurem
+|-sidestart|p1: mikeyuwu|move: Stealth Rock
+|
+|-heal|p2a: Bronzong|93/247|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685387056
+|move|p1a: Kyurem|Max Lightning|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|upkeep
+|
+|t:|1685387075
+|switch|p2a: Guzzlord|Guzzlord, L84|512/512
+|-end|p1a: Kyurem|Dynamax
+|-heal|p1a: Kyurem|161/303|[silent]
+|turn|7
+|
+|t:|1685387083
+|move|p1a: Kyurem|Outrage|p2a: Guzzlord
+|-supereffective|p2a: Guzzlord
+|-damage|p2a: Guzzlord|0 fnt
+|faint|p2a: Guzzlord
+|
+|upkeep
+|
+|t:|1685387093
+|switch|p2a: Morpeko|Morpeko, L86, F|240/240
+|turn|8
+|
+|t:|1685387108
+|move|p1a: Kyurem|Outrage|p2a: Morpeko|[from]lockedmove
+|-damage|p2a: Morpeko|0 fnt
+|faint|p2a: Morpeko
+|-start|p1a: Kyurem|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1685387117
+|switch|p2a: Pikachu|Pikachu-World, L92, M|214/214
+|turn|9
+|
+|t:|1685387125
+|-activate|p1a: Kyurem|confusion
+|-damage|p1a: Kyurem|93/303|[from] confusion
+|move|p2a: Pikachu|Iron Tail|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1685387132
+|switch|p1a: Marowak|Marowak-Alola, L84, F|238/238
+|-damage|p1a: Marowak|179/238|[from] Stealth Rock
+|turn|10
+|
+|t:|1685387138
+|move|p2a: Pikachu|Knock Off|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|3/238
+|-enditem|p1a: Marowak|Thick Club|[from] move: Knock Off|[of] p2a: Pikachu
+|move|p1a: Marowak|Earthquake|p2a: Pikachu
+|-supereffective|p2a: Pikachu
+|-damage|p2a: Pikachu|28/214
+|
+|upkeep
+|turn|11
+|
+|t:|1685387151
+|move|p2a: Pikachu|Knock Off|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|upkeep
+|
+|t:|1685387154
+|switch|p1a: Crustle|Crustle, L82, M|249/249
+|turn|12
+|
+|t:|1685387168
+|move|p2a: Pikachu|Iron Tail|p1a: Crustle|[miss]
+|-miss|p2a: Pikachu|p1a: Crustle
+|move|p1a: Crustle|Earthquake|p2a: Pikachu
+|-supereffective|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|faint|p2a: Pikachu
+|
+|upkeep
+|
+|t:|1685387176
+|switch|p2a: Chansey|Chansey, L84, F|557/557
+|turn|13
+|
+|t:|1685387182
+|move|p2a: Chansey|Seismic Toss|p1a: Crustle
+|-damage|p1a: Crustle|165/249
+|move|p1a: Crustle|Stone Edge|p2a: Chansey
+|-damage|p2a: Chansey|301/557
+|
+|upkeep
+|turn|14
+|
+|t:|1685387197
+|-start|p2a: Chansey|Dynamax|
+|-heal|p2a: Chansey|602/1114|[silent]
+|move|p2a: Chansey|Max Knuckle|p1a: Crustle
+|-damage|p1a: Crustle|162/249
+|-boost|p2a: Chansey|atk|1
+|move|p1a: Crustle|Stone Edge|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|229/1114
+|
+|upkeep
+|turn|15
+|
+|t:|1685387211
+|move|p2a: Chansey|Max Guard|p2a: Chansey
+|-singleturn|p2a: Chansey|Max Guard
+|move|p1a: Crustle|Stone Edge|p2a: Chansey
+|-activate|p2a: Chansey|move: Max Guard
+|
+|upkeep
+|turn|16
+|
+|t:|1685387216
+|move|p2a: Chansey|Max Knuckle|p1a: Crustle
+|-damage|p1a: Crustle|158/249
+|-boost|p2a: Chansey|atk|1
+|move|p1a: Crustle|Stone Edge|p2a: Chansey|[miss]
+|-miss|p1a: Crustle|p2a: Chansey
+|
+|upkeep
+|-end|p2a: Chansey|Dynamax
+|-heal|p2a: Chansey|115/557|[silent]
+|turn|17
+|
+|t:|1685387228
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|394/557
+|move|p1a: Crustle|Stone Edge|p2a: Chansey
+|-damage|p2a: Chansey|129/557
+|
+|upkeep
+|turn|18
+|
+|t:|1685387234
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|408/557
+|move|p1a: Crustle|Stone Edge|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|47/557
+|
+|upkeep
+|turn|19
+|
+|t:|1685387242
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|326/557
+|move|p1a: Crustle|Stone Edge|p2a: Chansey
+|-damage|p2a: Chansey|98/557
+|
+|upkeep
+|turn|20
+|
+|t:|1685387249
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|377/557
+|move|p1a: Crustle|Stone Edge|p2a: Chansey|[miss]
+|-miss|p1a: Crustle|p2a: Chansey
+|
+|upkeep
+|turn|21
+|
+|t:|1685387257
+|move|p2a: Chansey|Seismic Toss|p1a: Crustle
+|-damage|p1a: Crustle|74/249
+|move|p1a: Crustle|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|202/557
+|
+|upkeep
+|turn|22
+|
+|t:|1685387264
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|481/557
+|move|p1a: Crustle|Earthquake|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|216/557
+|
+|upkeep
+|turn|23
+|
+|t:|1685387271
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|495/557
+|move|p1a: Crustle|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|326/557
+|
+|upkeep
+|turn|24
+|
+|t:|1685387278
+|move|p2a: Chansey|Seismic Toss|p1a: Crustle
+|-damage|p1a: Crustle|0 fnt
+|faint|p1a: Crustle
+|
+|upkeep
+|
+|t:|1685387285
+|switch|p1a: Kingler|Kingler, L84, M|230/230
+|-damage|p1a: Kingler|202/230|[from] Stealth Rock
+|turn|25
+|
+|t:|1685387292
+|move|p1a: Kingler|Swords Dance|p1a: Kingler
+|-boost|p1a: Kingler|atk|2
+|move|p2a: Chansey|Seismic Toss|p1a: Kingler
+|-damage|p1a: Kingler|118/230
+|
+|upkeep
+|turn|26
+|
+|t:|1685387299
+|move|p1a: Kingler|Swords Dance|p1a: Kingler
+|-boost|p1a: Kingler|atk|2
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|557/557
+|
+|upkeep
+|turn|27
+|
+|t:|1685387307
+|move|p1a: Kingler|Swords Dance|p1a: Kingler
+|-boost|p1a: Kingler|atk|2
+|move|p2a: Chansey|Seismic Toss|p1a: Kingler
+|-damage|p1a: Kingler|34/230
+|
+|upkeep
+|turn|28
+|
+|t:|1685387314
+|move|p1a: Kingler|Superpower|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|-unboost|p1a: Kingler|atk|1
+|-unboost|p1a: Kingler|def|1
+|faint|p2a: Chansey
+|-damage|p1a: Kingler|11/230|[from] item: Life Orb
+|
+|win|mikeyuwu
+|raw|mikeyuwu's rating: 1299 &rarr; <strong>1318</strong><br />(+19 for winning)
+|raw|ArthurNoob's rating: 1213 &rarr; <strong>1194</strong><br />(-19 for losing)
+|l|☆ArthurNoob

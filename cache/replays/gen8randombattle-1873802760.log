@@ -1,0 +1,519 @@
+|j|☆pizzaroli
+|j|☆burriedinkillarney
+|t:|1685423151
+|gametype|singles
+|player|p1|pizzaroli|aromalady|1315
+|player|p2|burriedinkillarney|cyrus|1337
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685423151
+|start
+|switch|p1a: Krookodile|Krookodile, L78, F|276/276
+|switch|p2a: Thievul|Thievul, L86, F|261/261
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Thievul|atk|1
+|turn|1
+|
+|t:|1685423167
+|move|p2a: Thievul|Nasty Plot|p2a: Thievul
+|-boost|p2a: Thievul|spa|2
+|move|p1a: Krookodile|Stealth Rock|p2a: Thievul
+|-sidestart|p2: burriedinkillarney|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pizzaroli)
+|
+|t:|1685423175
+|move|p2a: Thievul|Grass Knot|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-enditem|p1a: Krookodile|Focus Sash
+|-damage|p1a: Krookodile|1/276
+|-damage|p2a: Thievul|235/261|[from] item: Life Orb
+|move|p1a: Krookodile|Close Combat|p2a: Thievul
+|-supereffective|p2a: Thievul
+|-damage|p2a: Thievul|7/261
+|-unboost|p1a: Krookodile|def|1
+|-unboost|p1a: Krookodile|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1685423188
+|move|p2a: Thievul|Dark Pulse|p1a: Krookodile
+|-resisted|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|faint|p1a: Krookodile
+|-damage|p2a: Thievul|0 fnt|[from] item: Life Orb
+|faint|p2a: Thievul
+|
+|upkeep
+|inactive|burriedinkillarney has 120 seconds left.
+|l|☆burriedinkillarney
+|inactive|burriedinkillarney disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆burriedinkillarney
+|inactive|burriedinkillarney reconnected and has 110 seconds left.
+|player|p2|burriedinkillarney|cyrus
+|
+|t:|1685423235
+|switch|p2a: Wigglytuff|Wigglytuff, L90, F|398/398
+|switch|p1a: Sandslash|Sandslash, L86, M|269/269
+|-damage|p2a: Wigglytuff|349/398|[from] Stealth Rock
+|turn|4
+|
+|t:|1685423242
+|move|p1a: Sandslash|Spikes|p2a: Wigglytuff
+|-sidestart|p2: burriedinkillarney|Spikes
+|move|p2a: Wigglytuff|Stealth Rock|p1a: Sandslash
+|-sidestart|p1: pizzaroli|move: Stealth Rock
+|
+|-heal|p2a: Wigglytuff|373/398|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685423250
+|move|p1a: Sandslash|Spikes|p2a: Wigglytuff
+|-sidestart|p2: burriedinkillarney|Spikes
+|move|p2a: Wigglytuff|Dazzling Gleam|p1a: Sandslash
+|-damage|p1a: Sandslash|158/269
+|
+|-heal|p1a: Sandslash|174/269|[from] item: Leftovers
+|-heal|p2a: Wigglytuff|397/398|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|burriedinkillarney has 120 seconds left.
+|
+|t:|1685423261
+|move|p1a: Sandslash|Spikes|p2a: Wigglytuff
+|-sidestart|p2: burriedinkillarney|Spikes
+|move|p2a: Wigglytuff|Dazzling Gleam|p1a: Sandslash
+|-damage|p1a: Sandslash|54/269
+|
+|-heal|p1a: Sandslash|70/269|[from] item: Leftovers
+|-heal|p2a: Wigglytuff|398/398|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685423269
+|move|p1a: Sandslash|Earthquake|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|236/398
+|move|p2a: Wigglytuff|Dazzling Gleam|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|
+|-heal|p2a: Wigglytuff|260/398|[from] item: Leftovers
+|upkeep
+|
+|t:|1685423282
+|switch|p1a: Comfey|Comfey, L86, M|243/243
+|-damage|p1a: Comfey|213/243|[from] Stealth Rock
+|turn|8
+|inactive|burriedinkillarney has 120 seconds left.
+|
+|t:|1685423307
+|move|p1a: Comfey|Sludge Bomb|p2a: Wigglytuff
+|-supereffective|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|22/398
+|move|p2a: Wigglytuff|Dazzling Gleam|p1a: Comfey
+|-supereffective|p1a: Comfey
+|-damage|p1a: Comfey|0 fnt
+|replace|p1a: Zoroark|Zoroark, L86, F
+|-end|p1a: Zoroark|Illusion
+|faint|p1a: Zoroark
+|
+|-heal|p2a: Wigglytuff|46/398|[from] item: Leftovers
+|upkeep
+|
+|t:|1685423328
+|switch|p1a: Durant|Durant, L78, F|219/219
+|-damage|p1a: Durant|192/219|[from] Stealth Rock
+|turn|9
+|
+|t:|1685423335
+|move|p1a: Durant|Hone Claws|p1a: Durant
+|-boost|p1a: Durant|atk|1
+|-boost|p1a: Durant|accuracy|1
+|move|p2a: Wigglytuff|Fire Blast|p1a: Durant|[miss]
+|-miss|p2a: Wigglytuff|p1a: Durant
+|
+|-heal|p2a: Wigglytuff|70/398|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685423344
+|move|p1a: Durant|Iron Head|p2a: Wigglytuff
+|-supereffective|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|-damage|p1a: Durant|171/219|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685423362
+|switch|p2a: Jellicent|Jellicent, L84, M|305/305
+|-damage|p2a: Jellicent|267/305|[from] Stealth Rock
+|-damage|p2a: Jellicent|191/305|[from] Spikes
+|turn|11
+|
+|t:|1685423371
+|move|p1a: Durant|Iron Head|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|51/305
+|-damage|p1a: Durant|150/219|[from] item: Life Orb
+|cant|p2a: Jellicent|flinch
+|
+|-heal|p2a: Jellicent|70/305|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685423378
+|move|p1a: Durant|Iron Head|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|-damage|p1a: Durant|129/219|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685423389
+|switch|p2a: Scyther|Scyther, L81, F|246/246
+|turn|13
+|
+|t:|1685423395
+|move|p2a: Scyther|Dual Wingbeat|p1a: Durant
+|-damage|p1a: Durant|71/219
+|-damage|p1a: Durant|16/219
+|-hitcount|p1a: Durant|2
+|move|p1a: Durant|Rock Slide|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|-damage|p1a: Durant|0 fnt|[from] item: Life Orb
+|faint|p1a: Durant
+|
+|upkeep
+|
+|t:|1685423405
+|switch|p2a: Milotic|Milotic, L82, F|290/290
+|switch|p1a: Shiinotic|Shiinotic, L86, F|243/243
+|-damage|p2a: Milotic|254/290|[from] Stealth Rock
+|-damage|p2a: Milotic|182/290|[from] Spikes
+|-damage|p1a: Shiinotic|213/243|[from] Stealth Rock
+|turn|14
+|
+|t:|1685423417
+|switch|p2a: Chansey|Chansey, L84, F|557/557
+|-damage|p2a: Chansey|488/557|[from] Stealth Rock
+|-damage|p2a: Chansey|349/557|[from] Spikes
+|move|p1a: Shiinotic|Energy Ball|p2a: Chansey
+|-damage|p2a: Chansey|295/557
+|
+|-heal|p1a: Shiinotic|228/243|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685423426
+|move|p2a: Chansey|Toxic|p1a: Shiinotic
+|-status|p1a: Shiinotic|tox
+|move|p1a: Shiinotic|Leech Seed|p2a: Chansey
+|-start|p2a: Chansey|move: Leech Seed
+|
+|-heal|p1a: Shiinotic|243/243 tox|[from] item: Leftovers
+|-damage|p2a: Chansey|226/557|[from] Leech Seed|[of] p1a: Shiinotic
+|-damage|p1a: Shiinotic|228/243 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1685423438
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|505/557
+|move|p1a: Shiinotic|Spore|p2a: Chansey
+|-status|p2a: Chansey|slp|[from] move: Spore
+|
+|-heal|p1a: Shiinotic|243/243 tox|[from] item: Leftovers
+|-damage|p2a: Chansey|436/557 slp|[from] Leech Seed|[of] p1a: Shiinotic
+|-damage|p1a: Shiinotic|213/243 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1685423451
+|switch|p1a: Comfey|Comfey, L86, M|228/228
+|-damage|p1a: Comfey|200/228|[from] Stealth Rock
+|cant|p2a: Chansey|slp
+|
+|-damage|p2a: Chansey|367/557 slp|[from] Leech Seed|[of] p1a: Comfey
+|-heal|p1a: Comfey|228/228|[silent]
+|upkeep
+|turn|18
+|
+|t:|1685423461
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|cant|p2a: Chansey|slp
+|
+|-damage|p2a: Chansey|298/557 slp|[from] Leech Seed|[of] p1a: Comfey
+|upkeep
+|turn|19
+|
+|t:|1685423470
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|-curestatus|p2a: Chansey|slp|[msg]
+|move|p2a: Chansey|Toxic|p1a: Comfey
+|-status|p1a: Comfey|tox
+|
+|-damage|p2a: Chansey|229/557|[from] Leech Seed|[of] p1a: Comfey
+|-damage|p1a: Comfey|214/228 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1685423479
+|move|p1a: Comfey|Giga Drain|p2a: Chansey
+|-damage|p2a: Chansey|159/557
+|-heal|p1a: Comfey|228/228 tox|[from] drain|[of] p2a: Chansey
+|-damage|p1a: Comfey|206/228 tox|[from] item: Life Orb
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|438/557
+|
+|-damage|p2a: Chansey|369/557|[from] Leech Seed|[of] p1a: Comfey
+|-heal|p1a: Comfey|228/228 tox|[silent]
+|-damage|p1a: Comfey|200/228 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1685423492
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|move|p2a: Chansey|Seismic Toss|p1a: Comfey
+|-damage|p1a: Comfey|116/228 tox
+|
+|-damage|p2a: Chansey|300/557|[from] Leech Seed|[of] p1a: Comfey
+|-heal|p1a: Comfey|185/228 tox|[silent]
+|-damage|p1a: Comfey|143/228 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1685423502
+|move|p1a: Comfey|Stored Power|p2a: Chansey
+|-damage|p2a: Chansey|134/557
+|-damage|p1a: Comfey|121/228 tox|[from] item: Life Orb
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|413/557
+|
+|-damage|p2a: Chansey|344/557|[from] Leech Seed|[of] p1a: Comfey
+|-heal|p1a: Comfey|190/228 tox|[silent]
+|-damage|p1a: Comfey|134/228 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1685423518
+|-start|p1a: Comfey|Dynamax|
+|-heal|p1a: Comfey|268/456 tox|[silent]
+|move|p1a: Comfey|Max Mindstorm|p2a: Chansey
+|-damage|p2a: Chansey|180/557
+|-fieldstart|move: Psychic Terrain
+|-damage|p1a: Comfey|246/456 tox|[from] item: Life Orb
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|459/557
+|
+|-damage|p2a: Chansey|390/557|[from] Leech Seed|[of] p1a: Comfey
+|-heal|p1a: Comfey|315/456 tox|[silent]
+|-damage|p1a: Comfey|245/456 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1685423534
+|move|p1a: Comfey|Max Starfall|p2a: Chansey
+|-damage|p2a: Chansey|194/557
+|-fieldstart|move: Misty Terrain
+|-damage|p1a: Comfey|223/456 tox|[from] item: Life Orb
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|473/557
+|
+|-damage|p2a: Chansey|404/557|[from] Leech Seed|[of] p1a: Comfey
+|-heal|p1a: Comfey|292/456 tox|[silent]
+|-damage|p1a: Comfey|208/456 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1685423544
+|-end|p1a: Comfey|Dynamax
+|-heal|p1a: Comfey|104/228 tox|[silent]
+|switch|p1a: Shiinotic|Shiinotic, L86, F|213/243 tox
+|-damage|p1a: Shiinotic|183/243 tox|[from] Stealth Rock
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|557/557
+|
+|-heal|p1a: Shiinotic|198/243 tox|[from] item: Leftovers
+|-damage|p2a: Chansey|488/557|[from] Leech Seed|[of] p1a: Shiinotic
+|-heal|p1a: Shiinotic|243/243 tox|[silent]
+|-damage|p1a: Shiinotic|228/243 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1685423558
+|move|p2a: Chansey|Seismic Toss|p1a: Shiinotic
+|-damage|p1a: Shiinotic|144/243 tox
+|move|p1a: Shiinotic|Spore|p2a: Chansey
+|-activate|p2a: Chansey|move: Misty Terrain
+|
+|-heal|p1a: Shiinotic|159/243 tox|[from] item: Leftovers
+|-damage|p2a: Chansey|419/557|[from] Leech Seed|[of] p1a: Shiinotic
+|-heal|p1a: Shiinotic|228/243 tox|[silent]
+|-damage|p1a: Shiinotic|198/243 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1685423573
+|move|p2a: Chansey|Seismic Toss|p1a: Shiinotic
+|-damage|p1a: Shiinotic|114/243 tox
+|move|p1a: Shiinotic|Energy Ball|p2a: Chansey
+|-damage|p2a: Chansey|362/557
+|
+|-heal|p1a: Shiinotic|129/243 tox|[from] item: Leftovers
+|-damage|p2a: Chansey|293/557|[from] Leech Seed|[of] p1a: Shiinotic
+|-heal|p1a: Shiinotic|198/243 tox|[silent]
+|-damage|p1a: Shiinotic|153/243 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1685423584
+|move|p2a: Chansey|Seismic Toss|p1a: Shiinotic
+|-damage|p1a: Shiinotic|69/243 tox
+|move|p1a: Shiinotic|Energy Ball|p2a: Chansey
+|-damage|p2a: Chansey|239/557
+|
+|-heal|p1a: Shiinotic|84/243 tox|[from] item: Leftovers
+|-damage|p2a: Chansey|170/557|[from] Leech Seed|[of] p1a: Shiinotic
+|-heal|p1a: Shiinotic|153/243 tox|[silent]
+|-damage|p1a: Shiinotic|93/243 tox|[from] psn
+|-fieldend|Misty Terrain
+|upkeep
+|turn|29
+|
+|t:|1685423597
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|449/557
+|move|p1a: Shiinotic|Energy Ball|p2a: Chansey
+|-damage|p2a: Chansey|398/557
+|-unboost|p2a: Chansey|spd|1
+|
+|-heal|p1a: Shiinotic|108/243 tox|[from] item: Leftovers
+|-damage|p2a: Chansey|329/557|[from] Leech Seed|[of] p1a: Shiinotic
+|-heal|p1a: Shiinotic|177/243 tox|[silent]
+|-damage|p1a: Shiinotic|102/243 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1685423609
+|move|p2a: Chansey|Seismic Toss|p1a: Shiinotic
+|-damage|p1a: Shiinotic|18/243 tox
+|move|p1a: Shiinotic|Spore|p2a: Chansey
+|-status|p2a: Chansey|slp|[from] move: Spore
+|
+|-heal|p1a: Shiinotic|33/243 tox|[from] item: Leftovers
+|-damage|p2a: Chansey|260/557 slp|[from] Leech Seed|[of] p1a: Shiinotic
+|-heal|p1a: Shiinotic|102/243 tox|[silent]
+|-damage|p1a: Shiinotic|12/243 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1685423622
+|cant|p2a: Chansey|slp
+|move|p1a: Shiinotic|Energy Ball|p2a: Chansey
+|-damage|p2a: Chansey|184/557 slp
+|-unboost|p2a: Chansey|spd|1
+|
+|-heal|p1a: Shiinotic|27/243 tox|[from] item: Leftovers
+|-damage|p2a: Chansey|115/557 slp|[from] Leech Seed|[of] p1a: Shiinotic
+|-heal|p1a: Shiinotic|96/243 tox|[silent]
+|-damage|p1a: Shiinotic|0 fnt|[from] psn
+|faint|p1a: Shiinotic
+|upkeep
+|
+|t:|1685423632
+|switch|p1a: Comfey|Comfey, L86, M|104/228 tox
+|-damage|p1a: Comfey|76/228 tox|[from] Stealth Rock
+|turn|32
+|
+|t:|1685423636
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|-curestatus|p2a: Chansey|slp|[msg]
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|394/557
+|
+|-damage|p2a: Chansey|325/557|[from] Leech Seed|[of] p1a: Comfey
+|-heal|p1a: Comfey|145/228 tox|[silent]
+|-damage|p1a: Comfey|131/228 tox|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1685423649
+|switch|p2a: Milotic|Milotic, L82, F|182/290
+|-damage|p2a: Milotic|146/290|[from] Stealth Rock
+|-damage|p2a: Milotic|74/290|[from] Spikes
+|move|p1a: Comfey|Draining Kiss|p2a: Milotic
+|-damage|p2a: Milotic|3/290
+|-heal|p1a: Comfey|184/228 tox|[from] drain|[of] p2a: Milotic
+|-damage|p1a: Comfey|162/228 tox|[from] item: Life Orb
+|
+|-heal|p2a: Milotic|21/290|[from] item: Leftovers
+|-damage|p1a: Comfey|134/228 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1685423664
+|move|p1a: Comfey|Giga Drain|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|-heal|p1a: Comfey|145/228 tox|[from] drain|[of] p2a: Milotic
+|faint|p2a: Milotic
+|-damage|p1a: Comfey|123/228 tox|[from] item: Life Orb
+|
+|-damage|p1a: Comfey|81/228 tox|[from] psn
+|upkeep
+|
+|t:|1685423668
+|switch|p2a: Chansey|Chansey, L84, F|325/557
+|-damage|p2a: Chansey|256/557|[from] Stealth Rock
+|-damage|p2a: Chansey|117/557|[from] Spikes
+|turn|35
+|
+|t:|1685423678
+|move|p1a: Comfey|Stored Power|p2a: Chansey
+|-damage|p2a: Chansey|69/557
+|-damage|p1a: Comfey|59/228 tox|[from] item: Life Orb
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|348/557
+|
+|-damage|p1a: Comfey|3/228 tox|[from] psn
+|upkeep
+|turn|36
+|
+|t:|1685423690
+|move|p1a: Comfey|Draining Kiss|p2a: Chansey
+|-damage|p2a: Chansey|292/557
+|-heal|p1a: Comfey|45/228 tox|[from] drain|[of] p2a: Chansey
+|-damage|p1a: Comfey|23/228 tox|[from] item: Life Orb
+|move|p2a: Chansey|Seismic Toss|p1a: Comfey
+|-damage|p1a: Comfey|0 fnt
+|faint|p1a: Comfey
+|
+|win|burriedinkillarney
+|raw|pizzaroli's rating: 1315 &rarr; <strong>1296</strong><br />(-19 for losing)
+|raw|burriedinkillarney's rating: 1337 &rarr; <strong>1356</strong><br />(+19 for winning)
+|c|☆burriedinkillarney|gg
+|l|☆pizzaroli

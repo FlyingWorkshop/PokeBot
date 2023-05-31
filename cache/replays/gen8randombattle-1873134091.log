@@ -1,0 +1,73 @@
+|j|☆Dead RedHead
+|j|☆PKMONI92
+|t:|1685329273
+|gametype|singles
+|player|p1|Dead RedHead|benga|1165
+|player|p2|PKMONI92|red|1232
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685329273
+|start
+|switch|p1a: Torkoal|Torkoal, L86, M|261/261
+|switch|p2a: Kingler|Kingler, L84, F|230/230
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dead RedHead)
+|
+|t:|1685329297
+|switch|p2a: Krookodile|Krookodile, L78, F|276/276
+|switch|p1a: Boltund|Boltund, L84, M|253/253
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1685329309
+|move|p2a: Krookodile|Earthquake|p1a: Boltund
+|-supereffective|p1a: Boltund
+|-damage|p1a: Boltund|0 fnt
+|faint|p1a: Boltund
+|-ability|p2a: Krookodile|Moxie|boost
+|-boost|p2a: Krookodile|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685329322
+|switch|p1a: Cresselia|Cresselia, L80, F|323/323
+|turn|3
+|
+|t:|1685329332
+|switch|p2a: Abomasnow|Abomasnow, L82, M|282/282
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|switch|p1a: Inteleon|Inteleon, L80, M|243/243
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Inteleon|228/243|[from] Hail
+|upkeep
+|turn|4
+|
+|t:|1685329344
+|move|p1a: Inteleon|Focus Energy|p1a: Inteleon
+|-start|p1a: Inteleon|move: Focus Energy
+|move|p2a: Abomasnow|Wood Hammer|p1a: Inteleon
+|-supereffective|p1a: Inteleon
+|-damage|p1a: Inteleon|0 fnt
+|faint|p1a: Inteleon
+|-damage|p2a: Abomasnow|207/282|[from] Recoil
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|-message|Dead RedHead forfeited.
+|
+|win|PKMONI92
+|raw|Dead RedHead's rating: 1165 &rarr; <strong>1145</strong><br />(-20 for losing)
+|raw|PKMONI92's rating: 1232 &rarr; <strong>1252</strong><br />(+20 for winning)
+|l|☆Dead RedHead

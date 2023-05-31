@@ -1,0 +1,803 @@
+|j|☆Quoise
+|j|☆forsh
+|t:|1685408915
+|gametype|singles
+|player|p1|Quoise|bugcatcher-gen4dp|
+|player|p2|forsh|ballguy|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685408915
+|start
+|switch|p1a: Slowbro|Slowbro-Galar, L86, F|304/304
+|switch|p2a: Claydol|Claydol, L86|243/243
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Quoise)
+|inactive|forsh also wants the timer to be on.
+|c|☆Quoise|i'll annihilate you
+|c|☆forsh|for?
+|c|☆Quoise|for claiming to not call me man
+|c|☆forsh|ok man chill
+|
+|t:|1685408942
+|switch|p1a: Eldegoss|Eldegoss, L90, F|254/254
+|move|p2a: Claydol|Stealth Rock|p1a: Eldegoss
+|-sidestart|p1: Quoise|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|c|☆Quoise|φ(゜▽゜*)♪
+|
+|t:|1685408971
+|move|p2a: Claydol|Toxic|p1a: Eldegoss
+|-status|p1a: Eldegoss|tox
+|move|p1a: Eldegoss|Sleep Powder|p2a: Claydol
+|-status|p2a: Claydol|slp|[from] move: Sleep Powder
+|
+|-damage|p1a: Eldegoss|239/254 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1685408983
+|switch|p2a: Weezing|Weezing-Galar, L86, M|252/252
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Eldegoss|Energy Ball|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|200/252
+|-unboost|p2a: Weezing|spd|1
+|
+|-heal|p2a: Weezing|215/252|[from] item: Black Sludge
+|-damage|p1a: Eldegoss|209/254 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1685408986
+|move|p1a: Eldegoss|Rapid Spin|p2a: Weezing
+|-damage|p2a: Weezing|195/252
+|-boost|p1a: Eldegoss|spe|1
+|-sideend|p1: Quoise|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Eldegoss
+|move|p2a: Weezing|Fire Blast|p1a: Eldegoss
+|-supereffective|p1a: Eldegoss
+|-damage|p1a: Eldegoss|105/254 tox
+|
+|-heal|p2a: Weezing|210/252|[from] item: Black Sludge
+|-damage|p1a: Eldegoss|60/254 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1685408994
+|switch|p1a: Slowbro|Slowbro-Galar, L86, F|304/304
+|move|p2a: Weezing|Will-O-Wisp|p1a: Slowbro
+|-status|p1a: Slowbro|brn
+|
+|-heal|p2a: Weezing|225/252|[from] item: Black Sludge
+|-damage|p1a: Slowbro|285/304 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1685409000
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Claydol|Claydol, L86|243/243 slp
+|move|p1a: Slowbro|Trick|p2a: Claydol
+|-activate|p1a: Slowbro|move: Trick|[of] p2a: Claydol
+|-item|p2a: Claydol|Choice Specs|[from] move: Trick
+|-item|p1a: Slowbro|Leftovers|[from] move: Trick
+|
+|-heal|p1a: Slowbro|304/304 brn|[from] item: Leftovers
+|-damage|p1a: Slowbro|285/304 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1685409009
+|switch|p1a: Eldegoss|Eldegoss, L90, F|60/254 tox
+|cant|p2a: Claydol|slp
+|
+|-damage|p1a: Eldegoss|45/254 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1685409020
+|switch|p1a: Togedemaru|Togedemaru, L86, F|252/252
+|cant|p2a: Claydol|slp
+|
+|upkeep
+|turn|9
+|
+|t:|1685409029
+|move|p1a: Togedemaru|Iron Head|p2a: Claydol
+|-damage|p2a: Claydol|162/243 slp
+|-curestatus|p2a: Claydol|slp|[msg]
+|move|p2a: Claydol|Psychic|p1a: Togedemaru
+|-resisted|p1a: Togedemaru
+|-damage|p1a: Togedemaru|184/252
+|
+|-heal|p1a: Togedemaru|199/252|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685409038
+|switch|p2a: Qwilfish|Qwilfish, L84, M|246/246
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Togedemaru|atk|1
+|move|p1a: Togedemaru|Iron Head|p2a: Qwilfish
+|-resisted|p2a: Qwilfish
+|-damage|p2a: Qwilfish|218/246
+|
+|-heal|p1a: Togedemaru|214/252|[from] item: Leftovers
+|-heal|p2a: Qwilfish|233/246|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1685409041
+|switch|p2a: Claydol|Claydol, L86|162/243
+|move|p1a: Togedemaru|Zing Zap|p2a: Claydol
+|-immune|p2a: Claydol
+|
+|-heal|p1a: Togedemaru|229/252|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685409043
+|move|p1a: Togedemaru|Iron Head|p2a: Claydol
+|-damage|p2a: Claydol|114/243
+|move|p2a: Claydol|Psychic|p1a: Togedemaru
+|-resisted|p1a: Togedemaru
+|-damage|p1a: Togedemaru|167/252
+|
+|-heal|p1a: Togedemaru|182/252|[from] item: Leftovers
+|upkeep
+|turn|13
+|j| Lrogue ❀
+|
+|t:|1685409048
+|move|p1a: Togedemaru|Zing Zap|p2a: Claydol
+|-immune|p2a: Claydol
+|move|p2a: Claydol|Psychic|p1a: Togedemaru
+|-resisted|p1a: Togedemaru
+|-damage|p1a: Togedemaru|118/252
+|
+|-heal|p1a: Togedemaru|133/252|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685409053
+|switch|p2a: Qwilfish|Qwilfish, L84, M|233/246
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Togedemaru|atk|1
+|move|p1a: Togedemaru|Wish|p1a: Togedemaru
+|
+|-heal|p1a: Togedemaru|148/252|[from] item: Leftovers
+|-heal|p2a: Qwilfish|246/246|[from] item: Black Sludge
+|upkeep
+|turn|15
+|c| Lrogue ❀|Hmm
+|c|☆Quoise|lrogue
+|c|☆Quoise|this narwhal called me a man
+|c| Lrogue ❀|Hello
+|c|☆forsh|hi Lrogue!
+|c|☆Quoise|and then claimed to not called me man
+|c|☆Quoise|i must crush him
+|c| Lrogue ❀|Whut
+|inactive|Quoise has 270 seconds left.
+|
+|t:|1685409087
+|switch|p1a: Eldegoss|Eldegoss, L90, F|129/254 tox
+|move|p2a: Qwilfish|Toxic Spikes|p1a: Eldegoss
+|-sidestart|p1: Quoise|move: Toxic Spikes
+|
+|-heal|p1a: Eldegoss|254/254 tox|[from] move: Wish|[wisher] Togedemaru
+|-damage|p1a: Eldegoss|239/254 tox|[from] psn
+|upkeep
+|turn|16
+|c| Lrogue ❀|It's one or the other forsh
+|c| Lrogue ❀|Which is it
+|
+|t:|1685409105
+|switch|p2a: Weezing|Weezing-Galar, L86, M|225/252
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Eldegoss|Sleep Powder|p2a: Weezing|[miss]
+|-miss|p1a: Eldegoss|p2a: Weezing
+|
+|-heal|p2a: Weezing|240/252|[from] item: Black Sludge
+|-damage|p1a: Eldegoss|209/254 tox|[from] psn
+|upkeep
+|turn|17
+|c|☆forsh|stop
+|c|☆forsh|stop oding that
+|
+|t:|1685409112
+|move|p1a: Eldegoss|Sleep Powder|p2a: Weezing
+|-status|p2a: Weezing|slp|[from] move: Sleep Powder
+|cant|p2a: Weezing|slp
+|
+|-heal|p2a: Weezing|252/252 slp|[from] item: Black Sludge
+|-damage|p1a: Eldegoss|164/254 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1685409115
+|move|p1a: Eldegoss|Rapid Spin|p2a: Weezing
+|-damage|p2a: Weezing|231/252 slp
+|-boost|p1a: Eldegoss|spe|1
+|-sideend|p1: Quoise|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Eldegoss
+|-curestatus|p2a: Weezing|slp|[msg]
+|move|p2a: Weezing|Fire Blast|p1a: Eldegoss
+|-supereffective|p1a: Eldegoss
+|-damage|p1a: Eldegoss|64/254 tox
+|
+|-heal|p2a: Weezing|246/252|[from] item: Black Sludge
+|-damage|p1a: Eldegoss|4/254 tox|[from] psn
+|upkeep
+|turn|19
+|c|☆Quoise|ow
+|
+|t:|1685409123
+|switch|p1a: Slowbro|Slowbro-Galar, L86, F|304/304 brn
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Claydol|Claydol, L86|114/243
+|
+|-damage|p1a: Slowbro|285/304 brn|[from] brn
+|upkeep
+|turn|20
+|c|☆forsh|baka!
+|c| Lrogue ❀|Also I am still contemplating if I play too much gen 7
+|c|☆forsh|BAKA BAKA!
+|c|☆Quoise|are you enjoying it
+|c| Lrogue ❀|Yes
+|c|☆forsh|gen 7
+|c|☆forsh|today
+|
+|t:|1685409146
+|move|p2a: Claydol|Stealth Rock|p1a: Slowbro
+|-sidestart|p1: Quoise|move: Stealth Rock
+|move|p1a: Slowbro|Flamethrower|p2a: Claydol
+|-damage|p2a: Claydol|64/243
+|
+|-heal|p1a: Slowbro|304/304 brn|[from] item: Leftovers
+|-damage|p1a: Slowbro|285/304 brn|[from] brn
+|upkeep
+|turn|21
+|c|☆forsh|is much different than 1 year ago
+|c|☆forsh|r u specS?
+|
+|t:|1685409158
+|move|p2a: Claydol|Stealth Rock||[still]
+|-fail|p2a: Claydol
+|move|p1a: Slowbro|Psychic|p2a: Claydol
+|-resisted|p2a: Claydol
+|-damage|p2a: Claydol|26/243
+|
+|-heal|p1a: Slowbro|304/304 brn|[from] item: Leftovers
+|-damage|p1a: Slowbro|285/304 brn|[from] brn
+|upkeep
+|turn|22
+|c| Lrogue ❀|But I challenged cake to check the code to look for z conversion Porygon z which he insisted was still in the format
+|c| Lrogue ❀|And I said no
+|
+|t:|1685409182
+|switch|p2a: Qwilfish|Qwilfish, L84, M|246/246
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Slowbro|atk|1
+|switch|p1a: Eldegoss|Eldegoss, L90, F|4/254 tox
+|
+|-damage|p1a: Eldegoss|0 fnt|[from] psn
+|faint|p1a: Eldegoss
+|upkeep
+|c|☆Quoise|wait
+|c|☆Quoise|what happened to my regen
+|inactive|Quoise has 270 seconds left.
+|c|☆forsh|NGas
+|c|☆Quoise|WTF
+|c|☆forsh|ikr
+|
+|t:|1685409206
+|switch|p1a: Togedemaru|Togedemaru, L86, F|148/252
+|-damage|p1a: Togedemaru|133/252|[from] Stealth Rock
+|turn|23
+|c|☆Quoise|you can't do that!
+|
+|t:|1685409213
+|switch|p2a: Audino|Audino, L91, M|335/335
+|move|p1a: Togedemaru|Iron Head|p2a: Audino
+|-damage|p2a: Audino|250/335
+|
+|-heal|p1a: Togedemaru|148/252|[from] item: Leftovers
+|-heal|p2a: Audino|270/335|[from] item: Leftovers
+|upkeep
+|turn|24
+|c| Lrogue ❀|I was correct
+|
+|t:|1685409222
+|move|p1a: Togedemaru|Zing Zap|p2a: Audino
+|-damage|p2a: Audino|188/335
+|cant|p2a: Audino|flinch
+|
+|-heal|p1a: Togedemaru|163/252|[from] item: Leftovers
+|-heal|p2a: Audino|208/335|[from] item: Leftovers
+|upkeep
+|turn|25
+|c| Lrogue ❀|I proved the guy who codes the formats wrong
+|
+|t:|1685409231
+|move|p1a: Togedemaru|Zing Zap|p2a: Audino
+|-damage|p2a: Audino|118/335
+|move|p2a: Audino|Knock Off|p1a: Togedemaru
+|-damage|p1a: Togedemaru|94/252
+|-enditem|p1a: Togedemaru|Leftovers|[from] move: Knock Off|[of] p2a: Audino
+|
+|-heal|p2a: Audino|138/335|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1685409237
+|move|p1a: Togedemaru|Iron Head|p2a: Audino
+|-damage|p2a: Audino|54/335
+|move|p2a: Audino|Wish|p2a: Audino
+|
+|-heal|p2a: Audino|74/335|[from] item: Leftovers
+|upkeep
+|turn|27
+|c| Lrogue ❀|Does that mean I no lifed too hard
+|
+|t:|1685409242
+|move|p2a: Audino|Protect|p2a: Audino
+|-singleturn|p2a: Audino|Protect
+|move|p1a: Togedemaru|Wish|p1a: Togedemaru
+|
+|-heal|p2a: Audino|241/335|[from] move: Wish|[wisher] Audino
+|-heal|p2a: Audino|261/335|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1685409246
+|move|p1a: Togedemaru|Spiky Shield|p1a: Togedemaru
+|-singleturn|p1a: Togedemaru|move: Protect
+|move|p2a: Audino|Wish|p2a: Audino
+|
+|-heal|p1a: Togedemaru|220/252|[from] move: Wish|[wisher] Togedemaru
+|-heal|p2a: Audino|281/335|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1685409256
+|switch|p2a: Qwilfish|Qwilfish, L84, M|246/246
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Togedemaru|atk|1
+|move|p1a: Togedemaru|Wish|p1a: Togedemaru
+|
+|upkeep
+|turn|30
+|
+|t:|1685409264
+|switch|p2a: Audino|Audino, L91, M|335/335
+|move|p1a: Togedemaru|Zing Zap|p2a: Audino
+|-damage|p2a: Audino|281/335
+|
+|-heal|p1a: Togedemaru|252/252|[from] move: Wish|[wisher] Togedemaru
+|-heal|p2a: Audino|301/335|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1685409270
+|move|p1a: Togedemaru|Wish|p1a: Togedemaru
+|move|p2a: Audino|Wish|p2a: Audino
+|
+|-heal|p2a: Audino|321/335|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1685409274
+|switch|p1a: Slowbro|Slowbro-Galar, L86, F|304/304 brn
+|-damage|p1a: Slowbro|266/304 brn|[from] Stealth Rock
+|switch|p2a: Qwilfish|Qwilfish, L84, M|246/246
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Slowbro|atk|1
+|
+|-heal|p1a: Slowbro|304/304 brn|[from] move: Wish|[wisher] Togedemaru
+|-damage|p1a: Slowbro|285/304 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1685409284
+|switch|p2a: Audino|Audino, L91, M|335/335
+|move|p1a: Slowbro|Psychic|p2a: Audino
+|-damage|p2a: Audino|236/335
+|-unboost|p2a: Audino|spd|1
+|
+|-heal|p2a: Audino|256/335|[from] item: Leftovers
+|-heal|p1a: Slowbro|304/304 brn|[from] item: Leftovers
+|-damage|p1a: Slowbro|285/304 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1685409291
+|move|p2a: Audino|Knock Off|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|179/304 brn
+|-enditem|p1a: Slowbro|Leftovers|[from] move: Knock Off|[of] p2a: Audino
+|move|p1a: Slowbro|Psychic|p2a: Audino
+|-damage|p2a: Audino|108/335
+|
+|-heal|p2a: Audino|128/335|[from] item: Leftovers
+|-damage|p1a: Slowbro|160/304 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1685409294
+|move|p2a: Audino|Protect|p2a: Audino
+|-singleturn|p2a: Audino|Protect
+|move|p1a: Slowbro|Trick|p2a: Audino
+|-activate|p2a: Audino|move: Protect
+|
+|-heal|p2a: Audino|148/335|[from] item: Leftovers
+|-damage|p1a: Slowbro|141/304 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1685409298
+|switch|p2a: Claydol|Claydol, L86|26/243
+|move|p1a: Slowbro|Psychic|p2a: Claydol
+|-resisted|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|faint|p2a: Claydol
+|
+|-damage|p1a: Slowbro|122/304 brn|[from] brn
+|upkeep
+|
+|t:|1685409299
+|switch|p2a: Farfetch’d|Farfetch’d, L90, F|239/239
+|turn|37
+|
+|t:|1685409306
+|switch|p1a: Regirock|Regirock, L85|275/275
+|-damage|p1a: Regirock|241/275|[from] Stealth Rock
+|move|p2a: Farfetch’d|Close Combat|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-crit|p1a: Regirock
+|-damage|p1a: Regirock|113/275
+|-unboost|p2a: Farfetch’d|def|1
+|-unboost|p2a: Farfetch’d|spd|1
+|
+|-heal|p1a: Regirock|130/275|[from] item: Leftovers
+|upkeep
+|turn|38
+|c|☆Quoise|forsh
+|c|☆Quoise|stop it
+|
+|t:|1685409318
+|move|p2a: Farfetch’d|Close Combat|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|36/275
+|-unboost|p2a: Farfetch’d|def|1
+|-unboost|p2a: Farfetch’d|spd|1
+|move|p1a: Regirock|Rock Slide|p2a: Farfetch’d
+|-supereffective|p2a: Farfetch’d
+|-damage|p2a: Farfetch’d|0 fnt
+|faint|p2a: Farfetch’d
+|
+|-heal|p1a: Regirock|53/275|[from] item: Leftovers
+|upkeep
+|c|☆forsh|i am defiant
+|
+|t:|1685409322
+|switch|p2a: Tyrantrum|Tyrantrum, L82, M|269/269
+|turn|39
+|c|☆forsh|this is the chance i needed
+|
+|t:|1685409327
+|move|p2a: Tyrantrum|Dragon Dance|p2a: Tyrantrum
+|-boost|p2a: Tyrantrum|atk|1
+|-boost|p2a: Tyrantrum|spe|1
+|move|p1a: Regirock|Earthquake|p2a: Tyrantrum
+|-supereffective|p2a: Tyrantrum
+|-damage|p2a: Tyrantrum|143/269
+|
+|-heal|p1a: Regirock|70/275|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1685409331
+|move|p2a: Tyrantrum|Earthquake|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|0 fnt
+|faint|p1a: Regirock
+|-damage|p2a: Tyrantrum|117/269|[from] item: Life Orb
+|
+|upkeep
+|c|☆forsh|BAKAYARO
+|c|☆forsh|CONAYARO
+|c|☆Quoise|oh no big dino
+|c|☆forsh|CONA YARO
+|c|☆forsh|i have a pu team
+|c|☆forsh|!dt tyrantrum
+|raw|<div class="message"><ul class="utilichart"><li class="result"><span class="col numcol">NU</span> <span class="col iconcol"><psicon pokemon="tyrantrum"/></span> <span class="col pokemonnamecol" style="white-space:nowrap"><a href="https://dex.pokemonshowdown.com/pokemon/tyrantrum" target="_blank">Tyrantrum</a></span> <span class="col typecol"><img src="https://play.pokemonshowdown.com/sprites/types/Rock.png" alt="Rock" height="14" width="32"><img src="https://play.pokemonshowdown.com/sprites/types/Dragon.png" alt="Dragon" height="14" width="32"></span> <span style="float:left;min-height:26px"><span class="col abilitycol">Strong Jaw</span><span class="col abilitycol"><em>Rock Head</em></span></span><span style="float:left;min-height:26px"><span class="col statcol"><em>HP</em><br />82</span> <span class="col statcol"><em>Atk</em><br />121</span> <span class="col statcol"><em>Def</em><br />119</span> <span class="col statcol"><em>SpA</em><br />69</span> <span class="col statcol"><em>SpD</em><br />59</span> <span class="col statcol"><em>Spe</em><br />71</span> <span class="col bstcol"><em>BST<br />521</em></span> </span></li><li style="clear:both"></li></ul></div>
+|raw|<font size="1"><font color="#686868">Dex#:</font> 697&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 6&nbsp;|&ThickSpace;<font color="#686868">Height:</font> 2.5 m&nbsp;|&ThickSpace;<font color="#686868">Weight:</font> 270 kg <em>(120 BP)</em>&nbsp;|&ThickSpace;<font color="#686868">Dex Colour:</font> Red&nbsp;|&ThickSpace;<font color="#686868">Egg Group(s):</font> Monster, Dragon&nbsp;|&ThickSpace;<font color="#686868">Does Not Evolve</font></font>
+
+|inactive|Quoise has 270 seconds left.
+|c| Lrogue ❀|Liar
+|c|☆forsh|!dt weezinggalar
+|raw|<div class="message"><ul class="utilichart"><li class="result"><span class="col numcol">RU</span> <span class="col iconcol"><psicon pokemon="weezinggalar"/></span> <span class="col pokemonnamecol" style="white-space:nowrap"><a href="https://dex.pokemonshowdown.com/pokemon/weezinggalar" target="_blank">Weezing-Galar</a></span> <span class="col typecol"><img src="https://play.pokemonshowdown.com/sprites/types/Poison.png" alt="Poison" height="14" width="32"><img src="https://play.pokemonshowdown.com/sprites/types/Fairy.png" alt="Fairy" height="14" width="32"></span> <span style="float:left;min-height:26px"><span class="col twoabilitycol">Levitate<br />Neutralizing Gas</span><span class="col abilitycol"><em>Misty Surge</em></span></span><span style="float:left;min-height:26px"><span class="col statcol"><em>HP</em><br />65</span> <span class="col statcol"><em>Atk</em><br />90</span> <span class="col statcol"><em>Def</em><br />120</span> <span class="col statcol"><em>SpA</em><br />85</span> <span class="col statcol"><em>SpD</em><br />70</span> <span class="col statcol"><em>Spe</em><br />60</span> <span class="col bstcol"><em>BST<br />490</em></span> </span></li><li style="clear:both"></li></ul></div>
+|raw|<font size="1"><font color="#686868">Dex#:</font> 110&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 8&nbsp;|&ThickSpace;<font color="#686868">Height:</font> 3 m&nbsp;|&ThickSpace;<font color="#686868">Weight:</font> 16 kg <em>(40 BP)</em>&nbsp;|&ThickSpace;<font color="#686868">Dex Colour:</font> Gray&nbsp;|&ThickSpace;<font color="#686868">Egg Group(s):</font> Amorphous&nbsp;|&ThickSpace;<font color="#686868">Does Not Evolve</font></font>
+
+|
+|t:|1685409370
+|switch|p1a: Hitmonchan|Hitmonchan, L86, M|226/226
+|-damage|p1a: Hitmonchan|212/226|[from] Stealth Rock
+|turn|41
+|
+|t:|1685409374
+|-start|p2a: Tyrantrum|Dynamax|
+|-heal|p2a: Tyrantrum|234/538|[silent]
+|-start|p1a: Hitmonchan|Dynamax|
+|-heal|p1a: Hitmonchan|424/452|[silent]
+|move|p2a: Tyrantrum|Max Wyrmwind|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|108/452
+|-unboost|p1a: Hitmonchan|atk|1
+|-damage|p2a: Tyrantrum|208/538|[from] item: Life Orb
+|move|p1a: Hitmonchan|Max Knuckle|p2a: Tyrantrum
+|-supereffective|p2a: Tyrantrum
+|-damage|p2a: Tyrantrum|49/538
+|-boost|p1a: Hitmonchan|atk|1
+|-damage|p1a: Hitmonchan|86/452|[from] item: Life Orb
+|
+|upkeep
+|turn|42
+|
+|t:|1685409380
+|move|p1a: Hitmonchan|Max Guard|p1a: Hitmonchan
+|-singleturn|p1a: Hitmonchan|Max Guard
+|move|p2a: Tyrantrum|Max Quake|p1a: Hitmonchan
+|-activate|p1a: Hitmonchan|move: Max Guard
+|
+|upkeep
+|turn|43
+|c|☆forsh|sotp
+|c|☆forsh|stop
+|c|☆forsh|ststop
+|c|☆forsh|stop
+|c|☆forsh|let me hurt u
+|c|☆forsh|pero
+|c|☆Quoise|i don't like being hurt
+|inactive|Quoise has 270 seconds left.
+|c|☆Quoise|it hurts
+|c|☆Quoise|im so funny
+|
+|t:|1685409418
+|-end|p1a: Hitmonchan|Dynamax
+|-heal|p1a: Hitmonchan|43/226|[silent]
+|switch|p1a: Togedemaru|Togedemaru, L86, F|252/252
+|-damage|p1a: Togedemaru|237/252|[from] Stealth Rock
+|move|p2a: Tyrantrum|Max Quake|p1a: Togedemaru
+|-supereffective|p1a: Togedemaru
+|-damage|p1a: Togedemaru|0 fnt
+|-boost|p2a: Tyrantrum|spd|1
+|faint|p1a: Togedemaru
+|-damage|p2a: Tyrantrum|23/538|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685409420
+|switch|p1a: Hitmonchan|Hitmonchan, L86, M|43/226
+|-damage|p1a: Hitmonchan|29/226|[from] Stealth Rock
+|-end|p2a: Tyrantrum|Dynamax
+|-heal|p2a: Tyrantrum|12/269|[silent]
+|turn|44
+|c|☆forsh|u gave me a free toge
+|c|☆forsh|why?
+|c|☆forsh|i could not beat toge
+|
+|t:|1685409435
+|switch|p2a: Weezing|Weezing-Galar, L86, M|246/252
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Hitmonchan|Mach Punch|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|234/252
+|-damage|p1a: Hitmonchan|7/226|[from] item: Life Orb
+|
+|-heal|p2a: Weezing|249/252|[from] item: Black Sludge
+|upkeep
+|turn|45
+|c|☆Quoise|yeah and
+|c|☆forsh|why sacrifice it
+|
+|t:|1685409445
+|move|p1a: Hitmonchan|Throat Chop|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|219/252
+|-start|p2a: Weezing|Throat Chop|[silent]
+|-damage|p1a: Hitmonchan|0 fnt|[from] item: Life Orb
+|faint|p1a: Hitmonchan
+|move|p2a: Weezing|Strange Steam|p1: Hitmonchan|[notarget]
+|-fail|p2a: Weezing
+|
+|-heal|p2a: Weezing|234/252|[from] item: Black Sludge
+|upkeep
+|c|☆Quoise|worry
+|inactive|Quoise has 270 seconds left.
+|c|☆Quoise|tastes just like curry
+|c|☆Quoise|(✿◡‿◡)
+|
+|t:|1685409469
+|switch|p1a: Slowbro|Slowbro-Galar, L86, F|223/304 brn
+|-damage|p1a: Slowbro|185/304 brn|[from] Stealth Rock
+|turn|46
+|c|☆Quoise|you have not the foresight
+|c|☆forsh|reality and imaginary are becoming blurry
+|inactive|forsh has 270 seconds left.
+|c|☆Quoise|to see why I wouldn't think this is a mistake until you called it out
+|
+|t:|1685409504
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Audino|Audino, L91, M|259/335
+|move|p1a: Slowbro|Psychic|p2a: Audino
+|-damage|p2a: Audino|162/335
+|
+|-heal|p2a: Audino|182/335|[from] item: Leftovers
+|-damage|p1a: Slowbro|166/304 brn|[from] brn
+|upkeep
+|turn|47
+|
+|t:|1685409511
+|move|p2a: Audino|Wish|p2a: Audino
+|move|p1a: Slowbro|Trick|p2a: Audino
+|-activate|p1a: Slowbro|move: Trick|[of] p2a: Audino
+|-enditem|p2a: Audino|Leftovers|[silent]|[from] move: Trick
+|-item|p1a: Slowbro|Leftovers|[from] move: Trick
+|
+|-heal|p1a: Slowbro|185/304 brn|[from] item: Leftovers
+|-damage|p1a: Slowbro|166/304 brn|[from] brn
+|upkeep
+|turn|48
+|c|☆forsh|u fucking
+|c|☆forsh|thief
+|
+|t:|1685409518
+|move|p2a: Audino|Knock Off|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|58/304 brn
+|-enditem|p1a: Slowbro|Leftovers|[from] move: Knock Off|[of] p2a: Audino
+|move|p1a: Slowbro|Shell Side Arm|p2a: Audino|[anim] Shell Side Arm Special
+|-damage|p2a: Audino|85/335
+|-hint|Special Shell Side Arm
+|
+|-heal|p2a: Audino|252/335|[from] move: Wish|[wisher] Audino
+|-damage|p1a: Slowbro|39/304 brn|[from] brn
+|upkeep
+|turn|49
+|
+|t:|1685409521
+|switch|p1a: Zygarde|Zygarde, L70|267/267
+|-damage|p1a: Zygarde|251/267|[from] Stealth Rock
+|move|p2a: Audino|Knock Off|p1a: Zygarde
+|-damage|p1a: Zygarde|202/267
+|-enditem|p1a: Zygarde|Leftovers|[from] move: Knock Off|[of] p2a: Audino
+|
+|upkeep
+|turn|50
+|c|☆forsh|FUCK
+|
+|t:|1685409526
+|switch|p2a: Weezing|Weezing-Galar, L86, M|234/252
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Zygarde|Substitute|p1a: Zygarde
+|-start|p1a: Zygarde|Substitute
+|-damage|p1a: Zygarde|136/267
+|
+|-heal|p2a: Weezing|249/252|[from] item: Black Sludge
+|upkeep
+|turn|51
+|
+|t:|1685409529
+|move|p1a: Zygarde|Dragon Dance|p1a: Zygarde
+|-boost|p1a: Zygarde|atk|1
+|-boost|p1a: Zygarde|spe|1
+|move|p2a: Weezing|Strange Steam|p1a: Zygarde
+|-supereffective|p1a: Zygarde
+|-crit|p1a: Zygarde
+|-end|p1a: Zygarde|Substitute
+|
+|-heal|p2a: Weezing|252/252|[from] item: Black Sludge
+|upkeep
+|turn|52
+|c|☆forsh|stop
+|
+|t:|1685409533
+|move|p1a: Zygarde|Substitute|p1a: Zygarde
+|-start|p1a: Zygarde|Substitute
+|-damage|p1a: Zygarde|70/267
+|move|p2a: Weezing|Strange Steam|p1a: Zygarde
+|-supereffective|p1a: Zygarde
+|-end|p1a: Zygarde|Substitute
+|
+|-activate|p1a: Zygarde|ability: Power Construct
+|detailschange|p1a: Zygarde|Zygarde-Complete, L70
+|-heal|p1a: Zygarde|221/418|[silent]
+|upkeep
+|turn|53
+|c|☆forsh|I DONT STOP POWER CONSTRUCT?
+|c|☆forsh|THAT IS A SCAM OF A GAME
+|
+|t:|1685409543
+|move|p1a: Zygarde|Thousand Arrows|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|84/252
+|move|p2a: Weezing|Strange Steam|p1a: Zygarde
+|-supereffective|p1a: Zygarde
+|-damage|p1a: Zygarde|5/418
+|-start|p1a: Zygarde|confusion
+|
+|-heal|p2a: Weezing|99/252|[from] item: Black Sludge
+|upkeep
+|turn|54
+|c|☆Quoise|ow
+|
+|t:|1685409551
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Tyrantrum|Tyrantrum, L82, M|12/269
+|-activate|p1a: Zygarde|confusion
+|move|p1a: Zygarde|Thousand Arrows|p2a: Tyrantrum
+|-supereffective|p2a: Tyrantrum
+|-damage|p2a: Tyrantrum|0 fnt
+|faint|p2a: Tyrantrum
+|
+|upkeep
+|
+|t:|1685409553
+|switch|p2a: Audino|Audino, L91, M|335/335
+|turn|55
+|c|☆Quoise|where my lum berry go
+|c|☆forsh|idk
+|
+|t:|1685409559
+|-activate|p1a: Zygarde|confusion
+|-damage|p1a: Zygarde|0 fnt|[from] confusion
+|faint|p1a: Zygarde
+|move|p2a: Audino|Knock Off|p1: Zygarde|[notarget]
+|-fail|p2a: Audino
+|
+|upkeep
+|c|☆Quoise|FUCK
+|c|☆forsh|GG KID
+|
+|t:|1685409565
+|switch|p1a: Slowbro|Slowbro-Galar, L86, F|140/304 brn
+|-damage|p1a: Slowbro|102/304 brn|[from] Stealth Rock
+|turn|56
+|c|☆forsh|<<traineracademy>>
+|
+|t:|1685409570
+|move|p2a: Audino|Knock Off|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|34/304 brn
+|move|p1a: Slowbro|Psychic|p2a: Audino
+|-crit|p2a: Audino
+|-damage|p2a: Audino|197/335
+|
+|-damage|p1a: Slowbro|15/304 brn|[from] brn
+|upkeep
+|turn|57
+|
+|t:|1685409573
+|move|p2a: Audino|Wish|p2a: Audino
+|move|p1a: Slowbro|Psychic|p2a: Audino
+|-damage|p2a: Audino|100/335
+|
+|-damage|p1a: Slowbro|0 fnt|[from] brn
+|faint|p1a: Slowbro
+|
+|win|forsh
+|upkeep
+|c|☆forsh|make a wish
+|c|☆Quoise|ggwp
+|c|☆forsh|ggwp
+|l|☆forsh
+|c|☆Quoise|good rounds
+|l|☆Quoise
+|l| Lrogue ❀
+|j|☆Quoise
+|player|p1|Quoise|bugcatcher-gen4dp

@@ -1,0 +1,322 @@
+|j|☆bodi 69
+|j|☆Skyrack
+|t:|1685365232
+|gametype|singles
+|player|p1|bodi 69|leon|
+|player|p2|Skyrack|ethan|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685365232
+|start
+|switch|p1a: Yveltal|Yveltal, L69|288/288
+|switch|p2a: Indeedee|Indeedee, L83, M|235/235
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-ability|p1a: Yveltal|Dark Aura
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bodi 69)
+|inactive|Skyrack also wants the timer to be on.
+|j| Wubben
+|j| Trefleuh
+|j| 35Q71N
+|j| Lrogue ❀
+|inactive|Skyrack has 270 seconds left.
+|
+|t:|1685365264
+|switch|p2a: Crustle|Crustle, L82, F|249/249
+|move|p1a: Yveltal|Knock Off|p2a: Crustle
+|-damage|p2a: Crustle|147/249
+|-enditem|p2a: Crustle|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Yveltal
+|
+|upkeep
+|turn|2
+|j|+Chains of Markov
+|j| Teres bahji
+|
+|t:|1685365285
+|switch|p1a: Sandaconda|Sandaconda, L84, F|258/258
+|move|p2a: Crustle|Stealth Rock|p1a: Sandaconda
+|-sidestart|p1: bodi 69|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|c| Teres bahji|huh
+|
+|t:|1685365301
+|switch|p2a: Amoonguss|Amoonguss, L84, M|329/329
+|move|p1a: Sandaconda|Stealth Rock|p2a: Amoonguss
+|-sidestart|p2: Skyrack|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1685365314
+|switch|p1a: Bouffalant|Bouffalant, L84, F|297/297
+|-damage|p1a: Bouffalant|260/297|[from] Stealth Rock
+|move|p2a: Amoonguss|Giga Drain|p1a: Bouffalant
+|-ability|p1a: Bouffalant|Sap Sipper|boost
+|-boost|p1a: Bouffalant|atk|1
+|
+|upkeep
+|turn|5
+|c|☆bodi 69|yes
+|j| JJ09LIE
+|
+|t:|1685365327
+|move|p1a: Bouffalant|Earthquake|p2a: Amoonguss
+|-damage|p2a: Amoonguss|125/329
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Bouffalant
+|-crit|p1a: Bouffalant
+|-damage|p1a: Bouffalant|143/297
+|-status|p1a: Bouffalant|psn
+|
+|-heal|p2a: Amoonguss|145/329|[from] item: Black Sludge
+|-damage|p1a: Bouffalant|106/297 psn|[from] psn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|c|☆bodi 69|ofc
+|
+|t:|1685365340
+|switch|p2a: Lugia|Lugia, L74|279/279
+|move|p1a: Bouffalant|Earthquake|p2a: Lugia
+|-immune|p2a: Lugia
+|
+|-damage|p1a: Bouffalant|69/297 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1685365348
+|move|p2a: Lugia|Air Slash|p1a: Bouffalant
+|-damage|p1a: Bouffalant|8/297 psn
+|cant|p1a: Bouffalant|flinch
+|
+|-damage|p1a: Bouffalant|0 fnt|[from] psn
+|faint|p1a: Bouffalant
+|upkeep
+|
+|t:|1685365353
+|switch|p1a: Yveltal|Yveltal, L69|288/288
+|-ability|p1a: Yveltal|Dark Aura
+|turn|8
+|
+|t:|1685365359
+|switch|p2a: Crustle|Crustle, L82, F|147/249
+|-damage|p2a: Crustle|85/249|[from] Stealth Rock
+|move|p1a: Yveltal|Knock Off|p2a: Crustle
+|-damage|p2a: Crustle|28/249
+|
+|upkeep
+|turn|9
+|
+|t:|1685365364
+|move|p1a: Yveltal|Oblivion Wing|p2a: Crustle
+|-damage|p2a: Crustle|0 fnt
+|faint|p2a: Crustle
+|
+|upkeep
+|
+|t:|1685365378
+|switch|p2a: Frosmoth|Frosmoth, L82, F|249/249
+|turn|10
+|
+|t:|1685365382
+|move|p1a: Yveltal|Knock Off|p2a: Frosmoth
+|-damage|p2a: Frosmoth|101/249
+|-enditem|p2a: Frosmoth|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Yveltal
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|
+|upkeep
+|turn|11
+|
+|t:|1685365385
+|move|p1a: Yveltal|Sucker Punch|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|faint|p2a: Frosmoth
+|
+|upkeep
+|c|☆bodi 69|not today sob
+|c|☆bodi 69|son*
+|
+|t:|1685365394
+|switch|p2a: Rhyperior|Rhyperior, L82, F|323/323
+|-damage|p2a: Rhyperior|303/323|[from] Stealth Rock
+|turn|12
+|
+|t:|1685365403
+|switch|p1a: Sandaconda|Sandaconda, L84, F|258/258
+|-damage|p1a: Sandaconda|242/258|[from] Stealth Rock
+|move|p2a: Rhyperior|Stone Edge|p1a: Sandaconda
+|-resisted|p1a: Sandaconda
+|-damage|p1a: Sandaconda|191/258
+|
+|-heal|p1a: Sandaconda|207/258|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685365408
+|move|p1a: Sandaconda|Coil|p1a: Sandaconda
+|-boost|p1a: Sandaconda|atk|1
+|-boost|p1a: Sandaconda|def|1
+|-boost|p1a: Sandaconda|accuracy|1
+|move|p2a: Rhyperior|Earthquake|p1a: Sandaconda
+|-damage|p1a: Sandaconda|137/258
+|
+|-heal|p1a: Sandaconda|153/258|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685365411
+|move|p1a: Sandaconda|Earthquake|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|126/323
+|-enditem|p2a: Rhyperior|Weakness Policy
+|-boost|p2a: Rhyperior|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Rhyperior|spa|2|[from] item: Weakness Policy
+|move|p2a: Rhyperior|Rock Polish|p2a: Rhyperior
+|-boost|p2a: Rhyperior|spe|2
+|
+|-heal|p1a: Sandaconda|169/258|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685365418
+|-start|p2a: Rhyperior|Dynamax|
+|-heal|p2a: Rhyperior|252/646|[silent]
+|move|p2a: Rhyperior|Max Quake|p1a: Sandaconda
+|-damage|p1a: Sandaconda|3/258
+|-boost|p2a: Rhyperior|spd|1
+|move|p1a: Sandaconda|Earthquake|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|45/646
+|
+|-heal|p1a: Sandaconda|19/258|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685365426
+|move|p2a: Rhyperior|Max Rockfall|p1a: Sandaconda
+|-resisted|p1a: Sandaconda
+|-damage|p1a: Sandaconda|0 fnt
+|-weather|Sandstorm
+|faint|p1a: Sandaconda
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1685365432
+|switch|p1a: Yveltal|Yveltal, L69|288/288
+|-ability|p1a: Yveltal|Dark Aura
+|turn|17
+|
+|t:|1685365443
+|move|p1a: Yveltal|Sucker Punch|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Yveltal|270/288|[from] Sandstorm
+|upkeep
+|
+|t:|1685365463
+|switch|p2a: Amoonguss|Amoonguss, L84, M|254/329
+|-damage|p2a: Amoonguss|213/329|[from] Stealth Rock
+|turn|18
+|l| JJ09LIE
+|
+|t:|1685365474
+|-start|p1a: Yveltal|Dynamax|
+|-heal|p1a: Yveltal|540/576|[silent]
+|move|p1a: Yveltal|Max Airstream|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|-boost|p1a: Yveltal|spe|1
+|faint|p2a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Yveltal|522/576|[from] Sandstorm
+|upkeep
+|
+|t:|1685365476
+|switch|p2a: Lugia|Lugia, L74|279/279
+|turn|19
+|
+|t:|1685365481
+|move|p1a: Yveltal|Max Darkness|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|165/279
+|-unboost|p2a: Lugia|spd|1
+|move|p2a: Lugia|Toxic|p1a: Yveltal
+|-status|p1a: Yveltal|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Yveltal|504/576 tox|[from] Sandstorm
+|-damage|p2a: Lugia|148/279|[from] Sandstorm
+|-damage|p1a: Yveltal|486/576 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1685365487
+|move|p1a: Yveltal|Max Airstream|p2a: Lugia
+|-damage|p2a: Lugia|22/279
+|-boost|p1a: Yveltal|spe|1
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|162/279
+|-singleturn|p2a: Lugia|move: Roost
+|
+|-weather|none
+|-damage|p1a: Yveltal|450/576 tox|[from] psn
+|upkeep
+|-end|p1a: Yveltal|Dynamax
+|-heal|p1a: Yveltal|225/288 tox|[silent]
+|turn|21
+|c|☆Skyrack|yeah
+|c|☆Skyrack|gg
+|c|☆bodi 69|gg
+|
+|t:|1685365501
+|move|p1a: Yveltal|Oblivion Wing|p2a: Lugia
+|-damage|p2a: Lugia|78/279
+|-heal|p1a: Yveltal|288/288 tox|[from] drain|[of] p2a: Lugia
+|move|p2a: Lugia|Air Slash|p1a: Yveltal
+|-damage|p1a: Yveltal|221/288 tox
+|
+|-damage|p1a: Yveltal|167/288 tox|[from] psn
+|upkeep
+|turn|22
+|c| Wubben|Yveltal pog
+|
+|t:|1685365505
+|move|p1a: Yveltal|Knock Off|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|0 fnt
+|-enditem|p2a: Lugia|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Yveltal
+|faint|p2a: Lugia
+|
+|-damage|p1a: Yveltal|95/288 tox|[from] psn
+|upkeep
+|j| JJ09LIE
+|
+|t:|1685365508
+|switch|p2a: Indeedee|Indeedee, L83, M|235/235
+|-damage|p2a: Indeedee|206/235|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|23
+|c|☆bodi 69|wp
+|
+|t:|1685365514
+|move|p1a: Yveltal|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-enditem|p2a: Indeedee|Focus Sash|[from] move: Knock Off|[of] p1a: Yveltal
+|faint|p2a: Indeedee
+|
+|win|bodi 69

@@ -1,0 +1,207 @@
+|j|☆Snorlax's Crackers
+|j|☆LiJing0520
+|t:|1685451381
+|gametype|singles
+|player|p1|Snorlax's Crackers|lady|1119
+|player|p2|LiJing0520|169|1100
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685451381
+|start
+|switch|p1a: Latios|Latios, L78, M|253/253
+|switch|p2a: Landorus|Landorus, L76, M|260/260
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LiJing0520)
+|
+|t:|1685451396
+|switch|p1a: Delibird|Delibird, F|252/252
+|switch|p2a: Ferrothorn|Ferrothorn, L78, F|244/244
+|
+|upkeep
+|turn|2
+|
+|t:|1685451414
+|switch|p1a: Hitmontop|Hitmontop, L85, M|224/224
+|move|p2a: Ferrothorn|Knock Off|p1a: Hitmontop
+|-resisted|p1a: Hitmontop
+|-damage|p1a: Hitmontop|195/224
+|-enditem|p1a: Hitmontop|Life Orb|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|3
+|
+|t:|1685451433
+|switch|p2a: Landorus|Landorus, L76, M|260/260
+|move|p1a: Hitmontop|Toxic|p2a: Landorus
+|-status|p2a: Landorus|tox
+|
+|-damage|p2a: Landorus|244/260 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1685451443
+|switch|p1a: Latios|Latios, L78, M|253/253
+|move|p2a: Landorus|Earth Power|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-damage|p2a: Landorus|212/260 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1685451453
+|switch|p1a: Hitmontop|Hitmontop, L85, M|195/224
+|switch|p2a: Mamoswine|Mamoswine, L80, F|307/307
+|
+|upkeep
+|turn|6
+|
+|t:|1685451472
+|-start|p2a: Mamoswine|Dynamax|
+|-heal|p2a: Mamoswine|614/614|[silent]
+|move|p2a: Mamoswine|Max Quake|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|-boost|p2a: Mamoswine|spd|1
+|faint|p1a: Hitmontop
+|-damage|p2a: Mamoswine|584/614|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685451483
+|switch|p1a: Latios|Latios, L78, M|253/253
+|turn|7
+|
+|t:|1685451488
+|-start|p1a: Latios|Dynamax|
+|-heal|p1a: Latios|506/506|[silent]
+|move|p1a: Latios|Max Wyrmwind|p2a: Mamoswine
+|-damage|p2a: Mamoswine|412/614
+|-unboost|p2a: Mamoswine|atk|1
+|move|p2a: Mamoswine|Max Hailstorm|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|186/506
+|-weather|Hail
+|-damage|p2a: Mamoswine|382/614|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latios|171/506|[from] Hail
+|upkeep
+|turn|8
+|
+|t:|1685451501
+|move|p1a: Latios|Max Wyrmwind|p2a: Mamoswine
+|-damage|p2a: Mamoswine|202/614
+|-unboost|p2a: Mamoswine|atk|1
+|move|p2a: Mamoswine|Max Hailstorm|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|-damage|p2a: Mamoswine|172/614|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1685451513
+|switch|p1a: Delibird|Delibird, F|252/252
+|-end|p2a: Mamoswine|Dynamax
+|-heal|p2a: Mamoswine|86/307|[silent]
+|turn|9
+|
+|t:|1685451532
+|switch|p2a: Perrserker|Perrserker, L86, M|261/261
+|move|p1a: Delibird|Spikes|p2a: Perrserker
+|-sidestart|p2: LiJing0520|Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Perrserker|245/261|[from] Hail
+|upkeep
+|turn|10
+|
+|t:|1685451540
+|switch|p1a: Toxapex|Toxapex, L82, F|216/216
+|move|p2a: Perrserker|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|138/216
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Perrserker|229/261|[from] Hail
+|-damage|p1a: Toxapex|125/216|[from] Hail
+|-heal|p1a: Toxapex|138/216|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1685451551
+|switch|p2a: Ferrothorn|Ferrothorn, L78, F|244/244
+|-damage|p2a: Ferrothorn|214/244|[from] Spikes
+|move|p1a: Toxapex|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|192/244
+|
+|-weather|none
+|-heal|p1a: Toxapex|151/216|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|207/244|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685451564
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|216/216
+|move|p2a: Ferrothorn|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|179/216
+|-enditem|p1a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|222/244|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685451574
+|switch|p1a: Delibird|Delibird, F|252/252
+|move|p2a: Ferrothorn|Leech Seed|p1a: Delibird
+|-start|p1a: Delibird|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|237/244|[from] item: Leftovers
+|-damage|p1a: Delibird|221/252|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|244/244|[silent]
+|upkeep
+|turn|14
+|
+|t:|1685451585
+|move|p1a: Delibird|Spikes|p2a: Ferrothorn
+|-sidestart|p2: LiJing0520|Spikes
+|move|p2a: Ferrothorn|Knock Off|p1a: Delibird
+|-damage|p1a: Delibird|148/252
+|-enditem|p1a: Delibird|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-damage|p1a: Delibird|117/252|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|15
+|
+|t:|1685451593
+|switch|p1a: Toxapex|Toxapex, L82, F|216/216
+|move|p2a: Ferrothorn|Spikes|p1a: Toxapex
+|-sidestart|p1: Snorlax's Crackers|Spikes
+|
+|upkeep
+|turn|16
+|
+|t:|1685451617
+|switch|p1a: Lycanroc|Lycanroc, L80, M|251/251
+|-damage|p1a: Lycanroc|220/251|[from] Spikes
+|move|p2a: Ferrothorn|Power Whip|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|faint|p1a: Lycanroc
+|
+|upkeep
+|-message|Snorlax's Crackers forfeited.
+|
+|win|LiJing0520
+|raw|Snorlax&apos;s Crackers's rating: 1119 &rarr; <strong>1093</strong><br />(-26 for losing)
+|raw|LiJing0520's rating: 1100 &rarr; <strong>1126</strong><br />(+26 for winning)
+|l|☆Snorlax's Crackers

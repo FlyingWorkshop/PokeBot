@@ -1,0 +1,184 @@
+|j|☆nemoauditur
+|j|☆Sweet Baguette
+|t:|1685437245
+|gametype|singles
+|player|p1|nemoauditur|barry|1554
+|player|p2|Sweet Baguette|swimmer|1479
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685437245
+|start
+|switch|p1a: Dragonite|Dragonite, L75, M|259/259
+|switch|p2a: Tyranitar|Tyranitar, L78, F|284/284
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sweet Baguette)
+|inactive|nemoauditur has 120 seconds left.
+|
+|t:|1685437284
+|switch|p1a: Poliwrath|Poliwrath, L84, M|288/288
+|move|p2a: Tyranitar|Stone Edge|p1a: Poliwrath
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|231/288
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Poliwrath|213/288|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1685437303
+|switch|p2a: Bronzong|Bronzong, L83|247/247
+|move|p1a: Poliwrath|Rain Dance|p1a: Poliwrath
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1685437314
+|move|p1a: Poliwrath|Liquidation|p2a: Bronzong
+|-damage|p2a: Bronzong|111/247
+|-damage|p1a: Poliwrath|185/288|[from] item: Life Orb
+|move|p2a: Bronzong|Toxic|p1a: Poliwrath
+|-status|p1a: Poliwrath|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Bronzong|126/247|[from] item: Leftovers
+|-damage|p1a: Poliwrath|167/288 tox|[from] psn
+|upkeep
+|turn|4
+|inactive|Sweet Baguette has 120 seconds left.
+|inactive|nemoauditur has 120 seconds left.
+|
+|t:|1685437369
+|-start|p1a: Poliwrath|Dynamax|
+|-heal|p1a: Poliwrath|334/576 tox|[silent]
+|move|p1a: Poliwrath|Max Knuckle|p2a: Bronzong
+|-damage|p2a: Bronzong|17/247
+|-boost|p1a: Poliwrath|atk|1
+|-damage|p1a: Poliwrath|306/576 tox|[from] item: Life Orb
+|move|p2a: Bronzong|Stealth Rock|p1a: Poliwrath
+|-sidestart|p1: nemoauditur|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Bronzong|32/247|[from] item: Leftovers
+|-damage|p1a: Poliwrath|270/576 tox|[from] psn
+|upkeep
+|turn|5
+|inactive|Sweet Baguette has 90 seconds left.
+|
+|t:|1685437385
+|move|p1a: Poliwrath|Max Knuckle|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|-boost|p1a: Poliwrath|atk|1
+|faint|p2a: Bronzong
+|-damage|p1a: Poliwrath|242/576 tox|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Poliwrath|188/576 tox|[from] psn
+|upkeep
+|inactive|Sweet Baguette has 90 seconds left.
+|
+|t:|1685437404
+|switch|p2a: Whiscash|Whiscash, L86, M|329/329
+|turn|6
+|
+|t:|1685437407
+|move|p1a: Poliwrath|Max Geyser|p2a: Whiscash
+|-damage|p2a: Whiscash|0 fnt
+|faint|p2a: Whiscash
+|-damage|p1a: Poliwrath|160/576 tox|[from] item: Life Orb
+|
+|-weather|none
+|-damage|p1a: Poliwrath|88/576 tox|[from] psn
+|upkeep
+|
+|t:|1685437410
+|switch|p2a: Latias|Latias, L80, F|259/259
+|-end|p1a: Poliwrath|Dynamax
+|-heal|p1a: Poliwrath|44/288 tox|[silent]
+|turn|7
+|
+|t:|1685437415
+|move|p2a: Latias|Psychic|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|0 fnt
+|faint|p1a: Poliwrath
+|
+|upkeep
+|
+|t:|1685437422
+|switch|p1a: Mawile|Mawile, L86, M|226/226
+|-damage|p1a: Mawile|212/226|[from] Stealth Rock
+|turn|8
+|
+|t:|1685437431
+|switch|p2a: Nidoking|Nidoking, L82, M|267/267
+|move|p1a: Mawile|Play Rough|p2a: Nidoking
+|-resisted|p2a: Nidoking
+|-damage|p2a: Nidoking|185/267
+|
+|upkeep
+|turn|9
+|inactive|Sweet Baguette has 120 seconds left.
+|
+|t:|1685437444
+|switch|p1a: Necrozma|Necrozma, L80|286/286
+|-damage|p1a: Necrozma|251/286|[from] Stealth Rock
+|move|p2a: Nidoking|Substitute|p2a: Nidoking
+|-start|p2a: Nidoking|Substitute
+|-damage|p2a: Nidoking|119/267
+|
+|-heal|p1a: Necrozma|268/286|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Sweet Baguette has 120 seconds left.
+|
+|t:|1685437453
+|move|p2a: Nidoking|Sludge Wave|p1a: Necrozma
+|-damage|p1a: Necrozma|104/286
+|move|p1a: Necrozma|Photon Geyser|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-end|p2a: Nidoking|Substitute
+|
+|-heal|p1a: Necrozma|121/286|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1685437462
+|switch|p1a: Solgaleo|Solgaleo, L72|316/316
+|-damage|p1a: Solgaleo|297/316|[from] Stealth Rock
+|move|p2a: Nidoking|Earth Power|p1a: Solgaleo
+|-supereffective|p1a: Solgaleo
+|-damage|p1a: Solgaleo|0 fnt
+|faint|p1a: Solgaleo
+|
+|upkeep
+|
+|t:|1685437474
+|switch|p1a: Dragonite|Dragonite, L75, M|259/259
+|-damage|p1a: Dragonite|195/259|[from] Stealth Rock
+|turn|12
+|
+|t:|1685437479
+|move|p1a: Dragonite|Extreme Speed|p2a: Nidoking
+|-damage|p2a: Nidoking|11/267
+|move|p2a: Nidoking|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|-message|nemoauditur forfeited.
+|
+|win|Sweet Baguette
+|raw|nemoauditur's rating: 1554 &rarr; <strong>1530</strong><br />(-24 for losing)
+|raw|Sweet Baguette's rating: 1479 &rarr; <strong>1503</strong><br />(+24 for winning)
+|l|☆nemoauditur

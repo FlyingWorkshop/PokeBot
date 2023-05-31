@@ -1,0 +1,350 @@
+|j|☆flyingworkshop
+|j|☆Mark scarberry
+|t:|1685298755
+|gametype|singles
+|player|p1|flyingworkshop|dawn|1126
+|player|p2|Mark scarberry|1|1107
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685298755
+|start
+|switch|p1a: Turtonator|Turtonator, L84, M|238/238
+|switch|p2a: Mudsdale|Mudsdale, L82, M|298/298
+|turn|1
+|
+|t:|1685298766
+|switch|p1a: Moltres|Moltres, L80|275/275
+|move|p2a: Mudsdale|Earthquake|p1a: Moltres
+|-immune|p1a: Moltres
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by flyingworkshop)
+|
+|t:|1685298775
+|-start|p2a: Mudsdale|Dynamax|
+|-heal|p2a: Mudsdale|596/596|[silent]
+|move|p1a: Moltres|Fire Blast|p2a: Mudsdale
+|-damage|p2a: Mudsdale|452/596
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|move|p2a: Mudsdale|Max Rockfall|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|-weather|Sandstorm
+|faint|p1a: Moltres
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1685298786
+|switch|p1a: Golduck|Golduck, L86, M|278/278
+|turn|3
+|
+|t:|1685298798
+|move|p1a: Golduck|Scald|p2a: Mudsdale
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|218/596
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-damage|p1a: Golduck|251/278|[from] item: Life Orb
+|move|p2a: Mudsdale|Max Quake|p1a: Golduck
+|-damage|p1a: Golduck|74/278
+|-boost|p2a: Mudsdale|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Golduck|57/278|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1685298810
+|move|p1a: Golduck|Scald|p2a: Mudsdale
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|70/596
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-damage|p1a: Golduck|30/278|[from] item: Life Orb
+|move|p2a: Mudsdale|Max Quake|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|-boost|p2a: Mudsdale|spd|1
+|faint|p1a: Golduck
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1685298831
+|switch|p1a: Turtonator|Turtonator, L84, M|238/238
+|-end|p2a: Mudsdale|Dynamax
+|-heal|p2a: Mudsdale|35/298|[silent]
+|turn|5
+|
+|t:|1685298839
+|move|p1a: Turtonator|Draco Meteor|p2a: Mudsdale
+|-damage|p2a: Mudsdale|0 fnt
+|-unboost|p1a: Turtonator|spa|2
+|faint|p2a: Mudsdale
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Turtonator|224/238|[from] Sandstorm
+|upkeep
+|
+|t:|1685298852
+|switch|p2a: Golurk|Golurk, L82|280/280
+|turn|6
+|
+|t:|1685298863
+|move|p2a: Golurk|Earthquake|p1a: Turtonator
+|-supereffective|p1a: Turtonator
+|-damage|p1a: Turtonator|0 fnt
+|faint|p1a: Turtonator
+|
+|-weather|none
+|upkeep
+|
+|t:|1685298867
+|switch|p1a: Landorus|Landorus, L76, M|260/260
+|turn|7
+|
+|t:|1685298882
+|switch|p2a: Pangoro|Pangoro, L84, F|297/297
+|move|p1a: Landorus|Stealth Rock|p2a: Pangoro
+|-sidestart|p2: Mark scarberry|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1685298892
+|-start|p1a: Landorus|Dynamax|
+|-heal|p1a: Landorus|520/520|[silent]
+|move|p1a: Landorus|Max Knuckle|p2a: Pangoro
+|-supereffective|p2a: Pangoro
+|-damage|p2a: Pangoro|99/297
+|-boost|p1a: Landorus|atk|1
+|-damage|p1a: Landorus|494/520|[from] item: Life Orb
+|move|p2a: Pangoro|Ice Punch|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|42/520
+|
+|upkeep
+|turn|9
+|
+|t:|1685298905
+|move|p1a: Landorus|Max Knuckle|p2a: Pangoro
+|-supereffective|p2a: Pangoro
+|-damage|p2a: Pangoro|0 fnt
+|-boost|p1a: Landorus|atk|1
+|faint|p2a: Pangoro
+|-damage|p1a: Landorus|16/520|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685298916
+|switch|p2a: Golurk|Golurk, L82|280/280
+|-damage|p2a: Golurk|263/280|[from] Stealth Rock
+|turn|10
+|
+|t:|1685298924
+|move|p1a: Landorus|Max Darkness|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|-damage|p1a: Landorus|0 fnt|[from] item: Life Orb
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1685298935
+|switch|p1a: Aromatisse|Aromatisse, L88, F|321/321
+|switch|p2a: Qwilfish|Qwilfish, L84, F|246/246
+|-damage|p2a: Qwilfish|216/246|[from] Stealth Rock
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Aromatisse|atk|1
+|turn|11
+|
+|t:|1685298944
+|switch|p1a: Sudowoodo|Sudowoodo, L87, F|264/264
+|move|p2a: Qwilfish|Thunder Wave|p1a: Sudowoodo
+|-status|p1a: Sudowoodo|par
+|
+|-heal|p2a: Qwilfish|231/246|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1685298954
+|move|p2a: Qwilfish|Waterfall|p1a: Sudowoodo
+|-supereffective|p1a: Sudowoodo
+|-damage|p1a: Sudowoodo|142/264 par
+|cant|p1a: Sudowoodo|par
+|
+|-heal|p2a: Qwilfish|246/246|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1685298962
+|move|p2a: Qwilfish|Waterfall|p1a: Sudowoodo
+|-supereffective|p1a: Sudowoodo
+|-damage|p1a: Sudowoodo|10/264 par
+|cant|p1a: Sudowoodo|par
+|
+|upkeep
+|turn|14
+|
+|t:|1685298970
+|move|p2a: Qwilfish|Waterfall|p1a: Sudowoodo
+|-supereffective|p1a: Sudowoodo
+|-damage|p1a: Sudowoodo|0 fnt
+|faint|p1a: Sudowoodo
+|
+|upkeep
+|
+|t:|1685298972
+|switch|p1a: Aromatisse|Aromatisse, L88, F|321/321
+|turn|15
+|
+|t:|1685298977
+|move|p2a: Qwilfish|Waterfall|p1a: Aromatisse
+|-damage|p1a: Aromatisse|231/321
+|cant|p1a: Aromatisse|flinch
+|
+|-heal|p1a: Aromatisse|251/321|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685298985
+|move|p2a: Qwilfish|Waterfall|p1a: Aromatisse
+|-damage|p1a: Aromatisse|161/321
+|move|p1a: Aromatisse|Moonblast|p2a: Qwilfish
+|-resisted|p2a: Qwilfish
+|-damage|p2a: Qwilfish|165/246
+|
+|-heal|p2a: Qwilfish|180/246|[from] item: Black Sludge
+|-heal|p1a: Aromatisse|181/321|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685298995
+|move|p2a: Qwilfish|Waterfall|p1a: Aromatisse
+|-damage|p1a: Aromatisse|85/321
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|-heal|p2a: Qwilfish|195/246|[from] item: Black Sludge
+|-heal|p1a: Aromatisse|105/321|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1685299003
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Qwilfish|Waterfall|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|-heal|p1a: Aromatisse|265/321|[from] move: Wish|[wisher] Aromatisse
+|-heal|p2a: Qwilfish|210/246|[from] item: Black Sludge
+|-heal|p1a: Aromatisse|285/321|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1685299021
+|move|p2a: Qwilfish|Thunder Wave|p1a: Aromatisse
+|-status|p1a: Aromatisse|par
+|cant|p1a: Aromatisse|par
+|
+|-heal|p2a: Qwilfish|225/246|[from] item: Black Sludge
+|-heal|p1a: Aromatisse|305/321 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1685299030
+|move|p2a: Qwilfish|Waterfall|p1a: Aromatisse
+|-damage|p1a: Aromatisse|206/321 par
+|move|p1a: Aromatisse|Moonblast|p2a: Qwilfish
+|-resisted|p2a: Qwilfish
+|-damage|p2a: Qwilfish|143/246
+|
+|-heal|p2a: Qwilfish|158/246|[from] item: Black Sludge
+|-heal|p1a: Aromatisse|226/321 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1685299040
+|move|p2a: Qwilfish|Waterfall|p1a: Aromatisse
+|-damage|p1a: Aromatisse|130/321 par
+|move|p1a: Aromatisse|Moonblast|p2a: Qwilfish
+|-resisted|p2a: Qwilfish
+|-damage|p2a: Qwilfish|83/246
+|
+|-heal|p2a: Qwilfish|98/246|[from] item: Black Sludge
+|-heal|p1a: Aromatisse|150/321 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1685299054
+|move|p2a: Qwilfish|Waterfall|p1a: Aromatisse
+|-damage|p1a: Aromatisse|60/321 par
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|-heal|p2a: Qwilfish|113/246|[from] item: Black Sludge
+|-heal|p1a: Aromatisse|80/321 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1685299062
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Qwilfish|Waterfall|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|-heal|p1a: Aromatisse|240/321 par|[from] move: Wish|[wisher] Aromatisse
+|-heal|p2a: Qwilfish|128/246|[from] item: Black Sludge
+|-heal|p1a: Aromatisse|260/321 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1685299079
+|move|p2a: Qwilfish|Waterfall|p1a: Aromatisse
+|-damage|p1a: Aromatisse|169/321 par
+|cant|p1a: Aromatisse|flinch
+|
+|-heal|p2a: Qwilfish|143/246|[from] item: Black Sludge
+|-heal|p1a: Aromatisse|189/321 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1685299088
+|move|p2a: Qwilfish|Waterfall|p1a: Aromatisse
+|-crit|p1a: Aromatisse
+|-damage|p1a: Aromatisse|48/321 par
+|cant|p1a: Aromatisse|par
+|
+|-heal|p2a: Qwilfish|158/246|[from] item: Black Sludge
+|-heal|p1a: Aromatisse|68/321 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1685299097
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Qwilfish|Waterfall|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|-heal|p2a: Qwilfish|173/246|[from] item: Black Sludge
+|-heal|p1a: Aromatisse|88/321 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1685299106
+|move|p2a: Qwilfish|Waterfall|p1a: Aromatisse
+|-damage|p1a: Aromatisse|0 fnt
+|faint|p1a: Aromatisse
+|
+|win|Mark scarberry
+|raw|flyingworkshop's rating: 1126 &rarr; <strong>1100</strong><br />(-26 for losing)
+|raw|Mark scarberry's rating: 1107 &rarr; <strong>1133</strong><br />(+26 for winning)
+|l|☆Mark scarberry

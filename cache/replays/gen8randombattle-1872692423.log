@@ -1,0 +1,488 @@
+|j|☆trying_toget_tough
+|j|☆sanesitoo
+|t:|1685269209
+|gametype|singles
+|player|p1|trying_toget_tough|265|1368
+|player|p2|sanesitoo|170|1163
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685269209
+|start
+|switch|p1a: Beartic|Beartic, L86, M|304/304
+|switch|p2a: Landorus|Landorus, L76, M|260/260
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by trying_toget_tough)
+|
+|t:|1685269229
+|switch|p2a: Flareon|Flareon, L86, M|251/251
+|move|p1a: Beartic|Icicle Crash|p2a: Flareon
+|-resisted|p2a: Flareon
+|-crit|p2a: Flareon
+|-damage|p2a: Flareon|134/251
+|
+|-status|p2a: Flareon|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|inactive|trying_toget_tough has 120 seconds left.
+|
+|t:|1685269265
+|switch|p1a: Latios|Latios, L78, M|253/253
+|move|p2a: Flareon|Facade|p1a: Latios
+|-damage|p1a: Latios|24/253
+|
+|-damage|p2a: Flareon|119/251 tox|[from] psn
+|upkeep
+|turn|3
+|inactive|trying_toget_tough has 120 seconds left.
+|
+|t:|1685269275
+|move|p2a: Flareon|Quick Attack|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-damage|p2a: Flareon|89/251 tox|[from] psn
+|upkeep
+|inactive|trying_toget_tough has 120 seconds left.
+|
+|t:|1685269291
+|switch|p1a: Genesect|Genesect-Douse, L74|227/227
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|atk|1
+|turn|4
+|inactive|sanesitoo has 120 seconds left.
+|
+|t:|1685269330
+|switch|p2a: Mr. Mime|Mr. Mime-Galar, L86, M|226/226
+|move|p1a: Genesect|Techno Blast|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|173/226
+|
+|upkeep
+|turn|5
+|inactive|sanesitoo has 120 seconds left.
+|inactive|trying_toget_tough has 120 seconds left.
+|
+|t:|1685269363
+|move|p2a: Mr. Mime|Freeze-Dry|p1a: Genesect
+|-resisted|p1a: Genesect
+|-damage|p1a: Genesect|188/227
+|move|p1a: Genesect|Iron Head|p2a: Mr. Mime
+|-supereffective|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|
+|upkeep
+|inactive|sanesitoo has 120 seconds left.
+|inactive|sanesitoo has 90 seconds left.
+|
+|t:|1685269400
+|switch|p2a: Spiritomb|Spiritomb, L88, M|231/231
+|turn|6
+|inactive|sanesitoo has 90 seconds left.
+|inactive|trying_toget_tough has 90 seconds left.
+|
+|t:|1685269430
+|move|p1a: Genesect|Bug Buzz|p2a: Spiritomb
+|-damage|p2a: Spiritomb|156/231
+|move|p2a: Spiritomb|Foul Play|p1a: Genesect
+|-damage|p1a: Genesect|0 fnt
+|faint|p1a: Genesect
+|
+|upkeep
+|inactive|trying_toget_tough has 90 seconds left.
+|
+|t:|1685269439
+|switch|p1a: Eldegoss|Eldegoss, L90, F|254/254
+|turn|7
+|inactive|sanesitoo has 90 seconds left.
+|
+|t:|1685269452
+|move|p1a: Eldegoss|Sleep Powder|p2a: Spiritomb
+|-status|p2a: Spiritomb|slp|[from] move: Sleep Powder
+|cant|p2a: Spiritomb|slp
+|
+|upkeep
+|turn|8
+|
+|t:|1685269465
+|move|p1a: Eldegoss|Pollen Puff|p2a: Spiritomb
+|-damage|p2a: Spiritomb|101/231 slp
+|cant|p2a: Spiritomb|slp
+|
+|upkeep
+|turn|9
+|
+|t:|1685269476
+|move|p1a: Eldegoss|Pollen Puff|p2a: Spiritomb
+|-damage|p2a: Spiritomb|48/231 slp
+|cant|p2a: Spiritomb|slp
+|
+|upkeep
+|turn|10
+|
+|t:|1685269482
+|move|p1a: Eldegoss|Pollen Puff|p2a: Spiritomb
+|-damage|p2a: Spiritomb|0 fnt
+|faint|p2a: Spiritomb
+|
+|upkeep
+|
+|t:|1685269489
+|switch|p2a: Flareon|Flareon, L86, M|89/251 tox
+|turn|11
+|
+|t:|1685269494
+|switch|p1a: Umbreon|Umbreon, L82, F|290/290
+|move|p2a: Flareon|Flare Blitz|p1a: Umbreon
+|-damage|p1a: Umbreon|67/290
+|-damage|p2a: Flareon|15/251 tox|[from] Recoil
+|
+|-heal|p1a: Umbreon|85/290|[from] item: Leftovers
+|-damage|p2a: Flareon|0 fnt|[from] psn
+|faint|p2a: Flareon
+|upkeep
+|inactive|sanesitoo has 120 seconds left.
+|
+|t:|1685269503
+|switch|p2a: Avalugg|Avalugg, L86, F|303/303
+|turn|12
+|
+|t:|1685269511
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Avalugg|Avalanche|p1a: Umbreon
+|-damage|p1a: Umbreon|21/290
+|
+|-heal|p1a: Umbreon|39/290|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685269517
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Avalugg|Avalanche|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|184/290|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Umbreon|202/290|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685269527
+|move|p1a: Umbreon|Toxic|p2a: Avalugg
+|-status|p2a: Avalugg|tox
+|move|p2a: Avalugg|Curse|p2a: Avalugg
+|-unboost|p2a: Avalugg|spe|1
+|-boost|p2a: Avalugg|atk|1
+|-boost|p2a: Avalugg|def|1
+|
+|-heal|p1a: Umbreon|220/290|[from] item: Leftovers
+|-damage|p2a: Avalugg|285/303 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1685269533
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Avalugg|Curse|p2a: Avalugg
+|-unboost|p2a: Avalugg|spe|1
+|-boost|p2a: Avalugg|atk|1
+|-boost|p2a: Avalugg|def|1
+|
+|-heal|p1a: Umbreon|238/290|[from] item: Leftovers
+|-heal|p2a: Avalugg|303/303 tox|[from] item: Leftovers
+|-damage|p2a: Avalugg|267/303 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1685269542
+|move|p1a: Umbreon|Foul Play|p2a: Avalugg
+|-damage|p2a: Avalugg|201/303 tox
+|move|p2a: Avalugg|Curse|p2a: Avalugg
+|-unboost|p2a: Avalugg|spe|1
+|-boost|p2a: Avalugg|atk|1
+|-boost|p2a: Avalugg|def|1
+|
+|-heal|p1a: Umbreon|290/290|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Avalugg|219/303 tox|[from] item: Leftovers
+|-damage|p2a: Avalugg|165/303 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1685269553
+|move|p1a: Umbreon|Foul Play|p2a: Avalugg
+|-damage|p2a: Avalugg|98/303 tox
+|move|p2a: Avalugg|Recover|p2a: Avalugg
+|-heal|p2a: Avalugg|250/303 tox
+|
+|-heal|p2a: Avalugg|268/303 tox|[from] item: Leftovers
+|-damage|p2a: Avalugg|196/303 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1685269561
+|move|p1a: Umbreon|Foul Play|p2a: Avalugg
+|-damage|p2a: Avalugg|138/303 tox
+|move|p2a: Avalugg|Avalanche|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|faint|p1a: Umbreon
+|
+|-heal|p2a: Avalugg|156/303 tox|[from] item: Leftovers
+|-damage|p2a: Avalugg|66/303 tox|[from] psn
+|upkeep
+|
+|t:|1685269576
+|switch|p1a: Regigigas|Regigigas, L82|315/315
+|-start|p1a: Regigigas|ability: Slow Start
+|turn|19
+|
+|t:|1685269581
+|move|p1a: Regigigas|Substitute|p1a: Regigigas
+|-start|p1a: Regigigas|Substitute
+|-damage|p1a: Regigigas|237/315
+|move|p2a: Avalugg|Recover|p2a: Avalugg
+|-heal|p2a: Avalugg|218/303 tox
+|
+|-heal|p1a: Regigigas|256/315|[from] item: Leftovers
+|-heal|p2a: Avalugg|236/303 tox|[from] item: Leftovers
+|-damage|p2a: Avalugg|128/303 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1685269598
+|switch|p2a: Lunatone|Lunatone, L86|295/295
+|move|p1a: Regigigas|Protect||[still]
+|-fail|p1a: Regigigas
+|
+|-heal|p1a: Regigigas|275/315|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1685269601
+|move|p2a: Lunatone|Psychic|p1a: Regigigas
+|-end|p1a: Regigigas|Substitute
+|-damage|p2a: Lunatone|266/295|[from] item: Life Orb
+|move|p1a: Regigigas|Toxic|p2a: Lunatone|[miss]
+|-miss|p1a: Regigigas|p2a: Lunatone
+|
+|-heal|p1a: Regigigas|294/315|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1685269609
+|move|p1a: Regigigas|Protect|p1a: Regigigas
+|-singleturn|p1a: Regigigas|Protect
+|move|p2a: Lunatone|Psychic|p1a: Regigigas
+|-activate|p1a: Regigigas|move: Protect
+|
+|-heal|p1a: Regigigas|313/315|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1685269618
+|move|p2a: Lunatone|Psychic|p1a: Regigigas
+|-damage|p1a: Regigigas|208/315
+|-damage|p2a: Lunatone|237/295|[from] item: Life Orb
+|move|p1a: Regigigas|Toxic|p2a: Lunatone
+|-status|p2a: Lunatone|tox
+|
+|-heal|p1a: Regigigas|227/315|[from] item: Leftovers
+|-damage|p2a: Lunatone|219/295 tox|[from] psn
+|-end|p1a: Regigigas|Slow Start
+|upkeep
+|turn|24
+|
+|t:|1685269632
+|move|p1a: Regigigas|Protect|p1a: Regigigas
+|-singleturn|p1a: Regigigas|Protect
+|move|p2a: Lunatone|Moonblast|p1a: Regigigas
+|-activate|p1a: Regigigas|move: Protect
+|
+|-heal|p1a: Regigigas|246/315|[from] item: Leftovers
+|-damage|p2a: Lunatone|183/295 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1685269640
+|move|p1a: Regigigas|Substitute|p1a: Regigigas
+|-start|p1a: Regigigas|Substitute
+|-damage|p1a: Regigigas|168/315
+|move|p2a: Lunatone|Psychic|p1a: Regigigas
+|-end|p1a: Regigigas|Substitute
+|-damage|p2a: Lunatone|154/295 tox|[from] item: Life Orb
+|
+|-heal|p1a: Regigigas|187/315|[from] item: Leftovers
+|-damage|p2a: Lunatone|100/295 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1685269648
+|move|p1a: Regigigas|Protect|p1a: Regigigas
+|-singleturn|p1a: Regigigas|Protect
+|move|p2a: Lunatone|Psychic|p1a: Regigigas
+|-activate|p1a: Regigigas|move: Protect
+|
+|-heal|p1a: Regigigas|206/315|[from] item: Leftovers
+|-damage|p2a: Lunatone|28/295 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1685269656
+|move|p1a: Regigigas|Body Slam|p2a: Lunatone
+|-resisted|p2a: Lunatone
+|-damage|p2a: Lunatone|0 fnt
+|faint|p2a: Lunatone
+|
+|-heal|p1a: Regigigas|225/315|[from] item: Leftovers
+|upkeep
+|c|☆sanesitoo|lame ass player
+|
+|t:|1685269673
+|switch|p2a: Landorus|Landorus, L76, M|260/260
+|turn|28
+|c|☆trying_toget_tough|you are the one losing
+|
+|t:|1685269682
+|move|p1a: Regigigas|Toxic|p2a: Landorus
+|-status|p2a: Landorus|tox
+|move|p2a: Landorus|Earth Power|p1a: Regigigas
+|-damage|p1a: Regigigas|99/315
+|
+|-heal|p1a: Regigigas|118/315|[from] item: Leftovers
+|-damage|p2a: Landorus|244/260 tox|[from] psn
+|upkeep
+|turn|29
+|c|☆sanesitoo|bro u using only toxic lmao
+|
+|t:|1685269694
+|-start|p2a: Landorus|Dynamax|
+|-heal|p2a: Landorus|488/520 tox|[silent]
+|move|p1a: Regigigas|Protect|p1a: Regigigas
+|-singleturn|p1a: Regigigas|Protect
+|move|p2a: Landorus|Max Quake|p1a: Regigigas
+|-zbroken|p1a: Regigigas
+|-damage|p1a: Regigigas|83/315
+|-boost|p2a: Landorus|spd|1
+|-damage|p2a: Landorus|462/520 tox|[from] item: Life Orb
+|
+|-heal|p1a: Regigigas|102/315|[from] item: Leftovers
+|-damage|p2a: Landorus|430/520 tox|[from] psn
+|upkeep
+|turn|30
+|c|☆trying_toget_tough|you better skill is crying
+|inactive|trying_toget_tough has 120 seconds left.
+|c|☆sanesitoo|your*
+|c|☆sanesitoo|cmon
+|c|☆sanesitoo|i dont have all day
+|c|☆trying_toget_tough|see you can do grammar too
+|inactive|trying_toget_tough has 90 seconds left.
+|c|☆sanesitoo|shut up and play
+|c|☆trying_toget_tough|XP
+|c|☆sanesitoo|?
+|inactive|trying_toget_tough has 60 seconds left.
+|
+|t:|1685269785
+|-start|p1a: Regigigas|Dynamax|
+|-heal|p1a: Regigigas|204/630|[silent]
+|move|p1a: Regigigas|Max Guard||[still]
+|-fail|p1a: Regigigas
+|move|p2a: Landorus|Max Quake|p1a: Regigigas
+|-damage|p1a: Regigigas|60/630
+|-boost|p2a: Landorus|spd|1
+|-damage|p2a: Landorus|404/520 tox|[from] item: Life Orb
+|
+|-heal|p1a: Regigigas|79/630|[from] item: Leftovers
+|-damage|p2a: Landorus|356/520 tox|[from] psn
+|upkeep
+|turn|31
+|inactive|trying_toget_tough has 60 seconds left.
+|
+|t:|1685269801
+|move|p1a: Regigigas|Max Strike|p2a: Landorus
+|-damage|p2a: Landorus|142/520 tox
+|-unboost|p2a: Landorus|spe|1
+|move|p2a: Landorus|Max Quake|p1a: Regigigas
+|-damage|p1a: Regigigas|0 fnt
+|-boost|p2a: Landorus|spd|1
+|faint|p1a: Regigigas
+|-end|p1a: Regigigas|Slow Start|[silent]
+|-damage|p2a: Landorus|116/520 tox|[from] item: Life Orb
+|
+|-damage|p2a: Landorus|52/520 tox|[from] psn
+|upkeep
+|c|☆trying_toget_tough|that was on me
+|
+|t:|1685269818
+|switch|p1a: Beartic|Beartic, L86, M|304/304
+|-end|p2a: Landorus|Dynamax
+|-heal|p2a: Landorus|26/260 tox|[silent]
+|turn|32
+|
+|t:|1685269832
+|move|p1a: Beartic|Aqua Jet|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1685269834
+|switch|p2a: Avalugg|Avalugg, L86, F|128/303 tox
+|turn|33
+|inactive|trying_toget_tough has 60 seconds left.
+|
+|t:|1685269852
+|move|p1a: Beartic|Stone Edge|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|28/303 tox
+|move|p2a: Avalugg|Recover|p2a: Avalugg
+|-heal|p2a: Avalugg|180/303 tox
+|
+|-heal|p2a: Avalugg|198/303 tox|[from] item: Leftovers
+|-damage|p2a: Avalugg|180/303 tox|[from] psn
+|upkeep
+|turn|34
+|inactive|trying_toget_tough has 60 seconds left.
+|
+|t:|1685269860
+|move|p1a: Beartic|Swords Dance|p1a: Beartic
+|-boost|p1a: Beartic|atk|2
+|move|p2a: Avalugg|Body Press|p1a: Beartic
+|-supereffective|p1a: Beartic
+|-crit|p1a: Beartic
+|-damage|p1a: Beartic|0 fnt
+|faint|p1a: Beartic
+|
+|-heal|p2a: Avalugg|198/303 tox|[from] item: Leftovers
+|-damage|p2a: Avalugg|162/303 tox|[from] psn
+|upkeep
+|c|☆sanesitoo|gg
+|inactive|trying_toget_tough has 60 seconds left.
+|c|☆trying_toget_tough|nah
+|c|☆trying_toget_tough|u got lucky lame ass player
+|c|☆trying_toget_tough|xP
+|c|☆sanesitoo|i thought i was gonna lose on that one hahaha
+|c|☆trying_toget_tough|gg
+|c|☆sanesitoo|sure
+|c|☆trying_toget_tough|see ya
+|
+|t:|1685269895
+|switch|p1a: Eldegoss|Eldegoss, L90, F|254/254
+|turn|35
+|c|☆sanesitoo|good game tho
+|
+|t:|1685269907
+|move|p1a: Eldegoss|Energy Ball|p2a: Avalugg
+|-crit|p2a: Avalugg
+|-damage|p2a: Avalugg|0 fnt
+|faint|p2a: Avalugg
+|
+|win|trying_toget_tough
+|raw|trying_toget_tough's rating: 1368 &rarr; <strong>1377</strong><br />(+9 for winning)
+|raw|sanesitoo's rating: 1163 &rarr; <strong>1151</strong><br />(-12 for losing)
+|c|☆trying_toget_tough|gg
+|c|☆sanesitoo|gg

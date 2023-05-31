@@ -1,0 +1,319 @@
+|j|☆Marionette_playzYT
+|j|☆gopqy
+|t:|1685407415
+|gametype|singles
+|player|p1|Marionette_playzYT|steven|
+|player|p2|gopqy|selene|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685407415
+|start
+|switch|p1a: Scyther|Scyther, L81, F|245/245
+|switch|p2a: Slurpuff|Slurpuff, L80, F|262/262
+|turn|1
+|
+|t:|1685407439
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|move|p2a: Slurpuff|Belly Drum|p2a: Slurpuff
+|-damage|p2a: Slurpuff|131/262
+|-setboost|p2a: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p2a: Slurpuff|196/262|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|2
+|
+|t:|1685407466
+|-start|p2a: Slurpuff|Dynamax|
+|-heal|p2a: Slurpuff|392/524|[silent]
+|move|p2a: Slurpuff|Max Starfall|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|-fieldstart|move: Misty Terrain
+|faint|p1a: Scyther
+|
+|upkeep
+|
+|t:|1685407476
+|switch|p1a: Registeel|Registeel, L83|268/268
+|turn|3
+|
+|t:|1685407493
+|-start|p1a: Registeel|Dynamax|
+|-heal|p1a: Registeel|536/536|[silent]
+|move|p2a: Slurpuff|Max Starfall|p1a: Registeel
+|-resisted|p1a: Registeel
+|-crit|p1a: Registeel
+|-damage|p1a: Registeel|311/536
+|move|p1a: Registeel|Max Steelspike|p2a: Slurpuff
+|-supereffective|p2a: Slurpuff
+|-damage|p2a: Slurpuff|158/524
+|-boost|p1a: Registeel|def|1
+|
+|upkeep
+|turn|4
+|
+|t:|1685407525
+|move|p1a: Registeel|Max Guard|p1a: Registeel
+|-singleturn|p1a: Registeel|Max Guard
+|move|p2a: Slurpuff|Max Knuckle|p1a: Registeel
+|-activate|p1a: Registeel|move: Max Guard
+|
+|upkeep
+|-end|p2a: Slurpuff|Dynamax
+|-heal|p2a: Slurpuff|79/262|[silent]
+|turn|5
+|
+|t:|1685407571
+|switch|p2a: Dragapult|Dragapult, L78, F|265/265
+|move|p1a: Registeel|Max Steelspike|p2a: Dragapult
+|-damage|p2a: Dragapult|118/265
+|-boost|p1a: Registeel|def|1
+|
+|upkeep
+|-end|p1a: Registeel|Dynamax
+|-heal|p1a: Registeel|156/268|[silent]
+|turn|6
+|
+|t:|1685407590
+|move|p2a: Dragapult|Draco Meteor|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|127/268
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Registeel|Iron Head|p2a: Dragapult
+|-damage|p2a: Dragapult|30/265
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|7
+|
+|t:|1685407612
+|switch|p2a: Porygon2|Porygon2, L82|274/274
+|-ability|p2a: Porygon2|Clear Body|[from] ability: Trace|[of] p1a: Registeel
+|move|p1a: Registeel|Rest|p1a: Registeel
+|-status|p1a: Registeel|slp|[from] move: Rest
+|-heal|p1a: Registeel|268/268 slp|[silent]
+|-enditem|p1a: Registeel|Chesto Berry|[eat]
+|-curestatus|p1a: Registeel|slp|[msg]
+|
+|upkeep
+|turn|8
+|
+|t:|1685407626
+|move|p2a: Porygon2|Ice Beam|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|245/268
+|move|p1a: Registeel|Body Press|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|64/274
+|
+|upkeep
+|turn|9
+|
+|t:|1685407652
+|switch|p2a: Heracross|Heracross, L82, M|265/265
+|move|p1a: Registeel|Body Press|p2a: Heracross
+|-resisted|p2a: Heracross
+|-damage|p2a: Heracross|177/265
+|
+|-status|p2a: Heracross|brn|[from] item: Flame Orb
+|upkeep
+|turn|10
+|
+|t:|1685407679
+|switch|p1a: Xerneas|Xerneas, L67|280/280
+|-ability|p1a: Xerneas|Fairy Aura
+|move|p2a: Heracross|Facade|p1a: Xerneas
+|-damage|p1a: Xerneas|66/280
+|
+|-damage|p2a: Heracross|161/265 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1685407691
+|move|p2a: Heracross|Facade|p1a: Xerneas
+|-damage|p1a: Xerneas|0 fnt
+|faint|p1a: Xerneas
+|
+|-damage|p2a: Heracross|145/265 brn|[from] brn
+|upkeep
+|
+|t:|1685407699
+|switch|p1a: Rotom|Rotom, L84|221/221
+|turn|12
+|
+|t:|1685407705
+|move|p1a: Rotom|Thunderbolt|p2a: Heracross
+|-damage|p2a: Heracross|58/265 brn
+|move|p2a: Heracross|Knock Off|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-enditem|p1a: Rotom|Leftovers|[from] move: Knock Off|[of] p2a: Heracross
+|faint|p1a: Rotom
+|
+|-damage|p2a: Heracross|42/265 brn|[from] brn
+|upkeep
+|
+|t:|1685407717
+|switch|p1a: Scolipede|Scolipede, L80, M|227/227
+|turn|13
+|
+|t:|1685407729
+|move|p1a: Scolipede|Earthquake|p2a: Heracross
+|-resisted|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|-damage|p1a: Scolipede|205/227|[from] item: Life Orb
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|
+|t:|1685407748
+|switch|p2a: Dragapult|Dragapult, L78, F|30/265
+|turn|14
+|
+|t:|1685407765
+|move|p1a: Scolipede|Poison Jab|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|-damage|p1a: Scolipede|183/227|[from] item: Life Orb
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|
+|t:|1685407822
+|switch|p2a: Lanturn|Lanturn, L86, M|355/355
+|turn|15
+|
+|t:|1685407831
+|move|p1a: Scolipede|Earthquake|p2a: Lanturn
+|-supereffective|p2a: Lanturn
+|-damage|p2a: Lanturn|144/355
+|-damage|p1a: Scolipede|161/227|[from] item: Life Orb
+|move|p2a: Lanturn|Heal Bell||[still]
+|-activate|p2a: Lanturn|move: Heal Bell
+|-fail|p2a: Lanturn
+|
+|-heal|p2a: Lanturn|166/355|[from] item: Leftovers
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|16
+|
+|t:|1685407849
+|move|p1a: Scolipede|Earthquake|p2a: Lanturn
+|-supereffective|p2a: Lanturn
+|-damage|p2a: Lanturn|0 fnt
+|faint|p2a: Lanturn
+|-damage|p1a: Scolipede|139/227|[from] item: Life Orb
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|
+|t:|1685407860
+|switch|p2a: Garchomp|Garchomp, L74, F|282/282
+|turn|17
+|
+|t:|1685407886
+|move|p1a: Scolipede|Megahorn|p2a: Garchomp
+|-damage|p2a: Garchomp|129/282
+|-damage|p1a: Scolipede|111/227|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Scolipede|89/227|[from] item: Life Orb
+|move|p2a: Garchomp|Stone Edge|p1a: Scolipede
+|-supereffective|p1a: Scolipede
+|-damage|p1a: Scolipede|0 fnt
+|faint|p1a: Scolipede
+|
+|upkeep
+|
+|t:|1685407896
+|switch|p1a: Regidrago|Regidrago, L78|440/440
+|turn|18
+|
+|t:|1685407933
+|move|p2a: Garchomp|Fire Blast|p1a: Regidrago
+|-resisted|p1a: Regidrago
+|-damage|p1a: Regidrago|414/440
+|move|p1a: Regidrago|Outrage|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Regidrago|359/440|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1685407953
+|switch|p2a: Porygon2|Porygon2, L82|64/274
+|-ability|p2a: Porygon2|Dragon's Maw|[from] ability: Trace|[of] p1a: Regidrago
+|turn|19
+|
+|t:|1685407964
+|move|p1a: Regidrago|Outrage|p2a: Porygon2|[from]lockedmove
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|-start|p1a: Regidrago|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1685407975
+|switch|p2a: Slurpuff|Slurpuff, L80, F|79/262
+|turn|20
+|
+|t:|1685407980
+|-activate|p1a: Regidrago|confusion
+|move|p1a: Regidrago|Fire Fang|p2a: Slurpuff
+|-damage|p2a: Slurpuff|33/262
+|move|p2a: Slurpuff|Drain Punch|p1a: Regidrago
+|-damage|p1a: Regidrago|291/440
+|-heal|p2a: Slurpuff|67/262|[from] drain|[of] p1a: Regidrago
+|
+|upkeep
+|turn|21
+|
+|t:|1685407989
+|-activate|p1a: Regidrago|confusion
+|move|p1a: Regidrago|Fire Fang|p2a: Slurpuff
+|-damage|p2a: Slurpuff|24/262
+|move|p2a: Slurpuff|Drain Punch|p1a: Regidrago
+|-damage|p1a: Regidrago|218/440
+|-heal|p2a: Slurpuff|61/262|[from] drain|[of] p1a: Regidrago
+|
+|upkeep
+|turn|22
+|
+|t:|1685408019
+|-activate|p1a: Regidrago|confusion
+|-damage|p1a: Regidrago|178/440|[from] confusion
+|move|p2a: Slurpuff|Play Rough|p1a: Regidrago
+|-supereffective|p1a: Regidrago
+|-damage|p1a: Regidrago|0 fnt
+|faint|p1a: Regidrago
+|
+|upkeep
+|
+|t:|1685408027
+|switch|p1a: Registeel|Registeel, L83|245/268
+|turn|23
+|
+|t:|1685408038
+|move|p2a: Slurpuff|Drain Punch|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|185/268
+|-heal|p2a: Slurpuff|91/262|[from] drain|[of] p1a: Registeel
+|move|p1a: Registeel|Iron Head|p2a: Slurpuff
+|-supereffective|p2a: Slurpuff
+|-damage|p2a: Slurpuff|0 fnt
+|faint|p2a: Slurpuff
+|
+|win|Marionette_playzYT
+|l|☆Marionette_playzYT

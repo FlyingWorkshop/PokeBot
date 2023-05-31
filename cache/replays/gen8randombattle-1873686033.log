@@ -1,0 +1,124 @@
+|j|☆MeninoNery
+|j|☆ThisCatzin
+|t:|1685405971
+|gametype|singles
+|player|p1|MeninoNery|hooligans|
+|player|p2|ThisCatzin|169|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685405971
+|start
+|switch|p1a: Decidueye|Decidueye, L86, F|274/274
+|switch|p2a: Politoed|Politoed, L86, M|295/295
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|t:|1685405986
+|move|p2a: Politoed|Ice Beam|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|166/274
+|-status|p1a: Decidueye|frz
+|-enditem|p1a: Decidueye|Lum Berry|[eat]
+|-curestatus|p1a: Decidueye|frz|[msg]
+|move|p1a: Decidueye|Swords Dance|p1a: Decidueye
+|-boost|p1a: Decidueye|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1685405996
+|move|p1a: Decidueye|Leaf Blade|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685406007
+|switch|p2a: Indeedee|Indeedee, L83, M|235/235
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|3
+|
+|t:|1685406015
+|move|p2a: Indeedee|Mystical Fire|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|106/274
+|-unboost|p1a: Decidueye|spa|1
+|-damage|p2a: Indeedee|212/235|[from] item: Life Orb
+|move|p1a: Decidueye|Poltergeist|p2a: Indeedee
+|-immune|p2a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1685406032
+|move|p2a: Indeedee|Mystical Fire|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|46/274
+|-unboost|p1a: Decidueye|spa|1
+|-damage|p2a: Indeedee|189/235|[from] item: Life Orb
+|move|p1a: Decidueye|Leaf Blade|p2a: Indeedee
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685406050
+|switch|p2a: Lapras|Lapras, L86, F|363/363
+|turn|5
+|
+|t:|1685406056
+|move|p1a: Decidueye|Leaf Blade|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|-weather|none
+|upkeep
+|
+|t:|1685406063
+|switch|p2a: Shiinotic|Shiinotic, L86, M|243/243
+|turn|6
+|
+|t:|1685406069
+|move|p1a: Decidueye|Poltergeist|p2a: Shiinotic
+|-activate|p2a: Shiinotic|move: Poltergeist|Leftovers
+|-damage|p2a: Shiinotic|0 fnt
+|faint|p2a: Shiinotic
+|
+|upkeep
+|
+|t:|1685406075
+|switch|p2a: Armaldo|Armaldo, L86, F|269/269
+|turn|7
+|
+|t:|1685406081
+|move|p1a: Decidueye|Leaf Blade|p2a: Armaldo
+|-damage|p2a: Armaldo|0 fnt
+|faint|p2a: Armaldo
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1685406086
+|switch|p2a: Grimmsnarl|Grimmsnarl, L82, M|290/290
+|turn|8
+|
+|t:|1685406093
+|move|p1a: Decidueye|Leaf Blade|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|win|MeninoNery
+|l|☆ThisCatzin

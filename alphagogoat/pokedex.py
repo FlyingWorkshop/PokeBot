@@ -29,6 +29,7 @@ def _make_pokedex():
                         continue
                     for k2, prob in dict_.items():
                         if k2 not in d:
+                            k2 = re.sub(r"\s|-|'|\(|\)", "", k2.lower())
                             d[k2] = []
                         d[k2].append(prob)
                 for k2, probs in d.items():
@@ -44,13 +45,23 @@ def _make_pokedex():
     mons = list(pokedex.keys())
     for species in mons:
         if 'gmax' in species:
-            no_gmax_species = species[:-4]
-            if no_gmax_species not in mons:
+            species_no_gmax = species[:-4]
+            if species_no_gmax in mons:
+                continue
+                # TODO handle items and other shit
+                # max items is now 4 (re-run experiments)
+            else:
                 pokedex[species[:-4]] = pokedex[species]
                 del pokedex[species]
 
-    # TODO: union copperajah and copperajah-gmax possible moves
-    # TODO: check if any gmax pokemon have different movesets from the original
+    for gmax_species, data in pokedex.items():
+        if "gmax" not in gmax_species:
+            continue
+        species = gmax_species[:-4]
+        if species in pokedex and gmax_species in pokedex:
+            pokedex[species]['moves'].update(data['moves'])
+            pokedex[species]['items'].update(data['items'])
+            pokedex[species]['abilities'].update(data['abilities'])
 
     pokedex['zygarde10'] = pokedex['zygarde10%']
     del pokedex['zygarde10%']
@@ -70,6 +81,7 @@ def _make_pokedex():
     pokedex['zygardecomplete'] = pokedex['zygarde']
     pokedex['wishiwashi'] = pokedex['wishiwashischool']
     pokedex['eiscuenoice'] = pokedex['eiscue']
+    pokedex['mimikyubusted'] = pokedex['mimikyu']
 
     # TODO aegislash
 

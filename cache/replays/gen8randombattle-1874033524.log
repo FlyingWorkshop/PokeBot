@@ -1,0 +1,452 @@
+|j|☆Shayaan_Xyz
+|j|☆floating dog
+|t:|1685457599
+|gametype|singles
+|player|p1|Shayaan_Xyz|skyla|
+|player|p2|floating dog|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685457599
+|start
+|switch|p1a: Arctozolt|Arctozolt, L86|295/295
+|switch|p2a: Silvally|Silvally-Ground, L84|297/297
+|turn|1
+|
+|t:|1685457619
+|switch|p1a: Skarmory|Skarmory, L80, F|235/235
+|move|p2a: Silvally|Toxic|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|upkeep
+|turn|2
+|
+|t:|1685457631
+|move|p2a: Silvally|Flamethrower|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|85/235
+|move|p1a: Skarmory|Stealth Rock|p2a: Silvally
+|-sidestart|p2: floating dog|move: Stealth Rock
+|
+|-heal|p1a: Skarmory|99/235|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685457646
+|move|p2a: Silvally|Flamethrower|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|upkeep
+|
+|t:|1685457661
+|switch|p1a: Keldeo|Keldeo-Resolute, L79|273/273
+|turn|4
+|
+|t:|1685457669
+|move|p1a: Keldeo|Icy Wind|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|207/297
+|-unboost|p2a: Silvally|spe|1
+|move|p2a: Silvally|Toxic|p1a: Keldeo
+|-status|p1a: Keldeo|tox
+|
+|-damage|p1a: Keldeo|256/273 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1685457681
+|move|p1a: Keldeo|Icy Wind|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|123/297
+|-unboost|p2a: Silvally|spe|1
+|move|p2a: Silvally|Multi-Attack|p1a: Keldeo
+|-damage|p1a: Keldeo|136/273 tox
+|
+|-damage|p1a: Keldeo|102/273 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1685457690
+|move|p1a: Keldeo|Icy Wind|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|35/297
+|-unboost|p2a: Silvally|spe|1
+|move|p2a: Silvally|Multi-Attack|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|upkeep
+|
+|t:|1685457708
+|switch|p1a: Musharna|Musharna, L86, M|340/340
+|turn|7
+|
+|t:|1685457715
+|move|p1a: Musharna|Moonblast|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|upkeep
+|
+|t:|1685457733
+|switch|p2a: Cofagrigus|Cofagrigus, L86, M|240/240
+|-damage|p2a: Cofagrigus|210/240|[from] Stealth Rock
+|turn|8
+|
+|t:|1685457763
+|move|p2a: Cofagrigus|Will-O-Wisp|p1a: Musharna
+|-status|p1a: Musharna|brn
+|-activate|p1a: Musharna|ability: Synchronize
+|-status|p2a: Cofagrigus|brn
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|1
+|-boost|p1a: Musharna|spd|1
+|
+|-heal|p2a: Cofagrigus|225/240 brn|[from] item: Leftovers
+|-damage|p2a: Cofagrigus|210/240 brn|[from] brn
+|-damage|p1a: Musharna|319/340 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1685457776
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|203/340 brn
+|move|p1a: Musharna|Moonblast|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|115/240 brn
+|
+|-heal|p2a: Cofagrigus|130/240 brn|[from] item: Leftovers
+|-heal|p1a: Musharna|224/340 brn|[from] item: Leftovers
+|-damage|p2a: Cofagrigus|115/240 brn|[from] brn
+|-damage|p1a: Musharna|203/340 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1685457787
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|101/340 brn
+|move|p1a: Musharna|Moonblast|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|15/240 brn
+|
+|-heal|p2a: Cofagrigus|30/240 brn|[from] item: Leftovers
+|-heal|p1a: Musharna|122/340 brn|[from] item: Leftovers
+|-damage|p2a: Cofagrigus|15/240 brn|[from] brn
+|-damage|p1a: Musharna|101/340 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1685457798
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|0 fnt
+|faint|p1a: Musharna
+|
+|-heal|p2a: Cofagrigus|30/240 brn|[from] item: Leftovers
+|-damage|p2a: Cofagrigus|15/240 brn|[from] brn
+|upkeep
+|
+|t:|1685457810
+|switch|p1a: Bewear|Bewear, L82, F|331/331
+|turn|12
+|
+|t:|1685457824
+|move|p1a: Bewear|Swords Dance|p1a: Bewear
+|-boost|p1a: Bewear|atk|2
+|move|p2a: Cofagrigus|Memento|p1a: Bewear
+|-unboost|p1a: Bewear|atk|2
+|-unboost|p1a: Bewear|spa|2
+|faint|p2a: Cofagrigus
+|
+|upkeep
+|
+|t:|1685457840
+|switch|p2a: Golduck|Golduck, L86, M|278/278
+|-damage|p2a: Golduck|244/278|[from] Stealth Rock
+|turn|13
+|
+|t:|1685457861
+|move|p2a: Golduck|Substitute|p2a: Golduck
+|-start|p2a: Golduck|Substitute
+|-damage|p2a: Golduck|175/278
+|move|p1a: Bewear|Swords Dance|p1a: Bewear
+|-boost|p1a: Bewear|atk|2
+|
+|-heal|p2a: Golduck|192/278|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685457879
+|move|p2a: Golduck|Scald|p1a: Bewear
+|-damage|p1a: Bewear|207/331
+|move|p1a: Bewear|Darkest Lariat|p2a: Golduck
+|-end|p2a: Golduck|Substitute
+|-damage|p1a: Bewear|174/331|[from] item: Life Orb
+|
+|-heal|p2a: Golduck|209/278|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685457889
+|move|p2a: Golduck|Scald|p1a: Bewear
+|-damage|p1a: Bewear|51/331
+|-status|p1a: Bewear|brn
+|move|p1a: Bewear|Darkest Lariat|p2a: Golduck
+|-damage|p2a: Golduck|121/278
+|-damage|p1a: Bewear|18/331 brn|[from] item: Life Orb
+|
+|-heal|p2a: Golduck|138/278|[from] item: Leftovers
+|-damage|p1a: Bewear|0 fnt|[from] brn
+|faint|p1a: Bewear
+|upkeep
+|
+|t:|1685457902
+|switch|p1a: Arctozolt|Arctozolt, L86|295/295
+|turn|16
+|
+|t:|1685457910
+|move|p2a: Golduck|Ice Beam|p1a: Arctozolt
+|-resisted|p1a: Arctozolt
+|-damage|p1a: Arctozolt|263/295
+|move|p1a: Arctozolt|Bolt Beak|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|
+|upkeep
+|
+|t:|1685457917
+|switch|p2a: Nihilego|Nihilego, L79|302/302
+|-damage|p2a: Nihilego|265/302|[from] Stealth Rock
+|turn|17
+|
+|t:|1685457935
+|move|p2a: Nihilego|Toxic Spikes|p1a: Arctozolt
+|-sidestart|p1: Shayaan_Xyz|move: Toxic Spikes
+|move|p1a: Arctozolt|Stomping Tantrum|p2a: Nihilego
+|-supereffective|p2a: Nihilego
+|-damage|p2a: Nihilego|0 fnt
+|faint|p2a: Nihilego
+|
+|upkeep
+|
+|t:|1685457942
+|switch|p2a: Klinklang|Klinklang, L84|238/238
+|-damage|p2a: Klinklang|224/238|[from] Stealth Rock
+|turn|18
+|
+|t:|1685457955
+|move|p2a: Klinklang|Gear Grind|p1a: Arctozolt
+|-crit|p1a: Arctozolt
+|-damage|p1a: Arctozolt|190/295
+|-damage|p1a: Arctozolt|136/295
+|-hitcount|p1a: Arctozolt|2
+|move|p1a: Arctozolt|Stomping Tantrum|p2a: Klinklang
+|-supereffective|p2a: Klinklang
+|-damage|p2a: Klinklang|126/238
+|
+|-heal|p2a: Klinklang|140/238|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1685457969
+|move|p2a: Klinklang|Shift Gear|p2a: Klinklang
+|-boost|p2a: Klinklang|spe|2
+|-boost|p2a: Klinklang|atk|1
+|move|p1a: Arctozolt|Stomping Tantrum|p2a: Klinklang
+|-supereffective|p2a: Klinklang
+|-damage|p2a: Klinklang|44/238
+|
+|-heal|p2a: Klinklang|58/238|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1685457980
+|move|p2a: Klinklang|Gear Grind|p1a: Arctozolt
+|-damage|p1a: Arctozolt|55/295
+|-damage|p1a: Arctozolt|0 fnt
+|faint|p1a: Arctozolt
+|-hitcount|p1: Arctozolt|2
+|
+|-heal|p2a: Klinklang|72/238|[from] item: Leftovers
+|upkeep
+|
+|t:|1685457988
+|switch|p1a: Registeel|Registeel, L83|268/268
+|turn|21
+|
+|t:|1685458001
+|move|p2a: Klinklang|Wild Charge|p1a: Registeel
+|-damage|p1a: Registeel|208/268
+|-damage|p2a: Klinklang|57/238|[from] Recoil
+|move|p1a: Registeel|Body Press|p2a: Klinklang
+|-supereffective|p2a: Klinklang
+|-damage|p2a: Klinklang|0 fnt
+|faint|p2a: Klinklang
+|
+|-heal|p1a: Registeel|224/268|[from] item: Leftovers
+|upkeep
+|
+|t:|1685458009
+|switch|p2a: Sableye|Sableye, L88, M|231/231
+|-damage|p2a: Sableye|203/231|[from] Stealth Rock
+|turn|22
+|
+|t:|1685458026
+|move|p2a: Sableye|Taunt|p1a: Registeel
+|-start|p1a: Registeel|move: Taunt
+|move|p1a: Registeel|Iron Head|p2a: Sableye
+|-damage|p2a: Sableye|134/231
+|
+|-heal|p2a: Sableye|148/231|[from] item: Leftovers
+|-heal|p1a: Registeel|240/268|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1685458052
+|move|p2a: Sableye|Will-O-Wisp|p1a: Registeel
+|-status|p1a: Registeel|brn
+|move|p1a: Registeel|Iron Head|p2a: Sableye
+|-damage|p2a: Sableye|114/231
+|
+|-heal|p2a: Sableye|128/231|[from] item: Leftovers
+|-heal|p1a: Registeel|256/268 brn|[from] item: Leftovers
+|-damage|p1a: Registeel|240/268 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1685458061
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|231/231
+|move|p1a: Registeel|Iron Head|p2a: Sableye
+|-damage|p2a: Sableye|191/231
+|
+|-heal|p2a: Sableye|205/231|[from] item: Leftovers
+|-heal|p1a: Registeel|256/268 brn|[from] item: Leftovers
+|-damage|p1a: Registeel|240/268 brn|[from] brn
+|-end|p1a: Registeel|move: Taunt
+|upkeep
+|turn|25
+|
+|t:|1685458076
+|-start|p1a: Registeel|Dynamax|
+|-heal|p1a: Registeel|480/536 brn|[silent]
+|move|p2a: Sableye|Knock Off|p1a: Registeel
+|-damage|p1a: Registeel|416/536 brn
+|-enditem|p1a: Registeel|Leftovers|[from] move: Knock Off|[of] p2a: Sableye
+|move|p1a: Registeel|Max Steelspike|p2a: Sableye
+|-damage|p2a: Sableye|139/231
+|-boost|p1a: Registeel|def|1
+|
+|-heal|p2a: Sableye|153/231|[from] item: Leftovers
+|-damage|p1a: Registeel|400/536 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1685458092
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|231/231
+|move|p1a: Registeel|Max Steelspike|p2a: Sableye
+|-damage|p2a: Sableye|166/231
+|-boost|p1a: Registeel|def|1
+|
+|-heal|p2a: Sableye|180/231|[from] item: Leftovers
+|-damage|p1a: Registeel|384/536 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1685458104
+|-start|p2a: Sableye|Dynamax|
+|-heal|p2a: Sableye|360/462|[silent]
+|move|p2a: Sableye|Max Darkness|p1a: Registeel
+|-damage|p1a: Registeel|348/536 brn
+|-fail|p1a: Registeel|unboost|[from] ability: Clear Body|[of] p1a: Registeel
+|move|p1a: Registeel|Max Steelspike|p2a: Sableye
+|-damage|p2a: Sableye|295/462
+|-boost|p1a: Registeel|def|1
+|
+|-heal|p2a: Sableye|309/462|[from] item: Leftovers
+|-damage|p1a: Registeel|332/536 brn|[from] brn
+|upkeep
+|-end|p1a: Registeel|Dynamax
+|-heal|p1a: Registeel|166/268 brn|[silent]
+|turn|28
+|
+|t:|1685458127
+|move|p2a: Sableye|Max Darkness|p1a: Registeel
+|-damage|p1a: Registeel|138/268 brn
+|-fail|p1a: Registeel|unboost|[from] ability: Clear Body|[of] p1a: Registeel
+|move|p1a: Registeel|Iron Head|p2a: Sableye
+|-damage|p2a: Sableye|273/462
+|
+|-heal|p2a: Sableye|287/462|[from] item: Leftovers
+|-damage|p1a: Registeel|122/268 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1685458139
+|move|p2a: Sableye|Max Darkness|p1a: Registeel
+|-damage|p1a: Registeel|92/268 brn
+|-fail|p1a: Registeel|unboost|[from] ability: Clear Body|[of] p1a: Registeel
+|move|p1a: Registeel|Iron Head|p2a: Sableye
+|-damage|p2a: Sableye|250/462
+|
+|-heal|p2a: Sableye|264/462|[from] item: Leftovers
+|-damage|p1a: Registeel|76/268 brn|[from] brn
+|upkeep
+|-end|p2a: Sableye|Dynamax
+|-heal|p2a: Sableye|132/231|[silent]
+|turn|30
+|
+|t:|1685458152
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|231/231
+|move|p1a: Registeel|Iron Head|p2a: Sableye
+|-damage|p2a: Sableye|193/231
+|
+|-heal|p2a: Sableye|207/231|[from] item: Leftovers
+|-damage|p1a: Registeel|60/268 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1685458173
+|move|p2a: Sableye|Taunt|p1a: Registeel
+|-start|p1a: Registeel|move: Taunt
+|cant|p1a: Registeel|move: Taunt|Rest
+|
+|-heal|p2a: Sableye|221/231|[from] item: Leftovers
+|-damage|p1a: Registeel|44/268 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1685458181
+|move|p2a: Sableye|Knock Off|p1a: Registeel
+|-damage|p1a: Registeel|28/268 brn
+|move|p1a: Registeel|Iron Head|p2a: Sableye
+|-damage|p2a: Sableye|182/231
+|
+|-heal|p2a: Sableye|196/231|[from] item: Leftovers
+|-damage|p1a: Registeel|12/268 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1685458214
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|231/231
+|move|p1a: Registeel|Iron Head|p2a: Sableye
+|-damage|p2a: Sableye|195/231
+|
+|-heal|p2a: Sableye|209/231|[from] item: Leftovers
+|-damage|p1a: Registeel|0 fnt|[from] brn
+|faint|p1a: Registeel
+|
+|win|floating dog
+|upkeep
+|l|☆Shayaan_Xyz

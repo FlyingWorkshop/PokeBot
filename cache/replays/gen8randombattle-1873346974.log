@@ -1,0 +1,320 @@
+|j|☆Lrogue ❀
+|j|☆PrinceOfAllTacos
+|t:|1685366473
+|gametype|singles
+|player|p1|Lrogue ❀|zinnia|
+|player|p2|PrinceOfAllTacos|#psplxtournaments|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685366473
+|start
+|switch|p1a: Lucario|Lucario, L82, M|249/249
+|switch|p2a: Lugia|Lugia, L74|279/279
+|turn|1
+|c|☆Lrogue ❀|hf
+|c|☆PrinceOfAllTacos|You too
+|
+|t:|1685366494
+|switch|p1a: Absol|Absol, L84, F|246/246
+|move|p2a: Lugia|Earthquake|p1a: Absol
+|-damage|p1a: Absol|182/246
+|
+|upkeep
+|turn|2
+|
+|t:|1685366509
+|switch|p2a: Mawile|Mawile, L86, M|226/226
+|move|p1a: Absol|Knock Off|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|130/226
+|-enditem|p2a: Mawile|Life Orb|[from] move: Knock Off|[of] p1a: Absol
+|
+|upkeep
+|turn|3
+|
+|t:|1685366544
+|switch|p1a: Galvantula|Galvantula, L82, F|249/249
+|move|p2a: Mawile|Play Rough|p1a: Galvantula
+|-damage|p1a: Galvantula|102/249
+|
+|upkeep
+|turn|4
+|
+|t:|1685366550
+|move|p1a: Galvantula|Sticky Web|p2a: Mawile
+|-sidestart|p2: PrinceOfAllTacos|move: Sticky Web
+|move|p2a: Mawile|Play Rough|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|upkeep
+|
+|t:|1685366552
+|switch|p1a: Lucario|Lucario, L82, M|249/249
+|turn|5
+|
+|t:|1685366556
+|move|p1a: Lucario|Close Combat|p2a: Mawile
+|-damage|p2a: Mawile|0 fnt
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|faint|p2a: Mawile
+|
+|upkeep
+|
+|t:|1685366562
+|switch|p2a: Crobat|Crobat, L82, F|274/274
+|turn|6
+|
+|t:|1685366565
+|switch|p1a: Regirock|Regirock, L85|275/275
+|move|p2a: Crobat|Defog|p1a: Regirock
+|-unboost|p1a: Regirock|evasion|1
+|-sideend|p2: PrinceOfAllTacos|Sticky Web|[from] move: Defog|[of] p2a: Crobat
+|
+|upkeep
+|turn|7
+|
+|t:|1685366570
+|move|p2a: Crobat|U-turn|p1a: Regirock
+|-damage|p1a: Regirock|253/275
+|
+|t:|1685366575
+|switch|p2a: Walrein|Walrein, L86, F|329/329|[from] U-turn
+|move|p1a: Regirock|Rock Slide|p2a: Walrein
+|-supereffective|p2a: Walrein
+|-damage|p2a: Walrein|161/329
+|
+|-heal|p2a: Walrein|181/329|[from] item: Leftovers
+|-heal|p1a: Regirock|270/275|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685366582
+|switch|p1a: Poliwrath|Poliwrath, L84, M|288/288
+|move|p2a: Walrein|Toxic|p1a: Poliwrath
+|-status|p1a: Poliwrath|tox
+|
+|-heal|p2a: Walrein|201/329|[from] item: Leftovers
+|-damage|p1a: Poliwrath|270/288 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1685366592
+|switch|p2a: Crobat|Crobat, L82, F|274/274
+|move|p1a: Poliwrath|Rain Dance|p1a: Poliwrath
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Poliwrath|234/288 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1685366599
+|move|p1a: Poliwrath|Liquidation|p2a: Crobat
+|-damage|p2a: Crobat|87/274
+|-damage|p1a: Poliwrath|206/288 tox|[from] item: Life Orb
+|move|p2a: Crobat|Brave Bird|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|8/288 tox
+|-damage|p2a: Crobat|22/274|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Poliwrath|0 fnt|[from] psn
+|faint|p1a: Poliwrath
+|upkeep
+|
+|t:|1685366603
+|switch|p1a: Lucario|Lucario, L82, M|249/249
+|turn|11
+|
+|t:|1685366608
+|move|p2a: Crobat|Roost|p2a: Crobat
+|-heal|p2a: Crobat|159/274
+|-singleturn|p2a: Crobat|move: Roost
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1685366613
+|move|p2a: Crobat|Brave Bird|p1a: Lucario
+|-damage|p1a: Lucario|110/249
+|-damage|p2a: Crobat|113/274|[from] Recoil
+|move|p1a: Lucario|Meteor Mash|p2a: Crobat
+|-damage|p2a: Crobat|0 fnt
+|faint|p2a: Crobat
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685366618
+|switch|p2a: Naganadel|Naganadel, L74|230/230
+|turn|13
+|
+|t:|1685366622
+|-start|p2a: Naganadel|Dynamax|
+|-heal|p2a: Naganadel|460/460|[silent]
+|move|p1a: Lucario|Extreme Speed|p2a: Naganadel
+|-damage|p2a: Naganadel|296/460
+|move|p2a: Naganadel|Max Flare|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|-weather|SunnyDay
+|faint|p1a: Lucario
+|-ability|p2a: Naganadel|Beast Boost|boost
+|-boost|p2a: Naganadel|spa|1
+|-damage|p2a: Naganadel|273/460|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685366633
+|switch|p1a: Regirock|Regirock, L85|270/275
+|turn|14
+|
+|t:|1685366635
+|move|p2a: Naganadel|Max Wyrmwind|p1a: Regirock
+|-damage|p1a: Regirock|11/275
+|-unboost|p1a: Regirock|atk|1
+|-damage|p2a: Naganadel|250/460|[from] item: Life Orb
+|move|p1a: Regirock|Earthquake|p2a: Naganadel
+|-supereffective|p2a: Naganadel
+|-damage|p2a: Naganadel|130/460
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Regirock|28/275|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685366638
+|move|p2a: Naganadel|Max Ooze|p1a: Regirock
+|-resisted|p1a: Regirock
+|-damage|p1a: Regirock|0 fnt
+|-boost|p2a: Naganadel|spa|1
+|faint|p1a: Regirock
+|-ability|p2a: Naganadel|Beast Boost|boost
+|-boost|p2a: Naganadel|spa|1
+|-damage|p2a: Naganadel|107/460|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685366642
+|switch|p1a: Archeops|Archeops, L82, M|257/257
+|-end|p2a: Naganadel|Dynamax
+|-heal|p2a: Naganadel|54/230|[silent]
+|turn|16
+|
+|t:|1685366651
+|move|p1a: Archeops|Earthquake|p2a: Naganadel
+|-supereffective|p2a: Naganadel
+|-damage|p2a: Naganadel|0 fnt
+|faint|p2a: Naganadel
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685366670
+|switch|p2a: Kangaskhan|Kangaskhan, L84, F|314/314
+|turn|17
+|
+|t:|1685366676
+|switch|p1a: Absol|Absol, L84, F|182/246
+|move|p2a: Kangaskhan|Fake Out|p1a: Absol
+|-damage|p1a: Absol|128/246
+|
+|-weather|none
+|upkeep
+|turn|18
+|
+|t:|1685366690
+|move|p2a: Kangaskhan|Double-Edge|p1a: Absol
+|-damage|p1a: Absol|0 fnt
+|faint|p1a: Absol
+|-damage|p2a: Kangaskhan|272/314|[from] Recoil
+|
+|upkeep
+|
+|t:|1685366692
+|switch|p1a: Archeops|Archeops, L82, M|257/257
+|turn|19
+|
+|t:|1685366697
+|switch|p2a: Walrein|Walrein, L86, F|201/329
+|move|p1a: Archeops|Stone Edge|p2a: Walrein
+|-supereffective|p2a: Walrein
+|-damage|p2a: Walrein|0 fnt
+|faint|p2a: Walrein
+|
+|upkeep
+|
+|t:|1685366698
+|switch|p2a: Kangaskhan|Kangaskhan, L84, F|272/314
+|turn|20
+|
+|t:|1685366702
+|-start|p1a: Archeops|Dynamax|
+|-heal|p1a: Archeops|514/514|[silent]
+|move|p2a: Kangaskhan|Fake Out|p1a: Archeops
+|-resisted|p1a: Archeops
+|-damage|p1a: Archeops|488/514
+|move|p1a: Archeops|Max Rockfall|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|85/314
+|-weather|Sandstorm
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kangaskhan|66/314|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|t:|1685366714
+|move|p2a: Kangaskhan|Sucker Punch|p1a: Archeops
+|-damage|p1a: Archeops|428/514
+|move|p1a: Archeops|Max Airstream|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|-boost|p1a: Archeops|spe|1
+|faint|p2a: Kangaskhan
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1685366717
+|switch|p2a: Lugia|Lugia, L74|279/279
+|turn|22
+|
+|t:|1685366724
+|move|p1a: Archeops|Max Rockfall|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|129/279
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|269/279
+|-singleturn|p2a: Lugia|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lugia|252/279|[from] Sandstorm
+|upkeep
+|-end|p1a: Archeops|Dynamax
+|-heal|p1a: Archeops|214/257|[silent]
+|turn|23
+|
+|t:|1685366727
+|move|p1a: Archeops|Stone Edge|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|0 fnt
+|faint|p2a: Lugia
+|
+|win|Lrogue ❀
+|c|☆PrinceOfAllTacos|Gg
+|c|☆Lrogue ❀|gg
+|j| JJ09LIE
+|j| Wubben
+|l| JJ09LIE

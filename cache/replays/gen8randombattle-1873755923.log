@@ -1,0 +1,272 @@
+|j|☆woopre
+|j|☆relevartemit
+|t:|1685415503
+|gametype|singles
+|player|p1|woopre|cynthia-anime2|
+|player|p2|relevartemit|scientist-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|
+|t:|1685415503
+|start
+|switch|p1a: Zapdos|Zapdos-Galar, L76|262/262
+|switch|p2a: Tornadus|Tornadus, L80, M|258/258
+|turn|1
+|
+|t:|1685415531
+|switch|p1a: Corsola|Corsola, L93, F|272/272
+|move|p2a: Tornadus|Hurricane|p1a: Corsola|[miss]
+|-miss|p2a: Tornadus|p1a: Corsola
+|
+|upkeep
+|turn|2
+|
+|t:|1685415582
+|switch|p2a: Kyurem|Kyurem, L80|331/331
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Corsola|Scald|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|292/331
+|
+|upkeep
+|turn|3
+|
+|t:|1685415589
+|switch|p1a: Aurorus|Aurorus, L84, F|344/344
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Aurorus
+|move|p2a: Kyurem|Freeze-Dry|p1a: Aurorus
+|-resisted|p1a: Aurorus
+|-damage|p1a: Aurorus|299/344
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1685415604
+|move|p2a: Kyurem|Earth Power|p1a: Aurorus
+|-supereffective|p1a: Aurorus
+|-damage|p1a: Aurorus|161/344
+|move|p1a: Aurorus|Ancient Power|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|154/331
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1685415617
+|move|p2a: Kyurem|Earth Power|p1a: Aurorus
+|-supereffective|p1a: Aurorus
+|-damage|p1a: Aurorus|5/344
+|move|p1a: Aurorus|Ancient Power|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|28/331
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1685415626
+|move|p2a: Kyurem|Freeze-Dry|p1a: Aurorus
+|-resisted|p1a: Aurorus
+|-damage|p1a: Aurorus|0 fnt
+|faint|p1a: Aurorus
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1685415634
+|switch|p1a: Tornadus|Tornadus, L80, M|258/258
+|turn|7
+|
+|t:|1685415640
+|move|p1a: Tornadus|Grass Knot|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-weather|none
+|upkeep
+|
+|t:|1685415660
+|switch|p2a: Azumarill|Azumarill, L84, M|305/305
+|turn|8
+|
+|t:|1685415669
+|move|p1a: Tornadus|Hurricane|p2a: Azumarill
+|-damage|p2a: Azumarill|164/305
+|move|p2a: Azumarill|Liquidation|p1a: Tornadus
+|-damage|p1a: Tornadus|35/258
+|-unboost|p1a: Tornadus|def|1
+|
+|upkeep
+|turn|9
+|
+|t:|1685415676
+|move|p1a: Tornadus|Hurricane|p2a: Azumarill
+|-damage|p2a: Azumarill|26/305
+|move|p2a: Azumarill|Liquidation|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|
+|t:|1685415691
+|switch|p1a: Stoutland|Stoutland, L86, M|286/286
+|turn|10
+|
+|t:|1685415697
+|move|p1a: Stoutland|Facade|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|upkeep
+|
+|t:|1685415726
+|switch|p2a: Zygarde|Zygarde-10%, L82|223/223
+|-ability|p2a: Zygarde|Aura Break
+|turn|11
+|
+|t:|1685415752
+|move|p1a: Stoutland|Facade|p2a: Zygarde
+|-damage|p2a: Zygarde|127/223
+|move|p2a: Zygarde|Coil|p2a: Zygarde
+|-boost|p2a: Zygarde|atk|1
+|-boost|p2a: Zygarde|def|1
+|-boost|p2a: Zygarde|accuracy|1
+|
+|upkeep
+|turn|12
+|
+|t:|1685415774
+|move|p1a: Stoutland|Facade|p2a: Zygarde
+|-damage|p2a: Zygarde|58/223
+|move|p2a: Zygarde|Thousand Arrows|p1a: Stoutland
+|-damage|p1a: Stoutland|126/286
+|-damage|p2a: Zygarde|36/223|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+|
+|t:|1685415787
+|move|p1a: Stoutland|Facade|p2a: Zygarde
+|-damage|p2a: Zygarde|0 fnt
+|faint|p2a: Zygarde
+|
+|upkeep
+|
+|t:|1685415796
+|switch|p2a: Diggersby|Diggersby, L80, F|267/267
+|turn|14
+|
+|t:|1685415802
+|move|p1a: Stoutland|Facade|p2a: Diggersby
+|-damage|p2a: Diggersby|161/267
+|move|p2a: Diggersby|Body Slam|p1a: Stoutland
+|-damage|p1a: Stoutland|0 fnt
+|faint|p1a: Stoutland
+|-damage|p2a: Diggersby|135/267|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685415808
+|switch|p1a: Zapdos|Zapdos-Galar, L76|262/262
+|turn|15
+|
+|t:|1685415815
+|move|p2a: Diggersby|Quick Attack|p1a: Zapdos
+|-damage|p1a: Zapdos|188/262
+|-damage|p2a: Diggersby|109/267|[from] item: Life Orb
+|move|p1a: Zapdos|Brave Bird|p2a: Diggersby
+|-damage|p2a: Diggersby|0 fnt
+|faint|p2a: Diggersby
+|-damage|p1a: Zapdos|152/262|[from] Recoil
+|-damage|p1a: Zapdos|126/262|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685415821
+|switch|p2a: Tornadus|Tornadus, L80, M|258/258
+|turn|16
+|
+|t:|1685415825
+|switch|p1a: Corsola|Corsola, L93, F|272/272
+|-start|p2a: Tornadus|Dynamax|
+|-heal|p2a: Tornadus|516/516|[silent]
+|move|p2a: Tornadus|Max Airstream|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|198/272
+|-boost|p2a: Tornadus|spe|1
+|
+|upkeep
+|turn|17
+|
+|t:|1685415830
+|-start|p1a: Corsola|Dynamax|
+|-heal|p1a: Corsola|396/544|[silent]
+|move|p1a: Corsola|Max Guard|p1a: Corsola
+|-singleturn|p1a: Corsola|Max Guard
+|move|p2a: Tornadus|Max Overgrowth|p1a: Corsola
+|-activate|p1a: Corsola|move: Max Guard
+|
+|upkeep
+|turn|18
+|
+|t:|1685415834
+|move|p2a: Tornadus|Max Overgrowth|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-crit|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|-fieldstart|move: Grassy Terrain
+|faint|p1a: Corsola
+|
+|upkeep
+|
+|t:|1685415840
+|switch|p1a: Raichu|Raichu-Alola, L84, F|238/238
+|-end|p2a: Tornadus|Dynamax
+|-heal|p2a: Tornadus|258/258|[silent]
+|turn|19
+|
+|t:|1685415860
+|move|p2a: Tornadus|Heat Wave|p1a: Raichu
+|-damage|p1a: Raichu|154/238
+|move|p1a: Raichu|Thunderbolt|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|1/258
+|-damage|p1a: Raichu|131/238|[from] item: Life Orb
+|
+|-heal|p1a: Raichu|145/238|[from] Grassy Terrain
+|upkeep
+|turn|20
+|
+|t:|1685415870
+|move|p2a: Tornadus|Heat Wave|p1a: Raichu
+|-damage|p1a: Raichu|61/238
+|move|p1a: Raichu|Psyshock|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|-damage|p1a: Raichu|38/238|[from] item: Life Orb
+|
+|-heal|p1a: Raichu|52/238|[from] Grassy Terrain
+|upkeep
+|
+|t:|1685415874
+|switch|p2a: Marshadow|Marshadow, L70|242/242
+|turn|21
+|
+|t:|1685415878
+|move|p1a: Raichu|Psyshock|p2a: Marshadow
+|-supereffective|p2a: Marshadow
+|-damage|p2a: Marshadow|0 fnt
+|faint|p2a: Marshadow
+|-damage|p1a: Raichu|29/238|[from] item: Life Orb
+|
+|win|woopre
+|c|☆relevartemit|gg
+|c|☆woopre|Gg
