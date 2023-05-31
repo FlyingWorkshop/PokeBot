@@ -78,7 +78,7 @@ def make_data(filepath):
     move1, move2 = process_input_log(replay)
     h1, h2 = get_team_histories(battles)
     return battles, h1, h2, move1, move2
-
+ 
 def main():
     json_files = [filepath for filepath in Path("cache/replays").iterdir() if filepath.name.endswith('.json')]
     dataset = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(json_files[:3]))
