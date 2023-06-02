@@ -35,12 +35,12 @@ def main():
     def cache(m):
         url = f"https://replay.pokemonshowdown.com{m}"
 
-        # cache .log
-        path = Path(f"../cache/replays{m}.log")
-        if not path.exists():
-            log = requests.get(url + ".log").text
-            with open(path, "x") as f:
-                f.write(log)
+        # # cache .log
+        # path = Path(f"../cache/replays{m}.log")
+        # if not path.exists():
+        #     log = requests.get(url + ".log").text
+        #     with open(path, "x") as f:
+        #         f.write(log)
 
         # cache .json
         path = Path(f"../cache/replays{m}.json")
