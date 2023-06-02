@@ -24,7 +24,7 @@ from .pokedex import POKEDEX
 # from pokedex import POKEDEX
 # from catalogs import Item, VolatileStatus, SIDE_COND_MAP, Ability, MoveEnum
 
-from .constants import MAX_MOVES,MAX_ABILITIES, MAX_ITEMS, BOOSTABLE_STATS, DEFAULT_EVS, DEFAULT_IVS, EVS_PER_INC
+from .constants import MAX_MOVES,MAX_ABILITIES, MAX_ITEMS, BOOSTABLE_STATS, DEFAULT_EVS, DEFAULT_IVS, EVS_PER_INC, DEVICE
 
 
 def process_battle(battle_json: str) -> list[Battle]:
@@ -232,7 +232,7 @@ class Embedder:
         #
         # embedding += secondary
 
-        return torch.Tensor(embedding)
+        return torch.tensor(embedding).to(device=DEVICE)
 
     def embed_moves_from_pokemon(self, pokemon: Pokemon):
         """
@@ -264,14 +264,14 @@ class Embedder:
             id = re.sub(r"\s|-|'", "", name.lower())
             embedding = self._embed_move(id, prob)
             embeddings.append(embedding)
-        embeddings = torch.stack(embeddings)
+        embeddings = torch.stack(embeddings).to(device=DEVICE)
 
         # add unknown move embeddings
         num_unknown_moves = MAX_MOVES - len(embeddings)
         embed_dim = embeddings.shape[1]
-        unknown_move_embeddings = torch.full((num_unknown_moves, embed_dim), fill_value=-1)
+        unknown_move_embeddings = torch.full((num_unknown_moves, embed_dim), fill_value=-1).to(device=DEVICE)
 
-        return torch.concat([embeddings, unknown_move_embeddings])
+        return torch.concat([embeddings, unknown_move_embeddings]).to(device=DEVICE)
 
     @staticmethod
     def embed_pokemon(pokemon: Pokemon) -> torch.Tensor:
@@ -351,7 +351,7 @@ class Embedder:
 
         # embedding = torch.Tensor(abilities + items + stats + effects + embedding)
         embedding = torch.Tensor(items + stats + effects + embedding)
-        return embedding
+        return embedding.to(device=DEVICE)
 
 
 def get_team_histories(battles: list[Battle]):

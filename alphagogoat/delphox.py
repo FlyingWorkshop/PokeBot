@@ -5,6 +5,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from poke_env.environment.battle import Battle
 from poke_env.environment.pokemon import Pokemon
+from torch.optim.lr_scheduler import StepLR
 
 from alphagogoat.constants import *
 from alphagogoat.embedder import Embedder
@@ -24,30 +25,12 @@ class Delphox(nn.Module):
         # TODO: make Delphox a RNN or LSTM; perhaps use meta-learning
         super().__init__()
 
-        # self.dnn = nn.Sequential(
-        #     nn.Linear(input_size, input_size//2),
-        #     nn.ReLU(),
-        #     nn.Linear(input_size//2, input_size//2),
-        #     nn.ReLU(),
-        #     nn.Linear(input_size//2, input_size//2),
-        #     nn.ReLU(),
-        #     nn.Linear(input_size//2, len(MoveEnum) + 1),
-        # )
         # TODO: maybe add an encoder?
-        # self.rnn = nn.LSTM(input_size, Delphox.LSTM_OUTPUT_SIZE, hidden_layers)
-        hidden_size = 5000
-        self.model = nn.Sequential(
-            nn.Linear(input_size, hidden_size),
-            nn.ReLU(),
-            nn.Linear(hidden_size, hidden_size),
-            nn.ReLU(),
-            nn.Linear(hidden_size, Delphox.LSTM_OUTPUT_SIZE)
-        )
-        self.loss = nn.L1Loss(reduction='sum')
-        # self.loss = nn.CrossEntropyLoss()
+        self.rnn = nn.LSTM(input_size, Delphox.LSTM_OUTPUT_SIZE, hidden_layers)
+        self.loss = nn.CrossEntropyLoss()
 
-    def forward(self, x):
-        return self.model(x)
+    def forward(self, x, hidden):
+        return self.rnn(x, hidden)
 
 def make_team(turn: Battle) -> list[Pokemon]:
     """
@@ -99,11 +82,11 @@ def make_x(turn: Battle, opponent: bool, last_guest_correct: bool):
         moves.append(moveset)
 
     num_unknown_pokemon = 2 * NUM_POKEMON_PER_TEAM - len(team1) - len(team2)
-    pokemon = F.pad(torch.hstack(pokemon), (0, num_unknown_pokemon * POKEMON_EMBED_SIZE), mode='constant', value=-1)
-    moves = F.pad(torch.stack(moves), (0, 0, 0, 0, 0, num_unknown_pokemon))
+    pokemon = F.pad(torch.hstack(pokemon).to(device=DEVICE), (0, num_unknown_pokemon * POKEMON_EMBED_SIZE), mode='constant', value=-1)
+    moves = F.pad(torch.stack(moves).to(device=DEVICE), (0, 0, 0, 0, 0, num_unknown_pokemon))
     field_conditions = EMBEDDER.embed_conditions(turn, opponent).to(device=DEVICE)
 
-    mark = torch.Tensor([last_guest_correct])
+    mark = torch.tensor([last_guest_correct]).to(device=DEVICE)
 
     x = torch.cat((mark, pokemon, moves.flatten(), field_conditions)).unsqueeze(0)
     return x
@@ -134,15 +117,23 @@ def print_turn(turn: Battle, action1, action2):
 
 def apply_mask(pred, mask):
     pred = torch.mul(pred, mask)
-    # pred = torch.where(pred == 0, torch.tensor(-1e10), pred)
-    # pred = F.softmax(pred, dim=0)
+#    pred = torch.where(pred == 0, torch.tensor(-1e10), pred)
+#    pred = F.softmax(pred, dim=0)
     return pred
 
 def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5, switch_cost=100, type_cost=50):
     assert 0 <= discount <= 1
+
+    delphox = delphox.to(device=DEVICE)
     optimizer = torch.optim.Adam(delphox.parameters(), lr=lr, weight_decay=weight_decay)
     total_wrong = 0
     total_correct = 0
+
+    hidden1_0 = (torch.zeros(Delphox.NUM_HIDDEN_LAYERS, Delphox.LSTM_OUTPUT_SIZE).to(device=DEVICE), torch.zeros(Delphox.NUM_HIDDEN_LAYERS, Delphox.LSTM_OUTPUT_SIZE).to(device=DEVICE))
+    hidden2_0 = (torch.zeros(Delphox.NUM_HIDDEN_LAYERS, Delphox.LSTM_OUTPUT_SIZE).to(device=DEVICE), torch.zeros(Delphox.NUM_HIDDEN_LAYERS, Delphox.LSTM_OUTPUT_SIZE).to(device=DEVICE))
+    hidden1_t = hidden1_0
+    hidden2_t = hidden2_0
+
     for turns, moves1, moves2 in data:
         print(f"### https://replay.pokemonshowdown.com/{turns[0].battle_tag} ###")
         num_correct = 0
@@ -151,15 +142,16 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5, swi
         last_guess_correct2 = True
         for i, (turn, move1, move2) in enumerate(zip(turns, moves1, moves2)):
 
-            gamma = 1 - discount / math.exp(i)
+            gamma = 1# - discount / math.exp(i)
 
             optimizer.zero_grad()
             x1 = make_x(turn, opponent=False, last_guest_correct=last_guess_correct1)
             mask = get_mask(turn, opponent=False)
-            move1_pred = delphox(x1)
+            move1_pred, hidden1_t_next = delphox(x1.to(torch.float32), hidden1_t)
+            move1_pred = move1_pred.squeeze(0)
             move1_pred = apply_mask(move1_pred, mask)
-            L = gamma * (delphox.loss(move1_pred, move1))
-            print("{:<10}->{:<10}: {:<10} ({:<10})".format(turn.active_pokemon.species, turn.opponent_active_pokemon.species, vec2str(move1_pred), {vec2str(move1)}))
+            L = gamma * (delphox.loss(move1_pred, move1.to(device=DEVICE)))
+            print("{:>8} -> {:>8}: {:>30} {:<30}".format(turn.active_pokemon.species, turn.opponent_active_pokemon.species, vec2str(move1_pred), f"({vec2str(move1)})"))
             print(f"loss: {L.item()}")
             L.backward()
             optimizer.step()
@@ -173,10 +165,11 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5, swi
             optimizer.zero_grad()
             x2 = make_x(turn, opponent=True, last_guest_correct=last_guess_correct2)
             mask = get_mask(turn, opponent=True)
-            move2_pred = delphox(x2)
+            move2_pred, hidden2_t_next = delphox(x2.to(torch.float32), hidden2_t)
+            move2_pred = move2_pred.squeeze(0)
             move2_pred = apply_mask(move2_pred, mask)
-            L = gamma * (delphox.loss(move2_pred, move1))
-            print("{:<10}->{:<10}: {:<10} ({:<10})".format(turn.opponent_active_pokemon.species, turn.active_pokemon.species, vec2str(move2_pred), {vec2str(move2)}))
+            L = gamma * (delphox.loss(move2_pred, move2.to(device=DEVICE)))
+            print("{:>8} -> {:>8}: {:>30} {:<30}".format(turn.opponent_active_pokemon.species, turn.active_pokemon.species, vec2str(move2_pred), f"({vec2str(move2)})"))
             print(f"loss: {L.item()}")
             L.backward()
             optimizer.step()
@@ -187,21 +180,11 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5, swi
                 num_wrong += 1
                 last_guess_correct2 = False
             
-            # hidden1_t = (hidden1_t_next[0].detach(), hidden1_t_next[1].detach())
-            # hidden2_t = (hidden2_t_next[0].detach(), hidden2_t_next[1].detach())
+            hidden1_t = (hidden1_t_next[0].detach().to(torch.float32), hidden1_t_next[1].detach().to(torch.float32))
+            hidden2_t = (hidden2_t_next[0].detach().to(torch.float32), hidden2_t_next[1].detach().to(torch.float32))
 
         total_wrong += num_wrong
         total_correct += num_correct
-
-        # final_state_dict = delphox.state_dict()
-
-        # num_sets = 0
-        # for (key1, param1), (key2, param2) in zip(initial_state_dict.items(), final_state_dict.items()):
-        #     num_sets += 1
-        #     if not torch.equal(param1, param2):
-        #         print(f'Parameter {key1} has changed')
-
-        # print('total sets of parameters: ', num_sets)
 
         print(f"###\n"
               f"battle accuracy:\t{num_correct / (num_correct + num_wrong + 1e-10)}\n"
@@ -254,7 +237,7 @@ def evaluate(delphox, data):
         for i, (turn, move1, move2) in enumerate(zip(turns, moves1, moves2)):
             x1 = make_x(turn, opponent=False)
             move1_pred, hidden1_t_next = delphox(x1, hidden1_t)
-            move1_pred = move1_pred#.squeeze(0)
+            move1_pred = move1_pred.squeeze(0)
             mask = get_mask(turn, opponent=False)
             move1_pred = torch.mul(move1_pred, mask)
             move1_pred = torch.where(move1_pred == 0, torch.tensor(-1e10), move1_pred)
@@ -267,7 +250,7 @@ def evaluate(delphox, data):
 
             x2 = make_x(turn, opponent=True)
             move2_pred, hidden2_t_next = delphox(x2, hidden2_t)
-            move2_pred = move2_pred#.squeeze(0)
+            move2_pred = move2_pred.squeeze(0)
             mask = get_mask(turn, opponent=True)
             move2_pred = torch.mul(move2_pred, mask)
             move2_pred = torch.where(move2_pred == 0, torch.tensor(-1e10), move2_pred)

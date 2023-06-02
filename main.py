@@ -96,25 +96,27 @@ def main():
     - heavier penalty for guessing switching incorrectly
     - make delphox deeper
     """
-    delphox_path = "delphox_test_smallish.pth"
+    delphox_path = "delphox_LSTM_long.pth"
     json_files = [filepath for filepath in Path("cache/replays").iterdir() if filepath.name.endswith('.json')]
     train_files, test_files = json_files[:-10], json_files[-10:]
     reps = 1000
     delphox = Delphox(3029).to(device=DEVICE)
+    delphox.train()
     for _ in range(reps):
         random.shuffle(train_files)
         #print(len(train_files))
-        # train_data = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(train_files))
+        #train_data = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(train_files))
         # train_data = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(train_files[:100]))  # MEDIUM
         train_data = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(train_files[:30]))  # SMALL
         # train_data = [make_data(f) for f in tqdm(json_files[:1])]  # SINGLE-PROCESS DEBUGGING
-        #train_data = [make_data("cache/replays/gen8randombattle-1875194808.json")]
-        # if Path(delphox_path).exists():
-        #     delphox.load_state_dict(torch.load(delphox_path))
-        #     delphox.eval()
-        train(delphox, train_data, lr=0.1, discount=0, weight_decay=0.001)
-        #torch.save(delphox.state_dict(), delphox_path)
+        #train_data = [make_data("cache/replays/gen8randombattle-1872969016.json")]
+        if Path(delphox_path).exists():
+            delphox.load_state_dict(torch.load(delphox_path))
+            #delphox.eval()
+        train(delphox, train_data, lr=0.1, discount=0, weight_decay=0)
+        torch.save(delphox.state_dict(), delphox_path)
     test_data = Parallel(n_jobs=4)(delayed(make_data)(filepath) for filepath in tqdm(test_files))
+    delphox.eval()
     evaluate(delphox, test_data)
 
 
