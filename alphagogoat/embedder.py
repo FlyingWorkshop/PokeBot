@@ -7,6 +7,7 @@ import copy
 import json
 import logging
 import re
+import random
 
 import torch
 from poke_env.environment.battle import Battle
@@ -256,7 +257,10 @@ class Embedder:
         # make move embeddings
         embeddings = []
         moves = POKEDEX[pokemon.species]['moves']
-        for name, prob in sorted(moves.items()):
+        # for name, prob in sorted(moves.items()):
+        items_list = list(moves.items())
+        
+        for name, prob in random.sample(items_list, len(items_list)):
             id = re.sub(r"\s|-|'", "", name.lower())
             embedding = self._embed_move(id, prob)
             embeddings.append(embedding)
@@ -350,25 +354,25 @@ class Embedder:
         return embedding
 
 
-# def get_team_histories(battles: list[Battle]):
-#     """
-#     >>> battles = process_battle("../cache/replays/gen8randombattle-1123651831.json")
-#     >>> get_team_histories(battles)
-#     """
-#     team1_history, team2_history = [], []
-#     team1, team2 = {}, {}
-#     for battle in battles:
-#         active = battle.active_pokemon
-#         opponent_active = battle.opponent_active_pokemon
-#         team1[active.species] = active
-#         team2[opponent_active.species] = opponent_active
-#         if active.species not in team1:
-#             team1_history.append(copy.deepcopy(team1))
-#         else:
-#             team1_history.append(team1)
-#         if opponent_active.species not in team2:
-#             team2_history.append(copy.deepcopy(team2))
-#         else:
-#             team2_history.append(team2)
-#     return team1_history, team2_history
+def get_team_histories(battles: list[Battle]):
+    """
+    >>> battles = process_battle("../cache/replays/gen8randombattle-1123651831.json")
+    >>> get_team_histories(battles)
+    """
+    team1_history, team2_history = [], []
+    team1, team2 = {}, {}
+    for battle in battles:
+        active = battle.active_pokemon
+        opponent_active = battle.opponent_active_pokemon
+        team1[active.species] = active
+        team2[opponent_active.species] = opponent_active
+        if active.species not in team1:
+            team1_history.append(copy.deepcopy(team1))
+        else:
+            team1_history.append(team1)
+        if opponent_active.species not in team2:
+            team2_history.append(copy.deepcopy(team2))
+        else:
+            team2_history.append(team2)
+    return team1_history, team2_history
 

@@ -3,31 +3,52 @@ import torch.nn.functional as F
 from poke_env.environment.battle import Battle
 from poke_env.environment.pokemon import Pokemon
 
-from .constants import *
-from .embedder import Embedder
-from .utils import move_to_pred_vec_index, vec2str
+from alphagogoat.constants import *
+from alphagogoat.embedder import Embedder
+from alphagogoat.utils import move_to_pred_vec_index, vec2str
 
 import math
+import random
 
 EMBEDDER = Embedder()
 POSSIBLE_ZOROARK_MOVES = sorted(POKEDEX['zoroark']['moves'].keys())
 
 class Delphox(nn.Module):
     LSTM_OUTPUT_SIZE = len(MoveEnum) + 1
-    NUM_HIDDEN_LAYERS = 10
+    NUM_HIDDEN_LAYERS = 20
 
     def __init__(self, input_size, hidden_layers=NUM_HIDDEN_LAYERS):
         # TODO: make Delphox a RNN or LSTM; perhaps use meta-learning
         super().__init__()
 
+        # self.dnn = nn.Sequential(
+        #     nn.Linear(input_size, input_size//2),
+        #     nn.ReLU(),
+        #     nn.Linear(input_size//2, input_size//2),
+        #     nn.ReLU(),
+        #     nn.Linear(input_size//2, input_size//2),
+        #     nn.ReLU(),
+        #     nn.Linear(input_size//2, len(MoveEnum) + 1),
+        # )
         # TODO: maybe add an encoder?
+        #self.mha = nn.MultiheadAttention(input_size, 3)
         self.rnn = nn.LSTM(input_size, Delphox.LSTM_OUTPUT_SIZE, hidden_layers)
-        # self.loss = nn.L1Loss(reduction='sum')
+
+        for name, param in self.rnn.named_parameters():
+            if 'weight' in name:
+                nn.init.xavier_uniform_(param)
+            elif 'bias' in name:
+                nn.init.constant_(param, 0.0)
+        #self.loss = nn.L1Loss(reduction='sum')
         self.loss = nn.CrossEntropyLoss()
+        #self.loss = nn.L1Loss(reduction='sum')
 
     def forward(self, x, hidden):
         move, hidden = self.rnn(x, hidden)
         return move, hidden
+
+    # def forward(self, x):
+    #     return self.dnn(x)
 
 def embed_damage(team1: list[Pokemon], team2: list[Pokemon]):
     damage = -torch.ones((NUM_POKEMON_PER_TEAM, NUM_POKEMON_PER_TEAM, MAX_MOVES))
@@ -79,9 +100,9 @@ def make_x(turn: Battle, opponent: bool, last_guest_correct: bool):
         team1 = make_opponent_team(turn)
         team2 = make_team(turn)
 
-    pokemon.append(EMBEDDER.embed_pokemon(mon1))
-    moves.append(get_moveset(mon1))
-    for t1_pokemon in team1:
+    # pokemon.append(EMBEDDER.embed_pokemon(mon1))
+    # moves.append(get_moveset(mon1))
+    for t1_pokemon in random.sample(team1, len(team1)):
         pokemon.append(EMBEDDER.embed_pokemon(t1_pokemon).to(device=DEVICE))
         # print(pokemon[0].shape)
         moveset = get_moveset(t1_pokemon)
@@ -90,7 +111,7 @@ def make_x(turn: Battle, opponent: bool, last_guest_correct: bool):
 
     pokemon.append(EMBEDDER.embed_pokemon(mon2))
     moves.append(get_moveset(mon2))
-    for t2_pokemon in team2:
+    for t2_pokemon in random.sample(team2, len(team2)):
         pokemon.append(EMBEDDER.embed_pokemon(t2_pokemon).to(device=DEVICE))
         moveset = get_moveset(t2_pokemon)
         moves.append(moveset)
@@ -141,26 +162,30 @@ def print_turn(turn: Battle, action1, action2):
     for key in turn.opponent_team:
         print(f"\t\t{turn.get_pokemon(key)}")
 
-def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5, switch_cost=100, type_cost=50):
+def train(delphox: Delphox, data, lr=0.01, discount=0.5, weight_decay=0.001, switch_cost=100, type_cost=50):
     assert 0 <= discount <= 1
     optimizer = torch.optim.Adam(delphox.parameters(), lr=lr, weight_decay=weight_decay)
     torch.autograd.set_detect_anomaly(True)
     total_wrong = 0
     total_correct = 0
     for turns, moves1, moves2 in data:
+        # import copy
+        # initial_state_dict = copy.deepcopy(delphox.state_dict())
         hidden1_0 = (torch.zeros(Delphox.NUM_HIDDEN_LAYERS, Delphox.LSTM_OUTPUT_SIZE), torch.zeros(Delphox.NUM_HIDDEN_LAYERS, Delphox.LSTM_OUTPUT_SIZE))
         hidden2_0 = (torch.zeros(Delphox.NUM_HIDDEN_LAYERS, Delphox.LSTM_OUTPUT_SIZE), torch.zeros(Delphox.NUM_HIDDEN_LAYERS, Delphox.LSTM_OUTPUT_SIZE))
         hidden1_t = hidden1_0
         hidden2_t = hidden2_0
         last_guess_correct1 = True
         last_guess_correct2 = True
+        prev_guess1 = None
+        prev_guess2 = None
+        penalty1 = 2
+        penalty2 = 2
         print(f"### https://replay.pokemonshowdown.com/{turns[0].battle_tag} ###")
         num_correct = 0
         num_wrong = 0
         for i, (turn, move1, move2) in enumerate(zip(turns, moves1, moves2)):
             gamma = 1 - discount / math.exp(i)
-
-            # print_turn(turn, vec2str(move1), vec2str(move2))
 
             x1 = make_x(turn, opponent=False, last_guest_correct=last_guess_correct2)
             move1_pred, hidden1_t_next = delphox(x1, hidden1_t)
@@ -168,7 +193,7 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5, swi
             mask = get_mask(turn, opponent=False)
             move1_pred = torch.mul(move1_pred, mask)
             move1_pred = torch.where(move1_pred == 0, torch.tensor(-1e10), move1_pred)
-            move1_pred = F.softmax(move1_pred, dim=0)
+            move1_pred = F.softmax(move1_pred, dim = 0)
             optimizer.zero_grad()
 
             type_loss = 0
@@ -180,12 +205,26 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5, swi
                 type_loss = type_cost
             if move1_name != 'switch' and move1_pred_name != 'switch':
                 type_loss = int(Move(move1_pred_name, gen=8).type != Move(move1_name, gen=8).type) * type_cost
+            
+            if move1_pred_name == prev_guess1 and move1_pred_name != move1_name:
+                L = penalty1
+                penalty1 += 100
+            else:
+                L = 0
+                penalty1 = 2
+            
+            prev_guess1 = move1_pred_name
 
-            L = gamma * (delphox.loss(move1_pred, move1) + type_loss + switch_loss)
+            L += gamma * (delphox.loss(move1_pred, move1)) #+ type_loss + switch_loss)
+
+            # l1_norm = torch.norm(torch.cat([x.view(-1) for x in delphox.parameters()]), 1)
+
+            # L += 0.0001 * l1_norm
 
             print(f"{turn.active_pokemon.species} uses {move1_pred_name} ({move1_name}) against {turn.opponent_active_pokemon.species}")
             print(f"loss: {L.item()}")
             L.backward(retain_graph=True)
+            torch.nn.utils.clip_grad_value_(delphox.parameters(), clip_value=1)
             optimizer.step()
             if move1_pred_name == move1_name:
                 num_correct += 1
@@ -194,8 +233,14 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5, swi
                 num_wrong += 1
                 last_guess_correct1 = False
 
+
+            # if random.random() < eps:
             x2 = make_x(turn, opponent=True, last_guest_correct=last_guess_correct2)
             move2_pred, hidden2_t_next = delphox(x2, hidden2_t)
+            # else:
+            #     move2_pred = torch.rand(len(MoveEnum) + 1)
+            #     hidden2_t_next = hidden2_t
+            #move2_pred = delphox(x2)
             move2_pred = move2_pred.squeeze(0)
             mask = get_mask(turn, opponent=True)
             move2_pred = torch.mul(move2_pred, mask)
@@ -213,11 +258,25 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5, swi
             if move2_name != 'switch' and move2_pred_name != 'switch':
                 type_loss = int(Move(move2_pred_name, gen=8).type != Move(move2_name, gen=8).type) * type_cost
 
-            L = gamma * (delphox.loss(move2_pred, move2) + type_loss + switch_loss)
+            if move2_pred_name == prev_guess2 and move2_pred_name != move2_name:
+                L = penalty2
+                penalty2 += 100
+            else:
+                L = 0
+                penalty2 = 2
+            
+            prev_guess2 = move2_pred_name
+
+            L += gamma * (delphox.loss(move2_pred, move2)) #+ type_loss + switch_loss)
+
+            # l1_norm = torch.norm(torch.cat([x.view(-1) for x in delphox.parameters()]), 1)
+
+            # L += 0.0001 * l1_norm
 
             print(f"{turn.opponent_active_pokemon.species} uses {move2_pred_name} ({move2_name}) against {turn.active_pokemon.species}")
             print(f"loss: {L.item()}")
-            L.backward(retain_graph=True)
+            L.backward()
+            torch.nn.utils.clip_grad_value_(delphox.parameters(), clip_value=1)
             optimizer.step()
             if move2_pred_name == move2_name:
                 num_correct += 1
@@ -225,9 +284,23 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5, swi
             else:
                 num_wrong += 1
                 last_guess_correct2 = False
+            
+            hidden1_t = (hidden1_t_next[0].detach(), hidden1_t_next[1].detach())
+            hidden2_t = (hidden2_t_next[0].detach(), hidden2_t_next[1].detach())
 
         total_wrong += num_wrong
         total_correct += num_correct
+
+        # final_state_dict = delphox.state_dict()
+
+        # num_sets = 0
+        # for (key1, param1), (key2, param2) in zip(initial_state_dict.items(), final_state_dict.items()):
+        #     num_sets += 1
+        #     if not torch.equal(param1, param2):
+        #         print(f'Parameter {key1} has changed')
+
+        # print('total sets of parameters: ', num_sets)
+
         print(f"###\n"
               f"battle accuracy:\t{num_correct / (num_correct + num_wrong + 1e-10)}\n"
               f"overall accuracy:\t{total_correct / (total_correct + total_wrong + 1e-10)}\n"
@@ -279,7 +352,7 @@ def evaluate(delphox, data):
         for i, (turn, move1, move2) in enumerate(zip(turns, moves1, moves2)):
             x1 = make_x(turn, opponent=False)
             move1_pred, hidden1_t_next = delphox(x1, hidden1_t)
-            move1_pred = move1_pred.squeeze(0)
+            move1_pred = move1_pred#.squeeze(0)
             mask = get_mask(turn, opponent=False)
             move1_pred = torch.mul(move1_pred, mask)
             move1_pred = torch.where(move1_pred == 0, torch.tensor(-1e10), move1_pred)
@@ -292,7 +365,7 @@ def evaluate(delphox, data):
 
             x2 = make_x(turn, opponent=True)
             move2_pred, hidden2_t_next = delphox(x2, hidden2_t)
-            move2_pred = move2_pred.squeeze(0)
+            move2_pred = move2_pred#.squeeze(0)
             mask = get_mask(turn, opponent=True)
             move2_pred = torch.mul(move2_pred, mask)
             move2_pred = torch.where(move2_pred == 0, torch.tensor(-1e10), move2_pred)
@@ -302,6 +375,9 @@ def evaluate(delphox, data):
                 num_correct += 1
             else:
                 num_wrong += 1
+            
+            hidden1_t = (hidden1_t_next[0].detach(), hidden1_t_next[1].detach())
+            hidden2_t = (hidden2_t_next[0].detach(), hidden2_t_next[1].detach())
 
         total_wrong += num_wrong
         total_correct += num_correct

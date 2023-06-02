@@ -22,6 +22,7 @@ def vec2str(pred: torch.Tensor):
         return MoveEnum(i + 1).name
 
 
+
 def process_line(line: str):
     if "switch" in line:
         pokemon_switch = re.search(r"p[12]a: (.*?)\|", line).groups(0)[0]
