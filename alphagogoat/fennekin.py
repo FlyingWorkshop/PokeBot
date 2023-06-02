@@ -5,9 +5,9 @@ from poke_env.environment.pokemon import Pokemon
 from poke_env.environment.move import Move
 
 
-from .pokedex import POKEDEX
-from .catalogs import MoveEnum
-from .constants import MAX_MOVES, NUM_POKEMON_PER_TEAM
+from alphagogoat.pokedex import POKEDEX
+from alphagogoat.catalogs import MoveEnum
+from alphagogoat.constants import MAX_MOVES, NUM_POKEMON_PER_TEAM
 
 
 def get_possible_moves(pokemon: Pokemon):
@@ -19,11 +19,15 @@ class Fennekin(nn.Module):
 
         # TODO: add multihead attention
         input_size = NUM_POKEMON_PER_TEAM * NUM_POKEMON_PER_TEAM * MAX_MOVES
-        hidden_size = 10
-        num_classes = MoveEnum
+        hidden_size = 4
+        num_classes = MAX_MOVES
         self.model = nn.Sequential(
             nn.Linear(input_size, hidden_size),
-            nn.ReLU(),
+            nn.Sigmoid(),
+            nn.Linear(hidden_size, hidden_size),
+            nn.Sigmoid(),
+            nn.Linear(hidden_size, hidden_size),
+            nn.Sigmoid(),
             nn.Linear(hidden_size, num_classes),
             nn.Softmax(dim=0)
         )
