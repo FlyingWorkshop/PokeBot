@@ -117,8 +117,13 @@ def print_turn(turn: Battle, action1, action2):
 
 def apply_mask(pred, mask):
     pred = torch.mul(pred, mask)
-#    pred = torch.where(pred == 0, torch.tensor(-1e10), pred)
-#    pred = F.softmax(pred, dim=0)
+
+    if torch.count_nonzero(pred) == 0:
+        pred += mask
+
+    pred = torch.where(pred == 0, torch.tensor(-1e10), pred)
+    pred = F.softmax(pred, dim=0)
+
     return pred
 
 def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5, switch_cost=100, type_cost=50):
