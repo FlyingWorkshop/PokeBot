@@ -231,8 +231,8 @@ def evaluate(delphox, data):
     total_correct = 0
     total_wrong = 0
     for turns, moves1, moves2 in data:
-        hidden1_0 = (torch.randn(2, Delphox.LSTM_OUTPUT_SIZE), torch.randn(2, Delphox.LSTM_OUTPUT_SIZE))
-        hidden2_0 = (torch.randn(2, Delphox.LSTM_OUTPUT_SIZE), torch.randn(2, Delphox.LSTM_OUTPUT_SIZE))
+        hidden1_0 = (torch.randn(20, Delphox.LSTM_OUTPUT_SIZE).to(device=DEVICE), torch.randn(20, Delphox.LSTM_OUTPUT_SIZE).to(device=DEVICE))
+        hidden2_0 = (torch.randn(20, Delphox.LSTM_OUTPUT_SIZE).to(device=DEVICE), torch.randn(20, Delphox.LSTM_OUTPUT_SIZE).to(device=DEVICE))
 
         hidden1_t = hidden1_0
         hidden2_t = hidden2_0
@@ -240,10 +240,13 @@ def evaluate(delphox, data):
         num_correct = 0
         num_wrong = 0
         for i, (turn, move1, move2) in enumerate(zip(turns, moves1, moves2)):
-            x1 = make_x(turn, opponent=False)
-            move1_pred, hidden1_t_next = delphox(x1, hidden1_t)
-            move1_pred = move1_pred.squeeze(0)
-            mask = get_mask(turn, opponent=False)
+            move1 = move1.to(device=DEVICE)
+            move2 = move2.to(device=DEVICE)
+            x1 = make_x(turn, opponent=False, last_guest_correct = False)
+            x1 = x1.to(device=DEVICE).to(torch.float32)
+            move1_pred, hidden1_t_next = delphox(x1.to(torch.float32), hidden1_t)
+            move1_pred = move1_pred.to(device=DEVICE).squeeze(0)
+            mask = get_mask(turn, opponent=False).to(device=DEVICE)
             move1_pred = torch.mul(move1_pred, mask)
             move1_pred = torch.where(move1_pred == 0, torch.tensor(-1e10), move1_pred)
             move1_pred = F.softmax(move1_pred, dim=0)
@@ -253,10 +256,10 @@ def evaluate(delphox, data):
             else:
                 num_wrong += 1
 
-            x2 = make_x(turn, opponent=True)
-            move2_pred, hidden2_t_next = delphox(x2, hidden2_t)
-            move2_pred = move2_pred.squeeze(0)
-            mask = get_mask(turn, opponent=True)
+            x2 = make_x(turn, opponent=True, last_guest_correct = False).to(torch.float32)
+            move2_pred, hidden2_t_next = delphox(x2.to(torch.float32), hidden2_t)
+            move2_pred = move2_pred.to(device=DEVICE).squeeze(0)
+            mask = get_mask(turn, opponent=True).to(device=DEVICE)
             move2_pred = torch.mul(move2_pred, mask)
             move2_pred = torch.where(move2_pred == 0, torch.tensor(-1e10), move2_pred)
             move2_pred = F.softmax(move2_pred, dim=0)
