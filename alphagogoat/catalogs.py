@@ -1,11 +1,11 @@
 import re
-# from pokedex import POKEDEX
 from enum import IntEnum
 
 from poke_env.environment.move import Move
 from poke_env.environment.side_condition import SideCondition
 
 from .pokedex import POKEDEX
+# from pokedex import POKEDEX
 
 
 def _make_item_enum():
@@ -13,7 +13,7 @@ def _make_item_enum():
     for pokemon, data in POKEDEX.items():
         item_catalog.update(data['items'])
 
-    item_catalog = sorted(list(item_catalog))
+    item_catalog = sorted([re.sub(r"[\s-]", "", s.lower()) for s in list(item_catalog)])
     Item = IntEnum('Item', item_catalog)
     return Item
 
@@ -69,7 +69,7 @@ def _make_ability():
     for pokemon, data in POKEDEX.items():
         ability_catalog.update(data['abilities'])
 
-    ability_catalog = sorted(list(ability_catalog))
+    ability_catalog = sorted([re.sub(r"\s|-|'|\(|\)", "", s.lower()) for s in list(ability_catalog)])
     Ability = IntEnum('Ability', ability_catalog)
     return Ability
 

@@ -20,13 +20,9 @@ RED = '\033[91m'
 RESET = '\033[0m'
 
 
-class Delphox(nn.Module):
-    LSTM_OUTPUT_SIZE = MAX_MOVES + NUM_POKEMON_PER_TEAM - 1
-    NUM_HIDDEN_LAYERS = 20
-
-    def __init__(self, input_size, hidden_layers=NUM_HIDDEN_LAYERS):
+class Victini(nn.Module):
+    def __init__(self, input_size, hidden_size=300):
         super().__init__()
-        hidden_size = 5000
         self.model = nn.Sequential(
             nn.Linear(input_size, hidden_size),
             nn.ReLU(),
@@ -57,11 +53,15 @@ def make_x(turn: Battle, opponent_pov: bool, last_guest_correct: bool, last_move
         team2 = get_opponent_team(turn)
         pokemon1 = [EMBEDDER.embed_pokemon(mon, mon is turn.active_pokemon) for mon in team1]
         pokemon2 = [EMBEDDER.embed_pokemon(mon, mon is turn.opponent_active_pokemon) for mon in team2]
-        moves1 = [EMBEDDER.embed_moves_from_pokemon(mon)]
+        moves1 = [EMBEDDER.embed_moves_from_pokemon(mon) for mon in team1]
+        moves2 = [EMBEDDER.embed_moves_from_pokemon(mon) for mon in team2]
     else:
-        team1 = embed_opponent_team(turn)
-        team2 = embed_team(turn)
-        moves1 = em
+        team1 = get_opponent_team(turn)
+        team2 = get_team(turn)
+    pokemon1 = [EMBEDDER.embed_pokemon(mon, mon is turn.active_pokemon) for mon in team1]
+    pokemon2 = [EMBEDDER.embed_pokemon(mon, mon is turn.opponent_active_pokemon) for mon in team2]
+    moves1 = [EMBEDDER.embed_moves_from_pokemon(mon) for mon in team1]
+    moves2 = [EMBEDDER.embed_moves_from_pokemon(mon) for mon in team2]
 
     num_unknown_pokemon = 2 * NUM_POKEMON_PER_TEAM - len(team1) - len(team2)
     pokemon = F.pad(torch.hstack(team1 + team2), (0, num_unknown_pokemon * POKEMON_EMBED_SIZE), mode='constant', value=-1)
@@ -87,9 +87,9 @@ def apply_mask(pred, mask):
     return pred
 
 
-def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5, switch_cost=100, type_cost=50):
+def train(victini: Victini, data, lr=0.001, discount=0.5, weight_decay=1e-5, switch_cost=100, type_cost=50):
     assert 0 <= discount <= 1
-    optimizer = torch.optim.Adam(delphox.parameters(), lr=lr, weight_decay=weight_decay)
+    optimizer = torch.optim.Adam(victini.parameters(), lr=lr, weight_decay=weight_decay)
     total_wrong = 0
     total_correct = 0
     for turns, moves1, moves2 in data:
@@ -105,9 +105,9 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5, swi
             optimizer.zero_grad()
             x1 = make_x(turn, opponent_pov=False, last_guest_correct=last_guess_correct1, last_move=last_move1)
             mask = get_mask(turn, opponent_pov=False)
-            move1_pred = delphox(x1)
+            move1_pred = victini(x1)
             move1_pred = apply_mask(move1_pred, mask)
-            L = gamma * (delphox.loss(move1_pred, move1))
+            L = gamma * (victini.loss(move1_pred, move1))
             if vec2str(move1) == vec2str(move1_pred):
                 num_correct += 1
                 last_guess_correct1 = True
@@ -124,9 +124,9 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5, swi
             optimizer.zero_grad()
             x2 = make_x(turn, opponent_pov=True, last_guest_correct=last_guess_correct2, last_move=last_move2)
             mask = get_mask(turn, opponent_pov=True)
-            move2_pred = delphox(x2)
+            move2_pred = victini(x2)
             move2_pred = apply_mask(move2_pred, mask)
-            L = gamma * (delphox.loss(move2_pred, move2))
+            L = gamma * (victini.loss(move2_pred, move2))
             if vec2str(move2) == vec2str(move2_pred):
                 num_correct += 1
                 last_guess_correct2 = True
