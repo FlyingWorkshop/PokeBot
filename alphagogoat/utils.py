@@ -34,8 +34,7 @@ def vec2str(vec: torch.Tensor, pokemon: Pokemon):
     else:
         moves = sorted(POKEDEX[pokemon.species]["moves"])
         if i > len(moves):
-            print("whoops!")
-        print(i, vec, pokemon, moves)
+            print(i, vec, pokemon, moves)
         return moves[i]
 
 
@@ -99,11 +98,18 @@ def make_delphox_data(filepath):
                 break
 
     # TODO: change later maybe?
+    turns = []
     vectors1 = []
     vectors2 = []
     for turn, a1, a2 in zip(battles, actions1, actions2):
         # TODO: handle ditto
         if turn.active_pokemon.species == 'ditto' or turn.opponent_active_pokemon.species == 'ditto':
+            continue
+
+        # skip dynamx TODO: handle dynamax
+        if a1[0] == 'move' and a1[1] not in POKEDEX[turn.active_pokemon.species]["moves"]:
+            continue
+        if a2[0] == 'move' and a2[1] not in POKEDEX[turn.opponent_active_pokemon.species]["moves"]:
             continue
 
         v1 = torch.zeros(MAX_MOVES + 1)
@@ -114,8 +120,8 @@ def make_delphox_data(filepath):
         else:
             moves = sorted(POKEDEX[turn.active_pokemon.species]["moves"])
             # TODO: handle dynamax moves and zoroark
-            if a1[1] not in moves:
-                continue
+            # if a1[1] not in moves:
+            #     continue
             v1[moves.index(a1[1])] = 1
             vectors1.append(v1)
 
@@ -125,13 +131,24 @@ def make_delphox_data(filepath):
             vectors2.append(v2)
         else:
             moves = sorted(POKEDEX[turn.opponent_active_pokemon.species]["moves"])
-            if a2[1] not in moves:
-                continue
+            # if a2[1] not in moves:
+            #     continue
             v2[moves.index(a2[1])] = 1
-            _ = vec2str(v2, turn.opponent_active_pokemon)
             vectors2.append(v2)
 
-    return battles, vectors1, vectors2
+        turns.append(turn)
+
+    # print(f"https://replay.pokemonshowdown.com/{turn.battle_tag}")
+    # for turn, a1, a2, v1, v2 in zip(turns, actions1, actions2, vectors1, vectors2):
+    #     print(turn.turn)
+    #     print("\t", turn.team)
+    #     print("\t", turn.opponent_team)
+    #     print(f"\t{a1=}")
+    #     print(f"\t{a2=}")
+    #     vec2str(v1, turn.active_pokemon)
+    #     vec2str(v2, turn.opponent_active_pokemon)
+
+    return turns, vectors1, vectors2
 
 
 def make_victini_data(filepath):

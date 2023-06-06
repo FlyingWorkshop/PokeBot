@@ -106,18 +106,16 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5):
     for turns, vectors1, vectors2 in data:
         for i, (turn, v1, v2) in enumerate(zip(turns, vectors1, vectors2)):
             gamma = 1 - discount / math.exp(i)
-            print(turn.opponent_team)
-            print(vec2str(v2, turn.opponent_active_pokemon))
             new_data.append((turn, v1, v2, gamma))
 
-    # random.shuffle(new_data)  # TODO: uncomment
+    random.shuffle(new_data)
 
     for turn, move1, move2, gamma in new_data:
-        print(turn.battle_tag)
         optimizer.zero_grad()
         x1 = make_x(turn, opponent_pov=False)
         mask1 = get_mask(turn.active_pokemon)
         move1_pred = delphox(x1, mask1)
+        print(move1_pred)
         L = gamma * (delphox.loss(move1_pred, move1))
         if move1.argmax() == move1_pred.argmax():
             total_correct += 1
@@ -130,11 +128,11 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5):
         print(f"loss: {L.item()}")
         L.backward()
 
-
         optimizer.zero_grad()
         x2 = make_x(turn, opponent_pov=True)
         mask2 = get_mask(turn.opponent_active_pokemon)
         move2_pred = delphox(x2, mask2)
+        print(move2_pred)
         L = gamma * (delphox.loss(move2_pred, move2))
         if move2.argmax() == move2_pred.argmax():
             total_correct += 1
