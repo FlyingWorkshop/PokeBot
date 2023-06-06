@@ -2,12 +2,12 @@ import json
 import re
 import time
 from pathlib import Path
-from tqdm.auto import tqdm
-from joblib import Parallel, delayed
 
 import requests
+from joblib import Parallel, delayed
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from tqdm.auto import tqdm
 
 
 def main():

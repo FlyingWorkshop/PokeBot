@@ -1,18 +1,19 @@
+import copy
 import json
 import logging
-import copy
 import re
 
+import torch
 from poke_env.environment.battle import Battle
-from poke_env.environment.pokemon import Pokemon
-from poke_env.environment.status import Status
-from poke_env.environment.side_condition import SideCondition
 from poke_env.environment.effect import Effect
 from poke_env.environment.move import Move
-import torch
+from poke_env.environment.pokemon import Pokemon
+from poke_env.environment.side_condition import SideCondition
+from poke_env.environment.status import Status
 
-from .pokedex import POKEDEX
 from .catalogs import Item, VolatileStatus, SIDE_COND_MAP, Ability
+from .pokedex import POKEDEX
+
 # from pokedex import POKEDEX
 # from catalogs import Item, VolatileStatus, SIDE_COND_MAP, Ability, MoveEnum
 
