@@ -25,11 +25,12 @@ def main():
     # train_data = [make_victini_data(f) for f in tqdm(json_files[:1])]  # SINGLE-PROCESS DEBUGGING
     if Path(victini_path).exists():
         victini.load_state_dict(torch.load(victini_path))
-    # for _ in range(reps):
-    #     # random.shuffle(train_files)
-    #     # train_data = Parallel(n_jobs=4)(delayed(make_victini_data)(filepath) for filepath in tqdm(train_files[:100]))  # MEDIUM
-    #     train(victini, train_data, lr=0.0001, weight_decay=0, discount=0)
-    #     torch.save(victini.state_dict(), victini_path)
+    for _ in range(reps):
+        train_data = Parallel(n_jobs=4)(delayed(make_victini_data)(filepath) for filepath in tqdm(train_files[:100]))  # MEDIUM
+        # random.shuffle(train_files)
+        # train_data = Parallel(n_jobs=4)(delayed(make_victini_data)(filepath) for filepath in tqdm(train_files[:100]))  # MEDIUM
+        train(victini, train_data, lr=0.0001, weight_decay=0, discount=0)
+        torch.save(victini.state_dict(), victini_path)
     test_data = Parallel(n_jobs=4)(delayed(make_victini_data)(filepath) for filepath in tqdm(test_files))
     evaluate(victini, test_data)
 
