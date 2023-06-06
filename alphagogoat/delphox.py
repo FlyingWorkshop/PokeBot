@@ -1,195 +1,153 @@
+import random
+import itertools
+import statistics
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from poke_env.environment.pokemon import Pokemon
-from poke_env.environment.battle import Battle
-from tqdm.auto import tqdm
+from poke_env.environment import Battle, Pokemon, Move
+
+from .constants import POKEDEX, NUM_POKEMON_PER_TEAM, MAX_MOVES, MoveEnum
+from .embedder import Embedder
+from .utils import vec2str
+from .calculator import calc_damage
 
 import math
-
-from .embedder import Embedder
-from .constants import *
+import random
 
 EMBEDDER = Embedder()
+POSSIBLE_ZOROARK_MOVES = sorted(POKEDEX['zoroark']['moves'].keys())
+GREEN = '\033[92m'
+RED = '\033[91m'
+RESET = '\033[0m'
+
 
 class Delphox(nn.Module):
-    LSTM_OUTPUT_SIZE = len(MoveEnum) + 1
-
-    def __init__(self, input_size, hidden_layers=2):
-        # TODO: make Delphox a RNN or LSTM; perhaps use meta-learning
+    def __init__(self, input_size, hidden_size=30):
         super().__init__()
+        self.l1 = nn.Linear(input_size, hidden_size, bias=True)
+        self.log_sigmoid1 = nn.LogSigmoid()
+        self.l2 = nn.Linear(hidden_size, hidden_size, bias=True)
+        self.log_sigmoid2 = nn.LogSigmoid()
+        self.l3 = nn.Linear(hidden_size, MAX_MOVES + 1, bias=False)
+        self.softmax = nn.Softmax(dim=0)
 
-        # TODO: maybe add an encoder?
-        self.rnn = nn.LSTM(input_size, Delphox.LSTM_OUTPUT_SIZE, hidden_layers)
-        #self.softmax = nn.Softmax(dim=0)
-        self.loss = nn.L1Loss(reduction='sum')
+        self.loss = nn.CrossEntropyLoss()
 
-    def forward(self, x, hidden):
-        move, hidden = self.rnn(x, hidden)
-        return move, hidden
+    def forward(self, x, mask):
+        y = self.l1(x.squeeze(0))
+        y = self.log_sigmoid1(y)
+        y = self.l2(y)
+        y = self.log_sigmoid2(y)
+        y = self.l3(y)
+        y = torch.where(mask, torch.tensor(-1e10), y)
+        y = self.softmax(y)
+        return y
 
-def make_x(turn: Battle, team1: dict[str: Pokemon], team2: dict[str: Pokemon]):
-    pokemon = []
-    moves = []
+def make_damages(team1: list[Pokemon], team2: list[Pokemon], turn: Battle):
+    team1 = team1 + [None] * (NUM_POKEMON_PER_TEAM - len(team1))
+    team2 = team2 + [None] * (NUM_POKEMON_PER_TEAM - len(team2))
+    damages = []
+    unknown_damage = torch.full((MAX_MOVES,), fill_value=-1)
+    for mon1, mon2 in itertools.product(team1, team2):
+        if mon1 is None or mon2 is None:
+            damages.append(unknown_damage)
+        else:
+            # TODO: handle known moves
+            # TODO: should sort?
+            moves = [Move(move, 8) for move in sorted(POKEDEX[mon1.species]["moves"])]
+            damage = [statistics.mean(calc_damage(mon1, move, mon2, turn)) for move in moves]
+            damage = damage + [-1] * (MAX_MOVES - len(damage))
+            damages.append(damage)
+    return torch.Tensor(damages).flatten()
 
-    for t1_pokemon in team1.values():
-        pokemon.append(EMBEDDER.embed_pokemon(t1_pokemon).to(device=device))
-        moves.append(EMBEDDER.embed_moves_from_pokemon(t1_pokemon).to(device=device))
 
-    for t2_pokemon in team2.values():
-        pokemon.append(EMBEDDER.embed_pokemon(t2_pokemon).to(device=device))
-        moves.append(EMBEDDER.embed_moves_from_pokemon(t2_pokemon).to(device=device))
-
-    num_unknown_pokemon = 2 * NUM_POKEMON_PER_TEAM - len(team1) - len(team2)
-    pokemon = F.pad(torch.hstack(pokemon), (0, num_unknown_pokemon * POKEMON_EMBED_SIZE), mode='constant', value=-1)
-    moves = F.pad(torch.stack(moves), (0, 0, 0, 0, 0, num_unknown_pokemon))
-    # TODO: add prob modification and pp updates
-    x = torch.cat((pokemon, moves.flatten())).unsqueeze(0)
+def make_x(turn: Battle, opponent_pov: bool):
+    if opponent_pov:
+        team1 = list(turn.opponent_team.values())
+        team2 = list(turn.team.values())
+    else:
+        team1 = list(turn.team.values())
+        team2 = list(turn.opponent_team.values())
+    random.shuffle(team1)
+    random.shuffle(team2)
+    pokemon1 = [EMBEDDER.embed_pokemon(mon, mon.species == turn.active_pokemon.species) for mon in team1]
+    pokemon2 = [EMBEDDER.embed_pokemon(mon, mon.species == turn.opponent_active_pokemon.species) for mon in team2]
+    num_unknown_pokemon = 2 * NUM_POKEMON_PER_TEAM - len(pokemon1) - len(pokemon2)
+    pokemon = F.pad(torch.hstack(pokemon1 + pokemon2), (0, num_unknown_pokemon * pokemon1[0].shape[0]), mode='constant', value=-1)
+    field_conditions = EMBEDDER.embed_conditions(turn, opponent_pov=False)
+    damages = make_damages(team1, team2, turn)
+    x = torch.cat((pokemon, field_conditions, damages)).unsqueeze(0)
     return x
 
 
-def train(delphox: Delphox, data, lr=0.001, discount=0.5):
+# def apply_mask(pred, mask):
+#     pred = torch.mul(pred, mask)
+#     if torch.count_nonzero(pred) == 0:
+#         pred += mask
+#     pred = torch.where(pred == 0, torch.tensor(-1e10), pred)
+#     pred = F.softmax(pred, dim=0)
+#     return pred
+
+def get_mask(pokemon: Pokemon):
+    # TODO: toggle moves that we know aren't there for sure
+    mask = torch.zeros(MAX_MOVES + 1, dtype=bool)
+    mask[len(POKEDEX[pokemon.species]["moves"]):-1] = True
+    return mask
+
+
+def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5):
     assert 0 <= discount <= 1
-    optimizer = torch.optim.Adam(delphox.parameters(), lr=lr)
-    torch.autograd.set_detect_anomaly(True)
-    for turns, history1, history2, moves1, moves2 in data:
+    optimizer = torch.optim.Adam(delphox.parameters(), lr=lr, weight_decay=weight_decay)
+    total_wrong = 0
+    total_correct = 0
 
-        # TODO: have representations of the future
-        
-        hidden1_0 = (torch.randn(2, Delphox.LSTM_OUTPUT_SIZE), torch.randn(2, Delphox.LSTM_OUTPUT_SIZE))
-        hidden2_0 = (torch.randn(2, Delphox.LSTM_OUTPUT_SIZE), torch.randn(2, Delphox.LSTM_OUTPUT_SIZE))
+    new_data = []
+    for turns, vectors1, vectors2 in data:
+        for i, (turn, v1, v2) in enumerate(zip(turns, vectors1, vectors2)):
+            gamma = 1 - discount / math.exp(i)
+            print(turn.opponent_team)
+            print(vec2str(v2, turn.opponent_active_pokemon))
+            new_data.append((turn, v1, v2, gamma))
 
-        hidden1_t = hidden1_0
-        hidden2_t = hidden2_0
+    # random.shuffle(new_data)  # TODO: uncomment
 
-        for i, (turn, team1, team2, move1, move2) in enumerate(zip(turns, history1, history2, moves1, moves2)):
-            
-            my_active, opponent_active = turn.active_pokemon, turn.opponent_active_pokemon
+    for turn, move1, move2, gamma in new_data:
+        print(turn.battle_tag)
+        optimizer.zero_grad()
+        x1 = make_x(turn, opponent_pov=False)
+        mask1 = get_mask(turn.active_pokemon)
+        move1_pred = delphox(x1, mask1)
+        L = gamma * (delphox.loss(move1_pred, move1))
+        if move1.argmax() == move1_pred.argmax():
+            total_correct += 1
+            color = GREEN
+        else:
+            total_wrong += 1
+            color = RED
 
-            print(f"{my_active=}")
-            print(f"{opponent_active=}")
-
-            my_moves = {} if my_active.species == 'typenull' else POKEDEX[my_active.species]['moves']
-            opponent_moves = {} if opponent_active.species == 'typenull' else POKEDEX[opponent_active.species]['moves']
-
-            non_zeros_me = []
-            non_zeros_opponent = []
-            for m in my_moves:
-                non_zeros_me.append(MoveEnum[re.sub(r"\s|-|'", "", m.lower())].value - 1)
-
-            for m in opponent_moves:
-                non_zeros_opponent.append(MoveEnum[re.sub(r"\s|-|'", "", m.lower())].value - 1)
-
-            non_zeros_me = torch.tensor(non_zeros_me, dtype=torch.int64).to(device=device)
-            non_zeros_opponent = torch.tensor(non_zeros_opponent, dtype=torch.int64).to(device=device)
-
-            gamma = 1 #- discount / math.exp(i)
-            x1 = make_x(turn, team1, team2)
-            move1_pred, hidden1_t_next = delphox(x1, hidden1_t)
-            move1_pred = move1_pred.squeeze(0)
-
-            #print(f"{move1_pred=}")
-
-            mask = torch.zeros_like(move1_pred).to(device=device)
-            mask.scatter_(0, non_zeros_me, 1)
-            move1_pred = torch.mul(move1_pred , mask)
-            #print(f"{move1_pred=}")
-            
-            #print(f"{move1_pred=}")
-
-            # try:
-            #     move1_pred = F.softmax(move1_pred, dim=0)
-            # except:
-            #     print(f"{move1_pred=}")
-            #     break
-
-            move1_pred = torch.where(move1_pred <= 0, torch.tensor(-1e10), move1_pred)
-            move1_pred = F.softmax(move1_pred, dim=0)
-            
-            optimizer.zero_grad()
-            L = gamma * delphox.loss(move1_pred, move1)
-            #print("Sum: ", torch.sum(move1_pred))
-            #loss += L
-            print(f"{L=}")
-            L.backward(retain_graph=True)
-            optimizer.step()
-
-            x2 = make_x(turn, team2, team1)
-            move2_pred, hidden2_t_next = delphox(x2, hidden2_t)
-            move2_pred = move2_pred.squeeze(0)
-
-            mask = torch.zeros_like(move2_pred).to(device=device)
-            mask.scatter_(0, non_zeros_opponent, 1)
-            move2_pred = torch.mul(move2_pred , mask)
-
-            move2_pred = torch.where(move2_pred <= 0, torch.tensor(-1e10), move2_pred)
-
-            move2_pred = F.softmax(move2_pred, dim=0)
-            
-            optimizer.zero_grad()
-            loss = gamma * delphox.loss(move2_pred, move2)
-            loss.backward()
-            optimizer.step()
-            
-
-            # hidden1_t[0].copy_(hidden1_t_next[0])
-            # hidden1_t[1].copy_(hidden1_t_next[1])
-            # hidden2_t[0].copy_(hidden2_t_next[0])
-            # hidden2_t[1].copy_(hidden2_t_next[1])
-            # hidden1_t = (hidden1_t_next[0].clone(), hidden1_t_next[1].clone())
-            # hidden2_t = (hidden2_t_next[0].clone(), hidden2_t_next[1].clone())
-            #(torch.Tensor.copy_(hidden1_t_next[0]), torch.Tensor.copy_(hidden1_t_next[1]))
-            #hidden2_t = (torch.Tensor.copy_(hidden2_t_next[0]), torch.Tensor.copy_(hidden2_t_next[1]))
-            hidden1_t = (hidden1_t_next[0].detach(), hidden1_t_next[1].detach())
-            hidden2_t = (hidden2_t_next[0].detach(), hidden2_t_next[1].detach())
+        print(color + "{:<30} {:<30} {:<30} {:<30}".format(turn.active_pokemon.species, turn.opponent_active_pokemon.species, vec2str(move1_pred, turn.active_pokemon), vec2str(move1, turn.active_pokemon)) + RESET)
+        print(f"loss: {L.item()}")
+        L.backward()
 
 
-    # for _ in range(reps):
-    #     for battle, h1, h2, tensors_grid in tqdm(data):
-    #         loss = 0
-    #         hidden = (torch.randn(2, LSTM_OUTPUT_SIZE).to(device=device) , torch.randn(2, LSTM_OUTPUT_SIZE).to(device=device))
-    #         for turn, team1, team2, tensor in zip(battle, h1, h2, tensors_grid):
-    #             pokemon1, pokemon2 = [], []
-    #             moves1, moves2 = [], []
-    #
-    #             for t1_pokemon in team1.values():
-    #                 pokemon1.append(delphox.emb.embed_pokemon(t1_pokemon).to(device=device))
-    #                 moves2.append(delphox.emb.embed_moves_from_pokemon(t1_pokemon).to(device=device))
-    #
-    #             for t2_pokemon in team2.values():
-    #                 pokemon1.append(delphox.emb.embed_pokemon(t2_pokemon).to(device=device))
-    #                 moves2.append(delphox.emb.embed_moves_from_pokemon(t2_pokemon).to(device=device))
-    #
-    #             tensor = tensor.to(device=device)
-    #             my_active, opponent_active = turn.active_pokemon, turn.opponent_active_pokemon
-    #
-    #             my_moves = {} if my_active.species == 'typenull' else POKEDEX[my_active.species]['moves']
-    #             opponent_moves = {} if opponent_active.species == 'typenull' else POKEDEX[opponent_active.species]['moves']
-    #
-    #             non_zeros = []
-    #             for m in my_moves:
-    #                 non_zeros.append(MoveEnum[re.sub(r"\s|-|'", "", m.lower())].value - 1)
-    #
-    #             for m in opponent_moves:
-    #                 non_zeros.append((TOTAL_POSSIBLE_MOVES + 1) + MoveEnum[re.sub(r"\s|-|'", "", m.lower())].value - 1)
-    #
-    #             non_zeros = torch.tensor(non_zeros, dtype=torch.int64).to(device=device)
-    #
-    #             for x in [a, b]:
-    #             e
-    #             output = output.squeeze(0)
-    #             mask = torch.zeros_like(output).to(device=device)
-    #             mask.scatter_(0, non_zeros, 1)
-    #             output = torch.mul(output, mask)
-    #             output = delphox.softmax(output)
-    #             loss += delphox.loss(output, tensor)
-    #
-    #         optimizer.zero_grad()
-    #         # TODO: fix this hacky solution on example 103/145
-    #         if isinstance(loss, torch.Tensor):
-    #             loss.backward()
-    #         print(f"### {loss=}")
-    #         optimizer.step()
+        optimizer.zero_grad()
+        x2 = make_x(turn, opponent_pov=True)
+        mask2 = get_mask(turn.opponent_active_pokemon)
+        move2_pred = delphox(x2, mask2)
+        L = gamma * (delphox.loss(move2_pred, move2))
+        if move2.argmax() == move2_pred.argmax():
+            total_correct += 1
+            color = GREEN
+        else:
+            total_wrong += 1
+            color = RED
+        print(color + "{:<30} {:<30} {:<30} {:<30}".format(turn.opponent_active_pokemon.species, turn.active_pokemon.species, vec2str(move2_pred, turn.opponent_active_pokemon), vec2str(move2, turn.opponent_active_pokemon)) + RESET)
+        print(f"loss: {L.item()}")
+        L.backward()
+        optimizer.step()
 
-# if __name__ == "__main__":
-#     train(SMALL_DATASET)
+
+    print(f"###\n"
+          f"overall accuracy:\t{total_correct / (total_correct + total_wrong + 1e-10)}\n"
+          f"###")

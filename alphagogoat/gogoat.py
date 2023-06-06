@@ -1,85 +1,74 @@
-import numpy as np
-from gym.spaces import Space, Box
-from poke_env.player import Gen8EnvSinglePlayer
-from poke_env.environment.abstract_battle import AbstractBattle
 import math
 import random
+
+import numpy as np
 import torch
+from gym.spaces import Space, Box
+from poke_env.environment.abstract_battle import AbstractBattle
+from poke_env.player import Gen8EnvSinglePlayer
+from poke_env.environment.battle import Battle
+import delphox
+from constants import LSTM_INPUT_SIZE
+from pokedex import POKEDEX
+import torch.nn as nn
+import numpy as np
+from embedder import Embedder
 
-
+EMB = Embedder() 
 
 class Node:
-    def __init__(self, state, parent=None):
+    def __init__(self, state: Battle):
         self.state = state
-        self.parent = parent
         self.children = []
-        self._number_of_visits = 0
-        self._total_reward = 0
-
-    def number_of_visits(self):
-        return self._number_of_visits
-
-    def total_reward(self):
-        return self._total_reward
-
-    def is_fully_expanded(self):
-        return len(self.untried_actions()) == 0
-
-    def best_child(self, c_param=1.4):
-        choices_weights = [
-            c.total_reward() / (c.number_of_visits()) + c_param * math.sqrt((2 * math.log(self.number_of_visits()) / (c.number_of_visits())))
-             for c in self.children
-        ]
-        return self.children[choices_weights.index(max(choices_weights))]
-
-    def rollout_policy(self, possible_moves):        
-        return possible_moves[random.randint(0, len(possible_moves) - 1)]
-
-    def expand(self):
-        action = self.untried_actions().pop()
-        next_state = self.state.move(action)
-        child_node = Node(next_state, parent=self)
-        self.children.append(child_node)
-        return child_node
-
-    def rollout_policy(self, possible_moves, net):
-        # Convert your state to a tensor
-        state_tensor = torch.tensor(self.state).float()
-        # Pass state through the network
-        action_probabilities = net(state_tensor)
-        # Select action based on the output of your network
-        action = torch.argmax(action_probabilities).item()
-        return action
+        self.parent = None
+        self.visit_count = 0
+        self.value = 0
+        self.seer = delphox.Delphox(LSTM_INPUT_SIZE)
     
-    def backpropagate(self, reward):
-        self._number_of_visits += 1.
-        self._total_reward += reward
-        if self.parent:
-            self.parent.backpropagate(reward)
+    def expand(self, action_space):
+        for action in action_space:
+            # Assuming that `state_transition_function` is a function
+            # that takes a state and an action and returns a new state.
+            new_state = state_transition_function(self.state, action)
+            child = Node(new_state)
+            child.parent = self
+            self.children.append(child) # should we explore more than one child? or just best child?
 
-class MCTS:
-    def __init__(self, root):
-        self.root = root
+# Delphox is our policy_net? Or value net? Probably policynet
 
-    def search(self, iterations):
-        for _ in range(iterations):
-            node = self._tree_policy()
-            reward = node.rollout()
-            node.backpropagate(reward)
-        return self.root.best_child(c_param=0.)
+#delphox reutrns a move tensor; we can 
+class MCTS(nn.Module):
+    def __init__(self, q_net: nn.Module):
+        self.q_net = q_net
 
-    def _tree_policy(self):
-        current_node = self.root
-        while not current_node.state.is_terminal():
-            if not current_node.is_fully_expanded():
-                return current_node.expand()
-            else:
-                current_node = current_node.best_child()
-        return current_node
+    def selection(self, node: Node):
+        
+        possible_actions = [p for p in POKEDEX[node.state.active_pokemon]['moves'].keys() if p != 'struggle'] + ['switch']
+        possible_actions = [EMB.embed_move(p) for p in possible_actions]
+
+        return possible_actions
+    
+    def simulation(self, node: Node):
+        # Use the value network to estimate the game outcome
+        state_tensor = torch.tensor(node.state).unsqueeze(0)
+        with torch.no_grad():
+            value_estimate = self.value_net(state_tensor)
+
+        # Convert the value estimate to a simple scalar
+        value_estimate = value_estimate.item()
+
+        return value_estimate
+
+    def backpropagation(self, node: Node, result):
+        # Implement backpropagation phase here
+        pass
+
+    def expansion(self, node: Node):
+        # Implement expansion phase here
+        pass
 
 
-
-class SimpleRLPlayer(Gen8EnvSinglePlayer):
+class AlphaGogoat(Gen8EnvSinglePlayer):
     def calc_reward(self, last_battle, current_battle) -> float:
         return self.reward_computing_helper(
             current_battle, fainted_value=2.0, hp_value=1.0, victory_value=30.0
