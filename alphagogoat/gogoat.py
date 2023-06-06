@@ -16,56 +16,41 @@ from embedder import Embedder
 
 EMB = Embedder() 
 
-class Node:
-    def __init__(self, state: Battle):
-        self.state = state
-        self.children = []
-        self.parent = None
-        self.visit_count = 0
-        self.value = 0
-        self.seer = delphox.Delphox(LSTM_INPUT_SIZE)
-    
-    def expand(self, action_space):
-        for action in action_space:
-            # Assuming that `state_transition_function` is a function
-            # that takes a state and an action and returns a new state.
-            new_state = state_transition_function(self.state, action)
-            child = Node(new_state)
-            child.parent = self
-            self.children.append(child) # should we explore more than one child? or just best child?
-
 # Delphox is our policy_net? Or value net? Probably policynet
 
-#delphox reutrns a move tensor; we can 
+# we'll use victini as the value net, using the probability of winning as the value 
 class MCTS(nn.Module):
-    def __init__(self, q_net: nn.Module):
-        self.q_net = q_net
+    def __init__(self, value_net: nn.Module):
+        self.victini = value_net
 
-    def selection(self, node: Node):
-        
-        possible_actions = [p for p in POKEDEX[node.state.active_pokemon]['moves'].keys() if p != 'struggle'] + ['switch']
-        possible_actions = [EMB._embed_move(p) for p in possible_actions]
+    def get_actions(self, node: Battle) -> tuple(torch.tensor):
+        """
+        Takes in a node and returns a tensor of possible actions
+        """
 
-        return possible_actions
+        possible_actions_me = [p for p in POKEDEX[node.state.active_pokemon]['moves'].keys() if p != 'struggle'] + ['switch']
+        possible_actions_me = torch.tensor([EMB._embed_move(p) for p in possible_actions_me])
+
+        possible_actions_opp = [p for p in POKEDEX[node.state.opponent_active_pokemon]['moves'].keys() if p != 'struggle'] + ['switch']
+        possible_actions_opp = torch.tensor([EMB._embed_move(p) for p in possible_actions_opp])
+
+        return possible_actions_me, possible_actions_opp
     
-    def simulation(self, node: Node):
-        # Use the value network to estimate the game outcome
-        state_tensor = torch.tensor(node.state).unsqueeze(0)
-        with torch.no_grad():
-            value_estimate = self.value_net(state_tensor)
+    def simulation(self, state: torch.tensor):
+        """
+        Takes in a tensor representing a state and returns a value estimate
+        """
 
-        # Convert the value estimate to a simple scalar
-        value_estimate = value_estimate.item()
+        # Use the value network to estimate the game outcome
+        with torch.no_grad():
+            value_estimate = self.victini(state)
 
         return value_estimate
 
-    def backpropagation(self, node: Node, result):
-        # Implement backpropagation phase here
-        pass
+    def selection(self, node: torch.tensor):
+        actions = self.get_actions(node)
 
-    def expansion(self, node: Node):
-        # Implement expansion phase here
-        pass
+        return actions(torch.argmax(actions))
 
 
 class AlphaGogoat(Gen8EnvSinglePlayer):

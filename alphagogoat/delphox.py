@@ -122,7 +122,7 @@ def apply_mask(pred, mask):
         pred += mask
 
     pred = torch.where(pred == 0, torch.tensor(-1e10), pred)
-    pred = F.softmax(pred, dim=0)
+    pred = F.softmax(pred, dim=1)
 
     return pred
 
