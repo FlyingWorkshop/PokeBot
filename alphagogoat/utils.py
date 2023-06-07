@@ -7,30 +7,21 @@ import torch
 from poke_env.environment.battle import Battle, Pokemon
 
 from .catalogs import MoveEnum
-from .constants import MAX_MOVES
+from .constants import MAX_MOVES, NUM_POKEMON_PER_TEAM
 from .pokedex import POKEDEX
 
 LOGGER = logging.getLogger('poke-env')
 
-# def move2ind(m):
-#     return MoveEnum[re.sub(r"\s|-|'", "", m.lower())].value - 1
-#
-#
-# def vec2str(pred: torch.Tensor):
-#     i = pred.argmax().item()
-#     if i == len(MoveEnum):
-#         return 'switch'
-#     else:
-#         return MoveEnum(i + 1).name
 
-
-# def move2ind(m):
-#     return MoveEnum[re.sub(r"\s|-|'", "", m.lower())].value - 1
-
-def vec2str(vec: torch.Tensor, pokemon: Pokemon):
+def vec2str(vec: torch.Tensor, pokemon: Pokemon, team: dict[str, Pokemon]):
     i = vec.argmax().item()
-    if i == MAX_MOVES:
-        return 'switch'
+    if i >= MAX_MOVES:
+        i -= MAX_MOVES
+        team = sorted([mon.species for mon in team.values()])
+        if i >= len(team):
+            return "unseen"
+        else:
+            return team[i]
     else:
         moves = sorted(POKEDEX[pokemon.species]["moves"])
         if i > len(moves):
@@ -112,41 +103,35 @@ def make_delphox_data(filepath):
         if a2[0] == 'move' and a2[1] not in POKEDEX[turn.opponent_active_pokemon.species]["moves"]:
             continue
 
-        v1 = torch.zeros(MAX_MOVES + 1)
+        v1 = torch.zeros(MAX_MOVES + NUM_POKEMON_PER_TEAM)
         if a1[0] == 'switch':
-            # TODO: add pokemon switches in
-            v1[-1] = 1
+            team = sorted([mon.species for mon in turn.team.values()])
+            if a1[1] in team:
+                v1[MAX_MOVES + team.index(a1[1])] = 1
+            else:
+                # switch to an unseen pokemon
+                v1[MAX_MOVES + len(team) - 1] = 1
             vectors1.append(v1)
         else:
             moves = sorted(POKEDEX[turn.active_pokemon.species]["moves"])
-            # TODO: handle dynamax moves and zoroark
-            # if a1[1] not in moves:
-            #     continue
             v1[moves.index(a1[1])] = 1
             vectors1.append(v1)
 
-        v2 = torch.zeros(MAX_MOVES + 1)
+        v2 = torch.zeros(MAX_MOVES + NUM_POKEMON_PER_TEAM)
         if a2[0] == 'switch':
-            v2[-1] = 1
+            team = sorted([mon.species for mon in turn.opponent_team.values()])
+            if a2[1] in team:
+                v2[MAX_MOVES + team.index(a2[1])] = 1
+            else:
+                # switch to an unseen pokemon
+                v2[MAX_MOVES + len(team) - 1] = 1
             vectors2.append(v2)
         else:
             moves = sorted(POKEDEX[turn.opponent_active_pokemon.species]["moves"])
-            # if a2[1] not in moves:
-            #     continue
             v2[moves.index(a2[1])] = 1
             vectors2.append(v2)
 
         turns.append(turn)
-
-    # print(f"https://replay.pokemonshowdown.com/{turn.battle_tag}")
-    # for turn, a1, a2, v1, v2 in zip(turns, actions1, actions2, vectors1, vectors2):
-    #     print(turn.turn)
-    #     print("\t", turn.team)
-    #     print("\t", turn.opponent_team)
-    #     print(f"\t{a1=}")
-    #     print(f"\t{a2=}")
-    #     vec2str(v1, turn.active_pokemon)
-    #     vec2str(v2, turn.opponent_active_pokemon)
 
     return turns, vectors1, vectors2
 
@@ -172,5 +157,5 @@ def make_victini_data(filepath):
                 battles.append(deepcopy(b))
         except:
             continue
-    return battles[-5:], won
+    return battles[-10:], won
 

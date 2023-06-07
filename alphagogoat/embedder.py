@@ -1,8 +1,3 @@
-"""
-NOTE: doctests are outdated!
-
-# TODO: ask Adam if we handle battle.maybe_trapped, battle.can_dynamx, etc. (battle attributes)
-"""
 import copy
 import json
 import logging
@@ -26,30 +21,6 @@ from .pokedex import POKEDEX
 
 from .calculator import calc_stats
 from .constants import MAX_MOVES, MAX_ABILITIES, MAX_ITEMS, BOOSTABLE_STATS, DEFAULT_EVS, DEFAULT_IVS, EVS_PER_INC, DEVICE
-
-
-def process_battle(battle_json: str) -> list[Battle]:
-    """
-    >>> battles = process_battle("../cache/replays/gen8randombattle-1123651831.json")
-
-    """
-    with open(battle_json) as f:
-        battle_data = json.load(f)
-
-    log = battle_data['log'].split('\n')
-    curr_battle = Battle(battle_data['id'], battle_data['p1'], logging.getLogger('poke-env'), 8)
-    curr_battle._opponent_username = battle_data['p2']
-    battle_objects = []
-    for line in log:
-        # TODO: get rid of this try block!
-        try:
-            curr_battle._parse_message(line.split('|'))
-            if line.split('|')[1] == 'turn':
-                battle_objects.append(copy.deepcopy(curr_battle))
-        except:
-            continue
-
-    return battle_objects
 
 
 class Embedder:
@@ -108,27 +79,16 @@ class Embedder:
         #     else:
         #         embed.append(0)
         #
-        # for f in Field:
-        #     if f in battle.fields and battle.fields[f]:
-        #         embed.append(battle.fields[f])
-        #     else:
-        #         embed.append(0)
+        for f in Field:
+            if f in battle.fields and battle.fields[f]:
+                embed.append(battle.fields[f])
+            else:
+                embed.append(0)
 
         return torch.FloatTensor(embed)
 
     @staticmethod
     def embed_pokemon(pokemon: Pokemon, is_active: bool) -> torch.Tensor:
-        """
-        >>> embedder = Embedder()
-        >>> battles = process_battle("../cache/replays/gen8randombattle-1123651831.json")
-        >>> embedder.embed_pokemon(battles[0].active_pokemon).shape
-        torch.Size([195])
-        >>> embedder.embed_pokemon(Pokemon(species='Solrock', gen=8)).shape
-        torch.Size([195])
-        """
-        # TODO: feature reduction
-        # TODO:add more flags and data (is dynamaxed, level, preparing, weight)
-
         data = POKEDEX[pokemon.species]
         embedding = [
             is_active,
@@ -155,7 +115,6 @@ class Embedder:
         abilities += [0] * (2 * MAX_ABILITIES - len(abilities))
 
         # items
-        # TODO: handle knocked off items
         items = []
         if pokemon.item == 'unknown_item' or pokemon.item is None:
             for item, prob in data['items'].items():
@@ -165,49 +124,24 @@ class Embedder:
         items += [0] * (2 * MAX_ITEMS - len(items))
 
         # effects
-        # effects = [0] * len(Effect)
-        # for effect in pokemon.effects:
-        #     effects[effect.value - 1] = 1
-        effects = [
-            Effect['CONFUSION'] in pokemon.effects,
-            Effect['ENCORE'] in pokemon.effects,
-            Effect['FLASH_FIRE'] in pokemon.effects,
-            any(e in pokemon.effects for e in (Effect['FIRE_SPIN'], Effect['TRAPPED'], Effect['MAGMA_STORM'], Effect['WHIRLPOOL'])),
-            Effect['LEECH_SEED'] in pokemon.effects,
-            Effect['STICKY_WEB'] in pokemon.effects,
-            Effect['SUBSTITUTE'] in pokemon.effects,
-            Effect['YAWN'] in pokemon.effects,
-            Effect['NO_RETREAT'] in pokemon.effects,
-            Effect['MAGNET_RISE'] in pokemon.effects
-        ]
+        effects = [0] * len(Effect)
+        for effect in pokemon.effects:
+            effects[effect.value - 1] = 1
+        # effects = [
+        #     Effect['CONFUSION'] in pokemon.effects,
+        #     Effect['ENCORE'] in pokemon.effects,
+        #     Effect['FLASH_FIRE'] in pokemon.effects,
+        #     any(e in pokemon.effects for e in (Effect['FIRE_SPIN'], Effect['TRAPPED'], Effect['MAGMA_STORM'], Effect['WHIRLPOOL'])),
+        #     Effect['LEECH_SEED'] in pokemon.effects,
+        #     Effect['STICKY_WEB'] in pokemon.effects,
+        #     Effect['SUBSTITUTE'] in pokemon.effects,
+        #     Effect['YAWN'] in pokemon.effects,
+        #     Effect['NO_RETREAT'] in pokemon.effects,
+        #     Effect['MAGNET_RISE'] in pokemon.effects
+        # ]
 
         # stats
         stats = [value for _, value in sorted(calc_stats(pokemon).items())]
-        # print(type(abilities), type(items), type(stats), type(effects), type(embedding))
         embedding = torch.Tensor(abilities + items + stats + effects + embedding)
-        # embedding = torch.Tensor(items + stats + effects + embedding)
-        return embedding.to(device=DEVICE)
-
-
-def get_team_histories(battles: list[Battle]):
-    """
-    >>> battles = process_battle("../cache/replays/gen8randombattle-1123651831.json")
-    >>> get_team_histories(battles)
-    """
-    team1_history, team2_history = [], []
-    team1, team2 = {}, {}
-    for battle in battles:
-        active = battle.active_pokemon
-        opponent_active = battle.opponent_active_pokemon
-        team1[active.species] = active
-        team2[opponent_active.species] = opponent_active
-        if active.species not in team1:
-            team1_history.append(copy.deepcopy(team1))
-        else:
-            team1_history.append(team1)
-        if opponent_active.species not in team2:
-            team2_history.append(copy.deepcopy(team2))
-        else:
-            team2_history.append(team2)
-    return team1_history, team2_history
+        return embedding
 
