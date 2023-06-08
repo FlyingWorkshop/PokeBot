@@ -8,64 +8,60 @@ from poke_env.environment.abstract_battle import AbstractBattle
 from poke_env.player import Gen8EnvSinglePlayer
 from poke_env.environment.battle import Battle
 import delphox
-from constants import LSTM_INPUT_SIZE
+import victini
+from constants import LSTM_INPUT_SIZE, MoveEnum
 from pokedex import POKEDEX
 import torch.nn as nn
 import numpy as np
 from embedder import Embedder
+from itertools import product
+import math
 
 EMB = Embedder() 
 
-class Node:
-    def __init__(self, state: Battle):
-        self.state = state
-        self.children = []
-        self.parent = None
-        self.visit_count = 0
-        self.value = 0
-        self.seer = delphox.Delphox(LSTM_INPUT_SIZE)
-    
-    def expand(self, action_space):
-        for action in action_space:
-            # Assuming that `state_transition_function` is a function
-            # that takes a state and an action and returns a new state.
-            new_state = state_transition_function(self.state, action)
-            child = Node(new_state)
-            child.parent = self
-            self.children.append(child) # should we explore more than one child? or just best child?
-
-# Delphox is our policy_net? Or value net? Probably policynet
-
-#delphox reutrns a move tensor; we can 
 class MCTS(nn.Module):
-    def __init__(self, q_net: nn.Module):
-        self.q_net = q_net
+    def __init__(self, action_predictor: nn.Module, victory_predictor: nn.Module, future_editor: function):
+        self.delphox = action_predictor
+        self.victini = victory_predictor
+        self.future = future_editor
 
-    def selection(self, node: Node):
+    def selectExpand(self, node: Battle):
         
-        possible_actions = [p for p in POKEDEX[node.state.active_pokemon]['moves'].keys() if p != 'struggle'] + ['switch']
-        possible_actions = [EMB.embed_move(p) for p in possible_actions]
+        possible_actions_me = [p for p in POKEDEX[node.state.active_pokemon]['moves'].keys() if p != 'struggle'] + ['switch']
+        # possible_actions_me = [EMB.embed_move(p) for p in possible_actions_me]
 
-        return possible_actions
+        possible_actions_opponent = [p for p in POKEDEX[node.state.opponent_active_pokemon]['moves'].keys() if p != 'struggle'] + ['switch']
+        # possible_actions_opponent = [EMB.embed_move(p) for p in possible_actions_opponent]
+
+        return list(set(product(possible_actions_me, possible_actions_opponent)))
     
-    def simulation(self, node: Node):
+    def simulation(self, node: Battle, action: tuple):
         # Use the value network to estimate the game outcome
-        state_tensor = torch.tensor(node.state).unsqueeze(0)
+        delphox_input, delphox_mask = delphox.make_x(node, False), delphox.get_mask(node)
+        future = self.future(node, (EMB.embed_move(action[0]), EMB.embed_move(action[1])))
+        victini_input = future
+
         with torch.no_grad():
-            value_estimate = self.value_net(state_tensor)
+            value_estimate = self.victini(victini_input)
+            value_estimate = value_estimate.item()
+            dist = self.delphox(delphox_input, delphox_mask)
+            prob1, prob2 = dist[MoveEnum[action[0]] - 1], dist[MoveEnum[action[1] - 1]]
 
         # Convert the value estimate to a simple scalar
-        value_estimate = value_estimate.item()
+        
+        return prob1 * prob2 * value_estimate
 
-        return value_estimate
-
-    def backpropagation(self, node: Node, result):
-        # Implement backpropagation phase here
-        pass
-
-    def expansion(self, node: Node):
-        # Implement expansion phase here
-        pass
+    def get_action(self, node: Battle):
+        action_pairs = self.selectExpand(node)
+        best_action = None
+        best_score = -math.inf
+        for action in action_pairs:
+            score = self.simulation(node, action)
+            if score > best_score:
+                best_score = score
+                best_action = action[0]
+        
+        return best_action
 
 
 class AlphaGogoat(Gen8EnvSinglePlayer):
