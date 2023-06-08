@@ -111,9 +111,14 @@ def make_delphox_data(filepath):
         if a2[0] == 'move' and a2[1] not in POKEDEX[turn.opponent_active_pokemon.species]["moves"]:
             continue
 
+        # if a1[0] == 'switch' or a2[0] == 'switch':
+        #     continue
+
         turns.append(turn)
         clean_actions1.append(a1)
         clean_actions2.append(a2)
+
+
 
     # return turns[-10:], clean_actions1[-10:], clean_actions2[-10:]
     return turns, clean_actions1, clean_actions2

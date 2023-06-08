@@ -32,7 +32,8 @@ class Delphox(nn.Module):
         self.l2 = nn.Linear(hidden_size, hidden_size, bias=True)
         self.a2 = nn.Sigmoid()
         self.l3 = nn.Linear(hidden_size, MAX_MOVES + NUM_POKEMON_PER_TEAM, bias=False)
-        self.softmax = nn.Softmax(dim=0)
+        # self.softmax = nn.Softmax(dim=0)
+        self.softmax = nn.Sigmoid()
 
         self.loss = nn.CrossEntropyLoss(reduction='sum')
 
@@ -141,25 +142,35 @@ def process_data(data: list[list[Battle], list[tuple[str, str], list[tuple[str, 
             v2 = action2vec(a2, turn.opponent_team, turn.opponent_active_pokemon)
             examples += [(turn, a1, v1, gamma, False), (turn, a2, v2, gamma, True)]
 
-    # sort examples by the index of the correct move
-    indexed_examples = {i: [] for i in range(MAX_MOVES + NUM_POKEMON_PER_TEAM)}
-    for ex in examples:
-        i = ex[2].argmax().item()
-        indexed_examples[i].append(ex)
+    # resample for an equal number of moves and switches
+    moves = [ex for ex in examples if ex[1][1] == 'move']
+    switches = [ex for ex in examples if ex[1][1] == 'switch']
+    length = max(len(moves), len(switches))
+    moves = random.choices(moves, k=length)
+    switches = random.choices(switches, k=length)
+    new_data = itertools.chain(*zip(moves, switches))
 
-    # resample and shuffle examples
-    length = max([len(li) for li in indexed_examples.values()])
-    resampled_examples = []
-    for li in indexed_examples.values():
-        try:
-            resampled = random.choices(li, k=length)
-        except IndexError:
-            resampled = li
-        random.shuffle(resampled)
-        resampled_examples.append(resampled)
-
+    # # sort examples by the index of the correct move
+    # indexed_examples = {i: [] for i in range(MAX_MOVES + NUM_POKEMON_PER_TEAM)}
+    # for ex in examples:
+    #     i = ex[2].argmax().item()
+    #     indexed_examples[i].append(ex)
+    #
+    # # resample and shuffle examples
+    # length = max([len(li) for li in indexed_examples.values() if li])
+    # resampled_examples = []
+    # for li in indexed_examples.values():
+    #     if not li:
+    #         continue
+    #     try:
+    #         resampled = random.choices(li, k=length)
+    #     except IndexError:
+    #         resampled = li
+    #     random.shuffle(resampled)
+    #     resampled_examples.append(resampled)
+    #
     # interleave resampled examples to make new data
-    new_data = itertools.chain.from_iterable(resampled_examples)
+    # new_data = itertools.chain(*zip(*resampled_examples))
     return new_data
 
 
@@ -175,6 +186,8 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5):
         optimizer.zero_grad()
         x = make_x(turn, opponent_pov)
         mask = get_legality(turn, opponent_pov)
+        print(turn.battle_tag)
+        print(mask)
         pred = delphox(x, mask)
         pred_action = vec2action(pred, turn, opponent_pov)
 

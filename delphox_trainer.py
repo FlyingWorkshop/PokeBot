@@ -27,8 +27,8 @@ def main():
     #     delphox.load_state_dict(torch.load(delphox_path))
     for _ in range(reps):
         random.shuffle(train_files)
-        # train_data = Parallel(n_jobs=4)(delayed(make_delphox_data)(filepath) for filepath in tqdm(train_files[:100]))  # MEDIUM
-        train_data = Parallel(n_jobs=4)(delayed(make_delphox_data)(filepath) for filepath in tqdm(train_files[:30]))  # SMALL
+        # train_data = Parallel(n_jobs=4)(delayed(make_delphox_data)(filepath) for filepath in tqdm(train_files[:100]))
+        train_data = Parallel(n_jobs=4)(delayed(make_delphox_data)(filepath) for filepath in tqdm(train_files[:8]))
         train(delphox, train_data, lr=0.001, weight_decay=0, discount=0)
         # torch.save(delphox.state_dict(), delphox_path)
     # test_data = Parallel(n_jobs=4)(delayed(make_delphox_data)(filepath) for filepath in tqdm(test_files))
