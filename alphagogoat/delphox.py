@@ -9,7 +9,7 @@ from poke_env.environment import Battle, Pokemon, Move, Status
 
 from .constants import POKEDEX, NUM_POKEMON_PER_TEAM, MAX_MOVES
 from .embedder import Embedder
-from .utils import vec2str
+from .utils import vec2action, action2vec
 from .calculator import calc_damage
 
 import math
@@ -23,16 +23,17 @@ RESET = '\033[0m'
 
 
 class Delphox(nn.Module):
-    def __init__(self, input_size, hidden_size=135):
+    def __init__(self, input_size, hidden_size=300):
         super().__init__()
+        # TODO: test LSTM
         self.l1 = nn.Linear(input_size, hidden_size, bias=True)
-        self.a1 = nn.LogSigmoid()
+        self.a1 = nn.Sigmoid()
         self.l2 = nn.Linear(hidden_size, hidden_size, bias=True)
-        self.a2 = nn.LogSigmoid()
+        self.a2 = nn.Sigmoid()
         self.l3 = nn.Linear(hidden_size, MAX_MOVES + NUM_POKEMON_PER_TEAM, bias=False)
-        self.softmax = nn.LogSoftmax(dim=0)
+        self.softmax = nn.Softmax(dim=0)
 
-        self.loss = nn.BCEWithLogitsLoss()
+        self.loss = nn.CrossEntropyLoss(reduction='sum')
 
     def forward(self, x, mask):
         y = self.l1(x.squeeze(0))
@@ -40,9 +41,10 @@ class Delphox(nn.Module):
         y = self.l2(y)
         y = self.a2(y)
         y = self.l3(y)
-        y = torch.where(mask, torch.tensor(-1e10), y)
+        y = torch.where(~mask, torch.tensor(-1e10), y)
         y = self.softmax(y)
         return y
+
 
 def make_damages(team1: list[Pokemon], team2: list[Pokemon], turn: Battle):
     team1 = team1 + [None] * (NUM_POKEMON_PER_TEAM - len(team1))
@@ -79,15 +81,85 @@ def make_x(turn: Battle, opponent_pov: bool):
     return x
 
 
-def get_mask(pokemon: Pokemon, team: dict[str: Pokemon]):
-    mask = torch.zeros(MAX_MOVES + len(team), dtype=bool)
-    mask[len(POKEDEX[pokemon.species]["moves"]):MAX_MOVES] = True
-    mask[MAX_MOVES:] = torch.Tensor([mon.status == Status.FNT or mon.species == pokemon.species for mon in sorted(team.values(), key=lambda x: x.species)])
-    if len(team) < NUM_POKEMON_PER_TEAM:
-        unknown_pokemon = [True for _ in range(NUM_POKEMON_PER_TEAM - len(team))]
-        unknown_pokemon[0] = False  # let's Delphox predict switching to an unknown Pokemon
-        mask = torch.concat((mask, torch.Tensor(unknown_pokemon)))
-    return mask.bool()
+def get_legality(turn: Battle, opponent_pov: bool):
+    # TODO: ask Adam if this breaks gradient prop
+    if opponent_pov:
+        pokemon = turn.opponent_active_pokemon
+        team = turn.opponent_team
+    else:
+        pokemon = turn.active_pokemon
+        team = turn.team
+
+    # True = legal action, False = legal action
+    legal = torch.zeros(MAX_MOVES + NUM_POKEMON_PER_TEAM, dtype=bool)
+
+
+    # MOVES
+    # start by assuming all moves are illegal
+
+    # if we know the moveset, only unmask those (if PP > 0)
+    if len(pokemon.moves) == 4:
+        # NOTE: poke-env doesn't store dynamax moves in pokemon.moves, so we don't have to worry about them
+        legal[:MAX_MOVES] = False
+        moves = sorted(POKEDEX[pokemon.species]["moves"])
+        for move in pokemon.moves.values():
+            # TODO: dynamaxed moves messes up the pp thing (make sure to fix that)
+            if move.current_pp > 0:
+                continue
+            i = moves.index(move.id)
+            legal[i] = True
+    # otherwise, only unmask the number of moves possible for that pokemon
+    else:
+        legal[:len(POKEDEX[pokemon.species]["moves"])] = True
+
+
+    # SWITCHES
+    # start by assuming all switches are illegal
+
+    # legalize all unfainted (not active) pokemon
+    team_species = [mon.species for mon in team.values()]
+    for mon in team.values():
+        if mon.status != Status.FNT and mon.species != pokemon.species:
+            i = team_species.index(mon.species)
+            legal[MAX_MOVES + i] = True
+
+    # also legalize an unseen pokemon if there are still unknown pokemon in the team (i.e., len(team) < 6)
+    if len(team) < 6:
+        legal[MAX_MOVES + len(team)] = 1
+
+    return legal
+
+
+def process_data(data: list[list[Battle], list[tuple[str, str], list[tuple[str, str]]]], discount: float):
+    # unpack examples
+    examples = []
+    for turns, actions1, actions2 in data:
+        for i, (turn, a1, a2) in enumerate(zip(turns, actions1, actions2)):
+            gamma = 1 - discount / math.exp(i)
+            v1 = action2vec(a1, turn.team, turn.active_pokemon)
+            v2 = action2vec(a2, turn.opponent_team, turn.opponent_active_pokemon)
+            examples += [(turn, a1, v1, gamma, False), (turn, a2, v2, gamma, True)]
+
+    # sort examples by the index of the correct move
+    indexed_examples = {i: [] for i in range(MAX_MOVES + NUM_POKEMON_PER_TEAM)}
+    for ex in examples:
+        i = ex[2].argmax().item()
+        indexed_examples[i].append(ex)
+
+    # resample and shuffle examples
+    length = max([len(li) for li in indexed_examples.values()])
+    resampled_examples = []
+    for li in indexed_examples.values():
+        try:
+            resampled = random.choices(li, k=length)
+        except IndexError:
+            resampled = li
+        random.shuffle(resampled)
+        resampled_examples.append(resampled)
+
+    # interleave resampled examples to make new data
+    new_data = itertools.chain.from_iterable(resampled_examples)
+    return new_data
 
 
 def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5):
@@ -96,59 +168,43 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5):
     total_wrong = 0
     total_correct = 0
 
+    # new_data = process_data(data, discount)
+    # TODO: remove debug code
     new_data = []
-    for turns, vectors1, vectors2 in data:
-        for i, (turn, v1, v2) in enumerate(zip(turns, vectors1, vectors2)):
+    for turns, actions1, actions2 in data:
+        for i, (turn, a1, a2) in enumerate(zip(turns, actions1, actions2)):
             gamma = 1 - discount / math.exp(i)
-            new_data.append((turn, v1, v2, gamma))
+            v1 = action2vec(a1, turn.team, turn.active_pokemon)
+            v2 = action2vec(a2, turn.opponent_team, turn.opponent_active_pokemon)
+            new_data += [(turn, a1, v1, gamma, False), (turn, a2, v2, gamma, True)]
 
-    random.shuffle(new_data)
-
-    for turn, move1, move2, gamma in new_data:
+    for turn, action, vec, gamma, opponent_pov in new_data:
         optimizer.zero_grad()
-        x1 = make_x(turn, opponent_pov=False)
-        mask1 = get_mask(turn.active_pokemon, turn.team)
-        move1_pred = delphox(x1, mask1)
-        print(move1_pred)
-        L = gamma * (delphox.loss(move1_pred, move1))
-        if move1.argmax() == move1_pred.argmax():
+        x = make_x(turn, opponent_pov)
+        mask = get_legality(turn, opponent_pov)
+        pred = delphox(x, mask)
+        print(pred.detach().numpy())
+        print(turn.battle_tag)
+        pred_action = vec2action(pred, turn, opponent_pov)
+        if pred_action == action:
             total_correct += 1
             color = GREEN
         else:
             total_wrong += 1
             color = RED
 
-        print(color + "{:<30} {:<30} {:<30} {:<30}".format(
-            turn.active_pokemon.species,
-            turn.opponent_active_pokemon.species,
-            vec2str(move1_pred, turn.active_pokemon, turn.team),
-            vec2str(move1, turn.active_pokemon, turn.team)
-        ) + RESET)
-        print(f"loss: {L.item()}")
-        L.backward()
-
-        optimizer.zero_grad()
-        x2 = make_x(turn, opponent_pov=True)
-        mask2 = get_mask(turn.opponent_active_pokemon, turn.opponent_team)
-        move2_pred = delphox(x2, mask2)
-        print(move2_pred)
-        L = gamma * (delphox.loss(move2_pred, move2))
-        if move2.argmax() == move2_pred.argmax():
-            total_correct += 1
-            color = GREEN
+        if opponent_pov:
+            mon2 = turn.active_pokemon.species
+            mon1 = turn.opponent_active_pokemon.species
         else:
-            total_wrong += 1
-            color = RED
-        print(color + "{:<30} {:<30} {:<30} {:<30}".format(
-            turn.opponent_active_pokemon.species,
-            turn.active_pokemon.species,
-            vec2str(move2_pred, turn.opponent_active_pokemon, turn.opponent_team),
-            vec2str(move2, turn.opponent_active_pokemon, turn.opponent_team)
-        ) + RESET)
+            mon1 = turn.active_pokemon.species
+            mon2 = turn.opponent_active_pokemon.species
+
+        print(color + "{:<30} {:<30} {:<30} {:<30}".format(mon1, mon2, str(pred_action), str(action)) + RESET)
+        L = gamma * (delphox.loss(pred, vec))
         print(f"loss: {L.item()}")
         L.backward()
         optimizer.step()
-
 
     print(f"###\n"
           f"overall accuracy:\t{total_correct / (total_correct + total_wrong + 1e-10)}\n"

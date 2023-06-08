@@ -22,7 +22,7 @@ def main():
     # train_data = Parallel(n_jobs=4)(delayed(make_delphox_data)(filepath) for filepath in tqdm(train_files[:100]))  # MEDIUM
     train_data = Parallel(n_jobs=4)(delayed(make_delphox_data)(filepath) for filepath in tqdm(train_files[:30]))  # SMALL
     # train_data = Parallel(n_jobs=4)(delayed(make_delphox_data)(filepath) for filepath in tqdm(train_files[:8]))  # SMALL
-    # train_data = [make_delphox_data(f) for f in tqdm(["cache/replays/gen8randombattle-1866032507.json"])]  # SINGLE-PROCESS DEBUGGING
+    # train_data = [make_delphox_data(f) for f in tqdm(["cache/replays/gen8randombattle-1871933022.json"])]  # SINGLE-PROCESS DEBUGGING
     if Path(delphox_path).exists():
         delphox.load_state_dict(torch.load(delphox_path))
     for _ in range(reps):
@@ -32,7 +32,6 @@ def main():
         torch.save(delphox.state_dict(), delphox_path)
     # test_data = Parallel(n_jobs=4)(delayed(make_delphox_data)(filepath) for filepath in tqdm(test_files))
     # evaluate(victini, test_data)
-
 
 
 if __name__ == "__main__":
