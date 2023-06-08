@@ -8,49 +8,60 @@ from poke_env.environment.abstract_battle import AbstractBattle
 from poke_env.player import Gen8EnvSinglePlayer
 from poke_env.environment.battle import Battle
 import delphox
-from constants import LSTM_INPUT_SIZE
+import victini
+from constants import LSTM_INPUT_SIZE, MoveEnum
 from pokedex import POKEDEX
 import torch.nn as nn
 import numpy as np
 from embedder import Embedder
+from itertools import product
+import math
 
 EMB = Embedder() 
 
-# Delphox is our policy_net? Or value net? Probably policynet
-
-# we'll use victini as the value net, using the probability of winning as the value 
 class MCTS(nn.Module):
-    def __init__(self, value_net: nn.Module):
-        self.victini = value_net
+    def __init__(self, action_predictor: nn.Module, victory_predictor: nn.Module, future_editor: function):
+        self.delphox = action_predictor
+        self.victini = victory_predictor
+        self.future = future_editor
 
-    def get_actions(self, node: Battle) -> tuple(torch.tensor):
-        """
-        Takes in a node and returns a tensor of possible actions
-        """
-
+    def selectExpand(self, node: Battle):
+        
         possible_actions_me = [p for p in POKEDEX[node.state.active_pokemon]['moves'].keys() if p != 'struggle'] + ['switch']
-        possible_actions_me = torch.tensor([EMB._embed_move(p) for p in possible_actions_me])
+        # possible_actions_me = [EMB.embed_move(p) for p in possible_actions_me]
 
-        possible_actions_opp = [p for p in POKEDEX[node.state.opponent_active_pokemon]['moves'].keys() if p != 'struggle'] + ['switch']
-        possible_actions_opp = torch.tensor([EMB._embed_move(p) for p in possible_actions_opp])
+        possible_actions_opponent = [p for p in POKEDEX[node.state.opponent_active_pokemon]['moves'].keys() if p != 'struggle'] + ['switch']
+        # possible_actions_opponent = [EMB.embed_move(p) for p in possible_actions_opponent]
 
-        return possible_actions_me, possible_actions_opp
+        return list(set(product(possible_actions_me, possible_actions_opponent)))
     
-    def simulation(self, state: torch.tensor):
-        """
-        Takes in a tensor representing a state and returns a value estimate
-        """
-
+    def simulation(self, node: Battle, action: tuple):
         # Use the value network to estimate the game outcome
+        delphox_input, delphox_mask = delphox.make_x(node, False), delphox.get_mask(node)
+        future = self.future(node, (EMB.embed_move(action[0]), EMB.embed_move(action[1])))
+        victini_input = future
+
         with torch.no_grad():
-            value_estimate = self.victini(state)
+            value_estimate = self.victini(victini_input)
+            value_estimate = value_estimate.item()
+            dist = self.delphox(delphox_input, delphox_mask)
+            prob1, prob2 = dist[MoveEnum[action[0]] - 1], dist[MoveEnum[action[1] - 1]]
 
-        return value_estimate
+        # Convert the value estimate to a simple scalar
+        
+        return prob1 * prob2 * value_estimate
 
-    def selection(self, node: torch.tensor):
-        actions = self.get_actions(node)
-
-        return actions(torch.argmax(actions))
+    def get_action(self, node: Battle):
+        action_pairs = self.selectExpand(node)
+        best_action = None
+        best_score = -math.inf
+        for action in action_pairs:
+            score = self.simulation(node, action)
+            if score > best_score:
+                best_score = score
+                best_action = action[0]
+        
+        return best_action
 
 
 class AlphaGogoat(Gen8EnvSinglePlayer):

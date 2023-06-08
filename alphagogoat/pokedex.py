@@ -3,13 +3,12 @@ import re
 from pathlib import Path
 
 import numpy as np
-from tqdm import tqdm
 
 
 def _make_pokedex():
     pokedex = {}
     folder = Path(__file__).parent.parent / "cache" / "teams"
-    for filepath in tqdm(list(folder.iterdir())):
+    for filepath in list(folder.iterdir()):
         with open(filepath, 'r') as f:
             data = json.load(f)
         for key, value in data.items():
@@ -19,7 +18,7 @@ def _make_pokedex():
             for k, v in value.items():
                 pokedex[key][k].append(v)
 
-    for species, dicts in tqdm(pokedex.items()):
+    for species, dicts in pokedex.items():
         pokedex[species]['level'] = int(np.round(np.mean(pokedex[species]['level'])))
         for k1 in ['abilities', 'moves', 'items']:
             d = {}
@@ -40,7 +39,9 @@ def _make_pokedex():
         if 'evs' in data:
             pokedex[species]['evs'] = data['evs'][0]
         if 'ivs' in data:
+            # NOTE: all IVs are 0
             del pokedex[species]['ivs']
+            # pokedex[species]['ivs'] = data['ivs'][0]
 
     mons = list(pokedex.keys())
     for species in mons:

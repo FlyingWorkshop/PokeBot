@@ -10,7 +10,7 @@ import re
 import random
 
 import torch
-from poke_env.environment.battle import Battle
+from poke_env.environment import Battle, Effect, Move, Pokemon, Status, SideCondition, Weather, Field
 from poke_env.environment.effect import Effect
 from poke_env.environment.move import Move
 from poke_env.environment.pokemon import Pokemon
@@ -24,7 +24,8 @@ from .pokedex import POKEDEX
 # from pokedex import POKEDEX
 # from catalogs import Item, VolatileStatus, SIDE_COND_MAP, Ability, MoveEnum
 
-from .constants import MAX_MOVES,MAX_ABILITIES, MAX_ITEMS, BOOSTABLE_STATS, DEFAULT_EVS, DEFAULT_IVS, EVS_PER_INC, DEVICE
+from .calculator import calc_stats
+from .constants import MAX_MOVES, MAX_ABILITIES, MAX_ITEMS, BOOSTABLE_STATS, DEFAULT_EVS, DEFAULT_IVS, EVS_PER_INC, DEVICE
 
 
 def process_battle(battle_json: str) -> list[Battle]:
@@ -56,11 +57,11 @@ class Embedder:
         pass
 
     @staticmethod
-    def embed_conditions(battle: Battle, opponent: bool) -> torch.FloatTensor:
-        # takes in a battle object, and returns a tensor filled with the 
+    def embed_conditions(battle: Battle, opponent_pov: bool) -> torch.FloatTensor:
+        # takes in a battle object, and returns a tensor filled with the
         # side conditions of both sides, field, and weather of both sides
-        d1 = battle.opponent_side_conditions if opponent else battle.side_conditions
-        d2 = battle.side_conditions if opponent else battle.opponent_side_conditions
+        d1 = battle.opponent_side_conditions if opponent_pov else battle.side_conditions
+        d2 = battle.side_conditions if opponent_pov else battle.opponent_side_conditions
 
         embed1 = [
             -1 if SideCondition['LIGHT_SCREEN'] not in d1 else d1[SideCondition['LIGHT_SCREEN']],
@@ -112,169 +113,11 @@ class Embedder:
         #         embed.append(battle.fields[f])
         #     else:
         #         embed.append(0)
-        
+
         return torch.FloatTensor(embed)
 
-
-            
-    def _embed_move(self, id: str, prob: float) -> torch.Tensor:
-        """
-        >>> embedder = Embedder()
-        >>> embedder._embed_move("fierydance", 0).shape
-        torch.Size([52])
-        >>> embedder._embed_move("seismictoss", 0).shape
-        torch.Size([52])
-        >>> embedder._embed_move("knockoff", 0).shape
-        torch.Size([52])
-        >>> embedder._embed_move("leechseed", 0).shape
-        torch.Size([52])
-        >>> embedder._embed_move("gravapple", 0).shape
-        torch.Size([52])
-        >>> embedder._embed_move("appleacid", 0).shape
-        torch.Size([52])
-        >>> embedder._embed_move("uturn", 0).shape
-        torch.Size([52])
-        """
-        move = Move(id, gen=8)
-        embedding = [
-            prob,
-            move.accuracy,
-            move.base_power,
-            # move.breaks_protect,
-            move.category.value,
-            # move.crit_ratio,
-            # move.current_pp,
-            # move.defensive_category.value,
-            move.drain,
-            move.expected_hits,
-            # move.n_hit[0],
-            # move.n_hit[1],
-            # move.force_switch,
-            move.heal,
-            # move.ignore_ability,
-            # move.ignore_defensive,
-            # move.ignore_evasion,
-            # move.is_protect_counter,
-            move.is_protect_move,
-            move.priority,
-            # move.recoil,
-            1 if move.self_destruct == 'always' else 0,
-            move.self_switch,
-            -1 if move.side_condition is None else SideCondition[SIDE_COND_MAP[move.side_condition]].value,
-            move.sleep_usable,
-            # -1 if move.terrain is None else move.terrain.value,
-            # move.thaws_target,
-            move.type.value,
-            -1 if move.volatile_status is None else VolatileStatus[move.volatile_status].value,
-            # -1 if move.weather is None else move.weather.value
-        ]
-
-        # handle boosts
-        if move.boosts is None:
-            boosts = [0] * len(BOOSTABLE_STATS)
-        else:
-            boosts = []
-            for stat in BOOSTABLE_STATS:
-                boost = 0 if stat not in move.boosts else move.boosts[stat]
-                boosts.append(boost)
-        embedding += boosts
-
-        # # handle secondary effects
-        # secondary = []
-        # status = None
-        # secondary_boosts = None
-        # # on_hit = None
-        # volatile_status = None
-        # self_ = None
-        # for d in move.secondary:
-        #     if 'status' in d:
-        #         status = d
-        #     elif 'boosts' in d:
-        #         secondary_boosts = d
-        #     # elif 'onHit' in d:
-        #     #     on_hit = d
-        #     elif 'volatileStatus' in d:
-        #         volatile_status = d
-        #     elif 'self' in d:
-        #         self_ = d
-        #
-        # # secondary status
-        # if status is None:
-        #     secondary += [0, 0]
-        # else:
-        #     secondary += [status['chance'], Status[status['status'].upper()].value]
-        #
-        # # onHit is either "throat chop" or "anchor shot" or "tri attack", so we ignore it
-        #
-        # # (secondary) boosts
-        # if secondary_boosts is None:
-        #     secondary += [0] * (len(BOOSTABLE_STATS) + 1)
-        # else:
-        #     secondary.append(secondary_boosts['chance'])
-        #     for stat in BOOSTABLE_STATS:
-        #         boost = 0 if stat not in secondary_boosts['boosts'] else secondary_boosts['boosts'][stat]
-        #         secondary.append(boost)
-        #
-        # # volatileStatus
-        # if volatile_status is None:
-        #     secondary += [0, 0]
-        # else:
-        #     secondary += [volatile_status['chance'], VolatileStatus[volatile_status['volatileStatus']].value]
-        #
-        # # self_
-        # if self_ is None:
-        #     secondary += [0] * (len(BOOSTABLE_STATS) + 1)
-        # else:
-        #     secondary.append(self_['chance'])
-        #     for stat in BOOSTABLE_STATS:
-        #         boost = 0 if stat not in self_['self']['boosts'] else self_['self']['boosts'][stat]
-        #         secondary.append(boost)
-        #
-        # embedding += secondary
-
-        return torch.tensor(embedding).to(device=DEVICE)
-
-    def embed_moves_from_pokemon(self, pokemon: Pokemon):
-        """
-        >>> embedder = Embedder()
-        >>> embedder.embed_moves_from_pokemon(Pokemon(gen=8, species="Appletun")).shape
-        torch.Size([8, 52])
-        >>> embedder.embed_moves_from_pokemon(Pokemon(gen=8, species="Pyukumuku")).shape
-        torch.Size([8, 52])
-        >>> embedder.embed_moves_from_pokemon(Pokemon(gen=8, species="Zygarde-10%")).shape
-        torch.Size([8, 52])
-        >>> embedder.embed_moves_from_pokemon(Pokemon(gen=8, species="Dracovish")).shape
-        torch.Size([8, 52])
-        >>> embedder.embed_moves_from_pokemon(Pokemon(gen=8, species="Landorus-Therian")).shape
-        torch.Size([8, 52])
-        >>> embedder.embed_moves_from_pokemon(Pokemon(gen=8, species="Cinderace")).shape
-        torch.Size([8, 52])
-        >>> embedder.embed_moves_from_pokemon(Pokemon(gen=8, species="Solrock")).shape
-        torch.Size([8, 52])
-        >>> embedder.embed_moves_from_pokemon(Pokemon(gen=8, species="Type: Null")).shape
-        torch.Size([8, 52])
-        """
-        # make move embeddings
-        embeddings = []
-        moves = POKEDEX[pokemon.species]['moves']
-        # for name, prob in sorted(moves.items()):
-        items_list = list(moves.items())
-        
-        for name, prob in random.sample(items_list, len(items_list)):
-            id = re.sub(r"\s|-|'", "", name.lower())
-            embedding = self._embed_move(id, prob)
-            embeddings.append(embedding)
-        embeddings = torch.stack(embeddings).to(device=DEVICE)
-
-        # add unknown move embeddings
-        num_unknown_moves = MAX_MOVES - len(embeddings)
-        embed_dim = embeddings.shape[1]
-        unknown_move_embeddings = torch.full((num_unknown_moves, embed_dim), fill_value=-1).to(device=DEVICE)
-
-        return torch.concat([embeddings, unknown_move_embeddings]).to(device=DEVICE)
-
     @staticmethod
-    def embed_pokemon(pokemon: Pokemon) -> torch.Tensor:
+    def embed_pokemon(pokemon: Pokemon, is_active: bool) -> torch.Tensor:
         """
         >>> embedder = Embedder()
         >>> battles = process_battle("../cache/replays/gen8randombattle-1123651831.json")
@@ -288,12 +131,13 @@ class Embedder:
 
         data = POKEDEX[pokemon.species]
         embedding = [
+            is_active,
             pokemon.current_hp or 0,  # handles when current_hp is None
-            # pokemon.first_turn,
+            pokemon.first_turn,
             pokemon.is_dynamaxed,
-            # pokemon.level,
-            # pokemon.must_recharge or pokemon.preparing,  # TODO: handle recharge and preparing
-            # pokemon.protect_counter,
+            pokemon.level,
+            pokemon.must_recharge or pokemon.preparing,  # TODO: handle recharge and preparing
+            pokemon.protect_counter,
             pokemon.type_1.value,
             -1 if pokemon.type_2 is None else pokemon.type_2.value,
             -1 if pokemon.status is None else pokemon.status.value,
@@ -302,13 +146,13 @@ class Embedder:
         ]
 
         # abilities
-        # abilities = []
-        # if pokemon.ability == 'unknown_ability' or pokemon.ability is None:
-        #     for ability, prob in data['abilities'].items():
-        #         abilities += [prob, Ability[ability].value]
-        # else:
-        #     abilities += [1, Ability[pokemon.ability].value]
-        # abilities += [0] * (2 * MAX_ABILITIES - len(abilities))
+        abilities = []
+        if pokemon.ability == 'unknown_ability' or pokemon.ability is None:
+            for ability, prob in data['abilities'].items():
+                abilities += [prob, Ability[ability].value]
+        else:
+            abilities += [1, Ability[pokemon.ability].value]
+        abilities += [0] * (2 * MAX_ABILITIES - len(abilities))
 
         # items
         # TODO: handle knocked off items
@@ -327,10 +171,10 @@ class Embedder:
         effects = [
             Effect['CONFUSION'] in pokemon.effects,
             Effect['ENCORE'] in pokemon.effects,
-            # Effect['FLASH_FIRE'] in pokemon.effects,
+            Effect['FLASH_FIRE'] in pokemon.effects,
             any(e in pokemon.effects for e in (Effect['FIRE_SPIN'], Effect['TRAPPED'], Effect['MAGMA_STORM'], Effect['WHIRLPOOL'])),
             Effect['LEECH_SEED'] in pokemon.effects,
-            # Effect['STICKY_WEB'] in pokemon.effects,
+            Effect['STICKY_WEB'] in pokemon.effects,
             Effect['SUBSTITUTE'] in pokemon.effects,
             Effect['YAWN'] in pokemon.effects,
             Effect['NO_RETREAT'] in pokemon.effects,
@@ -338,19 +182,10 @@ class Embedder:
         ]
 
         # stats
-        stats = pokemon.base_stats.copy()
-        for stat, val in stats.items():
-            if stat != 'hp':
-                stats[stat] = val + 1 * pokemon.boosts[stat]
-            if 'evs' in data:
-                evs = DEFAULT_EVS
-                if stat in data['evs']:
-                    evs += data['evs'][stat]
-                stats[stat] = round(stats[stat] + evs // EVS_PER_INC + pokemon.level * DEFAULT_IVS)
-        stats = [val for stat, val in sorted(stats.items())]
-
-        # embedding = torch.Tensor(abilities + items + stats + effects + embedding)
-        embedding = torch.Tensor(items + stats + effects + embedding)
+        stats = [value for _, value in sorted(calc_stats(pokemon).items())]
+        # print(type(abilities), type(items), type(stats), type(effects), type(embedding))
+        embedding = torch.Tensor(abilities + items + stats + effects + embedding)
+        # embedding = torch.Tensor(items + stats + effects + embedding)
         return embedding.to(device=DEVICE)
 
 
