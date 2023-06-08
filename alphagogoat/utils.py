@@ -24,7 +24,7 @@ def vec2action(vec: torch.Tensor, turn: Battle, opponent_pov: bool):
     if i >= MAX_MOVES:
         i -= MAX_MOVES
         team = sorted([mon.species for mon in team.values()])
-        if i >= len(team):
+        if i == len(team):
             return ("switch", "unseen")
         else:
             return ("switch", team[i])
@@ -56,8 +56,11 @@ def action2vec(action: tuple[str, str], team: dict[str: Pokemon], active: Pokemo
     else:  # action[0] == 'switch':
         team = sorted([mon.species for mon in team.values()])
         switched_in = action[1]
-        if switched_in in team:
-            i = MAX_MOVES + team.index(switched_in)
+        for j, species in enumerate(team):
+            # handles problem where the log records pokemon like 'moltres-galar' as 'moltres'
+            if species.startswith(switched_in):
+                i = j
+                break
         else:
             # unseen pokemon
             i = MAX_MOVES + len(team)
@@ -112,7 +115,9 @@ def make_delphox_data(filepath):
         clean_actions1.append(a1)
         clean_actions2.append(a2)
 
+    # return turns[-10:], clean_actions1[-10:], clean_actions2[-10:]
     return turns, clean_actions1, clean_actions2
+
 
 
 def make_victini_data(filepath):

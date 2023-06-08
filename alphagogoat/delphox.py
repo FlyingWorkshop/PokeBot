@@ -2,6 +2,7 @@ import random
 import itertools
 import statistics
 
+import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -168,25 +169,23 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5):
     total_wrong = 0
     total_correct = 0
 
-    # new_data = process_data(data, discount)
-    # TODO: remove debug code
-    new_data = []
-    for turns, actions1, actions2 in data:
-        for i, (turn, a1, a2) in enumerate(zip(turns, actions1, actions2)):
-            gamma = 1 - discount / math.exp(i)
-            v1 = action2vec(a1, turn.team, turn.active_pokemon)
-            v2 = action2vec(a2, turn.opponent_team, turn.opponent_active_pokemon)
-            new_data += [(turn, a1, v1, gamma, False), (turn, a2, v2, gamma, True)]
+    new_data = process_data(data, discount)
 
     for turn, action, vec, gamma, opponent_pov in new_data:
         optimizer.zero_grad()
         x = make_x(turn, opponent_pov)
         mask = get_legality(turn, opponent_pov)
         pred = delphox(x, mask)
-        print(pred.detach().numpy())
-        print(turn.battle_tag)
         pred_action = vec2action(pred, turn, opponent_pov)
-        if pred_action == action:
+
+        if action[0] == 'switch':
+            team = turn.opponent_team.values() if opponent_pov else turn.team.values()
+            team = [mon.species for mon in team]
+            switched_in = action[1]
+            if not any(species.startswith(switched_in) for species in team):
+                action = ("switch", f"unseen {action[1]}")
+
+        if pred.argmax().item() == vec.argmax().item():
             total_correct += 1
             color = GREEN
         else:
@@ -201,6 +200,7 @@ def train(delphox: Delphox, data, lr=0.001, discount=0.5, weight_decay=1e-5):
             mon2 = turn.opponent_active_pokemon.species
 
         print(color + "{:<30} {:<30} {:<30} {:<30}".format(mon1, mon2, str(pred_action), str(action)) + RESET)
+        print(np.around(pred.detach().numpy(), decimals=3))
         L = gamma * (delphox.loss(pred, vec))
         print(f"loss: {L.item()}")
         L.backward()
