@@ -10,7 +10,9 @@ from poke_env.environment import Battle, Pokemon, Move
 from .constants import POKEDEX, NUM_POKEMON_PER_TEAM, MAX_MOVES, MoveEnum
 from .embedder import Embedder
 from .utils import vec2str
-from .calculator import calc_damage
+from .calculator import calc_damage, average_pokemon_stats
+import victini
+from copy import deepcopy
 
 import math
 import random
@@ -60,7 +62,6 @@ def make_damages(team1: list[Pokemon], team2: list[Pokemon], turn: Battle):
             damage = damage + [-1] * (MAX_MOVES - len(damage))
             damages.append(damage)
     return torch.Tensor(damages).flatten()
-
 
 def make_x(turn: Battle, opponent_pov: bool):
     if opponent_pov:

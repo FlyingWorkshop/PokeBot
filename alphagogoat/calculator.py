@@ -5,6 +5,18 @@ from math import floor
 from .pokedex import POKEDEX
 from .constants import DEFAULT_EVS, DEFAULT_IVS, EVS_PER_INC
 
+def average_pokemon_stats():
+    overall_stats = {}
+    ev = DEFAULT_EVS
+    defaults = {'hp': 80, 'atk': 90, 'def': 83, 'spa': 83, 'spd': 83, 'spe': 78}
+
+    for stat, base in defaults.items():
+        overall_stats[stat] = floor(
+            (2 * base + DEFAULT_IVS + ev // 4) * 100 / 100
+        ) + 5
+
+    return overall_stats
+
 def calc_stats(pokemon: Pokemon):
     # TODO: handle dynamax
     overall_stats = {}
@@ -29,9 +41,12 @@ def calc_stats(pokemon: Pokemon):
 
     return overall_stats
 
-def calc_damage(attacking: Pokemon, move: Move, target: Pokemon, turn: Battle, is_critical=False):
+def calc_damage(attacking: Pokemon, move: Move, target: Pokemon, turn: Battle, is_critical=False, unknownOpp = False):
     attacking_stats = calc_stats(attacking)
-    target_stats = calc_stats(target)
+    if unknownOpp:
+        target_stats = average_pokemon_stats()
+    else:
+        target_stats = calc_stats(target)
     level = attacking.level
     if move.category == MoveCategory.PHYSICAL:
         A = attacking_stats['atk']
@@ -62,7 +77,7 @@ def calc_damage(attacking: Pokemon, move: Move, target: Pokemon, turn: Battle, i
 
     if move.id in ['wickedblow', 'stormthrow', 'frostbreath', 'zippyzap', 'surgingstrikes']:
         is_critical = True
-    if target.ability in ['battlearmor', 'shellarmor']:
+    if not unknownOpp and target.ability in ['battlearmor', 'shellarmor']:
         is_critical = False
     critical = 1.5 if is_critical else 1
 
@@ -70,16 +85,19 @@ def calc_damage(attacking: Pokemon, move: Move, target: Pokemon, turn: Battle, i
     if attacking.type_1 == move.type or attacking.type_2 == move.type or attacking.ability == 'adaptability':
         STAB = 1.5
 
-    type_effectiveness = target.damage_multiplier(move)
-    if move.id == 'thousandarrows' and target.type_1 == PokemonType.FLYING or target.type_2 == PokemonType.FLYING:
+    if unknownOpp:
         type_effectiveness = 1
-    # TODO: handle if target is grounded
-    if attacking.ability == 'scrappy':
-        is_ghost = target.type_1 == PokemonType.GHOST or target.type_2 == PokemonType.GHOST
-        if is_ghost and (move.type == PokemonType.NORMAL or move.type == PokemonType.FIGHTING):
+    else:
+        type_effectiveness = target.damage_multiplier(move)
+        if move.id == 'thousandarrows' and target.type_1 == PokemonType.FLYING or target.type_2 == PokemonType.FLYING:
             type_effectiveness = 1
-    if move.id == 'freezedry' and (target.type_1 == PokemonType.WATER or target.type_2 == PokemonType.WATER):
-        type_effectiveness = 2
+        # TODO: handle if target is grounded
+        if attacking.ability == 'scrappy':
+            is_ghost = target.type_1 == PokemonType.GHOST or target.type_2 == PokemonType.GHOST
+            if is_ghost and (move.type == PokemonType.NORMAL or move.type == PokemonType.FIGHTING):
+                type_effectiveness = 1
+        if move.id == 'freezedry' and (target.type_1 == PokemonType.WATER or target.type_2 == PokemonType.WATER):
+            type_effectiveness = 2
 
     # TODO: figure out if pokemon showdown bundles this into boost
     burn = 1

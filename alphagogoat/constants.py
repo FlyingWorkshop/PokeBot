@@ -1,6 +1,8 @@
 import torch
 
 from .catalogs import *
+from poke_env.environment.pokemon import Pokemon
+from math import floor
 
 MAX_MOVES = 0
 MAX_ITEMS = 0
@@ -31,3 +33,5 @@ TOTAL_POSSIBLE_MOVES = len(MoveEnum)
 # NUM_HIDDEN_LAYERS = 2
 
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+# UNKNOWN_POKEMON = Pokemon(gen = 8, species= "simipour")

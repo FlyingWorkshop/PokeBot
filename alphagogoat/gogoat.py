@@ -26,19 +26,35 @@ class MCTS(nn.Module):
         self.future = future_editor
 
     def selectExpand(self, node: Battle):
+
+        possible_switches_me = [p for p in node.team.values() if p != node.active_pokemon and p.status['fnt'] == 0]
+        num_fainted_me = 0
+        for p in node.team.values():
+            if p.status['fnt'] == 1:
+                num_fainted_me += 1
+        if len(possible_switches_me) + num_fainted_me < 5:
+            possible_switches_me.append("unknown")
         
-        possible_actions_me = [p for p in POKEDEX[node.state.active_pokemon]['moves'].keys() if p != 'struggle'] + ['switch']
+        possible_switches_opponent = [p for p in node.opponent_team.values() if p != node.opponent_active_pokemon and p.status['fnt'] == 0]
+        num_fainted_opponent = 0
+        for p in node.opponent_team.values():
+            if p.status['fnt'] == 1:
+                num_fainted_opponent += 1
+        if len(possible_switches_opponent) +  num_fainted_opponent < 5:
+            possible_switches_opponent.append("unknown")
+        
+        possible_actions_me = list(product([node.active_pokemon.species], [p for p in POKEDEX[node.state.active_pokemon]['moves'].keys() if p != 'struggle'])) + list(product(['switch'], possible_switches_me))
         # possible_actions_me = [EMB.embed_move(p) for p in possible_actions_me]
 
-        possible_actions_opponent = [p for p in POKEDEX[node.state.opponent_active_pokemon]['moves'].keys() if p != 'struggle'] + ['switch']
+        possible_actions_opponent = list(product([node.opponent_active_pokemon.species], [p for p in POKEDEX[node.state.opponent_active_pokemon]['moves'].keys() if p != 'struggle'])) + list(product(['switch'], possible_switches_opponent))
         # possible_actions_opponent = [EMB.embed_move(p) for p in possible_actions_opponent]
 
         return list(set(product(possible_actions_me, possible_actions_opponent)))
     
-    def simulation(self, node: Battle, action: tuple):
+    def simulation(self, node: Battle, action: tuple(tuple(str, str), tuple(str, str))) -> float:
         # Use the value network to estimate the game outcome
         delphox_input, delphox_mask = delphox.make_x(node, False), delphox.get_mask(node)
-        future = self.future(node, (EMB.embed_move(action[0]), EMB.embed_move(action[1])))
+        future = self.future(node, action)
         victini_input = future
 
         with torch.no_grad():
@@ -46,7 +62,6 @@ class MCTS(nn.Module):
             value_estimate = value_estimate.item()
             dist = self.delphox(delphox_input, delphox_mask)
             prob1, prob2 = dist[MoveEnum[action[0]] - 1], dist[MoveEnum[action[1] - 1]]
-
         # Convert the value estimate to a simple scalar
         
         return prob1 * prob2 * value_estimate
