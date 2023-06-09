@@ -3,19 +3,27 @@ import json
 
 from poke_env import ShowdownServerConfiguration, PlayerConfiguration
 from poke_env.player import RandomPlayer, Player
-from alphagogoat.gogoat import AlphaGogoat
+from alphagogoat.gogoat import MCTS
+from poke_env.environment import Battle
 
-class MaxDamagePlayer(Player):
-    def choose_move(self, battle):
+sauce = MCTS()
+class RLPlayer(Player):
+    
+
+    def choose_move(self, battle: Battle):
         # If the player can attack, it will
         if battle.available_moves:
             # Finds the best move among available ones
-            best_move = max(battle.available_moves, key=lambda move: move.base_power)
+            best_move = sauce.get_action(battle)
+
+            if best_move == 'random':
+                return self.choose_random_move(battle)
+
             return self.create_order(best_move)
 
         # If no attack is available, a random switch will be made
-        else:
-            return self.choose_random_move(battle)
+        # else:
+        #     return self.choose_random_move(battle)
 
 
 
@@ -32,7 +40,7 @@ async def main():
     #     player_configuration=PlayerConfiguration(data['username'], data['password']),
     #     server_configuration=ShowdownServerConfiguration,
     # )
-    player = MaxDamagePlayer(
+    player = RLPlayer(
         player_configuration=PlayerConfiguration(data['username'], data['password']),
         server_configuration=ShowdownServerConfiguration,
         avatar='youngn',

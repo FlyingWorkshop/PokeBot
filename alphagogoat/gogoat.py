@@ -7,26 +7,30 @@ from gym.spaces import Space, Box
 from poke_env.environment.abstract_battle import AbstractBattle
 from poke_env.player import Gen8EnvSinglePlayer
 from poke_env.environment.battle import Battle
-import delphox
-import victini
-from constants import LSTM_INPUT_SIZE, MoveEnum
-from pokedex import POKEDEX
+from poke_env.environment.move import Move
+from poke_env.environment.pokemon import Pokemon
+from .delphox import Delphox
+from .delphox import make_x as delphox_make_x
+from .delphox import get_mask as delphox_make_mask
+from .victini import Victini
+from .constants import LSTM_INPUT_SIZE, MoveEnum
+from .pokedex import POKEDEX
 import torch.nn as nn
 import numpy as np
-from embedder import Embedder
+from .embedder import Embedder
 from itertools import product
 import math
-from victini import computeFuture
+from .victini import computeFuture
 
 EMB = Embedder() 
 
-VICT = victini.Victini(964)
+VICT = Victini(964)
 VICT.load_state_dict(torch.load("victini.pth"))
 
-DELPH = delphox.Delphox(964)
+DELPH = Delphox(964)
 DELPH.load_state_dict(torch.load("delphox.pth"))
 
-class MCTS(Gen8EnvSinglePlayer):
+class MCTS:
     def __init__(self):
         self.delphox = DELPH
         self.victini = VICT
@@ -57,7 +61,7 @@ class MCTS(Gen8EnvSinglePlayer):
     
     def simulation(self, node: Battle, action: tuple(tuple(str, str), tuple(str, str))) -> float:
         # Use the value network to estimate the game outcome
-        delphox_input, delphox_mask = delphox.make_x(node, False), delphox.get_mask(node)
+        delphox_input, delphox_mask = delphox_make_x(node, False), delphox_make_mask(node)
         future = self.future(node, action)
         victini_input = future
 
@@ -81,7 +85,13 @@ class MCTS(Gen8EnvSinglePlayer):
                 if best_action == 'switch':
                     best_action += ' ' + action[1]
         
-        return best_action
+        if not best_action.startswith('switch'):
+            return Move(best_action, gen=8)
+    
+        if not best_action.endswith('unknown'):
+            return Pokemon(species=best_action.split(' ')[1], gen=8)
+        else:
+            return 'random'
 
 
 # class AlphaGogoat(Gen8EnvSinglePlayer):

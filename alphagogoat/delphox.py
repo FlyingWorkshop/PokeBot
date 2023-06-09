@@ -11,7 +11,6 @@ from .constants import POKEDEX, NUM_POKEMON_PER_TEAM, MAX_MOVES, MoveEnum
 from .embedder import Embedder
 from .utils import vec2str
 from .calculator import calc_damage, average_pokemon_stats
-import victini
 from copy import deepcopy
 
 import math
