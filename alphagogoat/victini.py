@@ -54,9 +54,9 @@ def non_dmg_changes(current: Battle, move: Move, is_opponent: bool) -> None:
         if move.self_boost is not None:
             for b in move.self_boost:
                 if b in current.active_pokemon.boosts:
-                    current.active_pokemon.boosts[b] += move.self_boosts[b]
+                    current.active_pokemon.boosts[b] += move.self_boost[b]
                 else:
-                    current.active_pokemon.boosts[b] = move.self_boosts[b]
+                    current.active_pokemon.boosts[b] = move.self_boost[b]
         
         current.active_pokemon._current_hp += move.heal
 
@@ -77,11 +77,11 @@ def non_dmg_changes(current: Battle, move: Move, is_opponent: bool) -> None:
                     current.active_pokemon.boosts[b] = move.boosts[b]
 
         if move.self_boost is not None:
-            for b in move.self_boosts:
+            for b in move.self_boost:
                 if b in current.active_pokemon.boosts:
-                    current.opponent_active_pokemon.boosts[b] += move.self_boosts[b]
+                    current.opponent_active_pokemon.boosts[b] += move.self_boost[b]
                 else:
-                    current.opponent_active_pokemon.boosts[b] = move.self_boosts[b]
+                    current.opponent_active_pokemon.boosts[b] = move.self_boost[b]
         
         current.opponent_active_pokemon._current_hp += move.heal
 
