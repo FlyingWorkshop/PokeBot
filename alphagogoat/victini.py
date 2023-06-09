@@ -44,22 +44,24 @@ class Victini(nn.Module):
 def non_dmg_changes(current: Battle, move: Move, is_opponent: bool) -> None:
     
     if not is_opponent:
-        for b in move.boosts:
-            if b in current.active_pokemon.boosts:
-                current.opponent_active_pokemon.boosts[b] += move.boosts[b]
-            else:
-                current.opponent_active_pokemon.boosts[b] = move.boosts[b]
+        if move.boosts is not None:
+            for b in move.boosts:
+                if b in current.active_pokemon.boosts:
+                    current.opponent_active_pokemon.boosts[b] += move.boosts[b]
+                else:
+                    current.opponent_active_pokemon.boosts[b] = move.boosts[b]
             
-        for b in move.self_boosts:
-            if b in current.active_pokemon.boosts:
-                current.active_pokemon.boosts[b] += move.self_boosts[b]
-            else:
-                current.active_pokemon.boosts[b] = move.self_boosts[b]
+        if move.self_boost is not None:
+            for b in move.self_boost:
+                if b in current.active_pokemon.boosts:
+                    current.active_pokemon.boosts[b] += move.self_boosts[b]
+                else:
+                    current.active_pokemon.boosts[b] = move.self_boosts[b]
         
         current.active_pokemon._current_hp += move.heal
 
-        if move.side_conditions is not None:
-            current.side_conditions[SideCondition[move.side_conditions]] += 1 if (move.side_conditions in STACKABLE_CONDITIONS) else 1
+        if move.side_condition is not None:
+            current.side_conditions[SideCondition[move.side_condition]] += 1 if (move.side_condition in STACKABLE_CONDITIONS) else 1
         
         if move.weather is not None:
             current.weather = {move.weather: current.turn}
@@ -67,22 +69,24 @@ def non_dmg_changes(current: Battle, move: Move, is_opponent: bool) -> None:
         if move.terrain is not None:
             current.fields = current._field_start(move.terrain)
     else:
-        for b in move.boosts:
-            if b in current.opponent_active_pokemon.boosts:
-                current.active_pokemon.boosts[b] += move.boosts[b]
-            else:
-                current.active_pokemon.boosts[b] = move.boosts[b]
-            
-        for b in move.self_boosts:
-            if b in current.active_pokemon.boosts:
-                current.opponent_active_pokemon.boosts[b] += move.self_boosts[b]
-            else:
-                current.opponent_active_pokemon.boosts[b] = move.self_boosts[b]
+        if move.boosts is not None:
+            for b in move.boosts:
+                if b in current.opponent_active_pokemon.boosts:
+                    current.active_pokemon.boosts[b] += move.boosts[b]
+                else:
+                    current.active_pokemon.boosts[b] = move.boosts[b]
+
+        if move.self_boost is not None:
+            for b in move.self_boosts:
+                if b in current.active_pokemon.boosts:
+                    current.opponent_active_pokemon.boosts[b] += move.self_boosts[b]
+                else:
+                    current.opponent_active_pokemon.boosts[b] = move.self_boosts[b]
         
         current.opponent_active_pokemon._current_hp += move.heal
 
-        if move.side_conditions is not None:
-            current.opponent_side_conditions[SideCondition[move.side_conditions]] += 1 if (move.side_conditions in STACKABLE_CONDITIONS) else 1
+        if move.side_condition is not None:
+            current.opponent_side_conditions[SideCondition[move.side_condition]] += 1 if (move.side_condition in STACKABLE_CONDITIONS) else 1
         
         if move.weather is not None:
             current.weather = {move.weather: current.turn}
@@ -168,8 +172,8 @@ def computeFuture(current: Battle, action) -> torch.Tensor:
         return make_x(temp_curr)
 
     elif action[0][0] != "switch" and action[1][0] != "switch":
-        priority_me = Move(action[0][0], 8).priority
-        priority_opponent = Move(action[1][0], 8).priority
+        priority_me = Move(action[0][1], 8).priority
+        priority_opponent = Move(action[1][1], 8).priority
 
         if priority_me > priority_opponent:
             dmg_to_opp = sum(calc_damage(temp_curr.active_pokemon, Move(action[0][1], 8), temp_curr.opponent_active_pokemon, temp_curr)) // 2
