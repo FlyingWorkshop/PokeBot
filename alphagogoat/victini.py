@@ -4,8 +4,9 @@ import itertools
 import torch.autograd
 import torch.nn as nn
 import torch.nn.functional as F
-from poke_env.environment import Battle, Pokemon, Move
+from poke_env.environment import Battle, Pokemon, Move, SideCondition
 from poke_env.environment.status import Status
+from poke_env.environment.side_condition import STACKABLE_CONDITIONS
 
 from .embedder import Embedder
 from .constants import POKEDEX, NUM_POKEMON_PER_TEAM, MAX_MOVES
@@ -39,6 +40,55 @@ class Victini(nn.Module):
 
     def forward(self, x):
         return self.model(x.squeeze())
+
+def non_dmg_changes(current: Battle, move: Move, is_opponent: bool) -> None:
+    
+    if not is_opponent:
+        for b in move.boosts:
+            if b in current.active_pokemon.boosts:
+                current.opponent_active_pokemon.boosts[b] += move.boosts[b]
+            else:
+                current.opponent_active_pokemon.boosts[b] = move.boosts[b]
+            
+        for b in move.self_boosts:
+            if b in current.active_pokemon.boosts:
+                current.active_pokemon.boosts[b] += move.self_boosts[b]
+            else:
+                current.active_pokemon.boosts[b] = move.self_boosts[b]
+        
+        current.active_pokemon._current_hp += move.heal
+
+        if move.side_conditions is not None:
+            current.side_conditions[SideCondition[move.side_conditions]] += 1 if (move.side_conditions in STACKABLE_CONDITIONS) else 1
+        
+        if move.weather is not None:
+            current.weather = {move.weather: current.turn}
+
+        if move.terrain is not None:
+            current.fields = current._field_start(move.terrain)
+    else:
+        for b in move.boosts:
+            if b in current.opponent_active_pokemon.boosts:
+                current.active_pokemon.boosts[b] += move.boosts[b]
+            else:
+                current.active_pokemon.boosts[b] = move.boosts[b]
+            
+        for b in move.self_boosts:
+            if b in current.active_pokemon.boosts:
+                current.opponent_active_pokemon.boosts[b] += move.self_boosts[b]
+            else:
+                current.opponent_active_pokemon.boosts[b] = move.self_boosts[b]
+        
+        current.opponent_active_pokemon._current_hp += move.heal
+
+        if move.side_conditions is not None:
+            current.opponent_side_conditions[SideCondition[move.side_conditions]] += 1 if (move.side_conditions in STACKABLE_CONDITIONS) else 1
+        
+        if move.weather is not None:
+            current.weather = {move.weather: current.turn}
+
+        if move.terrain is not None:
+            current.fields = current._field_start(move.terrain)
 
 def computeFuture(current: Battle, action) -> torch.Tensor:
     """
@@ -84,11 +134,13 @@ def computeFuture(current: Battle, action) -> torch.Tensor:
         temp_curr.team[new_pokemon_me.species] = new_pokemon_me
 
         # do damage calculation
-        dmg_to_me = sum(calc_damage(temp_curr.opponent_active_pokemon, Move(action[1][0], 8), temp_curr.active_pokemon, temp_curr)) // 2
+        dmg_to_me = sum(calc_damage(temp_curr.opponent_active_pokemon, Move(action[1][1], 8), temp_curr.active_pokemon, temp_curr)) // 2
         if temp_curr.active_pokemon.current_hp - dmg_to_me <= 0:
-            temp_curr.active_pokemon= Status['FNT']
+            temp_curr.active_pokemon._status= Status['FNT']
         else:
             temp_curr.active_pokemon._current_hp -= dmg_to_me
+        
+        non_dmg_changes(temp_curr, Move(action[1][1], 8), True)
         
         return make_x(temp_curr)
     
@@ -104,11 +156,14 @@ def computeFuture(current: Battle, action) -> torch.Tensor:
         temp_curr.opponent_team[new_pokemon_them.species] = new_pokemon_them
 
         # do damage calculation
-        dmg_to_opp = sum(calc_damage(temp_curr.active_pokemon, Move(action[0][0], 8), temp_curr.opponent_active_pokemon, temp_curr)) // 2
+        dmg_to_opp = sum(calc_damage(temp_curr.active_pokemon, Move(action[0][1], 8), temp_curr.opponent_active_pokemon, temp_curr)) // 2
         if temp_curr.opponent_active_pokemon.current_hp - dmg_to_opp <= 0:
-            temp_curr.opponent_active_pokemon= Status['FNT']
+            temp_curr.opponent_active_pokemon._status= Status['FNT']
         else:
             temp_curr.opponent_active_pokemon._current_hp -= dmg_to_opp
+        
+        #do all other battle changes
+        non_dmg_changes(temp_curr, Move(action[0][1], 8), True)
         
         return make_x(temp_curr)
 
@@ -117,60 +172,92 @@ def computeFuture(current: Battle, action) -> torch.Tensor:
         priority_opponent = Move(action[1][0], 8).priority
 
         if priority_me > priority_opponent:
-            dmg_to_opp = sum(calc_damage(temp_curr.active_pokemon, Move(action[0][0], 8), temp_curr.opponent_active_pokemon, temp_curr)) // 2
+            dmg_to_opp = sum(calc_damage(temp_curr.active_pokemon, Move(action[0][1], 8), temp_curr.opponent_active_pokemon, temp_curr)) // 2
             if temp_curr.opponent_active_pokemon.current_hp - dmg_to_opp <= 0:
-                temp_curr.opponent_active_pokemon= Status['FNT']
+                temp_curr.opponent_active_pokemon._status= Status['FNT']
             else:
                 temp_curr.opponent_active_pokemon._current_hp -= dmg_to_opp
+                non_dmg_changes(temp_curr, Move(action[0][1], 8), False)
+                
+            if temp_curr.opponent_active_pokemon._status != Status['FNT']:
+                dmg_to_me = sum(calc_damage(temp_curr.opponent_active_pokemon, Move(action[1][1], 8), temp_curr.active_pokemon, temp_curr)) // 2
+                if temp_curr.active_pokemon.current_hp - dmg_to_me <= 0:
+                    temp_curr.active_pokemon._status= Status['FNT']
+                else:
+                    temp_curr.active_pokemon._current_hp -= dmg_to_me
+                    non_dmg_changes(temp_curr, Move(action[1][1], 8), True)
+
         elif priority_me < priority_opponent:
-            dmg_to_me = sum(calc_damage(temp_curr.opponent_active_pokemon, Move(action[1][0], 8), temp_curr.active_pokemon, temp_curr)) // 2
+            dmg_to_me = sum(calc_damage(temp_curr.opponent_active_pokemon, Move(action[1][1], 8), temp_curr.active_pokemon, temp_curr)) // 2
             if temp_curr.active_pokemon.current_hp - dmg_to_me <= 0:
-                temp_curr.active_pokemon= Status['FNT']
+                temp_curr.active_pokemon._status= Status['FNT']
             else:
                 temp_curr.active_pokemon._current_hp -= dmg_to_me
+                non_dmg_changes(temp_curr, Move(action[1][1], 8), True)
+        
+            if temp_curr.active_pokemon._status != Status['FNT']:
+                dmg_to_opp = sum(calc_damage(temp_curr.active_pokemon, Move(action[0][1], 8), temp_curr.opponent_active_pokemon, temp_curr)) // 2
+                if temp_curr.opponent_active_pokemon.current_hp - dmg_to_opp <= 0:
+                    temp_curr.opponent_active_pokemon._status= Status['FNT']
+                else:
+                    temp_curr.opponent_active_pokemon._current_hp -= dmg_to_opp
+                    non_dmg_changes(temp_curr, Move(action[0][1], 8), False)
         else:
-            dmg_to_opp = sum(calc_damage(temp_curr.active_pokemon, Move(action[0][0], 8), temp_curr.opponent_active_pokemon, temp_curr)) // 2
-            dmg_to_me = sum(calc_damage(temp_curr.opponent_active_pokemon, Move(action[1][0], 8), temp_curr.active_pokemon, temp_curr)) // 2
+            dmg_to_opp = sum(calc_damage(temp_curr.active_pokemon, Move(action[0][1], 8), temp_curr.opponent_active_pokemon, temp_curr)) // 2
+            dmg_to_me = sum(calc_damage(temp_curr.opponent_active_pokemon, Move(action[1][1], 8), temp_curr.active_pokemon, temp_curr)) // 2
 
             if temp_curr.active_pokemon.base_stats['spe'] > temp_curr.opponent_active_pokemon.base_stats['spe']:
                 if temp_curr.opponent_active_pokemon.current_hp - dmg_to_opp <= 0:
-                    temp_curr.opponent_active_pokemon= Status['FNT']
+                    temp_curr.opponent_active_pokemon._status= Status['FNT']
                 else:
                     temp_curr.opponent_active_pokemon._current_hp -= dmg_to_opp
+                    non_dmg_changes(temp_curr, Move(action[0][1], 8), False)
                     if temp_curr.active_pokemon.current_hp - dmg_to_me <= 0:
-                        temp_curr.active_pokemon= Status['FNT']
+                        temp_curr.active_pokemon._status= Status['FNT']
                     else:
                         temp_curr.active_pokemon._current_hp -= dmg_to_me
+                        non_dmg_changes(temp_curr, Move(action[1][1], 8), True)
+            
             elif temp_curr.active_pokemon.base_stats['spe'] < temp_curr.opponent_active_pokemon.base_stats['spe']:
                 if temp_curr.active_pokemon.current_hp - dmg_to_me <= 0:
-                    temp_curr.active_pokemon= Status['FNT']
+                    temp_curr.active_pokemon._status= Status['FNT']
                 else:
                     temp_curr.active_pokemon._current_hp -= dmg_to_me
+                    non_dmg_changes(temp_curr, Move(action[1][1], 8), True)
                     if temp_curr.opponent_active_pokemon.current_hp - dmg_to_opp <= 0:
-                        temp_curr.opponent_active_pokemon._status = Status['FNT']
+                        temp_curr.opponent_active_pokemon._status= Status['FNT']
                     else:
                         temp_curr.opponent_active_pokemon._current_hp -= dmg_to_opp
+                        non_dmg_changes(temp_curr, Move(action[0][1], 8), False)
+                    
             else:
-                #speed tie win with 50% chance
                 if random.random() < 0.5:
                     if temp_curr.opponent_active_pokemon.current_hp - dmg_to_opp <= 0:
                         temp_curr.opponent_active_pokemon= Status['FNT']
+                        temp_curr.opponent_active_pokemon._current_hp = 0
                     else:
                         temp_curr.opponent_active_pokemon._current_hp -= dmg_to_opp
+                        non_dmg_changes(temp_curr, Move(action[0][1], 8), False)
                         if temp_curr.active_pokemon.current_hp - dmg_to_me <= 0:
-                            temp_curr.active_pokemon= Status['FNT']
+                            temp_curr.active_pokemon._status= Status['FNT']
+                            temp_curr.active_pokemon._current_hp = 0
                         else:
                             temp_curr.active_pokemon._current_hp -= dmg_to_me
+                            non_dmg_changes(temp_curr, Move(action[1][1], 8), True)
+
                 else:
                     if temp_curr.active_pokemon.current_hp - dmg_to_me <= 0:
-                        temp_curr.active_pokemon= Status['FNT']
+                        temp_curr.active_pokemon._status= Status['FNT']
+                        temp_curr.active_pokemon._current_hp = 0
                     else:
                         temp_curr.active_pokemon._current_hp -= dmg_to_me
+                        non_dmg_changes(temp_curr, Move(action[1][1], 8), True)
                         if temp_curr.opponent_active_pokemon.current_hp - dmg_to_opp <= 0:
-                            temp_curr.opponent_active_pokemon= Status['FNT']
+                            temp_curr.opponent_active_pokemon._status= Status['FNT']
+                            temp_curr.opponent_active_pokemon._current_hp = 0
                         else:
                             temp_curr.opponent_active_pokemon._current_hp -= dmg_to_opp
-        
+                            non_dmg_changes(temp_curr, Move(action[0][1], 8), False)
         return make_x(temp_curr)
 
 def make_damages(team1: list[Pokemon], team2: list[Pokemon], turn: Battle):
