@@ -7,36 +7,30 @@ import torch
 from poke_env.environment.battle import Battle, Pokemon
 
 from .catalogs import MoveEnum
-from .constants import MAX_MOVES
+from .constants import MAX_MOVES, NUM_POKEMON_PER_TEAM
 from .pokedex import POKEDEX
 
 LOGGER = logging.getLogger('poke-env')
 
-# def move2ind(m):
-#     return MoveEnum[re.sub(r"\s|-|'", "", m.lower())].value - 1
-#
-#
-# def vec2str(pred: torch.Tensor):
-#     i = pred.argmax().item()
-#     if i == len(MoveEnum):
-#         return 'switch'
-#     else:
-#         return MoveEnum(i + 1).name
+def vec2action(vec: torch.Tensor, turn: Battle, opponent_pov: bool):
+    if opponent_pov:
+        pokemon = turn.opponent_active_pokemon
+        team = turn.opponent_team
+    else:
+        pokemon = turn.active_pokemon
+        team = turn.team
 
-
-# def move2ind(m):
-#     return MoveEnum[re.sub(r"\s|-|'", "", m.lower())].value - 1
-
-def vec2str(vec: torch.Tensor, pokemon: Pokemon):
     i = vec.argmax().item()
-    if i == MAX_MOVES:
-        return 'switch'
+    if i >= MAX_MOVES:
+        i -= MAX_MOVES
+        team = sorted([mon.species for mon in team.values()])
+        if i == len(team):
+            return ("switch", "unseen")
+        else:
+            return ("switch", team[i])
     else:
         moves = sorted(POKEDEX[pokemon.species]["moves"])
-        if i > len(moves):
-            print("whoops!")
-        print(i, vec, pokemon, moves)
-        return moves[i]
+        return ("move", moves[i])
 
 
 def process_line(line: str):
@@ -49,24 +43,29 @@ def process_line(line: str):
         pokemon_move = re.sub(r"\s|-|'", "", pokemon_move.lower())
         return ("move", pokemon_move)
 
-def get_actions(filepath: str):
-    actions1, actions2 = [], []
-    with open(filepath) as f:
-        data = json.load(f)
-    turn_texts = data['log'].split('|turn|')[1:]
-    for text in turn_texts:
-        matches = re.findall(r"(\|[ms].+\|)", text)
-        for m in matches:
-            if "|move|p1a:" in m or "|switch|p1a:" in m:
-                cooked = process_line(m)
-                actions1.append(cooked)
+
+def action2vec(action: tuple[str, str], team: dict[str: Pokemon], active: Pokemon):
+    vec = torch.zeros(MAX_MOVES + NUM_POKEMON_PER_TEAM)
+    if action[0] == 'move':
+        # TODO: handle dynamax and transform
+        # TODO: handle moves like u-turn
+        moves = sorted(POKEDEX[active.species]['moves'])
+        selected_move = action[1]
+        i = moves.index(selected_move)
+        vec[i] = 1
+    else:  # action[0] == 'switch':
+        team = sorted([mon.species for mon in team.values()])
+        switched_in = action[1]
+        for j, species in enumerate(team):
+            # handles problem where the log records pokemon like 'moltres-galar' as 'moltres'
+            if species.startswith(switched_in):
+                i = j
                 break
-        for m in matches:
-            if "|move|p2a:" in m or "|switch|p2a:" in m:
-                cooked = process_line(m)
-                actions2.append(cooked)
-                break
-    return actions1, actions2
+        else:
+            # unseen pokemon
+            i = MAX_MOVES + len(team)
+        vec[i] = 1
+    return vec
 
 def make_delphox_data(filepath):
     with open(filepath) as f:
@@ -99,39 +98,31 @@ def make_delphox_data(filepath):
                 break
 
     # TODO: change later maybe?
-    vectors1 = []
-    vectors2 = []
+    turns = []
+    clean_actions1 = []
+    clean_actions2 = []
     for turn, a1, a2 in zip(battles, actions1, actions2):
-        # TODO: handle ditto
         if turn.active_pokemon.species == 'ditto' or turn.opponent_active_pokemon.species == 'ditto':
             continue
 
-        v1 = torch.zeros(MAX_MOVES + 1)
-        if a1[0] == 'switch':
-            # TODO: add pokemon switches in
-            v1[-1] = 1
-            vectors1.append(v1)
-        else:
-            moves = sorted(POKEDEX[turn.active_pokemon.species]["moves"])
-            # TODO: handle dynamax moves and zoroark
-            if a1[1] not in moves:
-                continue
-            v1[moves.index(a1[1])] = 1
-            vectors1.append(v1)
+        # skip dynamx TODO: handle dynamax
+        if a1[0] == 'move' and a1[1] not in POKEDEX[turn.active_pokemon.species]["moves"]:
+            continue
+        if a2[0] == 'move' and a2[1] not in POKEDEX[turn.opponent_active_pokemon.species]["moves"]:
+            continue
 
-        v2 = torch.zeros(MAX_MOVES + 1)
-        if a2[0] == 'switch':
-            v2[-1] = 1
-            vectors2.append(v2)
-        else:
-            moves = sorted(POKEDEX[turn.opponent_active_pokemon.species]["moves"])
-            if a2[1] not in moves:
-                continue
-            v2[moves.index(a2[1])] = 1
-            _ = vec2str(v2, turn.opponent_active_pokemon)
-            vectors2.append(v2)
+        # if a1[0] == 'switch' or a2[0] == 'switch':
+        #     continue
 
-    return battles, vectors1, vectors2
+        turns.append(turn)
+        clean_actions1.append(a1)
+        clean_actions2.append(a2)
+
+
+
+    # return turns[-10:], clean_actions1[-10:], clean_actions2[-10:]
+    return turns, clean_actions1, clean_actions2
+
 
 
 def make_victini_data(filepath):
@@ -155,21 +146,4 @@ def make_victini_data(filepath):
                 battles.append(deepcopy(b))
         except:
             continue
-    return battles[-5:], won
-
-
-    actions1, actions2 = [], []
-    turn_texts = data['log'].split('|turn|')[1:]
-    for text in turn_texts:
-        matches = re.findall(r"(\|[ms].+\|)", text)
-        for m in matches:
-            if "|move|p1a:" in m or "|switch|p1a:" in m:
-                cooked = process_line(m)
-                actions1.append(cooked)
-                break
-        for m in matches:
-            if "|move|p2a:" in m or "|switch|p2a:" in m:
-                cooked = process_line(m)
-                actions2.append(cooked)
-                break
-    return battles, actions1, actions2
+    return battles[-10:], won

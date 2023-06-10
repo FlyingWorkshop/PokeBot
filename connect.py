@@ -22,8 +22,8 @@ class RLPlayer(Player):
             return self.create_order(best_move)
 
         # If no attack is available, a random switch will be made
-        # else:
-        #     return self.choose_random_move(battle)
+        else:
+            return self.choose_random_move(battle)
 
 
 

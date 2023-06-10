@@ -13,15 +13,15 @@ from alphagogoat.utils import make_victini_data
 
 
 def main():
-    victini_path = "victini.pth"
+    victini_path = "victini_gogoat.pth"
     json_files = [filepath for filepath in Path("cache/replays").iterdir() if filepath.name.endswith('.json')]
     train_files, test_files = json_files[:-100], json_files[-100:]
     reps = 100
-    victini = Victini(964)
+    victini = Victini(940)
     # random.shuffle(train_files)
     # train_data = Parallel(n_jobs=4)(delayed(make_victini_data)(filepath) for filepath in tqdm(train_files))
     # train_data = Parallel(n_jobs=4)(delayed(make_victini_data)(filepath) for filepath in tqdm(train_files[:100]))  # MEDIUM
-    # train_data = Parallel(n_jobs=4)(delayed(make_victini_data)(filepath) for filepath in tqdm(train_files[:30]))  # SMALL
+    train_data = Parallel(n_jobs=4)(delayed(make_victini_data)(filepath) for filepath in tqdm(train_files[:30]))  # SMALL
     # train_data = [make_victini_data(f) for f in tqdm(json_files[:1])]  # SINGLE-PROCESS DEBUGGING
     if Path(victini_path).exists():
         victini.load_state_dict(torch.load(victini_path))
